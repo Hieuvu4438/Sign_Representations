@@ -1,0 +1,408 @@
+{
+  "utc": "2026-10-02T16:37:06.403342+00:00",
+  "local_registered_assets_and_sources": "PASS",
+  "full_paper_reproduction_ready": false,
+  "scope": "Byte/source integrity only; no new benchmark, video extraction, training or inference.",
+  "weights_and_demo_sources": {
+    "W01": {
+      "path": "checkpoints/signrep/ckpt.pt",
+      "bytes": 222676746,
+      "sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+      "expected_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+      "status": "PASS"
+    },
+    "W02": {
+      "path": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+      "bytes": 1057496908,
+      "sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+      "expected_sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+      "status": "PASS"
+    },
+    "W03": {
+      "path": "checkpoints/shubert_author_hf/models/dinov2face.pth",
+      "bytes": 112850895,
+      "sha256": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+      "expected_sha256": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+      "status": "PASS"
+    },
+    "W04": {
+      "path": "checkpoints/shubert_author_hf/models/dinov2hand.pth",
+      "bytes": 112850895,
+      "sha256": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85",
+      "expected_sha256": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85",
+      "status": "PASS"
+    },
+    "W05": {
+      "path": "checkpoints/shubert_author_hf/models/face_landmarker_v2_with_blendshapes.task",
+      "bytes": 11577701,
+      "sha256": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+      "expected_sha256": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+      "status": "PASS"
+    },
+    "W06": {
+      "path": "checkpoints/shubert_author_hf/models/hand_landmarker.task",
+      "bytes": 7819105,
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "expected_sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "status": "PASS"
+    },
+    "W07": {
+      "path": "checkpoints/shubert_author_hf/models/yolov8n.pt",
+      "bytes": 6549796,
+      "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+      "expected_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+      "status": "PASS"
+    },
+    "W08": {
+      "path": "checkpoints/shubert_author_hf/models/checkpoint-11625/pytorch_model.bin",
+      "bytes": 2683976334,
+      "sha256": "cb605058abf7fd50b80f055fe8a6e271ed64f04ef7b1b450c7a364f88495526a",
+      "expected_sha256": "cb605058abf7fd50b80f055fe8a6e271ed64f04ef7b1b450c7a364f88495526a",
+      "status": "PASS"
+    },
+    "W08_CONFIG_0": {
+      "path": "checkpoints/shubert_author_hf/models/checkpoint-11625/config.json",
+      "bytes": 1190,
+      "sha256": "98d67ae8c9a85806a106308351a1c7a0520f79ff531b4fca742befc679dc280a",
+      "expected_sha256": "98d67ae8c9a85806a106308351a1c7a0520f79ff531b4fca742befc679dc280a",
+      "status": "PASS"
+    },
+    "W08_CONFIG_1": {
+      "path": "checkpoints/shubert_author_hf/models/checkpoint-11625/generation_config.json",
+      "bytes": 112,
+      "sha256": "342f3dc89dac10df208ad7f51d3494433925bee5babc19ffeb30ee95c86ee9a4",
+      "expected_sha256": "342f3dc89dac10df208ad7f51d3494433925bee5babc19ffeb30ee95c86ee9a4",
+      "status": "PASS"
+    },
+    "W08_CONFIG_2": {
+      "path": "checkpoints/shubert_author_hf/models/byt5_base/config.json",
+      "bytes": 831,
+      "sha256": "0e85e47202fdf043ce41af05f7393c4fac8a7426cf19ff826920c97368c1fdc7",
+      "expected_sha256": "0e85e47202fdf043ce41af05f7393c4fac8a7426cf19ff826920c97368c1fdc7",
+      "status": "PASS"
+    },
+    "W08_CONFIG_3": {
+      "path": "checkpoints/shubert_author_hf/models/byt5_base/generation_config.json",
+      "bytes": 142,
+      "sha256": "a2f8ef5169aeb09a3a62ddaf46d1e0a682281ece7792d3f8519b22fdd771c658",
+      "expected_sha256": "a2f8ef5169aeb09a3a62ddaf46d1e0a682281ece7792d3f8519b22fdd771c658",
+      "status": "PASS"
+    },
+    "W08_CONFIG_4": {
+      "path": "checkpoints/shubert_author_hf/models/byt5_base/special_tokens_map.json",
+      "bytes": 3090,
+      "sha256": "3c2572df5f4ec60a476e5d90a1f52a989f9eefbbf381d358924a44a648bf0edb",
+      "expected_sha256": "3c2572df5f4ec60a476e5d90a1f52a989f9eefbbf381d358924a44a648bf0edb",
+      "status": "PASS"
+    },
+    "W08_CONFIG_5": {
+      "path": "checkpoints/shubert_author_hf/models/byt5_base/tokenizer_config.json",
+      "bytes": 3327,
+      "sha256": "6a09add0f72f24764a4f918e6cd235ef3db1be1a9b394b4286051e43dc231521",
+      "expected_sha256": "6a09add0f72f24764a4f918e6cd235ef3db1be1a9b394b4286051e43dc231521",
+      "status": "PASS"
+    },
+    "C04_README": {
+      "path": "third_party/shubert-author-demo/README.md",
+      "bytes": 315,
+      "sha256": "9b4b48251253ff3057cab14e3802fb3cc9b024ac29f10f80d0155c6cce5ac912",
+      "expected_sha256": "9b4b48251253ff3057cab14e3802fb3cc9b024ac29f10f80d0155c6cce5ac912",
+      "status": "PASS"
+    },
+    "C04_APP": {
+      "path": "third_party/shubert-author-demo/app.py",
+      "bytes": 35106,
+      "sha256": "bae4fc005cce5c808bef9e55c98d6975cd07aef1af5368798cbb24a365dcba5b",
+      "expected_sha256": "bae4fc005cce5c808bef9e55c98d6975cd07aef1af5368798cbb24a365dcba5b",
+      "status": "PASS"
+    },
+    "C04_ATTENTION": {
+      "path": "third_party/shubert-author-demo/attention.py",
+      "bytes": 3452,
+      "sha256": "2e99cf33019f087d87e3d62572fa7c747f38539a1f6618fba21b88d43e68589d",
+      "expected_sha256": "2e99cf33019f087d87e3d62572fa7c747f38539a1f6618fba21b88d43e68589d",
+      "status": "PASS"
+    },
+    "C04_BLOCK": {
+      "path": "third_party/shubert-author-demo/block.py",
+      "bytes": 11760,
+      "sha256": "5e003564d03eb157bb2f7379e248766a0cafbfa02a3399234af9e596f7666faf",
+      "expected_sha256": "5e003564d03eb157bb2f7379e248766a0cafbfa02a3399234af9e596f7666faf",
+      "status": "PASS"
+    },
+    "C04_BODY_FEATURES": {
+      "path": "third_party/shubert-author-demo/body_features.py",
+      "bytes": 13628,
+      "sha256": "9a02a33d11e49c10f814a6b8807dd2a0a892b54c6143c49387ba5def6f6f1449",
+      "expected_sha256": "9a02a33d11e49c10f814a6b8807dd2a0a892b54c6143c49387ba5def6f6f1449",
+      "status": "PASS"
+    },
+    "C04_CROP_FACE": {
+      "path": "third_party/shubert-author-demo/crop_face.py",
+      "bytes": 16564,
+      "sha256": "d0aef45ddc03277190b5139ade787bdf189d9581a77f9fd7281382440b0754ae",
+      "expected_sha256": "d0aef45ddc03277190b5139ade787bdf189d9581a77f9fd7281382440b0754ae",
+      "status": "PASS"
+    },
+    "C04_CROP_HANDS": {
+      "path": "third_party/shubert-author-demo/crop_hands.py",
+      "bytes": 18126,
+      "sha256": "e79b2ba2f3c6cdb7031212d90d2f728a4c8f36dc216379bf23321f40e558bdf8",
+      "expected_sha256": "e79b2ba2f3c6cdb7031212d90d2f728a4c8f36dc216379bf23321f40e558bdf8",
+      "status": "PASS"
+    },
+    "C04_DINOV2_FEATURES": {
+      "path": "third_party/shubert-author-demo/dinov2_features.py",
+      "bytes": 12529,
+      "sha256": "b077c1295f9a92ba33d8fb52a3a125934a207b60fb0b1e37b4e9493355a9acac",
+      "expected_sha256": "b077c1295f9a92ba33d8fb52a3a125934a207b60fb0b1e37b4e9493355a9acac",
+      "status": "PASS"
+    },
+    "C04_FEATURES": {
+      "path": "third_party/shubert-author-demo/features.py",
+      "bytes": 4937,
+      "sha256": "84b2458212aba347f256c1c1434d50b28c419a784663161ab442bedffe468c55",
+      "expected_sha256": "84b2458212aba347f256c1c1434d50b28c419a784663161ab442bedffe468c55",
+      "status": "PASS"
+    },
+    "C04_INFERENCE": {
+      "path": "third_party/shubert-author-demo/inference.py",
+      "bytes": 29302,
+      "sha256": "be77ec1b73caab5f03087132a1faa0fc521ecceb94812426276fded57d1aef65",
+      "expected_sha256": "be77ec1b73caab5f03087132a1faa0fc521ecceb94812426276fded57d1aef65",
+      "status": "PASS"
+    },
+    "C04_KPE_MEDIAPIPE": {
+      "path": "third_party/shubert-author-demo/kpe_mediapipe.py",
+      "bytes": 16462,
+      "sha256": "c27155744ad21727b15371862a20193129fcad88a1973d291120cbea7d63c807",
+      "expected_sha256": "c27155744ad21727b15371862a20193129fcad88a1973d291120cbea7d63c807",
+      "status": "PASS"
+    },
+    "C04_PRE_REQUIREMENTS": {
+      "path": "third_party/shubert-author-demo/pre-requirements.txt",
+      "bytes": 12,
+      "sha256": "77c401c5f04ac2426052f96775f4556dfbd90800343ddab2f1ed80dee3526dd5",
+      "expected_sha256": "77c401c5f04ac2426052f96775f4556dfbd90800343ddab2f1ed80dee3526dd5",
+      "status": "PASS"
+    },
+    "C04_REQUIREMENTS": {
+      "path": "third_party/shubert-author-demo/requirements.txt",
+      "bytes": 363,
+      "sha256": "1cec1a31e116fb373fa72085b54edfbd5b2f9de0eb8a6faf3af6318a8959889b",
+      "expected_sha256": "1cec1a31e116fb373fa72085b54edfbd5b2f9de0eb8a6faf3af6318a8959889b",
+      "status": "PASS"
+    },
+    "C04_SHUBERT": {
+      "path": "third_party/shubert-author-demo/shubert.py",
+      "bytes": 19934,
+      "sha256": "a6445b01cebe2cf66942f87d7ead273226155f015dc73c0554a9c685222c32c3",
+      "expected_sha256": "a6445b01cebe2cf66942f87d7ead273226155f015dc73c0554a9c685222c32c3",
+      "status": "PASS"
+    },
+    "C04_SHUBERT_INFERENCE": {
+      "path": "third_party/shubert-author-demo/shubert_inference.py",
+      "bytes": 17269,
+      "sha256": "7233860803863443184dd171ce0fa56ab7181439cbf1354578befa18fe1a7ea8",
+      "expected_sha256": "7233860803863443184dd171ce0fa56ab7181439cbf1354578befa18fe1a7ea8",
+      "status": "PASS"
+    }
+  },
+  "upstream_sources": {
+    "SignRep": {
+      "expected_commit": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+      "observed_commit": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+      "tracked_changes": "",
+      "status": "PASS"
+    },
+    "SHuBERT": {
+      "expected_commit": "cc1929326075bfbad7ad73159b2acf84356059bb",
+      "observed_commit": "cc1929326075bfbad7ad73159b2acf84356059bb",
+      "tracked_changes": "",
+      "status": "PASS"
+    },
+    "dinov2": {
+      "expected_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "observed_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "tracked_changes": "",
+      "status": "PASS"
+    }
+  },
+  "full_reproduction_blockers": [
+    "SignRep public checkout supplies feature inference, not a complete pretraining/downstream benchmark runner and protocol bundle.",
+    "SHuBERT upstream downstream task preparation and fine-tuning remain TODO; task-specific paper checkpoints are not mapped to the local weights.",
+    "SHuBERT pretraining config requires four external k-means files and the original training manifest/features; these are not registered here.",
+    "W08 is an author-demo translator; equivalence to paper benchmark models is unverified.",
+    "Training resume files for demo checkpoint-11625 and standalone initial ByT5 weights are not in the local inventory; they are not needed for strict-loaded W08 inference.",
+    "Existing lexical common cohort is a subset; it is not the full original dataset benchmark.",
+    "Project dependencies and dataset paths are machine-specific; native SHuBERT common extraction has no terminal full PASS."
+  ],
+  "remote_metadata": {
+    "signrep_releases": {
+      "url": "https://api.github.com/repos/ryanwongsa/SignRep/releases",
+      "status": "PASS_METADATA_RETRIEVAL",
+      "data": [
+        {
+          "tag": "v0.0.1",
+          "assets": [
+            {
+              "name": "ckpt.pt",
+              "size": 222676746,
+              "url": "https://github.com/ryanwongsa/SignRep/releases/download/v0.0.1/ckpt.pt"
+            }
+          ]
+        }
+      ]
+    },
+    "signrep_head": {
+      "url": "https://api.github.com/repos/ryanwongsa/SignRep/commits/main",
+      "status": "PASS_METADATA_RETRIEVAL",
+      "data": {
+        "sha": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2"
+      }
+    },
+    "shubert_head": {
+      "url": "https://api.github.com/repos/ShesterG/SHuBERT/commits/main",
+      "status": "PASS_METADATA_RETRIEVAL",
+      "data": {
+        "sha": "cc1929326075bfbad7ad73159b2acf84356059bb"
+      }
+    },
+    "shubert_models": {
+      "url": "https://huggingface.co/api/models/ShesterG/SHuBERT/tree/main/models?recursive=true&limit=1000",
+      "status": "PASS_METADATA_RETRIEVAL",
+      "data": [
+        {
+          "path": "models/byt5_base/config.json",
+          "bytes": 831,
+          "local_exists": true
+        },
+        {
+          "path": "models/byt5_base/generation_config.json",
+          "bytes": 142,
+          "local_exists": true
+        },
+        {
+          "path": "models/byt5_base/pytorch_model.bin",
+          "bytes": 2326696954,
+          "local_exists": false
+        },
+        {
+          "path": "models/byt5_base/special_tokens_map.json",
+          "bytes": 3090,
+          "local_exists": true
+        },
+        {
+          "path": "models/byt5_base/tokenizer_config.json",
+          "bytes": 3327,
+          "local_exists": true
+        },
+        {
+          "path": "models/checkpoint-11625/config.json",
+          "bytes": 1190,
+          "local_exists": true
+        },
+        {
+          "path": "models/checkpoint-11625/generation_config.json",
+          "bytes": 112,
+          "local_exists": true
+        },
+        {
+          "path": "models/checkpoint-11625/optimizer.pt",
+          "bytes": 5361549242,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/pytorch_model.bin",
+          "bytes": 2683976334,
+          "local_exists": true
+        },
+        {
+          "path": "models/checkpoint-11625/rng_state_0.pth",
+          "bytes": 15984,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/rng_state_1.pth",
+          "bytes": 15984,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/rng_state_2.pth",
+          "bytes": 15984,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/rng_state_3.pth",
+          "bytes": 15984,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/rng_state_4.pth",
+          "bytes": 15984,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/rng_state_5.pth",
+          "bytes": 15984,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/rng_state_6.pth",
+          "bytes": 15984,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/rng_state_7.pth",
+          "bytes": 15984,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/scheduler.pt",
+          "bytes": 1064,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/trainer_state.json",
+          "bytes": 8742,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint-11625/training_args.bin",
+          "bytes": 4728,
+          "local_exists": false
+        },
+        {
+          "path": "models/checkpoint_836_400000.pt",
+          "bytes": 1057496908,
+          "local_exists": true
+        },
+        {
+          "path": "models/dinov2face.pth",
+          "bytes": 112850895,
+          "local_exists": true
+        },
+        {
+          "path": "models/dinov2hand.pth",
+          "bytes": 112850895,
+          "local_exists": true
+        },
+        {
+          "path": "models/face_landmarker_v2_with_blendshapes.task",
+          "bytes": 11577701,
+          "local_exists": true
+        },
+        {
+          "path": "models/hand_landmarker.task",
+          "bytes": 7819105,
+          "local_exists": true
+        },
+        {
+          "path": "models/yolov8n.pt",
+          "bytes": 6549796,
+          "local_exists": true
+        }
+      ]
+    }
+  }
+}

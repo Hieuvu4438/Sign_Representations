@@ -1,0 +1,59 @@
+{
+  "status": "PASS_ENCODER_INTERFACE_ONLY",
+  "device": "cpu",
+  "shapes": {
+    "15": [
+      15,
+      768
+    ],
+    "16": [
+      16,
+      768
+    ]
+  },
+  "determinism_max_abs_difference": 0.0,
+  "misaligned_streams_rejected": true,
+  "raw_video_preprocessing_smoke": "PENDING",
+  "dino_audits": [
+    {
+      "asset_id": "W03",
+      "checkpoint_sha256": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+      "architecture_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "strict": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "generic_pretrained_weights_downloaded": false,
+      "pos_embed_shape": [
+        1,
+        257,
+        384
+      ],
+      "fixture_output_shape": [
+        1,
+        384
+      ]
+    },
+    {
+      "asset_id": "W04",
+      "checkpoint_sha256": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85",
+      "architecture_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "strict": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "generic_pretrained_weights_downloaded": false,
+      "pos_embed_shape": [
+        1,
+        257,
+        384
+      ],
+      "fixture_output_shape": [
+        1,
+        384
+      ]
+    }
+  ],
+  "fixture_note": "Deterministic synthetic stream inputs test the real pretrained checkpoint interface; these are not dataset features or performance measurements.",
+  "elapsed_seconds": 2.888070876011625,
+  "config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+  "implementation_sha256": "54d3cbb114a6a0adc45cfe324b467bc84445cff40f165ef825e7c61d097b17ad"
+}
