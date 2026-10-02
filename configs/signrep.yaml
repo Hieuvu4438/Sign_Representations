@@ -1,0 +1,17 @@
+backbone: signrep
+upstream_path: third_party/SignRep
+upstream_commit: 06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2
+checkpoint_path: checkpoints/signrep/ckpt.pt
+checkpoint_sha256: f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b
+device: cuda:0
+batch_size: 4
+segment_length: 16
+stride_frames: 2
+output_layer: features
+expected_dimension: 768
+preprocessing_version: upstream_resize224_imagenet_rgb_v1
+short_clip_policy: repeat_last_frame_with_mask
+tail_policy: drop_incomplete_windows_except_short_clip
+disk_free_min_gib: 20
+feature_cache_cap_gib: 100
+deterministic_tolerance: 0.00001

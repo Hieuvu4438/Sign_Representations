@@ -1,0 +1,12 @@
+{
+  "asset_id": "W08_CONFIG_4",
+  "url": "https://huggingface.co/ShesterG/SHuBERT/resolve/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/models/byt5_base/special_tokens_map.json",
+  "revision": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "sha256": "3c2572df5f4ec60a476e5d90a1f52a989f9eefbbf381d358924a44a648bf0edb",
+  "bytes": 3090,
+  "local_path": "checkpoints/shubert_author_hf/models/byt5_base/special_tokens_map.json",
+  "utc_time": "2026-09-30T23:16:09.076388+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "text/plain; charset=utf-8"
+}

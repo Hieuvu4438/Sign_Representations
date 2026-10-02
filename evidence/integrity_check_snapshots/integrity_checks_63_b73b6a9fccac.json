@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "test_count": 63,
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "python_executable": "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+  "test_source_sha256": {
+    "tests/test_probes.py": "45b099a9d061e428f3c097c0d651a7b1a05162cbe165eaf9e03c35026b234c84",
+    "tests/test_ncslgr_author_pool.py": "fa15a2b8e88fef6ef4d52269dad3f4765eb62dc0095b9c07d528f4e2f78e91f7",
+    "tests/test_disk_recovery.py": "ebd2fa39b81a8fb40a5bca40056227269653444d36d365d3e97ee12bf179c02c",
+    "tests/test_scoring.py": "cf9edd98ebe88ad16ac0671b56e21ade8270c0c3a552ea9263bd1a580deddfb1",
+    "tests/test_fair_common.py": "a6750b4e019662350028fd336560992e8ce7734ccf8d6dcf4e35a3e732897ffb",
+    "tests/test_interval_readouts.py": "c2b947f149462444d2425f50306cb229e754f3ae8419c0340db06ba12ea03e41",
+    "tests/test_grounding.py": "c74d201d79316855e7aef2652a26cfe6b9718b9468c46003c81dedf3d94c58e3",
+    "tests/test_statistics.py": "697f43d9cbdd9ce30eacb79f9648937da2125a37517d3b3a79e469ea122584e2",
+    "tests/test_fair_ncslgr.py": "6bf4896b9d1205b743ce20fa5ae6cd3ef2d5baf6a1715e99580600f86853e466",
+    "tests/test_cue_ablation.py": "cb008bd25760ce01a2c314651f0d95d98a490d4ac3d7fda30d66ad6f13c82d4a",
+    "tests/test_calibration.py": "d854aa91d67c8689c643cac4c69938f6aa2e243eb0770da273542bb500a55e06",
+    "tests/test_semantic_pairs.py": "12317ab0fc043b3b47e7a6493bb8672ab553b418e4591451cf93c49284c81b9c",
+    "tests/test_ncslgr.py": "fdfe2c0021d2bc21c4729b83cc89a2cd2f64a55f878dcb33b2054144ea4b7260",
+    "tests/test_timestamps.py": "52ead8f5b0f68212f7be1d2a7de866e362c7b27881cca14771fe7bf8e3656f95",
+    "tests/test_integrity.py": "8d7badcb0e83f2cf5cfe13bd850f447022fce9bb769d2568209540e65e25cf0b",
+    "tests/test_native_cache.py": "2e2d70c4ff367f324dfc659d532f4e9646560e65ca0c185ddc7c4967d1a5769f",
+    "tests/test_dai.py": "4133a1adbdc85ddc3a94a0f975dad87f933c06faf724bbf20ec276bedc51209c"
+  },
+  "log": "logs/integrity_checks.log"
+}

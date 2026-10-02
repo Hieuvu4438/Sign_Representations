@@ -1,0 +1,12 @@
+{
+  "asset_id": "C04_README",
+  "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/README.md",
+  "revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "sha256": "9b4b48251253ff3057cab14e3802fb3cc9b024ac29f10f80d0155c6cce5ac912",
+  "bytes": 315,
+  "local_path": "third_party/shubert-author-demo/README.md",
+  "utc_time": "2026-09-30T23:16:09.128731+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Pinned public author demo source; app.py static inspection only; never import UI app or send videos externally.",
+  "content_type": "text/plain; charset=utf-8"
+}

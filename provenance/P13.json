@@ -1,0 +1,12 @@
+{
+  "asset_id": "P13",
+  "url": "https://aclanthology.org/2024.emnlp-main.619.pdf",
+  "revision": "proceedings_or_explicit_v1",
+  "sha256": "a149c0d82ec4297994cfbffa535177ef6b97271deeb0e08bdd2f385cab6027df",
+  "bytes": 1478318,
+  "local_path": "evidence/papers/P13.pdf",
+  "utc_time": "2026-09-30T17:41:36.776490+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

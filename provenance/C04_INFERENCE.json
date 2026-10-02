@@ -1,0 +1,12 @@
+{
+  "asset_id": "C04_INFERENCE",
+  "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/inference.py",
+  "revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "sha256": "be77ec1b73caab5f03087132a1faa0fc521ecceb94812426276fded57d1aef65",
+  "bytes": 29302,
+  "local_path": "third_party/shubert-author-demo/inference.py",
+  "utc_time": "2026-09-30T23:16:10.558216+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Pinned public author demo source; app.py static inspection only; never import UI app or send videos externally.",
+  "content_type": "text/plain; charset=utf-8"
+}

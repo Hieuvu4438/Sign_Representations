@@ -1,0 +1,103 @@
+{
+  "status": "IN_PROGRESS",
+  "goal_achieved": false,
+  "requirements": [
+    {
+      "requirement": "inventory/source_readonly",
+      "status": "PASS",
+      "evidence": "evidence/bootstrap_inventory.json",
+      "remaining": "Bounded scans; no writes to dataset roots."
+    },
+    {
+      "requirement": "manifests/coverage/split_audit",
+      "status": "PASS_WITH_LIMITS",
+      "evidence": "reports/manifest_validation.json; reports/split_audit.json",
+      "remaining": "Unknown source IDs and overlap candidates remain explicit."
+    },
+    {
+      "requirement": "core_and_expansion_literature",
+      "status": "PARTIAL_REQUIRED_SOURCE_SCOPING_COMPLETE",
+      "evidence": "evidence/literature_matrix.csv",
+      "remaining": "37entries cover17core,17listed expansion and3older functional priors at declared scopes. P31 now includes arXivv2dataset methods/grouping/supplement instead of resource page only. P35full-author-PDF fetch failed; limited primary excerpts retained. Local PDF/version/venue integrity gaps remain; no exhaustive/full-read claim."
+    },
+    {
+      "requirement": "source_and_checkpoint_integrity",
+      "status": "PARTIAL",
+      "evidence": "provenance/source_commits.json; provenance/assets.json",
+      "remaining": "C01/C02/C03/C04/C08 pinned; W01-W08 verified. Other invoked reference code/expansion sources still pending; P04PDFchecksum conflict remains preserved."
+    },
+    {
+      "requirement": "signrep_video_adapter",
+      "status": "PASS",
+      "evidence": "features/signrep_common_v1/extraction_report.json",
+      "remaining": "768D windows; 4726 successful clips."
+    },
+    {
+      "requirement": "native_shubert_video_smoke",
+      "status": "PARTIAL_NATIVE_FUNCTION_COMPLETE_LEXICAL_RECOVERY_ACTIVE",
+      "evidence": "reports/native_ncslgr_controls_audit.json; evidence/native_common_disk_stop_v1/manifest.json",
+      "remaining": "Capacityfreed and CPUprep recovery active afterfullcachehashaudit. Full4726nativelexicalfeatures/equalgridcontrols stillunfinished."
+    },
+    {
+      "requirement": "translator_environment_and_scoring",
+      "status": "PASS_LOCAL_NUMERICAL_SMOKE",
+      "evidence": "features/shubert_translation_smoke_attempt1/report.json; provenance/env_shubert_translation.pip-freeze.txt; features/semantic_pair_backend_smoke_attempt1/report.json",
+      "remaining": "Semantic CLI numerical integration on one training-signer source caption, identical-text ties and blank streams verified. Actual external distinct semantic pairs/media/gold remain blocked; no semantic accuracy."
+    },
+    {
+      "requirement": "common_B00_B03",
+      "status": "PARTIAL_SIGNREP_COMPLETE",
+      "evidence": "runs/experiment_registry.csv",
+      "remaining": "SignRep eight runs complete. Original equal-grid waiter prefitting FAIL retained; reviewed native lexical recovery running CPU preprocessing before sole GPU0 extraction and same locked fair suite."
+    },
+    {
+      "requirement": "paired_statistics",
+      "status": "PASS_FOR_COMMON_SIGNREP",
+      "evidence": "reports/common_v1_primary_bootstrap.json",
+      "remaining": "2000 recording bootstrap draws; conditional fixed-head cohort inference."
+    },
+    {
+      "requirement": "error_review_30",
+      "status": "PARTIAL_EXPERT_PENDING",
+      "evidence": "reports/common_v1_error_audit/report.json",
+      "remaining": "30 machine technical reviews; zero expert linguistic reviews."
+    },
+    {
+      "requirement": "track_A_gold_and_access",
+      "status": "PARTIAL_INTERNAL_CLASS_AND_INTERVAL_DIAGNOSTICS_COMPLETE",
+      "evidence": "reports/gate_decisions.json; runs/ncslgr_diagnostic_v1/summary.json; reports/ncslgr_diagnostic_audit.json; runs/ncslgr_intervals_v1/summary.json; reports/ncslgr_interval_audit.json",
+      "remaining": "Historical positive recorded-function class and single-core endpoints evaluated with fair readouts. Broader adjudicated grammatical scope/absence and independent external semantic confirmation remain."
+    },
+    {
+      "requirement": "track_B_mapping_occurrences_negatives",
+      "status": "BLOCKED_DATA",
+      "evidence": "reports/gate_decisions.json; reports/grounding_readiness_v1/status.json; reports/grounding_implementation_audit_v1.json",
+      "remaining": "Q02 implementation and synthetic CLI tests verified; real mapping/exhaustive occurrence/absence/grouping missing. Other grounding baselines and required controls remain unevaluated."
+    },
+    {
+      "requirement": "method_adaptation_and_ablations",
+      "status": "PENDING_MECHANISM_AND_INDEPENDENT_CONFIRMATION",
+      "evidence": "reports/novelty_matrix.csv",
+      "remaining": "Nativefunctioncontrols nowcompleted: primarytemporal-globalnegative, everyendpointreadoutbelowtrainprior. No supported adaptation mechanism or verified novelty; independentgold/mechanismevidence and lexicalretention remain."
+    },
+    {
+      "requirement": "external_confirmation",
+      "status": "BLOCKED_DATA",
+      "evidence": "reports/gate_decisions.json",
+      "remaining": "External inputs/gold not ready; source grouping/pretraining limitations remain."
+    },
+    {
+      "requirement": "final_synthesis_and_goal_completion",
+      "status": "PENDING",
+      "evidence": "reports/claim_ledger.csv; reports/research_status.md",
+      "remaining": "Interim evidence only; objective remains active and not achieved."
+    },
+    {
+      "requirement": "A03_same_source_branch_controls",
+      "status": "IN_PROGRESS",
+      "evidence": "configs/protocol_ncslgr_branch_ablation_v3.json; reports/ncslgr_branch_ablation_smoke_v3_audit.json; state/ncslgr_branch_ablation_v3/status.json",
+      "remaining": "Full175interventioncache and24matchedheads pending. Zeroing distribution shift, old-cache equivalence and single-signer generalization limitations preserved. This is a frozen diagnostic, not method novelty."
+    }
+  ],
+  "updated_utc": "2026-10-01T07:52:16.837399+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "observed_utc": "2026-10-01T06:48:24.533824+00:00",
+  "paper_id": "P35",
+  "metadata_primary_source": "https://www.researchwithrutgers.org/en/publications/non-manual-grammatical-marker-recognition-based-on-multi-scale-sp/",
+  "verified_metadata": {
+    "doi": "10.1016/j.imavis.2014.02.009",
+    "venue": "Image and Vision Computing32(10)",
+    "pages": "671-681",
+    "institution_reported_state": "PublishedOct2014; peer-reviewedjournalarticle"
+  },
+  "scope": "Institutionalbibliographicmetadata/abstract only. No new full-method/split/metric reading. P35existingpublisherexcerptscope retained.",
+  "related_lrec_source": "https://aclanthology.org/L14-1318/",
+  "distinction": "Separate LREC2014paper byoverlappingauthors; not substitute for P35journalfulltext. Abstract describes multiscale/twolevel tracking and event phases; fullPDF unavailable.",
+  "fulltext_failures": [
+    {
+      "url": "https://www.lrec-conf.org/proceedings/lrec2014/pdf/370_Paper.pdf",
+      "status": "BROWSER_FETCH_TIMEOUT"
+    },
+    {
+      "url": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/370_Paper.pdf",
+      "status": "BROWSER_FETCH_ERROR"
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/document?doi=b92736ae20514a2270c08a2f887d2e3e7750b3b5&repid=rep1&type=pdf",
+      "status": "ARCHIVE_REDIRECT_UNAVAILABLE"
+    }
+  ],
+  "local_pdf_sha256": null,
+  "read_level_change": "NONE",
+  "novelty_status": "UNESTABLISHED"
+}

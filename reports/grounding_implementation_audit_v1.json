@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SYNTHETIC_IMPLEMENTATION_REAL_GOLD_BLOCKED",
+  "updated_utc": "2026-10-01T07:19:18.030604+00:00",
+  "source_sha256": {
+    "src/signrepr/grounding.py": "1bfb367fb89222f91ebebce55ccf4bf36bb8a8d7bd504e7f5f09f078c626c2b0",
+    "scripts/run_grounding.py": "8b9625afa68678a342211bdba81f7f932a235d38a0a7b958810138b55ce619f8",
+    "tests/test_grounding.py": "c74d201d79316855e7aef2652a26cfe6b9718b9468c46003c81dedf3d94c58e3",
+    "configs/experiments/Q02.yaml": "1f3d34cc4a0413f887f756cc326bd4622f08c22f05b9346f760f51b3246a526a"
+  },
+  "test_count": 8,
+  "integrity_suite_test_count": 59,
+  "integrity_report_sha256": "eb9de84b7b371b5105c3885e5bb5f50748af0191dd3c24db307ab644d70cfa27",
+  "actual_readiness_status": "BLOCKED_GOLD_OR_MAPPING",
+  "actual_readiness_sha256": "da4798dadd5ab5bc19f61d6884d71bd2c4651d30d247a78e8f72a9c62e2b3578",
+  "real_grounding_accuracy_measured": false,
+  "scope": "Synthetic numerical, provenance-guard and CLI integration tests only. No linguistic gold or method novelty.",
+  "requirements_audit": "reports/track_requirements_audit_v1.md"
+}

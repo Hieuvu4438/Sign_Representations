@@ -1,0 +1,12 @@
+{
+  "asset_id": "P08",
+  "url": "https://www.sign-lang.uni-hamburg.de/lrec/pub/26012.pdf",
+  "revision": "proceedings_or_explicit_v1",
+  "sha256": "54073ed6bc47114deeb3d9311769cffde48d49d1ff144f24a5ea6fc5dc18fe13",
+  "bytes": 786084,
+  "local_path": "evidence/papers/P08.pdf",
+  "utc_time": "2026-09-30T17:40:26.196606+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

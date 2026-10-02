@@ -1,0 +1,7 @@
+{
+  "status": "PASS_EXPLORATORY_VALIDATION_TEMPERATURE_SENSITIVITY",
+  "pid": 3,
+  "config_sha256": "c79a9af5abe5f8e2beb0428c3bdb542d946714ab0bab7e75d8b636873c8e718d",
+  "device": "cpu",
+  "elapsed_seconds": 0.9161420969758183
+}

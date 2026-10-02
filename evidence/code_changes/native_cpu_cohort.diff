@@ -1,0 +1,87 @@
+--- scripts/extract_shubert_cohort.py
++++ scripts/extract_shubert_cpu_cohort.py
+@@ -1,4 +1,4 @@
+-"""Single GPU native feature worker, per-clip verified cache, optionally waiting on CPU preparation."""
++"""CPU-only native feature worker; independent lock and namespace-safe producer observation."""
+ import argparse
+ import fcntl
+ import hashlib
+@@ -10,6 +10,7 @@
+ from pathlib import Path
+ 
+ sys.dont_write_bytecode = True
++os.environ['CUDA_VISIBLE_DEVICES'] = ''
+ # Reuse the verified CUDA-first import workaround and native DINO transform.
+ # Its early parser recognizes --device and does not run the pilot main routine.
+ from extract_shubert_pilot import torch, np, dino_features, NativeSHuBERT, load_native_dino
+@@ -22,7 +23,7 @@
+ def main():
+     parser = argparse.ArgumentParser(description=__doc__)
+     parser.add_argument('--protocol', type=Path, default=ROOT / 'configs/protocol_native_common_v1.json')
+-    parser.add_argument('--device', default='cuda:0', choices=['cpu', 'cuda:0'])
++    parser.add_argument('--device', default='cpu', choices=['cpu'])
+     parser.add_argument('--resume', action='store_true')
+     parser.add_argument('--wait-for-preprocessing', action='store_true')
+     parser.add_argument('--limit-new-clips', type=int)
+@@ -39,6 +40,7 @@
+         raise ValueError('Native encoder config changed')
+     import yaml
+     config = yaml.safe_load(config_path.read_text())
++    torch.set_num_threads(1)
+     preparation = ROOT / protocol['preprocessing_directory']
+     identity = protocol['preprocessing_identity']
+     if json.loads((preparation / 'cohort.lock.json').read_text()) != identity:
+@@ -56,19 +58,8 @@
+                       'adapter_sha256': sha256(ROOT / 'src/signrepr/shubert.py'),
+                       'resume_validator_sha256': sha256(ROOT / 'src/signrepr/native_cache.py'),
+                       'timestamp_adapter_sha256': sha256(ROOT / 'src/signrepr/timestamps.py'), 'device': args.device}
+-    with (ROOT / 'features/.native_feature_worker.lock').open('a') as lock:
++    with (ROOT / 'features/.native_cpu_feature_worker.lock').open('a') as lock:
+         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+-        for folder in Path('/proc').iterdir():
+-            if not folder.name.isdigit() or int(folder.name) == os.getpid():
+-                continue
+-            try:
+-                command = (folder / 'cmdline').read_bytes()
+-            except OSError:
+-                continue
+-            if b'python' in command and b'/bin/bash' not in command and any(
+-                name in command for name in [b'scripts/run_probe.py', b'scripts/extract_features.py',
+-                                             b'scripts/extract_shubert_pilot.py', b'scripts/extract_shubert_cohort.py']):
+-                raise ValueError('Another project GPU worker is live')
+         cache_lock = output / 'cohort.lock.json'
+         if cache_lock.exists():
+             if json.loads(cache_lock.read_text()) != cache_identity:
+@@ -98,13 +89,16 @@
+                     prep_state = json.loads((preparation / 'status.json').read_text())
+                     if not args.wait_for_preprocessing or prep_state['status'] != 'RUNNING':
+                         raise ValueError('Native input not ready and preprocessing is not running')
+-                    pid = prep_state['pid']
+-                    try:
+-                        command = (Path('/proc') / str(pid) / 'cmdline').read_bytes()
+-                    except OSError as error:
+-                        raise ValueError('Native preprocessing process vanished without terminal state') from error
+-                    if b'scripts/prepare_shubert_cohort.py' not in command:
+-                        raise ValueError('Preprocessing PID identity no longer matches')
++                    # Tool namespaces hide host PIDs. An exclusive producer lock
++                    # is observable across namespaces and avoids a false death report.
++                    with (preparation / '.worker.lock').open('r+') as producer_lock:
++                        try:
++                            fcntl.flock(producer_lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
++                        except BlockingIOError:
++                            pass
++                        else:
++                            fcntl.flock(producer_lock, fcntl.LOCK_UN)
++                            raise ValueError('Producer reports RUNNING without a held worker lock; inspect before recovery')
+                     state.update(waiting_for_sample_id=row['sample_id'], elapsed_seconds=time.perf_counter()-begun)
+                     write_json(output / 'status.json', state)
+                     time.sleep(10)
+@@ -190,7 +184,7 @@
+                       'zero_valid_clips': sum(entry['fully_observed_frames'] == 0 for entry in entries),
+                       'pool_validity_policy': protocol['pool_validity_policy'],
+                       'limits': ['Public native raw-video pipeline, not exact downstream paper recipe.',
+-                                 'One GPU allocation wall time includes waiting for CPU; active_feature_wall_seconds includes decode/I/O, not CUDA compute time.',
++                                 'CPU-only worker; active_feature_wall_seconds includes decode/I/O and CPU inference, not GPU compute time.',
+                                  'Complete extraction does not imply complete usable readout coverage.']}
+             write_json(output / 'extraction_report.json', report)
+             write_json(attempt, state)

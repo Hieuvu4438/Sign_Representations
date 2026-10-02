@@ -1,0 +1,15 @@
+/home/haipd/miniconda3/envs/h4wpp/lib/python3.10/site-packages/torch/nn/utils/weight_norm.py:30: UserWarning: torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.
+  warnings.warn("torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.")
+/home/haipd/Sign_Representations/third_party/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/haipd/Sign_Representations/third_party/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/haipd/Sign_Representations/third_party/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"success": 1, "samples": 175, "sample_id": "ncslgr:ncslgr10b:34:body", "all_reproduction_max_abs_difference": 0.0}
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/scripts/extract_ncslgr_branch_ablation.py", line 114, in <module>
+    if __name__=='__main__':main()
+  File "/home/haipd/Sign_Representations/scripts/extract_ncslgr_branch_ablation.py", line 85, in main
+    raise ValueError('Recomputed all-stream original features differ beyond registered tolerance: '+str(difference))
+ValueError: Recomputed all-stream original features differ beyond registered tolerance: 4.7206878662109375e-05

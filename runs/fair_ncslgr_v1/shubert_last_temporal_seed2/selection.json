@@ -1,0 +1,88 @@
+{
+  "seed": 2,
+  "selected_lr": 0.01,
+  "validation": {
+    "classification_macro_recall": 0.34920634920634924,
+    "classification_top1": 0.18518518518518517,
+    "classification_samples": 27,
+    "macro_class_aware_interval_IoU": 0.2126871547376077,
+    "class_agnostic_mean_IoU": 0.41813829933466484,
+    "interval_samples": 25,
+    "mean_onset_offset_error_ms": [
+      579.3148028602203,
+      658.2982726891835
+    ],
+    "class_aware_success": {
+      "0.3": 0.08,
+      "0.5": 0.08,
+      "0.7": 0.04
+    }
+  },
+  "candidates": [
+    {
+      "lr": 0.01,
+      "validation": {
+        "classification_macro_recall": 0.34920634920634924,
+        "classification_top1": 0.18518518518518517,
+        "classification_samples": 27,
+        "macro_class_aware_interval_IoU": 0.2126871547376077,
+        "class_agnostic_mean_IoU": 0.41813829933466484,
+        "interval_samples": 25,
+        "mean_onset_offset_error_ms": [
+          579.3148028602203,
+          658.2982726891835
+        ],
+        "class_aware_success": {
+          "0.3": 0.08,
+          "0.5": 0.08,
+          "0.7": 0.04
+        }
+      },
+      "final_train_loss": 0.05877482891082764
+    },
+    {
+      "lr": 0.03,
+      "validation": {
+        "classification_macro_recall": 0.26587301587301587,
+        "classification_top1": 0.14814814814814814,
+        "classification_samples": 27,
+        "macro_class_aware_interval_IoU": 0.1375378466378973,
+        "class_agnostic_mean_IoU": 0.33922932663798333,
+        "interval_samples": 25,
+        "mean_onset_offset_error_ms": [
+          582.0275548957288,
+          846.2715620001156
+        ],
+        "class_aware_success": {
+          "0.3": 0.08,
+          "0.5": 0.04,
+          "0.7": 0.0
+        }
+      },
+      "final_train_loss": 0.07154396176338196
+    },
+    {
+      "lr": 0.1,
+      "validation": {
+        "classification_macro_recall": 0.26587301587301587,
+        "classification_top1": 0.14814814814814814,
+        "classification_samples": 27,
+        "macro_class_aware_interval_IoU": 0.15339945625714843,
+        "class_agnostic_mean_IoU": 0.3767116628128185,
+        "interval_samples": 25,
+        "mean_onset_offset_error_ms": [
+          601.2863381197675,
+          755.0668247739475
+        ],
+        "class_aware_success": {
+          "0.3": 0.08,
+          "0.5": 0.08,
+          "0.7": 0.04
+        }
+      },
+      "final_train_loss": 0.10896312445402145
+    }
+  ],
+  "test_used_for_selection": false,
+  "config_sha256": "0d08343e17dd5cbbae460ff348dad1ff25620c165d81d1f2f11ae33d4edc85e1"
+}

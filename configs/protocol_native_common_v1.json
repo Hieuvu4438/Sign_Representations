@@ -1,0 +1,50 @@
+{
+  "status": "LOCKED_FOR_NATIVE_PUBLIC_PIPELINE_DIAGNOSTIC",
+  "locked_utc": "2026-09-30T21:08:24.033557+00:00",
+  "manifest": "data/manifests/common_v1.jsonl",
+  "manifest_sha256": "10588de667415c1ca9cdcf677d18d0e5d69c7845ee43b05658902b20b6e52f3a",
+  "preprocessing_directory": "features/shubert_native_common_v1_preprocessing",
+  "preprocessing_identity": {
+    "manifest_sha256": "10588de667415c1ca9cdcf677d18d0e5d69c7845ee43b05658902b20b6e52f3a",
+    "config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+    "implementation_sha256": "d76cf594dd5ae7455a1c9b4d0377ce9038274ef7d952f2410324b1db063bc76b",
+    "pilot_helpers_sha256": "3b834fb243b2cbb3240d6ae092fa07c7dab264dc4a190bbae4b4b8c89043d891",
+    "resume_validator_sha256": "64c09d4f799d12a449e74884a4d8130c9123e50c7d3eb8b7f1bc5796f675b914",
+    "upstream_commit": "cc1929326075bfbad7ad73159b2acf84356059bb",
+    "native_source_hashes": {
+      "crop": "b5c4b47f82526be7a777bbcd598a3bfd78e4f29ac0cb17e0ae4ab1def67fb2cb",
+      "pose": "b8fd2866270d5b701fd087632142c70fc8a981034406ac5304e1050545c67323",
+      "face": "f028c60330ddd99cd3d71b06dad5b2c233aef438797db35d3b57dad83e910c11",
+      "hands": "d4ec451e3aed5993101051412a3f44d9c24e0155fff4e701fb475c4fda109560",
+      "body": "4db7742e852cf9b6358235be3f3fb4dada2e5beae82eea149c509add8eb41cd7"
+    },
+    "preprocessing_weight_sha256": {
+      "W05": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+      "W06": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "W07": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+    },
+    "device": "cpu",
+    "workers": 1
+  },
+  "encoder_config": "configs/shubert.yaml",
+  "encoder_config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+  "feature_directory": "features/shubert_native_common_v1",
+  "feature_outputs": [
+    "last_layer_ffn_branch",
+    "fixed_average_of_all12_ffn_branches"
+  ],
+  "whole_context_frame_cap": 1000,
+  "source_clock_policy": "Source decoded-frame best_effort_timestamp_time from ffprobe; no assumed30FPS or averaging original timing. Native cue crops retain frame index mapping. Store original PTS and duration.",
+  "pool_validity_policy": "all_four_streams_observed",
+  "missingness_policy": "Retain author carry-forward/black crop in contextual inference; exclude unobserved frames in pooling/loss. Zero-valid clips excluded explicitly; common cross-backbone subset and class coverage must be reported before controls.",
+  "layer_selection": "Both fixed readouts reported; no best test layer selection.",
+  "resource_policy": {
+    "gpu_id": 0,
+    "gpu_workers": 1,
+    "cpu_preprocessing_workers": 1,
+    "minimum_free_disk_gib": 20
+  },
+  "header_sample_evidence": "reports/shubert_cohort_header_sample.json",
+  "scientific_scope": "Native public raw-video pipeline and lexical diagnostic, not exact downstream paper recipe or verified method novelty.",
+  "probe_protocol": "Pending separate equal-budget controls lock; this lock authorizes unsupervised feature extraction only."
+}

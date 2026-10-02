@@ -1,0 +1,55 @@
+{
+  "status": "FAIL_ABSOLUTE_REPRODUCTION_GUARD_ON_SECOND_TRAIN_CLIP",
+  "exit_code": 1,
+  "updated_utc": "2026-10-01T07:39:22.207365+00:00",
+  "failure_reason": "Max absolute difference 4.7206878662109375e-05 exceeds locked 1e-05. Original protocol/outputs/guard unchanged.",
+  "files": {
+    "configs/protocol_ncslgr_branch_ablation_v2.json": {
+      "sha256": "ab8248f50f22a3f95a695450df6051dc0e506a359bfd37e49567dcff166deca8",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/0_protocol_ncslgr_branch_ablation_v2.json"
+    },
+    "scripts/run_ncslgr_branch_ablation.py": {
+      "sha256": "95329aa04a886f407275eda33344b2c597da79f7e10095926cba4b8ef8b9bf21",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/1_run_ncslgr_branch_ablation.py"
+    },
+    "scripts/extract_ncslgr_branch_ablation.py": {
+      "sha256": "d8c55a694bdf6e254fb8d4802996255e2ebe3f0b48d7ddfdfee7a8d431138304",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/2_extract_ncslgr_branch_ablation.py"
+    },
+    "scripts/continue_ncslgr_branch_ablation.py": {
+      "sha256": "71d7c37692547f86509b215167a0b7a7c962b819bee0360ca48db7cfe8ca8ab1",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/3_continue_ncslgr_branch_ablation.py"
+    },
+    "src/signrepr/cue_ablation.py": {
+      "sha256": "624164cdbe22264949d119940e9ebadd67422ca90f239877211085a0082b5210",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/4_cue_ablation.py"
+    },
+    "state/ncslgr_branch_ablation_v2/status.json": {
+      "sha256": "81ae8768e32abeba156de6006f5ff05396adceafdab01d0c5f9b5267e7fd1a59",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/5_status.json"
+    },
+    "features/ncslgr_branch_ablation_v2/status.json": {
+      "sha256": "3c6685e558513fd3ce61c3aceebe2613ad26ec0ed53ce0ed3fed1da612e3866f",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/6_status.json"
+    },
+    "features/ncslgr_branch_ablation_v2/attempt_0002.json": {
+      "sha256": "3c6685e558513fd3ce61c3aceebe2613ad26ec0ed53ce0ed3fed1da612e3866f",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/7_attempt_0002.json"
+    },
+    "features/ncslgr_branch_ablation_v2/index.jsonl": {
+      "sha256": "488c62a6095aca4bc8d4693db9d0c8427f2c06281a17f728c219b6db7b8bee08",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/8_index.jsonl"
+    },
+    "logs/ncslgr_branch_ablation_extraction_v2.log": {
+      "sha256": "19b3ca6aa4103833de7de108bfa4a84e8332b7b416aa0fa821a08b29ca6b39c7",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/9_ncslgr_branch_ablation_extraction_v2.log"
+    },
+    "logs/ncslgr_branch_ablation_pipeline_v2.log": {
+      "sha256": "85feee87429e01bdfdb11b5cdcf0cc9e7598b9e49b1da604209cb46937d726a8",
+      "preserved_path": "evidence/ncslgr_branch_ablation_reproduction_failure_v2/10_ncslgr_branch_ablation_pipeline_v2.log"
+    }
+  },
+  "trained_heads": 0,
+  "scientific_metrics_measured": false,
+  "diagnosis": "Read-only repeatability and CPU-thread comparison on the same failed training clip; no automatic full retry."
+}

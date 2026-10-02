@@ -1,0 +1,23 @@
+{
+  "source_commit": "55054020dfe61263360cab703d59282406031817",
+  "csv_sha256": "d9718c89f71754d83c03f8cc6bccb0d040e7527e08b1480c30314c985c1557f1",
+  "rows": 1275,
+  "distinct_raw_video_id": 48,
+  "distinct_urls": 938,
+  "phenomenon_counts": {
+    "classifiers": 150,
+    "conditional": 205,
+    "fingerspelling": 170,
+    "negation": 104,
+    "negation-reversed": 104,
+    "numbers": 119,
+    "wh-question": 123,
+    "yes/no": 150,
+    "yes/no-reversed": 150
+  },
+  "role": "external_test_only",
+  "raw_id_is_canonical_utterance": false,
+  "mapping_status": "UNRESOLVED",
+  "scope_labels_present": false,
+  "published_results_are_labels": false
+}

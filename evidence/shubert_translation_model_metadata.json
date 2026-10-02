@@ -1,0 +1,459 @@
+{
+  "_id": "68696c72f47ca625bc0598a3",
+  "id": "ShesterG/SHuBERT",
+  "private": false,
+  "tags": [
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "ShesterG/SHuBERT",
+  "author": "ShesterG",
+  "sha": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "lastModified": "2025-07-12T16:27:53.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "mit"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "c18b1fc83b3e3032c190724b94c76d9aa3cb2277",
+      "size": 3055
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "7be5fc7f47d5db027d120b8024982df93db95b74",
+      "size": 24
+    },
+    {
+      "rfilename": "example_video/L5hUxT5YbnY_crop_1.mp4",
+      "blobId": "de7b3891d2b58c3a5a854413c45ba01bae215dcb",
+      "size": 4236805,
+      "lfs": {
+        "sha256": "b0c4d8f702c09bff8ce0e97444f2f7e63519561907f0db47085f75feb3d683bb",
+        "size": 4236805,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/L5hUxT5YbnY_crop_2.mp4",
+      "blobId": "4074188cf3bd98cf7d83e35b1f5198d07a9e9bea",
+      "size": 2075818,
+      "lfs": {
+        "sha256": "2387c24f5ddf9517b453b157e131ed6b5e8f4b2c04fa045595c32b2848b9b00a",
+        "size": 2075818,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/L5hUxT5YbnY_crop_3.mp4",
+      "blobId": "c590c5324c003db2552e430cba2b66f08e08efc4",
+      "size": 5169307,
+      "lfs": {
+        "sha256": "7fd5e43fb835562e29a53ba16a6b4dd890dbd7fd5d426b21409a4e07ec7f7e2a",
+        "size": 5169307,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/L5hUxT5YbnY_crop_4.mp4",
+      "blobId": "563d129e2ede47833caa316e96365937063c2323",
+      "size": 2470772,
+      "lfs": {
+        "sha256": "ff51d560b6f9c03dd5ac0c4720fe59e6ec84dc49aa2dea0df394863ac599a01e",
+        "size": 2470772,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/L5hUxT5YbnY_crop_5.mp4",
+      "blobId": "a70e3836d981ea96f5dd92c6888f5592912e9458",
+      "size": 3074063,
+      "lfs": {
+        "sha256": "6914b214f074a5e76b7220226d3e2c78c1484afb579d7244760c2416ad854df9",
+        "size": 3074063,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/L5hUxT5YbnY_crop_6.mp4",
+      "blobId": "17cf7efee82ac7dbd4685050da912c0ef79a0c6e",
+      "size": 6174653,
+      "lfs": {
+        "sha256": "df056904a6c304df9a795548d42f08085fc07b18f20d194a92dce9adf2c4f187",
+        "size": 6174653,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/L5hUxT5YbnY_crop_7.mp4",
+      "blobId": "1482119bd79ebed02d15149ed79223213da6b857",
+      "size": 4492007,
+      "lfs": {
+        "sha256": "4ff4a834bfeed1e660b062edc1ab99e0b5b8e6325ea9c44692dde8efd5405359",
+        "size": 4492007,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_1.mp4",
+      "blobId": "10818bff2fd8139e5af90b6975bf413705d75c96",
+      "size": 7433078,
+      "lfs": {
+        "sha256": "56ead82335ed0047031d0288871b1b9c89feec9b5494887d4bad84f4ee937b63",
+        "size": 7433078,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_10.mp4",
+      "blobId": "6e8201af2a1627acf5a6edbc574c1c7d33e764e3",
+      "size": 6133261,
+      "lfs": {
+        "sha256": "8cec2f279f99bb9199f7e95ccab4b94de48406921d4242adecedead5b94ba942",
+        "size": 6133261,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_2.mp4",
+      "blobId": "cbd8b57b2c75aae1731654a6d3550642a9d618ac",
+      "size": 5624950,
+      "lfs": {
+        "sha256": "7c129b87b5020bd7c0e3dca3f223b8467f26836c62c4218d19f537ab69549b86",
+        "size": 5624950,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_3.mov",
+      "blobId": "de49a33eef94a5f3b229b3d4a1becfd031ce7c90",
+      "size": 11868173,
+      "lfs": {
+        "sha256": "daa4e4016a23e79ae974d7f8db809fce0532897e8cec6ba461e9375f0d250f3b",
+        "size": 11868173,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_3.mp4",
+      "blobId": "6ba48115e1402973364b2d46bad9c2bb8df01cd3",
+      "size": 2734641,
+      "lfs": {
+        "sha256": "f18ff817f085ad8c7f6726a51425733ba51c7e5b86405c343853ddf9eb929693",
+        "size": 2734641,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_4.mov",
+      "blobId": "d6f0da22f8e6003f6d9d7a9ff872032863a8fc6b",
+      "size": 5737381,
+      "lfs": {
+        "sha256": "925d10c6e61a6e697ac0fee876afebc883916d20ec443543f503f4dadc79ffb9",
+        "size": 5737381,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_4.mp4",
+      "blobId": "50c2b624f1dd901cd8a862467530a1d26cb87c32",
+      "size": 2304502,
+      "lfs": {
+        "sha256": "40d150fc32010a4b82445150b9770be28e047fe580e84cea130612f41709ddc9",
+        "size": 2304502,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_5.mp4",
+      "blobId": "67045487c874e4073e8d18caee398569528a54fa",
+      "size": 10386802,
+      "lfs": {
+        "sha256": "70cbf3812b567c6ff43234bd84f8a6cbb78613eb672d9a2909d5687527e00a09",
+        "size": 10386802,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_6.mp4",
+      "blobId": "d15ec31fdf2b055312c1fd2e2d670ea4f4552c40",
+      "size": 10303995,
+      "lfs": {
+        "sha256": "d7d968d8eb9a7cd6c01a5e2517be680ba0724af291a1e23528514099fed6124b",
+        "size": 10303995,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_7.mp4",
+      "blobId": "2b1bf63441b527d10f68032edd884af55dc744ca",
+      "size": 11971924,
+      "lfs": {
+        "sha256": "fc70854c5ce302cb7f698a6977e157cbc4439fc9bffd599df4a73396e8697fcd",
+        "size": 11971924,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_8.mp4",
+      "blobId": "b641ac0013a9516a918d3226aeada158c8c95bed",
+      "size": 10535445,
+      "lfs": {
+        "sha256": "3834d981b349e03b898c98d0a067cb47941fd390e73112b8c9ee1ce12765b3cc",
+        "size": 10535445,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "example_video/rDUefZVPfmU_crop_9.mp4",
+      "blobId": "7c0d47d05c457d4ac5f829304c5317a8eb177787",
+      "size": 11181542,
+      "lfs": {
+        "sha256": "db3cbd02895cdffed93524dd5ce297d2d776dbabb5cb00a208daee1de2520b7c",
+        "size": 11181542,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "example_videos",
+      "blobId": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "rfilename": "models/byt5_base/config.json",
+      "blobId": "603580a7d87f79b142fab300e37a3312c01531b3",
+      "size": 831
+    },
+    {
+      "rfilename": "models/byt5_base/generation_config.json",
+      "blobId": "144e9968e1ce77001f065b1e01ce7d39571e3526",
+      "size": 142
+    },
+    {
+      "rfilename": "models/byt5_base/pytorch_model.bin",
+      "blobId": "5cacb0b66583bb8688dfb5acc272f8feac2c0fd9",
+      "size": 2326696954,
+      "lfs": {
+        "sha256": "4651bb6e44016ece08e5c614478da3c6b919191019764d7a43ff78d586e254a6",
+        "size": 2326696954,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "models/byt5_base/special_tokens_map.json",
+      "blobId": "04fd58b5fbf6a36fda564a656b14c137ef045689",
+      "size": 3090
+    },
+    {
+      "rfilename": "models/byt5_base/tokenizer_config.json",
+      "blobId": "b43b3c868158cb909a9d4a071a703d13b46cccff",
+      "size": 3327
+    },
+    {
+      "rfilename": "models/checkpoint-11625/config.json",
+      "blobId": "8a416153b1a868fe509ae65135147c9460838996",
+      "size": 1190
+    },
+    {
+      "rfilename": "models/checkpoint-11625/generation_config.json",
+      "blobId": "54b4ace4393e0b66ad4627d90bba9eb2705365ad",
+      "size": 112
+    },
+    {
+      "rfilename": "models/checkpoint-11625/optimizer.pt",
+      "blobId": "894072615a972df09c85df3db5c4cba1ef0cd8cb",
+      "size": 5361549242,
+      "lfs": {
+        "sha256": "31d300d0675fb03d6aa09294231d4fd263008cd4e4f508fc34a8a2dce74b9eb7",
+        "size": 5361549242,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/pytorch_model.bin",
+      "blobId": "3fe1d4bc8db90f5dd323ee787890d59032559b7f",
+      "size": 2683976334,
+      "lfs": {
+        "sha256": "cb605058abf7fd50b80f055fe8a6e271ed64f04ef7b1b450c7a364f88495526a",
+        "size": 2683976334,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/rng_state_0.pth",
+      "blobId": "118ae7e88092e22cf0e34f64642b88c06e8091fb",
+      "size": 15984,
+      "lfs": {
+        "sha256": "08ea98bfa0ed33496185ef6cc28cafc143e531cfbe7b7e074392f9a3b7a5dcc4",
+        "size": 15984,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/rng_state_1.pth",
+      "blobId": "79ac4c5e3e8fb5db48e4c7ffd80fe208a6d59736",
+      "size": 15984,
+      "lfs": {
+        "sha256": "2cd916d759973bf7731364295a464821092019bafc68fc09ee0e68bb53fd7b98",
+        "size": 15984,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/rng_state_2.pth",
+      "blobId": "73f4bd2e781a639ab119feaa6cc51a68fbab11a3",
+      "size": 15984,
+      "lfs": {
+        "sha256": "7a040dd4933f71369f6db78fbba791c16f3f4355f0400ccafa5c2a470c8dfa23",
+        "size": 15984,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/rng_state_3.pth",
+      "blobId": "34b07868fe3b85ad881c017b40a221bb97a47cf5",
+      "size": 15984,
+      "lfs": {
+        "sha256": "a902d12473668da2330b3c3d09194cdfd3a8539b74be6787756ee5e5e6420659",
+        "size": 15984,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/rng_state_4.pth",
+      "blobId": "bc188fc08cf259a0051de8a906eea3ca30588f9c",
+      "size": 15984,
+      "lfs": {
+        "sha256": "3b03403fd7dd38a12788f28bdf43e7cc27b5d475e24957765dc10d9a1c99cb6e",
+        "size": 15984,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/rng_state_5.pth",
+      "blobId": "9e85fc983d173f8c080f511ccb73faf9896d1964",
+      "size": 15984,
+      "lfs": {
+        "sha256": "96a1aeaef7afbe40243305d22ffefc472fa52f62e274fd8c22b7abefcc326421",
+        "size": 15984,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/rng_state_6.pth",
+      "blobId": "1e6f49ae8c89c2ea92bf5f7e25f5bbfbbb73d6d1",
+      "size": 15984,
+      "lfs": {
+        "sha256": "4c7b185de823a33fd4167145a9c90da5ea93fa947842c8abdf0c26b35a04ebc0",
+        "size": 15984,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/rng_state_7.pth",
+      "blobId": "3be19d6cc5498ce3f092fd3292221c1ebefef91c",
+      "size": 15984,
+      "lfs": {
+        "sha256": "87294a19873c95c6fb3ce4e1d7737c1417eda728402cb4f433c1d40207e8d360",
+        "size": 15984,
+        "pointerSize": 130
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/scheduler.pt",
+      "blobId": "4f4e2e83da2d5080031ad0bac852477504b03fbb",
+      "size": 1064,
+      "lfs": {
+        "sha256": "fd20d76f422c1104d0bfa0682f9c61df13cf41b35b4a1edcf1c54d84b188d51b",
+        "size": 1064,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "models/checkpoint-11625/trainer_state.json",
+      "blobId": "b210871f78696b1e71b274204d8f2301a19258a7",
+      "size": 8742
+    },
+    {
+      "rfilename": "models/checkpoint-11625/training_args.bin",
+      "blobId": "2d0685ec3069711f137bb86eb094d273cceb8dab",
+      "size": 4728,
+      "lfs": {
+        "sha256": "0addc13b3d794209c846b20ff9913edc88c196b467c3be77cfe9c8169038bb99",
+        "size": 4728,
+        "pointerSize": 129
+      }
+    },
+    {
+      "rfilename": "models/checkpoint_836_400000.pt",
+      "blobId": "37d15d18cb1a3ad68f6fd204430c87c547cd6866",
+      "size": 1057496908,
+      "lfs": {
+        "sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+        "size": 1057496908,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "models/dinov2face.pth",
+      "blobId": "2eb2d699c4bb15d0e599eec16a59c3efae128101",
+      "size": 112850895,
+      "lfs": {
+        "sha256": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+        "size": 112850895,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "models/dinov2hand.pth",
+      "blobId": "662574a094c7852bda0c50562dc1ee934eae6463",
+      "size": 112850895,
+      "lfs": {
+        "sha256": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85",
+        "size": 112850895,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "models/face_landmarker_v2_with_blendshapes.task",
+      "blobId": "30ad25a66fbd538eddd331561f2be427caeef0c1",
+      "size": 11577701,
+      "lfs": {
+        "sha256": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+        "size": 11577701,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "models/hand_landmarker.task",
+      "blobId": "5ecab741879892d97c2f90bbf03bf55d7213db7c",
+      "size": 7819105,
+      "lfs": {
+        "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+        "size": 7819105,
+        "pointerSize": 132
+      }
+    },
+    {
+      "rfilename": "models/yolov8n.pt",
+      "blobId": "719e6f1dbdfe7c560e5933fc8b0c5a7e857d0234",
+      "size": 6549796,
+      "lfs": {
+        "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+        "size": 6549796,
+        "pointerSize": 132
+      }
+    }
+  ],
+  "spaces": [
+    "ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText"
+  ],
+  "createdAt": "2025-07-05T18:18:26.000Z",
+  "usedStorage": 11805410613
+}

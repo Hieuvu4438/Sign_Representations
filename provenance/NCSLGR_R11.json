@@ -1,0 +1,12 @@
+{
+  "asset_id": "NCSLGR_R11",
+  "url": "https://www.bu.edu/asllrp/asllrpr11.pdf",
+  "revision": "Official historical NCSLGR distribution; retrieval version recorded by hash",
+  "sha256": "036265693ade4f61e5891d5e943401388d67fa8103b09d9a5e3eb1cbdb20d07e",
+  "bytes": 7344704,
+  "local_path": "evidence/ncslgr/report11.pdf",
+  "utc_time": "2026-09-30T19:49:56.164356+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Official public ASLLRP distribution. Corpus terms distinct from code; research use within original plan; no redistribution.",
+  "content_type": "application/pdf"
+}

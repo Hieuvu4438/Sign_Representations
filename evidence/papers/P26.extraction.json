@@ -1,0 +1,12 @@
+{
+  "parser": "PyMuPDF",
+  "parser_version": "1.27.2.3",
+  "pdf_sha256": "b42f748b7392d78743351292c2e9019d2b272815fc93c61da8e6a49468519480",
+  "pages": 28,
+  "extracted_characters": 81825,
+  "parser_warnings": "premature end of data in flate filter\nlcms: Couldn't allocate 0 bytes for profile.\nformat error: cmsOpenProfileFromMem failed\nignoring broken ICC profile",
+  "repaired": false,
+  "encrypted": false,
+  "read_level": "NOT_ESTABLISHED_BY_EXTRACTION",
+  "page_anchor_trust": "No page anchors used; separate preflight required for them."
+}

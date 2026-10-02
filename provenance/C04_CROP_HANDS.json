@@ -1,0 +1,12 @@
+{
+  "asset_id": "C04_CROP_HANDS",
+  "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/crop_hands.py",
+  "revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "sha256": "e79b2ba2f3c6cdb7031212d90d2f728a4c8f36dc216379bf23321f40e558bdf8",
+  "bytes": 18126,
+  "local_path": "third_party/shubert-author-demo/crop_hands.py",
+  "utc_time": "2026-09-30T23:16:10.251898+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Pinned public author demo source; app.py static inspection only; never import UI app or send videos externally.",
+  "content_type": "text/plain; charset=utf-8"
+}

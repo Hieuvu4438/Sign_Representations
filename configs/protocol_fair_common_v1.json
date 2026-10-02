@@ -1,0 +1,77 @@
+{
+  "status": "LOCKED_EXPLORATORY_EQUAL_GRID_CONTROLS",
+  "protocol_version": "fair_common_v1",
+  "created_utc": "2026-09-30T23:53:14Z",
+  "code_sha256": {
+    "scripts/run_fair_common.py": "3e22450d690e24ad11ff56b0fad417e4e695132c78d1ba5148344191df8c9de8",
+    "src/signrepr/probes.py": "25dc268e33087e2b579acae4c2293990ffb628b3198fbdb30bc14aabe0781f22",
+    "src/signrepr/statistics.py": "2c3b8c61f41d5dcdc12c0f4d2ff4e5517fbafbb2febb4eb707e56c2bcd9544f2",
+    "src/signrepr/io.py": "f9faaa127e40d22156ef77ec497396aa13056edc0169415bd41a68130768158f"
+  },
+  "manifest_sha256": "10588de667415c1ca9cdcf677d18d0e5d69c7845ee43b05658902b20b6e52f3a",
+  "label_mapping": "data/splits/common_v1_labels.json",
+  "label_mapping_sha256": "a0dbf9e0e76275b1726eadfc0a05ebb7fd7a334c71756a3b48f693b75df57b15",
+  "source_protocol_sha256": "204aa0aa7552e88dc4874bc5fc793ac676d5cf3adc2612c7a44661068bb8b0c7",
+  "native_feature_protocol_sha256": "042edc067fdbc0e5c811f1d1159751104162e98a532d36c37a5e7812fc36d8f0",
+  "native_cache_identity": {
+    "protocol_sha256": "042edc067fdbc0e5c811f1d1159751104162e98a532d36c37a5e7812fc36d8f0",
+    "manifest_sha256": "10588de667415c1ca9cdcf677d18d0e5d69c7845ee43b05658902b20b6e52f3a",
+    "config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+    "implementation_sha256": "413ef85760cdbc0bceeda634455d060194520139a88c781a153cd3cc5fd8e910",
+    "pilot_helpers_sha256": "dd7b4181ed7e072cb8b042dd903dce2a10b1a62e6731737d5ebdccad0438b386",
+    "adapter_sha256": "54d3cbb114a6a0adc45cfe324b467bc84445cff40f165ef825e7c61d097b17ad",
+    "resume_validator_sha256": "64c09d4f799d12a449e74884a4d8130c9123e50c7d3eb8b7f1bc5796f675b914",
+    "timestamp_adapter_sha256": "22d0d5f3893941a5e42ec6a4dddafe8922278d3fcec03b98774e0bb896b0bf31",
+    "device": "cuda:0"
+  },
+  "signrep_report_sha256": "00171b64fe9b1335b12870713d4584950eadcee39b0be7972da1307073079f9c",
+  "backbones": [
+    "signrep",
+    "shubert_last",
+    "shubert_average"
+  ],
+  "controls": [
+    "B00",
+    "B01",
+    "B02",
+    "B03"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "learning_rates": [
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "epochs": 100,
+  "weight_decay": 0.01,
+  "temporal_width": 64,
+  "capacity_match_relative_tolerance": 0.001,
+  "batch_size": 64,
+  "device": "cpu",
+  "torch_threads": 1,
+  "selection": "Validation macro recall each epoch, identical three LR choices and100epochs for B02/B03; deterministic first tie. Save selection before test.",
+  "population": "Original train-selected200classes; common subset where SignRep has nonpadded valid windows AND SHuBERT has at least one all-four-stream observed frame. Per-ID exclusions, split/class coverage mandatory; stop if any class loses all train/validation/test support.",
+  "feature_policy": "Keep original temporal positions and false masks for missing/padded tokens; never compress gaps into adjacent observations. Last FFN and fixed average of all12 both reported without best-test-layer selection.",
+  "primary_comparison": "B03_signrep_minus_B02_signrep",
+  "secondary_comparisons": [
+    "B02_shubert_last_minus_B02_signrep",
+    "B02_shubert_average_minus_B02_signrep"
+  ],
+  "primary_metric": "macro_recall",
+  "statistics": {
+    "resamples": 2000,
+    "seed": 42,
+    "group": "recording_group"
+  },
+  "limits": [
+    "Earlier SignRep test metrics already observed: this is exploratory equal-grid sensitivity, not independent confirmatory evidence.",
+    "Different native token rates, receptive fields and cue preprocessing remain; same source clips and heads do not establish matched-context causal backbone comparison.",
+    "Mask excludes missing frames from readout but native context can include author carry-forward crops.",
+    "No encoder adaptation or full paper benchmark reproduction; pretraining overlap remains unknown.",
+    "Conditional cluster intervals do not include training randomness or signer-population uncertainty."
+  ]
+}

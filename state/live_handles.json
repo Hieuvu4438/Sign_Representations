@@ -1,0 +1,188 @@
+{
+  "updated_utc": "2026-10-01T07:53:07.109311+00:00",
+  "handles": [
+    {
+      "session_id": 46557,
+      "kind": "native_cpu_preprocessing",
+      "run_id": "native_common_v1",
+      "device": "cpu",
+      "workers": 1,
+      "log": "logs/shubert_native_common_v1_preprocessing.log",
+      "host_pid": 1783524,
+      "last_file_observation": {
+        "status": "FAIL",
+        "completed": 1237,
+        "samples": 4726,
+        "observed_utc": "2026-10-01T06:30:38.891045+00:00"
+      },
+      "session_access": "UNAVAILABLE_AFTER_TOOL_NAMESPACE_CHANGE",
+      "terminal_status": "FAIL"
+    },
+    {
+      "session_id": 60581,
+      "kind": "native_feature_extraction",
+      "run_id": "native_common_v1",
+      "device": "cuda:0",
+      "workers": 1,
+      "log": "logs/shubert_native_common_v1_extraction.log",
+      "host_pid": 2247942,
+      "last_file_observation": {
+        "status": "FAIL",
+        "completed": 1235,
+        "samples": 4726,
+        "observed_utc": "2026-10-01T06:30:38.891045+00:00"
+      },
+      "session_access": "UNAVAILABLE_AFTER_TOOL_NAMESPACE_CHANGE",
+      "terminal_status": "FAIL"
+    },
+    {
+      "session_id": 51047,
+      "kind": "fair_common_cpu_waiter",
+      "run_id": "fair_common_v1",
+      "device": "cpu",
+      "workers": 1,
+      "log": "logs/fair_common_v1.log",
+      "status_file": "runs/fair_common_v1/status.json",
+      "pid_namespace": "Current tool namespace; status PID3 is local and must not be interpreted as host PID.",
+      "instruction": "Observe native terminal PASS then fit CPU-only controls; never launches extraction or retries failed jobs.",
+      "last_file_observation": {
+        "status": "FAIL",
+        "completed": null,
+        "samples": null,
+        "observed_utc": "2026-10-01T06:30:38.891045+00:00"
+      },
+      "terminal_status": "FAIL"
+    },
+    {
+      "session_id": 78128,
+      "kind": "native_ncslgr_cpu_preprocessing",
+      "run_id": "native_ncslgr_v1",
+      "device": "cpu",
+      "workers": 1,
+      "log": "logs/shubert_native_ncslgr_v1_preprocessing.log",
+      "status_file": "features/shubert_native_ncslgr_v1_preprocessing/status.json",
+      "pid_namespace": "Tool-local isolated namespace; do not infer host PID from local PID3.",
+      "instruction": "Resume validated bounded pilot, no extra GPU. Observe full terminal report; never retry a failed cache automatically.",
+      "last_file_observation": {
+        "status": "PASS_NATIVE_PREPROCESSING",
+        "completed": 222,
+        "samples": 222,
+        "observed_utc": "2026-10-01T06:30:38.891045+00:00"
+      },
+      "terminal_status": "PASS_NATIVE_PREPROCESSING"
+    },
+    {
+      "session_id": 30769,
+      "kind": "native_ncslgr_cpu_feature_extraction",
+      "run_id": "native_ncslgr_v1",
+      "device": "cpu",
+      "workers": 1,
+      "log": "logs/shubert_native_ncslgr_v1_cpu_extraction.log",
+      "status_file": "features/shubert_native_ncslgr_v1/status.json",
+      "pid_namespace": "Tool-local isolated namespace; do not infer host PID from local PID3.",
+      "instruction": "Resume validated bounded pilot, no extra GPU. Observe full terminal report; never retry a failed cache automatically.",
+      "last_file_observation": {
+        "status": "PASS",
+        "completed": 222,
+        "samples": 222,
+        "observed_utc": "2026-10-01T06:30:38.891045+00:00"
+      },
+      "terminal_status": "PASS"
+    },
+    {
+      "session_id": 96101,
+      "kind": "fair_ncslgr_cpu_waiter",
+      "run_id": "fair_ncslgr_v1",
+      "device": "cpu",
+      "workers": 1,
+      "log": "logs/fair_ncslgr_v1.log",
+      "status_file": "runs/fair_ncslgr_v1/status.json",
+      "instruction": "Wait for full native PASS, then audit common positive-class coverage before18equal-budget frozen heads. No partial metrics or GPU.",
+      "last_file_observation": {
+        "status": "PASS_EXPLORATORY_EQUAL_BUDGET_NATIVE_FUNCTION_CONTROLS",
+        "completed": null,
+        "samples": null,
+        "observed_utc": "2026-10-01T06:30:38.891045+00:00"
+      },
+      "terminal_status": "PASS_EXPLORATORY_EQUAL_BUDGET_NATIVE_FUNCTION_CONTROLS"
+    },
+    {
+      "session_id": 54736,
+      "kind": "ncslgr_author_pool_cpu",
+      "run_id": "ncslgr_author_pool_v1",
+      "device": "cpu",
+      "workers": 1,
+      "terminal_status": "PASS_EXPLORATORY_AUTHOR_IMPUTED_FUNCTION_POOLING",
+      "verified_exit_code": 0,
+      "status_file": "runs/ncslgr_author_pool_v1/status.json"
+    },
+    {
+      "session_id": 89084,
+      "kind": "reviewed_disk_recovery_pipeline",
+      "run_id": "native_common_disk_recovery_v1",
+      "device": "cpu",
+      "workers": 1,
+      "status_file": "state/native_common_disk_recovery_v1/status.json",
+      "log": "logs/native_common_disk_recovery_v1.log",
+      "instruction": "One reviewed attempt; wait60GiBfree then CPUprepfull, soleGPU0extractorfull, same locked CPUequalgrid in separate output. Never restart this live recovery from missinghostPID.",
+      "pid_namespace": "Tool-localPID3; use specific live session handle.",
+      "last_file_observation": {
+        "status": "CPU_PREPROCESSING_RECOVERY",
+        "observed_utc": "2026-10-01T07:52:16.837399+00:00",
+        "cpu_preprocessed_clips": 1585,
+        "total_clips": 4726,
+        "free_gib": 72.6091423034668
+      },
+      "session_verified_live_utc": "2026-10-01T07:53:07.109311+00:00"
+    },
+    {
+      "session_id": 10374,
+      "kind": "cue_ablation_v2_pipeline",
+      "run_id": "ncslgr_branch_ablation_v2",
+      "device": "cpu",
+      "workers": 1,
+      "verified_exit_code": 1,
+      "terminal_status": "FAIL",
+      "status_file": "state/ncslgr_branch_ablation_v2/status.json"
+    },
+    {
+      "session_id": 64353,
+      "kind": "cue_reproduction_training_diagnosis",
+      "run_id": "ncslgr_branch_reproduction_diagnostic_v1",
+      "device": "cpu",
+      "workers": 1,
+      "verified_exit_code": 0,
+      "terminal_status": "PASS_NUMERICAL_DIAGNOSIS_NO_SCIENTIFIC_METRICS",
+      "report": "reports/ncslgr_branch_reproduction_diagnostic_v1.json"
+    },
+    {
+      "session_id": 84500,
+      "kind": "cue_ablation_v3_two_train_smoke",
+      "run_id": "ncslgr_branch_ablation_v3",
+      "device": "cpu",
+      "workers": 1,
+      "verified_exit_code": 0,
+      "terminal_status": "PARTIAL_TRAIN_SMOKE",
+      "report": "reports/ncslgr_branch_ablation_smoke_v3_audit.json"
+    },
+    {
+      "session_id": 5437,
+      "kind": "cue_ablation_v3_cpu_pipeline",
+      "run_id": "ncslgr_branch_ablation_v3",
+      "device": "cpu",
+      "workers": 1,
+      "session_verified_live_utc": "2026-10-01T07:53:07.109311+00:00",
+      "status_file": "state/ncslgr_branch_ablation_v3/status.json",
+      "log": "logs/ncslgr_branch_ablation_pipeline_v3.log",
+      "last_file_observation": {
+        "status": "RUNNING",
+        "completed": 26,
+        "samples": 175,
+        "observed_utc": "2026-10-01T07:52:16.837399+00:00"
+      },
+      "instruction": "One reviewed continuation: fullCPUinterventioncache then24fixedCPUheads. No GPU, no test before fullPASS, no automatic retry."
+    }
+  ],
+  "instruction": "One project GPU worker only; CPU preprocessing producer and GPU consumer. Revalidate actual processes; do not restart on observation timeout. Existing per-clip failed artifacts require reviewed recovery.",
+  "observation_limit": "Current tools run in isolated PID namespace; original host sessions are unavailable to write_stdin and host /proc PIDs are hidden. Do not restart workers from missing PID/session alone."
+}

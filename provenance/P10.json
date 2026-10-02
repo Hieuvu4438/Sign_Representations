@@ -1,0 +1,12 @@
+{
+  "asset_id": "P10",
+  "url": "https://arxiv.org/pdf/2607.27826",
+  "revision": "version to resolve from retrieved document",
+  "sha256": "53998f737574f70d9df2c328f7e5d540d17f3e61ffa499e5b9b6427ccce6d0ec",
+  "bytes": 1023648,
+  "local_path": "evidence/papers/P10.pdf",
+  "utc_time": "2026-09-30T17:40:45.765579+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

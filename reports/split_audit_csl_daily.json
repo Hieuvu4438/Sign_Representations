@@ -1,0 +1,31 @@
+{
+  "status": "PASS_METADATA_GROUPING",
+  "sample_counts": [
+    {
+      "dataset_id": "csl_daily",
+      "split": "test",
+      "rows": 1176
+    },
+    {
+      "dataset_id": "csl_daily",
+      "split": "train",
+      "rows": 18401
+    },
+    {
+      "dataset_id": "csl_daily",
+      "split": "val",
+      "rows": 1077
+    }
+  ],
+  "recording_group_count": 20654,
+  "recording_overlaps": [],
+  "signer_count": 0,
+  "signer_overlaps": [],
+  "unresolved_recording_counts": {},
+  "exact_hash_overlaps": [],
+  "content_hash_coverage": 0,
+  "perceptual_duplicate_audit": "NOT_RUN",
+  "pretraining_overlap": "UNKNOWN",
+  "scope": "Metadata group audit; absent metadata overlap does not establish absent pretraining or visual duplication.",
+  "manifest_sha256": "9b9f5440589f0c88f92d8a51b85532af290c93424af51ac1bbb08e3dd07483eb"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "P14",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/729c68884bd359ade15d5f163166738a-Paper.pdf",
+  "revision": "2021 proceedings",
+  "sha256": "401f639879ef8b55c88930d93aa9ff10bd4ab64d4e0f5712a820620d91151ea0",
+  "bytes": 1938830,
+  "local_path": "evidence/papers/P14.pdf",
+  "utc_time": "2026-09-30T17:52:02.880613+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

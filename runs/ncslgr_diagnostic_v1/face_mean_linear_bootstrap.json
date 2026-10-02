@@ -1,0 +1,52 @@
+{
+  "samples": 88,
+  "groups": 88,
+  "classes_with_support": 3,
+  "training_seeds": 3,
+  "resamples": 2000,
+  "bootstrap_seed": 42,
+  "interval_method": "cluster_percentile_95",
+  "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+  "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+  "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+  "resamples_with_missing_classes": 0,
+  "resampled_classes_min": 3,
+  "metrics": {
+    "macro_recall": {
+      "point": 0.5769063180827887,
+      "per_seed": [
+        0.5490196078431372,
+        0.57140522875817,
+        0.6102941176470589
+      ],
+      "training_seed_sd": 0.031005449129883587,
+      "ci95": [
+        0.4822420634920634,
+        0.6695795673391459
+      ]
+    },
+    "top1": {
+      "point": 0.571969696969697,
+      "per_seed": [
+        0.5454545454545454,
+        0.5681818181818182,
+        0.6022727272727273
+      ],
+      "training_seed_sd": 0.028597857709358927,
+      "ci95": [
+        0.4771780303030303,
+        0.6704545454545454
+      ]
+    }
+  },
+  "limitations": [
+    "Percentile coverage is approximate; many groups do not imply many independent signers.",
+    "Groups are sampled uniformly with replacement; their complete rows are retained.",
+    "Class absence in a draw changes its macro denominator and is counted explicitly."
+  ],
+  "ordered_seeds": [
+    0,
+    1,
+    2
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "NCSLGR_SSDB",
+  "url": "https://www.bu.edu/asllrp/ncslgr-for-download/Archive-ssdb-2-2-12.zip",
+  "revision": "Official historical NCSLGR distribution; retrieval version recorded by hash",
+  "sha256": "7ecb9a86b8f1fe33c2f2573464d09502c8e0832697ed8cf931bfdfa4958e8c33",
+  "bytes": 1532817,
+  "local_path": "data/external/ncslgr/Archive-ssdb-2-2-12.zip",
+  "utc_time": "2026-09-30T19:49:37.772410+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Official public ASLLRP distribution. Corpus terms distinct from code; research use within original plan; no redistribution.",
+  "content_type": "application/zip"
+}

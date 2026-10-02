@@ -1,0 +1,6 @@
+{
+  "status": "EXACT_PRIOR_MANIFEST_HASH_RECONSTRUCTED",
+  "expected_sha256": "eb9de84b7b371b5105c3885e5bb5f50748af0191dd3c24db307ab644d70cfa27",
+  "snapshot_path": "evidence/integrity_check_snapshots/integrity_checks_59_eb9de84b7b37.json",
+  "scope": "Earlier59test manifest recovered exactly from unchanged current manifest fields by removing newly added cue-test entry; SHA matches its previously recorded grounding audit hash. Earlier verbose test log is not reconstructed."
+}

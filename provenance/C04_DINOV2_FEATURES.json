@@ -1,0 +1,12 @@
+{
+  "asset_id": "C04_DINOV2_FEATURES",
+  "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/dinov2_features.py",
+  "revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "sha256": "b077c1295f9a92ba33d8fb52a3a125934a207b60fb0b1e37b4e9493355a9acac",
+  "bytes": 12529,
+  "local_path": "third_party/shubert-author-demo/dinov2_features.py",
+  "utc_time": "2026-09-30T23:16:10.359819+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Pinned public author demo source; app.py static inspection only; never import UI app or send videos externally.",
+  "content_type": "text/plain; charset=utf-8"
+}

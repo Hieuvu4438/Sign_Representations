@@ -1,0 +1,57 @@
+{
+  "seed": 1,
+  "condition": "face_only",
+  "selected_lr": 0.01,
+  "validation": {
+    "top1": 0.7777777777777778,
+    "macro_recall": 0.3333333333333333,
+    "per_class_recall": {
+      "0": 0.0,
+      "1": 1.0,
+      "2": 0.0
+    }
+  },
+  "candidates": [
+    {
+      "lr": 0.01,
+      "validation": {
+        "top1": 0.7777777777777778,
+        "macro_recall": 0.3333333333333333,
+        "per_class_recall": {
+          "0": 0.0,
+          "1": 1.0,
+          "2": 0.0
+        }
+      },
+      "final_train_loss": 0.012118801474571228
+    },
+    {
+      "lr": 0.03,
+      "validation": {
+        "top1": 0.7777777777777778,
+        "macro_recall": 0.3333333333333333,
+        "per_class_recall": {
+          "0": 0.0,
+          "1": 1.0,
+          "2": 0.0
+        }
+      },
+      "final_train_loss": 0.0017261200118809938
+    },
+    {
+      "lr": 0.1,
+      "validation": {
+        "top1": 0.7777777777777778,
+        "macro_recall": 0.3333333333333333,
+        "per_class_recall": {
+          "0": 0.0,
+          "1": 1.0,
+          "2": 0.0
+        }
+      },
+      "final_train_loss": 2.3382968720397912e-05
+    }
+  ],
+  "test_used_for_selection": false,
+  "config_sha256": "e333093d5b4b2a00a096e48e0907cd561682bb6b10872d0011f4c36af56e7e1b"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PENDING_MEDIA_AND_PROTOCOL_VALIDATION",
+  "selected_before_overlap_filter": 222,
+  "cross_split_source_sequence_ids": [],
+  "selected": 222,
+  "counts": {
+    "train": {
+      "YN": 31,
+      "NEG": 35,
+      "WH": 41
+    },
+    "test": {
+      "WH": 30,
+      "NEG": 34,
+      "YN": 24
+    },
+    "val": {
+      "WH": 21,
+      "NEG": 4,
+      "YN": 2
+    }
+  },
+  "signer_assignment": {
+    "Benjamin Bahan": "train",
+    "Michael Schlang": "train",
+    "Lana Cook": "val",
+    "Norma Bowers Tourangeau": "test"
+  },
+  "selection": "All elicited ncslgr*.xml utterances with one recorded target functional tier among NEG/WH/YN, one source signer and index views0/2. Metadata-only selection; no predicted values. Duplicate source sequence groups cannot cross splits.",
+  "target_semantics": "Which target functional tier was positively annotated? This is not semantic affirmative-vs-negative discrimination; absent tiers are not confirmed negative labels. Cooccurrences excluded.",
+  "unknowns": [
+    "Annotation historical mirror release provenance versus2011 official updated release",
+    "View identity for other collection sessions",
+    "Decode timing/speed, failures, observed duration",
+    "Visual recording overlap and pretraining overlap",
+    "External MTP group exclusions",
+    "Main diagnostic protocol and equal-budget readout controls are not yet locked"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PROVISIONAL_TRAIN_PILOT_EXTRAPOLATION",
+  "pilot_clips": 8,
+  "pilot_frames": 772,
+  "pilot_fully_observed_frames": 245,
+  "native_preprocessing_cpu_seconds": 115.07246319402475,
+  "native_gpu_feature_seconds_including_repeat_check": 3.249475718010217,
+  "native_gpu_total_wall_seconds": 5.233814007020555,
+  "peak_gpu_memory_bytes": 626478592,
+  "common_cohort_clips": 4726,
+  "forecast_preprocessing_cpu_hours": 18.883071564408368,
+  "forecast_gpu_features_hours_including_repeat_check": 0.5332299390040377,
+  "forecast_native_feature_bytes": 18209610001.5,
+  "free_bytes_observed": 85632032768,
+  "input_reports": [
+    "features/shubert_native_preprocessing_attempt2/report.json",
+    "features/shubert_native_pilot_gpu_attempt4/report.json"
+  ],
+  "limitations": [
+    "Only eight train clips, no full corpus duration/landmark-success distribution sampled yet.",
+    "GPU feature forecast excludes CPU preprocessing; CPU preprocessing is the dominant elapsed-time cost.",
+    "All-layer caches are required for fixed last-layer/layer-average diagnostics; expected space must include intermediate videos/landmarks.",
+    "No native common accuracy or grammar result measured."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "P16",
+  "url": "https://www.sign-lang.uni-hamburg.de/lrec/pub/26013.pdf",
+  "revision": "LREC2026 workshop proceedings",
+  "sha256": "12c6a4821619f991c39be3b5a6e1bd242b5d25e4fd627655606d318f330a91cc",
+  "bytes": 492141,
+  "local_path": "evidence/papers/P16.pdf",
+  "utc_time": "2026-09-30T18:02:04.696107+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

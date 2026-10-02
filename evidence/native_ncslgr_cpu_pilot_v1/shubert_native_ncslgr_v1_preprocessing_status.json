@@ -1,0 +1,31 @@
+{
+  "status": "PARTIAL_BOUNDED_VALIDATION",
+  "pid": 4,
+  "device": "cpu",
+  "samples": 222,
+  "passed": 2,
+  "new_clips": 2,
+  "resume": false,
+  "manifest_sha256": "c1b6149d19c5f52b6d2b3967199a6e0bc3720becd758acc195f7d30351d8966f",
+  "config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+  "implementation_sha256": "d76cf594dd5ae7455a1c9b4d0377ce9038274ef7d952f2410324b1db063bc76b",
+  "pilot_helpers_sha256": "3b834fb243b2cbb3240d6ae092fa07c7dab264dc4a190bbae4b4b8c89043d891",
+  "resume_validator_sha256": "64c09d4f799d12a449e74884a4d8130c9123e50c7d3eb8b7f1bc5796f675b914",
+  "upstream_commit": "cc1929326075bfbad7ad73159b2acf84356059bb",
+  "native_source_hashes": {
+    "crop": "b5c4b47f82526be7a777bbcd598a3bfd78e4f29ac0cb17e0ae4ab1def67fb2cb",
+    "pose": "b8fd2866270d5b701fd087632142c70fc8a981034406ac5304e1050545c67323",
+    "face": "f028c60330ddd99cd3d71b06dad5b2c233aef438797db35d3b57dad83e910c11",
+    "hands": "d4ec451e3aed5993101051412a3f44d9c24e0155fff4e701fb475c4fda109560",
+    "body": "4db7742e852cf9b6358235be3f3fb4dada2e5beae82eea149c509add8eb41cd7"
+  },
+  "preprocessing_weight_sha256": {
+    "W05": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+    "W06": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+    "W07": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+  },
+  "workers": 1,
+  "elapsed_seconds": 46.18338092206977,
+  "last_sample_id": "ncslgr:ncslgr10p:11:body",
+  "cumulative_attempt_wall_seconds": 46.18338092206977
+}

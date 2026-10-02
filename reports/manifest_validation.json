@@ -1,0 +1,31 @@
+{
+  "status": "PASS_SCHEMA",
+  "counts": {
+    "rows": 214613,
+    "decode_not_checked": 214613,
+    "unresolved_recording_group": 23444,
+    "unknown_signer": 97444,
+    "missing_source": 6782
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "reason": "missing_source",
+      "count": 6782
+    },
+    {
+      "reason": "unresolved_recording_group",
+      "count": 23444
+    },
+    {
+      "reason": "unknown_signer",
+      "count": 97444
+    },
+    {
+      "reason": "decode_not_checked",
+      "count": 214613
+    }
+  ],
+  "scope": "Schema/source existence checks; linguistic validity and full decode are not established.",
+  "manifest_sha256": "0b7e9d1708a1e66925d50df90f96f08401383c249f4318ecee0ecdbd84aa0e32"
+}

@@ -1,0 +1,4 @@
+{
+  "status": "FAIL",
+  "failure_reason": "CalledProcessError: Command '['/home/haipd/Sign_Representations/.venv-signrep/bin/python', 'scripts/audit_errors.py', '--predictions', '/home/haipd/Sign_Representations/runs/common_v1_B03_signrep_seed0/predictions.csv', '/home/haipd/Sign_Representations/runs/common_v1_B03_signrep_seed1/predictions.csv', '/home/haipd/Sign_Representations/runs/common_v1_B03_signrep_seed2/predictions.csv']' returned non-zero exit status 1."
+}

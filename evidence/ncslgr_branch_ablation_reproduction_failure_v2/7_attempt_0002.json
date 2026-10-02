@@ -1,0 +1,24 @@
+{
+  "status": "FAIL",
+  "pid": 27,
+  "device": "cpu",
+  "workers": 1,
+  "samples": 175,
+  "success": 1,
+  "new_clips": 0,
+  "config_sha256": "ab8248f50f22a3f95a695450df6051dc0e506a359bfd37e49567dcff166deca8",
+  "torch_threads": 4,
+  "conditions": [
+    "all",
+    "without_face",
+    "without_hands",
+    "without_body",
+    "face_only",
+    "hands_only",
+    "body_only",
+    "zero_streams"
+  ],
+  "last_sample_id": "ncslgr:ncslgr10b:34:body",
+  "elapsed_seconds": 26.8009800799191,
+  "failure_reason": "ValueError: Recomputed all-stream original features differ beyond registered tolerance: 4.7206878662109375e-05"
+}

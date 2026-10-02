@@ -1,0 +1,12 @@
+{
+  "parser": "PyMuPDF",
+  "parser_version": "1.27.2.3",
+  "pdf_sha256": "54073ed6bc47114deeb3d9311769cffde48d49d1ff144f24a5ea6fc5dc18fe13",
+  "pages": 9,
+  "extracted_characters": 38980,
+  "parser_warnings": "",
+  "repaired": false,
+  "encrypted": false,
+  "read_level": "NOT_ESTABLISHED_BY_EXTRACTION",
+  "page_anchor_trust": "Requires separate ARS preflight; text locators use sections."
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "NCSLGR_COHORT_ca2f0c931dfd08c0",
+  "url": "https://csr.bu.edu/asl/private/compressed/slave2/809_623_small_2.mov",
+  "revision": "20120129 official index; historical annotation readiness cohort",
+  "sha256": "93fcff1cca97f69fc38ab29e50edf30d6d913009c207a8b4ca657752e3b8839a",
+  "bytes": 143997,
+  "local_path": "data/external/ncslgr/cohort_videos/ncslgr_cohort_ca2f0c931dfd08c0.mov",
+  "utc_time": "2026-09-30T20:19:25.200925+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Targeted research use of explicitly public-indexed URL; no DAI login/authentication bypass; no redistribution.",
+  "content_type": "video/quicktime"
+}

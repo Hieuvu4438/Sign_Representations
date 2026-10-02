@@ -1,0 +1,8 @@
+{
+  "status": "PASS_FULL_BODY_VIDEO_INPUT_PROJECTION",
+  "samples": 222,
+  "manifest_sha256": "c1b6149d19c5f52b6d2b3967199a6e0bc3720becd758acc195f7d30351d8966f",
+  "source_manifest_sha256": "3113fbe50f7226e877bcae816cf47f6c82941e62e2d968a630fc23d0cdcf997d",
+  "source_policy": "One previously verified lossless top324x240 frontal body view per utterance, all original frames. Same corrected camera for Lana. No functional core, phenotype label or candidate text in extraction input rows.",
+  "ordering": "train first, then validation/test; within split SHA256(42:sample_id) fixed. No metrics used."
+}

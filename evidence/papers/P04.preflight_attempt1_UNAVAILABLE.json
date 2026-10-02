@@ -1,0 +1,14 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "UNAVAILABLE",
+  "file": "evidence/papers/P04.pdf",
+  "sha256": "6ca58d1d094eeeb129b176c3cb2ae31fe865d7d438f5c5a1039492d09158b132",
+  "declared_page_count": null,
+  "enumerated_page_count": null,
+  "reader_page_count": null,
+  "warnings": [
+    "pypdf-not-installed: preflight cannot parse the document"
+  ],
+  "generated_at": "2026-09-30T17:34:56.788390+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

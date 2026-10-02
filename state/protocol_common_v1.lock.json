@@ -1,0 +1,6 @@
+{
+  "path": "configs/protocol_common_v1.yaml",
+  "sha256": "204aa0aa7552e88dc4874bc5fc793ac676d5cf3adc2612c7a44661068bb8b0c7",
+  "test_inference_has_run": false,
+  "immutability": "Any change requires a new protocol version and separate results."
+}

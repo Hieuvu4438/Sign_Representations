@@ -1,0 +1,12 @@
+{
+  "parser": "PyMuPDF",
+  "parser_version": "1.27.2.3",
+  "pdf_sha256": "d36774a0ed546ce1e81e197ff0766320fb2b15be3e5873f79517f4214b8ad545",
+  "pages": 17,
+  "extracted_characters": 87893,
+  "parser_warnings": "",
+  "repaired": false,
+  "encrypted": false,
+  "read_level": "NOT_ESTABLISHED_BY_EXTRACTION",
+  "page_anchor_trust": "No page anchors used; separate preflight required for them."
+}

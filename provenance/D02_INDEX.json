@@ -1,0 +1,12 @@
+{
+  "asset_id": "D02_INDEX",
+  "url": "https://www.bu.edu/asllrp/ncslgr-for-download/video_index-20120129.zip",
+  "revision": "20120129",
+  "sha256": "4dac2c992d02959542b4a122da274173b2213f7892caf8111cba8d2ad6268840",
+  "bytes": 564370,
+  "local_path": "data/external/ncslgr_video_index.zip",
+  "utc_time": "2026-09-30T17:52:08.718447+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "ASLLRP research and education only; no redistribution without permission.",
+  "content_type": null
+}

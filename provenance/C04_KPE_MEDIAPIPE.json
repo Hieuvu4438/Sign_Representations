@@ -1,0 +1,12 @@
+{
+  "asset_id": "C04_KPE_MEDIAPIPE",
+  "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/kpe_mediapipe.py",
+  "revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "sha256": "c27155744ad21727b15371862a20193129fcad88a1973d291120cbea7d63c807",
+  "bytes": 16462,
+  "local_path": "third_party/shubert-author-demo/kpe_mediapipe.py",
+  "utc_time": "2026-09-30T23:16:10.887200+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Pinned public author demo source; app.py static inspection only; never import UI app or send videos externally.",
+  "content_type": "text/plain; charset=utf-8"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PARTIAL_BOUNDED_VALIDATION",
+  "pid": 4,
+  "samples": 222,
+  "success": 1,
+  "new_clips": 1,
+  "elapsed_seconds": 24.52037110796664,
+  "protocol_sha256": "855f26cc2d45861773c5d23fa2afd47b079660671d27338ebb8c727752a3f317",
+  "manifest_sha256": "c1b6149d19c5f52b6d2b3967199a6e0bc3720becd758acc195f7d30351d8966f",
+  "config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+  "implementation_sha256": "58be3c943b0bdc5728f7b691d4351a4ba4cf7daaeb782981a3b6b72db173e828",
+  "pilot_helpers_sha256": "dd7b4181ed7e072cb8b042dd903dce2a10b1a62e6731737d5ebdccad0438b386",
+  "adapter_sha256": "54d3cbb114a6a0adc45cfe324b467bc84445cff40f165ef825e7c61d097b17ad",
+  "resume_validator_sha256": "64c09d4f799d12a449e74884a4d8130c9123e50c7d3eb8b7f1bc5796f675b914",
+  "timestamp_adapter_sha256": "22d0d5f3893941a5e42ec6a4dddafe8922278d3fcec03b98774e0bb896b0bf31",
+  "device": "cpu",
+  "active_feature_wall_seconds": 21.604522594017908,
+  "last_sample_id": "ncslgr:ncslgr10b:34:body"
+}

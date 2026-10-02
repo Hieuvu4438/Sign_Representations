@@ -1,0 +1,550 @@
+{
+  "status": "PASS_HEADER_SAMPLE",
+  "selection": "SHA25642:sample_id first20per split; headers only, no gold/model evaluation",
+  "manifest_sha256": "10588de667415c1ca9cdcf677d18d0e5d69c7845ee43b05658902b20b6e52f3a",
+  "samples": [
+    {
+      "sample_id": "asl_citizen:02325628446635597-PRETTY",
+      "split": "train",
+      "fps": 30.0,
+      "frames_header": 54.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:9909136501519169-ABBREVIATE",
+      "split": "train",
+      "fps": 29.916410030796303,
+      "frames_header": 68.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:024426544372414982-SHOOT 2",
+      "split": "train",
+      "fps": 30.0,
+      "frames_header": 51.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:2267189834480725-EGO",
+      "split": "train",
+      "fps": 29.918032786885245,
+      "frames_header": 73.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:6983224576459861-CERTIFICATE",
+      "split": "train",
+      "fps": 29.925187032418954,
+      "frames_header": 48.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:7086271866250342-WASH DISHES",
+      "split": "train",
+      "fps": 29.97560125479261,
+      "frames_header": 86.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:8240811599629569-DUCK 2",
+      "split": "train",
+      "fps": 29.917842195008525,
+      "frames_header": 193.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:5182358587022231-TABLET",
+      "split": "train",
+      "fps": 30.0,
+      "frames_header": 60.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:5755513312177611-seedCHEEK",
+      "split": "train",
+      "fps": 30.243,
+      "frames_header": 108.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:31231431906491425-seedSTEAM",
+      "split": "train",
+      "fps": 31.113,
+      "frames_header": 137.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:6360968691811659-seedSQUARE",
+      "split": "train",
+      "fps": 29.971181556195965,
+      "frames_header": 156.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:22231040906855504-BALL",
+      "split": "train",
+      "fps": 29.974720115565187,
+      "frames_header": 83.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:8097054018112828-CEREAL",
+      "split": "train",
+      "fps": 29.96914940502424,
+      "frames_header": 68.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:504864922087114-seedYEAR",
+      "split": "train",
+      "fps": 30.172,
+      "frames_header": 133.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:3258202463814146-FREEDOM",
+      "split": "train",
+      "fps": 29.97658079625293,
+      "frames_header": 64.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:971053005591326-BITE",
+      "split": "train",
+      "fps": 30.0,
+      "frames_header": 81.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:3519941104013016-MOTIVATION",
+      "split": "train",
+      "fps": 30.0,
+      "frames_header": 51.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:6296671733220229-DRYER",
+      "split": "train",
+      "fps": 30.0,
+      "frames_header": 63.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:4076286172592669-BITE",
+      "split": "train",
+      "fps": 16.666666666666668,
+      "frames_header": 63.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:7483516578521856-NERVE",
+      "split": "train",
+      "fps": 30.00319182891797,
+      "frames_header": 94.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:6922837378429851-HAT",
+      "split": "val",
+      "fps": 29.9680668140506,
+      "frames_header": 122.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:8433989251549008-DENTIST",
+      "split": "val",
+      "fps": 29.918032786885245,
+      "frames_header": 73.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:3742865887230582-ABBREVIATE",
+      "split": "val",
+      "fps": 29.96914940502424,
+      "frames_header": 68.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:5557394845250132-ENGAGEMENT",
+      "split": "val",
+      "fps": 30.337,
+      "frames_header": 79.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:40154871052062435-SHOT",
+      "split": "val",
+      "fps": 29.964448958862366,
+      "frames_header": 59.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:7060897147805703-GOODY GOODY",
+      "split": "val",
+      "fps": 29.99754118514876,
+      "frames_header": 122.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:35864673161352667-CHEESE GRATER",
+      "split": "val",
+      "fps": 29.994916115912556,
+      "frames_header": 59.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:35384973965975797-PATIENT",
+      "split": "val",
+      "fps": 30.573,
+      "frames_header": 65.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:8484341141711933-YEAR",
+      "split": "val",
+      "fps": 29.994643813604714,
+      "frames_header": 56.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:3031482649984387-THURSDAY",
+      "split": "val",
+      "fps": 30.005770340450088,
+      "frames_header": 52.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:023693734396403432-COME HERE",
+      "split": "val",
+      "fps": 30.593,
+      "frames_header": 51.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:8808256665388601-RESTAURANT",
+      "split": "val",
+      "fps": 29.974160206718345,
+      "frames_header": 116.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:20687448246581552-METAPHOR",
+      "split": "val",
+      "fps": 30.002362390739428,
+      "frames_header": 127.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:4762888945413031-BANK",
+      "split": "val",
+      "fps": 29.919137466307276,
+      "frames_header": 111.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:11797732865735-GATE",
+      "split": "val",
+      "fps": 30.543,
+      "frames_header": 77.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:052047780303462465-TOMORROW",
+      "split": "val",
+      "fps": 29.9625468164794,
+      "frames_header": 48.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:9526582508175447-MARIONETTE",
+      "split": "val",
+      "fps": 29.918404351767904,
+      "frames_header": 99.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:15761877128928625-STRANGLE",
+      "split": "val",
+      "fps": 29.968454258675077,
+      "frames_header": 57.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:702864165308827-DENTIST",
+      "split": "val",
+      "fps": 30.001775252973548,
+      "frames_header": 169.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:4099231660597462-PRETTY",
+      "split": "val",
+      "fps": 30.271,
+      "frames_header": 59.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:8582081133628761-TINY",
+      "split": "test",
+      "fps": 29.983792544570502,
+      "frames_header": 37.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:9053744659444944-STRAWBERRY 4",
+      "split": "test",
+      "fps": 29.995588883987647,
+      "frames_header": 68.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:03945007591252714-WOW",
+      "split": "test",
+      "fps": 29.998064640990904,
+      "frames_header": 155.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:07028305904568288-SALT",
+      "split": "test",
+      "fps": 30.0,
+      "frames_header": 69.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:31573107118682464-SOON 3",
+      "split": "test",
+      "fps": 30.0,
+      "frames_header": 51.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:8638170424352227-MACHINE",
+      "split": "test",
+      "fps": 30.003409478349813,
+      "frames_header": 88.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:25551104180574113-HOOD",
+      "split": "test",
+      "fps": 29.921259842519685,
+      "frames_header": 57.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:9939943673068379-WHEEL",
+      "split": "test",
+      "fps": 31.034,
+      "frames_header": 148.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:38189932991869613-STACK 2",
+      "split": "test",
+      "fps": 31.021,
+      "frames_header": 117.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:08726146864495243-DENTIST",
+      "split": "test",
+      "fps": 30.00428632661809,
+      "frames_header": 70.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:29921705550419175-ADVANTAGE",
+      "split": "test",
+      "fps": 30.0,
+      "frames_header": 42.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:5479992662177449-GOODY GOODY",
+      "split": "test",
+      "fps": 30.001807337791433,
+      "frames_header": 166.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:2964595750887693-MOTIVATION",
+      "split": "test",
+      "fps": 30.00517330574237,
+      "frames_header": 58.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:28361232762737765-YOYO",
+      "split": "test",
+      "fps": 24.582,
+      "frames_header": 112.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:4378009582630418-HOSE",
+      "split": "test",
+      "fps": 29.91026919242273,
+      "frames_header": 30.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:9838705366556413-HOUR",
+      "split": "test",
+      "fps": 29.915692140331792,
+      "frames_header": 110.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:19466969481468022-RESTAURANT",
+      "split": "test",
+      "fps": 30.0,
+      "frames_header": 92.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:7785384085221538-SUNBATHE",
+      "split": "test",
+      "fps": 31.053,
+      "frames_header": 71.0,
+      "width": 960.0,
+      "height": 540.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:7764407168011447-DANCER",
+      "split": "test",
+      "fps": 30.869,
+      "frames_header": 66.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    },
+    {
+      "sample_id": "asl_citizen:891336711433921-SWING",
+      "split": "test",
+      "fps": 29.91725015913431,
+      "frames_header": 94.0,
+      "width": 640.0,
+      "height": 480.0,
+      "opened": true
+    }
+  ],
+  "limits": [
+    "Header counts/FPS are not full decode or landmark coverage. Actual preprocessing validates every decoded clip."
+  ]
+}

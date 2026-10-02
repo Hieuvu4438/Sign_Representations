@@ -1,0 +1,57 @@
+{
+  "seed": 2,
+  "selected_lr": 0.03,
+  "validation": {
+    "top1": 0.7407407407407407,
+    "macro_recall": 0.6031746031746031,
+    "per_class_recall": {
+      "0": 0.5,
+      "1": 0.8095238095238095,
+      "2": 0.5
+    }
+  },
+  "candidates": [
+    {
+      "lr": 0.01,
+      "validation": {
+        "top1": 0.5925925925925926,
+        "macro_recall": 0.4047619047619048,
+        "per_class_recall": {
+          "0": 0.0,
+          "1": 0.7142857142857143,
+          "2": 0.5
+        }
+      },
+      "final_train_loss": 0.00045280688209459186
+    },
+    {
+      "lr": 0.03,
+      "validation": {
+        "top1": 0.7407407407407407,
+        "macro_recall": 0.6031746031746031,
+        "per_class_recall": {
+          "0": 0.5,
+          "1": 0.8095238095238095,
+          "2": 0.5
+        }
+      },
+      "final_train_loss": 2.9386579626589082e-05
+    },
+    {
+      "lr": 0.1,
+      "validation": {
+        "top1": 0.7407407407407407,
+        "macro_recall": 0.6031746031746031,
+        "per_class_recall": {
+          "0": 0.5,
+          "1": 0.8095238095238095,
+          "2": 0.5
+        }
+      },
+      "final_train_loss": 3.6562707919074455e-06
+    }
+  ],
+  "head_parameters": 2307,
+  "protocol_sha256": "be9ba90fc2b261bc2f3ba9af9299cd5333ebcd8b6a886fa8a3daf39a02cb5c22",
+  "test_used_for_selection": false
+}

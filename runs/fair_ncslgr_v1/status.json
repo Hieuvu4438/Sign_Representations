@@ -1,0 +1,10 @@
+{
+  "status": "PASS_EXPLORATORY_EQUAL_BUDGET_NATIVE_FUNCTION_CONTROLS",
+  "pid": 3,
+  "device": "cpu",
+  "config_sha256": "0d08343e17dd5cbbae460ff348dad1ff25620c165d81d1f2f11ae33d4edc85e1",
+  "native_completed": 220,
+  "native_samples": 222,
+  "elapsed_seconds": 2713.5632918209303,
+  "updated_utc": "2026-10-01T01:08:53Z"
+}

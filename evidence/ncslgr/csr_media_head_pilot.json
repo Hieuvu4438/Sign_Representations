@@ -1,0 +1,98 @@
+{
+  "utc": "2026-09-30T19:58:07.035907+00:00",
+  "selection": "sha256(42:XML filename), ten distinct XML files, one compressed MOV URL each, HTTPS transport upgrade only",
+  "eligible_xml_files": 34,
+  "results": [
+    {
+      "xml_file": "roadtrip2.xml",
+      "published_url": "http://csr.bu.edu/asl/private/downloads/2003_09_29/roadtrip2_1051_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/downloads/2003_09_29/roadtrip2_1051_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/downloads/2003_09_29/roadtrip2_1051_small_0.mov",
+      "bytes": "71798377",
+      "content_type": "video/quicktime"
+    },
+    {
+      "xml_file": "ncslgr10r.xml",
+      "published_url": "http://csr.bu.edu/asl/private/downloads/2002_4_9/master/d10_1166_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/master/d10_1166_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/master/d10_1166_small_0.mov",
+      "bytes": "1023953",
+      "content_type": "video/quicktime"
+    },
+    {
+      "xml_file": "ncslgr10b.xml",
+      "published_url": "http://csr.bu.edu/asl/private/compressed/master/718_523_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/compressed/master/718_523_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/compressed/master/718_523_small_0.mov",
+      "bytes": "216949",
+      "content_type": "video/quicktime"
+    },
+    {
+      "xml_file": "ali.xml",
+      "published_url": "http://csr.bu.edu/asl/private/downloads/2003_09_29/muhammed_ali_1052_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/downloads/2003_09_29/muhammed_ali_1052_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/downloads/2003_09_29/muhammed_ali_1052_small_0.mov",
+      "bytes": "58998517",
+      "content_type": "video/quicktime"
+    },
+    {
+      "xml_file": "ncslgr10c.xml",
+      "published_url": "http://csr.bu.edu/asl/private/compressed/master/765_574_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/compressed/master/765_574_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/compressed/master/765_574_small_0.mov",
+      "bytes": "170565",
+      "content_type": "video/quicktime"
+    },
+    {
+      "xml_file": "ncslgr10a.xml",
+      "published_url": "http://csr.bu.edu/asl/private/compressed/master/669_474_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/compressed/master/669_474_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/compressed/master/669_474_small_0.mov",
+      "bytes": "213497",
+      "content_type": "video/quicktime"
+    },
+    {
+      "xml_file": "whitewater.xml",
+      "published_url": "http://csr.bu.edu/asl/private/downloads/2003_09_29/whitewater_rafting_1049_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/downloads/2003_09_29/whitewater_rafting_1049_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/downloads/2003_09_29/whitewater_rafting_1049_small_0.mov",
+      "bytes": "81128549",
+      "content_type": "video/quicktime"
+    },
+    {
+      "xml_file": "ncslgr10t.xml",
+      "published_url": "http://csr.bu.edu/asl/private/downloads/2002_8_15/_1467_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/downloads/2002_8_15/_1467_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/downloads/2002_8_15/_1467_small_0.mov",
+      "bytes": "638605",
+      "content_type": "video/quicktime"
+    },
+    {
+      "xml_file": "ncslgr10g.xml",
+      "published_url": "http://csr.bu.edu/asl/private/compressed/master/548_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/compressed/master/548_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/compressed/master/548_small_0.mov",
+      "bytes": "1708741",
+      "content_type": "video/quicktime"
+    },
+    {
+      "xml_file": "ncslgr10s.xml",
+      "published_url": "http://csr.bu.edu/asl/private/downloads/2002_7_25/_1295_small_0.mov",
+      "request_url": "https://csr.bu.edu/asl/private/downloads/2002_7_25/_1295_small_0.mov",
+      "status": 200,
+      "final_url": "https://csr.bu.edu/asl/private/downloads/2002_7_25/_1295_small_0.mov",
+      "bytes": "408441",
+      "content_type": "video/quicktime"
+    }
+  ],
+  "scope": "Failed HEAD for selected URLs does not prove that all CSR formats/URLs are unavailable."
+}

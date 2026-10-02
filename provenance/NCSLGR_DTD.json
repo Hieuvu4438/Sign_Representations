@@ -1,0 +1,12 @@
+{
+  "asset_id": "NCSLGR_DTD",
+  "url": "https://www.bu.edu/asllrp/ncslgr-for-download/old-dtd.xml",
+  "revision": "Official historical NCSLGR distribution; retrieval version recorded by hash",
+  "sha256": "2ea74b70e999311b5567fd4442b26a5999145dd6e868d2144361594a869439b8",
+  "bytes": 1670,
+  "local_path": "evidence/ncslgr/old-dtd.xml",
+  "utc_time": "2026-09-30T19:49:32.167305+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Official public ASLLRP distribution. Corpus terms distinct from code; research use within original plan; no redistribution.",
+  "content_type": "text/xml"
+}

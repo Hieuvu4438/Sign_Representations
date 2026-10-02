@@ -1,0 +1,33 @@
+{
+  "status": "UNVERIFIED_GROUPS",
+  "sample_counts": [
+    {
+      "dataset_id": "how2sign",
+      "split": "test",
+      "rows": 2349
+    },
+    {
+      "dataset_id": "how2sign",
+      "split": "train",
+      "rows": 31165
+    },
+    {
+      "dataset_id": "how2sign",
+      "split": "val",
+      "rows": 1527
+    }
+  ],
+  "recording_group_count": 4656,
+  "recording_overlaps": [],
+  "signer_count": 0,
+  "signer_overlaps": [],
+  "unresolved_recording_counts": {
+    "how2sign": 2349
+  },
+  "exact_hash_overlaps": [],
+  "content_hash_coverage": 0,
+  "perceptual_duplicate_audit": "NOT_RUN",
+  "pretraining_overlap": "UNKNOWN",
+  "scope": "Metadata group audit; absent metadata overlap does not establish absent pretraining or visual duplication.",
+  "manifest_sha256": "16829e332fb21618d8805eb709708580e9fc6627784efd7f90f1ffcef3fa02b0"
+}

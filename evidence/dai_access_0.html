@@ -1,0 +1,1196 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>American Sign Language ASLLRP Data Access Interface (DAI)</title>
+         
+        <meta name="description" content="American Sign Language Linguistic Research Project (ASLLRP) Data Access Interface (DAI) 2 - SignStream&reg; databases NCSLGR Sign Bank ASL continuous signing â/>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Carol Neidle">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
+        <script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js/jQuery-Core-1.9.1.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        
+        <script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js/jQuery-Core-1.9.1.js"></script>
+        <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+        
+        <!-- <script src="https://dai.cs.rutgers.edu//dai/js/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script> -->
+        
+       	<link rel="stylesheet" href="https://dai.cs.rutgers.edu//dai/bootstrap/css/custom.css">
+        <link rel="stylesheet" href="https://dai.cs.rutgers.edu//dai/bootstrap/css/bootstrap.css">		            
+
+			
+
+		<!-- <script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js/jquery-ui-1.8.18.custom.min.js"></script> -->
+		
+		<!-- <script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js/swfobject.js"></script> -->
+		
+		<!-- <script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js/sentenceSummary.js"></script> -->
+		
+		<!-- <script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js/cart-common.js"></script> -->
+		
+		
+		<script type='text/javascript'>
+function popup(mylink, hand) { 
+	  document.getElementById("all_signs_al").checked=false;
+	  document.getElementById("all_signs_eg").checked=false;
+	  document.getElementById("all_signs_egcl").checked=false;
+	  
+	  document.getElementById("SignTag_5").checked=false;
+	  document.getElementById("SignTag_3").checked=false;
+	  document.getElementById("SignTag_9").checked=false;
+	  document.getElementById("SignTag_6").checked=false;
+	  
+	  
+	  checkboxes = document.getElementsByName("classifier");
+	  
+	  for(var i=0, n=checkboxes.length;i<n;i++) {
+		    checkboxes[i].checked = "";
+	  }
+  
+    if (! window.focus)return true;
+    var href;
+    if (typeof(mylink) == 'string') href=mylink;
+    else href=mylink.href; 
+    window.open(href, hand, 'width=700,height=700,scrollbars=yes'); 
+    return false; 
+}
+  
+function HandlePopupResult(result, hand, label) {
+    document.getElementById(hand).src="../images/handShapes/" + result;
+    var id = "id_" + hand;
+    var search_id = hand + "_search";
+    
+    document.getElementById(id).value = label;
+    document.getElementById(search_id).value="../images/handShapes/" + result;
+    
+    document.getElementById("handshapes").checked=true;
+   
+  }
+  
+function toggle_checkbox(source, chkbox) {
+  checkboxes = document.getElementsByName(chkbox);
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+    checkboxes[i].checked = source.checked;
+  }
+}
+
+function clear_all_handshapes() {
+    document.getElementById("1handed").checked=false;
+    document.getElementById("2handed").checked=false;
+    
+    document.getElementById("sstartend").checked=false;
+    document.getElementById("dstartend").checked=false;
+    
+    document.getElementById("snddh").checked=false;
+    document.getElementById("dnddh").checked=false;
+    
+    
+  	document.getElementById("dh_start").src="../images/handShapes/search.png";
+    document.getElementById("nd_start").src="../images/handShapes/search.png";
+    document.getElementById("nd_end").src="../images/handShapes/search.png";
+    document.getElementById("dh_end").src="../images/handShapes/search.png";
+    
+    checkboxes = document.getElementsByName("sign_extras");
+  
+  	for(var i=0, n=checkboxes.length;i<n;i++) {
+	    checkboxes[i].checked = "";
+  	}
+}
+
+
+function clear_all_hands() {
+  checkboxes = document.getElementsByName("sign_extras");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+	    checkboxes[i].checked = "";
+  }
+  
+  
+}
+
+function clear_all_signs() {
+
+
+  document.getElementById("all_signs_al").checked=false;
+  document.getElementById("all_signs_eg").checked=false;
+  document.getElementById("all_signs_egcl").checked=false;
+  
+  
+  checkboxes = document.getElementsByName("incl_comp");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+  		if(checkboxes[i].value != "incl_non_comp")
+		{
+		    checkboxes[i].checked = "";
+		}
+		else
+		{
+			checkboxes[i].checked = "true";
+		}
+  }
+  
+  checkboxes = document.getElementsByName("SignTag");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+	    checkboxes[i].checked = "";
+  }
+  
+  checkboxes = document.getElementsByName("classifier");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+	    checkboxes[i].checked = "";
+  }
+  
+}
+
+
+
+function check_compounds() {
+
+  document.getElementById("incl_non_comp").checked=true;
+    		
+  
+}
+
+function check_lexical_sign() {
+
+  document.getElementById("all_signs_al").checked=false;
+  document.getElementById("all_signs_eg").checked=false;
+  document.getElementById("all_signs_egcl").checked=false;
+  
+  document.getElementById("SignTag_5").checked=false;
+  document.getElementById("SignTag_3").checked=false;
+  document.getElementById("SignTag_9").checked=false;
+  document.getElementById("SignTag_6").checked=false;
+  
+  
+  checkboxes = document.getElementsByName("classifier");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+	    checkboxes[i].checked = "";
+  }
+}
+
+
+function uncheck_all_signs() {
+  checkboxes = document.getElementsByName("SignTag");
+  
+  document.getElementById("all_signs_al").checked=false;
+  			document.getElementById("all_signs_eg").checked=false;
+	  		document.getElementById("all_signs_egcl").checked=false;
+	  		
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+  		if(checkboxes[i].checked == false && ( checkboxes[i].value == 1 || checkboxes[i].value == 5  || checkboxes[i].value == 3
+  		|| checkboxes[i].value == 9 || checkboxes[i].value == 2 ) )
+  		{
+  			document.getElementById("all_signs_al").checked=false;
+  			document.getElementById("all_signs_eg").checked=false;
+	  		document.getElementById("all_signs_egcl").checked=false;
+		}
+  }
+}
+
+function check_all_signs() {
+  checkboxes = document.getElementsByName("SignTag");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+	    checkboxes[i].checked = "checked";
+  }
+  
+  checkboxes = document.getElementsByName("classifier");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+	    checkboxes[i].checked = "checked";
+  }
+  
+}
+
+function check_all_signs_x_gestures() {
+  checkboxes = document.getElementsByName("SignTag");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+    if(checkboxes[i].value == 6 )
+    	checkboxes[i].checked = "";
+    else
+	    checkboxes[i].checked = "checked";
+  }
+  
+  checkboxes = document.getElementsByName("classifier");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+	    checkboxes[i].checked = "checked";
+  }
+}
+
+function check_all_signs_x_gestures_classifiers() {
+  checkboxes = document.getElementsByName("SignTag");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+    if(checkboxes[i].value == 6 || checkboxes[i].value == 7 )
+    	checkboxes[i].checked = "";
+    else
+	    checkboxes[i].checked = "checked";
+  }
+  
+  checkboxes = document.getElementsByName("classifier");
+  
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+	    checkboxes[i].checked = "";
+  }
+}  
+</script>
+
+
+<style>
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: gray;
+  color: white;
+  font-size: 30px;
+}
+
+div.panel-body {
+  background-color: #DEF1FF;
+}
+</style>
+
+    </head>
+    <body>
+    
+	  <header class="navbar navbar-default navbar-static-top">
+		  <div class="container"> 		
+			  <span id="branding" class="navbar-brand">
+				  <p>American Sign Language Linguistic Research Project (ASLLRP) <br/>Data Access Interface (DAI) 2 <font color='red'> Version 2.0</font></p>
+			  </span>
+			  <ul class="nav navbar-nav navbar-right">
+				  <li class=""><a href="dai">Home</a></li>
+				  <!--<li class="active"><a href="search.php">Search</a></li> -->
+				  <!--<li class="dropdown active"> 
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Search <span class="caret"></span></a>
+					  <ul class="dropdown-menu dropdown-menu-left">
+						  <li class="small"><a style="color:#474E5D" href="search.php?type=ncslgr">National Center for Sign Language and Gesture Resources (NCSLGR) dataset</a></li>
+						  <li role="separator" class="divider"></li>		
+						  <li class="small"><a style="color:#474E5D" href="search.php?type=asllvd">American Sign Language Lexicon Video Dataset (ASLLVD)</a></li>
+						  <li role="separator" class="divider"></li>
+						  <li class="small"><a style="color:#474E5D" href="search.php?type=asllrp">American Sign Language Linguistic Research Project (ASLLRP) SignStream&reg; 3 Corpora *</a></li>
+					  </ul>
+				  </li>	
+				  -->
+				  <!--<li class=""><a href="search.php">Search</a></li> -->
+				  
+				  <li class="dropdown ">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Search <span class="caret"></span></a>
+					  <ul class="dropdown-menu dropdown-menu-left">
+					      <li class="small"><a style="color:#474E5D" href="signbank">ASLLRP Sign Bank</a></li>
+					  	  <li role="separator" class="divider"></li>	
+						  <li class="small"><a style="color:#474E5D" href="dai">ASLLRP SignStream&reg; 3 Corpora</a></li>
+					  	  <li role="separator" class="divider"></li>		
+						  <li class="small"><a style="color:#474E5D" href="daioriginal">NCSLGR SignStream&reg; 2 Corpus (OLDER)</a></li>
+					  </ul>
+				  </li>	
+				   
+				   <li class=""><a href="http://www.bu.edu/asllrp/dai-terms.html" target="popup" onclick="window.open('http://www.bu.edu/asllrp/dai-terms.html','popup','width=1000,height=600'); return false;">Terms of Use</a>
+					</li>
+				  
+<!-- 				  <li class=""><a href="more.php">More Info</a></li> -->		  
+				  
+				  
+				  
+				  
+				  
+				  <li class=""><a href="index?redirect=dai">Login</a></li>
+				  
+				  <li class=""><a href="http://www.bu.edu/asllrp/rpt18/asllrp18.pdf" target="popup" onclick="window.open('http://www.bu.edu/asllrp/rpt18/asllrp18.pdf','popup','width=1000,height=600'); return false;">Help</a></li>
+			  </ul>
+		  </div>
+	  </header>
+	  
+	  
+	  <div class="container">
+	  
+	  <div class="header">
+  			<h1>ASLLRP Continuous Signing Corpora</h1>
+	  </div>
+
+	  <BR><center><p style="color:black;font-size:20px"><B>Sign Search</B></p></center>
+	  <left>
+	  <img src="../images/disclosure2.png" alt"" style="width:650px;height:80px;"> 
+	  </left>					
+	  
+	  <BR><BR>
+	  
+	<article class="row">
+		<section class="col-md-9">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="panel-header">
+						<h4><span style="color:#f04d25">Search</span> - <small>ASLLRP Linguistic Annotations and Video Files</small></h4>
+					</div>
+
+
+<form class="form-horizontal" role="search" action="searchsummary" name="form" id="queryform">
+						<div class="input-group col-sm-8 col-sm-offset-2">
+							<input type="text" class="form-control" id="inputSearch"
+								aria-describedby="inputSearch" placeholder="Search All.."
+								name="signName" value="">
+							</input>
+							<div class="input-group-btn">
+								<button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"> SUBMIT</i></button>
+							</div>	
+						</div>
+						
+						<div class="form-group">
+							<label class="control-label col-sm-2" style="color:#286fb7"></label>
+							<div class="col-sm-9">
+								
+								<label class="radio-inline"><input	type="radio" name="full_partial" value="1" >Whole</label> 
+								<label class="radio-inline"><input type="radio" name="full_partial" value="0" checked='checked'>Partial</label>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="control-label col-sm-2" style="color:#286fb7">Hand</label>
+							<div class="col-sm-9">
+								<label class="radio-inline"><input type="radio" name="hand" value="1" >Dominant
+								</label> 
+								<label class="radio-inline"><input type="radio" name="hand" value="0" >Non-Dominant </label> <label
+								class="radio-inline"><input type="radio" name="hand" value="0,1" checked='checked'>Don't Care</label>
+							</div>
+						</div>
+						
+					<!--</form>  FORM END -->					
+				</div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="panel-header">
+						<!--<h4><i style="color:#f04d25" class="glyphicon glyphicon-option-horizontal"></i></h4>-->
+					</div>
+					<div class="form-group">
+						<div class="col-sm-12">
+							<label class="radio-inline"><input type="radio"  id="all_signs_al" name="all_signs" onClick="check_all_signs()" value="all_signs_al">All Signs</label> 
+							<label class="radio-inline"><input type="radio"  id="all_signs_eg" name="all_signs" onClick="check_all_signs_x_gestures()" value="all_signs_eg">All Signs [excl. Gestures]</label> 
+ 							<label class="radio-inline"><input type="radio" checked='checked' id="all_signs_egcl" name="all_signs" onClick="check_all_signs_x_gestures_classifiers()" value="all_signs_egcl">All Signs [excl. Gestures &amp; CL]</label>	
+						</div>
+					</div>
+<br/>
+					<div class="form-group">
+						<div class="col-sm-12">
+							<label class="checkbox-inline">
+							  <input type="checkbox" checked='checked' onClick="uncheck_all_signs()" class="N G" name="SignTag" id="SignTag_1" value="1">Lexical Signs
+							</label> &nbsp;
+							<label class="checkbox-inline">
+							  <input type="checkbox" checked='checked' onClick="uncheck_all_signs()" class="N G" name="SignTag" id="SignTag_5" value="5">Loan Signs
+							</label>
+							<label class="checkbox-inline">
+							  <input type="checkbox" checked='checked' onClick="uncheck_all_signs()" class="N G" name="SignTag" id="SignTag_3" value="3">Fingerspelled Signs 
+							</label> 
+						</div>	 	  
+					</div>
+					<div class="form-group">
+						<div class="col-sm-12">
+							<label class="checkbox-inline">
+							  <input type="checkbox" checked='checked' onClick="uncheck_all_signs()" class="G" name="SignTag" id="SignTag_9" value="9">Number Signs 
+							</label>
+							 
+							<label class="checkbox-inline">
+							  <input type="checkbox"  onClick="uncheck_all_signs()" class="G" name="SignTag" id="SignTag_6"  value="6">Gestures
+							</label>
+						 </div>									
+					</div>
+<br/><br/>	
+					<tbody>
+					<tr>
+			 		 <td id="cs_901" class="helpBod sign_col">
+					 <span class="xp_spacer expander">&nbsp;</span>
+					<div class="form-group">
+						<div class="col-sm-12">
+							<ul class="list-unstyled">
+								<li><input type="checkbox" name="SignTag" value="7"  onClick="toggle_checkbox(this, 'classifier')"> <a href="#classifiers" data-toggle="collapse" data-target="#classifiers"><i class="glyphicon glyphicon-plus"></i> All Classifiers (# occurrences)</a> <span style="margin-left: 42%;">	
+								 </span></li>
+									<div class="collapse in list-unstyled" id="classifiers">
+									<ul class="list-unstyled">
+										<li><div class="col-sm-1"></div><input type="checkbox"  class="CL" name="classifier" value="BCL"> Body (e.g., BCL"put arms around friend") (14)</li>
+										<li><div class="col-sm-1"></div><input type="checkbox"  name="classifier" value="BPCL"> Body Part (e.g., (2h)BPCL:B"taps foot") (18)</li>
+										<li><div class="col-sm-1"></div><input type="checkbox"  name="classifier" value="DCL"> Descriptive (e.g., DCL"curly hair") (221)</li>
+										<li><div class="col-sm-1"></div><input type="checkbox"  name="classifier" value="ICL"> Instrument (e.g., ICL"playing jacks") (26)</li>
+										<li><div class="col-sm-1"></div><input type="checkbox"  name="classifier" value="LCL"> Locative (e.g., LCL:B"leaf drifting to the ground") (14)</li>
+										<li><div class="col-sm-1"></div><input type="checkbox"  name="classifier" value="PCL"> Plural (e.g., PCL:4"long line of people") (12)</li>
+										<li><div class="col-sm-1"></div><input type="checkbox"  name="classifier" value="SCL"> Semantic (e.g., SCL:1"person walking stiffly") (133)</li>
+									</ul>
+									</div>
+						    
+							</ul>	
+						</div>
+					</div>
+					
+					<BR><BR><BR>
+					
+					<div class="form-group">
+							<div class="col-sm-12 ">
+								<label class="radio-inline"><input type="radio" name="incl_comp" id="incl_comp" value="incl_comp" >Only Compounds	</label>
+								<label class="radio-inline"><input type="radio" name="incl_comp" id="incl_non_comp" value="incl_non_comp" checked='checked'>Only Non-Compounds	</label>
+								<label class="radio-inline"><input type="radio" name="incl_comp" id="incl_comp_either" value="either" >Either	</label>
+								<!-- <label class="checkbox-inline"><input type="checkbox" value="incl_comp" name="incl_comp" > Include compounds</label> 
+								<label class="checkbox-inline"><input type="checkbox" value="incl_non_comp" name="incl_comp" checked='checked'> Include non-compounds</label>
+								-->
+							</div>
+						</div>
+<br/>			
+					
+					
+					</tr>					
+					</tbody>
+<br/>	<!-- WORK IN PROGRESS-->					
+						
+<!-- WORK IN PROGRESS-->
+					<div class="form-group">
+						<div class="col-sm-12"> 
+<div class="col-xs-4 col-xs-offset-8"><a href="javascript:clear_all_signs();" style="color: #E20122;">Clear All</a> &nbsp;[ <span class="glyphicon glyphicon-ban-circle" aria-hidden="true" style="color: #337ab7"></span> ]</div>
+						 </div>									
+					</div>
+															
+				</div>
+			</div>
+			
+			<div class="panel panel-default" >
+				<div class="panel-body">
+					
+<div class="row">
+	<div class="col-md-10 col-md-offset-1" style="border: 1px solid #474E5D;border-radius: 1px;margin-bottom:1px;">
+		<h4><span style="color:#f04d25">Restrict Search:</span> <small><span style="color:#f04d25"></span></small> <small>Restrict your search to <span style="color:#f04d25">non-compounds</span> with the following options:</small></h4>
+            		
+		<table width="100%" class="table-condensed ">
+    	
+    	<tbody>
+    		
+    		<tr>
+        		<td>
+					<div style="margin-top:0px;margin-bottom:0px;" class="checkbox">
+                		<label>
+                    		<input type="radio"  value="1handed" name="handed" id="1handed" onClick="check_compounds()"> 1-handed &nbsp; &nbsp;
+                    		<input type="radio"  value="2handed"  name="handed" id="2handed" onClick="check_compounds()"> 2-handed
+                		</label>
+                		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                		<label>
+                    		<input type="checkbox"  name="sign_extras" value="name_signs" onClick="check_compounds()">Name Signs 
+                		</label>
+            		</div>           		     
+        		</td>
+        </tr>
+        </table>		
+        
+        <hr style="border-color:#474E5D;">
+        
+       
+	</table>
+	
+<!-- INNER BOX BOTTOM-->	
+					<h4><span style="color:#f04d25">Restrict Search:</span> <small><span style="color:#f04d25"></span></small> <small>Restrict your search to <span style="color:#f04d25">lexical signs only,</span> also meeting these criteria:</small></h4>
+					<input type="checkbox"  name="sign_extras" value="marked_num_hands" onClick="check_lexical_sign()"> Marked number of hands &nbsp; 
+					<BR><BR>
+<div class="row">
+                    		
+					
+							<div style=" border-right:1px dotted #474E5D;" class="col-md-5  ">
+						   		<h5 style="color:#286fb7">Dominant Hand</h5>
+								<div class="checkbox">
+									<label>
+									<input type="radio"  value="sstartend" name="dhand" id="sstartend" onClick="check_lexical_sign()"> Same start/end hs
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+									<input type="radio"  value="dstartend" name="dhand" id="dstartend" onClick="check_lexical_sign()"> Different start/end hs
+									</label>
+								</div> 
+							<hr style="border-color:#474E5D;">
+							<div class="row">
+								<div id="my-icon-select"></div>
+								<table align="left" class="empty" style="width:200px"> 
+									<tbody><tr>
+										<td valign="top" class="Sel" style="width:150px;padding-left:20px;">
+											<table class="empty" style="width:150px">
+												<tbody><tr>
+													<td><div style="height:5px; width:100%;"></div> 
+														<div style="display:none;"> Select signs </div>
+														<table style="width:95%;" class="AnnotateTD">
+															<tbody><tr>
+																<td colspan="2">
+																			<table class="SignQueryHSInnerTable">
+																				<tbody><tr><td colspan="2"> 
+																						<select style="width:100%;display:none;" onchange="query_HS_dominance_changed( false ); return false;" id="query_HS_dominance">
+																							<option> Both-hands start Ã¢ÂÂ end HS</option>
+																							<option> Both-hands S,E HS variants </option>
+																							<option> Dominant start Ã¢ÂÂ end HS</option>
+																							<option> Dominant start HS variants </option>
+																							<option> Dominant end HS variants </option>
+																						</select> 
+																				</td></tr>
+																				<tr><td id="query_HS_start_txt" style="text-align:center;" class="Sel">Start HS </td>
+																					<td id="query_HS_end_txt" style="text-align:center;" class="Sel">End HS 	</td>	
+																				</tr>
+																				<tr><td class="HSIDText" id="sign_query_interface_dominant_startHS_ID"></td>
+																					<td class="HSIDText" id="sign_query_interface_dominant_endHS_ID"></td> 
+																				</tr>
+																				<tr>
+																					<td style="text-align:center;"> 
+																							<button type="submit" style="background-color:transparent; border-color:black;" onClick="return popup('handshape?hand=dh_start', 'dh_start')">
+																								<img id="dh_start" src="../images/handShapes/search.png" alt"" style="width:50px;height:50px;"> 
+																							</button>
+																					<td style="text-align:center;"> 
+																						<button type="submit" style="background-color:transparent; border-color:black;" onClick="return popup('handshape?hand=dh_end', 'dh_end')">
+																				  			<img id="dh_end" src="../images/handShapes/search.png" alt"" style="width:50px;height:50px;"> 
+																			  			</button>
+																					</td>
+																			</tr></tbody></table>
+																</td>
+															</tr>
+															<tr><td colspan="2"><a onclick="show_signs_lookup_table_window(); return false;" href="JavaScript:void(0);"></a></td></tr>
+														</tbody></table>
+											</td></tr></tbody></table>
+										</td>
+										<!-- DISPLAY NONE  -->
+										<td valign="top" class="Sel" style="width:150px;display:none; ">
+											<table class="empty" style="width:150px">
+									<tbody><tr>
+										<td>
+											<table style="width:95%;" class="AnnotateTD">
+												<tbody><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" checked="" id="all_signs"> </td><td class="Sel"> All signs
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="allophones"> </td><td class="Sel"> HS variations
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="sign_variations"> </td><td class="Sel"> Morphological variations
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="sign_versions"> </td><td class="Sel"> Lexical variations
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="start_end_handshape_differ"> </td><td class="Sel"> Star,end HS differ 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="one_handed_signs"> </td><td class="Sel"> One handed signs 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="two_handed_signs"> </td><td class="Sel"> Two handed signs 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="two_handed_same_signs"> </td><td class="Sel"> Two handed non-alternating same 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="two_handed_alt_same_signs"> </td><td class="Sel"> Two handed alternating same 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="two_handed_different_signs"> </td><td class="Sel"> Two handed different 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="passive_base_arm_signs"> </td><td class="Sel"> Passive base arm 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="reduplicated_signs"> </td><td class="Sel"> Reduplicated signs 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="show_monomorphemic_signs"> </td><td class="Sel"> Monomorphemic signs 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="show_lexical_signs"> </td><td class="Sel"> Lexical signs 
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="show_compound_signs"> </td><td class="Sel"> Compound signs
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="show_fingerspelled_signs"> </td><td class="Sel"> Fingerspelled signs
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="show_loan_signs"> </td><td class="Sel"> Loan signs
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="show_number_signs"> </td><td class="Sel"> Numbers
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="show_classifier_signs"> </td><td class="Sel"> Classifiers
+												</td></tr><tr><td><input type="checkbox" onclick="display_undisplay_signs_callback(this);" id="show_statistics"> </td><td class="Sel"> Show statistics
+											</td></tr></tbody></table>	
+										</td>
+									</tr>
+								</tbody></table>
+		</td>
+										<!-- end DISPLAY NONE part -->
+									</tr>
+								</tbody></table>								
+							</div>	
+							
+							
+							</div>
+							<!-- Right side -->
+						   <div class="col-md-6">
+								<h5 style="color:#286fb7">Non-Dominant Hand (if present)</h5>
+								<div class="checkbox">
+									<label>
+									<input type="radio"  value="ndsstartend" name="nddh" id="snddh" onClick="check_lexical_sign()"> Same start/end hs
+									</label>
+								</div>
+								<div class="checkbox">
+									<label>
+									<input type="radio"  value="nddstartend" name="nddh" id="dnddh" onClick="check_lexical_sign()"> Different start/end hs
+									</label>
+								</div> 
+						   <hr style="border-color:#474E5D;">
+						   <div class="row" style="padding-left:20px;">
+								<div id="my-icon-select3"></div>
+								<table class="SignQueryHSInnerTable">
+                                                                            <tbody><tr>	<td colspan="2">  </td></tr>
+                                                                                <tr> 	<td id="query_HS_start_txt" style="text-align:center;" class="Sel">Start HS </td>
+                                                                                    <td id="query_HS_end_txt" style="text-align:center;" class="Sel">End HS 	</td>	</tr>
+                                                                                <tr>	<td style="" class="HSIDText" id="sign_query_interface_non_dominant_startHS_ID"></td>
+                                                                                    <td style="" class="HSIDText" id="sign_query_interface_non_dominant_endHS_ID"></td> </tr>
+                                                                                <tr>	
+                                                                                	<td style="text-align:center;"> 
+                                                                                			<button type="submit" style="background-color:transparent; border-color:black;" onClick="return popup('handshape?hand=nd_start', 'nd_start')">
+																								<img id="nd_start" src="../images/handShapes/search.png" alt"" style="width:50px;height:50px;"> 
+																							</button>
+                                                                                    </td>
+                                                                                    <td style="text-align:center;"> 
+                                                                                    		<button type="submit" style="background-color:transparent; border-color:black;" onClick="return popup('handshape?hand=nd_end', 'nd_end')">
+																				  				<img id="nd_end" src="../images/handShapes/search.png" alt"" style="width:50px;height:50px;"> 
+																				  			</button>
+                                                                                    </td>
+                                                                                </tr></tbody></table>
+						   </div>
+						   							
+						</div> <!-- Bottom Row ends here -->
+
+				</div>	
+				
+				<BR><BR>
+				
+					
+                    		<input type="checkbox"  class="btn btn-info" name="sign_extras" value="incl_redup" onClick="check_lexical_sign()"> Reduplication &nbsp; 
+                    		
+                    		
+                    		<input type="checkbox"  class="btn btn-info" name="sign_extras" value="incl_pass_ba" onClick="check_lexical_sign()"> Passive base arm
+                <BR><BR>	
+                
+                <a id ="clear_all_restrict_a" href="javascript:clear_all_handshapes();" style="color: #E20122;">Clear All</a> &nbsp;[ <span style="color: #337ab7" aria-hidden="true" class="glyphicon glyphicon-ban-circle"></span> ]</p>        
+                
+                <BR><BR>	
+                
+	</div>
+				
+<!-- INNER BOX BOTTOM END-->
+<br/>
+<br/>
+	
+											
+			</div>			
+
+
+
+<BR><BR>
+		<font size="4" face="verdana" style="color:#f04d25">Limit to</font> (Limit the search results to the following options)
+	
+
+	<div class="panel-body">
+				<div class="form-group">
+						<div class="col-sm-13">
+							<ul class="list-unstyled">
+								
+								<li> <input type="checkbox" checked="checked" onClick="toggle_checkbox(this, 'datasource')" /> <a href="#datasource" data-toggle="collapse" ><i class="glyphicon glyphicon-plus"></i>ASLLRP sentences (39174)</a> <span style="margin-left: 42%;">	</span></li>
+									
+									<ul class="collapse in list-unstyled" id="datasource">
+										<li><div class="col-sm-1"></div>
+											
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1539244"> 1-Ben-Introduction.xml (338)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379841"> 10-Ben-Conclusion.xml (227)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379845"> 2-Ben-Voice-Identity.xml (1098)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1512932"> 3-Ben-Voice-Life.xml (580)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1512933"> 4-Ben-Deaf-Speech.xml (1171)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1512934"> 5-Ben-Deaf-Grunts.xml (1009)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379844"> 6-Ben-Control-of-Sound.xml (282)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379843"> 7-Ben-Social-Msg.xml (545)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1512935"> 8-Ben-Control-of-sound-places.xml (1472)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379842"> 9-Ben-Sensory-Politics.xml (199)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379808"> Cory_2013-6-25_sc0106.xml (364)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379840"> Cory_2013-6-27_sc107.xml (1929)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379839"> Cory_2013-6-27_sc108.xml (1525)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379838"> Cory_2013-6-27_sc109.xml (1123)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379837"> Cory_2013-6-27_sc110.xml (748)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379836"> Cory_2013-6-27_sc111.xml (535)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1512936"> Cory_2013-6-27_sc112.xml (1870)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1512937"> Cory_2013-6-27_sc113.xml (1771)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379835"> Cory_2013-6-27_sc114.xml (1261)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379834"> Cory_2013-6-27_sc115.xml (1820)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379833"> Jonathan_2012-11-27_sc90.xml (472)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379832"> Jonathan_2012-11-27_sc92.xml (502)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379831"> Jonathan_2012-11-27_sc93.xml (300)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379830"> Jonathan_2012-11-27_sc94.xml (1472)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379829"> Jonathan_2012-11-27_sc95.xml (715)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1512938"> Jonathan_2012-11-27_sc96.xml (1087)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379828"> Jonathan_2012-11-27_sc97.xml (1659)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379827"> Jonathan_2012-11-27_sc98.xml (1232)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379826"> Rachel_2011-12-01_sc43.xml (863)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379825"> Rachel_2011-12-08_sc44.xml (962)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379824"> Rachel_2011-12-08_sc45.xml (948)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1512939"> Rachel_2011-12-08_sc46.xml (577)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379823"> Rachel_2012-01-27_sc50.xml (489)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379822"> Rachel_2012-01-27_sc51.xml (490)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379821"> Rachel_2012-01-27_sc52.xml (290)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379820"> Rachel_2012-01-27_sc53.xml (351)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379819"> Rachel_2012-01-27_sc55.xml (477)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379818"> Rachel_2012-01-27_sc56.xml (197)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379817"> Rachel_2012-02-09_sc57.xml (377)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379816"> Rachel_2012-02-09_sc58.xml (779)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379815"> Rachel_2012-02-09_sc59.xml (368)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379814"> Rachel_2012-02-09_sc60.xml (596)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379813"> Rachel_2012-02-09_sc61.xml (566)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379812"> Rachel_2012-02-14_sc62.xml (484)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379811"> Rachel_2012-02-14_sc63.xml (880)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379810"> Rachel_2012-02-14_sc65.xml (127)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="datasource" value="1379809"> Rachel_2012-02-14_sc66.xml (2047)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+									    </li>
+									</ul>	
+									
+									<br>
+									
+									
+									
+									<br>
+									
+									
+									<li> <input type="checkbox" checked="checked" onClick="toggle_checkbox(this, 'ritsdatasource')" /> <a href="#ritsdatasource" data-toggle="collapse" ><i class="glyphicon glyphicon-plus"></i>RIT sentences (3882)</a> <span style="margin-left: 42%;">	</span></li>
+									
+									<ul class="collapse in list-unstyled" id="ritsdatasource">
+										<li><div class="col-sm-1"></div>
+											
+												<input type="checkbox" checked="checked" class="CL" name="rit3datasource" value="1555950"> RIT_P02-s01.xml (652)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="rit3datasource" value="1555952"> RIT-P02_s03.xml (1226)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="rit3datasource" value="1555951"> RIT-P02-s02.xml (1199)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="rit3datasource" value="1555953"> RIT-P03_s01.xml (805)   	
+											
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+									    </li>
+									</ul>	
+									
+									<br>
+									
+									
+									
+									<br>
+									
+									<li> <input type="checkbox" checked="checked" onClick="toggle_checkbox(this, 'participant')" /> <a href="#participant" data-toggle="collapse" ><i class="glyphicon glyphicon-plus"></i>Participant (43056)</a> <span style="margin-left: 42%;">	</span></li>
+									
+									<ul class="collapse in list-unstyled" id="participant">
+										<li><div class="col-sm-1"></div>
+											
+												<input type="checkbox" checked="checked" class="CL" name="participant" value="5"> Ben (6921)   	
+												
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="participant" value="2"> Cory (12946)   	
+												
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="participant" value="4"> Jonathan (7439)   	
+												
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="participant" value="1"> No User (0)   	
+												
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="participant" value="30"> P02 (3077)   	
+												
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="participant" value="31"> P03 (805)   	
+												
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+												<input type="checkbox" checked="checked" class="CL" name="participant" value="3"> Rachel (11868)   	
+												
+											</li>
+											<li><div class="col-sm-1"></div>							       									        
+										    
+									    </li>
+									</ul>	
+									
+								</ul>
+								
+								
+								
+							</div>
+						</div>
+						
+					
+						
+						<BR>
+						
+									
+						<div class="form-group">
+						   <div class="col-sm-6">
+							   <a href="#video_properties" data-toggle="collapse" ><i class="glyphicon glyphicon-plus"></i> Video Properties (Not yet implemented)</a>							   
+						   </div>					    
+						</div> <!--Parts of Speech -->
+						
+						
+						<div class="form-group col-sm-offset-1">
+							<div class="col-xs-10">
+								<div id="video_properties" class="collapse out">
+									<table width="900"> 
+										<tbody>
+											<tr>
+											<td colspan="100%">
+												<div class="form-group">
+													<label class="control-label col-sm-2" style="color:#286fb7">Views Available</label>
+													<div class="col-sm-9">
+												  		<input type="checkbox"  class="N G" name="video_views" value="front"> Front &nbsp;&nbsp;
+												  		</label>
+												  		<input type="checkbox"  class="N G" name="video_views" value="face"> Face  &nbsp;&nbsp;
+							  							</label>
+												  		<input type="checkbox"  class="N G" name="video_views" value="side"> Side &nbsp;&nbsp;
+							  							</label>
+							  							<input type="checkbox"  class="N G" name="video_views" value="stereo_front"> Stereo Front &nbsp;&nbsp;
+							  							</label>
+							  							
+							  							<input type="checkbox"  class="N G" name="video_views" value="all"> All &nbsp;&nbsp;
+							  						  	</label>
+							  						  	<input type="checkbox" checked="checked" class="N G" name="video_views" value="noCare"> Don't Care
+							  						  	</label>
+													</div>
+												</div>
+											</td>
+											</tr>
+											
+											<tr>
+											<td colspan="6">
+												<div class="form-group">
+													<label class="control-label col-sm-2" style="color:#286fb7">Color Video</label>
+													<div class="col-sm-9">
+														<label class="radio-inline"><input type="radio" name="color" value="yes" >Yes
+														</label> 
+														<label class="radio-inline"><input type="radio" name="color" value="no">No 
+														</label> 
+														<label class="radio-inline"><input type="radio" name="color" value="noCare" checked="checked">Don't Care</label>
+													</div>
+												</div>
+											</td>
+											</tr>
+											
+											<tr>
+											<td colspan="6">
+												<div class="form-group">
+													<label class="control-label col-sm-2" style="color:#286fb7">Sleeves</label>
+													<div class="col-sm-9">
+														<label class="radio-inline"><input type="radio" name="sleeves" value="long" >Long
+														</label> 
+														<label class="radio-inline"><input type="radio" name="sleeves" value="short">Short 
+														</label> 
+														<label class="radio-inline"><input type="radio" name="sleeves" value="noCare" checked="checked">Don't Care</label>
+													</div>
+												</div>
+											</td>
+											</tr>
+											
+											<tr>
+											<td colspan="6">
+												<div class="form-group">
+													<label class="control-label col-sm-2" style="color:#286fb7">Glasses</label>
+													<div class="col-sm-9">
+														<label class="radio-inline"><input type="radio" name="glasses" value="yes" >Yes
+														</label> 
+														<label class="radio-inline"><input type="radio" name="glasses" value="no">No 
+														</label> 
+														<label class="radio-inline"><input type="radio" name="glasses" value="noCare" checked="checked">Don't Care</label>
+													</div>
+												</div>
+											</td>
+											</tr>
+											
+											
+											
+											
+										</tbody> 
+									</table>
+								</div>
+							</div>
+						</div>	
+							
+<!-- WORK IN PROGRESS-->
+					<div class="form-group">
+						<div class="col-sm-12"> 
+						<BR>
+<button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"> SUBMIT</i></button>
+						 </div>									
+					</div>
+															
+				</div>
+			</div>
+			
+<input type="hidden" name="minOccur" value="-1">
+<input type="hidden" name="data_source" value="">
+<input type="hidden" name="color" value="noCare">
+<input type="hidden" name="sleeves" value="noCare">
+<input type="hidden" name="glasses" value="noCare">
+<input type="hidden" name="allBox" value="noCare">
+<input type="hidden" name="results_view" value="front">
+<input type="hidden" name="resultsPerPage" value="25">
+
+<input type=hidden name="id_dh_start" id="id_dh_start" value="">
+<input type=hidden name="id_nd_start" id="id_nd_start" value="">
+<input type=hidden name="id_nd_end" id="id_nd_end" value="">
+<input type=hidden name="id_dh_end" id="id_dh_end" value="">
+
+
+
+</form>	
+		</section>
+<aside class="col-md-3">
+	 <div class="list-group">
+	 <a href="http://www.bu.edu/asllrp/about-datasets.pdf" target="popup" onclick="window.open('http://www.bu.edu/asllrp/about-datasets.pdf','popup','width=1000,height=600'); return false;" class="list-group-item " style="text-decoration:none;">
+		 <h5 class="list-group-item-heading"><i class="glyphicon glyphicon-pencil"></i> ABOUT THESE DATASETS</h4>
+		 </a> 
+		 
+	 	<a href="dai" class="list-group-item  active" style="text-decoration:none;">
+			 <h5 class="list-group-item-heading"><i class="glyphicon glyphicon-search"></i> Sign Search</h4>
+		 </a>
+		 
+		 <a href="utterancesearch" class="list-group-item  " style="text-decoration:none;">
+			 <h5 class="list-group-item-heading"><i class="glyphicon glyphicon-search"></i> Utterance Search</h4>
+		 </a>
+		 
+		 <a href="http://www.bu.edu/asllrp/dai-credits.html" class="list-group-item " style="text-decoration:none;" target="" onclick="window.open('http://www.bu.edu/asllrp/dai-credits.html','popup','width=1000,height=600'); return false;">
+		 <h5 class="list-group-item-heading"><i class="glyphicon glyphicon-comment"></i> Acknowledgments & Credits</h4></a>
+		 
+		
+		 
+		 
+		 <a href="signbank" class="list-group-item " style="text-decoration:none;">
+			 <h5 class="list-group-item-heading"><i class="glyphicon glyphicon-piggy-bank"></i> Sign Bank</h4>
+		 </a> 
+		 
+		 <a href="runningstats" class="list-group-item " style="text-decoration:none;">
+			 <h5 class="list-group-item-heading"><i class="glyphicon glyphicon-stats"></i> Statistics</h4>
+		 </a> 
+		 
+		 
+		 
+		  
+		  
+		  
+		  
+		 
+
+							 
+	 </div>  
+	 
+	 <div class="list-group">
+	 	<a href="https://www.bu.edu/asllrp/ASL-SignBank-and-other-Resources.html" target="popup" onclick="window.open('https://www.bu.edu/asllrp/ASL-SignBank-and-other-Resources.html','popup','width=1000,height=600'); return false;"  class="list-group-item " style="text-decoration:none;"> 
+			 <h5 class="list-group-item-heading"><i class="glyphicon glyphicon-pencil"></i> OVERVIEW OF ASLLRP RESOURCES</h4>
+		 </a> 
+	 </div>  
+	 
+ </aside>	</article> 
+</div>
+<div style="width:50px;height:100px;"></div>
+	   <footer class="navbar navbar-default navbar-fixed-bottom" style="border-top: 4px solid #474e5d;">
+		   <div class="container"><p class="navbar-text">&nbsp;&nbsp;<span class="glyphicon
+		   glyphicon-copyright-mark" aria-hidden="true" style="font-size:
+		   13px;"></span>&nbsp;&nbsp;2016-2026&nbsp;<a href="http://www.bu.edu/asllrp/"
+		   target="_blank">BU</a> &amp; <a href="http://www.cs.rutgers.edu/" target="_blank">RU</a>
+		   &nbsp;|   &nbsp;&nbsp;<span class="glyphicon glyphicon-envelope" aria-hidden="true"
+		   style="font-size: 13px;"></span>&nbsp;&nbsp;carol@bu.edu&nbsp;&nbsp;|&nbsp;&nbsp;<span
+		   class="glyphicon glyphicon-map-marker" aria-hidden="true" style="font-size:
+		   13px;"></span> BU ASLLRP, Linguistics Dept, Boston, MA 02215&nbsp;&nbsp;
+		   |&nbsp;<a href="http://www.bu.edu/asllrp/rpt18/asllrp18.pdf" target="popup" onclick="window.open('http://www.bu.edu/asllrp/rpt18/asllrp18.pdf','popup','width=1000,height=600'); return false;">Help</a> </p></div>
+	   </footer>
+	   
+     </body>
+</html>

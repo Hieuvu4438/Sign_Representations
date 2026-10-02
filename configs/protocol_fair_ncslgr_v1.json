@@ -1,0 +1,83 @@
+{
+  "classes": [
+    "NEG",
+    "WH",
+    "YN"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "learning_rates": [
+    0.01,
+    0.03,
+    0.1
+  ],
+  "epochs": 100,
+  "weight_decay": 0.0001,
+  "endpoint_loss_weight": 1.0,
+  "head_parameters": 6915,
+  "primary_metric": "macro_class_aware_interval_IoU",
+  "limits": [
+    "One test signer; very small NEG/YN validation supports.",
+    "Four XML archive groups cross splits; source-sequence disjoint does not establish independent acquisition or pretraining exclusion.",
+    "Source functional-core interval is distinct from anatomical phases and fully adjudicated grammatical scope.",
+    "Camera comparisons do not isolate facial information causally.",
+    "Single-interval subset excludes43utterances; no general multiple-event or absent-phenomenon detection claim.",
+    "Boundary uncertainty distributions are uncalibrated. Frozen readout diagnostic is not a new representation method.",
+    "Native and SignRep differ in cue preprocessing, token rates and receptive fields; shared clips and head budget do not establish causal backbone comparison.",
+    "Eligibility conditioning can change population; no claim on excluded clips.",
+    "Frozen readouts are controls, not encoder adaptation or method novelty."
+  ],
+  "status": "LOCKED_EXPLORATORY_EQUAL_BUDGET_NATIVE_FUNCTION_CONTROLS",
+  "created_utc": "2026-10-01T00:24:44Z",
+  "identity_sha256": {
+    "scripts/run_fair_ncslgr.py": "49d8b66873fc941633669ae9db67c82ad1ea65fef2e68aa2a66f2c3e71ec5ed0",
+    "scripts/run_ncslgr_intervals.py": "715b901b7ab571b513b94b54e2d8f4e42a44f5a4c2602e09b4cea836ddd19e21",
+    "src/signrepr/interval_readouts.py": "c42eae1e3fd860ed60bfef9bfa9d225d383400aa26f7d9c4e42f4bf7123f9c89",
+    "src/signrepr/statistics.py": "2c3b8c61f41d5dcdc12c0f4d2ff4e5517fbafbb2febb4eb707e56c2bcd9544f2",
+    "src/signrepr/io.py": "f9faaa127e40d22156ef77ec497396aa13056edc0169415bd41a68130768158f",
+    "data/external/ncslgr/intervals_v1/targets.jsonl": "69ac299e3f4dc3753d889992985a40a686f6311aab6a64c90aee00dd931928dd",
+    "data/manifests/ncslgr_native_body_v1.jsonl": "c1b6149d19c5f52b6d2b3967199a6e0bc3720becd758acc195f7d30351d8966f",
+    "configs/protocol_native_ncslgr_v1.json": "855f26cc2d45861773c5d23fa2afd47b079660671d27338ebb8c727752a3f317",
+    "configs/protocol_ncslgr_intervals_v1.json": "9dab1a98f07faa835598b47d7c003f074ff112c3043bf3bd3b90ff29924b87f6",
+    "features/signrep_ncslgr_diagnostic_v1/extraction_report.json": "e872777106c77086291cf0bf523475c0edc03c4a64d3ef8a5b409eba56adf6a8",
+    "features/signrep_ncslgr_diagnostic_v1/index.jsonl": "0bba7fb013d72c3dcdf881b9126bfa03e7bc4e1f5d1ec2ce219210160a6c8e5a"
+  },
+  "native_cache_identity": {
+    "protocol_sha256": "855f26cc2d45861773c5d23fa2afd47b079660671d27338ebb8c727752a3f317",
+    "manifest_sha256": "c1b6149d19c5f52b6d2b3967199a6e0bc3720becd758acc195f7d30351d8966f",
+    "config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+    "implementation_sha256": "58be3c943b0bdc5728f7b691d4351a4ba4cf7daaeb782981a3b6b72db173e828",
+    "pilot_helpers_sha256": "dd7b4181ed7e072cb8b042dd903dce2a10b1a62e6731737d5ebdccad0438b386",
+    "adapter_sha256": "54d3cbb114a6a0adc45cfe324b467bc84445cff40f165ef825e7c61d097b17ad",
+    "resume_validator_sha256": "64c09d4f799d12a449e74884a4d8130c9123e50c7d3eb8b7f1bc5796f675b914",
+    "timestamp_adapter_sha256": "22d0d5f3893941a5e42ec6a4dddafe8922278d3fcec03b98774e0bb896b0bf31",
+    "device": "cpu"
+  },
+  "backbones": [
+    "signrep",
+    "shubert_last",
+    "shubert_average"
+  ],
+  "modes": [
+    "global",
+    "temporal"
+  ],
+  "primary_comparison": "shubert_last_temporal_minus_shubert_last_global_interval_IoU",
+  "secondary_comparisons": [
+    "All six interval/readout results and paired native-minus-SignRep differences",
+    "All six learned intervals minus train-only class-duration prior",
+    "Classification macro recall under interval-selected heads"
+  ],
+  "selection": "final-epoch macro class-aware interval IoU on single-interval validation utterances; first LR wins ties",
+  "device": "cpu",
+  "torch_threads": 1,
+  "population": "Same eligible IDs for all backbones; retain all positive classes. Exclude only zero valid utterance-supported tokens, with explicit per-ID reasons. STOP if any class has zero classification or single-interval support in any split.",
+  "missingness": "Native frames require all four streams observed; SignRep requires nonpadded windows. Preserve original source node clocks; no compressed-time gaps. Add known utterance edges with nearest supported token for both modes.",
+  "normalization": "Per-token L2 then train-only utterance-weighted mean/SD, separately per backbone. No gold core, phenotype or caption enters forward.",
+  "duration_prior": "Train-only mean normalized single-positive interval per class, using selected head predicted class. Predeclared comparator; no test refit or interval labels in input.",
+  "prospective_scope": "Locked before native grammar metrics; earlier SignRep classification, interval metrics and duration-prior sensitivity known. Exploratory, no independent confirmatory claim.",
+  "multiplicity": "One primary native temporal/global interval comparison; remaining contrasts descriptive, no selecting best backbone/metric/seed."
+}

@@ -1,0 +1,69 @@
+{
+  "samples": 1600,
+  "groups": 1600,
+  "classes_with_support": 200,
+  "training_seeds": 3,
+  "resamples": 2000,
+  "bootstrap_seed": 42,
+  "interval_method": "cluster_percentile_95",
+  "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+  "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+  "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+  "resamples_with_missing_classes": 138,
+  "resampled_classes_min": 198,
+  "metrics": {
+    "macro_recall": {
+      "point": 0.796875,
+      "per_seed": [
+        0.7975,
+        0.795,
+        0.798125
+      ],
+      "training_seed_sd": 0.0016535945694153339,
+      "ci95": [
+        0.7773673155820214,
+        0.8155048598732423
+      ]
+    },
+    "top1": {
+      "point": 0.796875,
+      "per_seed": [
+        0.7975,
+        0.795,
+        0.798125
+      ],
+      "training_seed_sd": 0.0016535945694153339,
+      "ci95": [
+        0.7760416666666666,
+        0.8152135416666667
+      ]
+    }
+  },
+  "limitations": [
+    "Percentile coverage is approximate; many groups do not imply many independent signers.",
+    "Groups are sampled uniformly with replacement; their complete rows are retained.",
+    "Class absence in a draw changes its macro denominator and is counted explicitly."
+  ],
+  "status": "PASS",
+  "group_key": "recording_group",
+  "inputs": [
+    {
+      "path": "/home/haipd/Sign_Representations/runs/common_v1_B02_signrep_seed0/predictions.csv",
+      "sha256": "b4b5ef3c845d52453eb6f2246151036e54ce260878b0bf6020ac239df999cc48"
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/runs/common_v1_B02_signrep_seed1/predictions.csv",
+      "sha256": "fe71ac8595f4221b39b16b690f93d3d6d49e9a8c7145a589bda33579ce16050d"
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/runs/common_v1_B02_signrep_seed2/predictions.csv",
+      "sha256": "ef4e7a755480893e4a80c217cb860667385daaac91c4ff7f3fe20c7562630fc4"
+    }
+  ],
+  "ordered_seeds": [
+    "0",
+    "1",
+    "2"
+  ],
+  "implementation_sha256": "2c3b8c61f41d5dcdc12c0f4d2ff4e5517fbafbb2febb4eb707e56c2bcd9544f2"
+}

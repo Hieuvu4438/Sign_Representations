@@ -1,0 +1,12 @@
+{
+  "asset_id": "W08_CONFIG_2",
+  "url": "https://huggingface.co/ShesterG/SHuBERT/resolve/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/models/byt5_base/config.json",
+  "revision": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "sha256": "0e85e47202fdf043ce41af05f7393c4fac8a7426cf19ff826920c97368c1fdc7",
+  "bytes": 831,
+  "local_path": "checkpoints/shubert_author_hf/models/byt5_base/config.json",
+  "utc_time": "2026-09-30T23:16:08.517025+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "text/plain; charset=utf-8"
+}

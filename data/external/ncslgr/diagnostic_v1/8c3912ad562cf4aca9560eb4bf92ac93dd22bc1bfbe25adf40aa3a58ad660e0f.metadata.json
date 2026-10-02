@@ -1,0 +1,21 @@
+{
+  "sample_id": "ncslgr:ncslgr10p:18:body",
+  "source_asset": "NCSLGR_COHORT_ef0ea2a80b0563f8",
+  "source_sha256": "e83aea4f5d0a7d7017fc889074cb2689a8283c029e774b0aedf0f17579a33f4b",
+  "prepared_sha256": "196ea35a1d42aa22c403eced76d241b12c4c3b20b0483f025a9b0c38d2de13d4",
+  "annotation_sha256": "8debe01d4b7721305c689609aa38d15b7fe0bbeb20a672504b8b51cd3d2af180",
+  "annotation_source": "third_party/asl-prosody/ncslgr-xml/ncslgr10p.xml",
+  "roi_xywh": [
+    0,
+    0,
+    324,
+    240
+  ],
+  "roi_lossless_verified": true,
+  "frames": 127,
+  "fps": 30.0,
+  "source_camera_id": "0",
+  "view_role": "body",
+  "implementation_sha256": "36544d1d6c829f001f3f9427140d1d47c1ab77da04a4946690ce4db434067402",
+  "clock_policy": "All source frame-start PTS verified index/30. Output has same frames/start clock; final packet duration normalized to1/30."
+}

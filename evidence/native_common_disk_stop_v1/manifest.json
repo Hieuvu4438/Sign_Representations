@@ -1,0 +1,82 @@
+{
+  "status": "TERMINAL_DISK_GUARD_STOP_PRESERVED",
+  "observed_utc": "2026-10-01T06:21:06.558460+00:00",
+  "free_gib": 13.16134262084961,
+  "files": {
+    "features/shubert_native_common_v1/status.json": {
+      "sha256": "e870c0a4c9d8b6439d175bf987d2d52c408a5858ddc576f811434872aab5eff5",
+      "bytes": 1156
+    },
+    "features/shubert_native_common_v1/index.jsonl": {
+      "sha256": "0447d3e1827a007ae9b35edff2f6c65fff638a287c8543216478ad820a642a1b",
+      "bytes": 2078631
+    },
+    "features/shubert_native_common_v1/cohort.lock.json": {
+      "sha256": "d4bd03da4c132ff08693b818a90e9cd8c3fd1755f1f3abae9fd89e394b0ccfc4",
+      "bytes": 762
+    },
+    "features/shubert_native_common_v1_preprocessing/status.json": {
+      "sha256": "6561d85720f7811afc234a6b1c55e00e87396cb14baffb880f618ef6c51e081e",
+      "bytes": 1569
+    },
+    "features/shubert_native_common_v1_preprocessing/cohort.lock.json": {
+      "sha256": "be4c2f9cee29b9cf1f14538c90d6250b0d0195ade2b81c3e4251376f900f6f20",
+      "bytes": 1274
+    },
+    "runs/fair_common_v1/status.json": {
+      "sha256": "6f46a454760a3932134a1ebfbad8566cd8946661c2b07723dc527a9c414e6690",
+      "bytes": 366
+    },
+    "configs/protocol_native_common_v1.json": {
+      "sha256": "042edc067fdbc0e5c811f1d1159751104162e98a532d36c37a5e7812fc36d8f0",
+      "bytes": 3096
+    },
+    "configs/shubert.yaml": {
+      "sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+      "bytes": 920
+    },
+    "logs/shubert_native_common_v1_extraction.log": {
+      "sha256": "e3d5cc51ea411db46d627f055c21a65dd9536edaf10c16870a7c2c0e73aa612e",
+      "bytes": 123504
+    },
+    "logs/shubert_native_common_v1_preprocessing.log": {
+      "sha256": "559a28808e5a2b05a70f1a0182372d1a7e3d7ece29002f0d8a8b729ea15bae82",
+      "bytes": 16573091
+    },
+    "logs/fair_common_v1.log": {
+      "sha256": "6eb26c09beff50dab5d9348e9d28d67b392acd40aa2f1ae455af4573b5eb889e",
+      "bytes": 658
+    },
+    "features/shubert_native_common_v1/attempt_0001.json": {
+      "sha256": "e9e0327ada171c8d27c676bcac3a746550882da7d0cb39a6b51f1faf597dd00c",
+      "bytes": 1031
+    },
+    "features/shubert_native_common_v1/attempt_0002.json": {
+      "sha256": "e870c0a4c9d8b6439d175bf987d2d52c408a5858ddc576f811434872aab5eff5",
+      "bytes": 1156
+    },
+    "features/shubert_native_common_v1_preprocessing/attempt_0001.json": {
+      "sha256": "4c0ce901df63c332f4a53db20046c2b04e42380402a64af51a95acd32b564214",
+      "bytes": 1566
+    },
+    "features/shubert_native_common_v1_preprocessing/attempt_0002.json": {
+      "sha256": "0a13348161231da841cc37446fd26fa334c3154d63249900a0632f399699ffe3",
+      "bytes": 1564
+    },
+    "features/shubert_native_common_v1_preprocessing/attempt_0003.json": {
+      "sha256": "6561d85720f7811afc234a6b1c55e00e87396cb14baffb880f618ef6c51e081e",
+      "bytes": 1569
+    }
+  },
+  "worker_locks": {
+    "features/.native_feature_worker.lock": "AVAILABLE",
+    "features/shubert_native_common_v1_preprocessing/.worker.lock": "AVAILABLE"
+  },
+  "resume_plan": {
+    "unchanged_inputs_protocol_code": true,
+    "minimum_before_resume_free_gib": 60,
+    "reason": "Remaining3489clips at observed about6.8MiB/clip require roughly23GiB plus21GiB guarded reserve;60GiB allows uncertainty/shared filesystem use. Estimate, not guaranteed upper bound.",
+    "policy": "Verify all existing cache hashes and no per-clip failed audits. Preserve attempts and logs; explicit resume into same identity, no guard reduction, no dataset or unrelated file deletion. New equal-grid evaluation attempt only after full terminal PASS."
+  },
+  "requires_external_change": "User/admin frees shared filesystem capacity; project evidence/cache retained."
+}

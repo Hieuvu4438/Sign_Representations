@@ -1,0 +1,12 @@
+{
+  "asset_id": "W05",
+  "url": "https://huggingface.co/ShesterG/SHuBERT/resolve/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/models/face_landmarker_v2_with_blendshapes.task",
+  "revision": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "sha256": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+  "bytes": 11577701,
+  "local_path": "checkpoints/shubert_author_hf/models/face_landmarker_v2_with_blendshapes.task",
+  "utc_time": "2026-09-30T18:49:20.229027+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Public author model; research pipeline; license/training overlap to audit.",
+  "content_type": "application/octet-stream"
+}

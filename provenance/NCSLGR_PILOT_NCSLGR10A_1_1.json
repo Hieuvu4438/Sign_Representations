@@ -1,0 +1,12 @@
+{
+  "asset_id": "NCSLGR_PILOT_NCSLGR10A_1_1",
+  "url": "https://csr.bu.edu/asl/private/compressed/slave1/670_475_small_1.mov",
+  "revision": "Official 20120129 public video index",
+  "sha256": "29d603b2315732e650e616f21f9f57bec4e6d9380d0f1d3531db803f22e4344d",
+  "bytes": 220585,
+  "local_path": "data/external/ncslgr/videos/ncslgr_pilot_ncslgr10a_1_1.mov",
+  "utc_time": "2026-09-30T20:03:13.515384+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Explicit URL published by BU public video index; historical private path segment does not imply credentialed access. Research use only, no redistribution.",
+  "content_type": "video/quicktime"
+}

@@ -1,0 +1,530 @@
+{
+  "status": "PASS_PREDICTION_INTEGRITY_WITH_LIMITS",
+  "protocol_sha256": "be9ba90fc2b261bc2f3ba9af9299cd5333ebcd8b6a886fa8a3daf39a02cb5c22",
+  "summary_sha256": "7e9e46892c733e3a9de3fd47b6b6d644baf3bda0c08500e5845d64910ae70d65",
+  "manifest_sha256": "3113fbe50f7226e877bcae816cf47f6c82941e62e2d968a630fc23d0cdcf997d",
+  "script_sha256": "357a0e9d6100152679696292c56f462331440440d2ca66116ecfd3c7f9797e28",
+  "prediction_sha256": {
+    "runs/ncslgr_diagnostic_v1/body_mean_linear_seed0/predictions.csv": "ec258c766436b16237f940d8858b774b12ef8debd4a22dec63c2b2e4dd44a613",
+    "runs/ncslgr_diagnostic_v1/body_mean_linear_seed1/predictions.csv": "8cb6a84e415cea16565b9fba67c44a46afaf1739c4268e773ece82103c31505d",
+    "runs/ncslgr_diagnostic_v1/body_mean_linear_seed2/predictions.csv": "92061359eacb6102f90e57f4a2f86e3ea8d854da9f4bc0f41b37528b910eb681",
+    "runs/ncslgr_diagnostic_v1/face_mean_linear_seed0/predictions.csv": "eecc5a1d40ecf63b35b6591c834a91877f0bc4bc90eaca4ef56645c05d54efa7",
+    "runs/ncslgr_diagnostic_v1/face_mean_linear_seed1/predictions.csv": "009253d55a92e87121032f8e6813ecc12c4b334baad1f7dfef5896c580d0c547",
+    "runs/ncslgr_diagnostic_v1/face_mean_linear_seed2/predictions.csv": "d5822125978b4046cf9404d2f6de21ab71819cea786b782ba76ebc5005617902",
+    "runs/ncslgr_diagnostic_v1/paired_normalized_mean_linear_seed0/predictions.csv": "fbdf849706256a0ccd3ce0cb5a5ba84ad999d3df45ee5eff30d9b1d9cbdb794d",
+    "runs/ncslgr_diagnostic_v1/paired_normalized_mean_linear_seed1/predictions.csv": "322ea84187057e34b58348d9a552b93721515ad4d0aa342cdacab16030a3520a",
+    "runs/ncslgr_diagnostic_v1/paired_normalized_mean_linear_seed2/predictions.csv": "6f8e3892e18191e3031348dd44ee17a09d66e60291fdd8bd4874e9b8ec68db31"
+  },
+  "primary_test_samples": 88,
+  "shared_xml_groups": [
+    "ncslgr:xml:ncslgr10c",
+    "ncslgr:xml:ncslgr10f",
+    "ncslgr:xml:ncslgr10l",
+    "ncslgr:xml:ncslgr10m"
+  ],
+  "analyses": {
+    "all_test_clustered_by_xml": {
+      "status": "POST_HOC_SENSITIVITY_NO_REFIT",
+      "samples": 88,
+      "xml_groups": [
+        "ncslgr:xml:ncslgr10c",
+        "ncslgr:xml:ncslgr10d",
+        "ncslgr:xml:ncslgr10e",
+        "ncslgr:xml:ncslgr10f",
+        "ncslgr:xml:ncslgr10k",
+        "ncslgr:xml:ncslgr10l",
+        "ncslgr:xml:ncslgr10m"
+      ],
+      "class_counts": {
+        "NEG": 34,
+        "WH": 30,
+        "YN": 24
+      },
+      "readouts": {
+        "body_mean_linear": {
+          "samples": 88,
+          "groups": 7,
+          "classes_with_support": 3,
+          "training_seeds": 3,
+          "resamples": 2000,
+          "bootstrap_seed": 42,
+          "interval_method": "cluster_percentile_95",
+          "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+          "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+          "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+          "resamples_with_missing_classes": 6,
+          "resampled_classes_min": 2,
+          "metrics": {
+            "macro_recall": {
+              "point": 0.609368191721133,
+              "per_seed": [
+                0.6488562091503268,
+                0.5877450980392157,
+                0.5915032679738562
+              ],
+              "training_seed_sd": 0.034249213139583956,
+              "ci95": [
+                0.5462755780471239,
+                0.7101905733155732
+              ]
+            },
+            "top1": {
+              "point": 0.6060606060606061,
+              "per_seed": [
+                0.6477272727272727,
+                0.5909090909090909,
+                0.5795454545454546
+              ],
+              "training_seed_sd": 0.03652898015527631,
+              "ci95": [
+                0.5223880597014926,
+                0.6851851851851851
+              ]
+            }
+          },
+          "limitations": [
+            "Percentile coverage is approximate; many groups do not imply many independent signers.",
+            "Groups are sampled uniformly with replacement; their complete rows are retained.",
+            "Class absence in a draw changes its macro denominator and is counted explicitly.",
+            "Fewer than 30 groups: intervals are descriptive and cannot establish reliable population inference."
+          ]
+        },
+        "face_mean_linear": {
+          "samples": 88,
+          "groups": 7,
+          "classes_with_support": 3,
+          "training_seeds": 3,
+          "resamples": 2000,
+          "bootstrap_seed": 42,
+          "interval_method": "cluster_percentile_95",
+          "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+          "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+          "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+          "resamples_with_missing_classes": 6,
+          "resampled_classes_min": 2,
+          "metrics": {
+            "macro_recall": {
+              "point": 0.5769063180827887,
+              "per_seed": [
+                0.5490196078431372,
+                0.57140522875817,
+                0.6102941176470589
+              ],
+              "training_seed_sd": 0.031005449129883587,
+              "ci95": [
+                0.49025234025234027,
+                0.7099824571563698
+              ]
+            },
+            "top1": {
+              "point": 0.571969696969697,
+              "per_seed": [
+                0.5454545454545454,
+                0.5681818181818182,
+                0.6022727272727273
+              ],
+              "training_seed_sd": 0.028597857709358927,
+              "ci95": [
+                0.47826086956521746,
+                0.7489541906024447
+              ]
+            }
+          },
+          "limitations": [
+            "Percentile coverage is approximate; many groups do not imply many independent signers.",
+            "Groups are sampled uniformly with replacement; their complete rows are retained.",
+            "Class absence in a draw changes its macro denominator and is counted explicitly.",
+            "Fewer than 30 groups: intervals are descriptive and cannot establish reliable population inference."
+          ]
+        },
+        "paired_normalized_mean_linear": {
+          "samples": 88,
+          "groups": 7,
+          "classes_with_support": 3,
+          "training_seeds": 3,
+          "resamples": 2000,
+          "bootstrap_seed": 42,
+          "interval_method": "cluster_percentile_95",
+          "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+          "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+          "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+          "resamples_with_missing_classes": 6,
+          "resampled_classes_min": 2,
+          "metrics": {
+            "macro_recall": {
+              "point": 0.5598039215686273,
+              "per_seed": [
+                0.5580065359477124,
+                0.5828431372549019,
+                0.538562091503268
+              ],
+              "training_seed_sd": 0.022195172887753738,
+              "ci95": [
+                0.4794573643410853,
+                0.6760461760461761
+              ]
+            },
+            "top1": {
+              "point": 0.5871212121212123,
+              "per_seed": [
+                0.5909090909090909,
+                0.6022727272727273,
+                0.5681818181818182
+              ],
+              "training_seed_sd": 0.017358241268772105,
+              "ci95": [
+                0.4786163522012579,
+                0.7566137566137566
+              ]
+            }
+          },
+          "limitations": [
+            "Percentile coverage is approximate; many groups do not imply many independent signers.",
+            "Groups are sampled uniformly with replacement; their complete rows are retained.",
+            "Class absence in a draw changes its macro denominator and is counted explicitly.",
+            "Fewer than 30 groups: intervals are descriptive and cannot establish reliable population inference."
+          ]
+        }
+      },
+      "paired_vs_body": {
+        "samples": 88,
+        "groups": 7,
+        "classes_with_support": 3,
+        "training_seeds": 3,
+        "resamples": 2000,
+        "bootstrap_seed": 42,
+        "interval_method": "paired_cluster_percentile_95",
+        "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+        "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+        "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+        "resamples_with_missing_classes": 6,
+        "resampled_classes_min": 2,
+        "metrics": {
+          "macro_recall": {
+            "point": 0.5598039215686273,
+            "per_seed": [
+              0.5580065359477124,
+              0.5828431372549019,
+              0.538562091503268
+            ],
+            "training_seed_sd": 0.022195172887753738,
+            "ci95": [
+              0.4794573643410853,
+              0.6760461760461761
+            ],
+            "reference_point": 0.609368191721133,
+            "reference_per_seed": [
+              0.6488562091503268,
+              0.5877450980392157,
+              0.5915032679738562
+            ],
+            "delta": -0.049564270152505495,
+            "delta_ci95": [
+              -0.14309358084631696,
+              0.058266346794219354
+            ]
+          },
+          "top1": {
+            "point": 0.5871212121212123,
+            "per_seed": [
+              0.5909090909090909,
+              0.6022727272727273,
+              0.5681818181818182
+            ],
+            "training_seed_sd": 0.017358241268772105,
+            "ci95": [
+              0.4786163522012579,
+              0.7566137566137566
+            ],
+            "reference_point": 0.6060606060606061,
+            "reference_per_seed": [
+              0.6477272727272727,
+              0.5909090909090909,
+              0.5795454545454546
+            ],
+            "delta": -0.018939393939393923,
+            "delta_ci95": [
+              -0.12794612794612795,
+              0.20967741935483875
+            ]
+          }
+        },
+        "limitations": [
+          "Percentile coverage is approximate; many groups do not imply many independent signers.",
+          "Groups are sampled uniformly with replacement; their complete rows are retained.",
+          "Class absence in a draw changes its macro denominator and is counted explicitly.",
+          "Fewer than 30 groups: intervals are descriptive and cannot establish reliable population inference."
+        ]
+      }
+    },
+    "exclude_shared_xml_test_subset": {
+      "status": "POST_HOC_SENSITIVITY_NO_REFIT",
+      "samples": 27,
+      "xml_groups": [
+        "ncslgr:xml:ncslgr10d",
+        "ncslgr:xml:ncslgr10e",
+        "ncslgr:xml:ncslgr10k"
+      ],
+      "class_counts": {
+        "NEG": 8,
+        "WH": 5,
+        "YN": 14
+      },
+      "readouts": {
+        "body_mean_linear": {
+          "samples": 27,
+          "groups": 3,
+          "classes_with_support": 3,
+          "training_seeds": 3,
+          "resamples": 2000,
+          "bootstrap_seed": 42,
+          "interval_method": "cluster_percentile_95",
+          "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+          "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+          "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+          "resamples_with_missing_classes": 564,
+          "resampled_classes_min": 2,
+          "metrics": {
+            "macro_recall": {
+              "point": 0.6849206349206348,
+              "per_seed": [
+                0.7130952380952381,
+                0.7130952380952381,
+                0.6285714285714286
+              ],
+              "training_seed_sd": 0.0487998441815041,
+              "ci95": [
+                0.5969696969696969,
+                0.8166666666666665
+              ]
+            },
+            "top1": {
+              "point": 0.691358024691358,
+              "per_seed": [
+                0.7037037037037037,
+                0.7037037037037037,
+                0.6666666666666666
+              ],
+              "training_seed_sd": 0.021383343303319504,
+              "ci95": [
+                0.625,
+                0.7333333333333333
+              ]
+            }
+          },
+          "limitations": [
+            "Percentile coverage is approximate; many groups do not imply many independent signers.",
+            "Groups are sampled uniformly with replacement; their complete rows are retained.",
+            "Class absence in a draw changes its macro denominator and is counted explicitly.",
+            "Fewer than 30 groups: intervals are descriptive and cannot establish reliable population inference."
+          ]
+        },
+        "face_mean_linear": {
+          "samples": 27,
+          "groups": 3,
+          "classes_with_support": 3,
+          "training_seeds": 3,
+          "resamples": 2000,
+          "bootstrap_seed": 42,
+          "interval_method": "cluster_percentile_95",
+          "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+          "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+          "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+          "resamples_with_missing_classes": 564,
+          "resampled_classes_min": 2,
+          "metrics": {
+            "macro_recall": {
+              "point": 0.4932539682539683,
+              "per_seed": [
+                0.42976190476190473,
+                0.513095238095238,
+                0.5369047619047619
+              ],
+              "training_seed_sd": 0.05625970983634058,
+              "ci95": [
+                0.30952380952380953,
+                0.75
+              ]
+            },
+            "top1": {
+              "point": 0.5802469135802469,
+              "per_seed": [
+                0.5185185185185185,
+                0.5925925925925926,
+                0.6296296296296297
+              ],
+              "training_seed_sd": 0.05657500857970175,
+              "ci95": [
+                0.5416666666666666,
+                0.75
+              ]
+            }
+          },
+          "limitations": [
+            "Percentile coverage is approximate; many groups do not imply many independent signers.",
+            "Groups are sampled uniformly with replacement; their complete rows are retained.",
+            "Class absence in a draw changes its macro denominator and is counted explicitly.",
+            "Fewer than 30 groups: intervals are descriptive and cannot establish reliable population inference."
+          ]
+        },
+        "paired_normalized_mean_linear": {
+          "samples": 27,
+          "groups": 3,
+          "classes_with_support": 3,
+          "training_seeds": 3,
+          "resamples": 2000,
+          "bootstrap_seed": 42,
+          "interval_method": "cluster_percentile_95",
+          "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+          "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+          "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+          "resamples_with_missing_classes": 564,
+          "resampled_classes_min": 2,
+          "metrics": {
+            "macro_recall": {
+              "point": 0.6261904761904762,
+              "per_seed": [
+                0.6523809523809524,
+                0.6404761904761905,
+                0.5857142857142857
+              ],
+              "training_seed_sd": 0.03555520124540019,
+              "ci95": [
+                0.5055555555555555,
+                0.6759259259259259
+              ]
+            },
+            "top1": {
+              "point": 0.5925925925925927,
+              "per_seed": [
+                0.5925925925925926,
+                0.6296296296296297,
+                0.5555555555555556
+              ],
+              "training_seed_sd": 0.037037037037037035,
+              "ci95": [
+                0.375,
+                0.6888888888888888
+              ]
+            }
+          },
+          "limitations": [
+            "Percentile coverage is approximate; many groups do not imply many independent signers.",
+            "Groups are sampled uniformly with replacement; their complete rows are retained.",
+            "Class absence in a draw changes its macro denominator and is counted explicitly.",
+            "Fewer than 30 groups: intervals are descriptive and cannot establish reliable population inference."
+          ]
+        }
+      },
+      "paired_vs_body": {
+        "samples": 27,
+        "groups": 3,
+        "classes_with_support": 3,
+        "training_seeds": 3,
+        "resamples": 2000,
+        "bootstrap_seed": 42,
+        "interval_method": "paired_cluster_percentile_95",
+        "seed_aggregation": "arithmetic mean of metrics over all supplied trained seeds; no best-seed selection",
+        "interval_scope": "conditional on fixed trained heads and observed evaluation cohort; does not include training-seed or signer-population uncertainty",
+        "bootstrap_macro_denominator": "classes with positive resampled support, same estimator as point metric",
+        "resamples_with_missing_classes": 564,
+        "resampled_classes_min": 2,
+        "metrics": {
+          "macro_recall": {
+            "point": 0.6261904761904762,
+            "per_seed": [
+              0.6523809523809524,
+              0.6404761904761905,
+              0.5857142857142857
+            ],
+            "training_seed_sd": 0.03555520124540019,
+            "ci95": [
+              0.5055555555555555,
+              0.6759259259259259
+            ],
+            "reference_point": 0.6849206349206348,
+            "reference_per_seed": [
+              0.7130952380952381,
+              0.7130952380952381,
+              0.6285714285714286
+            ],
+            "delta": -0.05873015873015871,
+            "delta_ci95": [
+              -0.31111111111111106,
+              0.018181818181818226
+            ]
+          },
+          "top1": {
+            "point": 0.5925925925925927,
+            "per_seed": [
+              0.5925925925925926,
+              0.6296296296296297,
+              0.5555555555555556
+            ],
+            "training_seed_sd": 0.037037037037037035,
+            "ci95": [
+              0.375,
+              0.6888888888888888
+            ],
+            "reference_point": 0.691358024691358,
+            "reference_per_seed": [
+              0.7037037037037037,
+              0.7037037037037037,
+              0.6666666666666666
+            ],
+            "delta": -0.09876543209876543,
+            "delta_ci95": [
+              -0.25,
+              0.0
+            ]
+          }
+        },
+        "limitations": [
+          "Percentile coverage is approximate; many groups do not imply many independent signers.",
+          "Groups are sampled uniformly with replacement; their complete rows are retained.",
+          "Class absence in a draw changes its macro denominator and is counted explicitly.",
+          "Fewer than 30 groups: intervals are descriptive and cannot establish reliable population inference."
+        ]
+      }
+    }
+  },
+  "fixed_error_ids": [
+    "ncslgr:ncslgr10l:48",
+    "ncslgr:ncslgr10d:10",
+    "ncslgr:ncslgr10d:13",
+    "ncslgr:ncslgr10f:27",
+    "ncslgr:ncslgr10f:36",
+    "ncslgr:ncslgr10e:12",
+    "ncslgr:ncslgr10c:33",
+    "ncslgr:ncslgr10d:20",
+    "ncslgr:ncslgr10d:2",
+    "ncslgr:ncslgr10f:0",
+    "ncslgr:ncslgr10f:31",
+    "ncslgr:ncslgr10e:17",
+    "ncslgr:ncslgr10f:49",
+    "ncslgr:ncslgr10m:63",
+    "ncslgr:ncslgr10f:18",
+    "ncslgr:ncslgr10f:28",
+    "ncslgr:ncslgr10l:45",
+    "ncslgr:ncslgr10e:18",
+    "ncslgr:ncslgr10m:62",
+    "ncslgr:ncslgr10f:51",
+    "ncslgr:ncslgr10f:4",
+    "ncslgr:ncslgr10e:15",
+    "ncslgr:ncslgr10k:17",
+    "ncslgr:ncslgr10d:30",
+    "ncslgr:ncslgr10l:39",
+    "ncslgr:ncslgr10d:11",
+    "ncslgr:ncslgr10d:9",
+    "ncslgr:ncslgr10l:63",
+    "ncslgr:ncslgr10m:65",
+    "ncslgr:ncslgr10f:32"
+  ],
+  "expert_linguistic_reviews_completed": 0,
+  "limits": [
+    "Sensitivity specified after seeing primary results; no new primary claim, fitting or selection.",
+    "Excluding shared test XML files cannot remove a possible shared acquisition process elsewhere.",
+    "Few XML groups and one test signer limit uncertainty estimates; no signer-population inference.",
+    "Prediction integrity checks are machine checks, not review of ASL semantics or video identity."
+  ]
+}

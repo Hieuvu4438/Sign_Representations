@@ -1,0 +1,43 @@
+{
+  "status": "PASS_EXISTING_CACHE_IDENTITIES_SOURCE_STREAM_AND_SHARD_HASHES",
+  "preprocessed_clips_verified": 1237,
+  "feature_shards_verified": 1235,
+  "no_per_clip_failed_audit": true,
+  "native_protocol_sha256": "042edc067fdbc0e5c811f1d1159751104162e98a532d36c37a5e7812fc36d8f0",
+  "feature_index_sha256": "0447d3e1827a007ae9b35edff2f6c65fff638a287c8543216478ad820a642a1b",
+  "feature_cache_identity": {
+    "protocol_sha256": "042edc067fdbc0e5c811f1d1159751104162e98a532d36c37a5e7812fc36d8f0",
+    "manifest_sha256": "10588de667415c1ca9cdcf677d18d0e5d69c7845ee43b05658902b20b6e52f3a",
+    "config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+    "implementation_sha256": "413ef85760cdbc0bceeda634455d060194520139a88c781a153cd3cc5fd8e910",
+    "pilot_helpers_sha256": "dd7b4181ed7e072cb8b042dd903dce2a10b1a62e6731737d5ebdccad0438b386",
+    "adapter_sha256": "54d3cbb114a6a0adc45cfe324b467bc84445cff40f165ef825e7c61d097b17ad",
+    "resume_validator_sha256": "64c09d4f799d12a449e74884a4d8130c9123e50c7d3eb8b7f1bc5796f675b914",
+    "timestamp_adapter_sha256": "22d0d5f3893941a5e42ec6a4dddafe8922278d3fcec03b98774e0bb896b0bf31",
+    "device": "cuda:0"
+  },
+  "preprocessing_identity": {
+    "manifest_sha256": "10588de667415c1ca9cdcf677d18d0e5d69c7845ee43b05658902b20b6e52f3a",
+    "config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+    "implementation_sha256": "d76cf594dd5ae7455a1c9b4d0377ce9038274ef7d952f2410324b1db063bc76b",
+    "pilot_helpers_sha256": "3b834fb243b2cbb3240d6ae092fa07c7dab264dc4a190bbae4b4b8c89043d891",
+    "resume_validator_sha256": "64c09d4f799d12a449e74884a4d8130c9123e50c7d3eb8b7f1bc5796f675b914",
+    "upstream_commit": "cc1929326075bfbad7ad73159b2acf84356059bb",
+    "native_source_hashes": {
+      "crop": "b5c4b47f82526be7a777bbcd598a3bfd78e4f29ac0cb17e0ae4ab1def67fb2cb",
+      "pose": "b8fd2866270d5b701fd087632142c70fc8a981034406ac5304e1050545c67323",
+      "face": "f028c60330ddd99cd3d71b06dad5b2c233aef438797db35d3b57dad83e910c11",
+      "hands": "d4ec451e3aed5993101051412a3f44d9c24e0155fff4e701fb475c4fda109560",
+      "body": "4db7742e852cf9b6358235be3f3fb4dada2e5beae82eea149c509add8eb41cd7"
+    },
+    "preprocessing_weight_sha256": {
+      "W05": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+      "W06": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "W07": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+    },
+    "device": "cpu",
+    "workers": 1
+  },
+  "scope": "Resume integrity only. Existing partial features not evaluated as full test; no claims on unfinished clips.",
+  "restart_policy": "Reviewed disk-guard recovery only after60GiBfree. CPU preparation to full completion first; then soleGPU0consumer on complete preprocessing, avoiding hidden-host-PID waiter assumptions. Unchanged source/code/cache identities; preserve old attempts and logs."
+}

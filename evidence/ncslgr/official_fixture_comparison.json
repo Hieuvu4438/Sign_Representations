@@ -1,0 +1,398 @@
+{
+  "comparison_policy": "Participant IDs compared within each paired XML; participant display names retained as release differences. All functional value names/labels/text/absolute boundaries exact. No human signer identity adjudication inferred.",
+  "results": [
+    {
+      "xml_file": "accident.xml",
+      "official_member": "signstream-xmlparser/test/resources/accident.ss3.xml",
+      "functional_counter_without_participant_name_equal": false,
+      "official_only_count": 10,
+      "mirror_only_count": 9,
+      "official_only_examples": [
+        [
+          "61",
+          "0",
+          "role shift",
+          "doctor",
+          "doctor",
+          "",
+          475400,
+          476800
+        ],
+        [
+          "61",
+          "0",
+          "role shift",
+          "doctor",
+          "doctor",
+          "",
+          478000,
+          479933
+        ],
+        [
+          "50",
+          "0",
+          "negative",
+          "ONSET",
+          null,
+          "",
+          391133,
+          391733
+        ],
+        [
+          "50",
+          "0",
+          "negative",
+          "negation",
+          "neg",
+          "",
+          391800,
+          393733
+        ],
+        [
+          "50",
+          "0",
+          "negative",
+          "OFFSET",
+          null,
+          "",
+          393800,
+          394066
+        ]
+      ],
+      "mirror_only_examples": [
+        [
+          "33",
+          "0",
+          "topic/focus",
+          "sentence-initial adverb",
+          "foc/adv",
+          "",
+          121733,
+          122066
+        ],
+        [
+          "29",
+          "0",
+          "conditional/when",
+          "conditional",
+          "cond",
+          "",
+          102800,
+          104333
+        ],
+        [
+          "59",
+          "0",
+          "role shift",
+          "doctor",
+          "doctor",
+          "",
+          229833,
+          230666
+        ],
+        [
+          "59",
+          "0",
+          "role shift",
+          "doctor",
+          "doctor",
+          "",
+          230966,
+          232500
+        ],
+        [
+          "60",
+          "0",
+          "role shift",
+          "doctor",
+          "doctor",
+          "",
+          232533,
+          237166
+        ]
+      ],
+      "official_participants": {
+        "0": {
+          "AGE": "22",
+          "GENDER": "male",
+          "ID": "0",
+          "LABEL": "Mike",
+          "LANGUAGE": "ASL",
+          "NAME": "Michael Eric Schlang"
+        }
+      },
+      "mirror_participants": {
+        "0": {
+          "AGE": "22",
+          "GENDER": "male",
+          "ID": "0",
+          "LABEL": "Mike",
+          "LANGUAGE": "ASL",
+          "NAME": "Michael Schlang"
+        }
+      }
+    },
+    {
+      "xml_file": "ali.xml",
+      "official_member": "signstream-xmlparser/test/resources/ali.ss3.xml",
+      "functional_counter_without_participant_name_equal": false,
+      "official_only_count": 25,
+      "mirror_only_count": 24,
+      "official_only_examples": [
+        [
+          "28",
+          "0",
+          "role shift",
+          "Ali",
+          "Ali",
+          "",
+          236266,
+          236299
+        ],
+        [
+          "28",
+          "0",
+          "role shift",
+          "reporter",
+          "reporter",
+          "",
+          239000,
+          240666
+        ],
+        [
+          "28",
+          "0",
+          "role shift",
+          "Ali",
+          "Ali",
+          "",
+          243066,
+          249533
+        ],
+        [
+          "3",
+          "0",
+          "negative",
+          "negation",
+          "neg",
+          "",
+          26666,
+          26800
+        ],
+        [
+          "6",
+          "0",
+          "conditional/when",
+          "when",
+          "when",
+          "",
+          39400,
+          39600
+        ]
+      ],
+      "mirror_only_examples": [
+        [
+          "19",
+          "0",
+          "yes-no question",
+          "yes-no question",
+          "q/y-n",
+          "",
+          81933,
+          82766
+        ],
+        [
+          "35",
+          "0",
+          "rhetorical question",
+          "wh rhq",
+          "rhq/wh",
+          "",
+          149000,
+          149033
+        ],
+        [
+          "18",
+          "0",
+          "wh question",
+          "whq",
+          "q/wh",
+          "",
+          78700,
+          80333
+        ],
+        [
+          "11",
+          "0",
+          "topic/focus",
+          "sentence-initial adverb",
+          "foc/adv",
+          "",
+          41300,
+          42033
+        ],
+        [
+          "23",
+          "0",
+          "role shift",
+          "reporter",
+          "reporter",
+          "",
+          96033,
+          100033
+        ]
+      ],
+      "official_participants": {
+        "0": {
+          "AGE": "22",
+          "GENDER": "male",
+          "ID": "0",
+          "LABEL": "Mike",
+          "LANGUAGE": "ASL",
+          "NAME": "Michael Eric Schlang"
+        }
+      },
+      "mirror_participants": {
+        "0": {
+          "AGE": "22",
+          "GENDER": "male",
+          "ID": "0",
+          "LABEL": "Mike",
+          "LANGUAGE": "ASL",
+          "NAME": "Michael Schlang"
+        }
+      }
+    },
+    {
+      "xml_file": "ncslgr10a.xml",
+      "official_member": "signstream-xmlparser/test/resources/ncslgr10a.ss3.xml",
+      "functional_counter_without_participant_name_equal": false,
+      "official_only_count": 13,
+      "mirror_only_count": 13,
+      "official_only_examples": [
+        [
+          "3",
+          "0",
+          "negative",
+          "neg",
+          null,
+          "",
+          1166,
+          2500
+        ],
+        [
+          "8",
+          "0",
+          "topic/focus",
+          "top2",
+          null,
+          "",
+          566,
+          1133
+        ],
+        [
+          "18",
+          "0",
+          "conditional/when",
+          "when",
+          null,
+          "",
+          533,
+          2200
+        ],
+        [
+          "18",
+          "0",
+          "role shift",
+          "John",
+          null,
+          "",
+          1000,
+          2300
+        ],
+        [
+          "19",
+          "0",
+          "conditional/when",
+          "when",
+          null,
+          "",
+          1000,
+          2533
+        ]
+      ],
+      "mirror_only_examples": [
+        [
+          "3",
+          "0",
+          "negative",
+          "neg",
+          "neg",
+          "",
+          1166,
+          2500
+        ],
+        [
+          "36",
+          "0",
+          "topic/focus",
+          "top2",
+          "top2",
+          "",
+          666,
+          1533
+        ],
+        [
+          "36",
+          "0",
+          "negative",
+          "neg",
+          "neg",
+          "",
+          1933,
+          2866
+        ],
+        [
+          "34",
+          "0",
+          "negative",
+          "neg",
+          "neg",
+          "",
+          1166,
+          2966
+        ],
+        [
+          "18",
+          "0",
+          "conditional/when",
+          "when",
+          "when",
+          "",
+          533,
+          2200
+        ]
+      ],
+      "official_participants": {
+        "0": {
+          "ID": "0",
+          "NAME": "Benjamin James Bahan",
+          "LABEL": "Ben",
+          "AGE": "42",
+          "GENDER": "male",
+          "LANGUAGE": "ASL"
+        }
+      },
+      "mirror_participants": {
+        "0": {
+          "AGE": "42 years",
+          "GENDER": "male",
+          "ID": "0",
+          "LABEL": "Ben",
+          "LANGUAGE": "ASL",
+          "NAME": "Benjamin Bahan"
+        }
+      }
+    }
+  ]
+}

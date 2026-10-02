@@ -1,0 +1,63 @@
+{
+  "SignRep": {
+    "remote": "https://github.com/ryanwongsa/SignRep.git",
+    "commit": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+    "tracked_changes": "",
+    "readme_sha256": "2b73bf6ecbbbffe43189ef3032509aa9987223af980dd378d06081554dbd2020"
+  },
+  "SHuBERT": {
+    "remote": "https://github.com/ShesterG/SHuBERT.git",
+    "commit": "cc1929326075bfbad7ad73159b2acf84356059bb",
+    "tracked_changes": "",
+    "readme_sha256": "0887ea9d4466bdef179d8a43b8ddb5973c318150782dd9290478cd3dcad083c3"
+  },
+  "SL-Models-Analysis": {
+    "remote": "https://github.com/serpilkarabuklu/SL-Models-Analysis.git",
+    "commit": "55054020dfe61263360cab703d59282406031817",
+    "tracked_changes": "",
+    "readme_sha256": "9e2e6392beac937d5103159e52154ab977dbe28693786896487e1d9febb72503"
+  },
+  "dinov2": {
+    "remote": "https://github.com/facebookresearch/dinov2.git",
+    "commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "tracked_changes": "",
+    "readme_sha256": "d1bc2e9686522bbd66ed6123dc81eb36b3a98e8ea9a2ca97778f54a1c641c9e1",
+    "role": "C08 native SHuBERT architecture; pretrained=False; no generic DINO weights substituted"
+  },
+  "asl-prosody": {
+    "remote": "https://github.com/vgel/asl-prosody.git",
+    "commit": "8d75a9ec5d1a21ec7c95b14b16855df35a830fac",
+    "tracked_changes": "",
+    "readme_sha256": "306966e896642799b8cb1a0063344c3d8f564484bd41c81a6c30cf1ae0f99eee",
+    "role": "Public research mirror of NCSLGR XML; corpus license separate from repository code; audited as candidate historical gold."
+  },
+  "ASL_CCG": {
+    "remote": "https://github.com/mnixling/ASL_CCG.git",
+    "commit": "d68be3d6baba0127d6d6e2fbd6d414804198ebb6",
+    "tracked_changes": "",
+    "readme_sha256": "25f5d287523c0ad8787caf58e3dfca7d31e5746eea21c6fb17a2bdac82735a31",
+    "role": "Public research mirror of NCSLGR XML; corpus license separate from repository code; audited as candidate historical gold."
+  },
+  "shubert-author-demo": {
+    "remote": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText",
+    "commit": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+    "retrieval": "Explicit source allowlist via pinned HF resolve URLs; metadata verified public; no example videos or UI execution.",
+    "file_sha256": {
+      "third_party/shubert-author-demo/README.md": "9b4b48251253ff3057cab14e3802fb3cc9b024ac29f10f80d0155c6cce5ac912",
+      "third_party/shubert-author-demo/app.py": "bae4fc005cce5c808bef9e55c98d6975cd07aef1af5368798cbb24a365dcba5b",
+      "third_party/shubert-author-demo/attention.py": "2e99cf33019f087d87e3d62572fa7c747f38539a1f6618fba21b88d43e68589d",
+      "third_party/shubert-author-demo/block.py": "5e003564d03eb157bb2f7379e248766a0cafbfa02a3399234af9e596f7666faf",
+      "third_party/shubert-author-demo/body_features.py": "9a02a33d11e49c10f814a6b8807dd2a0a892b54c6143c49387ba5def6f6f1449",
+      "third_party/shubert-author-demo/crop_face.py": "d0aef45ddc03277190b5139ade787bdf189d9581a77f9fd7281382440b0754ae",
+      "third_party/shubert-author-demo/crop_hands.py": "e79b2ba2f3c6cdb7031212d90d2f728a4c8f36dc216379bf23321f40e558bdf8",
+      "third_party/shubert-author-demo/dinov2_features.py": "b077c1295f9a92ba33d8fb52a3a125934a207b60fb0b1e37b4e9493355a9acac",
+      "third_party/shubert-author-demo/features.py": "84b2458212aba347f256c1c1434d50b28c419a784663161ab442bedffe468c55",
+      "third_party/shubert-author-demo/inference.py": "be77ec1b73caab5f03087132a1faa0fc521ecceb94812426276fded57d1aef65",
+      "third_party/shubert-author-demo/kpe_mediapipe.py": "c27155744ad21727b15371862a20193129fcad88a1973d291120cbea7d63c807",
+      "third_party/shubert-author-demo/pre-requirements.txt": "77c401c5f04ac2426052f96775f4556dfbd90800343ddab2f1ed80dee3526dd5",
+      "third_party/shubert-author-demo/requirements.txt": "1cec1a31e116fb373fa72085b54edfbd5b2f9de0eb8a6faf3af6318a8959889b",
+      "third_party/shubert-author-demo/shubert.py": "a6445b01cebe2cf66942f87d7ead273226155f015dc73c0554a9c685222c32c3",
+      "third_party/shubert-author-demo/shubert_inference.py": "7233860803863443184dd171ce0fa56ab7181439cbf1354578befa18fe1a7ea8"
+    }
+  }
+}

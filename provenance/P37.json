@@ -1,0 +1,12 @@
+{
+  "asset_id": "P37",
+  "url": "https://media-lab.ccny.cuny.edu/YLTCCNYHomepage/Publications/ICPR2020_ASL.pdf",
+  "revision": "Author-hosted ICPR2020 PDF",
+  "sha256": "e34a601c08cb21ab3ba131db54f7cd986b4117b31d8e649d90345c7489948239",
+  "bytes": 2904714,
+  "local_path": "evidence/papers/P37.pdf",
+  "utc_time": "2026-09-30T20:44:07.114771+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

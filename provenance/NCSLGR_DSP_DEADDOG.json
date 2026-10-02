@@ -1,0 +1,12 @@
+{
+  "asset_id": "NCSLGR_DSP_DEADDOG",
+  "url": "https://www.bu.edu/av/asllrp/uncompressed/slave2/2/DSP/DSP%20Dead%20Dog%20Story.ss2.xml/DSP%20DeadDog.mov",
+  "revision": "Official 20120129 video index URL; same path with HTTPS; observed redirect stored",
+  "sha256": "a1077288d79d91f84d07b0ee4f59e2d334cde7b050841185f39e0c6790e7f077",
+  "bytes": 193958181,
+  "local_path": "data/external/ncslgr/videos/ncslgr_dsp_deaddog.mov",
+  "utc_time": "2026-09-30T19:49:50.905661+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Targeted publicly linked NCSLGR research video; official public index access, not gated DAI. No redistribution.",
+  "content_type": "video/quicktime"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PROVENANCE_ERRATUM_RECORDED_WITHOUT_MUTATING_LOCKED_PROTOCOL",
+  "observed_utc": "2026-10-01T00:19:52.719769+00:00",
+  "protocol_sha256": "855f26cc2d45861773c5d23fa2afd47b079660671d27338ebb8c727752a3f317",
+  "protocol_path": "configs/protocol_native_ncslgr_v1.json",
+  "inherited_locked_utc": "2026-09-30T21:08:24.033557+00:00",
+  "protocol_file_mtime_observed_utc": "2026-10-01T00:13:22.866638+00:00",
+  "clarification": "locked_utc was copied from the original common feature recipe; it is not the creation timestamp of this NCSLGR derivation. File mtime is a filesystem observation, not independently certified creation time. Feature protocol checksum and completed pilot are preserved.",
+  "pilot_status": "PARTIAL_BOUNDED_VALIDATION",
+  "pilot_train_clips_preprocessed": 2,
+  "pilot_train_clips_featured": 1,
+  "pilot_train_feature_repeat_max_abs": 0.0,
+  "pilot_train_feature_fully_observed_frames": 5,
+  "pilot_train_feature_total_frames": 174,
+  "gpu_workers_added": 0,
+  "free_disk_gib": 69.0250473022461,
+  "cost_limit": "Pilot prep46.183seconds/two clips; first feature21.605seconds includes repeat. Raw clip projection suggests hours rather than days, not a guaranteed forecast. Minimum free disk20GiB enforced by workers."
+}

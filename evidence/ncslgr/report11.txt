@@ -1,0 +1,3628 @@
+SignStream™ Annotation:
+Conventions used for the
+American Sign Language
+Linguistic Research Project
+Carol Neidle
+Boston University
+Report No. 11
+American Sign Language
+Linguistic Research Project
+http://www.bu.edu/asllrp/
+ASLLRP Annotation Schema - version 2.5
+” August 2002
+
+SignStream Annotation Conventions 
+i
+Introduction
+® Background about the SignStream™ project
+SignStream™ is a multimedia database tool designed to assist in the transcription and
+analysis of video-based language data. SignStream version 2 is a MacOS application that is
+distributed on a non-profit basis to researchers, educators, and students. Information about the
+program is available at http://www.bu.edu/asllrp/SignStream/; see also Neidle (in press-a). A
+Java implementation of SignStream, which will have many new features, is currently underway.
+A substantial amount of data from native signers of American Sign Language (ASL) has
+been collected in conjunction with the National Center for Sign Language and Gesture
+Resources: http://www.bu.edu/asllrp/cslgr/. The video data, which include multiple
+synchronized high-quality views of the signing from different perspectives and a close-up of the
+face, along with the SignStream annotations thereof, are being made publicly available.
+The data are available as SignStream files or in text export format (described in Appendix D).
+This report is intended to explain the conventions that are being used for the annotation of
+these data.
+® Acknowledgments
+Many people have contributed to this project in different ways. This document incorporates
+direct contributions of David Greenfield (the principal programmer for SignStream versions 1
+and 2) and Dawn MacLaughlin (who participated actively in the design of the program and who
+wrote much of the SignStream documentation).  In addition, Ben Bahan’s assistance, input, and
+feedback over the years have been invaluable.  The design of the program and the decisions
+about annotation have also benefited from the work, suggestions, and ideas contributed by
+Mike Schlang, Robert G. Lee, Fran Conlin, Sarah Fish, Lana Cook, Erica Hruby, Carla DaSilva,
+Ginger Leon, Norma Bowers Tourangeau, Judith Labath, Diane Brentari, Jack Hoza, Sue
+Duncan, Judy Kegl, Patricia Trowbridge, Barbara Eger, Tamara Neuberger, and others. We are
+also grateful for discussions and e-mail exchanges with those who have been using SignStream.
+The work described here has been funded, in part, by grants to Boston University from the
+National Science Foundation (SBR-9729010, IIS-9820455, EIA-9809340).
+® Annotation schemes in relation to SignStream
+The conventions in use by the American Sign Language Linguistic Research Project have
+evolved somewhat as we have been transcribing data from native signers of American Sign
+Language.  The conventions described here reflect the annotation conventions we have used for
+
+SignStream Annotation Conventions
+ii
+Introduction
+transcription of data collected since 2000 in the National Center for Sign Language and Gesture
+Resources.  We will refer to the set of conventions detailed in this document as the ASLLRP
+Annotation Schema version 2.5.
+Although this is generally consistent with earlier transcription by our group, some changes
+have emerged. The general principles, however, are consistent with those outlined in the
+SignStream User Guide (MacLaughlin, Neidle and Greenfield, 2000), available from the
+SignStream Web site. Relevant sections of that guide are reproduced here, with appropriate
+modifications. In addition, we discuss here some of the challenges we have faced and the
+decisions we have made (which have often involved particular trade-offs).
+One of the advantages offered by the program is that it facilitates the development of
+annotation schemes. SignStream provides a set of fields and values specifically designed for
+annotation of ASL data, and users may edit those fields and values.  This particular capability
+will be further refined in the next version of the program, and there will be additional types of
+data supported by SignStream version 3.
+Some of the conventions that we have adopted were motivated by limitations in the ways
+available to us for transcription of the data. It is likely that our conventions will continue to
+evolve, as our linguistic understanding deepens and as the tools available for annotation
+become more sophisticated.  We expect, therefore, to update this document periodically.
+® Purpose of this document
+This report is intended to assist in interpreting the annotations contained in the coded data
+we distribute. It is also intended to assist those who wish to adopt these conventions.
+We discuss the considerations that led us to make particular choices. Different circumstances,
+annotation tools, and linguistic interests could very well lead others to make different choices.
+We hope, at least, that raising these issues may help others to arrive at their own coding
+decisions.
+
+SignStream Annotation Conventions 
+iii
+Contents
+Introduction ______________________________________________________________________________ i
+®
+Background about the SignStream™ project _______________________________________________ i
+®
+Acknowledgments ____________________________________________________________________ i
+®
+Annotation schemes in relation to SignStream ______________________________________________ i
+®
+Purpose of this document_______________________________________________________________ii
+Contents ________________________________________________________________________________ iii
+List of figures ____________________________________________________________________________vii
+Basic Principles ___________________________________________________________________________1
+®
+General caveats about the annotated data that we distribute____________________________________1
+Incomplete information __________________________________________________________________________________ 1
+Incomplete transcriptions _________________________________________________________________________________ 1
+Imperfect translations ____________________________________________________________________________________ 1
+Ambiguity ____________________________________________________________________________________________ 1
+Human error ___________________________________________________________________________________________ 1
+®
+Left and right________________________________________________________________________2
+®
+Gloss fields__________________________________________________________________________2
+Use of English glosses___________________________________________________________________________________ 2
+Start and end points _____________________________________________________________________________________ 2
+Dominant and non-dominant hand fields _____________________________________________________________________ 2
+®
+Non-manual fields ____________________________________________________________________3
+Distinction between anatomical descriptions and linguistic interpretation ___________________________________________ 3
+Start and end points _____________________________________________________________________________________ 3
+®
+Problems and limitations _______________________________________________________________4
+Representation of intensity________________________________________________________________________________ 4
+Periodic movements of the head____________________________________________________________________________ 4
+Manual Material __________________________________________________________________________5
+®
+English-based glosses__________________________________________________________________5
+General conventions _____________________________________________________________________________________ 5
+Challenges and difficulties ________________________________________________________________________________ 5
+Attempt at consistency___________________________________________________________________________________ 6
+Lexical markers of tense and aspectual information_____________________________________________________________ 9
+
+SignStream Annotation Conventions
+iv
+Contents
+®
+Fingerspelling ______________________________________________________________________10
+®
+Name signs_________________________________________________________________________10
+®
+Signs that are held ___________________________________________________________________11
+®
+Contractions and compounds __________________________________________________________11
+®
+Emphatic articulation ________________________________________________________________11
+®
+Repetition, reduplication ______________________________________________________________11
+®
+Actions____________________________________________________________________________12
+®
+Phonological issues __________________________________________________________________12
+®
+Fields for the dominant and non-dominant hands ___________________________________________13
+Signs produced with one hand or two_______________________________________________________________________ 13
+Use of the two gloss fields_______________________________________________________________________________ 13
+Plans for next version of SignStream ______________________________________________________________________ 14
+®
+Reference, agreement, and locatives _____________________________________________________15
+Subject and object verb agreement _________________________________________________________________________ 15
+Agreement marking on adjectives, nouns, pronouns, determiners, possessives, and emphatic reflexives___________________ 15
+Adverbials of location and direction ________________________________________________________________________ 16
+Singular vs. plural _____________________________________________________________________________________ 17
+Further distinctions in the manifestation of subject and object verb agreement ______________________________________ 18
+Non-manual markings of agreement and location._____________________________________________________________ 19
+®
+Aspectual information ________________________________________________________________19
+Perfect aspect expressed by the sign FINISH_________________________________________________________________ 19
+Reduplicative aspect  marking ____________________________________________________________________________ 19
+®
+Reciprocal inflection _________________________________________________________________20
+®
+Classifiers__________________________________________________________________________21
+®
+Gestures___________________________________________________________________________22
+Non-manual behaviors from an anatomical perspective __________________________________________24
+®
+Head position and movements__________________________________________________________24
+Fields for head position _________________________________________________________________________________ 24
+Fields for head movement________________________________________________________________________________ 25
+Use of plus and minus signs _____________________________________________________________________________ 25
+Illustrations of head positions ____________________________________________________________________________ 26
+®
+Eye gaze __________________________________________________________________________28
+®
+Eye aperture _______________________________________________________________________29
+Blinks _______________________________________________________________________________________________ 29
+
+SignStream Annotation Conventions
+v
+Contents
+Squint vs. lowered lids __________________________________________________________________________________ 29
+Wide eyes ____________________________________________________________________________________________ 29
+®
+Eyebrow position and movements _______________________________________________________30
+Start and end points ____________________________________________________________________________________ 30
+Degrees of deviation from neutral__________________________________________________________________________ 30
+®
+Mouth movements ___________________________________________________________________31
+Illustrations___________________________________________________________________________________________ 31
+Mouthing based on spoken language _______________________________________________________________________ 35
+®
+Cheeks ____________________________________________________________________________35
+®
+Nose______________________________________________________________________________35
+®
+Neck______________________________________________________________________________36
+®
+Body movements ____________________________________________________________________36
+Grammatical interpretive fields ______________________________________________________________37
+®
+Identifying start and end points _________________________________________________________37
+®
+Topics/focus ________________________________________________________________________37
+Distinctions __________________________________________________________________________________________ 37
+New label: foc/ref ________________________________________________________________________________ 38
+New label: foc/adv ________________________________________________________________________________ 39
+Left peripheral elements _________________________________________________________________________________ 39
+New label: foc ______________________________________________________________________________________ 39
+®
+Conditional/When ___________________________________________________________________39
+®
+Relative Clauses_____________________________________________________________________40
+®
+Questions __________________________________________________________________________41
+®
+Negation __________________________________________________________________________42
+®
+Role Shift __________________________________________________________________________42
+®
+But wait, there’s more ________________________________________________________________42
+Fields for parts of speech___________________________________________________________________43
+Appendix A: Field and value names and labels _________________________________________________44
+Overall list of field names and labels _______________________________________________________________________ 44
+Head position fields ____________________________________________________________________________________ 45
+Head movement fields___________________________________________________________________________________ 46
+Body movement fields __________________________________________________________________________________ 47
+Fields related to the eye and nose region ____________________________________________________________________ 48
+Other face and mouth fields ______________________________________________________________________________ 49
+
+SignStream Annotation Conventions
+vi
+Contents
+Grammatical interpretive fields____________________________________________________________________________ 50
+Appendix B: Reserved word list ______________________________________________________________52
+Appendix C: Some hard choices we have made _________________________________________________53
+®
+How much to code?__________________________________________________________________53
+®
+Things that happen at the edges of utterances ______________________________________________53
+®
+Behaviors attributable to elicitation situation_______________________________________________53
+Head down____________________________________________________________________________________________ 53
+Direction of eye gaze ___________________________________________________________________________________ 54
+®
+Glossing issues ______________________________________________________________________54
+Related lexical forms ___________________________________________________________________________________ 54
+Consistency __________________________________________________________________________________________ 54
+®
+Part of speech ______________________________________________________________________54
+®
+Translations________________________________________________________________________55
+Appendix D: Database export file format ______________________________________________________56
+Appendix E: Summary of glossing conventions _________________________________________________59
+®
+General conventions _________________________________________________________________59
+®
+Specific gloss items___________________________________________________________________65
+Discussed already ______________________________________________________________________________________ 65
+Additional conventions used for glossing____________________________________________________________________ 67
+Appendix F: Handshapes __________________________________________________________________76
+Appendix G: References____________________________________________________________________83
+Index___________________________________________________________________________________85
+
+SignStream Annotation Conventions
+vii
+Contents
+List of figures
+Figure 1.  The indefinite particle (part:indef)....................................................................................................................... 8
+Figure 2.  QMwg (yes-no question sign with wiggling)...................................................................................................... 12
+Figure 3.  Symbols for Classifiers from   
+Signing Naturally  ................................................................................................. 21
+Figure 4.  Some common gestures illustrated ................................................................................................................... 23
+Figure 5.  Head position: jut ......................................................................................................................................... 26
+Figure 6.  Head position: tilt......................................................................................................................................... 27
+Figure 7.   Head position: turn....................................................................................................................................... 27
+Figure 8.   Head position: front/back............................................................................................................................... 28
+Figure 9.  Eye gaze annotated to indicate direction ............................................................................................................. 28
+Figure 10.   Eye aperture: degrees of closure..................................................................................................................... 29
+Figure 11.  Eye aperture: wide eyes................................................................................................................................. 30
+Figure 12.   Degrees of eyebrow height ........................................................................................................................... 31
+Figure 13.   Some gestures with open mouth ................................................................................................................... 32
+Figure 14.  Mouth gestures involving release of air ........................................................................................................... 33
+Figure 15.   Cheek to shoulder....................................................................................................................................... 33
+Figure 16.  Some mouth gestures with lips pressed together................................................................................................ 34
+Figure 17 .  Puffed cheek right (cheek: puf/rt)................................................................................................................... 35
+Figure 18.  Wrinkled vs. tensed nose............................................................................................................................... 36
+Figure 19.  Tensing of the neck ..................................................................................................................................... 36
+Figure 20.  Topics....................................................................................................................................................... 38
+Figure 21.   Eyebrow raise indicating background information and possibly contrast ................................................................ 39
+Figure 22.   Conditional and 'when' marking .................................................................................................................... 40
+Figure 23.  Relative clause facial expression..................................................................................................................... 40
+Figure 24.  Direct questions .......................................................................................................................................... 41
+Figure 25.   Rhetorical questions.................................................................................................................................... 41
+Figure 26.   Facial expression and repeated headshake associated with negation........................................................................ 42
+
+SignStream Annotation Conventions 
+1
+Basic Principles
+® General caveats about the annotated data that we distribute
+Incomplete information
+For various reasons, it is sometimes impossible to determine all of the behaviors that we
+would like to annotate from the video images.  Some aspects of the signing may be obscured or
+caught between the frames of the video.
+Incomplete transcriptions
+Transcriptions are partial.  We have not attempted to transcribe absolutely everything that is
+happening.  We have had to make judgments about which details to transcribe.  The
+motivations for many of those decisions are discussed in this document, but in many cases, one
+could make a case for doing things differently.  Our choices have inevitably been shaped, in
+part, by limitations in our knowledge, tools available for transcription, and our particular
+linguistic focus.  We hope at least to make explicit here many of the choices that we have made
+and the reasons behind them.
+Imperfect translations
+The English translations are not intended to capture the full meaning of the ASL sentences.
+They are intended only to give a general idea of the content of what was signed.
+Ambiguity
+There is often some degree of ambiguity with respect to what has been signed.  In such
+situations, we have chosen one reading and provided annotations and translation for that
+reading.  We have not attempted to account for all possible interpretations of each sentence.
+Human error
+The transcriptions have been carried out and verified by several independent annotators,
+including Deaf native ASL signers.  Nonetheless, it is certain that some errors remain.  We hope
+to release updated versions of the annotations (with distinct version numbers), incorporating
+corrections that come to our attention.
+
+SignStream Annotation Conventions
+2
+Basic principles
+® Left and right
+The terms ‘left’ and ‘right’ are used consistently to reflect the signer’s perspective.
+® Gloss fields
+Use of English glosses
+There are obvious limitations in using English glossing.  Ideally, we would like to be able to
+encode the phonological and morphological characteristics of signing. To that end, we are
+designing intuitive and efficient tools for this purpose as part of SignStream version 3.
+In the interim, however, we are using conventional English glossing to allow us to identify
+the signs that are produced and to define their start and end points.  The glossing conventions
+that we have used, as well as the annotations for non-manual behaviors described later, are
+generally based on the notation systems used in C. Baker and D. Cokely (1980) and Smith,
+Lentz, and Mikos (1988). The notations are intended to be descriptive, rather than to express
+particular theoretical beliefs. For example, we have annotated 1st, 2nd, and 3rd person
+reference, despite the fact that questions have been raised about whether the distinction
+between 2nd and 3rd person is grammatically significant in ASL (Meier, 1990).
+Start and end points
+For purposes of identifying the start and end points of manual signs, we have consulted
+with native signers about their intuitions.  As a result, we have not counted anticipatory
+movements—while the hands get into the appropriate position to begin to articulate the sign in
+question—as part of that sign.  Similarly, we have identified the end point of the sign as
+occurring prior to movement of the hands out of the position for that sign in preparation for
+articulation of the following sign.  We have, however, transcribed situations in which the final
+position of the sign is held for some time as ‘holds’.  It is also worth noting that in the smooth
+transitions that frequently occur between signs, it is not always obvious where one sign ends
+and the next begins.
+Dominant and non-dominant hand fields
+We have used the ‘dominant hand gloss field’ for most of the information about manual
+signing.  We have made use of the ‘non-dominant hand gloss field’ only for information about
+what is happening on the non-dominant hand that is not predictable.  This is discussed in more
+detail in the next section.
+Ideally, it would be nice to have complete information about the activities of both hands in
+the two gloss fields.  However, this would be time-consuming to transcribe within SignStream
+
+SignStream Annotation Conventions
+3
+Basic principles
+version 2.  Tools to facilitate efficient annotation of this kind will be incorporated in SignStream
+version 3.
+® Non-manual fields
+Distinction between anatomical descriptions and linguistic interpretation
+Our goal has been to describe the behaviors objectively, in as theory-neutral a fashion as
+possible.  For this purpose, we have made use of anatomical fields to identify the specific
+physical movements.  For example, there is a head movement field within which a side-to-side
+headshake can be annotated.  We have set up independent fields for grammatical interpretive
+information.  So, in the situation where a headshake corresponds to a non-manual expression of
+negation, we have also encoded this behavior within a grammatical negation field.  This results
+in some degree of redundancy, but we believe that it is useful to be able to access both types of
+information.  We have sometimes chosen to display the grammatical interpretive fields in red,
+so that they are easily visible.
+Start and end points
+We have used ‘s’ (for ‘start’) to annotate movements that are anticipatory, and that precede
+the linguistically significant portion of the non-manual behavior.  Similarly ‘e’ (for ‘end’) is used
+for non-manual behaviors that follow a non-manual gesture, as the articulators return to
+neutral position.
+Despite our attempt to separate description from interpretation of behaviors, we felt it
+important to annotate these gestures in this way, so as not to obscure the very general linguistic
+patterns we have discovered.  For example, with respect to periodic head movements (nods
+and shakes), we have found that there is an anticipatory movement of the head (either up or to
+the side) so that the movement can begin with maximum ‘thrust’ and the longest possible arc.
+Based on these empirical findings, we have annotated the anticipatory movement as ‘s‘ and
+have identified the start point of the head gesture as occurring with the following downward or
+sideward movement.  Similarly, with raised eyebrows, we have found that the eyebrows go
+from neutral position to raised position over several frames (at 30 frames per second), and then
+the maximal position is maintained over the relevant phrase.  We have similarly encoded the
+anticipatory movement as ‘s’ and identified the raised eyebrow position as beginning once the
+eyebrows have reached their maximal height.  We have also coded as ‘e‘ the transition back to
+neutral position (although this often begins a few frames before the end of the phrase over
+which the raised eyebrows occur).  So, the principle we have followed for consistency in the
+coding of eyebrow movements is to annotate the domain over which the eyebrows are at a
+maximal position (whether raised or lowered) and to annotate as ‘s’ or ‘e’ transition gestures.
+
+SignStream Annotation Conventions
+4
+Basic principles
+One of the difficulties in annotating non-manual transitions as ‘s’ and ‘e’ is that in the case
+where, for example, there is a transition from a raised eyebrow position to a lowered eyebrow
+position, there is no visible boundary between the ‘e’ portion of the raised eyebrows and the ‘s’
+portion of the lowered eyebrows.  We made an arbitrary decision to encode the entire
+transition, in such cases, as ‘s’ (anticipatory of the following gesture).
+® Problems and limitations
+Representation of intensity
+There are some obvious limitations in this system of annotation.  It is very difficult to
+represent differences in intensity.  We have attempted to convey some information about
+intensity of gestures by using the ‘+’ and ‘–’ signs to indicate the degree of a behavior.
+However, this is impressionistic and does not allow for a description of gradual changes in
+intensity.  
+Periodic movements of the head
+With respect specifically to head nods or shakes, we are also not able to encode easily the
+amplitude of head turns or nods, nor the rapidity of the repetitions.  We have attempted to
+encode some of this information in the names we have assigned to specific field values, such as
+‘single head nod’ or ‘rapid head nod.’  Ideally, there are other representations of this data that
+would be more useful, such as graphical displays of head position.  We hope that collaborative
+research now in progress with computer scientists (e.g., Neidle, Sclaroff, and Athitsos, 2001)
+may eventually lead to semi-automation of aspects of the transcription that would allow
+computer-based generation of such displays.
+The exact end points of such periodic movements can also be difficult to identify with
+precision, since these nods and shakes generally diminish in intensity and amplitude until they
+damp out.
+
+SignStream Annotation Conventions 
+5
+Manual Material
+® English-based glosses
+General conventions
+We have attempted to use standard conventions for the nearest English equivalent to a
+given ASL sign.  This English word is written in capital letters.
+Challenges and difficulties
+Conventions do not always exist and may not allow for necessary linguistic distinctions.
+On occasion, however, we have encountered a sign for which there is no conventional gloss
+known to us (or to those with whom we have consulted).  In such cases, we have done the best
+we can to find a reasonable gloss.  This includes signs that have not been described previously
+in the literature.  For example, we have identified an indefinite focus particle that has not been
+previously analyzed as such.  In the glosses, we identified this sign as ‘part:indef’.
+We have sometimes made a conscious decision to deviate from the standard glossing
+conventions to express a distinction that has not been commonly reflected in gloss systems.
+These conventions will be documented later.
+Examples:
+      Signs made with the index finger
+We have differentiated the glossing of signs produced with the index finger based on their
+function as determiner, pronominals, or adverbials.
+Tense markers
+We have identified tense markers in ASL and have sought a consistency in labeling them that
+has not been present in other systems of transcription.
+Capital letters
+WORD
+English word used to represent an ASL sign.
+–
+OH-I-SEE
+THANK-YOU
+Used to separate words if the English
+translation of a single sign requires more
+than one.
+/
+BOLD/TOUGH
+WOW/AWFUL
+Used when one sign has two different
+English equivalents.
+
+SignStream Annotation Conventions
+6
+Manual material
+There may exist conflicting conventions.
+In cases where there are differing conventions, we have had to make a choice.
+Examples:
+There is a sign that has sometimes been glossed UP-TO-NOW and sometimes as SINCE. In the
+interest of uniformity, we have glossed all occurrences as UP-TO-NOW.
+Attempt at consistency
+We have attempted to be consistent in using a single correspondence between ASL sign and
+English gloss throughout our transcriptions.  This is not always easy, because, as in the previous
+example, the meaning of a given sign (and therefore the English gloss that may seem most
+natural) may be different in different contexts.  In other cases, there may be two close variants
+in ASL that would be roughly translated by the same English word.  Where the two signs differ
+in handshape, we have marked the handshape (in parentheses at the beginning of the gloss) to
+distinguish the variants.
+Another difficulty is the situation where the best English correspondence is ambiguous in
+English.  In such cases, one way to distinguish the different readings is to number them, as in
+‘GLOSS(1)’ vs. GLOSS(2)’.  Below follows an explanation of some distinctions we have made in
+glossing.
+BREAK-DOWN vs. ENGINE-FALL-OUT
+The sign BREAK-DOWN is a symmetrical two-handed sign.  ENGINE-FALL-OUT is
+the gloss used for a sign that involves the non-dominant hand facing palm downward;
+the dominant hand in an S handshape (representing the engine) starts out under the
+non-dominant hand , against the palm, and then drops.
+FIND/FIND-OUT
+Since in some contexts this sign is best translated as ‘find’ and in others as ‘find out’,
+we have glossed all occurrences of the sign in this way. (Note that we use a different
+gloss for the sign FIND^#OUT, which is sometimes synonymous with
+FIND/FIND-OUT).
+
+SignStream Annotation Conventions
+7
+Manual material
+GIVE vs. GIFT
+We use  GIVE to represent the verb made with the flat-O handshape.  GIFT uses the
+X handshape (but is also a verb, despite the fact that ‘gift’ in English is a noun).
+NOT-LIKE vs. (Y)NOT-LIKE
+The latter sign, articulated with the Y handshape, is used colloquially by some signers
+to indicate that they don’t care for something. The movement begins with the thumb
+at the nose, palm facing basically downward.  The wrist then twists outward (lowering
+the thumb) as the hand moves down and away from the body.  Distinguished from
+the sign conventionally glossed as NOT-LIKE and that glossed as NOT-CARE.
+part:indef
+An indefinite focus particle articulated with a single outward movement of one or
+both palms (facing upward), as shown in Figure 1.  (See Conlin, Hagstrom, and
+Neidle, in press.)
+REALLY
+We have used this gloss not only for the adjective and adverb signs made with the
+index finger starting at the mouth and moving downwards (meaning ‘real,’ ‘really,’
+‘true,’ or ‘truly’), but also for a discourse marker used by some signers.
+REFUSE
+This is how we have chosen to gloss the sign sometimes glossed as WON’T.
+SEE  vs. SEE-SEE
+Both signs use the V handshape and the middle finger touching the cheek just below
+the eye.  SEE is the transitive verb describing visual perception; the hand extends in an
+outward movement from the eye.  SEE-SEE  involves short pathlength and two brief
+contacts made by the middle finger under the eye.  The meaning is more figurative, as
+in ‘we’ll see what will happen’.
+
+SignStream Annotation Conventions
+8
+Manual material
+     
+            
+Figure 1.  The indefinite particle (part:indef)
+SINK vs. SCL:3”vehicle sink” vs. SCL:B”boat sink”
+We have distinguished signs translated as ‘sink’ in English in this way, based on
+whether a classifier is involved (and if so, which one).
+SOMETHING/ONE
+A sign in ASL that may be translated as either ‘something’ or ‘someone’.  It is also
+used as an indefinite determiner.  This is a shorthand way of representing
+SOMETHING/SOMEONE.
+SWITCH
+This is the sign made with the L handshape that is used to indicate a switch to another
+person’s turn or, more generally, to something different.
+VOMIT
+This gloss is used for the verb as well as for the adjective meaning ‘disgusting.’  Since
+the manual forms are the same, the same gloss was used, for consistency.
+
+SignStream Annotation Conventions
+9
+Manual material
+ “WHAT”
+A wh-sign produced with both hands extended, palms facing up, moving slightly from
+side to side.  Distinguished from #WHAT and ‘WHAT’ (articulated with the index
+finger brushing against the open palm of the non-dominant hand).
+(Y)WHY vs. (25)WHY vs. (25>Y)WHY
+Since the sign meaning ‘why’ can involve a Y handshape, a 25 handshape, or a
+transition between the two, we have differentiated those signs as indicated.
+Lexical markers of tense and aspectual information
+We have identified the following manual signs conveying tense and/or aspectual
+information:
+PAST 
+(related to the adverb BEFORE)
+RECENT-PAST 
+(articulated with the X handshape touching the cheek, accompanied
+    by the cheek-to-shoulder non-manual expression)
+FORMERLY 
+(articulated with an open-B handshape (B-L) circling backward
+    twice near the head)
+#EX   
+       
+(meaning: habitual past, as with English ‘used to’)
+UP-TO-NOW 
+(sometimes glossed elsewhere as SINCE)
+NOW 
+(which we have glossed elsewhere as immediate present,
+    IMMED-PRES)
+FUTURE 
+ (sometimes glossed elsewhere as  WILL)
+See Neidle et al. (2000, p. 77) for further details.   Here we make a further distinction between
+signs used as future tense markers that has not been made previously (to our knowledge). In
+addition to the sign glossed as FUTURE, which is articulated with 5 or open-B handshape (the
+
+SignStream Annotation Conventions
+10
+Manual material
+fingers may be together or spread apart), there is a very similar sign articulated with an L
+handshape.  We have glossed that as follows:
+(L)FUTURE 
+ (similar to FUTURE but articulated with L handshape)
+       In some cases, there are morphologically related adverbials.  Adverbials have been
+distinguished from tense markers by the part of speech tags.  In general, the adverbials display
+variable pathlength while the tense markers are frozen forms, with fixed pathlength; see
+Aarons, Bahan, Kegl, and Neidle (1995) and Neidle et al. (2000).
+® Fingerspelling
+Fingerspelling is used primarily for borrowings and proper names.  In such cases, the signer
+spells out the letters (sometimes with some omissions).  Some of these fingerspelled words
+have been incorporated into ASL as loan signs.  The notations used in the two cases are
+illustrated here:
+Occasionally, to focus the addressee’s attention on the fingerspelling, the signer will point, with
+the other hand to the hand that is doing the fingerspelling.  See page 22 for further discussion.
+      Sometimes, only part of a word is fingerspelled.  In that case, we annotate this as follows:
+® Name signs
+Name signs, used for names of people or places (e.g., Cape Cod, Boston), are marked in the
+following way.
+fs-
+fs-JOHN
+Fingerspelled word.
+#
+#CAR
+#EARLY
+Fingerspelled loan sign.
+fs-UN+PREDICTABLE
+Fingerspelled prefix followed by ASL sign.
+ns-
+ns-LINCOLN
+ns-CAPE-COD
+Name sign for ‘Lincoln’ or ‘Cape Cod’ being
+used.
+
+SignStream Annotation Conventions
+11
+Manual material
+® Signs that are held
+We have annotated signs in which the final position is held for some time.
+SignStream currently does not provide a way to encode holds at the beginning of a sign.  This is an
+omission to be remedied in the next version of the program.
+® Contractions and compounds
+® Emphatic articulation
+® Repetition, reduplication
+In the examples above, the sign DIFFERENT is articulated a total of three times, and the sign
+     GO is articulated twice.
+|-->
+fs-JOHN|-->
+Hold sign.  Used to represent a hand
+position that is held at the end of a sign.
+For example, after fingerspelling ‘John’
+the signer may hold the final position
+(in this case, the N handshape).  This same
+diacritic can be used to indicate
+perseveration of the non-dominant hand.
+GLOSS^GLOSS
+WILL^NOT
+Contraction.
++
+MOTHER+FATHER
+Compound.
+!!
+!MUST!
+Indicates stressed articulation, for emphasis.
++
+DIFFERENT++
+GO+
+Indicates repetition  (reduplication) of a
+sign.
+The number of + signs indicates the number
+of repetitions.
+
+SignStream Annotation Conventions
+12
+Manual material
+® Actions
+® Phonological issues
+In general, we have not been encoding phonological aspects of a sign, such as finger
+wiggling.  It is represented (by convention) in the gloss we use for the yes-no question sign, as
+shown here:
+QMwg
+Question marking sign (with wiggling, as shown in Figure 2)
+    
+    
+    
+    
+Figure 2.  QMwg (yes-no question sign with wiggling)
+We have also used ‘wg’ to differentiate MOTHER from MOTHERwg.  We have done this
+because there are some signers who use these two signs differently.  The same convention is
+used for the sign FATHER.
+( )
+(nod)
+(shake head)
+(draws shape)
+Words in ( ) indicate an action or movement
+made without a sign, sometimes with
+linguistic meaning.
+
+SignStream Annotation Conventions
+13
+Manual material
+MOTHER
+The open 5-handshape is used.  The thumb touches the chin.
+MOTHER+
+Same as above, but the thumb touches the chin twice.
+MOTHERwg
+The same handshape is used, and the same point of contact with the chin.  However
+the thumb remains in contact with the chin and the other 4 fingers wiggle.
+® Fields for the dominant and non-dominant hands
+Signs produced with one hand or two
+Normally, our SignStream glosses do not reflect whether the sign is 1-handed or 2-handed.
+However, if a 2-handed sign is produced with a single hand, or if a 1-handed sign is produced
+with both hands, this is annotated as indicated in the chart below.  In addition, we mark
+2-handed signs produced with alternating movements if the sign is normally produced without
+this alternation.
+Use of the two gloss fields
+Since the non-dominant hand behavior can usually be predicted based on the gloss in the
+primary gloss field (for those who know which signs in ASL are normally produced with 1 or 2
+hands), with the addition of the type of information provided in the chart above, we generally
+do not include explicit information in the non-dominant hand field.  We use the non-dominant
+hand gloss field to indicate only manual behavior on the non-dominant hand that is not
+predictable in this sense.  This can occur in a number of different circumstances:
+(2h)GLOSS
+(2h)#DO++
+Used when a sign that is commonly
+1-handed is made with both hands.
+(2h)alt.GLOSS
+(2h)alt.GUESS
+The notation ‘alt.’ indicates that both hands
+move in an alternating manner.
+(1h)GLOSS
+(1h)LOVE
+Used when a sign that is commonly
+2-handed is made with one hand.
+
+SignStream Annotation Conventions
+14
+Manual material
+The start or end point of a 2-handed sign is different for the dominant and non-dominant
+hand.
+In such situations, the gloss information is repeated in both gloss fields so that different start or
+end points can be assigned.
+Sometimes one hand (often the non-dominant hand) may hold the position of the sign while
+the other hand produces different signs. The following example shows a sentence in which the
+wh-sign WHO starts on the dominant hand at the same time that the non-dominant hand
+begins articulating the indefinite particle.  That particle is held on the non-dominant. Meanwhile,
+on the non-dominant hand, the wh-sign WHO morphs into the indefinite particle sign and the
+two hands complete that sign simultaneously.
+      (1)   JOHN   LOVE   WHO^part:indef            
+[dominant hand track]
+                          part:indef|-->            
+[non-dominant hand track]
+In some cases, the non-dominant hand may start out as active, then hold a position for some
+time. This has been referred to as perseveration.  It may become active again, as in the
+following example:
+      (2)   “WHAT”   JOHN   BUY   “WHAT”                [dominant hand track]
+            “WHAT”----------------“WHAT”                [non-dominant hand track]
+The two hands may be somewhat independent.
+Sometimes the signing proceeds in parallel on the two hands, and the two hands produce
+independent signing.  In such cases, both tracks are used for the independent glosses.
+Plans for next version of SignStream
+Clearly, this is not the optimal way to represent activity on the two hands!  The next version
+of SignStream will provide tools to facilitate the efficient entry of relevant phonological
+information for both hands. The user will specify whether a given sign is 1-handed or 2-handed,
+as well as certain basic properties of two-handed signs, so that the activity of both hands can be
+properly represented in a rapid and intuitive way.  The transcriber will also encode which is
+normally the dominant hand for a given signer and indicate when the signer reverses the
+dominance.
+
+SignStream Annotation Conventions
+15
+Manual material
+® Reference, agreement, and locatives
+Subject and object verb agreement
+The spatial locations used for referential and locative purposes are frequently assigned
+unique indexes that are indicated as subscripts in conventional glossing.  For example, an
+agreeing verb such as GIVE would be begin its articulation in the point in space associated with
+the subject referent (call that location ‘i’) and would finish its articulation in the location
+associated with the object referent (call that location ‘j’).  Since 1st and 2nd person are explicitly
+marked, verb agreement markings are presumed to be singular 3rd person unless otherwise
+specified.  (As mentioned earlier, 2nd person is being used descriptively to designate the
+addressee; the notation should not be interpreted as suggesting a significant grammatical
+distinction between 2nd and 3rd persons in ASL.) Whereas this might ordinarily be glossed as
+iGIVEj,, we have separated the spatial index from the rest of the sign by colons.
+Although linguists frequently indicate coreferentiality by using matching subscripted indexes of
+this kind, we have not used indexes with any signs produced in neutral space.  Therefore, if the
+subject of the verb GIVE were fs-JOHN, an index would only be used with this noun if it were
+signed in a non-neutral spatial location.  Thus, we have the distinction between the following
+two situations:
+Agreement marking on adjectives, nouns, pronouns, determiners, possessives, and emphatic
+reflexives
+This same notation is used to mark manual agreement on other types of nominal and
+adjectival signs.  For example, agreement is marked on the possessive sign (POSS) and on
+i:GLOSS:j
+i:GIVE:j
+1p:GIVE:2p
+‘i’ and ‘j’ designate unique spatial locations
+associated with the subject and object
+referents.
+‘(I) give (you)…  ‘
+Noun
+fs-JOHN  i:GIVE:j
+John is signed in a neutral location.
+Noun:i
+fs-JOHN:i  i:GIVE:j
+John is signed in the location associated with
+the referent (the same location with which
+the verb displays manual subject-verb
+agreement).
+
+SignStream Annotation Conventions
+16
+Manual material
+pronouns and determiners.  In these situations, however, person distinctions are also relevant.
+There is a fundamental distinction between 1st and non-1st person in ASL.  Although it has been
+argued that 2nd person is not a significant linguistic category, we have used this gloss
+descriptively in cases where the referent is the addressee(s). Therefore, the notations used with
+singular pronouns, definite determiners, emphatic reflexives, and possessives are as follows:
+The third person singular pronoun may also be articulated with the thumb rather than the
+index finger.  In such cases, we have annotate the sign as follows:
+Adverbials of location and direction
+Despite the similarity in articulation between the use of the index finger as a pronoun or
+determiner and as an adverbial, we have glossed the adverbial usage differently, marking only
+location (since person reference is irrelevant).  Locations or directions may also be described by
+a phrase within quotation marks.
+IX-1p
+POSS-1p
+SELF-1p
+1st person pronoun
+1st person possessive marker
+1st person emphatic reflexive marker (as in ‘I
+did it myself.’).
+IX-2p
+POSS-2p
+SELF-2p
+Pronoun referring to addressee.
+Possessive marker referring to addressee.
+Emphatic reflexive marker referring to
+addressee.
+Pronoun
+IX-[person]:i
+Determiner
+IX-3p:i
+Possessive
+POSS-[person]:i
+Emphatic reflexive
+SELF-[person]:i
+IX-3p:i
+POSS-3p:i
+SELF-3p:i
+Pronoun or determiner referring to singular
+third person referent associated with
+location ‘i’.
+Possessive marker referring to singular
+third person referent associated with
+location ‘i’.
+Emphatic reflexive marker referring to a
+singular third person referent associated
+with location ‘i’.
+THUMB-IX-3p:i
+Pronoun referring to singular third person
+referent associated with location ‘i’
+articulated with the thumb.
+
+SignStream Annotation Conventions
+17
+Manual material
+Singular vs. plural
+For pronouns and possessives, grammatical number (sg. vs. pl.) is also important. See, e.g.,
+MacLaughlin, Neidle, Bahan, and Lee (2000).  One way to express plural agreement is by using
+multiple points in space (two or more). The sign then moves among the relevant points.
+When multiple points in space are used referentially, the plural pronoun would be translated
+into English as something like ‘the two of us’ or ‘the three of them.’  In such cases, we included a
+marking of plurality followed by a specification of the numeral (incorporated into the sign) and
+a specification of the points in space (i, j, k, etc.).  That is because these same points may be used
+throughout the discourse with the same referential interpretation.  Examples follow:
+IX-loc:j
+Adverbial produced with index finger
+pointing to location ‘j’.
+Adverbial
+IX-loc:[location]
+IX-dir:[direction]
+IX-loc“under table”
+IX-dir“around the
+corner to the right”
+IX-loc”far”
+THUMB-IX-loc”behind”
+Adverbial with location described.
+IX-3p-pl-2:x/y
+IX-3p-pl-3:x/y/z
+Third person pronoun referring to the 2
+(or 3) referents: x, y (and z).
+IX-1p-pl-2:x
+First person pronoun referring to signer
+plus the referent associated with the
+location ‘x’.
+IX-[person]-[numeral]:i/j/k
+POSS-[person]-[numeral]:i/j/k
+IX-2p-pl-3:x,y
+Second person pronoun referring to
+addressee plus the two referents
+associated with locations ‘x’ and ‘y’.
+
+SignStream Annotation Conventions
+18
+Manual material
+An alternative way to express plurality is through use of an arc rather than a point.  This is
+annotated as follows both for pronouns and for other manual markings of agreement:
+Adverbials articulated by may also designate locations using an arc.  These have been
+annotated in the following way:
+Further distinctions in the manifestation of subject and object verb agreement
+There are additional distinctions relevant to subject and object verb agreement that are
+discussed in Bahan (1996), Neidle et al. (2000), and MacLaughlin et al. (2000), including those
+described below.
+Distinction between overt and neutral subject agreement
+Verbs that normally display overt spatial subject agreement may instead be signed with a
+neutral agreement marking (similar to 1st person). In such cases, we have used ‘neu’ instead of
+the index identifying the subject reference.
+Distinction between definite and indefinite object agreement
+In general, object agreement with a definite object makes reference to a point in space, while
+indefinite reference makes use of a wider region of space (see MacLaughlin 1997).  For some
+     -3p-pl-arc
+IX-3p-pl-arc
+POSS-3p-pl-arc
+SELF-3p-pl-arc
+1p:GIVE-3p-pl-arc
+Pronoun (or possessive or emphatic
+reflexive) referring to singular third
+person referent associated with location
+‘i’ articulated with the thumb.
+‘I give (it) to them.’
+Subject agreement is 1st person.  Object
+agreement (the end point of the sign) is
+plural (an arc).
+     -loc-arc
+IX-loc-arc
+Adverbial (‘there’) using an arc to
+designate locations.
+neu:GLOSS
+JOHN neu:GIVE:j   MARY
+‘John gave (it) to Mary’ without overt spatial
+subject agreement on GIVE.
+JOHN  i:GIVE:j   MARY
+The same sentence as above, with overt
+spatial subject agreement on GIVE.
+
+SignStream Annotation Conventions
+19
+Manual material
+verbs, when the object is indefinite, a different form of the verb is used, as is the case with
+GIVE.  We mark such indefinite object agreement as ‘indef’:
+Non-manual markings of agreement and location
+This same use of indexes is possible with non-manual behaviors.  For example, an eye gaze
+to the same location, designated by the index ‘i’ would be glossed in the logical way.  Eye gaze
+also reflects a distinction between definite agreement (eye gaze to a point) and indefinite
+agreement (eye gaze extending over a region, either accomplished by ‘wandering eye gaze’ or
+an unfocused stare).  The same conventions would apply as well to head tilt, which (as shown
+by Bahan 1996), can also mark agreement non-manually.
+® Aspectual information
+Perfect aspect expressed by the sign FINISH
+The lexical item glossed as FINISH has many different functions in ASL.  Among other uses,
+it can function as a main verb or as a perfect aspect marker.  The sign is consistently glossed as
+FINISH with differences reflected in the Part of Speech tag and in the English translation.
+(There are instances of ambiguity in the use of FINISH in an isolated sentence; as previously
+mentioned, we have annotated one reading and have not identified all possible readings of
+ambiguous sentences.)
+Reduplicative aspect  marking
+Many aspectual inflections are expressed through various kinds of reduplications.  There are
+two possibilities for annotating this inflection:
+GLOSS-indef
+JOHN i:GIVE-indef  SOMETHING/ONE
+‘John gave (it) to someone.’
+JOHN  i:GIVE:j   MARY
+‘John gave (it) to Mary.’
+Non-manual:i
+eg:i
+eg: “under table”
+Eye gaze (or any other
+non-manual behavior) pointing to
+the location, indicated by the
+index ‘i’ or other description.
+eg:indef
+Eye gaze showing agreement
+with an indefinite NP, as
+described above.
+
+SignStream Annotation Conventions
+20
+Manual material
+We have tended to indicate simple reduplications with the + signs, and more complex aspectual
+inflections by identifying the aspectual information conveyed.
+Aspectual information precedes agreement information (including person and number) , if
+present:
+This kind of aspect marking is not restricted to verbs.  For example, it can also be found on the
+sign ONE:  ONE-distributive-pl-arc (in a context where someone gave one to each of many
+people).
+® Reciprocal inflection
+The reciprocal inflection (described, for example, in Klima and Bellugi, 1979, p. 279) involves
+each hand articulating the verb as if it were the dominant hand, with the two hands moving
+simultaneously.  This may involve a single movement, or it may be further inflected for aspect
+(e.g., there may be repeated articulations with the two hands alternating).  In such cases, we
+mark the verb as reciprocal and indicate other inflectional information afterward, in the
+standard way.
+GLOSS-aspect
+STUDY-continuative
+Aspectual inflections are indicated
+following the gloss.
+GLOSS++
+READ+++
+This reflects the reduplication.
+GLOSS-aspect(:i)
+1p:GIVE-distributive-3p-pl-arc
+GIFT-distributive:i
+‘(I) gave each (of them)… ‘
+‘(they) each gave (one person)… ’
+GLOSS-recip
+LOOK-AT-recip:i,j
+‘The referents associated with
+locations ‘i’ and ‘j’ look at each
+other.’
+GLOSS-recip++
+(2h)alt.GIVE-recip+++:i,j
+‘The referents associated with
+locations ‘i’ and ‘j’ are involved in
+multiple acts of giving to each
+other.’  The two hands move
+repeatedly in an elliptical path,
+starting at locations ‘i’ and ‘j’.
+
+SignStream Annotation Conventions
+21
+Manual material
+® Classifiers
+We follow standard conventions in identifying the specific type of classifier by abbreviations
+such as those included in the excerpt from Smith, Lentz, and Mikos, 1988, p. xv) contained in
+Figure 3.  We have followed these general conventions (although without the use of italics).
+Symbol    
+Explanation
+DCL“____”  
+Descriptive classifier sign used to describe an object or a person.  What is
+described is italicized and in quotation marks (i.e., DCL”curly hair”).
+Sometimes referred to as size and shape specifiers or SASSes.
+LCL:__ “____”
+Locative classifier sign representing an object in a specific place (and sometimes
+indicating movement).  Handshape is given, followed by spatial or locative
+information italicized and in quotation marks (i.e., LCL:B“leaf drifting to the
+ground”).
+SCL:__ “____”
+Semantic classifier sign representing a category of nouns such as vehicle or
+person.  Handshape is given, followed by information about specific
+movement italicized and in quotation marks (i.e., SCL:1“person walking stiffly
+and hurriedly”).
+BCL“____”
+Body classifier sign in which the body “enacts” the verb of the sentence.  Role
+shifting is usually required.  Specific action is described in italics and quotation
+marks (i.e., BCL “acting macho”, “BCL “put arms around friend”).
+ICL“____”
+Instrument classifier sign in which part of the body (usually the hands)
+manipulates an object (i.e., ICL“driving”, ICL”playing jacks”).
+BPCL:__ “____”
+Bodypart classifier sign representing a specific part of the body doing the action.
+Handshape is often indicated and specific action is described in quotation
+marks (i.e., (2h)BPCL:1”crossing legs”, (2h)BPCL:B”taps foot”).
+PCL:__ “____”
+Plural classifier sign, indicating either specific number or non-specific number
+(i.e., PCL:3”people walking”, PCL:4”long line of people”, PCL:5”hordes of”).
+Figure 3.  Symbols for Classifiers from Signing Naturally
+
+SignStream Annotation Conventions
+22
+Manual material
+Classifiers may also be marked for agreement or location, as follows:
+® Gestures
+Quotation marks are also used to describe gestures.  Information about handshape may also
+be included immediately before the material within quotation marks.
+One specific type of gesture that we have observed and annotated is the use of the
+non-dominant hand to focus attention on the fingerspelling being carried out by the dominant
+hand.  This has been glossed as follows, as it uses an H handshape:
+[classifier type]:
+    (handshape)“___ ”
+DCL“curly hair”
+ICL“turn crank”
+LCL:B“leaf drifting to the ground”
+(2h)BPCL:1“crossing legs”
+SCL:1“person walking stiffly and
+hurriedly” 
+PCL:3“people walking”
+Classifiers
+(i:)[classifier type]:
+   (handshape)“___ ”(:j)
+j:PCL:1“person approaching”:k
+Classifiers
+(handshape)“___ ”
+“wave no”
+“wave left”
+(2h)5wg“after a while”
+Gesture-like sign.
+[handshape]“focus”
+B“focus”
+Use of one hand (often a G, B, or
+H handshape) to draw attention
+to fingerspelling by the other
+hand.
+
+SignStream Annotation Conventions
+23
+Manual material
+There is another sign/gesture that involves wiggling of the fingers.  We have glossed this
+discourse marker as follows:
+Other gestures that we have identified include those glossed as follows:
+        
+        
+        
+                “um” (with fingers     5“doesn’t matter”       5“so, all set”
+                     wiggling)
+Figure 4.  Some common gestures illustrated
+The question of which signs are and are not gestural is a complex one, and our notations are
+intended to be descriptive, leaving open possibilities for future analysis of these signs.
+Nevertheless, given the conventions we are adopting, we have been forced to explicitly identify
+gestures.  (For discussion of some of the relevant issues, see Emmorey(1999), although we do
+not always reach the same conclusions about the status of specific signs/gestures.)
+“um”
+A sign/gestures, involving
+wiggling of the fingers, used as a
+discourse marker to retain the
+attention of the addressee. (See
+Figure 4.)
+5“doesn’t matter”
+5”so, all set”
+Both articulated with a 5
+handshape.  See Figure 4  for
+illustrations.
+
+SignStream Annotation Conventions 
+24
+Non-manual behaviors from an anatomical perspective
+®  Head position and movements
+In order to allow for coding of the complex motions in which the head may engage,
+SignStream includes 8 fields for head behavior: 4 head position fields, for cases where the head
+is held in a non-neutral position, and 4 head movement fields, for continuous (potentially
+repeated) movements. The movement and position fields are organized in parallel fashion, such
+that each field captures motion along a particular dimension. For example, the head may move
+along one of the three axes schematized in the diagrams below.
+X
+Z
+Y
+Y
+Thus, we can identify movements of the head that involve rotation with respect to these
+axes. When the head shakes or assumes a turned position, it is rotating around the Y axis. When
+the head tilts forward or backward, nods, or assumes a raised or lowered position, it is rotating
+around the X axis. When the head moves side to side, it is moving around the Z axis.  In
+addition, the head may be displaced by movement of its base, that is, the neck. In this way, the
+head (or chin) may jut forward, for example. There are two fields, a position field and a
+movement field, for capturing each of these four types of displacement. It  can be difficult for
+the transcriber to separate out (and code independently) the positions or movements along the
+three axes, but that is what we have done. The availability of synchronized digital video
+showing signing from different angles has greatly facilitated these annotations.
+Fields for head position
+For the head position fields, the head first moves to a target position and then maintains that
+position. We have generally transcribed the movement portion as ‘start’, and the held portion
+as some particular value (left, right, etc.).
+
+SignStream Annotation Conventions
+25
+Non-manual behaviors
+head pos: tilt fr/bk  (hp: tilt fr/bk)
+[X axis]
+front
+back
+head pos: turn  (hp: turn)
+[Y axis]
+left
+right
+head pos: tilt side  (hp: tilt side)
+[Z axis]
+left
+right
+head pos: jut  (hp: jut) 
+[base]
+forward  (for)
+back (back)
+Fields for head movement
+The head movement fields generally describe repetitive head movements. We have labeled
+the anticipatory movement upward (for a nod) or sideward (for a shake) as ‘start’. The head
+movement itself is considered to begin with the first major downward or sideward movement
+from that position. See page 3 for discussion of the determination of the linguistic start point for
+these periodic movements.
+head mvmt: nod (hm: nod) 
+[X axis]
+rapid
+slow
+single
+head mvmt: shake (hm: shake) 
+[Y axis]
+rapid
+slow
+single
+head mvmt: side to side (hm: side<->side) 
+[Z axis]
+rapid
+slow
+head mvmt: jut  (hm: jut) 
+[base]
+Use of plus and minus signs
+With respect to head positions, the ‘+’ and ‘–’ signs indicate the degree to which the head is
+in the labeled direction.  So, +for the head position turn field, ‘+right’ indicates that the head is
+
+SignStream Annotation Conventions
+26
+Non-manual behaviors
+turned further to the right than the ‘right’ label.  A turn that is not quite as much to the right as
+‘right’ would be labeled ‘-right’.  This is illustrated in Figure 7.
+In contrast, for movements, the ‘+’ and ‘–’ signs are used to indicate the degree of the
+movement (of the labeled type).  So, a head nod that is labeled as  ‘–rapid’ indicates that there is
+a slight head nod, which is rapid. A head nod that is labeled as ‘+single’ is a particularly
+pronounced (single) head nod.
+Illustrations of head positions
+The least transparent of these labels is ‘jut’, which refers to whether the chin is pulled or
+tucked in (=back) or stuck out (=front), as shown in Figure 5.
+         
+  
+                   
+                      jut: back                                   jut: forward
+Figure 5.  Head position: jut
+
+SignStream Annotation Conventions
+27
+Non-manual behaviors
+  
+  
+ 
+        right                   -right                   -left                 left
+Figure 6.  Head position: tilt
+ 
+  
+  
+    
+   
+        +right           right          -right           -left               left
+Figure 7.   Head position: turn
+
+SignStream Annotation Conventions
+28
+Non-manual behaviors
+  
+  
+    
+      
+     +front           front            front          -front                -back
+Figure 8.   Head position: front/back
+® Eye gaze
+The direction of eye gaze may be indicated by direction (right, left, up, down, etc.), as shown
+in Figure 9.
+          
+                               right                               dn/lf
+Figure 9.  Eye gaze annotated to indicate direction
+Another label marks eye gaze that follows the hands (track-hands), such as may occur with
+classifier constructions. It is also possible to code eye gaze to a specific location, as discussed on
+page 19.
+In the next version of SignStream, we hope to have better tools to describe spatial locations
+used generally for reference and gaze.
+
+SignStream Annotation Conventions
+29
+Non-manual behaviors
+® Eye aperture
+Blinks
+By convention, we code the start of a blink as the moment when the eyes close.  In practice,
+however, that may occur in between two frames; so it may be necessary to have the start point
+as coded actually slightly prior to the blink.  The blink is over when the eye is open again.  For
+longer periods when the eye remains closed, we label the eyes as ‘closed’ (cl).
+Squint vs. lowered lids
+We have coded differing degrees of squinting, with the basic squint coded as ‘sq’ and the ‘+’
+and ‘–‘ signs used to indicated greater and lesser degrees of squinting.  There are also cases
+where the eyelid is lowered (i.e., the eye is partially closed), but the other muscle tensing
+associated with squinting is absent.  This has been coded as a lowered lid, ‘low’.  These
+variations are illustrated in Figure 10.
+        
+        
+        
+       
+         
+          cl               +sq               sq             -sq              low
+Figure 10.   Eye aperture: degrees of closure
+Wide eyes
+Similarly, we have labeled as ‘wide’ the situations in which the eyes are open more widely
+than usual.  Again, the ‘+’ and ‘– ’ signs are used to indicate the degree of aperture.  Wide eyes
+are illustrated in Figure 11.
+
+SignStream Annotation Conventions
+30
+Non-manual behaviors
+wide
+Figure 11.  Eye aperture: wide eyes
+® Eyebrow position and movements
+Start and end points
+As discussed earlier, the eyebrow position is defined to extend over the domain when it is
+maximally raised or lowered.  The frames of transition from neutral position are labeled as ‘s’
+for ‘start’ and the frames over which the eyebrows return to neutral position are labeled as ‘e’
+for ‘end’.
+Degrees of deviation from neutral
+To differentiate between degrees of eyebrow height, the ‘+’ and ‘–’ signs are used.  This is
+somewhat impressionistic, and not well suited to describing gradual changes in eyebrow
+position, but this is the system of annotation we have used.  Differences of degree in eyebrow
+height are illustrated in Figure 12.
+
+SignStream Annotation Conventions
+31
+Non-manual behaviors
+       
+  
+  
+  
+                lowered               -lowered            -raised            raised
+    
+  
+  
+  
+          lowered                -lowered             -raised               raised
+Figure 12.   Degrees of eyebrow height
+®  Mouth movements
+Illustrations
+This section will provide illustrations of the mouth gestures.  These are perhaps the most
+difficult to understand from the annotation labels.  Some gestures involving the mouth being open
+are illustrated in Figure 13.
+
+SignStream Annotation Conventions
+32
+Non-manual behaviors
+ 
+ 
+        
+                   Mouth open, tongue visible                   Tongue between the teeth
+                         (otv)                                             (th)
+   
+          
+         
+ 
+   Smile mouth open         Mouth open & tense               Marking of intensity
+     (open-smile)              (open/tns)                              (int)
+Figure 13.   Some gestures with open mouth
+Figure 14  illustrates two mouth gestures that involve puffed cheeks and air being expelled.
+
+SignStream Annotation Conventions
+33
+Non-manual behaviors
+ 
+      
+  
+             
+                                      Blow (bl)                                     Brr (brr)
+Figure 14.  Mouth gestures involving release of air
+One important gesture is frequently labeled ‘cs’ (cheek-to-shoulder).  This indicates
+proximity in space or time, among other things. This is shown in Figure 15.
+(cs)
+Figure 15.   Cheek to shoulder
+
+SignStream Annotation Conventions
+34
+Non-manual behaviors
+Several mouth gestures involve the lips pressed together; some are shown in Figure 16.
+ 
+ 
+     
+ 
+ 
+                Lips pursed                            Lips spread/corners down
+              (mm)                                        (ls/cd)
+    
+ 
+    
+ 
+ 
+           Lips spread                            Raised upper lip
+                (ls)
+                                  (rul)
+Figure 16.  Some mouth gestures with lips pressed together
+For discussion of the description and meaning of such gestures, see, for example, Baker and
+Cokely (1980).
+
+SignStream Annotation Conventions
+35
+Non-manual behaviors
+Mouthing based on spoken language
+We have not transcribed English-like mouth gestures that accompany many ASL signs.  To
+that extent, these transcriptions are incomplete.  Ideally, a notation should be used to represent
+in some kind of ‘phonetic’ fashion this kind of mouth gesture.  Unfortunately, SignStream
+version 2 does not have the ability to use symbol fonts.  Once this is possible (in SignStream
+version 3, we hope), such mouthing gestures should be annotated.
+One difficulty, however, is that these oral language-based mouthing gestures often co-occur
+with adverbial ASL mouth movements, and in the transcription we have done, it has sometimes
+been difficult to determine what kind of mouth gesture(s) were involved.  To the extent that we
+were able to separate out English-based mouth gestures, those were excluded from the
+annotations.
+® Cheeks
+Some of the mouth gestures just discussed also involve characteristic gestures of the cheeks,
+such as puffed or tense cheeks.  This is also annotated. In some cases with mouth or cheek
+gestures, there is a asymmetry. If so, we specify whether the gesture occurs primarily on the
+right or left side, as in the ‘puffed cheek right’ gesture shown in Figure 17.
+Figure 17 .  Puffed cheek right (cheek: puf/rt)
+® Nose
+There is a particular wrinkling of the nose that indicates definite reference or specificity.  This
+also frequently co-occurs with certain mouth gestures (such as ‘cs’). As illustrated in Figure 18,
+this is distinct from what we have coded as tense (‘tns’).
+
+SignStream Annotation Conventions
+36
+Non-manual behaviors
+                       
+                       nose:wr                      nose:tns
+Figure 18.  Wrinkled vs. tensed nose
+® Neck
+We have also identified linguistically significant tensing of the neck—sometimes only on one
+side—as illustrated here:
+                        
+   
+        neck:tns                 neck:tns/lf     neck:tns/rt
+Figure 19.  Tensing of the neck
+® Body movements
+Body leans and shoulder movements have been coded.  The labels should be self-evident;
+for the list of values, see Appendix A.
+
+SignStream Annotation Conventions 
+37
+Grammatical interpretive fields
+® Identifying start and end points
+As has been observed (Baker-Shenk 1983, e.g.), the non-manual expression associated with a
+particular grammatical marking tends to consist of a cluster of behaviors, with some variability.
+In some cases, the start and end points of the separate components are not identical.  Thus, the
+transcriber must exercise judgment in deciding on the start and end points of the grammatical
+marking, guided by the distribution of the components.  In general, this has been
+straightforward.
+® Topics/focus
+Distinctions
+Although topics have traditionally been viewed as of a type, in fact, there are several
+linguistically significant  distinctions to be made, in terms of non-manual expression, discourse
+function, and syntactic distribution.  For more information about this, see Aarons (1994) , Neidle
+et al. (2000), and Neidle (in press-b).
+The most fundamental distinction is between moved phrases that are in focus (often
+contrastive focus), which we have labeled as ‘foc/top1’, and base-generated phrases that occur
+with a (potentially overt) resumptive pronoun.  This is illustrated by the following examples
+sentences:
+          foc/top1
+    (3)   BAGEL   fs-JOHN  LIKE
+           ‘Bagels John likes.’        (but he is not crazy about cream cheese).
+              top2
+        
+       (4)  VEGETABLE  fs-JOHN  PREFER  CORN
+            ‘As for vegetables, John prefers corn.’
+               top2
+      
+       (5)  fs-MARY  fs-JOHN  LOVE  IX-3p:i
+            ‘As for Mary, John loves her.’
+The non-manual distinctions between the two are subtle.  Generally, both types of topics are
+accompanied by raised eyebrows and wide eyes, for topic1, the head is tilted slightly back.
+
+SignStream Annotation Conventions
+38
+Grammatical interpretive fields
+Topic2 normally involves larger backward head movement and a head nod over the topic , as
+well as a larger prosodic break.  Illustrations of these types of topics are provided in Figure 20.
+           
+          foc/top1                              top2
+Figure 20.  Topics
+New label: foc/ref
+There are, however, some uses of a non-manual expression very similar to what
+accompanies top1 that seems to serve a related function: that of establishing a background with
+reference to which the rest of the proposition is situated.  This is, for example, the case, with
+comparisons such as occurs in example (6).  We have classified this as ‘foc/ref’ indicating that it
+represents background information and possibly (but not necessarily) contrast.
+                foc/ref                  neg
+                 
+    
+       (6) TEACHER LIKE MOVIE   BUT  STUDENT   NOT
+           ‘The teacher likes movies, but the students don’t.’
+The expression shown in Figure 21 illustrates the non-manual expression found with the first
+clause of the above sentence. Although this is not a topic in the traditional sense, we have
+included this label in the same category as top1 because of the similarity in function and
+expression.
+It is quite possible that the non-manual marking associated with conditional and ‘when’
+clauses as well as relative clauses—discussed in the next two sections—is actually an instance of
+this same type of non-manual expression, as first suggested by Coulter (1978, 1979), inasmuch
+
+SignStream Annotation Conventions
+39
+Grammatical interpretive fields
+as the conditional or when clause sets up the backdrop for the proposition that follows.
+Nonetheless we have retained the traditional labels for those constructions.
+topic/focus:foc/ref
+Figure 21.   Eyebrow raise indicating background information and possibly contrast
+New label: foc/adv
+In addition, we have used a different notation for sentence-initial adverbs that are
+accompanied by very similar non-manual markings.
+Left peripheral elements
+Note that this field currently provides labels for only a subset of constituents that appear in
+the left periphery. Conditional/When clauses and Relative clauses (discussed next) also have
+similar function, distribution, and non-manual markings, as the varieties of focus phrases
+discussed here and labeled within the Topic/focus field.
+New label: foc
+Sometimes this same non-manual marking indicates focus within IP.  In such cases, the in
+situ focus phrases that occur with this marking (including raised eyebrows) have been labeled
+as ‘foc’.  We have included this category within the Topic/focus field as well.
+® Conditional/When
+Traditionally, it has been claimed (Coulter, 1979, e.g.) that the non-manual marking
+associated with ‘when’ clauses and with conditional ‘if’ clauses is the same as the topic (focus)
+marking just described.  This may be true.    At the very least, the two markings are
+extraordinarily similar, although native signers seem able to distinguish between the
+
+SignStream Annotation Conventions
+40
+Grammatical interpretive fields
+conditional and when clauses based solely on the non-manual expression (with eye gaze
+perhaps being key).  This is a subject for future research, but for the time being, we have
+annotated the non-manual expressions of conditional and when clauses as distinct.  These are
+illustrated in Figure 22.
+         
+           conditional                ‘when’ marking
+Figure 22.   Conditional and 'when' marking
+® Relative Clauses
+So-called relative clauses in ASL (correlatives) most often occur in sentence-initial position
+with non-manual marking very similar to what is found with top1 (see, e.g., Coulter 1979 and
+Neidle, in press-b).  In addition, they are frequently accompanied by the nose wrinkle that
+Coulter identified as being associated with definite descriptions and which seems to function
+more generally as a marker of specificity.  This is illustrated in Figure 23.
+ 
+Figure 23.  Relative clause facial expression
+
+SignStream Annotation Conventions
+41
+Grammatical interpretive fields
+® Questions
+The non-manual markings characteristic of direct and rhetorical wh-questions and yes-no
+questions are illustrated in Figure 24 and Figure 25.
+ 
+    
+ 
+            yes-no question marking                     wh-question marking
+Figure 24.  Direct questions
+   
+  
+               
+       rhetorical yes-no question marking             rhetorical wh-question marking
+Figure 25.   Rhetorical questions
+
+SignStream Annotation Conventions
+42
+Grammatical interpretive fields
+® Negation
+The non-manual marking for negation generally consists of a side-to-side headshake, plus
+the facial expression shown in Figure 26.
+ 
+ 
+ 
+ 
+negative headshake
+Figure 26.   Facial expression and repeated headshake associated with negation
+® Role Shift
+This field is used to annotate what has been referred to as ‘role shift’ or ‘referential shift’,
+wherein the signer assumes the perspective of someone else, such as John (e.g.).  This has been
+annotated as:  ‘rs:John’
+® But wait, there’s more
+Just as we have not attempted an exhaustive transcription of absolutely everything that is
+happening anatomically, we have likewise not labeled everything that is of grammatical interest
+or significance.  In some cases, we made conscious choices not to include certain information.
+That is the case with non-manual correlates of agreement or adverbials, for example.  (The
+relevant behaviors are nonetheless annotated in the anatomical fields.) In other cases, further
+research is required to analyze the significance and characteristics of the markings.
+
+SignStream Annotation Conventions
+43
+Parts of speech
+Fields for parts of speech
+There are two fields for coding part of speech information. The first field (POS) includes part of
+speech “tags” that should be familiar to linguists, while the second includes tags from the set
+established by the Linguistic Data Consortium (http://www.ldc.upenn.edu/).  The American
+Sign Language Linguistic Research Project has used the first set of tags, as listed below.
+POS
+Noun  (N)
+Proper Noun  (PN)
+Pronoun  (Pro)
+Determiner  (Det)
+Quantifier  (Quant)
+Wh-word  (Wh)
+Number  (Num)
+Negation  (Neg)
+Verb  (V)
+Adjective  (Adj)
+Adverb  (Adv)
+Preposition  (Prep)
+Possessive (Poss)
+Modal  (Modal)
+Tense (Tns)
+Classifier  (CL)
+Conjunction  (Conj)
+Particle  (Prt)
+Reflexive (Refl)
+Demonstrative (Dem)
+Discourse Marker  (DM)
+Aspect (Asp)
+Modal + Negation (Modal+Neg)
+Negation + Verb (Neg+V)
+Quantifier + Wh-word (Quant+Wh)
+Tense + Negation (Tns+Neg)
+Verb + Aspect (V+Asp)
+Wh + Particle (Wh+Prt)
+Tense + Aspect (Tns+Asp)
+In general, we have encoded part of speech information in the main part of speech track.
+We have used the non-dominant POS track only when the part of speech of what is being
+signed on the non-dominant hand is different from what is being produced by the dominant
+hand
+
+SignStream Annotation Conventions 
+44
+Field and value
+                                                                                                                                                                                                         names and labels
+Appendix A: Field and value names and labels
+Overall list of field names and labels
+Field Names
+Field Labels
+     Head position
+head pos: tilt fr/bk
+hp: tilt fr/bk s
+head pos: turn
+hp: turn
+head pos: tilt side
+hp: tilt side
+head pos: jut
+hp: jut
+    Head movement
+head mvmt: nod
+hm: nod
+head mvmt: shake
+hm: shake
+head mvmt: side to side
+hm: side<–>side
+head mvmt: jut
+hm: jut
+    Body
+body lean
+body lean
+body mvmt
+body mvmt
+shoulders
+shoulders
+    Eyes, Nose, and Mouth
+eye brows
+eye brows
+eye gaze
+eye gaze
+eye aperture
+eye apert
+nose
+nose
+mouth
+mouth
+English mouthing
+English mouthing
+cheeks
+cheeks
+    Neck
+neck
+neck
+    Grammatical information
+negative
+negative
+wh question
+wh question
+yes-no question
+yes-no question
+rhetorical question
+rhq
+topic/focus
+topic/focus
+conditional/when
+cond/when
+relative clause
+rel. clause
+role shift
+role shift
+subject agreement
+subj agr
+object agreement
+obj agr
+adverbial
+adv
+    Part of Speech
+POS
+POS
+Non-dominant POS
+POS2
+    Gloss Fields
+main gloss
+main gloss
+non-dominant hand gloss
+nd hand gloss
+    Text Fields
+English translation
+english
+
+SignStream Annotation Conventions 
+45 
+Field and value
+                                                                                                                                                                                                         names and labels
+Head position fields
+head pos: tilt fr/bk
+hp: tilt fr/bk
+start
+s
+end
+e
+front
+front
+slightly front
+-front
+further front
++front
+back
+back
+slightly back
+-back
+further back
++back
+head pos: turn
+hp: turn
+start
+s
+end
+e
+left
+left
+slightly left
+-left
+further left
++left
+right
+right
+slightly right
+-right
+further right
++right
+head pos: tilt side
+hp: tilt side
+start
+s
+end
+e
+left
+left
+slightly left
+-left
+further left
++left
+right
+right
+slightly right
+-right
+further right
++right
+head pos: jut
+hp: jut
+start
+s
+end
+e
+forward
+for
+slightly forward
+-for
+further forward
++for
+back
+back
+slightly back
+-back
+further back
++back
+
+SignStream Annotation Conventions 
+46
+Field and value
+                                                                                                                                                                                                         names and labels
+Head movement fields
+head mvmt: nod
+hm: nod
+start
+s
+end
+e
+rapid
+rapid
+slight rapid head nod
+-rapid
+slow
+slow
+slight slow head nod
+-slow
+single
+single
+slight single head nod
+-single
+head mvmt: shake
+hm: shake
+start
+s
+end
+e
+rapid
+rapid
+slight rapid head shake
+-rapid
+slow
+slow
+slight slow head shake
+-slow
+single
+single
+slight single head shake
+-single
+head mvmt: side to side
+hm: side<->side
+start
+s
+end
+e
+rapid
+rapid
+slow
+slow
+single
+single
+head mvmt: jut
+hm: jut
+start
+s
+end
+e
+slow
+slow
+forward
+for
+back
+back
+
+SignStream Annotation Conventions 
+47
+Field and value
+                                                                                                                                                                                                         names and labels
+Body movement fields
+body lean
+body lean
+start
+s
+end
+e
+left
+left
+right
+right
+forward
+for
+slightly forward
+-for
+forward/left
+for/lf
+forward/right
+for/rt
+back
+back
+slightly back
+-back
+back/left
+bk/lf
+back/right
+bk/rt
+body mvmt
+body mvmt
+down
+down
+neck
+neck
+start
+s
+end
+e
+tensed
+tns
+tensed/left
+tns/lf
+tensed/right
+tns/rt
+shoulders
+shoulders
+start
+s
+end
+e
+left
+left
+slightly left
+-left
+left/down
+lf/dn
+left/raised
+lf/raised
+right
+right
+slightly right
+-right
+right/down
+rt/dn
+right/raised
+rt/raised
+down
+down
+raised
+raised
+further raised
++raised
+forward
+for
+forward/left
+for/lf
+forward/right
+for/rt
+back
+back
+back/left
+bk/lf
+back/right
+bk/rt
+
+SignStream Annotation Conventions 
+48
+Field and value
+                                                                                                                                                                                                         names and labels
+Fields related to the eye and nose
+region
+eye brows
+eye brows
+start
+s
+end
+e
+raised
+raised
+slightly raised
+-raised
+further raised
++raised
+lowered
+lwrd
+slightly lowered
+-lwrd
+further lowered
++lwrd
+eye gaze
+eye gaze
+eg
+left
+left
+right
+right
+up
+up
+up/left
+up/lf
+up/right
+up/rt
+down
+down
+down/left
+dn/lf
+down/right
+dn/rt
+watch hands
+track-hd
+to addressee
+adresee
+eye aperture
+eye apert
+start
+s
+end
+e
+blink
+bl
+squint
+sq
+slightly squinted
+-sq
+further squinted
++sq
+lowered lid
+low
+slightly lowered
+-low
+further lowered
++low
+wide
+wide
+wider
++wide
+closed
+cl
+nose
+nose
+start
+s
+end
+e
+wrinkle
+wr
+tensed
+tns
+slightly tensed
+-tns
+
+SignStream Annotation Conventions 
+49 
+Field and value
+                                                                                                                                                                                                         names and labels
+Other face and mouth fields
+mouth
+mouth
+start
+s
+end
+e
+lips pursed:oo
+oo
+lips pursed:oo-tight
+oo-tight
+lips pursed:mm
+mm
+tongue out
+th
+tongue sucked in quickly
+thp
+tongue mvmt lateral
+tml
+cha
+cha
+sta
+sta
+puh
+puh
+pow
+pow
+sh
+sh
+cs
+cs
+intense
+int
+open
+open
+open & round
+open/rd
+open & tense
+open/tns
+open & corners down
+open/cd
+raised upper lip
+rul
+lips spread
+ls
+lips spread & crnrs up
+ls/cu
+lips spread & crnrs down
+ls/cd
+blow
+bl
+bite lower lip
+bll
+tongue on lwr lip
+toll
+open & tongue visible
+otv
+brr
+brr
+smile mouth open
+open-smile
+cheeks
+cheeks
+start
+s
+end
+e
+puffed
+puf
+puff left
+puf/lf
+puff right
+puf/rt
+tensed
+tns
+less tensed
+-tns
+tensed left
+tns/lf
+tensed right
+tns/rt
+
+SignStream Annotation Conventions 
+50
+Field and value
+                                                                                                                                                                                                         names and labels
+Grammatical interpretive fields
+negative
+negative
+start
+s
+end
+e
+negation
+neg
+wh question
+wh question
+start
+s
+end
+e
+whq
+q/wh
+yes-no question
+yes-no question
+start
+s
+end
+e
+yes-no question
+q/y-n
+rhetorical question
+rhq
+start
+s
+end
+e
+rhq
+rhq
+wh rhq
+rhq/wh
+yes-no rhq
+rhq/y-n
+topic/focus
+topic/focus
+start
+s
+end
+e
+focus/top1
+foc/top1
+top2
+top2
+top3
+top3
+foc/prop-with-ref-to
+foc/ref
+sentence-initial adverb
+foc/adv
+focus
+focus
+conditional/when
+cond/when
+start
+s
+end
+e
+conditional
+cond
+when
+when
+relative clause
+rel. clause
+rel-cl
+rel-cl
+role shift
+role shift
+rs: name
+John
+John
+
+SignStream Annotation Conventions 
+51
+Field and value
+                                                                                                                                                                                                         names and labels
+subject agreement
+subj agr
+start
+s
+end
+e
+agr-S
+agr-S
+agr-dS
+agr-dS
+object agreement
+obj agr
+start
+s
+end
+e
+agr-O
+agr-O
+adverbial
+adv
+start
+s
+end
+e
+far
+far
+cs
+cs
+stress
+stress
+mm
+mm
+oo
+oo
+cha
+cha
+(same tags used for both hands)
+POS
+POS
+Noun
+N
+Proper Noun
+PN
+Pronoun
+Pro
+Determiner
+Det
+Quantifier
+Quant
+Wh-word
+Wh
+Number
+Num
+Negation
+Neg
+Verb
+V
+Adjective
+Adj
+Adverb
+Adv
+Preposition
+Prep
+Possessive
+Poss
+Modal
+Modal
+Tense
+Tns
+Classifier
+CL
+Conjunction
+Conj
+Particle
+Prt
+Reflexive
+Refl
+Demonstrative
+Dem
+Discourse Marker
+DM
+Aspect
+Asp
+Modal + Negation
+Modal+Neg
+Negation + Verb
+Neg+V
+Quantifier + Wh-word
+Quant+Wh
+Tense + Negation
+Tns+Neg
+Verb + Aspect
+V+Asp
+Wh + Particle
+Wh+Prt
+Tense + Aspect
+Tns+Asp
+
+Appendix B: Reserved words and characters
+Several words and characters are reserved for use in search queries. The list of reserved words
+and characters can be viewed from within the program by selecting SignStream Help from the
+Apple menu.
+Reserved words cannot be used as the name or label (short name) of a participant or field.
+Reserved characters cannot appear within any name or label of a participant, field, or field
+value.
+Reserved words:
+and
+or
+with
+not
+before
+after
+startframe
+endframe
+framed
+unframed
+participant
+gloss-field
+non-manual-field
+Notes
+-wholeword
+-matchcase
+Reserved characters:
+[
+]
+*
+SignStream Annotation Conventions                                         52                                                                               Reserved words
+
+SignStream Annotation Conventions
+53
+Some hard choices
+Appendix C: Some hard choices we have made
+® How much to code?
+At every level, decisions have been made about what level of detail to include in the
+transcriptions.  When particular body or head movements are an integral part of the
+articulation of the sign (such as the slight movement forward of the head as the chin
+meets the hand for the contact produced in a sign like MOTHER), we have tended not to
+transcribe such head movements.  Here, there is an obvious trade-off.  In strictly
+objective terms, there is movement of the head.  However, this movement is attributable
+to the phonetics of the lexical item and has no larger linguistic significance.  We have
+generally chosen not to transcribe such non-manual movements.
+Another difficulty arises with the coding of head position.  There is a slight natural tilt
+that is part of a signer’s ‘neutral’ head position.  In general, we have not coded this
+position as involving a tilt.
+® Things that happen at the edges of utterances
+Sometimes the transition for a non-manual marking is already well underway
+at the initial frame of an utterance.  For example, the eyebrows may already be
+significantly raised, but still moving toward their maximum height.  We have coded such
+occurrences as ‘s’ even when only part of the anticipatory movement is contained within
+the given utterance.
+Likewise, there are sometimes movements at the end of a given utterance that are in
+fact anticipatory of something else not contained in the utterance.  We may not have
+been completely consistent about the extent to which these extraneous movements have
+been coded. Sometimes, in fact, these movements are not linguistic in nature, as will be
+discussed next.
+® Behaviors attributable to elicitation situation
+Head down
+In some utterances where the signer had written notes, looking down at the end of
+the sentence occurs, and it is of no linguistic significance.  There may be inconsistency in
+the extent to which this motion has been transcribed.  It is, in any case, an artifact of the
+data collection situation and should not be construed as a behavior that typically occurs
+at sentence boundaries.
+
+SignStream Annotation Conventions
+54
+Some hard choices
+Direction of eye gaze
+In some cases, eye gaze of the signer may be directed at the elicitor, and the position of
+the elicitor relative to the signer has varied.  So, there may be some occurrences of eye
+gaze that have no other explanation.  This could confound analysis of eye gaze
+behaviors.
+® Glossing issues
+Related lexical forms
+In some cases, manual signs are distinguished by mouthing (sometimes
+English-based).  This happens occasionally with present and past tense of verbs, such as
+SEE vs. SAW.  For consistency, we have glossed all verb forms using a single gloss (e.g.,
+SEE).  The manual signs do not differ for present and past.  Once we have the ability to
+use symbols to code mouthing, that will be the place to indicate the relevant
+differentiation. (Given that we are not yet transcribing this information, our
+transcriptions do not yet reflect this difference.)
+Consistency
+Other cases where it would be desirable to use the same gloss for signs that have the
+same essential manual articulation include the following signs:
+SHOULD, MUST, HAVE-TO
+However, here, to keep with other glossing traditions, we have glossed these signs
+differently.  SHOULD is normally articulated with (at least) two distinct downward
+movements, whereas MUST involves a single downward movement.  HAVE-TO is
+normally used in negative environments (e.g., NOT HAVE-TO), although for some
+signers (NOT MUST) is also possible.  Mouthing is used as the distinguishing identifier
+for HAVE-TO.  We note our own inconsistency, but so be it.
+® Part of speech
+Wherever possible, we have tried to use the same gloss for signs that have the same
+manual articulation.  In some cases, a single sign can be used alternatively as more than
+one part of speech, e.g., an adjective or an adverb.  In such cases, we have tried to use the
+same English gloss throughout, choosing the part of speech that seems to occur most
+frequently for the gloss.  The tradeoff is that the gloss is sometimes misleading; however,
+parts of speech are annotated.
+This is particularly problematic when the two words would have very different
+translations in English depending on the part of speech.  Such is the case for the sign we
+
+SignStream Annotation Conventions
+55
+Some hard choices
+gloss as VOMIT, which, in ASL, can be used as a verb or an adjective (meaning
+‘disgusting’).  (This is similar to the French adjective déguelasse meaning ‘disgusting’
+derived from a verb meaning ‘vomit’.)
+Likewise, we have used a single form to gloss the basic verb and its use as a past
+participle, e.g. STEAL to represent the verb when used actively or as a past particle
+(‘stolen’).  We do not wish to enter into the controversy about the existence of passives in
+ASL, and our use of a single gloss is not intended as representing a position taken on that
+issue.  We are sticking with our (attempt at a) convention of using the same gloss for the
+same manual sign.
+However, inevitably, assignment of a part of speech must be based on a syntactic
+analysis. In some cases, there is ambiguity in the sentence as signed (in which case we
+have annotated the POS for only one possible reading).  In other cases, the lexical items
+involved have not yet been fully analyzed.  For example, with respect to tense and aspect
+marking, our work in progress suggests that signs like NOW and BEFORE  (in certain
+contexts) convey information about both tense and aspect.  For this reason, we have
+annotated such signs as Tns+Asp.  However, this is pending completion of our
+investigation of tense and aspect.  This particular annotation, ‘Tns+Asp,’ might better be
+interpreted, for the time being at least, as ‘tense and/or aspect’.  Our conventions will
+inevitably evolve as our ongoing syntactic examination of ASL proceeds.
+One oddity that has arisen in the glossing that involves differentiation between nearly
+synonymous signs in ASL.  There are two verbs used with the general meaning of ‘give’,
+which we have glossed as GIVE and GIFT, although both are verbs in ASL.  GIFT is
+articulated with the X handshape.  Again, we have followed prior glossing systems in
+making this distinction.
+® Translations
+We have not attempted to include nuances of meaning in the English translations.
+Many of the distinctions that are found in ASL sentences do not occur naturally in the
+corresponding English sentences. One example of this involves the translation of various
+signs produced with pointing of the index finger, which may include adverbials and right
+dislocated pronominals that would not normally have a direct translation in English.  We
+caution consumers of our annotated data that our English translations are only
+approximate, at best.
+
+Appendix D: Database export file format
+This appendix documents (version 5 of) the format of the text file that is
+produced when you choose Export Database As Text from the File menu.
+All data in SignStream export files are delineated by tabs and carriage returns.
+The carriage returns indicate where a unified group of data begins and ends and
+the tabs indicate where each individual datum begins and ends. Thus, export
+files can be readily viewed in spreadsheet programs (or text editors used by
+programmers for writing source code).
+The appendix first provides a schematic description of the export file format.
+Next follows a sample exported file based on the sample database, although only
+the data for the first two utterances are included.
+Schematic description of export file format
+The following conventions are used in the description below:
+Double quotes surround specific constant labels.
+Angle brackets surround tabs and returns.
+Square brackets surround variable data descriptions.
+Parentheses surround explanations of variable data descriptions.
+All number data are saved as ASCII numeric characters, not as binary codes.
+Export format version 5
+"SIGNSTREAM EXPORT DATA FILE" <return>
+"Export data format version:" <tab> [the version number] <return>
+"Database:" <tab> [the database file name] <tab> [the database file path name] <return>
+"Number of utterances:" <tab> [number of utterances] <return>
+<return>
+<return>
+"Utterance ID:" <tab> [1st utterance's ID] <return>
+"Media:" <return>
+"Number of video file slots:" <tab> [number of movie file references (unselected references
+are blank)] <return>
+"Number of audio file slots:" <tab> [number of audio file references (unselected references
+are blank)] <return>
+"Video" <tab> [1st video slot's file path name (blank if unselected)] <return>
+"Video" <tab> [nth video slot's file path name (blank if unselected)] <return>
+"Audio" <tab> [1st audio slot's file path name (blank if unselected)] <return>
+"Audio" <tab> [nth audio slot's file path name (blank if unselected)] <return>
+"Start frame:" <tab> [utterance start frame] <return>
+"End frame:" <tab> [utterance end frame] <return>
+"Number of participant panes:" <tab> [number of panes] <return>
+"Participant:" <tab> [1st participant's full name] <return>
+"Number of fields:" <tab> [number of fields in pane] <return>
+[1st field name] <tab> [1st value's name] <tab> [start frame] <tab> [end frame] <tab> [nth
+value's name] <tab> [start frame] <tab> [end frame] <return>
+[nth field name] <tab> [1st value's name] <tab> [start frame] <tab> [end frame] <tab> [nth
+value's name] <tab> [start frame] <tab> [end frame] <return>
+"Participant:" <tab> [nth participant's full name] <return>
+"Number of fields:" <tab> [number of fields in pane] <return>
+SignStream Annotation Conventions                                      56                                                            Database export format
+
+[1st field name] <tab> [1st value's name] <tab> [start frame] <tab> [end frame] <tab> [nth
+value's name] <tab> [start frame] <tab> [end frame] <return>
+[nth field name] <tab> [1st value's name] <tab> [start frame] <tab> [end frame] <tab> [nth
+value's name] <tab> [start frame] <tab> [end frame] <return>
+"Notes - number of character bytes:" <tab> [number of character bytes] <return>
+[text of notes (if there is no notes text then there are three returns between the number of
+character bytes indicator and the next utterance)] <return>
+<return>
+<return>
+"Utterance ID:" <tab> [nth utterance's ID] <return>
+"Media:" <return>
+"Number of video file slots:" <tab> [number of movie file references (unselected references
+are blank)] <return>
+"Number of audio file slots:" <tab> [number of audio file references (unselected references
+are blank)] <return>
+"Video" <tab> [1st video slot's file path name (blank if unselected)] <return>
+"Video" <tab> [nth video slot's file path name (blank if unselected)] <return>
+"Audio" <tab> [1st audio slot's file path name (blank if unselected)] <return>
+"Audio" <tab> [nth audio slot's file path name (blank if unselected)] <return>
+"Start frame:" <tab> [utterance start frame] <return>
+"End frame:" <tab> [utterance end frame] <return>
+"Number of participant panes:" <tab> [number of panes] <return>
+"Participant:" <tab> [1st participant's full name] <return>
+"Number of fields:" <tab> [number of fields in pane] <return>
+[1st field name] <tab> [1st value's name] <tab> [start frame] <tab> [end frame] <tab> [nth
+value's name] <tab> [start frame] <tab> [end frame] <return>
+[nth field name] <tab> [1st value's name] <tab> [start frame] <tab> [end frame] <tab> [nth
+value's name] <tab> [start frame] <tab> [end frame] <return>
+"Participant:" <tab> [nth participant's full name] <return>
+"Number of fields:" <tab> [number of fields in pane] <return>
+[1st field name] <tab> [1st value's name] <tab> [start frame] <tab> [end frame] <tab> [nth
+value's name] <tab> [start frame] <tab> [end frame] <return>
+[nth field name] <tab> [1st value's name] <tab> [start frame] <tab> [end frame] <tab> [nth
+value's name] <tab> [start frame] <tab> [end frame] <return>
+"Notes - number of character bytes:" <tab> [number of character bytes] <return>
+[text of notes (if there is no notes text then there are three returns between the number of
+character bytes and the next utterance)] <return>
+Sample export file     (data for first two utterances shown here)
+SIGNSTREAM EXPORT DATA FILE
+Export data format version:
+5
+Database:
+NCSLGR dataset 1
+SignStream 2.0 CD:NCSLGR ƒ:NCSLGR dataset 1
+Number of utterances: 32
+Utterance ID: 1
+Media:
+Number of video file slots:
+4
+Number of audio file slots:
+1
+Video
+SignStream 2.0 CD:NCSLGR ƒ:All the compressed videos:master-compressed:ch4-
+397_242_small_0.mov
+Video
+SignStream 2.0 CD:NCSLGR ƒ:All the compressed videos:slave1-compressed:ch4-
+397_242_small_1.mov
+SignStream Annotation Conventions                                      57                                                         Database export format
+
+Video
+SignStream 2.0 CD:NCSLGR ƒ:All the compressed videos:slave2-compressed:ch4-
+397_242_small_2.mov
+Video
+Audio
+Start frame:
+0
+End frame:
+1320
+Number of participant panes: 1
+Participant:
+Norma Bowers Tourangeau
+Number of fields:
+009
+main gloss 
+IX-1p 140 
+180 
+SEE 
+340 
+380 
+fs-JOHN       440 
+540 
+YESTERDAY     660 
+780 
+IX-3p:i 940    980
+non-dominant hand gloss
+head pos: jut start 120 
+260 
+back 
+280 
+940 
+end 
+960 
+1060
+head pos: tilt fr/bk start 680 
+760 
+front 780 
+920 
+end 
+940 
+1100
+head pos: tilt side
+start
+80
+300
+right
+320
+940
+end
+960
+1140
+nose 
+start 40 
+100 
+wrinkle       120 
+140 
+end 
+160 
+200
+eye aperture
+wide
+280
+380
+POS
+Pronoun140
+180
+Verb
+340
+380
+Proper Noun
+440
+540
+Adverb 660
+780 
+Pronoun       940 
+980
+English translation
+I saw John yesterday, him.
+Notes - number of character bytes:
+44
+IX-3p can also be read as IX-loc"over there"
+Utterance ID: 2
+Media:
+Number of video file slots:
+4
+Number of audio file slots:
+1
+Video
+SignStream 2.0 CD:NCSLGR ƒ:All the compressed videos:master-compressed:ch4-
+398_243_small_0.mov
+Video
+SignStream 2.0 CD:NCSLGR ƒ:All the compressed videos:slave1-compressed:ch4-
+398_243_small_1.mov
+Video
+SignStream 2.0 CD:NCSLGR ƒ:All the compressed videos:slave2-compressed:ch4-
+398_243_small_2.mov
+Video
+Audio
+Start frame:
+20
+End frame:
+1320
+Number of participant panes: 1
+Participant:
+Norma Bowers Tourangeau
+Number of fields:
+010
+main gloss 
+LOVE 
+340 
+400 
+fs-MARY 520 
+660 
+|>760 
+fs-JOHN    840
+1000
+IX-loc:i
+1040
+1120
+non-dominant hand gloss
+topic
+top2
+200
+660
+body lean 
+forward       20 
+20 
+end 
+40 
+240
+head mvmt: nodsingle 200
+660
+end
+680
+800
+head pos: tilt side
+start
+160
+460
+right
+480
+660
+start
+680
+1000
+left
+1020
+1140
+end
+1160
+1320
+eye brows
+raised 20
+660
+end
+680
+780
+eye aperture
+start
+20
+180
+wide
+200
+660
+end
+680
+700
+blink
+720
+740
+POS
+Verb
+340
+400
+Proper Noun
+520
+760
+Proper Noun
+840
+1000
+Adverb
+1040
+1120
+English translation
+As for loving Mary, John (does).
+Notes - number of character bytes:
+0
+SignStream Annotation Conventions                                      58                                                              Database export format
+
+SignStream Annotation Conventions
+59
+Glossing conventions
+Appendix E: Summary of glossing conventions
+® General conventions
+Convention
+Example
+Explanation
+capital letters
+WORD
+English word used to represent an ASL sign.
+–
+OH-I-SEE
+THANK-YOU
+Used to separate words if the English
+translation of a single sign requires more
+than one.
+/
+BOLD/TOUGH
+WOW/AWFUL
+Used when one sign has two different
+English equivalents.
+fs-
+fs-JOHN
+Fingerspelled word.
+fs-UN+PREDICTIBLE
+Fingerspelled prefix.
+#
+#CAR
+#EARLY
+Fingerspelled loan sign.
+ns-
+ns-LINCOLN
+ns-CAPE-COD
+Name sign for ‘Lincoln’ or ‘Cape Cod’.
+|-->
+fs-JOHN|-->
+Hold sign.  Used to represent a hand
+position that is held at the end of a sign.
+For example, after fingerspelling ‘John’
+the signer may hold the final position
+(in this case, the N handshape).  This same
+diacritic can be used to indicate
+perseveration of the non-dominant hand.
+GLOSS^GLOSS
+WILL^NOT
+Contraction.
++
+MOTHER+FATHER
+Compound.
+!!
+!MUST!
+Indicates stressed articulation, for emphasis.
+
+SignStream Annotation Conventions
+60
+Glossing conventions
+Convention
+Example
+Explanation
+( )
+(nod)
+(shake head)
+(draws shape)
+Words in ( ) indicate an action or movement
+made without a sign, sometimes with
+linguistic meaning.
+(2h)GLOSS
+(2h)#DO++
+Used when a sign that is commonly
+1-handed is made with both hands.
+(2h)alt.GLOSS
+(2h)alt.GUESS
+The notation ‘alt.’ indicates that both hands
+move in an alternating manner.
+(1h)GLOSS
+(1h)LOVE
+Used when a sign that is commonly
+2-handed is made with one hand.
+i:GLOSS:j
+i:GIVE:j
+1p:GIVE:2p
+‘i’ and ‘j’ designate unique spatial locations
+associated with the subject and object
+referents.
+‘(I) give (you)…  ‘
+Noun
+fs-JOHN  i:GIVE:j
+John is signed in a neutral location.
+Noun:i
+fs-JOHN:i  i:GIVE:j
+John is signed in the location associated with
+the referent (the same location with which
+the verb displays manual subject-verb
+agreement).
+
+SignStream Annotation Conventions
+61
+Glossing conventions
+Convention
+Example
+Explanation
++
+DIFFERENT++
+GO+
+Indicates repetition (reduplication) of a
+sign.
+The number of + signs indicates the
+number of repetitions.
+IX-1p
+POSS-1p
+SELF-1p
+1st person pronoun
+1st person possessive marker
+1st person emphatic reflexive marker (as
+in ‘I did it myself.’).
+IX-2p
+POSS-2p
+SELF-2p
+Pronoun referring to addressee.
+Possessive marker referring to
+addressee.
+Emphatic reflexive marker referring to
+addressee.
+Pronoun
+IX-[person]:i
+Determiner
+IX-3p:i
+Possessive
+POSS-[person]:i
+Emphatic reflexive
+SELF-[person]:i
+IX-3p:i
+POSS-3p:i
+SELF-3p:i
+Pronoun or determiner referring to
+singular third person referent associated
+with location ‘i’.
+Possessive marker referring to singular
+third person referent associated with
+location ‘i’.
+Emphatic reflexive marker referring to a
+singular third person referent associated
+with location ‘i’.
+THUMB-IX-3p:i
+Pronoun referring to singular third
+person referent associated with location
+‘i’ articulated with the thumb.
+IX-loc:j
+Adverbial produced with index finger
+pointing to location ‘j’.
+Adverbial
+IX-loc:[location]
+IX-dir:[direction]
+IX-loc“under table”
+IX-dir“around the
+corner to the right”
+IX-loc”far”
+THUMB-IX-loc”behind”
+Adverbial with location described.
+
+SignStream Annotation Conventions
+62
+Glossing conventions
+Convention
+Example
+Explanation
+IX-3p-pl-2:x/y
+IX-3p-pl-3:x/y/z
+Third person pronoun referring to
+the 2 (or 3) referents: x, y (and z).
+IX-1p-pl-2:x
+First person pronoun referring to
+signer plus the referent associated
+with the location ‘x’.
+IX-[person]-[numeral]:i/j/k
+POSS-[person]-[numeral]:i/j/k
+IX-2p-pl-3:x,y
+Second person pronoun referring to
+addressee plus the two referents
+associated with locations ‘x’ and ‘y’.
+     -3p-pl-arc
+IX-3p-pl-arc
+POSS-3p-pl-arc
+SELF-3p-pl-arc
+1p:GIVE-3p-pl-arc
+Pronoun (or possessive or emphatic
+reflexive) referring to singular third
+person referent associated with
+location ‘i’ articulated with the
+thumb.
+‘I give (it) to them.’
+Subject agreement is 1st person.
+Object agreement (the end point of
+the sign) is plural (an arc).
+     -loc-arc
+IX-loc-arc
+Adverbial (‘there’) using an arc to
+designate locations.
+neu:GLOSS
+JOHN neu:GIVE:j
+MARY
+‘John gave (it) to Mary’ without
+overt spatial subject agreement on
+GIVE.
+JOHN  i:GIVE:j
+MARY
+The same sentence as above, with
+overt spatial subject agreement on
+GIVE.
+
+SignStream Annotation Conventions
+63
+Glossing conventions
+Convention
+Example
+Explanation
+GLOSS-indef
+JOHN i:GIVE-indef
+SOMETHING/ONE
+‘John gave (it) to someone.’
+JOHN  i:GIVE:j   MARY
+‘John gave (it) to Mary.’
+Non-manual:i
+eg:i
+eg: “under table”
+Eye gaze (or any other
+non-manual behavior)
+pointing to the location,
+indicated by the index ‘i’ or
+other description.
+eg:indef
+Eye gaze showing agreement
+with an indefinite NP, as
+described above.
+GLOSS-aspect
+STUDY-continuative
+Aspectual inflections are
+indicated following the gloss.
+GLOSS++
+READ+++
+This reflects the reduplication.
+GLOSS-aspect(:i)
+1p:GIVE-distributive-3p-pl-arc
+GIFT-distributive:i
+‘(I) gave each (of them)… ‘
+‘(they) each gave (one
+person)… ’
+GLOSS-recip
+LOOK-AT-recip:i,j
+‘The referents associated with
+locations ‘i’ and ‘j’ look at each
+other.’
+GLOSS-recip++
+(2h)alt.GIVE-recip+++:i,j
+‘The referents associated with
+locations ‘i’ and ‘j’ are involved
+in multiple acts of giving to
+each other.’  The two hands
+move repeatedly in an elliptical
+path, starting at locations ‘i’
+and ‘j’.
+
+SignStream Annotation Conventions
+64
+Glossing conventions
+Convention
+Example
+Explanation
+[classifier type]:
+    (handshape)“___ ”
+DCL“curly hair”
+ICL“turn crank”
+LCL:B“leaf drifting to the ground”
+(2h)BPCL:1“crossing legs”
+SCL:1“person walking stiffly and
+hurriedly” 
+PCL:3“people walking”
+Classifiers
+(i:)[classifier type]:
+   (handshape)“___
+”(:j)
+j:PCL:1“person approaching”:k
+Classifiers
+“wave no”
+“wave left”
+(2h)5wg“after a while”
+Gesture-like sign.
+(H)“focus”
+Use of one hand (H handshape)
+to draw attention to
+fingerspelling by the other
+hand.
+(handshape)“___ ”
+“um”
+A sign/gestures, involving
+wiggling of the fingers, used as
+a discourse marker to retain
+the attention of the addressee.
+
+SignStream Annotation Conventions
+65
+Glossing conventions
+® Specific gloss items
+Discussed already
+BREAK-DOWN vs. ENGINE-FALL-OUT
+The sign BREAK-DOWN is a symmetrical two-handed sign.  ENGINE-FALL-OUT is
+the gloss used for a sign that involves the non-dominant hand facing palm downward;
+the dominant hand in an S handshape (representing the engine) starts out under the
+non-dominant hand , against the palm, and then drops.
+#EX   
+       
+Marker of tense and aspect used by some ASL signers, expressing habitual past;
+similar to English ‘used to’.
+FIND/FIND-OUT vs. FIND^#OUT
+Since in some contexts this sign is best translated as ‘find’ and in others as ‘find out’,
+we have glossed all occurrences of the sign in this way. (Note that we use a different
+gloss for the sign FIND^#OUT, which is sometimes synonymous with
+FIND/FIND-OUT).
+FUTURE vs. (L)FUTURE
+ Future tense markers differing in handshape used: B handshape (with fingers
+together or spread) for FUTURE as opposed to L handshape for (L)FUTURE).
+GIVE vs. GIFT
+We use  GIVE to represent the verb made with the 5 fingers coming together.  GIFT
+uses the X handshape (but is also a verb).
+MOTHER
+The open 5-handshape is used.  The thumb touches the chin.
+MOTHER+
+Same as above, but the thumb touches the chin twice.
+MOTHERwg
+The same handshape is used, and the same point of contact with the chin.  However
+the thumb remains in contact with the chin and the other 4 fingers wiggle.
+
+SignStream Annotation Conventions
+66
+Glossing conventions
+NOT-LIKE vs. (Y)NOT-LIKE
+The latter sign is used colloquially by some signers to indicate that they don’t care for
+something.  Articulated with the Y handshape.  The movement begins with the thumb
+at the nose, palm facing basically downward.  The wrist then twists outward (lowering
+the thumb) as the hand moves down and away from the body.  Distinguished from
+the sign conventionally glossed as NOT-LIKE and that glossed as NOT-CARE.
+part:indef
+An indefinite focus particle articulated with a single outward movement of one or
+both palms (facing upward), as shown in Figure 1.  See Conlin et al. (in press).
+QMwg
+Question marking sign (with wiggling, as shown in Figure 2).
+REALLY
+We have used this gloss not only for the noun and adjective signs made with the
+index finger starting at the mouth and moving downwards (meaning ‘real, ‘really,’
+‘true,’ or ‘truly’), but also for a discourse marker used by some signers.
+REFUSE
+This is how we have chosen to gloss the sign sometimes glossed as WON’T.
+SEE  vs.  SEE-SEE
+Both signs use the V handshape and the middle finger touching the cheek just below
+the eye.  SEE is the transitive verb describing visual perception; the hand extends in an
+outward movement from the eye.  SEE-SEE  involves short pathlength and two brief
+contacts made by the middle finger under the eye.  The meaning is more figurative, as
+in ‘we’ll see what will happen’.
+SINK vs. SCL:3”vehicle sink” vs. SCL:B”boat sink”
+We have distinguished signs translated as ‘sink’ in English in this way, based on
+whether a classifier is involved (and if so, which one).
+SOMETHING/ONE
+A sign in ASL that may be translated as either ‘something’ or ‘someone’.  It is also
+used as an indefinite determiner.  This is a shorthand way of representing
+SOMETHING/SOMEONE.
+
+SignStream Annotation Conventions
+67
+Glossing conventions
+SWITCH
+This is the sign made with the L handshape that is used to indicate a switch to another
+person’s turn or, more generally, to something different.
+VOMIT
+This gloss is used both for the verb and the adjective meaning ‘disgusting.’  Since the
+manual forms are the same, the same gloss was used, for consistency.
+“WHAT”
+A wh-sign produced with both hands extended, palms facing up, moving slightly
+from side to side.  Distinguished from #WHAT and ‘WHAT’ (articulated with the index
+finger brushing against the open palm of the non-dominant hand).
+(Y)WHY vs. (25)WHY vs. (25>Y)WHY
+Since the sign meaning ‘why’ can involve a Y handshape, a 25 handshape, or a
+transition between the two, we have differentiated those signs as indicated.
+Additional conventions used for glossing
+Here we illustrate some choices made for the glossing of particular signs.  These are
+illustrated because the way in which these signs are glossed may not be obvious.
+COUNT-ON-FINGERS
+In an enumeration, we gloss each separate item as:
+COUNT-ON-FINGERS:1
+COUNT-ON-FINGERS:2
+and so on.
+
+SignStream Annotation Conventions
+68
+Glossing conventions
+BLANK
+ALL-GONE
+RUN-OUT
+GONE
+
+SignStream Annotation Conventions
+69
+Glossing conventions
+EMPTY
+THAT’S-ALL
+DEFLATE
+DECREASE
+
+SignStream Annotation Conventions
+70
+Glossing conventions
+LOW/LOWER
+(2h)LOW/LOWER
+DURING/WHILE
+FRUGAL
+
+SignStream Annotation Conventions
+71
+Glossing conventions
+ETC.
+FALL-INTO-PLACE
+FORGET-IT
+LITTLE-BIT
+
+SignStream Annotation Conventions
+72
+Glossing conventions
+“quote”
+RIGHT-HERE
+SPECIALIZATION
+STAY-UP-ALL-NIGHT
+
+SignStream Annotation Conventions
+73
+Glossing conventions
+(5)WOW
+(2h)(5)WOW
+WOW/AWFUL
+
+SignStream Annotation Conventions
+74
+Glossing conventions
+(Y)WOW
+WHEW/RELIEVED
+“not give a darn”
+
+SignStream Annotation Conventions 
+75                                                            Glossing conventions 
+THUMBS-UP/GOOD
+(2h)THUMBS-UP/GOOD
+
+SignStream Annotation Conventions
+76
+Handshapes
+Appendix F: Handshapes
+Here the handshape names we use are listed, and the handshapes are illustrated.
+The term ‘bent’ is used  to indicate flexion at the base joint.  The term ‘curved’ is used
+systematically when there is flexion at non-base joints (following, e.g., Crasborn and van der
+Kooij, in preparation).  Handshapes in which the selected fingers are together are listed
+above the corresponding handshapes in which the selected fingers are spread.
+Handshapes named in terms of letters used in fingerspelling are written with capital letters.
+Hyphens are used with modifiers.
+
+SignStream Annotation Conventions
+77
+Handshapes
+A
+B
+crvd-B
+crvd-sprd-B
+B-xd
+flat-B
+B-L
+bent-B
+bent-B-L
+C
+sml-C/3
+lrg-C/3
+flat-C
+tight-C
+tight-C/2
+
+SignStream Annotation Conventions
+78
+Handshapes
+C-L
+crvd-flat-B
+D
+E
+loose-E
+alt-M
+alt-N
+F
+cocked-F
+open-F
+flat-F
+G
+flat-G
+alt-G
+I
+
+SignStream Annotation Conventions
+79
+Handshapes
+K
+alt-P
+L
+crvd-L
+bent-L
+L-X
+I-L-Y
+bent-I-L-Y
+M
+bent-M
+full-M
+N
+bent-N
+O
+baby-O
+
+SignStream Annotation Conventions
+80
+Handshapes
+flat-O
+flat-O/2
+R
+S
+T
+X-over-thumb
+U
+bent-U
+crvd-U
+V
+crvd-V
+W
+crvd-W
+X
+Y
+
+SignStream Annotation Conventions
+81
+Handshapes
+1
+bent-1
+Horns
+O/2-Horns
+bent-Horns
+3
+U-L
+crvd-3
+4
+5
+crvd-5
+5-C
+5-C-tt
+5-C-L
+6
+
+SignStream Annotation Conventions
+82
+Handshapes
+7
+8
+cocked-8
+open-8
+25
+9
+open-9
+10
+fanned-flat-O
+cocked-S
+cocked-U
+
+SignStream Annotation Conventions
+83
+References
+Appendix G: References
+Aarons, Debra. 1994. Aspects of the Syntax of American Sign Language, Boston University:
+Doctoral Dissertation.
+Aarons, Debra, Bahan, Benjamin, Kegl, Judy, and Neidle, Carol. 1995. Lexical Tense Markers in
+American Sign Language. In Language, Gesture, and Space, eds. Karen Emmorey and
+Judy S. Reilly, 225-253. Hillsdale, NJ: Lawrence Erlbaum.
+Bahan, Benjamin. 1996. Non-manual Realization of Agreement in American Sign Language,
+Boston University: Doctoral Dissertation.
+Baker, Charlotte, and Cokely, Dennis. 1980. American Sign Language: A Teacher's Resource Text
+on Grammar and Culture. Silver Spring, MD: T.J. Publishers.
+Baker-Shenk, Charlotte. 1983. A Micro-analysis of the Nonmanual Components of Questions
+in American Sign Language, University of California, Berkeley: Doctoral Dissertation.
+Brentari, Diane. 1998. A prosodic model of sign language phonology. Cambridge, MA: MIT Press.
+Conlin, Frances, Hagstrom, Paul, and Neidle, Carol. in press. A particle of indefiniteness in
+American Sign Language [2002]. Linguistic Discovery 1:2.
+Coulter, Geoffrey R. 1978. Raised Eyebrows and Wrinkled Noses: The Grammatical Function
+of Facial Expression in Relative Clauses and Related Constructions. Paper presented at
+American Sign Language in a Bilingual, Bicultural Context: Proceedings of the Second National
+Symposium on Sign Language Research and Teaching, Coronado, CA.
+Coulter, Geoffrey R. 1979. American Sign Language Typology: Doctoral Dissertation,
+University of California, San Diego.
+Crasborn, Onno, and van der Kooij, Els. in preparation. Base-joint position in Sign Language
+of the Netherlands: phonetic variation and phonological specification. In Issues in the
+Phonetics-Phonology Interface, eds. V.J. van Heuven, H.G. van der Hulst and J.M. van de
+Weijer.
+Emmorey, Karen. 1999. Do signers gesture? In Gesture, Speech, and Sign, eds. Lynn Messing
+and Ruth Campbell, 133-159. Oxford: Oxford University Press.
+Klima, Edward S., and Bellugi, Ursula. 1979. The Signs of Language. Cambridge, MA: Harvard
+University Press.
+MacLaughlin, Dawn. 1997. The Structure of Determiner Phrases: Evidence from American Sign
+Language, Boston University: Doctoral Dissertation.
+MacLaughlin, Dawn, Neidle, Carol, Bahan, Benjamin, and Lee, Robert G. 2000. Morphological
+Inflections and Syntactic Representations of Person and Number in ASL. Recherches
+linguistiques de Vincennes 29 : Langage et surdité, 73-100.
+
+SignStream Annotation Conventions
+84
+References
+MacLaughlin, Dawn, Neidle, Carol, and Greenfield, David. 2000. SignStream™ User's Guide,
+Version 2.0. Boston, MA: American Sign Language Linguistic Research Project No. 9,
+Boston University.
+Meier, Richard P. 1990. Person Deixis in American Sign Language. In Theoretical Issues in Sign
+Language Research, Volume 1: Linguistics, eds. Susan D. Fischer and Patricia Siple, 175-190.
+Chicago: The University of Chicago Press.
+Neidle, Carol, Kegl, Judy, MacLaughlin, Dawn, Bahan, Benjamin, and Lee, Robert G. 2000. The
+Syntax of American Sign Language: Functional Categories and Hierarchical Structure.
+Cambridge, MA: MIT Press.
+Neidle, Carol, Sclaroff, Stan, and Athitsos, Vassilis. 2001. SignStream™: A Tool for Linguistic
+and Computer Vision Research on Visual-Gestural Language Data. Behavior Research
+Methods, Instruments, and Computers 33:3, 311-320.
+Neidle, Carol. in press-a. SignStream™: A Database Tool for Research on Visual-Gestural
+Language [2001]. Journal of Sign Language and Linguistics 4:1/2.
+Neidle, Carol. in press-b. Language Across Modalities: ASL Focus and Question Constructions.
+Linguistic Variation Yearbook 2.
+Smith, Cheri, Lentz, Ella Mae, and Mikos, Ken. 1988. Signing Naturally, Teacher's Curriculum
+Guide, Level 1. Berkeley, CA: DawnSignPress.
+
+SignStream Annotation Conventions 
+85
+                              Index
+Index
+A
+Actions, 12, 60
+Adverbs, 5, 10, 16, 39, 51
+Agreement, 19
+Manual, 15
+Non-manual, 19, 51
+Nouns and adjectives, 15
+Possessive, 16
+Pronouns and determiners, 16
+Verbs. See Verb agreement
+ALL-GONE, 68
+alt.. See Alternating hands
+Alternating hands, 13
+Ambiguity, 1, 19
+American Sign Language Linguistic Research Project. See ASLLRP
+Amplitude, 4
+Anatomical fields, 3
+Ancicipatory head gestures. See Start
+Annotation schemes, i
+Arc, 18
+ASLLRP, ii
+Annotation Schema version 2.5, ii
+Aspect, 19, 20, 63
+B
+Bahan, Ben, i
+BEFORE, 9
+Bellugi, 20
+Blinks, 29
+Body lean. See Body movements
+Body movements, 36
+BREAK-DOWN, 6
+C
+Caveats, 1
+Cheek to shoulder. See cs
+Cheeks, 32, 35
+Classifiers, 21, 22
+Compounds, 11, 59
+Conditionals, 39
+Contractions, 11, 59
+Coreferentiality, 15
+Correlatives, 40
+Coulter, 38, 39
+COUNT-ON-FINGERS, 67
+cs, 33, 35
+D
+Data, distributed by ASLLRP, i
+Database, exporting, 56
+DECREASE, 69
+DEFLATE, 69
+Determiner, 5, 16
+Direction, 16
+Discourse markers, 23
+DURING/WHILE, 70
+E
+Edges of utterances, 53
+Elicitation situation
+Artifacts due to, 53
+Emphatic articulation, 11, 59
+EMPTY, 69
+End, 3. See also Glosses, Start and end points; Non-manual fields,
+Start and end points
+ENGINE-FALL-OUT, 6
+ETC., 71
+#EX, 9
+Export database as text, 56
+Eye aperture, 29. See also Blinks, Lowered lids, Squint, Wide eyes
+Eye gaze, 19, 28, 54
+With when and if clauses, 40
+Eyebrow position and movement, 30, 31
+
+SignStream Annotation Conventions 
+86 
+Index
+F
+FALL-INTO-PLACE, 71
+FATHER, 12
+FATHERwg, 12
+Fields
+Anatomical. See Anatomical fields
+Body movement, 47
+Cheek, 49
+Eye and nose, 48
+Gloss, 2, 13
+Grammatical interpretive. See Grammatical interpretive fields
+Head position, 45
+Labels, 44
+Mouth, 49
+Names, 44
+Non-manual. See Non-manual fields
+FIND/FIND-OUT, 6
+FIND^#OUT, 6
+Fingerspelling, 10, 22, 59
+FINISH, 19
+Focus, 22, 37, 38, 39
+FORGET-IT, 71
+FORMERLY, 9
+FRUGAL, 70
+FUTURE, 9, 10
+G
+Gestures, 22, 23
+GIFT, 55
+GIVE, 7, 19, 55
+Glosses, 2
+Conventional, 2, 5
+Start and end points, 2
+GONE, 68
+Grammatical interpretive fields, 3, 50
+Start and end points, 37
+Greenfield, David, i
+H
+Hands
+Dominant and non-dominant, 2, 13
+Independent behavior of, 14
+Two-handed vs. one-handed signs, 13
+Handshape, 6, 7
+Transition, 9
+HAVE-TO, 54
+Head movements, 3, 4, 24, 25, 46
+Nods, 3
+Periodic, 4
+Shakes, 3, 42
+Start and end points, 3
+Head nods. See Head movements, Nods
+Head position, 24, 26, 27, 45
+Front/back, 28
+Jut, 26
+Start and end points, 3
+Tilt, 5, 19, 27
+Turn, 27
+Head shakes. See Head movements, Shakes
+Hold, 2, 11, 59
+Hyphen, 5, 59
+I
+Indefinite focus particle. See part:indef
+Index, 5
+Thumb, 16
+Inflection
+Aspectual. See Aspect
+Reciprocal. See Reciprocal
+Information
+morphological, 2
+phonological, 2
+Intensity, 4
+IX. See Index
+K
+Klima, 20
+
+SignStream Annotation Conventions 
+87 
+Index
+L
+Lean. See Body movements
+Left, 2
+Left periphery, 38, 39
+Lips, 34
+LITTLE-BIT, 71
+Loan sign, 10, 59
+Location, 16, 19
+Locations, Spatial, 15
+Locatives, 15
+LOW/LOWER, 70
+Lowered lids, 29
+M
+MacLaughlin, Dawn, i
+Minus sign, 26, 30
+MOTHER, 12, 53
+MOTHERwg, 12
+Mouth gestures, 31, 32, 33
+English-based, 35
+MUST, 54
+N
+Name sign, 10, 59
+National Center for Sign Language and Gesture Resources, i. See
+NCSLGR
+NCSLGR, ii
+Negation, 42
+Neutral location, 15, 60
+Nods. See Head movements, nods
+Non-manual fields, 3
+Intensity, 4
+Start and end points, 3. See also Grammatical interpretative
+fields: Start and end points
+Nose, 35, 36
+NOT-CARE, 7
+NOT-LIKE, 7
+NOW, 9
+Number, 17
+Numeral, 17
+O
+Onset. See Start
+P
+Parentheses, 12
+part
+indef, 7, 8
+Part of speech, 43, 51, 54
+part:indef, 5, 7, 14
+Passives, 55
+PAST, 9
+Perseveration, 14
+Person, 2, 16. See
+Plural, 17
+Plus sign, 11, 26, 30, 61
+POS. See Part of speech
+POSS. See Possessive
+Possessive, 16, 61
+Pronouns, 5, 16, 61
+Q
+QMwg, 12
+Questions, 41
+Rhetorical, 42
+"quote", 72
+R
+Raised eyebrows. See Eyebrow position and movements
+REAL, 7
+REALLY, 7
+RECENT-PAST, 9
+Reciprocal, 20
+Reduplication, 11, 19, 61
+Reference, 15, 28
+Referential shift, 42
+Reflexive
+Emphatic. See
+Reflexive, emphatic, 16, 61
+REFUSE, 7
+
+SignStream Annotation Conventions 
+88 
+Index
+Relative clauses, 40, 41
+RELIEVED, 74
+Repetition, 11
+Right, 2
+RIGHT-HERE, 72
+Role shift, 42
+RUN-OUT, 68
+S
+SAW, 54
+SEE, 7, 54, 66
+SEE-SEE, 7
+Shakes. See Head movements, Shakes
+SHOULD, 54
+Shoulder. See Body movements
+SignStream
+Java reimplementation. See SignStream, Version 3
+Project background, i
+Version 2 (current), i, ii, 35
+Version 3, ii, 14, 28, 35
+SINCE, 6, 9
+SINK, 8
+Slash, 5, 59
+SOMETHING/ONE, 8
+Spatial locations. See Locations, Spatial
+SPECIALIZATION, 72
+Squint, 29
+Start, 3
+STAY-UP-ALL-NIGHT, 72
+STEAL, 55
+SWITCH, 8
+T
+Tense, 5
+THAT’S-ALL, 69
+Thumb, 16
+THUMBS-UP/GOOD, 75
+Topics, 37, 38
+Transcription, 1
+Semi-automation, 4
+Transition
+Between manual signs, 3
+Between non-manual gestures, 3
+Translation, 1, 19, 55
+TRUE, 7
+TRULY, 7
+U
+"um", 23
+UP-TO-NOW, 6, 9
+V
+Verb agreement, 15, 18
+Verification, 1
+VOMIT, 8, 55
+W
+WHAT, 9, 14
+When clauses, 39
+WHEW/RELIEVED, 74
+WHO, 14
+Wide eyes, 29, 30
+Wiggle, 12, 13
+WILL, 9, 10
+WON’T, 7
+WOW, 73, 74
+WOW/AWFUL, 73

@@ -1,0 +1,25 @@
+{
+  "status": "SUCCESS",
+  "sample_id": "ncslgr:ncslgr10b:34:body",
+  "utterance_sample_id": "ncslgr:ncslgr10b:34",
+  "shard": "/home/haipd/Sign_Representations/features/ncslgr_branch_ablation_v2/a2e84f4163631110e771.npz",
+  "shard_sha256": "7b5a2edca3b815fb206fc378a28e7149d262c281d9dc1f8a66e44b906200ceac",
+  "config_sha256": "ab8248f50f22a3f95a695450df6051dc0e506a359bfd37e49567dcff166deca8",
+  "source_sha256": "b7ff85127b9cc7593eae1563487a1fb10ce230f38b4457212e1df7dbf218386f",
+  "preprocessing_audit_sha256": "352db1fae59feed8114d0b44a529b98e6c981b2411aa428c5fc2003591241131",
+  "reference_shard_sha256": "4846acf959fbf6219b77e83785306bcaa50ced0e9362f594a7ca94aa1e8e7b03",
+  "frames": 174,
+  "observed_frames": 5,
+  "conditions": [
+    "all",
+    "without_face",
+    "without_hands",
+    "without_body",
+    "face_only",
+    "hands_only",
+    "body_only",
+    "zero_streams"
+  ],
+  "all_reproduction_max_abs_difference": 0.0,
+  "feature_wall_seconds": 20.738356873043813
+}

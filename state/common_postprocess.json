@@ -1,0 +1,9 @@
+{
+  "status": "PASS_STATISTICS_EXPERT_REVIEW_PENDING",
+  "recovered_utc": "2026-09-30T19:09:36.312631+00:00",
+  "primary_statistics": "reports/common_v1_primary_bootstrap.json",
+  "error_audit": "reports/common_v1_error_audit/report.json",
+  "preserved_failure": "state/common_postprocess_attempt1_FAIL.json",
+  "recovery_note": "Corrected audit consumer to existing window_start_sec/window_end_sec shard keys. Preserved all predictions and completed bootstrap outputs; only failed technical audit rerun.",
+  "novelty_status": "NOT_ESTABLISHED"
+}

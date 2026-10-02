@@ -1,0 +1,187 @@
+{
+  "selection": "One sample per XML file by sha256(42:sample_id); utterance midpoint, view0/view2; metadata inspection only. No model predictions or metric selection.",
+  "samples": [
+    {
+      "sample_id": "ncslgr:ncslgr10a:39",
+      "xml_file": "ncslgr10a.xml",
+      "view": "0",
+      "frame_time_ms": 1833.0,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:39",
+      "xml_file": "ncslgr10a.xml",
+      "view": "2",
+      "frame_time_ms": 1833.0,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:1",
+      "xml_file": "ncslgr10b.xml",
+      "view": "0",
+      "frame_time_ms": 1399.5,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:1",
+      "xml_file": "ncslgr10b.xml",
+      "view": "2",
+      "frame_time_ms": 1399.5,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:8",
+      "xml_file": "ncslgr10c.xml",
+      "view": "0",
+      "frame_time_ms": 1449.5,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:8",
+      "xml_file": "ncslgr10c.xml",
+      "view": "2",
+      "frame_time_ms": 1449.5,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:10",
+      "xml_file": "ncslgr10d.xml",
+      "view": "0",
+      "frame_time_ms": 1416.5,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:10",
+      "xml_file": "ncslgr10d.xml",
+      "view": "2",
+      "frame_time_ms": 1416.5,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:12",
+      "xml_file": "ncslgr10e.xml",
+      "view": "0",
+      "frame_time_ms": 1566.0,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:12",
+      "xml_file": "ncslgr10e.xml",
+      "view": "2",
+      "frame_time_ms": 1566.0,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:27",
+      "xml_file": "ncslgr10f.xml",
+      "view": "0",
+      "frame_time_ms": 2849.5,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:27",
+      "xml_file": "ncslgr10f.xml",
+      "view": "2",
+      "frame_time_ms": 2849.5,
+      "sheet": "evidence/ncslgr/views_session_sheet0.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10k:14",
+      "xml_file": "ncslgr10k.xml",
+      "view": "0",
+      "frame_time_ms": 1012.5,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10k:14",
+      "xml_file": "ncslgr10k.xml",
+      "view": "2",
+      "frame_time_ms": 1012.5,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:48",
+      "xml_file": "ncslgr10l.xml",
+      "view": "0",
+      "frame_time_ms": 983.0,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:48",
+      "xml_file": "ncslgr10l.xml",
+      "view": "2",
+      "frame_time_ms": 983.0,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:41",
+      "xml_file": "ncslgr10m.xml",
+      "view": "0",
+      "frame_time_ms": 1316.5,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:41",
+      "xml_file": "ncslgr10m.xml",
+      "view": "2",
+      "frame_time_ms": 1316.5,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10n:14",
+      "xml_file": "ncslgr10n.xml",
+      "view": "0",
+      "frame_time_ms": 971.5,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10n:14",
+      "xml_file": "ncslgr10n.xml",
+      "view": "2",
+      "frame_time_ms": 971.5,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:11",
+      "xml_file": "ncslgr10p.xml",
+      "view": "0",
+      "frame_time_ms": 1849.0,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:11",
+      "xml_file": "ncslgr10p.xml",
+      "view": "2",
+      "frame_time_ms": 1849.0,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:9",
+      "xml_file": "ncslgr10q.xml",
+      "view": "0",
+      "frame_time_ms": 2333.0,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:9",
+      "xml_file": "ncslgr10q.xml",
+      "view": "2",
+      "frame_time_ms": 2333.0,
+      "sheet": "evidence/ncslgr/views_session_sheet1.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:3",
+      "xml_file": "ncslgr10r.xml",
+      "view": "0",
+      "frame_time_ms": 1843.5,
+      "sheet": "evidence/ncslgr/views_session_sheet2.png"
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:3",
+      "xml_file": "ncslgr10r.xml",
+      "view": "2",
+      "frame_time_ms": 1843.5,
+      "sheet": "evidence/ncslgr/views_session_sheet2.png"
+    }
+  ]
+}

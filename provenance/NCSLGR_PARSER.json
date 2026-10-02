@@ -1,0 +1,12 @@
+{
+  "asset_id": "NCSLGR_PARSER",
+  "url": "https://www.bu.edu/asllrp/ncslgr-for-download/signstream-xmlparser.zip",
+  "revision": "Official historical NCSLGR distribution; retrieval version recorded by hash",
+  "sha256": "5ef5596a8266918e79431e52056c5d530d141ba3bf4234ecc1b831b8999297f6",
+  "bytes": 102401,
+  "local_path": "evidence/ncslgr/signstream-xmlparser.zip",
+  "utc_time": "2026-09-30T19:49:35.811602+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Official public ASLLRP distribution. Corpus terms distinct from code; research use within original plan; no redistribution.",
+  "content_type": "application/zip"
+}

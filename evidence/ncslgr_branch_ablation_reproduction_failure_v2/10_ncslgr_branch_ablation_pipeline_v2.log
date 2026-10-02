@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/scripts/continue_ncslgr_branch_ablation.py", line 59, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/home/haipd/Sign_Representations/scripts/continue_ncslgr_branch_ablation.py", line 47, in main
+    raise ValueError(f'Child {phase} exited {result.returncode}; see {log}. No automatic retry.')
+ValueError: Child RUNNING_CPU_INTERVENTION_EXTRACTION exited 1; see logs/ncslgr_branch_ablation_extraction_v2.log. No automatic retry.

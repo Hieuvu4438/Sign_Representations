@@ -1,0 +1,12 @@
+{
+  "asset_id": "C04_ATTENTION",
+  "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/attention.py",
+  "revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "sha256": "2e99cf33019f087d87e3d62572fa7c747f38539a1f6618fba21b88d43e68589d",
+  "bytes": 3452,
+  "local_path": "third_party/shubert-author-demo/attention.py",
+  "utc_time": "2026-09-30T23:16:09.675143+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Pinned public author demo source; app.py static inspection only; never import UI app or send videos externally.",
+  "content_type": "text/plain; charset=utf-8"
+}

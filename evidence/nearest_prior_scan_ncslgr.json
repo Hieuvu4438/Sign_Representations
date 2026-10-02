@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-30T21:02:00.573935+00:00",
+  "search_scope": "Bounded targeted prior search; not exhaustive systematic review",
+  "query": "Non-manual grammatical marker recognition; temporal structure nonmanual ASL; grammar errors continuous videos; frozen encoder nonmanual tokens",
+  "primary_sources": [
+    "https://arxiv.org/html/2603.23617v2",
+    "https://www.sciencedirect.com/science/article/pii/S0262885614000468",
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0086268",
+    "https://arxiv.org/abs/2005.00253"
+  ],
+  "paper_ids": [
+    "P26",
+    "P35",
+    "P36",
+    "P37"
+  ],
+  "boundary": "No first task/component claim; exact split and metrics only when read. No PDF page-anchor claims."
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "C04_PRE_REQUIREMENTS",
+  "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/pre-requirements.txt",
+  "revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "sha256": "77c401c5f04ac2426052f96775f4556dfbd90800343ddab2f1ed80dee3526dd5",
+  "bytes": 12,
+  "local_path": "third_party/shubert-author-demo/pre-requirements.txt",
+  "utc_time": "2026-09-30T23:16:10.938189+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Pinned public author demo source; app.py static inspection only; never import UI app or send videos externally.",
+  "content_type": "text/plain; charset=utf-8"
+}

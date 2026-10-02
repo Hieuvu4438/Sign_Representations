@@ -1,0 +1,39 @@
+{
+  "observed_utc": "2026-10-01T00:26:06.675499+00:00",
+  "jobs": {
+    "native_common_cpu": {
+      "status": "RUNNING",
+      "completed": 871,
+      "samples": 4726,
+      "worker_lock_held": true,
+      "elapsed_seconds": 11854.67663939693,
+      "observed_utc": "2026-10-01T00:26:06.675499+00:00"
+    },
+    "native_common_gpu": {
+      "status": "RUNNING",
+      "completed": 870,
+      "samples": 4726,
+      "worker_lock_held": true,
+      "elapsed_seconds": 4562.272134761093,
+      "observed_utc": "2026-10-01T00:26:06.675499+00:00"
+    },
+    "native_ncslgr_cpu": {
+      "status": "RUNNING",
+      "completed": 27,
+      "samples": 222,
+      "worker_lock_held": true,
+      "elapsed_seconds": 364.6456343079917,
+      "observed_utc": "2026-10-01T00:26:06.675499+00:00"
+    },
+    "native_ncslgr_feature_cpu": {
+      "status": "RUNNING",
+      "completed": 25,
+      "samples": 222,
+      "worker_lock_held": true,
+      "elapsed_seconds": 348.187363552046,
+      "observed_utc": "2026-10-01T00:26:06.675499+00:00"
+    }
+  },
+  "free_disk_gib": 68.63633728027344,
+  "visibility_limit": "Per-tool PID namespace; locks and advancing artifacts are cross-namespace evidence. No additional GPU worker."
+}

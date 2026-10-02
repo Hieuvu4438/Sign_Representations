@@ -1,0 +1,12 @@
+{
+  "parser": "PyMuPDF",
+  "parser_version": "1.27.2.3",
+  "pdf_sha256": "53998f737574f70d9df2c328f7e5d540d17f3e61ffa499e5b9b6427ccce6d0ec",
+  "pages": 14,
+  "extracted_characters": 68404,
+  "parser_warnings": "bogus font ascent/descent values (0 / -88)\nbogus font ascent/descent values (0 / -87)\nbogus font ascent/descent values (0 / -56)\nbogus font ascent/descent values (0 / -87)\nbogus font ascent/descent values (0 / -85)\nbogus font ascent/descent values (0 / -86)\nbogus font ascent/descent values (0 / -80)\nbogus font ascent/descent values (0 / -93)\nbogus font ascent/descent values (0 / -88)\nbogus font ascent/descent values (0 / -83)",
+  "repaired": false,
+  "encrypted": false,
+  "read_level": "NOT_ESTABLISHED_BY_EXTRACTION",
+  "page_anchor_trust": "Requires separate ARS preflight; text locators use sections."
+}

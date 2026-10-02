@@ -1,0 +1,12 @@
+{
+  "asset_id": "C04_CROP_FACE",
+  "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/crop_face.py",
+  "revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "sha256": "d0aef45ddc03277190b5139ade787bdf189d9581a77f9fd7281382440b0754ae",
+  "bytes": 16564,
+  "local_path": "third_party/shubert-author-demo/crop_face.py",
+  "utc_time": "2026-09-30T23:16:09.956045+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Pinned public author demo source; app.py static inspection only; never import UI app or send videos externally.",
+  "content_type": "text/plain; charset=utf-8"
+}

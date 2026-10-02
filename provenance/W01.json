@@ -1,0 +1,12 @@
+{
+  "asset_id": "W01",
+  "url": "https://github.com/ryanwongsa/SignRep/releases/download/v0.0.1/ckpt.pt",
+  "revision": "v0.0.1",
+  "sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "bytes": 222676746,
+  "local_path": "checkpoints/signrep/ckpt.pt",
+  "utc_time": "2026-09-30T17:20:59.123873+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Research use; CC BY-NC-SA 4.0 and release restrictions; no identity/surveillance/generation.",
+  "content_type": "application/octet-stream"
+}

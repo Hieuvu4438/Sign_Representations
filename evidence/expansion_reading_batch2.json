@@ -1,0 +1,32 @@
+{
+  "status": "SCOPED_PRIMARY_HTML_AND_WEB_PDF_READING",
+  "retrieved_utc": "2026-10-01T00:03:22.679149+00:00",
+  "papers": [
+    {
+      "paper_id": "P18",
+      "url": "https://aclanthology.org/2024.emnlp-main.518.pdf",
+      "sections": "FingerCLIP training; SignCLIP pose preprocessing; retrieval filtering",
+      "read_level": "METHODS_EXPERIMENT_RELEVANT_WEB_PDF"
+    },
+    {
+      "paper_id": "P19",
+      "url": "https://aclanthology.org/2024.acl-long.467.pdf",
+      "sections": "3;4MAE; supervised SLT",
+      "read_level": "METHODS_RELEVANT_WEB_PDF"
+    },
+    {
+      "paper_id": "P20",
+      "url": "https://arxiv.org/html/2501.15187",
+      "sections": "3.2overview;3.3;4.1;keypoint appendix",
+      "read_level": "FUSION_METHOD_RELEVANT_HTML"
+    },
+    {
+      "paper_id": "P24",
+      "url": "https://arxiv.org/html/2405.19689",
+      "sections": "3.2-3.5",
+      "read_level": "METHODS_RELEVANT_HTML"
+    }
+  ],
+  "source_limit": "No local PDF acquisition/hash or local PDF page-anchor claims. OpenReview Uni-Sign returned browser challenge; main-conference status not independently certified here.",
+  "full_read_claim": false
+}

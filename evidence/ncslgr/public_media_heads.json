@@ -1,0 +1,38 @@
+{
+  "utc": "2026-09-30T19:46:36.731819+00:00",
+  "index_sha256": "4dac2c992d02959542b4a122da274173b2213f7892caf8111cba8d2ad6268840",
+  "results": [
+    {
+      "published_url": "http://www.bu.edu/av/asllrp/uncompressed/slave2/2/DSP/DSP%20Dead%20Dog%20Story.ss2.xml/DSP%20DeadDog.mov",
+      "request_url": "https://www.bu.edu/av/asllrp/uncompressed/slave2/2/DSP/DSP%20Dead%20Dog%20Story.ss2.xml/DSP%20DeadDog.mov",
+      "final_url": "https://www.bu.edu/asllrp/av/uncompressed/slave2/2/DSP/DSP%20Dead%20Dog%20Story.ss2.xml/DSP%20DeadDog.mov",
+      "status": 200,
+      "bytes": 193958181,
+      "content_type": "video/quicktime"
+    },
+    {
+      "published_url": "http://www.bu.edu/av/asllrp/uncompressed/slave2/2/DSP/DSP%20Immigrants%20Story.ss2.xml/DSP%20Immigrants.mov",
+      "request_url": "https://www.bu.edu/av/asllrp/uncompressed/slave2/2/DSP/DSP%20Immigrants%20Story.ss2.xml/DSP%20Immigrants.mov",
+      "final_url": "https://www.bu.edu/asllrp/av/uncompressed/slave2/2/DSP/DSP%20Immigrants%20Story.ss2.xml/DSP%20Immigrants.mov",
+      "status": 200,
+      "bytes": 58947544,
+      "content_type": "video/quicktime"
+    },
+    {
+      "published_url": "http://www.bu.edu/av/asllrp/uncompressed/slave2/2/DSP/DSP%20Intro%20to%20a%20Story.ss2.xml/DSP%20Introduction.mov",
+      "request_url": "https://www.bu.edu/av/asllrp/uncompressed/slave2/2/DSP/DSP%20Intro%20to%20a%20Story.ss2.xml/DSP%20Introduction.mov",
+      "final_url": "https://www.bu.edu/asllrp/av/uncompressed/slave2/2/DSP/DSP%20Intro%20to%20a%20Story.ss2.xml/DSP%20Introduction.mov",
+      "status": 200,
+      "bytes": 34291834,
+      "content_type": "video/quicktime"
+    },
+    {
+      "published_url": "http://www.bu.edu/av/asllrp/uncompressed/slave2/2/DSP/DSP%20Ski%20Trip%20Story.ss2.xml/DSP%20Trip.mov",
+      "request_url": "https://www.bu.edu/av/asllrp/uncompressed/slave2/2/DSP/DSP%20Ski%20Trip%20Story.ss2.xml/DSP%20Trip.mov",
+      "final_url": "https://www.bu.edu/asllrp/av/uncompressed/slave2/2/DSP/DSP%20Ski%20Trip%20Story.ss2.xml/DSP%20Trip.mov",
+      "status": 200,
+      "bytes": 163736743,
+      "content_type": "video/quicktime"
+    }
+  ]
+}

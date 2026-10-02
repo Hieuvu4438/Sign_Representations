@@ -1,0 +1,12 @@
+{
+  "asset_id": "C04_SHUBERT",
+  "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/shubert.py",
+  "revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "sha256": "a6445b01cebe2cf66942f87d7ead273226155f015dc73c0554a9c685222c32c3",
+  "bytes": 19934,
+  "local_path": "third_party/shubert-author-demo/shubert.py",
+  "utc_time": "2026-09-30T23:16:11.182954+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Pinned public author demo source; app.py static inspection only; never import UI app or send videos externally.",
+  "content_type": "text/plain; charset=utf-8"
+}

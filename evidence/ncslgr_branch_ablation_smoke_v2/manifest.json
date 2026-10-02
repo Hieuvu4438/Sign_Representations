@@ -1,0 +1,13 @@
+{
+  "status": "PRESERVED_REVIEWED_TRAIN_SMOKE",
+  "updated_utc": "2026-10-01T07:35:26.103695+00:00",
+  "files_sha256": {
+    "index.jsonl": "488c62a6095aca4bc8d4693db9d0c8427f2c06281a17f728c219b6db7b8bee08",
+    "audit.json": "8faaaa66b7e97b50a4d22b1a45e70d1cb84ad54e6312a2d712386d540993bb12",
+    "shard_metadata.json": "b499e5792b45cc0cc7be2981a4be02e9730afc16792b8c2430db26bf89da83a1",
+    "extraction_report.json": "776e3eaaddf1033c1d6be2d2da0a072f6ebecfc5664fd1bf8e7de875a0ae9727"
+  },
+  "retained_shard": "/home/haipd/Sign_Representations/features/ncslgr_branch_ablation_v2/a2e84f4163631110e771.npz",
+  "retained_shard_sha256": "7b5a2edca3b815fb206fc378a28e7149d262c281d9dc1f8a66e44b906200ceac",
+  "scope": "Preserve bounded smoke evidence separately from evolving full-extraction report/index."
+}

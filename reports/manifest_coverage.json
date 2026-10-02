@@ -1,0 +1,124 @@
+{
+  "asl_citizen": {
+    "annotation_rows": 83399,
+    "video_or_frames_present": 83399,
+    "split_counts": {
+      "train": 40154,
+      "val": 10304,
+      "test": 32941
+    },
+    "unresolved_recording_groups": 0,
+    "metadata_sha256": {
+      "/home/dongvk/datasets/ASL_Citizen/splits/test.csv": "b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e",
+      "/home/dongvk/datasets/ASL_Citizen/splits/train.csv": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329",
+      "/home/dongvk/datasets/ASL_Citizen/splits/val.csv": "6ac78c9d551dfcc81d225a5279d7637c2891a4490851234be6e4674666e21366"
+    },
+    "manifest_sha256": "4993167d05b831323d29664fdd177a108f16aff68a87a75035a27f787750044f",
+    "gold_grammar": "NOT_ESTABLISHED",
+    "gold_sign_occurrences": "NOT_ESTABLISHED"
+  },
+  "wlasl2000": {
+    "annotation_rows": 21095,
+    "video_or_frames_present": 21095,
+    "split_counts": {
+      "train": 14296,
+      "val": 3920,
+      "test": 2879
+    },
+    "unresolved_recording_groups": 21095,
+    "metadata_sha256": {
+      "/home/dongvk/datasets/WLASL2000/preprocess/nslt_2000.json": "f2043012675733940694b367646a63b3d7673a621768831678547a6b39500c78"
+    },
+    "manifest_sha256": "bfd67cacf5672fc987266c607df998b4f3a74e1a69871338e427d8e0478cb135",
+    "gold_grammar": "NOT_ESTABLISHED",
+    "gold_sign_occurrences": "NOT_ESTABLISHED"
+  },
+  "ms_asl": {
+    "annotation_rows": 25513,
+    "video_or_frames_present": 18855,
+    "split_counts": {
+      "train": 16054,
+      "val": 5287,
+      "test": 4172
+    },
+    "unresolved_recording_groups": 0,
+    "metadata_sha256": {
+      "/home/dongvk/datasets/MS-ASL/msasl1k.json": "df134fa2780cf22eb72c60ef147964a2c5f893d9bde97b94a58da87a61f3705f"
+    },
+    "manifest_sha256": "bfc1f3406a724bde0a3738b383aa348afd9bbb89a1c25d9fe567c1e86c6a01ff",
+    "gold_grammar": "NOT_ESTABLISHED",
+    "gold_sign_occurrences": "NOT_ESTABLISHED"
+  },
+  "how2sign": {
+    "annotation_rows": 35041,
+    "video_or_frames_present": 34917,
+    "split_counts": {
+      "train": 31165,
+      "val": 1527,
+      "test": 2349
+    },
+    "unresolved_recording_groups": 2349,
+    "metadata_sha256": {
+      "/home/dongvk/datasets/How2Sign/from_uni_sign_source/labels.test": "3e4c70aa4dd3fcabf1380accad2e4787d1da5d9afe1f86e7518acee01895fad1",
+      "/home/shared_data/sign_language/How2Sign/eval/eval_label/labels.dev.json": "5c93490d91a893e3467a7e3268c90fc69cc66e19ab6cecebc241f70b1eb89528",
+      "/home/shared_data/sign_language/How2Sign/train/train_label/labels.train": "a68b4a2667ed491bb442d3098036ab86689d9c21de06bc65d6c8e968aec34ba7"
+    },
+    "manifest_sha256": "16829e332fb21618d8805eb709708580e9fc6627784efd7f90f1ffcef3fa02b0",
+    "gold_grammar": "NOT_ESTABLISHED",
+    "gold_sign_occurrences": "NOT_ESTABLISHED"
+  },
+  "csl_daily": {
+    "annotation_rows": 20654,
+    "video_or_frames_present": 20654,
+    "split_counts": {
+      "train": 18401,
+      "val": 1077,
+      "test": 1176
+    },
+    "unresolved_recording_groups": 0,
+    "metadata_sha256": {
+      "/home/shared_data/sign_language/CSLDaily/labels.dev": "b96b62b7cf2c94f4d25e522fb6a1c40e3dba2579b387a53eee1858362b3c88a5",
+      "/home/shared_data/sign_language/CSLDaily/labels.test": "0a5027d102557c2a7c7590de219de7a29d242ce38db4363241f39b6b0b1cf2b3",
+      "/home/shared_data/sign_language/CSLDaily/labels.train": "e7fb4bba59a78340a57d80daa3e3d92d9d4d3e2e234a861f77d8d6f710dcec32"
+    },
+    "manifest_sha256": "9b9f5440589f0c88f92d8a51b85532af290c93424af51ac1bbb08e3dd07483eb",
+    "gold_grammar": "NOT_ESTABLISHED",
+    "gold_sign_occurrences": "NOT_ESTABLISHED"
+  },
+  "csl_daily_sentence_crop": {
+    "annotation_rows": 20654,
+    "video_or_frames_present": 20654,
+    "split_counts": {
+      "train": 18401,
+      "val": 1077,
+      "test": 1176
+    },
+    "unresolved_recording_groups": 0,
+    "metadata_sha256": {
+      "/home/dongvk/datasets/CSL_Daily_Sentence_Crop/labels.dev": "b96b62b7cf2c94f4d25e522fb6a1c40e3dba2579b387a53eee1858362b3c88a5",
+      "/home/dongvk/datasets/CSL_Daily_Sentence_Crop/labels.test": "0a5027d102557c2a7c7590de219de7a29d242ce38db4363241f39b6b0b1cf2b3",
+      "/home/dongvk/datasets/CSL_Daily_Sentence_Crop/labels.train": "e7fb4bba59a78340a57d80daa3e3d92d9d4d3e2e234a861f77d8d6f710dcec32"
+    },
+    "manifest_sha256": "885ac1ded2118e02908538633bea5a81f96dea7a13a8845f46cc70317f657ee4",
+    "gold_grammar": "NOT_ESTABLISHED",
+    "gold_sign_occurrences": "NOT_ESTABLISHED"
+  },
+  "phoenix14t": {
+    "annotation_rows": 8257,
+    "video_or_frames_present": 8257,
+    "split_counts": {
+      "train": 7096,
+      "val": 519,
+      "test": 642
+    },
+    "unresolved_recording_groups": 0,
+    "metadata_sha256": {
+      "/home/dongvk/datasets/phoenix14T/phoenix14t.pami0.dev.annotations_only.gzip": "f9705439d0b638f51ff0cc6db277d650af5c4860ddbfd14d057f35fcf7deab94",
+      "/home/dongvk/datasets/phoenix14T/phoenix14t.pami0.test.annotations_only.gzip": "d06dda53484ab4509d52be54bd3154f8d3408289781813913353195cfe738752",
+      "/home/dongvk/datasets/phoenix14T/phoenix14t.pami0.train.annotations_only.gzip": "2f41872f70032db1dd201746f569588abe1108acc5f079c27dfffc6eea600e61"
+    },
+    "manifest_sha256": "844e76ca400f045cb6f9e4ee549bce2de1953c8fa0a43313d77548b1bb10323e",
+    "gold_grammar": "NOT_ESTABLISHED",
+    "gold_sign_occurrences": "NOT_ESTABLISHED"
+  }
+}

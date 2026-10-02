@@ -1,0 +1,11 @@
+{
+  "status": "FAIL",
+  "pid": 3,
+  "config_sha256": "32651b269d6a2d8edf6e58df711e5182d00e051918c317db39686c61e507813f",
+  "device": "cpu",
+  "native_completed": 1235,
+  "native_samples": 4726,
+  "updated_utc": "2026-10-01T01:53:17Z",
+  "elapsed_seconds": 7231.8052739480045,
+  "failure_reason": "ValueError: Native extraction is terminal without full PASS: FAIL"
+}

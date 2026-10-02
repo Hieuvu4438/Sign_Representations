@@ -1,0 +1,70 @@
+{
+  "status": "LOCKED_FOR_INTERNAL_DIAGNOSTIC_WITH_LIMITS",
+  "cohort_sha256": "e50f2b472d206caf92481b06505c00df8383a2d0a691bfe75926a37fb96fe11f",
+  "manifest_sha256": "3113fbe50f7226e877bcae816cf47f6c82941e62e2d968a630fc23d0cdcf997d",
+  "input_preparation_sha256": "36544d1d6c829f001f3f9427140d1d47c1ab77da04a4946690ce4db434067402",
+  "samples": 222,
+  "usable_utterances": 222,
+  "counts": {
+    "train": {
+      "YN": 31,
+      "NEG": 35,
+      "WH": 41
+    },
+    "test": {
+      "WH": 30,
+      "NEG": 34,
+      "YN": 24
+    },
+    "val": {
+      "WH": 21,
+      "NEG": 4,
+      "YN": 2
+    }
+  },
+  "primary_metric": "macro_recall",
+  "classes": [
+    "NEG",
+    "WH",
+    "YN"
+  ],
+  "target_semantics": "One positively recorded functional target tier among NEG/WH/YN; exclude target cooccurrences. No inferred semantic affirmative or fully absent class.",
+  "split_policy": "Source XML participant NAME held out; two train signers, one validation signer, one test signer. Official sequence ID groups views; no source sequence or signer crosses splits.",
+  "signer_assignment": {
+    "Benjamin Bahan": "train",
+    "Norma Bowers Tourangeau": "test",
+    "Michael Schlang": "train",
+    "Lana Cook": "val"
+  },
+  "readouts": [
+    "prior",
+    "body_mean_linear",
+    "face_mean_linear",
+    "paired_normalized_mean_linear"
+  ],
+  "feature_policy": "Frozen SignRep, public16-frame native features; mean pool only window centers inside utterance interval. Same768-dimensional linear readout for body/face/paired mean.",
+  "lr_grid": [
+    0.01,
+    0.03,
+    0.1
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "epochs": 100,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "head_selection": "Validation macro recall only, deterministic first-candidate tie break. No best-seed headline.",
+  "external_MTP": "Not used for training/tuning; access/canonical exclusions remain pending.",
+  "limits": [
+    "Historical research mirror annotation release; not certified as current2011 XML bytes.",
+    "View resolution, color and background differ; this comparison does not isolate facial information causally.",
+    "Validation has only2YN and4NEG examples; head selection unstable.",
+    "One test signer; no signer-population inference.",
+    "Four shared XML archive groups remain as conservative grouping sensitivity; no claim of clean pretraining/external transfer.",
+    "No gold scope or candidate translation used as model inputs; no method novelty claimed."
+  ],
+  "failures": []
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "source_manifest_sha256": "4993167d05b831323d29664fdd177a108f16aff68a87a75035a27f787750044f",
+  "pilot_manifest_sha256": "d7d6d6804ca1cf286bf35cce9c101ad0fee230bed2b7027bdbf58bb1e82228a6",
+  "split": "train",
+  "sample_ids": [
+    "asl_citizen:5868753228914183-IMPOSSIBLE",
+    "asl_citizen:5538288174206061-DIFFERENT",
+    "asl_citizen:6918631873299188-seedRESPONSIBILITY",
+    "asl_citizen:7861626885486954-PLOW 2",
+    "asl_citizen:02325628446635597-PRETTY",
+    "asl_citizen:11495417287006338-PULL CONVINCE",
+    "asl_citizen:05718980880641222-SWIM",
+    "asl_citizen:25216490844672057-FANTASY"
+  ],
+  "scope": "Deterministic train-only smoke; natural short/variable-FPS coverage must be checked after decode."
+}

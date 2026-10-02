@@ -1,0 +1,31 @@
+{
+  "status": "PASS_METADATA_GROUPING",
+  "sample_counts": [
+    {
+      "dataset_id": "asl_citizen",
+      "split": "test",
+      "rows": 1600
+    },
+    {
+      "dataset_id": "asl_citizen",
+      "split": "train",
+      "rows": 2400
+    },
+    {
+      "dataset_id": "asl_citizen",
+      "split": "val",
+      "rows": 726
+    }
+  ],
+  "recording_group_count": 4726,
+  "recording_overlaps": [],
+  "signer_count": 49,
+  "signer_overlaps": [],
+  "unresolved_recording_counts": {},
+  "exact_hash_overlaps": [],
+  "content_hash_coverage": 0,
+  "perceptual_duplicate_audit": "NOT_RUN",
+  "pretraining_overlap": "UNKNOWN",
+  "scope": "Metadata group audit; absent metadata overlap does not establish absent pretraining or visual duplication.",
+  "manifest_sha256": "10588de667415c1ca9cdcf677d18d0e5d69c7845ee43b05658902b20b6e52f3a"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "P02",
+  "url": "https://www.openaccess.thecvf.com/content/ICCV2025/supplemental/Wong_SignRep_Enhancing_Self-Supervised_ICCV_2025_supplemental.pdf",
+  "revision": "ICCV2025 supplement",
+  "sha256": "3dfd69a9f70b592f360037fe3abce5d99210a1a8305edc6dd64579f8b5d7eaec",
+  "bytes": 10771324,
+  "local_path": "evidence/papers/P02.pdf",
+  "utc_time": "2026-09-30T17:20:54.594384+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

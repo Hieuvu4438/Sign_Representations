@@ -1,0 +1,10 @@
+{
+  "status": "BLOCKED_GOLD_OR_MAPPING",
+  "pid": 3,
+  "device": "cpu",
+  "config_sha256": "1f3d34cc4a0413f887f756cc326bd4622f08c22f05b9346f760f51b3246a526a",
+  "script_sha256": "8b9625afa68678a342211bdba81f7f932a235d38a0a7b958810138b55ce619f8",
+  "metric_and_search_sha256": "1bfb367fb89222f91ebebce55ccf4bf36bb8a8d7bd504e7f5f09f078c626c2b0",
+  "failure_reason": "ValueError: Grounding protocol blocked or unlocked: BLOCKED_DATA",
+  "elapsed_seconds": 4.300964064896107e-06
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "P11",
+  "url": "https://arxiv.org/pdf/2205.04152",
+  "revision": "version to resolve from retrieved document",
+  "sha256": "a34a90e17ef472e743a6c0f6b9c88ca82c4531351cb99992c598b59810d439f3",
+  "bytes": 20380304,
+  "local_path": "evidence/papers/P11.pdf",
+  "utc_time": "2026-09-30T17:52:00.753881+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

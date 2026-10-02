@@ -1,0 +1,12 @@
+{
+  "asset_id": "W02",
+  "url": "https://huggingface.co/ShesterG/SHuBERT/resolve/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/models/checkpoint_836_400000.pt",
+  "revision": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+  "bytes": 1057496908,
+  "local_path": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+  "utc_time": "2026-09-30T18:45:10.338377+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Public author model; research pipeline; license/training overlap to audit.",
+  "content_type": "application/octet-stream"
+}

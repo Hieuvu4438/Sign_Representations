@@ -1,0 +1,26 @@
+{
+  "status": "REPRODUCIBLE_IMPORT_ORDER_FAILURE_WITH_TESTED_WORKAROUND",
+  "environment": ".venv-shubert-native, torch2.1.1+cu121/decord0.6.0",
+  "checks": [
+    {
+      "log": "logs/shubert_cuda_runtime_smoke_attempt1.log",
+      "exit_code": 0,
+      "scope": "Torch-only CUDA allocation/matmul"
+    },
+    {
+      "log": "logs/shubert_cuda_decord_order_attempt1.log",
+      "exit_code": 139,
+      "scope": "Decord imported before first CUDA initialization"
+    },
+    {
+      "log": "logs/shubert_cuda_decord_order_attempt2.log",
+      "exit_code": 0,
+      "scope": "Initialize Torch CUDA before decord; post-import CUDA allocation/matmul"
+    }
+  ],
+  "workaround": "Adapter initializes CUDA before importing decord for GPU runs only, after single-worker guard.",
+  "upstream_model_modified": false,
+  "full_gpu_pilot": "PASS_attempt4",
+  "underlying_library_cause": "UNKNOWN; only import-order effect established",
+  "evidence": "features/shubert_native_pilot_gpu_attempt4/report.json"
+}

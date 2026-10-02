@@ -1,0 +1,37 @@
+{
+  "status": "PASS_TWO_TRAIN_CASES_WITHIN_RUN_CUE_ABLATION",
+  "updated_utc": "2026-10-01T07:46:23.475884+00:00",
+  "config_sha256": "e333093d5b4b2a00a096e48e0907cd561682bb6b10872d0011f4c36af56e7e1b",
+  "report_sha256": "5154a164957aeeaba28d5bddfdbadedb5783d9c6f9754547f107c51f4d489af4",
+  "cases": [
+    {
+      "sample_id": "ncslgr:ncslgr10b:34:body",
+      "source_split": "train",
+      "frames": 174,
+      "source_sha256": "b7ff85127b9cc7593eae1563487a1fb10ce230f38b4457212e1df7dbf218386f",
+      "shard_sha256": "5df8e8b4418f7e23a0ce81e99580f532847e12b10895b35fd326318919896019",
+      "within_run_repeat_difference": 0.0,
+      "old_cache_max_abs_difference": 1.2159347534179688e-05,
+      "mask_and_clock_exactly_preserved": true
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:11:body",
+      "source_split": "train",
+      "frames": 173,
+      "source_sha256": "6463730d3f4c68975ebcbf1376960243bc0bf1e541072017b2c46272e2f8cfdc",
+      "shard_sha256": "3c6df0ba13dc1a31fac31ac0d52d7f59553c3b12765112e11ce97322ef8deaee",
+      "within_run_repeat_difference": 0.0,
+      "old_cache_max_abs_difference": 0.0,
+      "mask_and_clock_exactly_preserved": true
+    }
+  ],
+  "conditions": 8,
+  "elapsed_seconds": 50.042102670064196,
+  "source_split": "train",
+  "original_cache_equivalence": "NOT_CERTIFIED",
+  "scientific_metrics_measured": false,
+  "limits": [
+    "Two fixed training clips only. Same-run repeated baseline numerical guard passed; earlier original-cache absolute guard remains failed and preserved.",
+    "No A03 classification metrics, causal branch importance, adaptation or method novelty."
+  ]
+}

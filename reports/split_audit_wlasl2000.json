@@ -1,0 +1,33 @@
+{
+  "status": "UNVERIFIED_GROUPS",
+  "sample_counts": [
+    {
+      "dataset_id": "wlasl2000",
+      "split": "test",
+      "rows": 2879
+    },
+    {
+      "dataset_id": "wlasl2000",
+      "split": "train",
+      "rows": 14296
+    },
+    {
+      "dataset_id": "wlasl2000",
+      "split": "val",
+      "rows": 3920
+    }
+  ],
+  "recording_group_count": 21095,
+  "recording_overlaps": [],
+  "signer_count": 0,
+  "signer_overlaps": [],
+  "unresolved_recording_counts": {
+    "wlasl2000": 21095
+  },
+  "exact_hash_overlaps": [],
+  "content_hash_coverage": 0,
+  "perceptual_duplicate_audit": "NOT_RUN",
+  "pretraining_overlap": "UNKNOWN",
+  "scope": "Metadata group audit; absent metadata overlap does not establish absent pretraining or visual duplication.",
+  "manifest_sha256": "bfd67cacf5672fc987266c607df998b4f3a74e1a69871338e427d8e0478cb135"
+}

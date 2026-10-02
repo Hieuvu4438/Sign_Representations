@@ -1,0 +1,94 @@
+{
+  "status": "LOCKED_EXPLORATORY_RECORDED_INTERVAL_DIAGNOSTIC",
+  "protocol_version": "ncslgr_intervals_v1",
+  "created_utc": "2026-09-30T23:45:23Z",
+  "identity_sha256": {
+    "scripts/run_ncslgr_intervals.py": "715b901b7ab571b513b94b54e2d8f4e42a44f5a4c2602e09b4cea836ddd19e21",
+    "src/signrepr/interval_readouts.py": "c42eae1e3fd860ed60bfef9bfa9d225d383400aa26f7d9c4e42f4bf7123f9c89",
+    "src/signrepr/ncslgr.py": "5fa2f23952498f7e5350e42090e8f150c103f9afa20cadf56fb185069affe62c",
+    "src/signrepr/io.py": "f9faaa127e40d22156ef77ec497396aa13056edc0169415bd41a68130768158f",
+    "data/external/ncslgr/diagnostic_v1/manifest.jsonl": "3113fbe50f7226e877bcae816cf47f6c82941e62e2d968a630fc23d0cdcf997d",
+    "data/external/ncslgr/diagnostic_v1/protocol.lock.json": "be9ba90fc2b261bc2f3ba9af9299cd5333ebcd8b6a886fa8a3daf39a02cb5c22",
+    "features/signrep_ncslgr_diagnostic_v1/extraction_report.json": "e872777106c77086291cf0bf523475c0edc03c4a64d3ef8a5b409eba56adf6a8",
+    "features/signrep_ncslgr_diagnostic_v1/index.jsonl": "0bba7fb013d72c3dcdf881b9126bfa03e7bc4e1f5d1ec2ce219210160a6c8e5a"
+  },
+  "targets": "data/external/ncslgr/intervals_v1/targets.jsonl",
+  "targets_sha256": "69ac299e3f4dc3753d889992985a40a686f6311aab6a64c90aee00dd931928dd",
+  "classes": [
+    "NEG",
+    "WH",
+    "YN"
+  ],
+  "classification_utterances": 222,
+  "interval_utterances": 179,
+  "interval_counts": {
+    "train": {
+      "WH": 39,
+      "YN": 25,
+      "NEG": 25
+    },
+    "val": {
+      "WH": 21,
+      "YN": 2,
+      "NEG": 2
+    },
+    "test": {
+      "WH": 27,
+      "NEG": 17,
+      "YN": 21
+    }
+  },
+  "readouts": [
+    "body_global",
+    "body_temporal",
+    "face_global",
+    "face_temporal"
+  ],
+  "primary_comparison": "body_temporal_minus_body_global",
+  "primary_metric": "macro_class_aware_interval_IoU",
+  "validation_selection": "final-epoch macro class-aware interval IoU on single-interval validation utterances; first LR wins ties",
+  "secondary_metrics": [
+    "classification_macro_recall_all_utterances",
+    "class_agnostic_mean_IoU",
+    "class_aware_interval_success_at_IoU_0.3_0.5_0.7",
+    "mean_onset_offset_error_ms"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "learning_rates": [
+    0.01,
+    0.03,
+    0.1
+  ],
+  "epochs": 100,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "endpoint_loss_weight": 1.0,
+  "endpoint_loss": "SmoothL1 beta0.1, normalized to utterance support, only source-positive single interval; class index gathers supervision after forward",
+  "head_parameters": 6915,
+  "capacity": "Same Linear768->3 with bias plus Linear768->6 without bias; every counted parameter affects outputs. No encoder adaptation.",
+  "input_policy": "Frozen SignRep embeddings; valid window centers in known utterance support; per-token L2 then train-only utterance-weighted mean/SD. Add source utterance endpoint nodes with nearest supported embedding, identically for both controls. No gold core, phenotype or text enters model inputs.",
+  "temporal_policy": "Normalized start/end boundary distributions over candidate nodes; expected positions, sorted and probability channels reordered with endpoints. Distributions express boundary position, not phenotype presence/absence.",
+  "global_policy": "Uniform mean of identical candidate tokens, six sigmoid endpoint regressions sorted per predicted class. Same supplied duration, parameters, seeds, LR grid and endpoint labels as temporal control.",
+  "timestamp_policy": "Verified source30FPS; official round(start_ms*FPS/1000), inclusive end round(end_ms*FPS/1000)+1. Intervals half-open, node clocks original source timestamps.",
+  "annotation_resolution_ms": 33.333333333333336,
+  "negative_policy": "No absence classes or background BCE. Multiple-core utterances retain class CE but no endpoint loss/IoU. Functional-core annotation is not independently adjudicated complete grammatical scope.",
+  "statistics": {
+    "resamples": 2000,
+    "seed": 42,
+    "group": "recording_group",
+    "seed_aggregation": "all3arithmeticmean"
+  },
+  "prospective_scope": "Locked before new interval model metrics; earlier same-cohort classification test results already seen. Exploratory development diagnostic, not independent confirmatory evaluation.",
+  "limits": [
+    "One test signer; very small NEG/YN validation supports.",
+    "Four XML archive groups cross splits; source-sequence disjoint does not establish independent acquisition or pretraining exclusion.",
+    "Source functional-core interval is distinct from anatomical phases and fully adjudicated grammatical scope.",
+    "Camera comparisons do not isolate facial information causally.",
+    "Single-interval subset excludes43utterances; no general multiple-event or absent-phenomenon detection claim.",
+    "Boundary uncertainty distributions are uncalibrated. Frozen readout diagnostic is not a new representation method."
+  ]
+}

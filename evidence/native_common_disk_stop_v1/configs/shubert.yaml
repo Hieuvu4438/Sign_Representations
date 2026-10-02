@@ -1,0 +1,24 @@
+backbone: shubert_native
+upstream_path: third_party/SHuBERT
+upstream_commit: cc1929326075bfbad7ad73159b2acf84356059bb
+checkpoint_path: checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt
+checkpoint_sha256: 9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d
+dino_path: third_party/dinov2
+dino_commit: 7764ea0f912e53c92e82eb78a2a1631e92725fc8
+dino_face_checkpoint: checkpoints/shubert_author_hf/models/dinov2face.pth
+dino_hand_checkpoint: checkpoints/shubert_author_hf/models/dinov2hand.pth
+device: cuda:0
+output_layer: last_layer_ffn_branch_upstream_script
+expected_dimension: 768
+stream_dimensions:
+  face: 384
+  left_hand: 384
+  right_hand: 384
+  body_posture: 14
+preprocessing_version: native_author_pipeline_v1_pending_equivalence_audit
+native_preprocessing_approved: false
+context: whole_clip
+max_frames: 1000
+disk_free_min_gib: 20
+feature_cache_cap_gib: 100
+deterministic_tolerance: 0.00001

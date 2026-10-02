@@ -1,0 +1,25 @@
+{
+  "pilot_samples": 8,
+  "pilot_windows": 328,
+  "measured_single_pass_seconds": 8.193876008153893,
+  "samples_per_hour_single_pass": 3514.8200889713894,
+  "feature_bytes_per_sample_mean": 118430.75,
+  "peak_gpu_memory_bytes": 1243020800,
+  "pilot_duration_seconds": [
+    3.8,
+    2.6,
+    5.437230551444566,
+    2.367,
+    1.8,
+    4.767,
+    2.633,
+    2.135
+  ],
+  "cohort_rows": 4726,
+  "cohort_hours_extrapolation": 1.3445922921713644,
+  "full_asl_citizen_hours_extrapolation": 23.7278147640287,
+  "budget_gpu_hours": 8,
+  "extrapolation_status": "PROVISIONAL_FROM_8_RANDOM_TRAIN_CLIPS_NOT_FULL_DURATION_DISTRIBUTION",
+  "reason_for_cohort": "Full ASL Citizen extraction extrapolation exceeds pilot budget; train-selected controlled cohort locked before test",
+  "includes_io_checkpoint_setup_or_heads": false
+}

@@ -1,0 +1,29 @@
+{
+  "observed_utc": "2026-10-01T00:43:41.187043+00:00",
+  "paper_id": "P31",
+  "source_kind": "PAPER_FACT",
+  "source_url": "https://arxiv.org/pdf/2008.08143",
+  "version_verification": "PDF header and official arXiv metadata identifyv2/2021-04-01,14browser pages. Failed requested v3HTML is preserved as unavailable; no v3version asserted.",
+  "read_scope": "3.1-3.5,Table2 and supplement7.1-7.2/TableS2; not full-paper read",
+  "notes": [
+    "ELAN gloss/sentence tiers described in3.3 do not establish released expert functional scope/absence gold.",
+    "Original How2 splits are reused; unseen signer evaluation is limited to duplicate recordings by signer10, not the entire official test.",
+    "Table2 versus TableS2 utterance counts differ; no unresolved numeric total adopted.",
+    "Supplement discusses resolution-sensitive tracking and language variation; not evidence of measured failure of local backbones.",
+    "Author release page says original clips follow English timestamps; manually realigned timestamps are a separate release. Local files must be checked."
+  ],
+  "local_pdf_sha256": null,
+  "local_pdf_preflight": "UNAVAILABLE_NO_LOCAL_PDF",
+  "access_failures": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Duarte_How2Sign_A_Large-Scale_Multimodal_Dataset_for_Continuous_American_Sign_Language_CVPR_2021_paper.pdf",
+      "status": "403_FROM_BROWSER_TOOL"
+    },
+    {
+      "url": "https://webpages.charlotte.edu/~szhang16/paper/IVC_ASL_2014.pdf",
+      "paper_id": "P35",
+      "status": "404_FROM_BROWSER_TOOL",
+      "read_scope_change": "NONE"
+    }
+  ]
+}

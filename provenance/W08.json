@@ -1,0 +1,12 @@
+{
+  "asset_id": "W08",
+  "url": "https://huggingface.co/ShesterG/SHuBERT/resolve/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/models/checkpoint-11625/pytorch_model.bin",
+  "revision": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "sha256": "cb605058abf7fd50b80f055fe8a6e271ed64f04ef7b1b450c7a364f88495526a",
+  "bytes": 2683976334,
+  "local_path": "checkpoints/shubert_author_hf/models/checkpoint-11625/pytorch_model.bin",
+  "utc_time": "2026-09-30T23:25:37.107537+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Public author-demo checkpoint11625; not verified as ASL-MTP paper model. Local research use; no external upload.",
+  "content_type": null
+}

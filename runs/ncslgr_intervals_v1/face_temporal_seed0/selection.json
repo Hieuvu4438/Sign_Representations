@@ -1,0 +1,89 @@
+{
+  "seed": 0,
+  "learning_rate": 0.01,
+  "validation": {
+    "classification_macro_recall": 0.6904761904761904,
+    "classification_top1": 0.5925925925925926,
+    "classification_samples": 27,
+    "macro_class_aware_interval_IoU": 0.38144788575744365,
+    "class_agnostic_mean_IoU": 0.4120314900371683,
+    "interval_samples": 25,
+    "mean_onset_offset_error_ms": [
+      993.9352451344448,
+      408.55110732714314
+    ],
+    "class_aware_success": {
+      "0.3": 0.44,
+      "0.5": 0.24,
+      "0.7": 0.12
+    }
+  },
+  "candidates": [
+    {
+      "learning_rate": 0.01,
+      "validation": {
+        "classification_macro_recall": 0.6904761904761904,
+        "classification_top1": 0.5925925925925926,
+        "classification_samples": 27,
+        "macro_class_aware_interval_IoU": 0.38144788575744365,
+        "class_agnostic_mean_IoU": 0.4120314900371683,
+        "interval_samples": 25,
+        "mean_onset_offset_error_ms": [
+          993.9352451344448,
+          408.55110732714314
+        ],
+        "class_aware_success": {
+          "0.3": 0.44,
+          "0.5": 0.24,
+          "0.7": 0.12
+        }
+      },
+      "final_train_loss": 0.042468488216400146
+    },
+    {
+      "learning_rate": 0.03,
+      "validation": {
+        "classification_macro_recall": 0.5396825396825397,
+        "classification_top1": 0.5925925925925926,
+        "classification_samples": 27,
+        "macro_class_aware_interval_IoU": 0.1875069192860722,
+        "class_agnostic_mean_IoU": 0.45630363577927063,
+        "interval_samples": 25,
+        "mean_onset_offset_error_ms": [
+          846.9284129142604,
+          460.92512424786895
+        ],
+        "class_aware_success": {
+          "0.3": 0.44,
+          "0.5": 0.2,
+          "0.7": 0.16
+        }
+      },
+      "final_train_loss": 0.061490826308727264
+    },
+    {
+      "learning_rate": 0.1,
+      "validation": {
+        "classification_macro_recall": 0.5238095238095238,
+        "classification_top1": 0.5555555555555556,
+        "classification_samples": 27,
+        "macro_class_aware_interval_IoU": 0.304345616773404,
+        "class_agnostic_mean_IoU": 0.431572970909921,
+        "interval_samples": 25,
+        "mean_onset_offset_error_ms": [
+          798.2221076250984,
+          569.9208175341288
+        ],
+        "class_aware_success": {
+          "0.3": 0.36,
+          "0.5": 0.24,
+          "0.7": 0.16
+        }
+      },
+      "final_train_loss": 0.08281517028808594
+    }
+  ],
+  "head_parameters": 6915,
+  "protocol_sha256": "9dab1a98f07faa835598b47d7c003f074ff112c3043bf3bd3b90ff29924b87f6",
+  "test_used_for_selection": false
+}

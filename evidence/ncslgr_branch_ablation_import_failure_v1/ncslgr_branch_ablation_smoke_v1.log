@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/scripts/extract_ncslgr_branch_ablation.py", line 12, in <module>
+    from run_ncslgr_branch_ablation import CONFIG, FEATURES, NATIVE, PREP, SOURCE_MANIFEST, identities
+  File "/home/haipd/Sign_Representations/scripts/run_ncslgr_branch_ablation.py", line 15, in <module>
+    from signrepr.ncslgr import inclusive_frame_bounds
+  File "/home/haipd/Sign_Representations/src/signrepr/ncslgr.py", line 13, in <module>
+    from defusedxml import ElementTree as ET
+ModuleNotFoundError: No module named 'defusedxml'

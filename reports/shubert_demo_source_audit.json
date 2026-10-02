@@ -1,0 +1,33 @@
+{
+  "status": "PASS_STATIC_SOURCE_AUDIT_WITH_LIMITS",
+  "source_revision": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "utc": "2026-09-30T23:18:00.888909+00:00",
+  "files": {
+    "third_party/shubert-author-demo/README.md": "9b4b48251253ff3057cab14e3802fb3cc9b024ac29f10f80d0155c6cce5ac912",
+    "third_party/shubert-author-demo/app.py": "bae4fc005cce5c808bef9e55c98d6975cd07aef1af5368798cbb24a365dcba5b",
+    "third_party/shubert-author-demo/attention.py": "2e99cf33019f087d87e3d62572fa7c747f38539a1f6618fba21b88d43e68589d",
+    "third_party/shubert-author-demo/block.py": "5e003564d03eb157bb2f7379e248766a0cafbfa02a3399234af9e596f7666faf",
+    "third_party/shubert-author-demo/body_features.py": "9a02a33d11e49c10f814a6b8807dd2a0a892b54c6143c49387ba5def6f6f1449",
+    "third_party/shubert-author-demo/crop_face.py": "d0aef45ddc03277190b5139ade787bdf189d9581a77f9fd7281382440b0754ae",
+    "third_party/shubert-author-demo/crop_hands.py": "e79b2ba2f3c6cdb7031212d90d2f728a4c8f36dc216379bf23321f40e558bdf8",
+    "third_party/shubert-author-demo/dinov2_features.py": "b077c1295f9a92ba33d8fb52a3a125934a207b60fb0b1e37b4e9493355a9acac",
+    "third_party/shubert-author-demo/features.py": "84b2458212aba347f256c1c1434d50b28c419a784663161ab442bedffe468c55",
+    "third_party/shubert-author-demo/inference.py": "be77ec1b73caab5f03087132a1faa0fc521ecceb94812426276fded57d1aef65",
+    "third_party/shubert-author-demo/kpe_mediapipe.py": "c27155744ad21727b15371862a20193129fcad88a1973d291120cbea7d63c807",
+    "third_party/shubert-author-demo/pre-requirements.txt": "77c401c5f04ac2426052f96775f4556dfbd90800343ddab2f1ed80dee3526dd5",
+    "third_party/shubert-author-demo/requirements.txt": "1cec1a31e116fb373fa72085b54edfbd5b2f9de0eb8a6faf3af6318a8959889b",
+    "third_party/shubert-author-demo/shubert.py": "a6445b01cebe2cf66942f87d7ead273226155f015dc73c0554a9c685222c32c3",
+    "third_party/shubert-author-demo/shubert_inference.py": "7233860803863443184dd171ce0fa56ab7181439cbf1354578befa18fe1a7ea8"
+  },
+  "observations": {
+    "feature_sampling": "features.py stride=1; commented15FPS conversion is inactive; preserve actual sampled indices.",
+    "layer_weights": "inference.LinearAdapter uses raw learned12layer weights, no softmax.",
+    "checkpoint": "Local strict load proves all226embedded encoder keys align with W02names/shapes but213tensor values differ; embedded demo encoder is distinct from nativeW02.",
+    "app": "Static inspection only; do not import app.py or execute its downloads/UI."
+  },
+  "limitations": [
+    "W08not verified as the ASL-MTP paper checkpoint.",
+    "Local numerical smoke passed; independent semantic-pair evaluation and broad quality inference not established."
+  ],
+  "local_smoke_evidence": "features/shubert_translation_smoke_attempt1/report.json"
+}

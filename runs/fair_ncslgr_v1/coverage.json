@@ -1,0 +1,593 @@
+{
+  "classification_class_counts": {
+    "train": {
+      "WH": 30,
+      "NEG": 17,
+      "YN": 18
+    },
+    "val": {
+      "WH": 21,
+      "YN": 2,
+      "NEG": 4
+    },
+    "test": {
+      "WH": 29,
+      "NEG": 32,
+      "YN": 22
+    }
+  },
+  "interval_class_counts": {
+    "train": {
+      "WH": 29,
+      "NEG": 11,
+      "YN": 13
+    },
+    "val": {
+      "WH": 21,
+      "YN": 2,
+      "NEG": 2
+    },
+    "test": {
+      "WH": 26,
+      "NEG": 16,
+      "YN": 19
+    }
+  },
+  "excluded": [
+    {
+      "sample_id": "ncslgr:ncslgr10a:12",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:13",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:14",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:27",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:28",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:3",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:32",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:33",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:34",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:35",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:36",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:39",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:40",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:47",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:6",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:7",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:0",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:1",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:13",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:14",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:17",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:19",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:2",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:21",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:22",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:27",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:28",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:3",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:33",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:36",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:43",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:5",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:8",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:9",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:16",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:2",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:3",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:5",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:7",
+      "split": "train",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:8",
+      "split": "train",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:20",
+      "split": "test",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:28",
+      "split": "test",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:49",
+      "split": "test",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:9",
+      "split": "test",
+      "label": "YN",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:70",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:71",
+      "split": "train",
+      "label": "NEG",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:42",
+      "split": "test",
+      "label": "WH",
+      "reasons": [
+        "native_ZERO_VALID_UTTERANCE_TOKENS"
+      ]
+    }
+  ],
+  "eligible_ids": [
+    "ncslgr:ncslgr10a:1",
+    "ncslgr:ncslgr10a:2",
+    "ncslgr:ncslgr10a:23",
+    "ncslgr:ncslgr10a:31",
+    "ncslgr:ncslgr10a:4",
+    "ncslgr:ncslgr10a:5",
+    "ncslgr:ncslgr10b:18",
+    "ncslgr:ncslgr10b:23",
+    "ncslgr:ncslgr10b:29",
+    "ncslgr:ncslgr10b:30",
+    "ncslgr:ncslgr10b:31",
+    "ncslgr:ncslgr10b:32",
+    "ncslgr:ncslgr10b:34",
+    "ncslgr:ncslgr10b:35",
+    "ncslgr:ncslgr10b:6",
+    "ncslgr:ncslgr10b:7",
+    "ncslgr:ncslgr10c:10",
+    "ncslgr:ncslgr10c:12",
+    "ncslgr:ncslgr10c:13",
+    "ncslgr:ncslgr10c:14",
+    "ncslgr:ncslgr10c:17",
+    "ncslgr:ncslgr10c:27",
+    "ncslgr:ncslgr10c:28",
+    "ncslgr:ncslgr10c:30",
+    "ncslgr:ncslgr10c:31",
+    "ncslgr:ncslgr10c:32",
+    "ncslgr:ncslgr10c:33",
+    "ncslgr:ncslgr10c:34",
+    "ncslgr:ncslgr10c:38",
+    "ncslgr:ncslgr10c:39",
+    "ncslgr:ncslgr10c:9",
+    "ncslgr:ncslgr10d:10",
+    "ncslgr:ncslgr10d:11",
+    "ncslgr:ncslgr10d:12",
+    "ncslgr:ncslgr10d:13",
+    "ncslgr:ncslgr10d:2",
+    "ncslgr:ncslgr10d:23",
+    "ncslgr:ncslgr10d:24",
+    "ncslgr:ncslgr10d:26",
+    "ncslgr:ncslgr10d:27",
+    "ncslgr:ncslgr10d:29",
+    "ncslgr:ncslgr10d:3",
+    "ncslgr:ncslgr10d:30",
+    "ncslgr:ncslgr10d:31",
+    "ncslgr:ncslgr10d:9",
+    "ncslgr:ncslgr10e:1",
+    "ncslgr:ncslgr10e:12",
+    "ncslgr:ncslgr10e:13",
+    "ncslgr:ncslgr10e:15",
+    "ncslgr:ncslgr10e:16",
+    "ncslgr:ncslgr10e:17",
+    "ncslgr:ncslgr10e:18",
+    "ncslgr:ncslgr10e:2",
+    "ncslgr:ncslgr10f:0",
+    "ncslgr:ncslgr10f:1",
+    "ncslgr:ncslgr10f:10",
+    "ncslgr:ncslgr10f:17",
+    "ncslgr:ncslgr10f:18",
+    "ncslgr:ncslgr10f:27",
+    "ncslgr:ncslgr10f:29",
+    "ncslgr:ncslgr10f:3",
+    "ncslgr:ncslgr10f:30",
+    "ncslgr:ncslgr10f:31",
+    "ncslgr:ncslgr10f:32",
+    "ncslgr:ncslgr10f:33",
+    "ncslgr:ncslgr10f:34",
+    "ncslgr:ncslgr10f:35",
+    "ncslgr:ncslgr10f:36",
+    "ncslgr:ncslgr10f:37",
+    "ncslgr:ncslgr10f:4",
+    "ncslgr:ncslgr10f:46",
+    "ncslgr:ncslgr10f:47",
+    "ncslgr:ncslgr10f:48",
+    "ncslgr:ncslgr10f:5",
+    "ncslgr:ncslgr10f:50",
+    "ncslgr:ncslgr10f:51",
+    "ncslgr:ncslgr10f:52",
+    "ncslgr:ncslgr10f:6",
+    "ncslgr:ncslgr10f:7",
+    "ncslgr:ncslgr10f:8",
+    "ncslgr:ncslgr10k:14",
+    "ncslgr:ncslgr10k:15",
+    "ncslgr:ncslgr10k:16",
+    "ncslgr:ncslgr10k:17",
+    "ncslgr:ncslgr10l:39",
+    "ncslgr:ncslgr10l:42",
+    "ncslgr:ncslgr10l:45",
+    "ncslgr:ncslgr10l:46",
+    "ncslgr:ncslgr10l:47",
+    "ncslgr:ncslgr10l:48",
+    "ncslgr:ncslgr10l:52",
+    "ncslgr:ncslgr10l:58",
+    "ncslgr:ncslgr10l:59",
+    "ncslgr:ncslgr10l:63",
+    "ncslgr:ncslgr10l:69",
+    "ncslgr:ncslgr10m:17",
+    "ncslgr:ncslgr10m:38",
+    "ncslgr:ncslgr10m:41",
+    "ncslgr:ncslgr10m:45",
+    "ncslgr:ncslgr10m:46",
+    "ncslgr:ncslgr10m:47",
+    "ncslgr:ncslgr10m:48",
+    "ncslgr:ncslgr10m:57",
+    "ncslgr:ncslgr10m:58",
+    "ncslgr:ncslgr10m:59",
+    "ncslgr:ncslgr10m:60",
+    "ncslgr:ncslgr10m:61",
+    "ncslgr:ncslgr10m:62",
+    "ncslgr:ncslgr10m:63",
+    "ncslgr:ncslgr10m:64",
+    "ncslgr:ncslgr10m:65",
+    "ncslgr:ncslgr10n:10",
+    "ncslgr:ncslgr10n:14",
+    "ncslgr:ncslgr10n:16",
+    "ncslgr:ncslgr10p:0",
+    "ncslgr:ncslgr10p:11",
+    "ncslgr:ncslgr10p:14",
+    "ncslgr:ncslgr10p:15",
+    "ncslgr:ncslgr10p:18",
+    "ncslgr:ncslgr10p:19",
+    "ncslgr:ncslgr10p:20",
+    "ncslgr:ncslgr10p:21",
+    "ncslgr:ncslgr10p:4",
+    "ncslgr:ncslgr10p:5",
+    "ncslgr:ncslgr10p:6",
+    "ncslgr:ncslgr10p:7",
+    "ncslgr:ncslgr10p:8",
+    "ncslgr:ncslgr10p:9",
+    "ncslgr:ncslgr10q:10",
+    "ncslgr:ncslgr10q:11",
+    "ncslgr:ncslgr10q:13",
+    "ncslgr:ncslgr10q:15",
+    "ncslgr:ncslgr10q:16",
+    "ncslgr:ncslgr10q:18",
+    "ncslgr:ncslgr10q:2",
+    "ncslgr:ncslgr10q:22",
+    "ncslgr:ncslgr10q:23",
+    "ncslgr:ncslgr10q:24",
+    "ncslgr:ncslgr10q:28",
+    "ncslgr:ncslgr10q:29",
+    "ncslgr:ncslgr10q:3",
+    "ncslgr:ncslgr10q:31",
+    "ncslgr:ncslgr10q:32",
+    "ncslgr:ncslgr10q:34",
+    "ncslgr:ncslgr10q:35",
+    "ncslgr:ncslgr10q:4",
+    "ncslgr:ncslgr10q:8",
+    "ncslgr:ncslgr10q:9",
+    "ncslgr:ncslgr10r:0",
+    "ncslgr:ncslgr10r:1",
+    "ncslgr:ncslgr10r:11",
+    "ncslgr:ncslgr10r:12",
+    "ncslgr:ncslgr10r:13",
+    "ncslgr:ncslgr10r:14",
+    "ncslgr:ncslgr10r:15",
+    "ncslgr:ncslgr10r:16",
+    "ncslgr:ncslgr10r:17",
+    "ncslgr:ncslgr10r:18",
+    "ncslgr:ncslgr10r:2",
+    "ncslgr:ncslgr10r:24",
+    "ncslgr:ncslgr10r:25",
+    "ncslgr:ncslgr10r:26",
+    "ncslgr:ncslgr10r:27",
+    "ncslgr:ncslgr10r:29",
+    "ncslgr:ncslgr10r:3",
+    "ncslgr:ncslgr10r:30",
+    "ncslgr:ncslgr10r:31",
+    "ncslgr:ncslgr10r:32",
+    "ncslgr:ncslgr10r:33",
+    "ncslgr:ncslgr10r:34",
+    "ncslgr:ncslgr10r:35",
+    "ncslgr:ncslgr10r:36",
+    "ncslgr:ncslgr10r:4",
+    "ncslgr:ncslgr10r:5",
+    "ncslgr:ncslgr10r:6"
+  ],
+  "native_report_sha256": "e94e3cbf9a181838a90078f398ae117a1e971d16f862a878ca92965910ef1d79",
+  "native_index_sha256": "b146d0512e20099cc2209ae9ff58168fbaccb0442ddbbc1a178516de5af8958c"
+}

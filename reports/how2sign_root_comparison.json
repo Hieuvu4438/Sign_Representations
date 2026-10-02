@@ -1,0 +1,29 @@
+{
+  "canonical_video_root": "/home/shared_data/sign_language/How2Sign",
+  "alternate_video_root": "/home/dongvk/datasets/How2Sign",
+  "alternate_contains_videos": false,
+  "comparisons": {
+    "train": {
+      "shared_rows": 31165,
+      "alternate_rows": 31086,
+      "common_video_paths": 31086,
+      "translation_mismatches": 0,
+      "shared_only": 79,
+      "alternate_only": 0
+    },
+    "test": {
+      "alternate_rows": 2349,
+      "shared_annotation": "not found in test/test_label",
+      "shared_video_matches": 2343
+    }
+  },
+  "sampled_video_hash_comparison": "NOT_APPLICABLE_NO_ALTERNATE_VIDEO_FILES_OBSERVED",
+  "train_label_source": "shared JSONL",
+  "val_label_source": "shared JSON dict",
+  "test_label_source": "alternate primitive-pickle dict",
+  "test_recording_mapping_status": "UNRESOLVED",
+  "sample_hashes": {
+    "shared_train_label": "a68b4a2667ed491bb442d3098036ab86689d9c21de06bc65d6c8e968aec34ba7",
+    "alternate_train_label": "3780dc31ec64f6cb1daff76f6bece88b9f5bf365024e9fd97a49d0244a910828"
+  }
+}

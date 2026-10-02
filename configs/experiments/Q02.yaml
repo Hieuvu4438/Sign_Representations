@@ -1,0 +1,41 @@
+status: BLOCKED_DATA
+task: verified_ASL_query_by_example_grounding
+reason: Same-ASL-lexeme query mapping, exhaustive occurrence and absence review,
+  and canonical signer/recording grouping are not verified.
+gate_path: reports/gate_decisions.json
+gate_sha256: null
+queries: null
+queries_sha256: null
+targets: null
+targets_sha256: null
+occurrences: null
+occurrences_sha256: null
+media_root: null
+cache_root: null
+common_feature_identity:
+  config_sha256: null
+  implementation_sha256: null
+feature_dimension: 768
+algorithm: subsequence_dtw_sum_cosine_then_path_length_normalization
+device: cpu
+validation_selection: null
+validation_selection_sha256: null
+maximum_cost: null
+min_duration: null
+max_duration: null
+nms_iou: null
+primary_iou: null
+secondary_iou_thresholds: null
+maximum_total_dtw_cells: 100000000
+resamples: 2000
+seed: 42
+notes:
+- This preparation config is blocked, not a locked evaluation protocol.
+- Search, duration and NMS parameters require hashed validation-only selection evidence.
+- IoU thresholds must be registered before evaluation according to annotation resolution.
+- Every target must have exhaustive review of every registered query, including absence.
+- Every cache row must pin video, NPZ and metadata checksums with compatible feature identity.
+- Invalid tokens are omitted but source-clock gaps are preserved; empty valid targets remain evaluated.
+- Baseline minimizes summed cosine cost, then normalizes by path length. Duration filters
+  the selected best path per endpoint, without searching alternative constrained paths.
+- This standard alignment baseline does not establish method novelty.

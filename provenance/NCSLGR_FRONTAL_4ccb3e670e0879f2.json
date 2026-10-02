@@ -1,0 +1,12 @@
+{
+  "asset_id": "NCSLGR_FRONTAL_4ccb3e670e0879f2",
+  "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d39b_1158_small_1.mov",
+  "revision": "20120129 official public index; session-specific view correction after unscored image inspection",
+  "sha256": "91afcbbba678da32cf618309165cca07fe7b5ec3fcb7e488af95b247c73ac389",
+  "bytes": 921029,
+  "local_path": "data/external/ncslgr/cohort_videos/ncslgr_frontal_4ccb3e670e0879f2.mov",
+  "utc_time": "2026-09-30T20:31:21.585476+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Explicit public-index URL, targeted research use; no redistribution.",
+  "content_type": "video/quicktime"
+}

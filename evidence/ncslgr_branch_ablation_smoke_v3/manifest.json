@@ -1,0 +1,15 @@
+{
+  "status": "PRESERVED_TWO_TRAIN_CASE_SMOKE",
+  "files_sha256": {
+    "attempt_0001.json": "5e77d82f73a46c94e6fa001c566ad91c5b6882eb9d190b4fc8a7f19437a0b07f",
+    "index.jsonl": "281faf1b8b74e87669909aa40652b04aee5f3779e0fa0fab1ed358dd37e46742",
+    "shard_metadata_0.json": "a7c989f47dd5ea129246c6ebd3563ed67c703bd8980a732458a17846a6dda621",
+    "audit.json": "cc7458a1a2095e70199075a8323006230ea40ff1ab37ef38cc0fc1e0631f197f",
+    "shard_metadata_1.json": "6c59b491076694ce5cb5a46ca61f6895cda96663fb14aaeb4827ddb9481073f3",
+    "extraction_report.json": "5154a164957aeeaba28d5bddfdbadedb5783d9c6f9754547f107c51f4d489af4"
+  },
+  "retained_shards": [
+    "/home/haipd/Sign_Representations/features/ncslgr_branch_ablation_v3/a2e84f4163631110e771.npz",
+    "/home/haipd/Sign_Representations/features/ncslgr_branch_ablation_v3/054feb68dacd90c96473.npz"
+  ]
+}

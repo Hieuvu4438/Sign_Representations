@@ -1,0 +1,32 @@
+{
+  "temperature": 8.0,
+  "validation_candidates": [
+    {
+      "temperature": 1.0,
+      "validation_mean_nll": 2.8066988442892105
+    },
+    {
+      "temperature": 0.25,
+      "validation_mean_nll": 10.937708142112077
+    },
+    {
+      "temperature": 0.5,
+      "validation_mean_nll": 5.500465910898494
+    },
+    {
+      "temperature": 2.0,
+      "validation_mean_nll": 1.5155549649279905
+    },
+    {
+      "temperature": 4.0,
+      "validation_mean_nll": 0.9736554600693763
+    },
+    {
+      "temperature": 8.0,
+      "validation_mean_nll": 0.8331660973223551
+    }
+  ],
+  "test_used_for_selection": false,
+  "validation_samples": 27,
+  "original_head_sha256": "ed4e15231e0562857c23f688457cbfe6c516673fb6b87df923912a0729b24669"
+}

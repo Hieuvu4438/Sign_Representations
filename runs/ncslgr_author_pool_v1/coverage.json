@@ -1,0 +1,3135 @@
+{
+  "eligible_ids": [
+    "ncslgr:ncslgr10a:1",
+    "ncslgr:ncslgr10a:12",
+    "ncslgr:ncslgr10a:13",
+    "ncslgr:ncslgr10a:14",
+    "ncslgr:ncslgr10a:2",
+    "ncslgr:ncslgr10a:23",
+    "ncslgr:ncslgr10a:27",
+    "ncslgr:ncslgr10a:28",
+    "ncslgr:ncslgr10a:3",
+    "ncslgr:ncslgr10a:31",
+    "ncslgr:ncslgr10a:32",
+    "ncslgr:ncslgr10a:33",
+    "ncslgr:ncslgr10a:34",
+    "ncslgr:ncslgr10a:35",
+    "ncslgr:ncslgr10a:36",
+    "ncslgr:ncslgr10a:39",
+    "ncslgr:ncslgr10a:4",
+    "ncslgr:ncslgr10a:40",
+    "ncslgr:ncslgr10a:47",
+    "ncslgr:ncslgr10a:5",
+    "ncslgr:ncslgr10a:6",
+    "ncslgr:ncslgr10a:7",
+    "ncslgr:ncslgr10b:0",
+    "ncslgr:ncslgr10b:1",
+    "ncslgr:ncslgr10b:13",
+    "ncslgr:ncslgr10b:14",
+    "ncslgr:ncslgr10b:17",
+    "ncslgr:ncslgr10b:18",
+    "ncslgr:ncslgr10b:19",
+    "ncslgr:ncslgr10b:2",
+    "ncslgr:ncslgr10b:21",
+    "ncslgr:ncslgr10b:22",
+    "ncslgr:ncslgr10b:23",
+    "ncslgr:ncslgr10b:27",
+    "ncslgr:ncslgr10b:28",
+    "ncslgr:ncslgr10b:29",
+    "ncslgr:ncslgr10b:3",
+    "ncslgr:ncslgr10b:30",
+    "ncslgr:ncslgr10b:31",
+    "ncslgr:ncslgr10b:32",
+    "ncslgr:ncslgr10b:33",
+    "ncslgr:ncslgr10b:34",
+    "ncslgr:ncslgr10b:35",
+    "ncslgr:ncslgr10b:36",
+    "ncslgr:ncslgr10b:43",
+    "ncslgr:ncslgr10b:5",
+    "ncslgr:ncslgr10b:6",
+    "ncslgr:ncslgr10b:7",
+    "ncslgr:ncslgr10b:8",
+    "ncslgr:ncslgr10b:9",
+    "ncslgr:ncslgr10c:10",
+    "ncslgr:ncslgr10c:12",
+    "ncslgr:ncslgr10c:13",
+    "ncslgr:ncslgr10c:14",
+    "ncslgr:ncslgr10c:16",
+    "ncslgr:ncslgr10c:17",
+    "ncslgr:ncslgr10c:2",
+    "ncslgr:ncslgr10c:27",
+    "ncslgr:ncslgr10c:28",
+    "ncslgr:ncslgr10c:3",
+    "ncslgr:ncslgr10c:30",
+    "ncslgr:ncslgr10c:31",
+    "ncslgr:ncslgr10c:32",
+    "ncslgr:ncslgr10c:33",
+    "ncslgr:ncslgr10c:34",
+    "ncslgr:ncslgr10c:38",
+    "ncslgr:ncslgr10c:39",
+    "ncslgr:ncslgr10c:5",
+    "ncslgr:ncslgr10c:7",
+    "ncslgr:ncslgr10c:8",
+    "ncslgr:ncslgr10c:9",
+    "ncslgr:ncslgr10d:10",
+    "ncslgr:ncslgr10d:11",
+    "ncslgr:ncslgr10d:12",
+    "ncslgr:ncslgr10d:13",
+    "ncslgr:ncslgr10d:2",
+    "ncslgr:ncslgr10d:20",
+    "ncslgr:ncslgr10d:23",
+    "ncslgr:ncslgr10d:24",
+    "ncslgr:ncslgr10d:26",
+    "ncslgr:ncslgr10d:27",
+    "ncslgr:ncslgr10d:29",
+    "ncslgr:ncslgr10d:3",
+    "ncslgr:ncslgr10d:30",
+    "ncslgr:ncslgr10d:31",
+    "ncslgr:ncslgr10d:9",
+    "ncslgr:ncslgr10e:1",
+    "ncslgr:ncslgr10e:12",
+    "ncslgr:ncslgr10e:13",
+    "ncslgr:ncslgr10e:15",
+    "ncslgr:ncslgr10e:16",
+    "ncslgr:ncslgr10e:17",
+    "ncslgr:ncslgr10e:18",
+    "ncslgr:ncslgr10e:2",
+    "ncslgr:ncslgr10f:0",
+    "ncslgr:ncslgr10f:1",
+    "ncslgr:ncslgr10f:10",
+    "ncslgr:ncslgr10f:17",
+    "ncslgr:ncslgr10f:18",
+    "ncslgr:ncslgr10f:27",
+    "ncslgr:ncslgr10f:28",
+    "ncslgr:ncslgr10f:29",
+    "ncslgr:ncslgr10f:3",
+    "ncslgr:ncslgr10f:30",
+    "ncslgr:ncslgr10f:31",
+    "ncslgr:ncslgr10f:32",
+    "ncslgr:ncslgr10f:33",
+    "ncslgr:ncslgr10f:34",
+    "ncslgr:ncslgr10f:35",
+    "ncslgr:ncslgr10f:36",
+    "ncslgr:ncslgr10f:37",
+    "ncslgr:ncslgr10f:4",
+    "ncslgr:ncslgr10f:46",
+    "ncslgr:ncslgr10f:47",
+    "ncslgr:ncslgr10f:48",
+    "ncslgr:ncslgr10f:49",
+    "ncslgr:ncslgr10f:5",
+    "ncslgr:ncslgr10f:50",
+    "ncslgr:ncslgr10f:51",
+    "ncslgr:ncslgr10f:52",
+    "ncslgr:ncslgr10f:6",
+    "ncslgr:ncslgr10f:7",
+    "ncslgr:ncslgr10f:8",
+    "ncslgr:ncslgr10f:9",
+    "ncslgr:ncslgr10k:14",
+    "ncslgr:ncslgr10k:15",
+    "ncslgr:ncslgr10k:16",
+    "ncslgr:ncslgr10k:17",
+    "ncslgr:ncslgr10l:39",
+    "ncslgr:ncslgr10l:42",
+    "ncslgr:ncslgr10l:45",
+    "ncslgr:ncslgr10l:46",
+    "ncslgr:ncslgr10l:47",
+    "ncslgr:ncslgr10l:48",
+    "ncslgr:ncslgr10l:52",
+    "ncslgr:ncslgr10l:58",
+    "ncslgr:ncslgr10l:59",
+    "ncslgr:ncslgr10l:63",
+    "ncslgr:ncslgr10l:69",
+    "ncslgr:ncslgr10l:70",
+    "ncslgr:ncslgr10l:71",
+    "ncslgr:ncslgr10m:17",
+    "ncslgr:ncslgr10m:38",
+    "ncslgr:ncslgr10m:41",
+    "ncslgr:ncslgr10m:42",
+    "ncslgr:ncslgr10m:45",
+    "ncslgr:ncslgr10m:46",
+    "ncslgr:ncslgr10m:47",
+    "ncslgr:ncslgr10m:48",
+    "ncslgr:ncslgr10m:57",
+    "ncslgr:ncslgr10m:58",
+    "ncslgr:ncslgr10m:59",
+    "ncslgr:ncslgr10m:60",
+    "ncslgr:ncslgr10m:61",
+    "ncslgr:ncslgr10m:62",
+    "ncslgr:ncslgr10m:63",
+    "ncslgr:ncslgr10m:64",
+    "ncslgr:ncslgr10m:65",
+    "ncslgr:ncslgr10n:10",
+    "ncslgr:ncslgr10n:14",
+    "ncslgr:ncslgr10n:16",
+    "ncslgr:ncslgr10p:0",
+    "ncslgr:ncslgr10p:11",
+    "ncslgr:ncslgr10p:14",
+    "ncslgr:ncslgr10p:15",
+    "ncslgr:ncslgr10p:18",
+    "ncslgr:ncslgr10p:19",
+    "ncslgr:ncslgr10p:20",
+    "ncslgr:ncslgr10p:21",
+    "ncslgr:ncslgr10p:4",
+    "ncslgr:ncslgr10p:5",
+    "ncslgr:ncslgr10p:6",
+    "ncslgr:ncslgr10p:7",
+    "ncslgr:ncslgr10p:8",
+    "ncslgr:ncslgr10p:9",
+    "ncslgr:ncslgr10q:10",
+    "ncslgr:ncslgr10q:11",
+    "ncslgr:ncslgr10q:13",
+    "ncslgr:ncslgr10q:15",
+    "ncslgr:ncslgr10q:16",
+    "ncslgr:ncslgr10q:18",
+    "ncslgr:ncslgr10q:2",
+    "ncslgr:ncslgr10q:22",
+    "ncslgr:ncslgr10q:23",
+    "ncslgr:ncslgr10q:24",
+    "ncslgr:ncslgr10q:28",
+    "ncslgr:ncslgr10q:29",
+    "ncslgr:ncslgr10q:3",
+    "ncslgr:ncslgr10q:31",
+    "ncslgr:ncslgr10q:32",
+    "ncslgr:ncslgr10q:34",
+    "ncslgr:ncslgr10q:35",
+    "ncslgr:ncslgr10q:4",
+    "ncslgr:ncslgr10q:8",
+    "ncslgr:ncslgr10q:9",
+    "ncslgr:ncslgr10r:0",
+    "ncslgr:ncslgr10r:1",
+    "ncslgr:ncslgr10r:11",
+    "ncslgr:ncslgr10r:12",
+    "ncslgr:ncslgr10r:13",
+    "ncslgr:ncslgr10r:14",
+    "ncslgr:ncslgr10r:15",
+    "ncslgr:ncslgr10r:16",
+    "ncslgr:ncslgr10r:17",
+    "ncslgr:ncslgr10r:18",
+    "ncslgr:ncslgr10r:2",
+    "ncslgr:ncslgr10r:24",
+    "ncslgr:ncslgr10r:25",
+    "ncslgr:ncslgr10r:26",
+    "ncslgr:ncslgr10r:27",
+    "ncslgr:ncslgr10r:29",
+    "ncslgr:ncslgr10r:3",
+    "ncslgr:ncslgr10r:30",
+    "ncslgr:ncslgr10r:31",
+    "ncslgr:ncslgr10r:32",
+    "ncslgr:ncslgr10r:33",
+    "ncslgr:ncslgr10r:34",
+    "ncslgr:ncslgr10r:35",
+    "ncslgr:ncslgr10r:36",
+    "ncslgr:ncslgr10r:4",
+    "ncslgr:ncslgr10r:5",
+    "ncslgr:ncslgr10r:6"
+  ],
+  "class_counts": {
+    "train": [
+      35,
+      41,
+      31
+    ],
+    "val": [
+      4,
+      21,
+      2
+    ],
+    "test": [
+      34,
+      30,
+      24
+    ]
+  },
+  "exclusions": [],
+  "observation_counts": [
+    {
+      "sample_id": "ncslgr:ncslgr10a:1",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 77,
+      "all_four_observed_supported_frames": 7,
+      "per_stream_observed_supported_frames": [
+        77,
+        9,
+        11,
+        77
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:12",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 71,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        71,
+        0,
+        7,
+        71
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:13",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 64,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        64,
+        0,
+        2,
+        64
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:14",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 67,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        67,
+        0,
+        1,
+        67
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:2",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 72,
+      "all_four_observed_supported_frames": 3,
+      "per_stream_observed_supported_frames": [
+        72,
+        12,
+        5,
+        72
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:23",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 98,
+      "all_four_observed_supported_frames": 2,
+      "per_stream_observed_supported_frames": [
+        98,
+        2,
+        28,
+        98
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:27",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 89,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        81,
+        22,
+        8,
+        89
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:28",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 81,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        81,
+        7,
+        0,
+        81
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:3",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 72,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        72,
+        6,
+        0,
+        72
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:31",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 68,
+      "all_four_observed_supported_frames": 2,
+      "per_stream_observed_supported_frames": [
+        68,
+        3,
+        29,
+        68
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:32",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 112,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        110,
+        0,
+        0,
+        112
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:33",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 61,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        61,
+        0,
+        16,
+        61
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:34",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 74,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        74,
+        0,
+        13,
+        74
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:35",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 73,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        73,
+        0,
+        9,
+        73
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:36",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 73,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        73,
+        2,
+        11,
+        73
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:39",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 59,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        58,
+        0,
+        0,
+        59
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:4",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 95,
+      "all_four_observed_supported_frames": 4,
+      "per_stream_observed_supported_frames": [
+        89,
+        6,
+        28,
+        95
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:40",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 60,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        60,
+        0,
+        8,
+        60
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:47",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 54,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        54,
+        1,
+        0,
+        54
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:5",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 83,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        78,
+        8,
+        20,
+        83
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:6",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 60,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        60,
+        7,
+        5,
+        60
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10a:7",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 82,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        82,
+        14,
+        5,
+        82
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:0",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 53,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        53,
+        0,
+        6,
+        53
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:1",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 59,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        59,
+        0,
+        4,
+        59
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:13",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 52,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        52,
+        4,
+        7,
+        52
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:14",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 83,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        80,
+        0,
+        6,
+        83
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:17",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 81,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        81,
+        2,
+        9,
+        81
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:18",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 64,
+      "all_four_observed_supported_frames": 1,
+      "per_stream_observed_supported_frames": [
+        64,
+        4,
+        11,
+        64
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:19",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 68,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        68,
+        8,
+        11,
+        68
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:2",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 55,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        55,
+        0,
+        4,
+        55
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:21",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 68,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        68,
+        0,
+        3,
+        68
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:22",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 61,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        61,
+        5,
+        1,
+        61
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:23",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 74,
+      "all_four_observed_supported_frames": 2,
+      "per_stream_observed_supported_frames": [
+        74,
+        3,
+        6,
+        74
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:27",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 54,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        52,
+        0,
+        4,
+        54
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:28",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 62,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        62,
+        0,
+        2,
+        62
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:29",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 89,
+      "all_four_observed_supported_frames": 11,
+      "per_stream_observed_supported_frames": [
+        89,
+        15,
+        26,
+        89
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:3",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 56,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        56,
+        1,
+        7,
+        56
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:30",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 80,
+      "all_four_observed_supported_frames": 1,
+      "per_stream_observed_supported_frames": [
+        80,
+        4,
+        5,
+        80
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:31",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 82,
+      "all_four_observed_supported_frames": 1,
+      "per_stream_observed_supported_frames": [
+        82,
+        3,
+        13,
+        82
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:32",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 77,
+      "all_four_observed_supported_frames": 3,
+      "per_stream_observed_supported_frames": [
+        75,
+        5,
+        3,
+        77
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:33",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 150,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        149,
+        0,
+        41,
+        150
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:34",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 157,
+      "all_four_observed_supported_frames": 5,
+      "per_stream_observed_supported_frames": [
+        157,
+        10,
+        43,
+        157
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:35",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 120,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        115,
+        17,
+        24,
+        120
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:36",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 127,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        121,
+        2,
+        29,
+        127
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:43",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 77,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        77,
+        0,
+        8,
+        77
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:5",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 80,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        75,
+        6,
+        1,
+        80
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:6",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 52,
+      "all_four_observed_supported_frames": 8,
+      "per_stream_observed_supported_frames": [
+        52,
+        15,
+        11,
+        52
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:7",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 75,
+      "all_four_observed_supported_frames": 3,
+      "per_stream_observed_supported_frames": [
+        75,
+        4,
+        10,
+        75
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:8",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 56,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        56,
+        3,
+        0,
+        56
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10b:9",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 64,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        64,
+        0,
+        0,
+        64
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:10",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 62,
+      "all_four_observed_supported_frames": 7,
+      "per_stream_observed_supported_frames": [
+        62,
+        16,
+        16,
+        62
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:12",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 49,
+      "all_four_observed_supported_frames": 1,
+      "per_stream_observed_supported_frames": [
+        49,
+        3,
+        5,
+        49
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:13",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 75,
+      "all_four_observed_supported_frames": 2,
+      "per_stream_observed_supported_frames": [
+        75,
+        5,
+        18,
+        75
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:14",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 58,
+      "all_four_observed_supported_frames": 1,
+      "per_stream_observed_supported_frames": [
+        58,
+        7,
+        2,
+        58
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:16",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 64,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        64,
+        3,
+        1,
+        64
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:17",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 64,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        64,
+        15,
+        9,
+        64
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:2",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 55,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        55,
+        0,
+        0,
+        55
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:27",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 53,
+      "all_four_observed_supported_frames": 3,
+      "per_stream_observed_supported_frames": [
+        53,
+        12,
+        11,
+        53
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:28",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 69,
+      "all_four_observed_supported_frames": 7,
+      "per_stream_observed_supported_frames": [
+        69,
+        17,
+        27,
+        69
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:3",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 64,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        63,
+        1,
+        5,
+        64
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:30",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 85,
+      "all_four_observed_supported_frames": 19,
+      "per_stream_observed_supported_frames": [
+        83,
+        48,
+        26,
+        85
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:31",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 37,
+      "all_four_observed_supported_frames": 4,
+      "per_stream_observed_supported_frames": [
+        37,
+        18,
+        8,
+        37
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:32",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 74,
+      "all_four_observed_supported_frames": 18,
+      "per_stream_observed_supported_frames": [
+        72,
+        40,
+        23,
+        74
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:33",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 45,
+      "all_four_observed_supported_frames": 4,
+      "per_stream_observed_supported_frames": [
+        45,
+        22,
+        11,
+        45
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:34",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 62,
+      "all_four_observed_supported_frames": 13,
+      "per_stream_observed_supported_frames": [
+        62,
+        41,
+        22,
+        62
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:38",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 60,
+      "all_four_observed_supported_frames": 17,
+      "per_stream_observed_supported_frames": [
+        60,
+        34,
+        30,
+        60
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:39",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 63,
+      "all_four_observed_supported_frames": 14,
+      "per_stream_observed_supported_frames": [
+        63,
+        24,
+        33,
+        63
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:5",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 79,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        74,
+        14,
+        4,
+        79
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:7",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 72,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        72,
+        0,
+        10,
+        72
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:8",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 62,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        62,
+        2,
+        16,
+        62
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10c:9",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 69,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        69,
+        8,
+        26,
+        69
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:10",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 74,
+      "all_four_observed_supported_frames": 20,
+      "per_stream_observed_supported_frames": [
+        73,
+        45,
+        32,
+        74
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:11",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 105,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        104,
+        47,
+        42,
+        105
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:12",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 91,
+      "all_four_observed_supported_frames": 10,
+      "per_stream_observed_supported_frames": [
+        91,
+        42,
+        22,
+        91
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:13",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 112,
+      "all_four_observed_supported_frames": 30,
+      "per_stream_observed_supported_frames": [
+        101,
+        69,
+        55,
+        112
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:2",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 41,
+      "all_four_observed_supported_frames": 2,
+      "per_stream_observed_supported_frames": [
+        41,
+        24,
+        11,
+        41
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:20",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 47,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        47,
+        16,
+        7,
+        47
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:23",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 50,
+      "all_four_observed_supported_frames": 9,
+      "per_stream_observed_supported_frames": [
+        50,
+        34,
+        14,
+        50
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:24",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 58,
+      "all_four_observed_supported_frames": 11,
+      "per_stream_observed_supported_frames": [
+        58,
+        47,
+        17,
+        58
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:26",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 92,
+      "all_four_observed_supported_frames": 13,
+      "per_stream_observed_supported_frames": [
+        75,
+        55,
+        22,
+        92
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:27",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 82,
+      "all_four_observed_supported_frames": 33,
+      "per_stream_observed_supported_frames": [
+        79,
+        55,
+        47,
+        82
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:29",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 54,
+      "all_four_observed_supported_frames": 5,
+      "per_stream_observed_supported_frames": [
+        54,
+        27,
+        26,
+        54
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:3",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 38,
+      "all_four_observed_supported_frames": 4,
+      "per_stream_observed_supported_frames": [
+        38,
+        32,
+        7,
+        38
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:30",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 66,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        66,
+        30,
+        31,
+        66
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:31",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 45,
+      "all_four_observed_supported_frames": 11,
+      "per_stream_observed_supported_frames": [
+        45,
+        29,
+        19,
+        45
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10d:9",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 66,
+      "all_four_observed_supported_frames": 9,
+      "per_stream_observed_supported_frames": [
+        64,
+        59,
+        11,
+        66
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:1",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 74,
+      "all_four_observed_supported_frames": 5,
+      "per_stream_observed_supported_frames": [
+        73,
+        34,
+        12,
+        74
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:12",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 79,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        73,
+        23,
+        23,
+        79
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:13",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 79,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        71,
+        23,
+        47,
+        79
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:15",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 47,
+      "all_four_observed_supported_frames": 26,
+      "per_stream_observed_supported_frames": [
+        47,
+        44,
+        27,
+        47
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:16",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 46,
+      "all_four_observed_supported_frames": 31,
+      "per_stream_observed_supported_frames": [
+        46,
+        45,
+        32,
+        46
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:17",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 53,
+      "all_four_observed_supported_frames": 7,
+      "per_stream_observed_supported_frames": [
+        53,
+        18,
+        35,
+        53
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:18",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 61,
+      "all_four_observed_supported_frames": 1,
+      "per_stream_observed_supported_frames": [
+        61,
+        12,
+        17,
+        61
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10e:2",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 57,
+      "all_four_observed_supported_frames": 17,
+      "per_stream_observed_supported_frames": [
+        57,
+        41,
+        23,
+        57
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:0",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 76,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        76,
+        16,
+        24,
+        76
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:1",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 58,
+      "all_four_observed_supported_frames": 9,
+      "per_stream_observed_supported_frames": [
+        58,
+        10,
+        24,
+        58
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:10",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 49,
+      "all_four_observed_supported_frames": 3,
+      "per_stream_observed_supported_frames": [
+        49,
+        16,
+        8,
+        49
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:17",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 53,
+      "all_four_observed_supported_frames": 15,
+      "per_stream_observed_supported_frames": [
+        45,
+        31,
+        26,
+        53
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:18",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 64,
+      "all_four_observed_supported_frames": 23,
+      "per_stream_observed_supported_frames": [
+        64,
+        43,
+        29,
+        64
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:27",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 84,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        75,
+        18,
+        52,
+        84
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:28",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 52,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        52,
+        13,
+        2,
+        52
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:29",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 55,
+      "all_four_observed_supported_frames": 7,
+      "per_stream_observed_supported_frames": [
+        51,
+        19,
+        20,
+        55
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:3",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 63,
+      "all_four_observed_supported_frames": 7,
+      "per_stream_observed_supported_frames": [
+        61,
+        33,
+        17,
+        63
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:30",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 47,
+      "all_four_observed_supported_frames": 9,
+      "per_stream_observed_supported_frames": [
+        45,
+        13,
+        25,
+        47
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:31",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 53,
+      "all_four_observed_supported_frames": 10,
+      "per_stream_observed_supported_frames": [
+        53,
+        23,
+        16,
+        53
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:32",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 33,
+      "all_four_observed_supported_frames": 7,
+      "per_stream_observed_supported_frames": [
+        33,
+        19,
+        13,
+        33
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:33",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 58,
+      "all_four_observed_supported_frames": 13,
+      "per_stream_observed_supported_frames": [
+        58,
+        20,
+        36,
+        58
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:34",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 60,
+      "all_four_observed_supported_frames": 22,
+      "per_stream_observed_supported_frames": [
+        57,
+        43,
+        28,
+        60
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:35",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 66,
+      "all_four_observed_supported_frames": 24,
+      "per_stream_observed_supported_frames": [
+        50,
+        48,
+        44,
+        66
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:36",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 61,
+      "all_four_observed_supported_frames": 22,
+      "per_stream_observed_supported_frames": [
+        61,
+        37,
+        31,
+        61
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:37",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 69,
+      "all_four_observed_supported_frames": 21,
+      "per_stream_observed_supported_frames": [
+        69,
+        56,
+        29,
+        69
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:4",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 64,
+      "all_four_observed_supported_frames": 31,
+      "per_stream_observed_supported_frames": [
+        64,
+        42,
+        40,
+        64
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:46",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 51,
+      "all_four_observed_supported_frames": 5,
+      "per_stream_observed_supported_frames": [
+        51,
+        30,
+        10,
+        51
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:47",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 35,
+      "all_four_observed_supported_frames": 1,
+      "per_stream_observed_supported_frames": [
+        35,
+        8,
+        7,
+        35
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:48",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 39,
+      "all_four_observed_supported_frames": 3,
+      "per_stream_observed_supported_frames": [
+        39,
+        18,
+        7,
+        39
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:49",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 32,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        31,
+        2,
+        5,
+        32
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:5",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 55,
+      "all_four_observed_supported_frames": 8,
+      "per_stream_observed_supported_frames": [
+        55,
+        16,
+        30,
+        55
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:50",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 34,
+      "all_four_observed_supported_frames": 3,
+      "per_stream_observed_supported_frames": [
+        32,
+        8,
+        6,
+        34
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:51",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 50,
+      "all_four_observed_supported_frames": 8,
+      "per_stream_observed_supported_frames": [
+        46,
+        28,
+        16,
+        50
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:52",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 80,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        80,
+        14,
+        15,
+        80
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:6",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 55,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        55,
+        26,
+        17,
+        55
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:7",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 77,
+      "all_four_observed_supported_frames": 7,
+      "per_stream_observed_supported_frames": [
+        76,
+        30,
+        24,
+        77
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:8",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 50,
+      "all_four_observed_supported_frames": 4,
+      "per_stream_observed_supported_frames": [
+        50,
+        27,
+        18,
+        50
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10f:9",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 48,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        48,
+        13,
+        19,
+        48
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10k:14",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 62,
+      "all_four_observed_supported_frames": 23,
+      "per_stream_observed_supported_frames": [
+        62,
+        37,
+        37,
+        62
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10k:15",
+      "split": "test",
+      "label": "YN",
+      "source_supported_frames": 64,
+      "all_four_observed_supported_frames": 19,
+      "per_stream_observed_supported_frames": [
+        64,
+        30,
+        48,
+        64
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10k:16",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 62,
+      "all_four_observed_supported_frames": 13,
+      "per_stream_observed_supported_frames": [
+        62,
+        37,
+        35,
+        62
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10k:17",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 59,
+      "all_four_observed_supported_frames": 5,
+      "per_stream_observed_supported_frames": [
+        59,
+        18,
+        30,
+        59
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:39",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 57,
+      "all_four_observed_supported_frames": 1,
+      "per_stream_observed_supported_frames": [
+        55,
+        15,
+        22,
+        57
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:42",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 68,
+      "all_four_observed_supported_frames": 11,
+      "per_stream_observed_supported_frames": [
+        68,
+        23,
+        26,
+        68
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:45",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 67,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        66,
+        22,
+        21,
+        67
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:46",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 63,
+      "all_four_observed_supported_frames": 8,
+      "per_stream_observed_supported_frames": [
+        59,
+        36,
+        19,
+        63
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:47",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 56,
+      "all_four_observed_supported_frames": 7,
+      "per_stream_observed_supported_frames": [
+        56,
+        31,
+        15,
+        56
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:48",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 56,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        56,
+        29,
+        30,
+        56
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:52",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 62,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        60,
+        16,
+        20,
+        62
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:58",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 67,
+      "all_four_observed_supported_frames": 15,
+      "per_stream_observed_supported_frames": [
+        66,
+        21,
+        33,
+        67
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:59",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 79,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        79,
+        25,
+        36,
+        79
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:63",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 63,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        63,
+        24,
+        42,
+        63
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:69",
+      "split": "test",
+      "label": "NEG",
+      "source_supported_frames": 82,
+      "all_four_observed_supported_frames": 28,
+      "per_stream_observed_supported_frames": [
+        82,
+        56,
+        43,
+        82
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:70",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 56,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        56,
+        0,
+        44,
+        56
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10l:71",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 59,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        59,
+        0,
+        46,
+        59
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:17",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 88,
+      "all_four_observed_supported_frames": 13,
+      "per_stream_observed_supported_frames": [
+        86,
+        50,
+        28,
+        88
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:38",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 92,
+      "all_four_observed_supported_frames": 5,
+      "per_stream_observed_supported_frames": [
+        61,
+        52,
+        17,
+        92
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:41",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 80,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        80,
+        17,
+        43,
+        80
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:42",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 67,
+      "all_four_observed_supported_frames": 0,
+      "per_stream_observed_supported_frames": [
+        67,
+        0,
+        18,
+        67
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:45",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 104,
+      "all_four_observed_supported_frames": 22,
+      "per_stream_observed_supported_frames": [
+        104,
+        23,
+        78,
+        104
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:46",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 66,
+      "all_four_observed_supported_frames": 18,
+      "per_stream_observed_supported_frames": [
+        66,
+        29,
+        43,
+        66
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:47",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 62,
+      "all_four_observed_supported_frames": 20,
+      "per_stream_observed_supported_frames": [
+        61,
+        32,
+        42,
+        62
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:48",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 55,
+      "all_four_observed_supported_frames": 18,
+      "per_stream_observed_supported_frames": [
+        55,
+        25,
+        36,
+        55
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:57",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 50,
+      "all_four_observed_supported_frames": 11,
+      "per_stream_observed_supported_frames": [
+        50,
+        11,
+        41,
+        50
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:58",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 51,
+      "all_four_observed_supported_frames": 12,
+      "per_stream_observed_supported_frames": [
+        51,
+        12,
+        44,
+        51
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:59",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 57,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        57,
+        19,
+        34,
+        57
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:60",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 63,
+      "all_four_observed_supported_frames": 15,
+      "per_stream_observed_supported_frames": [
+        63,
+        25,
+        37,
+        63
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:61",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 61,
+      "all_four_observed_supported_frames": 23,
+      "per_stream_observed_supported_frames": [
+        61,
+        34,
+        45,
+        61
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:62",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 51,
+      "all_four_observed_supported_frames": 5,
+      "per_stream_observed_supported_frames": [
+        51,
+        5,
+        39,
+        51
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:63",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 58,
+      "all_four_observed_supported_frames": 6,
+      "per_stream_observed_supported_frames": [
+        58,
+        14,
+        34,
+        58
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:64",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 48,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        48,
+        25,
+        39,
+        48
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10m:65",
+      "split": "test",
+      "label": "WH",
+      "source_supported_frames": 41,
+      "all_four_observed_supported_frames": 10,
+      "per_stream_observed_supported_frames": [
+        41,
+        26,
+        21,
+        41
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10n:10",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 50,
+      "all_four_observed_supported_frames": 16,
+      "per_stream_observed_supported_frames": [
+        50,
+        16,
+        38,
+        50
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10n:14",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 59,
+      "all_four_observed_supported_frames": 11,
+      "per_stream_observed_supported_frames": [
+        59,
+        20,
+        41,
+        59
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10n:16",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 57,
+      "all_four_observed_supported_frames": 13,
+      "per_stream_observed_supported_frames": [
+        57,
+        13,
+        46,
+        57
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:0",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 142,
+      "all_four_observed_supported_frames": 109,
+      "per_stream_observed_supported_frames": [
+        137,
+        137,
+        115,
+        142
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:11",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 106,
+      "all_four_observed_supported_frames": 53,
+      "per_stream_observed_supported_frames": [
+        85,
+        59,
+        105,
+        106
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:14",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 76,
+      "all_four_observed_supported_frames": 50,
+      "per_stream_observed_supported_frames": [
+        76,
+        52,
+        73,
+        76
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:15",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 70,
+      "all_four_observed_supported_frames": 41,
+      "per_stream_observed_supported_frames": [
+        70,
+        43,
+        68,
+        70
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:18",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 83,
+      "all_four_observed_supported_frames": 54,
+      "per_stream_observed_supported_frames": [
+        83,
+        55,
+        81,
+        83
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:19",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 102,
+      "all_four_observed_supported_frames": 77,
+      "per_stream_observed_supported_frames": [
+        92,
+        87,
+        101,
+        102
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:20",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 86,
+      "all_four_observed_supported_frames": 77,
+      "per_stream_observed_supported_frames": [
+        84,
+        79,
+        86,
+        86
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:21",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 68,
+      "all_four_observed_supported_frames": 42,
+      "per_stream_observed_supported_frames": [
+        67,
+        42,
+        67,
+        68
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:4",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 82,
+      "all_four_observed_supported_frames": 69,
+      "per_stream_observed_supported_frames": [
+        82,
+        70,
+        81,
+        82
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:5",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 88,
+      "all_four_observed_supported_frames": 38,
+      "per_stream_observed_supported_frames": [
+        79,
+        39,
+        86,
+        88
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:6",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 65,
+      "all_four_observed_supported_frames": 40,
+      "per_stream_observed_supported_frames": [
+        63,
+        44,
+        61,
+        65
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:7",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 95,
+      "all_four_observed_supported_frames": 58,
+      "per_stream_observed_supported_frames": [
+        87,
+        66,
+        91,
+        95
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:8",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 98,
+      "all_four_observed_supported_frames": 62,
+      "per_stream_observed_supported_frames": [
+        91,
+        70,
+        94,
+        98
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10p:9",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 78,
+      "all_four_observed_supported_frames": 29,
+      "per_stream_observed_supported_frames": [
+        50,
+        47,
+        69,
+        78
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:10",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 92,
+      "all_four_observed_supported_frames": 68,
+      "per_stream_observed_supported_frames": [
+        90,
+        73,
+        86,
+        92
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:11",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 49,
+      "all_four_observed_supported_frames": 32,
+      "per_stream_observed_supported_frames": [
+        44,
+        37,
+        46,
+        49
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:13",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 89,
+      "all_four_observed_supported_frames": 46,
+      "per_stream_observed_supported_frames": [
+        63,
+        58,
+        88,
+        89
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:15",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 105,
+      "all_four_observed_supported_frames": 93,
+      "per_stream_observed_supported_frames": [
+        101,
+        96,
+        105,
+        105
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:16",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 66,
+      "all_four_observed_supported_frames": 40,
+      "per_stream_observed_supported_frames": [
+        65,
+        47,
+        59,
+        66
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:18",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 81,
+      "all_four_observed_supported_frames": 59,
+      "per_stream_observed_supported_frames": [
+        76,
+        65,
+        79,
+        81
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:2",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 55,
+      "all_four_observed_supported_frames": 32,
+      "per_stream_observed_supported_frames": [
+        37,
+        43,
+        47,
+        55
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:22",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 65,
+      "all_four_observed_supported_frames": 61,
+      "per_stream_observed_supported_frames": [
+        65,
+        62,
+        64,
+        65
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:23",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 51,
+      "all_four_observed_supported_frames": 43,
+      "per_stream_observed_supported_frames": [
+        46,
+        48,
+        50,
+        51
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:24",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 73,
+      "all_four_observed_supported_frames": 61,
+      "per_stream_observed_supported_frames": [
+        73,
+        62,
+        67,
+        73
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:28",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 83,
+      "all_four_observed_supported_frames": 56,
+      "per_stream_observed_supported_frames": [
+        79,
+        75,
+        66,
+        83
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:29",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 84,
+      "all_four_observed_supported_frames": 58,
+      "per_stream_observed_supported_frames": [
+        84,
+        81,
+        61,
+        84
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:3",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 46,
+      "all_four_observed_supported_frames": 27,
+      "per_stream_observed_supported_frames": [
+        45,
+        27,
+        46,
+        46
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:31",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 87,
+      "all_four_observed_supported_frames": 78,
+      "per_stream_observed_supported_frames": [
+        82,
+        83,
+        87,
+        87
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:32",
+      "split": "train",
+      "label": "WH",
+      "source_supported_frames": 56,
+      "all_four_observed_supported_frames": 50,
+      "per_stream_observed_supported_frames": [
+        54,
+        56,
+        52,
+        56
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:34",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 92,
+      "all_four_observed_supported_frames": 62,
+      "per_stream_observed_supported_frames": [
+        90,
+        88,
+        64,
+        92
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:35",
+      "split": "train",
+      "label": "NEG",
+      "source_supported_frames": 99,
+      "all_four_observed_supported_frames": 80,
+      "per_stream_observed_supported_frames": [
+        99,
+        92,
+        87,
+        99
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:4",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 57,
+      "all_four_observed_supported_frames": 30,
+      "per_stream_observed_supported_frames": [
+        48,
+        37,
+        55,
+        57
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:8",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 66,
+      "all_four_observed_supported_frames": 32,
+      "per_stream_observed_supported_frames": [
+        40,
+        54,
+        64,
+        66
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10q:9",
+      "split": "train",
+      "label": "YN",
+      "source_supported_frames": 99,
+      "all_four_observed_supported_frames": 54,
+      "per_stream_observed_supported_frames": [
+        74,
+        74,
+        96,
+        99
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:0",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 66,
+      "all_four_observed_supported_frames": 66,
+      "per_stream_observed_supported_frames": [
+        66,
+        66,
+        66,
+        66
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:1",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 76,
+      "all_four_observed_supported_frames": 76,
+      "per_stream_observed_supported_frames": [
+        76,
+        76,
+        76,
+        76
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:11",
+      "split": "val",
+      "label": "YN",
+      "source_supported_frames": 73,
+      "all_four_observed_supported_frames": 66,
+      "per_stream_observed_supported_frames": [
+        72,
+        67,
+        73,
+        73
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:12",
+      "split": "val",
+      "label": "NEG",
+      "source_supported_frames": 87,
+      "all_four_observed_supported_frames": 79,
+      "per_stream_observed_supported_frames": [
+        83,
+        87,
+        83,
+        87
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:13",
+      "split": "val",
+      "label": "NEG",
+      "source_supported_frames": 83,
+      "all_four_observed_supported_frames": 65,
+      "per_stream_observed_supported_frames": [
+        81,
+        67,
+        83,
+        83
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:14",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 75,
+      "all_four_observed_supported_frames": 71,
+      "per_stream_observed_supported_frames": [
+        71,
+        75,
+        75,
+        75
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:15",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 82,
+      "all_four_observed_supported_frames": 82,
+      "per_stream_observed_supported_frames": [
+        82,
+        82,
+        82,
+        82
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:16",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 81,
+      "all_four_observed_supported_frames": 78,
+      "per_stream_observed_supported_frames": [
+        78,
+        81,
+        81,
+        81
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:17",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 74,
+      "all_four_observed_supported_frames": 74,
+      "per_stream_observed_supported_frames": [
+        74,
+        74,
+        74,
+        74
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:18",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 87,
+      "all_four_observed_supported_frames": 85,
+      "per_stream_observed_supported_frames": [
+        87,
+        87,
+        85,
+        87
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:2",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 93,
+      "all_four_observed_supported_frames": 93,
+      "per_stream_observed_supported_frames": [
+        93,
+        93,
+        93,
+        93
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:24",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 91,
+      "all_four_observed_supported_frames": 81,
+      "per_stream_observed_supported_frames": [
+        83,
+        91,
+        89,
+        91
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:25",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 94,
+      "all_four_observed_supported_frames": 81,
+      "per_stream_observed_supported_frames": [
+        83,
+        94,
+        92,
+        94
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:26",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 79,
+      "all_four_observed_supported_frames": 69,
+      "per_stream_observed_supported_frames": [
+        73,
+        75,
+        77,
+        79
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:27",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 92,
+      "all_four_observed_supported_frames": 88,
+      "per_stream_observed_supported_frames": [
+        92,
+        89,
+        91,
+        92
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:29",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 104,
+      "all_four_observed_supported_frames": 96,
+      "per_stream_observed_supported_frames": [
+        97,
+        104,
+        103,
+        104
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:3",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 90,
+      "all_four_observed_supported_frames": 83,
+      "per_stream_observed_supported_frames": [
+        89,
+        89,
+        85,
+        90
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:30",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 86,
+      "all_four_observed_supported_frames": 85,
+      "per_stream_observed_supported_frames": [
+        86,
+        85,
+        86,
+        86
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:31",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 85,
+      "all_four_observed_supported_frames": 85,
+      "per_stream_observed_supported_frames": [
+        85,
+        85,
+        85,
+        85
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:32",
+      "split": "val",
+      "label": "YN",
+      "source_supported_frames": 91,
+      "all_four_observed_supported_frames": 73,
+      "per_stream_observed_supported_frames": [
+        91,
+        80,
+        84,
+        91
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:33",
+      "split": "val",
+      "label": "NEG",
+      "source_supported_frames": 88,
+      "all_four_observed_supported_frames": 81,
+      "per_stream_observed_supported_frames": [
+        85,
+        87,
+        85,
+        88
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:34",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 80,
+      "all_four_observed_supported_frames": 80,
+      "per_stream_observed_supported_frames": [
+        80,
+        80,
+        80,
+        80
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:35",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 51,
+      "all_four_observed_supported_frames": 51,
+      "per_stream_observed_supported_frames": [
+        51,
+        51,
+        51,
+        51
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:36",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 84,
+      "all_four_observed_supported_frames": 83,
+      "per_stream_observed_supported_frames": [
+        83,
+        84,
+        84,
+        84
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:4",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 95,
+      "all_four_observed_supported_frames": 90,
+      "per_stream_observed_supported_frames": [
+        93,
+        92,
+        95,
+        95
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:5",
+      "split": "val",
+      "label": "NEG",
+      "source_supported_frames": 118,
+      "all_four_observed_supported_frames": 104,
+      "per_stream_observed_supported_frames": [
+        118,
+        107,
+        115,
+        118
+      ]
+    },
+    {
+      "sample_id": "ncslgr:ncslgr10r:6",
+      "split": "val",
+      "label": "WH",
+      "source_supported_frames": 93,
+      "all_four_observed_supported_frames": 90,
+      "per_stream_observed_supported_frames": [
+        93,
+        93,
+        90,
+        93
+      ]
+    }
+  ],
+  "native_report_sha256": "e94e3cbf9a181838a90078f398ae117a1e971d16f862a878ca92965910ef1d79",
+  "native_index_sha256": "b146d0512e20099cc2209ae9ff58168fbaccb0442ddbbc1a178516de5af8958c",
+  "semantics": "Native pooling includes author-imputed tokens; counts report observed crops separately."
+}

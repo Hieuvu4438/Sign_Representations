@@ -1,0 +1,75 @@
+protocol_version: common_v1
+locked: true
+task: common_lexical_diagnostic
+population: ASL Citizen train-selected 200-class cohort; official signer-disjoint
+  splits; capped clips per class
+scientific_claim_role: pipeline validation and lexical retention reference; no novelty
+  or full benchmark reproduction
+source_manifest: data/manifests/asl_citizen.jsonl
+source_manifest_sha256: 4993167d05b831323d29664fdd177a108f16aff68a87a75035a27f787750044f
+manifest: data/manifests/common_v1.jsonl
+manifest_sha256: 10588de667415c1ca9cdcf677d18d0e5d69c7845ee43b05658902b20b6e52f3a
+split_sha256:
+  train: 8de48ef29309ff3ad33ab63fcea3e230681f319fe439f3f173f1337d5c40c769
+  val: ec792094c07202a769cca1f6813db47b4ded6b783410cf85f94ed092322106c3
+  test: c03a712522adf03676796077d0cf80bc521d7430ae04fc0dbc9eb4e7ea6f8349
+label_mapping: data/splits/common_v1_labels.json
+label_mapping_sha256: a0dbf9e0e76275b1726eadfc0a05ebb7fd7a334c71756a3b48f693b75df57b15
+class_selection:
+  source: train_only
+  minimum_train_count: 12
+  class_count: 200
+  selection_seed: 42
+  ranking: SHA256(seed:label)
+  clips_per_class_cap:
+    train: 12
+    val: 4
+    test: 8
+split_counts:
+  train: 2400
+  val: 726
+  test: 1600
+primary_metric: macro_recall
+secondary_metrics:
+- top1
+- top5
+- coverage
+primary_comparison: B03_shallow_temporal_vs_B02_mean_pool_linear
+secondary_comparisons_policy: exploratory
+seeds:
+- 0
+- 1
+- 2
+model_config: configs/signrep.yaml
+model_config_sha256: 762b503a9b71942abf1f4cb9cd6204774507f29e580fde0931645b52eeb91141
+checkpoint_sha256: f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b
+backbone_commit: 06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2
+feature_directory: features/signrep_common_v1
+pooling: mean_over_valid_nonpadded_windows_then_L2
+exclusions:
+- missing source video
+- decode failure
+- short clips requiring padding
+normalization_fit: per-sample L2 only; no test population fit
+supervision: official train lexical labels only
+tuning:
+  learning_rates:
+  - 0.0001
+  - 0.001
+  - 0.01
+  capacities:
+  - 64
+  - 128
+  epochs: 100
+  selection_metric: val_macro_recall
+  tie_policy: first_registered_config
+  test_tuning_allowed: false
+  optimizer: AdamW
+  weight_decay: 0.01
+statistics:
+  resamples: 2000
+  seed: 42
+  group_key: recording_group
+  interval: paired_percentile_95
+pretraining_overlap: UNKNOWN
+adaptation_allowed: false

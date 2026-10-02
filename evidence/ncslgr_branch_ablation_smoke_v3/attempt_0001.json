@@ -1,0 +1,23 @@
+{
+  "status": "PARTIAL_TRAIN_SMOKE",
+  "pid": 3,
+  "device": "cpu",
+  "workers": 1,
+  "samples": 175,
+  "success": 2,
+  "new_clips": 2,
+  "config_sha256": "e333093d5b4b2a00a096e48e0907cd561682bb6b10872d0011f4c36af56e7e1b",
+  "torch_threads": 4,
+  "conditions": [
+    "all",
+    "without_face",
+    "without_hands",
+    "without_body",
+    "face_only",
+    "hands_only",
+    "body_only",
+    "zero_streams"
+  ],
+  "last_sample_id": "ncslgr:ncslgr10p:11:body",
+  "elapsed_seconds": 50.042102670064196
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "P03",
+  "url": "https://aclanthology.org/2025.acl-long.1397.pdf",
+  "revision": "ACL2025 proceedings",
+  "sha256": "d41f80ab7fa38fd908a56ea9479d54274f0d8900d7e86db0a0477744d966f3c1",
+  "bytes": 2554476,
+  "local_path": "evidence/papers/P03.pdf",
+  "utc_time": "2026-09-30T17:20:57.255233+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

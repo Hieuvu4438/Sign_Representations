@@ -1,0 +1,12 @@
+{
+  "asset_id": "P12",
+  "url": "https://arxiv.org/pdf/2507.03703",
+  "revision": "version to resolve from retrieved document",
+  "sha256": "78c9f839fc3d02ae127f5f9a14e7adada1a6fa5b071c0451b1c4064e164dd7ee",
+  "bytes": 2304243,
+  "local_path": "evidence/papers/P12.pdf",
+  "utc_time": "2026-09-30T17:41:34.476188+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

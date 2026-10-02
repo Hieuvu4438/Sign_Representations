@@ -1,0 +1,12 @@
+{
+  "asset_id": "W08_CONFIG_1",
+  "url": "https://huggingface.co/ShesterG/SHuBERT/resolve/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/models/checkpoint-11625/generation_config.json",
+  "revision": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "sha256": "342f3dc89dac10df208ad7f51d3494433925bee5babc19ffeb30ee95c86ee9a4",
+  "bytes": 112,
+  "local_path": "checkpoints/shubert_author_hf/models/checkpoint-11625/generation_config.json",
+  "utc_time": "2026-09-30T23:16:08.693912+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "text/plain; charset=utf-8"
+}

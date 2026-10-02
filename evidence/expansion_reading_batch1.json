@@ -1,0 +1,37 @@
+{
+  "status": "SCOPED_PRIMARY_HTML_READING",
+  "retrieved_utc": "2026-10-01T00:00:00.892298+00:00",
+  "papers": [
+    {
+      "paper_id": "P23",
+      "url": "https://arxiv.org/html/2509.00030",
+      "version": "arXivv4 2026-09-02",
+      "sections": "3.2-3.4; introduction"
+    },
+    {
+      "paper_id": "P27",
+      "url": "https://arxiv.org/html/2507.09266",
+      "version": "arXivv2 2026-05-28; CVF2025 separate",
+      "sections": "3.1.1-3.1.5; conclusion; CVF supplement"
+    },
+    {
+      "paper_id": "P28",
+      "url": "https://arxiv.org/html/2605.02094",
+      "version": "arXivv1 2026-05-03",
+      "sections": "3.1-3.3;4.1;4.3"
+    },
+    {
+      "paper_id": "P29",
+      "url": "https://arxiv.org/html/2604.08761",
+      "version": "arXivv1 2026-04-09",
+      "sections": "3;4.1;AppendixK;arXivcomments"
+    }
+  ],
+  "auxiliary_sources": [
+    "https://openaccess.thecvf.com/ICCV2025_workshops/MSLR",
+    "https://openaccess.thecvf.com/content/ICCV2025W/MSLR/supplemental/Low_SAGE_Segment-Aware_Gloss-Free_ICCVW_2025_supplemental.pdf",
+    "https://arxiv.org/abs/2604.08761"
+  ],
+  "local_pdf_acquisition": "Pending under restricted shell network; browser primary HTML reading is not a local PDF hash or PDF page-anchor audit.",
+  "full_read_claim": false
+}

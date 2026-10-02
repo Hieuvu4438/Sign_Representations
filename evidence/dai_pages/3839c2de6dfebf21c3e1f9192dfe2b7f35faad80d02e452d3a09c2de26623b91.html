@@ -1,0 +1,499 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta content="text/html; charset=utf8" http-equiv="content-type">
+<title>American Sign Language Linguistic Research Project (ASLLRP) Data Access Interface (DAI) 2 Version 2.0</title>
+<link href="https://dai.cs.rutgers.edu//dai/css_asllrp/asl.css" rel="stylesheet"
+	type="text/css">
+<link href="https://dai.cs.rutgers.edu//dai/css_asllrp/styles.css" rel="stylesheet"
+	type="text/css">
+  <link href="https://dai.cs.rutgers.edu//dai/css_asllrp/cupertino/jquery-ui-1.8.18.custom.css" rel="stylesheet"
+	type="text/css">
+  <script type="text/javascript"
+	src="https://dai.cs.rutgers.edu//dai/js_asllrp/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js_asllrp/jquery-ui-1.8.18.custom.min.js"></script>
+  <script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js_asllrp/swfobject.js"></script>
+  <script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js_asllrp/sentenceSummary.js"></script>
+  <script type="text/javascript" src="https://dai.cs.rutgers.edu//dai/js_asllrp/cart-common.js"></script>
+  
+  
+            <script type="text/javascript" src="../js/sentenceSummary.js"></script>
+            
+  <script type="text/javascript">
+var url_params = {"signName":"Search all...","all_signs":"all_signs_egcl","sign":{"LEX":"on","IX":"on","FS":"on","NS":"on","LS":"on"},"hand":"dom","all_pos":"on","pos":{"10":"on","11":"on","19":"on","15":"on","34":"on","16":"on","28":"on","4":"on","18":"on","13":"on","22":"on","8":"on","30":"on","26":"on","1":"on","7":"on","17":"on","20":"on","12":"on","3":"on","2":"on","5":"on","24":"on","27":"on","14":"on","29":"on","23":"on","9":"on","21":"on","6":"on","25":"on"},"minOccur":"-1","data_source":"","participant":"3","color":"noCare","sleeves":"noCare","glasses":"noCare","allBox":"noCare","results_view":"front","resultsPerPage":"25","canonical_sign_id":"105"};
+var perspective = "Front";
+$(document).ready(function() {
+  $("#uv_0").data('gloss_id', 3408);  $("#uv_1").data('gloss_id', 3425);  $("#uv_2").data('gloss_id', 3452);  $("#uv_3").data('gloss_id', 3658);});
+  
+  function popup(mylink, hand) { 
+    if (! window.focus)return true;
+    var href;
+    if (typeof(mylink) == 'string') href=mylink;
+    else href=mylink.href; 
+    window.open(href, hand, 'width=800,height=700,scrollbars=yes'); 
+    return false; 
+  }
+  
+  function setSubmitAction(action) {
+	document.getElementById("submit_action").value = action;
+  }
+  
+  function checkFormFields(form) {
+  
+  
+  
+	var myError = 0;
+	var alert_message = "";
+	var confirm_message = "Please review the below actions that you are about to take\n\n";
+	
+	
+	var action = document.getElementById("submit_action").value;
+		
+	var checkboxes = 0;
+    for (var i = 0; i < form.length; i++) {
+            if (form.elements[i].name.match(/id_Resource/) && form.elements[i].checked == true) {
+            	checkboxes++;
+            }
+    }
+	
+
+	
+	if(checkboxes == 0)
+	{
+		myError = 1;
+	}
+	
+	if(action == "utterance")
+	{
+		if (myError) {
+			alert_message = alert_message + "You have not selected any items to be added to the utterance cart\n";
+			alert(alert_message)
+			return false;
+		} else {
+			document.signform.submit();
+		}
+	}
+	
+	
+	if(action == "collection")
+	{
+		alert_message = alert_message + "You have not selected any items to be added to the collection cart\n";
+		if (myError) {
+			alert(alert_message)
+			return false;
+		} else {
+			document.signform.submit();
+		}
+	}
+	
+	if(action == "clearcart")
+	{
+		alert_message = alert_message + "This action will remove all your previously selected items from the cart.\nDo you want to proceed?";
+		if (confirm(alert_message))  {
+			document.signform.submit();
+		} else {
+			return false;
+		}
+	}
+	
+	
+	
+}
+
+</script>
+
+<style>
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: gray;
+  color: white;
+  font-size: 30px;
+}
+
+div.panel-body {
+  background-color: #DEF1FF;
+}
+</style>
+
+</head>
+
+    <body oncontextmenu="return false;">
+
+<div id="main">
+<!--
+GET: Array
+(
+    [signName] => Search all...
+    [all_signs] => all_signs_egcl
+    [sign] => Array
+        (
+            [LEX] => on
+            [IX] => on
+            [FS] => on
+            [NS] => on
+            [LS] => on
+        )
+
+    [hand] => dom
+    [all_pos] => on
+    [pos] => Array
+        (
+            [10] => on
+            [11] => on
+            [19] => on
+            [15] => on
+            [34] => on
+            [16] => on
+            [28] => on
+            [4] => on
+            [18] => on
+            [13] => on
+            [22] => on
+            [8] => on
+            [30] => on
+            [26] => on
+            [1] => on
+            [7] => on
+            [17] => on
+            [20] => on
+            [12] => on
+            [3] => on
+            [2] => on
+            [5] => on
+            [24] => on
+            [27] => on
+            [14] => on
+            [29] => on
+            [23] => on
+            [9] => on
+            [21] => on
+            [6] => on
+            [25] => on
+        )
+
+    [minOccur] => -1
+    [data_source] => 
+    [participant] => 3
+    [color] => noCare
+    [sleeves] => noCare
+    [glasses] => noCare
+    [allBox] => noCare
+    [results_view] => front
+    [resultsPerPage] => 25
+    [canonical_sign_id] => 105
+)
+
+
+POST:Array
+(
+)
+
+--><!-- Query time: 0.0016059875488281; Query: SELECT COUNT(`vscs`.`id_Utterance`) AS `num_results` FROM `view_Glosses` AS `vscs` WHERE `vscs`.`id_Sign` IN (SELECT `Sign_has_SignTag`.`id_Sign` FROM `Sign_has_SignTag` INNER JOIN `SignTag` USING(`id_SignTag`) WHERE `SignTag`.`label` IN ('LEX','IX','FS','NS','LS')) AND `vscs`.`dominant`='1' AND `vscs`.`id_Participant`='3' AND `vscs`.`id_CanonicalSign`='105' -->
+<!-- Query time: 0.00012087821960449; Query: SELECT `VideoView`.`id_VideoView`,`VideoView`.`label` FROM `VideoView` WHERE `VideoView`.`label`='Front' -->
+<!-- Query time: 0.012308835983276; Query: SELECT `vscs`.`id_Utterance`,`Utterance`.`ssid`,`DataSource`.`name` AS `ds_name`,`DataSource`.`id_Resource` AS `ds_id_Resource`,`vscs`.`id_Participant`,`vscs`.`s_text`,`GlossAnnotation`.`id_GlossAnnotation`,`GlossAnnotation`.`glossTextStart`,`GlossAnnotation`.`glossTextEnd`,`GlossAnnotation`.`shortGlossStart`,`GlossAnnotation`.`shortGlossEnd`,`GlossText`.`fieldSummary`,`GlossText`.`fieldDetail`,`uv`.`id_Resource` AS `u_id_Resource`,`uv`.`width` AS `u_width`,`uv`.`height` AS `u_height`,`uv`.`path` AS `u_path`,`uv`.`prefix` AS `u_prefix`,`sv`.`id_Resource` AS `s_id_Resource`,`sv`.`width` AS `s_width`,`sv`.`height` AS `s_height`,`sv`.`path` AS `s_path`,`sv`.`prefix` AS `s_prefix` FROM `view_Glosses` AS `vscs` INNER JOIN `GlossText` USING(`id_Utterance`) INNER JOIN `DataSource` USING(`id_Resource`) INNER JOIN `Utterance` USING(`id_Utterance`) INNER JOIN `GlossAnnotation` USING(`id_GlossAnnotation`) LEFT OUTER JOIN `view_UtteranceVideo` AS `uv` ON `uv`.`id_Utterance`=`vscs`.`id_Utterance` AND `uv`.`id_VideoView`='1' LEFT OUTER JOIN `view_SignVideo` AS `sv` ON `sv`.`id_GlossAnnotation`=`GlossAnnotation`.`id_GlossAnnotation` AND `sv`.`id_VideoView`='1' WHERE `vscs`.`id_Sign` IN (SELECT `Sign_has_SignTag`.`id_Sign` FROM `Sign_has_SignTag` INNER JOIN `SignTag` USING(`id_SignTag`) WHERE `SignTag`.`label` IN ('LEX','IX','FS','NS','LS')) AND `vscs`.`dominant`='1' AND `vscs`.`id_Participant`='3' AND `vscs`.`id_CanonicalSign`='105' ORDER BY `ds_name` ASC,`ssid` ASC,`id_GlossAnnotation` ASC LIMIT 0,25 -->
+<!-- Query time: 0.00039196014404297; Query: SELECT `VideoView`.`id_VideoView`,`VideoView`.`label` FROM `VideoView` ORDER BY `VideoView`.`label` --><div id="banner">
+
+<div class="header">
+  			<h1>ASLLRP Continuous Signing Corpora</h1>
+	  </div>
+
+	  <center><p style="color:black;font-size:20px"><B>Query Results: Utterance Summary</B></p></center>
+	 
+</div>
+	<form name="downloadcart" action="utterancesearchresult?inputSearch=When+does+the+party+start%2C+at+8+or+9%3F&datasource=1539244&datasource=1379841&datasource=1379845&datasource=1512932&datasource=1512933&datasource=1512934&datasource=1379844&datasource=1379843&datasource=1512935&datasource=1379842&datasource=1379808&datasource=1379840&datasource=1379839&datasource=1379838&datasource=1379837&datasource=1379836&datasource=1512936&datasource=1512937&datasource=1379835&datasource=1379834&datasource=1379833&datasource=1379832&datasource=1379831&datasource=1379830&datasource=1379829&datasource=1512938&datasource=1379828&datasource=1379827&datasource=1379826&datasource=1379825&datasource=1379824&datasource=1512939&datasource=1379823&datasource=1379822&datasource=1379821&datasource=1379820&datasource=1379819&datasource=1379818&datasource=1379817&datasource=1379816&datasource=1379815&datasource=1379814&datasource=1379813&datasource=1379812&datasource=1379811&datasource=1379810&datasource=1379809&rit3datasource=1555950&rit3datasource=1555952&rit3datasource=1555951&rit3datasource=1555953&participant=5&participant=2&participant=4&participant=1&participant=30&participant=31&participant=3&video_views=noCare&color=noCare&sleeves=noCare&glasses=noCare&minOccur=-1&color=noCare&sleeves=noCare&glasses=noCare&allBox=noCare&results_view=front&resultsPerPage=25" method="post" onsubmit="return(checkFormFields(this));">
+	
+
+    
+  	
+  	<table summary="Video Download Summary" class="sofT" cellspacing="0">
+	<thead>
+	</tr>
+	<tr>
+		<td class="helpHed datasource">File Name-Utterance</td>
+		<td class="helpHed">Utterance Video</td>
+		<td class="helpHed">View</td>
+		<td class="helpHed">Rough Gloss</td>
+		<!-- <td class="helpHed">Video Properties</td>  -->
+	</tr>
+	</thead>
+	<tbody>
+	
+	
+	
+	  <tr>
+	  
+	    <td class="helpBod datasource" id="ds_1">
+	    		<input type="checkbox" name="id_Resource" id="id_Resource" value="1379838"/>
+	          Cory_2013-6-27_sc109-U-39
+              
+	    </td>
+	    <td class="helpBod video">
+	    	<a class="uv" id="uv_1" href="#"><img src="https://dai.cs.rutgers.edu//ss3thumbnails/8397345.png" alt="No Video for this view" title="No video for this view" width="80" height="60">
+            </a>
+	    </td>
+	
+	    <td class="helpBod">
+	    	<nobr>
+                <a class="fg" id="fgl_1" href="#"><img src='../images/gloss.jpg' title='view sign gloss' style='width:20.5px;height:20px;'> Gloss..</a><br>
+
+           <br>Utterance:<br>
+                
+                
+                <a class="uv" id="uv_1" href="#"><img src='../images/front.png' title='view utterance front video' style='width:20.5px;height:20px;'></a>
+            
+            
+            
+                <a class="uv" id="uvf_1" href="#"><img src='../images/face.png' title='view utterance face video' style='width:20.5px;height:20px;'></a>
+            
+            
+            
+                <a class="uv" id="uvs_1" href="#"><img src='../images/side.png' title='view utterance side video' style='width:20.5px;height:20px;'></a>
+            
+            
+            
+                
+            </nobr>
+
+	    </td>
+	    <td class="helpBod roughgloss">
+	    	<div>
+	    		<pre>rhq question:                 _________<u>rhq2</u> 
+          dh: <u>(P)PARTY</u> <u>START</u>_ <u>WHICH</u>_ <u>TIME</u>__ <u>EIGHT</u>_ <u>TIME</u>___ <u>NINE</u>__ 
+    dh shape: <img src='../images/handShapes/big-K.png' style='width:20px;height:18px;'>  <img src='../images/handShapes/big-K.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-1.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-1.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-10.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-10.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-crvd-L.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-crvd-L.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-8.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-8.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-1.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-1.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-F.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-F.png' style='width:20px;height:18px;'> 
+         ndh: <u><u>(P)PARTY</u></u> <u><u>START</u>_</u> <u><u>WHICH</u>_</u> <u><u>TIME</u>__</u>        <u><u>TIME</u>___</u> 
+   ndh shape: <img src='../images/handShapes/big-K.png' style='width:20px;height:18px;'>  <img src='../images/handShapes/big-K.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-5.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-5.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-10.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-10.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-psv.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-psv.png' style='width:20px;height:18px;'>        <img src='../images/handShapes/big-psv.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-psv.png' style='width:20px;height:18px;'> 
+  engl trans: When does the party start, at 8 or 9? 
+
+				</pre>
+			</div>
+		</td>
+	  </tr>	 
+	  
+	   <div class="fg" id="fg_1">
+         <pre>     head pos: tilt fr/bk:                 _<u>front</u> _______<u>+front</u> 
+      head pos: tilt side:                        _______<u>-right</u> _________<u>right</u> 
+         head mvmt: shake:                                      __________<u>slow</u> 
+             eye aperture: ____<u>-low</u>       ____<u>sq</u>        __<u>wide</u> ____________<u>sq</u> 
+             rhq question:                 _________<u>rhq2</u> 
+                       dh: <u>(P)PARTY</u> <u>START</u>_ <u>WHICH</u>_ <u>TIME</u>__ <u>EIGHT</u>_ <u>TIME</u>___ <u>NINE</u>__ 
+                 dh shape: <img src='../images/handShapes/big-K.png' style='width:20px;height:18px;'>  <img src='../images/handShapes/big-K.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-1.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-1.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-10.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-10.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-crvd-L.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-crvd-L.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-8.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-8.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-1.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-1.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-F.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-F.png' style='width:20px;height:18px;'> 
+                      ndh: <u><u>(P)PARTY</u></u> <u><u>START</u>_</u> <u><u>WHICH</u>_</u> <u><u>TIME</u>__</u>        <u><u>TIME</u>___</u> 
+                ndh shape: <img src='../images/handShapes/big-K.png' style='width:20px;height:18px;'>  <img src='../images/handShapes/big-K.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-5.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-5.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-10.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-10.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-psv.png' style='width:20px;height:18px;'><img src='../images/handShapes/big-psv.png' style='width:20px;height:18px;'>        <img src='../images/handShapes/big-psv.png' style='width:20px;height:18px;'> <img src='../images/handShapes/big-psv.png' style='width:20px;height:18px;'> 
+               engl trans: When does the party start, at 8 or 9? 
+
+         </pre>
+       </div> 
+       
+       <div class="fg" id="uv_1">
+        <pre>
+        <video oncontextmenu='return false;' controls='true' controlsList='nodownload' width="480" height="320">
+                		<source src="https://dai.cs.rutgers.edu//ss3front/8397345.webm" type="video/webm"/>              
+                        
+                		<source src="https://dai.cs.rutgers.edu//ss3front/8397345.mp4" type="video/mp4"/>
+                        U39 View=Front
+                </video>
+                </pre>
+          </div>
+
+          <div class="fg" id="uvf_1">
+        <pre>
+        <video oncontextmenu='return false;' controls='true' controlsList='nodownload' width="480" height="320">
+                		<source src="https://dai.cs.rutgers.edu//ss3side/8397345.webm" type="video/webm"/>               
+                        
+                		<source src="https://dai.cs.rutgers.edu//ss3side/8397345.mp4" type="video/mp4"/>
+                        U39 View=Face
+                </video>
+                </pre>
+          </div>
+
+          <div class="fg" id="uvs_1">
+        <pre>
+        <video oncontextmenu='return false;' controls='true' controlsList='nodownload' width="480" height="320">
+               <source src="https://dai.cs.rutgers.edu//ss3face/8397345.webm" type="video/webm"/>               
+                        
+                		<source src="https://dai.cs.rutgers.edu//ss3face/8397345.mp4" type="video/mp4"/>
+                        U39 View=Side
+                </video>
+                </pre>
+          </div>
+
+	  
+	
+	
+
+	</tbody>
+	</table>  <div class="actionbar">
+
+  </div>	
+	  
+	  <br><center><b> Page: </b>
+	  
+	  			<B><font  size='3' color='green'> 1 </font></B>
+	  
+	  	<BR>
+	  	1 - 1 of 1</center>
+	  	
+	  	<div id="gloss_dialog">
+  			<div id="fg_content">Placeholder for full gloss</div>
+		</div>
+<div id="video_dialog">
+    <div id="context_tabs">
+      <ul>
+        <li><a href="#utterance_videos" title="Show sign in context">Utterance Video</a></li>
+        <li><a href="#sign_videos" title="Show only sign">Sign Video</a></li>
+      </ul>
+      <div id="context_tabarea">
+        <div id="utterance_videos">
+          <div id="perspective_tabs_container">
+          <div id="perspective_tabs">
+            <ul>
+            </ul>
+           <div id="perspective_tabarea">           
+           </div>
+          </div>
+          </div>
+        </div>
+        <div id="sign_videos"></div>
+      </div>
+    </div>
+    
+</div>
+<span id="actionmenu" class="ui-corner-all actionmenu">
+	<ul class="ac_main">
+		<li class="ac_cat">Select all ...</li>
+  	<ul class="ac_sub">
+		<li id="page_sall" class="action-entry">only on this page</li>
+  	<li id="result_sall" class="action-entry">on all pages</li>
+  	</ul>
+  	<li id="ac_ds" class="ac_cat">Deselect all ...</li>
+  	<ul class="ac_sub">
+  	<li id="page_dsall" class="action-entry">only on this page</li>
+  	<li id="result_dsall" class="action-entry ui-corner-bottom">on all pages</li>
+  	</ul>
+  </ul>
+</span>
+<span id="perspectivemenu" class="ui-corner-all actionmenu">
+	<ul class="ac_main">
+	
+      <li class="action-entry ui-corner-top"><a href="sentenceSummary.php?signName=Search+all...&all_signs=all_signs_egcl&sign%5BLEX%5D=on&sign%5BIX%5D=on&sign%5BFS%5D=on&sign%5BNS%5D=on&sign%5BLS%5D=on&hand=dom&all_pos=on&pos%5B10%5D=on&pos%5B11%5D=on&pos%5B19%5D=on&pos%5B15%5D=on&pos%5B34%5D=on&pos%5B16%5D=on&pos%5B28%5D=on&pos%5B4%5D=on&pos%5B18%5D=on&pos%5B13%5D=on&pos%5B22%5D=on&pos%5B8%5D=on&pos%5B30%5D=on&pos%5B26%5D=on&pos%5B1%5D=on&pos%5B7%5D=on&pos%5B17%5D=on&pos%5B20%5D=on&pos%5B12%5D=on&pos%5B3%5D=on&pos%5B2%5D=on&pos%5B5%5D=on&pos%5B24%5D=on&pos%5B27%5D=on&pos%5B14%5D=on&pos%5B29%5D=on&pos%5B23%5D=on&pos%5B9%5D=on&pos%5B21%5D=on&pos%5B6%5D=on&pos%5B25%5D=on&minOccur=-1&data_source=&participant=3&color=noCare&sleeves=noCare&glasses=noCare&allBox=noCare&results_view=front&resultsPerPage=25&canonical_sign_id=105&sign_view=Face">Face</a></li>
+	
+      <li class="action-entry"><a href="sentenceSummary.php?signName=Search+all...&all_signs=all_signs_egcl&sign%5BLEX%5D=on&sign%5BIX%5D=on&sign%5BFS%5D=on&sign%5BNS%5D=on&sign%5BLS%5D=on&hand=dom&all_pos=on&pos%5B10%5D=on&pos%5B11%5D=on&pos%5B19%5D=on&pos%5B15%5D=on&pos%5B34%5D=on&pos%5B16%5D=on&pos%5B28%5D=on&pos%5B4%5D=on&pos%5B18%5D=on&pos%5B13%5D=on&pos%5B22%5D=on&pos%5B8%5D=on&pos%5B30%5D=on&pos%5B26%5D=on&pos%5B1%5D=on&pos%5B7%5D=on&pos%5B17%5D=on&pos%5B20%5D=on&pos%5B12%5D=on&pos%5B3%5D=on&pos%5B2%5D=on&pos%5B5%5D=on&pos%5B24%5D=on&pos%5B27%5D=on&pos%5B14%5D=on&pos%5B29%5D=on&pos%5B23%5D=on&pos%5B9%5D=on&pos%5B21%5D=on&pos%5B6%5D=on&pos%5B25%5D=on&minOccur=-1&data_source=&participant=3&color=noCare&sleeves=noCare&glasses=noCare&allBox=noCare&results_view=front&resultsPerPage=25&canonical_sign_id=105&sign_view=Front">Front</a></li>
+	
+      <li class="action-entry"><a href="sentenceSummary.php?signName=Search+all...&all_signs=all_signs_egcl&sign%5BLEX%5D=on&sign%5BIX%5D=on&sign%5BFS%5D=on&sign%5BNS%5D=on&sign%5BLS%5D=on&hand=dom&all_pos=on&pos%5B10%5D=on&pos%5B11%5D=on&pos%5B19%5D=on&pos%5B15%5D=on&pos%5B34%5D=on&pos%5B16%5D=on&pos%5B28%5D=on&pos%5B4%5D=on&pos%5B18%5D=on&pos%5B13%5D=on&pos%5B22%5D=on&pos%5B8%5D=on&pos%5B30%5D=on&pos%5B26%5D=on&pos%5B1%5D=on&pos%5B7%5D=on&pos%5B17%5D=on&pos%5B20%5D=on&pos%5B12%5D=on&pos%5B3%5D=on&pos%5B2%5D=on&pos%5B5%5D=on&pos%5B24%5D=on&pos%5B27%5D=on&pos%5B14%5D=on&pos%5B29%5D=on&pos%5B23%5D=on&pos%5B9%5D=on&pos%5B21%5D=on&pos%5B6%5D=on&pos%5B25%5D=on&minOccur=-1&data_source=&participant=3&color=noCare&sleeves=noCare&glasses=noCare&allBox=noCare&results_view=front&resultsPerPage=25&canonical_sign_id=105&sign_view=Side">Side</a></li>
+	
+      <li class="action-entry ui-corner-bottom"><a href="sentenceSummary.php?signName=Search+all...&all_signs=all_signs_egcl&sign%5BLEX%5D=on&sign%5BIX%5D=on&sign%5BFS%5D=on&sign%5BNS%5D=on&sign%5BLS%5D=on&hand=dom&all_pos=on&pos%5B10%5D=on&pos%5B11%5D=on&pos%5B19%5D=on&pos%5B15%5D=on&pos%5B34%5D=on&pos%5B16%5D=on&pos%5B28%5D=on&pos%5B4%5D=on&pos%5B18%5D=on&pos%5B13%5D=on&pos%5B22%5D=on&pos%5B8%5D=on&pos%5B30%5D=on&pos%5B26%5D=on&pos%5B1%5D=on&pos%5B7%5D=on&pos%5B17%5D=on&pos%5B20%5D=on&pos%5B12%5D=on&pos%5B3%5D=on&pos%5B2%5D=on&pos%5B5%5D=on&pos%5B24%5D=on&pos%5B27%5D=on&pos%5B14%5D=on&pos%5B29%5D=on&pos%5B23%5D=on&pos%5B9%5D=on&pos%5B21%5D=on&pos%5B6%5D=on&pos%5B25%5D=on&minOccur=-1&data_source=&participant=3&color=noCare&sleeves=noCare&glasses=noCare&allBox=noCare&results_view=front&resultsPerPage=25&canonical_sign_id=105&sign_view=Stereo+Front">Stereo Front</a></li>
+
+  	</ul>
+</span>
+</div>
+<div id="menu">
+<table summary="Menu"
+	style="border: 1px #6699CC solid; border-collapse: collapse; border-spacing: 0px;"
+	cellspacing="0">
+	<tr>
+		<td class="formHed">Menu</td>
+	</tr>
+
+	<tr>
+		<td class="formBod"><a href="dai">Sign Search</a></td>
+	</tr>
+	
+	<tr>
+		<td class="formBod"><a href="utterancesearch">Utterance Search</a></td>
+	</tr>
+
+	<tr>
+		<td class="formBod"><a href="signbank">Sign Bank</a></td>
+	</tr>
+	
+	<tr>
+		<td class="formBod" style="display: none;"><a
+			href="queryProcessor2.php">In-Depth Query</a></td>
+	</tr>
+
+	<tr>
+		<td class="formBod">
+		<a href="http://www.bu.edu/asllrp/dai-credits.html" target="popup" onclick="window.open('http://www.bu.edu/asllrp/dai-credits.html','popup','width=1000,height=600'); return false;">
+		 Acknowledgments & Credits</a>
+		 
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="formBod"><a href="runningstats">Statistics</a></td>
+	</tr>
+        <tr>
+			<td class="formBod" ><a href="http://www.bu.edu/asllrp/rpt18/asllrp18.pdf" target="popup" onclick="window.open('http://www.bu.edu/asllrp/rpt18/asllrp18.pdf','popup','width=1000,height=600'); return false;">Help</a></td>
+	</tr>
+	<tr>
+		<td class="formBod"><a href="http://www.bu.edu/asllrp/dai-terms.html" target="popup" onclick="window.open('http://www.bu.edu/asllrp/dai-terms.html','popup','width=1000,height=600'); return false;">Terms of Use</a>
+			</td>
+	</tr>
+	
+	<tr>
+	
+	</tr>
+	
+	<tr>
+	
+	
+   		<td class="formBod"><a
+			href="index?redirect=dai">Login</a></td>
+                                  
+   
+   </tr>
+	
+	
+</table>
+
+<table id="cart" summary="Collections cart"
+	style="border: 1px #6699CC solid; border-collapse: collapse; border-spacing: 0px;"
+	cellspacing="0">
+	<tr>
+		<td class="formHed">Download cart</td>
+	</tr>
+	<tr>
+		<td id="cartactions">You have <span id="dlq_size"><B>0</B> items</span> in the Collections cart</td>
+	</tr>
+	
+	</tr>
+		  <td id="cartactions">
+		  	<input id="download_collection" disabled type="submit" onClick="javascript:setSubmitAction('collection')" name="utterance" value="Add collection(s) to cart">	
+	      </td>	
+	<tr>
+	
+	<tr>
+		<td id="cartactions">
+			<input id="dlq_download" disabled type="submit" onClick="javascript:setSubmitAction('gotocart')" name="gotocart" value="Go to cart">
+			<input id="download_collection" disabled type="submit" onClick="javascript:setSubmitAction('clearcart')" name="clearcart" value="Clear cart">	
+			
+		</td>
+	</tr>
+	
+		<tr>
+	<td id="cartactions">
+	<BR>To download data, you must be <BR> logged in.
+    <BR>Please click on the "login" button above.
+
+	<BR>If you do not have an account, you can request
+one from the login page
+
+	</td>
+	</tr>
+	
+	<input type=hidden name="submit_action" id="submit_action" value="">
+</table>
+</form></div>
+</body>
+</html>

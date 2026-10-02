@@ -1,0 +1,22 @@
+{
+  "status": "FAIL",
+  "pid": 3,
+  "device": "cpu",
+  "gpu_workers": 0,
+  "config_sha256": "ab8248f50f22a3f95a695450df6051dc0e506a359bfd37e49567dcff166deca8",
+  "script_sha256": "71d7c37692547f86509b215167a0b7a7c962b819bee0360ca48db7cfe8ca8ab1",
+  "reviewed_smoke_sha256": "8faaaa66b7e97b50a4d22b1a45e70d1cb84ad54e6312a2d712386d540993bb12",
+  "source_split_of_smoke": "train",
+  "scientific_policy_unchanged": true,
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "-X",
+    "faulthandler",
+    "scripts/extract_ncslgr_branch_ablation.py",
+    "--resume"
+  ],
+  "log": "logs/ncslgr_branch_ablation_extraction_v2.log",
+  "updated_utc": "2026-10-01T07:33:52Z",
+  "failure_reason": "ValueError: Child RUNNING_CPU_INTERVENTION_EXTRACTION exited 1; see logs/ncslgr_branch_ablation_extraction_v2.log. No automatic retry.",
+  "elapsed_seconds": 27.261203664005734
+}

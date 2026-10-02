@@ -1,0 +1,12 @@
+{
+  "asset_id": "NCSLGR_PILOT_NCSLGR10B_0_0",
+  "url": "https://csr.bu.edu/asl/private/compressed/master/718_523_small_0.mov",
+  "revision": "Official 20120129 public video index",
+  "sha256": "33690ba42efe3010b8d442e68ab189342811fbca62419c2dfc39166887514098",
+  "bytes": 216949,
+  "local_path": "data/external/ncslgr/videos/ncslgr_pilot_ncslgr10b_0_0.mov",
+  "utc_time": "2026-09-30T20:03:15.436372+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Explicit URL published by BU public video index; historical private path segment does not imply credentialed access. Research use only, no redistribution.",
+  "content_type": "video/quicktime"
+}

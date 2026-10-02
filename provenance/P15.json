@@ -1,0 +1,12 @@
+{
+  "asset_id": "P15",
+  "url": "https://proceedings.mlr.press/v139/zhao21c/zhao21c.pdf",
+  "revision": "2021 proceedings",
+  "sha256": "e94f3e10fd0c94a1555e1e2f2603ee3be7b704a458baa258094618e456ba2274",
+  "bytes": 2606015,
+  "local_path": "evidence/papers/P15.pdf",
+  "utc_time": "2026-09-30T17:52:08.676520+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "P06",
+  "url": "https://arxiv.org/pdf/2609.03695v1",
+  "revision": "proceedings_or_explicit_v1",
+  "sha256": "cbdb1782f3aa6380442b3dcc99e695fa72f57e0772670f86e4b2f275e64ee6e8",
+  "bytes": 3931656,
+  "local_path": "evidence/papers/P06.pdf",
+  "utc_time": "2026-09-30T17:40:23.081166+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

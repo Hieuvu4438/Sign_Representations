@@ -1,0 +1,32 @@
+status: BLOCKED_ACCESS
+task: external_semantic_pair_diagnostic
+reason: Canonical expert-reviewed external video and semantic-pair manifest, source
+  media and verified C04 cue caches are unavailable. Published author scores and metadata-resolved
+  mappings cannot supply gold.
+gate_path: reports/gate_decisions.json
+gate_sha256: null
+manifest: null
+manifest_sha256: null
+media_root: null
+cache_root: null
+source_revision: 69d3d77aa4a4fec89048f5417d44fa717e36f6f8
+checkpoint_sha256: cb605058abf7fd50b80f055fe8a6e271ed64f04ef7b1b450c7a364f88495526a
+device: cpu
+torch_threads: 2
+max_frames: 200
+max_candidate_tokens: 256
+primary_metric: phenomenon_macro_utterance_pair_accuracy
+selection: NONE_FROZEN_EXTERNAL_EVALUATION
+seed: 42
+resamples: 2000
+tie_credit: 0.5
+tie_tolerance: 0.0
+notes:
+- This is a blocked preparation config, not a locked evaluation protocol. Verify checkpoint
+  hash against provenance before lock.
+- Reviewed gold, gate and cache fields must be provided and checksummed before status
+  may become LOCKED_VERIFIED_EXTERNAL_SEMANTIC_PAIRS.
+- Declared frame/token caps never justify trimming gold utterances or candidate text.
+  Larger clips require a separately reviewed protocol.
+- Controls preserve source length; wrong-video and blank-stream inputs are distribution-shift
+  diagnostics.

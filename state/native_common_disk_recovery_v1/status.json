@@ -1,0 +1,13 @@
+{
+  "status": "CPU_PREPROCESSING_RECOVERY",
+  "pid": 3,
+  "device": "cpu",
+  "minimum_free_gib": 60,
+  "audit_sha256": "2c3f6a43cc06dde6d0fd0ce66dab1121a9d616b8178192b78a58e9c1c66efcb3",
+  "script_sha256": "0f3e7e6ba24438ee11f3f22f23ed3fb2b35cef37a7b9c5dd7ac840f206434c9a",
+  "gpu_workers_when_extracting": 1,
+  "fair_output": "runs/fair_common_v1_recovery1",
+  "free_gib": 63.23106384277344,
+  "elapsed_seconds": 270.0651918279473,
+  "updated_utc": "2026-10-01T06:38:39Z"
+}

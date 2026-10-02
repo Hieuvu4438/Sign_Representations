@@ -1,0 +1,74 @@
+{
+  "status": "LOCKED_EXPLORATORY_AUTHOR_IMPUTED_FUNCTION_POOLING",
+  "created_utc": "2026-10-01T06:23:10Z",
+  "identity_sha256": {
+    "scripts/run_ncslgr_author_pool.py": "90efa9ca68e3abd0fe7cb8cc31934c33e3449a7ca127de17d9d8e8f4aead4119",
+    "scripts/run_ncslgr_probes.py": "7f64383c97c98af84c6bb1167341bc48c244eb10076ce2bfd102476ec04c2e0e",
+    "src/signrepr/io.py": "f9faaa127e40d22156ef77ec497396aa13056edc0169415bd41a68130768158f",
+    "src/signrepr/ncslgr.py": "5fa2f23952498f7e5350e42090e8f150c103f9afa20cadf56fb185069affe62c",
+    "src/signrepr/statistics.py": "2c3b8c61f41d5dcdc12c0f4d2ff4e5517fbafbb2febb4eb707e56c2bcd9544f2",
+    "data/external/ncslgr/diagnostic_v1/manifest.jsonl": "3113fbe50f7226e877bcae816cf47f6c82941e62e2d968a630fc23d0cdcf997d",
+    "data/external/ncslgr/diagnostic_v1/protocol.lock.json": "be9ba90fc2b261bc2f3ba9af9299cd5333ebcd8b6a886fa8a3daf39a02cb5c22",
+    "configs/protocol_native_ncslgr_v1.json": "855f26cc2d45861773c5d23fa2afd47b079660671d27338ebb8c727752a3f317",
+    "features/signrep_ncslgr_diagnostic_v1/extraction_report.json": "e872777106c77086291cf0bf523475c0edc03c4a64d3ef8a5b409eba56adf6a8",
+    "features/signrep_ncslgr_diagnostic_v1/index.jsonl": "0bba7fb013d72c3dcdf881b9126bfa03e7bc4e1f5d1ec2ce219210160a6c8e5a"
+  },
+  "native_cache_identity": {
+    "protocol_sha256": "855f26cc2d45861773c5d23fa2afd47b079660671d27338ebb8c727752a3f317",
+    "manifest_sha256": "c1b6149d19c5f52b6d2b3967199a6e0bc3720becd758acc195f7d30351d8966f",
+    "config_sha256": "18558b4f1288e1c1410ba18247995b7f1c23b1e17445f8f0d3bf2cc905d3f90d",
+    "implementation_sha256": "58be3c943b0bdc5728f7b691d4351a4ba4cf7daaeb782981a3b6b72db173e828",
+    "pilot_helpers_sha256": "dd7b4181ed7e072cb8b042dd903dce2a10b1a62e6731737d5ebdccad0438b386",
+    "adapter_sha256": "54d3cbb114a6a0adc45cfe324b467bc84445cff40f165ef825e7c61d097b17ad",
+    "resume_validator_sha256": "64c09d4f799d12a449e74884a4d8130c9123e50c7d3eb8b7f1bc5796f675b914",
+    "timestamp_adapter_sha256": "22d0d5f3893941a5e42ec6a4dddafe8922278d3fcec03b98774e0bb896b0bf31",
+    "device": "cpu"
+  },
+  "classes": [
+    "NEG",
+    "WH",
+    "YN"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "lr_grid": [
+    0.01,
+    0.03,
+    0.1
+  ],
+  "epochs": 100,
+  "weight_decay": 0.0001,
+  "head_parameters": 2307,
+  "backbones": [
+    "signrep",
+    "shubert_last",
+    "shubert_average"
+  ],
+  "device": "cpu",
+  "torch_threads": 1,
+  "selection": "Final-epoch validation macro recall; same three LRchoices,100epochs,3seeds; deterministic first tie; save selected head before test.",
+  "native_pooling": "All native contextual tokens with source-frame centers inside known utterance support, including author carry-forward/black crop inputs. Observation masks audited separately; imputed is not observed.",
+  "signrep_pooling": "Nonpadded valid window centers inside same known utterance support. Mean then per-sample L2, original train-only mean/SD fit per backbone.",
+  "population": "Fixed222utterances/NEG-WH-YN; common eligible IDs with nonempty utterance-supported tokens. Explicit exclusions; stop if any class lacks train/val/test support.",
+  "primary": "shubert_last_minus_signrep_macro_recall",
+  "secondary": "shubert_average_minus_signrep_macro_recall; no best-test-layer selection",
+  "decision_evidence": {
+    "native_index_snapshot_sha256": "b146d0512e20099cc2209ae9ff58168fbaccb0442ddbbc1a178516de5af8958c",
+    "train_rows_inspected": 107,
+    "train_zero_all_four_stream_rows": 40,
+    "strict_summary_exists_at_lock": true,
+    "reason": "Choice based on training missingness. Strict native result files already exist at lock; their metrics have not been inspected in this workflow before lock. Exploratory sensitivity, no certified blind or independent evaluation; preserve strict suites."
+  },
+  "strict_original_protocol": "configs/protocol_fair_ncslgr_v1.json",
+  "limits": [
+    "Exploratory missingness sensitivity, not replacement of strict observed-token protocol.",
+    "Earlier SignRep test metrics known; not independent confirmatory evaluation.",
+    "All source frames are decoded, but some cue crops are carried forward or black; source-frame support does not imply four observed modalities.",
+    "Native full context, cue crops and token rates differ from SignRep; no causal representation comparison.",
+    "One test signer and shared XML archive groups; conditional source-group CIs do not include signer-population/retraining uncertainty.",
+    "Positive recorded function only; no verified absence, full grammatical scope, semantic pair or method novelty claim."
+  ]
+}

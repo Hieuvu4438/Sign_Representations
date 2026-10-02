@@ -1,0 +1,7 @@
+{
+  "status": "PASS_EXPLORATORY_SAME_SOURCE_CUE_ABLATION",
+  "pid": 8913,
+  "device": "cpu",
+  "config_sha256": "e333093d5b4b2a00a096e48e0907cd561682bb6b10872d0011f4c36af56e7e1b",
+  "elapsed_seconds": 7.693303997046314
+}

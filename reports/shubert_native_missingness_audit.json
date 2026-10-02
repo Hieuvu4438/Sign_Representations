@@ -1,0 +1,58 @@
+{
+  "status": "OBSERVED_TRAIN_PILOT",
+  "input_report_sha256": "767dbb3363bedf3bd08572f40fdc3c5bb698516d6c28ac38d1aeb93b3fb17a44",
+  "samples": 8,
+  "usable_pooling_samples": 7,
+  "missingness_policy": "all_four_streams_observed",
+  "rows": [
+    {
+      "sample_id": "asl_citizen:5868753228914183-IMPOSSIBLE",
+      "valid_pooling_frames": 42,
+      "frames": 114,
+      "pooling_status": "AVAILABLE"
+    },
+    {
+      "sample_id": "asl_citizen:5538288174206061-DIFFERENT",
+      "valid_pooling_frames": 29,
+      "frames": 78,
+      "pooling_status": "AVAILABLE"
+    },
+    {
+      "sample_id": "asl_citizen:6918631873299188-seedRESPONSIBILITY",
+      "valid_pooling_frames": 37,
+      "frames": 169,
+      "pooling_status": "AVAILABLE"
+    },
+    {
+      "sample_id": "asl_citizen:7861626885486954-PLOW 2",
+      "valid_pooling_frames": 33,
+      "frames": 71,
+      "pooling_status": "AVAILABLE"
+    },
+    {
+      "sample_id": "asl_citizen:02325628446635597-PRETTY",
+      "valid_pooling_frames": 0,
+      "frames": 54,
+      "pooling_status": "EXCLUDED_NO_FULLY_OBSERVED_FRAME"
+    },
+    {
+      "sample_id": "asl_citizen:11495417287006338-PULL CONVINCE",
+      "valid_pooling_frames": 63,
+      "frames": 143,
+      "pooling_status": "AVAILABLE"
+    },
+    {
+      "sample_id": "asl_citizen:05718980880641222-SWIM",
+      "valid_pooling_frames": 23,
+      "frames": 79,
+      "pooling_status": "AVAILABLE"
+    },
+    {
+      "sample_id": "asl_citizen:25216490844672057-FANTASY",
+      "valid_pooling_frames": 18,
+      "frames": 64,
+      "pooling_status": "AVAILABLE"
+    }
+  ],
+  "limitation": "8 clips produced finite contextual features; one has no valid pooling frames under the conservative policy and must be excluded by future probes. This is not native accuracy."
+}

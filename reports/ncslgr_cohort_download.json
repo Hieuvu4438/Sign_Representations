@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "cohort_sha256": "21f20825bcdb67147f25e4a2c4f76fe41a8573da8228b0d99a2fc0f7035c8ddc",
+  "selected_urls": 444,
+  "ready_urls": 444,
+  "registered_bytes": 248033208,
+  "downloaded_urls": 444,
+  "failures": [],
+  "head_failures": [],
+  "inference_or_training_performed": false
+}

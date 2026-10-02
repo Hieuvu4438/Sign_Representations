@@ -1,0 +1,12 @@
+{
+  "status": "PASS_SCIENTIFIC_POLICY_UNCHANGED_AFTER_IMPORT_FIX",
+  "updated_utc": "2026-10-01T07:31:50.103567+00:00",
+  "changed_protocol_fields": [
+    "created_utc",
+    "identity_sha256"
+  ],
+  "old_protocol_sha256": "17d6c75029a800d34da861dfb6a23cfd767f642ece0e42224d40e08bcd061d6d",
+  "new_protocol_sha256": "ab8248f50f22a3f95a695450df6051dc0e506a359bfd37e49567dcff166deca8",
+  "scope": "v1 failed before model loading and feature generation; only eager XML import moved into readout preparation. All scientific policy fields identical; new sources and separate output locked before v2 smoke.",
+  "failure_archive": "evidence/ncslgr_branch_ablation_import_failure_v1/manifest.json"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "asset_id": "NCSLGR_PILOT_NCSLGR10A_1_2",
+    "index_row": {
+      "XML file": "ncslgr10a.xml",
+      "Occurs in utterance id": "1",
+      "main gloss": "fs-JOHN FINISH READ BOOK WHEN HOLD",
+      "Perspective/Camera id": "2",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/compressed/slave2/670_475_small_2.mov",
+      "Uncompressed AVI": "",
+      "Uncompressed AVI mirror 1": "",
+      "Uncompressed AVI mirror 2": "",
+      "Video file name in XML file": "670_475_slave2_small.mov",
+      "Video sequence id": "475"
+    },
+    "bytes": 195757,
+    "final_url": "https://csr.bu.edu/asl/private/compressed/slave2/670_475_small_2.mov",
+    "status": 200
+  },
+  {
+    "asset_id": "NCSLGR_PILOT_NCSLGR10B_0_2",
+    "index_row": {
+      "XML file": "ncslgr10b.xml",
+      "Occurs in utterance id": "0",
+      "main gloss": "MOTHER NOT-WANT BUY HOUSE",
+      "Perspective/Camera id": "2",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/compressed/slave2/718_523_small_2.mov",
+      "Uncompressed AVI": "",
+      "Uncompressed AVI mirror 1": "",
+      "Uncompressed AVI mirror 2": "",
+      "Video file name in XML file": "718_523_slave2_small.mov",
+      "Video sequence id": "523"
+    },
+    "bytes": 204733,
+    "final_url": "https://csr.bu.edu/asl/private/compressed/slave2/718_523_small_2.mov",
+    "status": 200
+  }
+]

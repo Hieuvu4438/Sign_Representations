@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED_GOLD_OR_ACCESS",
+  "config_sha256": "b0aac9082e61f39e94c7e7084e68a0aef73381a830020db8681db148e807bf02",
+  "script_sha256": "34e0ee56eff1776124255ee7dc6cf75c951b3cda8a3db42fdd6a00f2a109e416",
+  "device": "cpu",
+  "pid": 3,
+  "failure_reason": "ValueError: External semantic protocol remains blocked or unlocked: BLOCKED_ACCESS",
+  "elapsed_seconds": 3.276974894106388e-06
+}

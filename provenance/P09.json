@@ -1,0 +1,12 @@
+{
+  "asset_id": "P09",
+  "url": "https://arxiv.org/pdf/2606.28667",
+  "revision": "version to resolve from retrieved document",
+  "sha256": "72d1447545d44257545c75e0f2bf35e66db2d0ba599806d3e9bb8e7c34b5547b",
+  "bytes": 8523247,
+  "local_path": "evidence/papers/P09.pdf",
+  "utc_time": "2026-09-30T17:40:43.830714+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

@@ -1,0 +1,91 @@
+{
+  "updated_utc": "2026-10-01T06:30:38.891045+00:00",
+  "G0": {
+    "decision": "COMMON_PLUS_INTERNAL_RECORDED_FUNCTION_DIAGNOSTIC",
+    "status": "PASS_FOR_LIMITED_INTERNAL_DIAGNOSTICS",
+    "evidence": [
+      "reports/manifest_coverage.json",
+      "reports/asl_mtp_metadata_audit.json",
+      "user reply: no additional gold annotations",
+      "reports/ncslgr_annotation_audit/report.json",
+      "reports/ncslgr_media_audit.json",
+      "data/external/ncslgr/diagnostic_v1/protocol.lock.json"
+    ],
+    "reason": "Seven listed datasets provide lexical/sentence labels. Separately obtained historical public NCSLGR XML mirrors provide functional tiers and source intervals;222metadata-selected elicited utterances decoded and paired/cropped. External semantic and gold-absence claims remain gated."
+  },
+  "A-G0": {
+    "status": "BLOCKED_ACCESS",
+    "evidence": [
+      "reports/asl_mtp_resolution_pilot.json",
+      "evidence/dai_pages"
+    ],
+    "reason": "5 pilot semantic pairs have resolved metadata pending linguistic/video review; official download requires login; media not obtained.",
+    "unblock": "Authorized ASLLRP exported videos plus canonical utterance/recording mapping and linguistic review."
+  },
+  "A-G1": {
+    "status": "PASS_FOR_INTERNAL_RECORDED_FUNCTION_DIAGNOSTIC_WITH_LIMITS",
+    "evidence": [
+      "reports/ncslgr_annotation_audit/report.json",
+      "reports/ncslgr_media_audit.json",
+      "reports/ncslgr_input_preparation.json",
+      "runs/ncslgr_diagnostic_v1/summary.json",
+      "reports/ncslgr_diagnostic_audit.json"
+    ],
+    "reason": "Historical released functional NEG/WH/YN tiers yield222utterances,107train/27val/88test, with four disjoint source signers and no source sequence or exact RGB-video overlap. Target is positively recorded function, not affirmed absence. Mirror metadata consistency is not human inter-annotator agreement. Four XML aggregate groups cross splits, retained explicitly as grouping sensitivity.",
+    "limits": [
+      "Current2011XML byte identity not established; historical release only",
+      "ValYN2/NEG4 and one test signer give unstable selection and no signer-population inference",
+      "View resolution/color/background differ; view comparison does not isolate facial cues causally",
+      "External MTP overlap/canonical exclusions and pretraining overlap not established"
+    ]
+  },
+  "A-G2": {
+    "status": "PARTIAL_RECORDED_SINGLE_INTERVAL_DIAGNOSTIC_COMPLETE",
+    "evidence": [
+      "reports/ncslgr_annotation_audit/report.json",
+      "provenance/NCSLGR_PARSER.json",
+      "evidence/ncslgr/official_dom.py.txt",
+      "reports/ncslgr_media_audit.json",
+      "configs/protocol_ncslgr_intervals_v1.json",
+      "runs/ncslgr_intervals_v1/summary.json",
+      "reports/ncslgr_interval_audit.json"
+    ],
+    "reason": "Historical expert source functional-core intervals and verified original clocks support a limited positive single-event endpoint diagnostic:179utterances89train/25val/65test;43multiple-event utterances retain classification but no endpoint loss. Four matched6915parameter readouts completed with locked metrics. No absence inference, independently adjudicated grammatical scope, multi-event detector or calibrated presence probabilities.",
+    "unblock": "Independent complete grammatical-scope/phase/absence coverage and expert adjudication are still required for broader A04 scope-localization claims."
+  },
+  "B-G0": {
+    "status": "BLOCKED_DATA",
+    "reason": "No verified same-language lexical mapping from isolated queries to continuous occurrences.",
+    "unblock": "Expert/curated lexical mapping with provenance; matching English words is insufficient."
+  },
+  "B-G1": {
+    "status": "BLOCKED_DATA",
+    "reason": "Historical NCSLGR main-gloss intervals found; query mapping and exhaustively verified absent-target coverage remain unestablished.",
+    "unblock": "Occurrence interval annotations and verified-negative coverage.",
+    "evidence": [
+      "reports/ncslgr_annotation_audit/report.json"
+    ]
+  },
+  "B-G2": {
+    "status": "BLOCKED_DATA",
+    "reason": "Continuous ASL signer/source grouping partly unresolved.",
+    "unblock": "Canonical recording and signer metadata plus disjoint query/target splits."
+  },
+  "adaptation": {
+    "status": "PENDING_MECHANISM_AND_INDEPENDENT_CONFIRMATION",
+    "reason": "NativeNCSLGR222extraction,18strictcontrols and9author-imputed sensitivityheads completed. Primary native temporal-globalIoU-.06551CI[-.12845,-.01105]; allsixendpointheads below train-onlyprior. No evidence supporting proposed temporal mechanism, no encoder adaptation/novelty; external independent gold and lexicalretention controls still required.",
+    "evidence": [
+      "runs/ncslgr_diagnostic_v1/summary.json",
+      "reports/ncslgr_diagnostic_audit.json",
+      "reports/novelty_matrix.csv",
+      "runs/ncslgr_intervals_v1/summary.json",
+      "reports/ncslgr_interval_audit.json",
+      "configs/protocol_fair_common_v1.json",
+      "configs/protocol_fair_ncslgr_v1.json",
+      "reports/native_ncslgr_cpu_pilot_audit.json",
+      "runs/fair_ncslgr_v1/summary.json",
+      "runs/ncslgr_author_pool_v1/summary.json",
+      "reports/native_ncslgr_controls_audit.json"
+    ]
+  }
+}

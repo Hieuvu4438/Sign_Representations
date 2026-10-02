@@ -1,0 +1,31 @@
+{
+  "status": "PASS_METADATA_GROUPING",
+  "sample_counts": [
+    {
+      "dataset_id": "csl_daily_sentence_crop",
+      "split": "test",
+      "rows": 1176
+    },
+    {
+      "dataset_id": "csl_daily_sentence_crop",
+      "split": "train",
+      "rows": 18401
+    },
+    {
+      "dataset_id": "csl_daily_sentence_crop",
+      "split": "val",
+      "rows": 1077
+    }
+  ],
+  "recording_group_count": 20654,
+  "recording_overlaps": [],
+  "signer_count": 0,
+  "signer_overlaps": [],
+  "unresolved_recording_counts": {},
+  "exact_hash_overlaps": [],
+  "content_hash_coverage": 0,
+  "perceptual_duplicate_audit": "NOT_RUN",
+  "pretraining_overlap": "UNKNOWN",
+  "scope": "Metadata group audit; absent metadata overlap does not establish absent pretraining or visual duplication.",
+  "manifest_sha256": "885ac1ded2118e02908538633bea5a81f96dea7a13a8845f46cc70317f657ee4"
+}

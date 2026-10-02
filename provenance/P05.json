@@ -1,0 +1,12 @@
+{
+  "asset_id": "P05",
+  "url": "https://www.sign-lang.uni-hamburg.de/lrec/pub/26056.pdf",
+  "revision": "proceedings_or_explicit_v1",
+  "sha256": "b3f7d58c14dd7ca55ab0edc6401c7a0cc55b36a6c9aab36782053b9b926bbde0",
+  "bytes": 873882,
+  "local_path": "evidence/papers/P05.pdf",
+  "utc_time": "2026-09-30T17:40:15.149409+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

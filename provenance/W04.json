@@ -1,0 +1,12 @@
+{
+  "asset_id": "W04",
+  "url": "https://huggingface.co/ShesterG/SHuBERT/resolve/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/models/dinov2hand.pth",
+  "revision": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "sha256": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85",
+  "bytes": 112850895,
+  "local_path": "checkpoints/shubert_author_hf/models/dinov2hand.pth",
+  "utc_time": "2026-09-30T18:49:17.966451+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Public author model; research pipeline; license/training overlap to audit.",
+  "content_type": "application/octet-stream"
+}

@@ -1,0 +1,31 @@
+project_name: sign_representation_research
+research_track: auto_gate_A_then_B
+source_snapshot_date: '2026-09-30'
+data:
+  roots:
+    shared: /home/shared_data/sign_language
+    lab: /home/dongvk/datasets
+  source_mode: read_only
+  redownload_existing_datasets: false
+  canonical_roots: {}
+  allow_new_metadata: true
+  allowed_new_data: [asl_mtp_targeted_videos, asllrp_targeted_annotations]
+  bobsl_download_enabled: false
+  semlex_download_enabled: false
+compute:
+  gpu_index: 0
+  gpu_allocation_source: explicit_user_reply_2026_10_01
+  max_concurrent_gpu_jobs: 1
+  pilot_gpu_hours_cap: 8
+  adaptation_gpu_hours_cap: 24
+  new_download_cap_gib: 10
+  feature_cache_cap_gib: 100
+  disk_free_min_gib: 20
+  seeds: [0, 1, 2]
+protocol:
+  test_tuning_allowed: false
+  asl_mtp_role: external_test
+  primary_metric: unset_until_track_selected
+  freeze_before_test: true
+  full_finetuning_default: false
+  linguistic_gold_from_text_allowed: false

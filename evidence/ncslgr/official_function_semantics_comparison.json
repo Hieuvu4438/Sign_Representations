@@ -1,0 +1,708 @@
+{
+  "policy": "Compare participant ID, utterance ID, field NAME, value NAME, original text and absolute start/end. Ignore optional display LABEL and signer display NAME only; preserve all raw differences separately. No alias normalization, no temporal tolerance.",
+  "results": [
+    {
+      "xml_file": "accident.xml",
+      "official_fixture": "evidence/ncslgr/accident.official_fixture.xml",
+      "semantic_function_equal": false,
+      "official_only": [
+        [
+          "61",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          475400,
+          476800
+        ],
+        [
+          "61",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          478000,
+          479933
+        ],
+        [
+          "50",
+          "0",
+          "negative",
+          "ONSET",
+          "",
+          391133,
+          391733
+        ],
+        [
+          "50",
+          "0",
+          "negative",
+          "negation",
+          "",
+          391800,
+          393733
+        ],
+        [
+          "50",
+          "0",
+          "negative",
+          "OFFSET",
+          "",
+          393800,
+          394066
+        ],
+        [
+          "60",
+          "0",
+          "conditional/when",
+          "when",
+          "",
+          467800,
+          468533
+        ],
+        [
+          "60",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          465066,
+          474333
+        ],
+        [
+          "59",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          459666,
+          461333
+        ],
+        [
+          "59",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          461933,
+          465000
+        ],
+        [
+          "33",
+          "0",
+          "topic/focus",
+          "sentence-initial adverb",
+          "",
+          243466,
+          244133
+        ]
+      ],
+      "mirror_only": [
+        [
+          "33",
+          "0",
+          "topic/focus",
+          "sentence-initial adverb",
+          "",
+          121733,
+          122066
+        ],
+        [
+          "29",
+          "0",
+          "conditional/when",
+          "conditional",
+          "",
+          102800,
+          104333
+        ],
+        [
+          "59",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          229833,
+          230666
+        ],
+        [
+          "59",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          230966,
+          232500
+        ],
+        [
+          "60",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          232533,
+          237166
+        ],
+        [
+          "60",
+          "0",
+          "conditional/when",
+          "when",
+          "",
+          233900,
+          234266
+        ],
+        [
+          "61",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          237700,
+          238400
+        ],
+        [
+          "61",
+          "0",
+          "role shift",
+          "doctor",
+          "",
+          238866,
+          239966
+        ],
+        [
+          "50",
+          "0",
+          "negative",
+          "negation",
+          "",
+          195900,
+          196866
+        ]
+      ],
+      "display_metadata_differences": {
+        "official_participants": {
+          "0": {
+            "AGE": "22",
+            "GENDER": "male",
+            "ID": "0",
+            "LABEL": "Mike",
+            "LANGUAGE": "ASL",
+            "NAME": "Michael Eric Schlang"
+          }
+        },
+        "mirror_participants": {
+          "0": {
+            "AGE": "22",
+            "GENDER": "male",
+            "ID": "0",
+            "LABEL": "Mike",
+            "LANGUAGE": "ASL",
+            "NAME": "Michael Schlang"
+          }
+        }
+      }
+    },
+    {
+      "xml_file": "ali.xml",
+      "official_fixture": "evidence/ncslgr/ali.official_fixture.xml",
+      "semantic_function_equal": false,
+      "official_only": [
+        [
+          "28",
+          "0",
+          "role shift",
+          "Ali",
+          "",
+          236266,
+          236299
+        ],
+        [
+          "28",
+          "0",
+          "role shift",
+          "reporter",
+          "",
+          239000,
+          240666
+        ],
+        [
+          "28",
+          "0",
+          "role shift",
+          "Ali",
+          "",
+          243066,
+          249533
+        ],
+        [
+          "3",
+          "0",
+          "negative",
+          "negation",
+          "",
+          26666,
+          26800
+        ],
+        [
+          "6",
+          "0",
+          "conditional/when",
+          "when",
+          "",
+          39400,
+          39600
+        ],
+        [
+          "6",
+          "0",
+          "conditional/when",
+          "OFFSET",
+          "",
+          39666,
+          39733
+        ],
+        [
+          "5",
+          "0",
+          "conditional/when",
+          "when",
+          "",
+          36600,
+          39400
+        ],
+        [
+          "24",
+          "0",
+          "negative",
+          "negation",
+          "",
+          205800,
+          207600
+        ],
+        [
+          "24",
+          "0",
+          "role shift",
+          "Ali's Wife",
+          "",
+          201000,
+          207600
+        ],
+        [
+          "11",
+          "0",
+          "topic/focus",
+          "sentence-initial adverb",
+          "",
+          82600,
+          84066
+        ],
+        [
+          "4",
+          "0",
+          "role shift",
+          "father",
+          "",
+          30333,
+          35133
+        ],
+        [
+          "23",
+          "0",
+          "yes-no question",
+          "yes-no question",
+          "",
+          192466,
+          199733
+        ],
+        [
+          "23",
+          "0",
+          "role shift",
+          "reporter",
+          "",
+          192066,
+          200066
+        ],
+        [
+          "30",
+          "0",
+          "negative",
+          "ONSET",
+          "",
+          258066,
+          258533
+        ],
+        [
+          "30",
+          "0",
+          "negative",
+          "negation",
+          "",
+          258600,
+          259800
+        ],
+        [
+          "30",
+          "0",
+          "rhetorical question",
+          "yes-no rhq",
+          "",
+          257533,
+          258266
+        ],
+        [
+          "18",
+          "0",
+          "wh question",
+          "whq",
+          "",
+          157400,
+          160666
+        ],
+        [
+          "2",
+          "0",
+          "role shift",
+          "grandfather",
+          "",
+          18400,
+          22200
+        ],
+        [
+          "31",
+          "0",
+          "rhetorical question",
+          "wh rhq",
+          "",
+          265000,
+          265066
+        ],
+        [
+          "25",
+          "0",
+          "yes-no question",
+          "yes-no question",
+          "",
+          209933,
+          211066
+        ],
+        [
+          "25",
+          "0",
+          "role shift",
+          "reporter",
+          "",
+          209600,
+          211400
+        ],
+        [
+          "35",
+          "0",
+          "rhetorical question",
+          "wh rhq",
+          "",
+          298000,
+          298066
+        ],
+        [
+          "26",
+          "0",
+          "role shift",
+          "Ali",
+          "",
+          217266,
+          218533
+        ],
+        [
+          "26",
+          "0",
+          "role shift",
+          "Ali",
+          "",
+          220866,
+          227400
+        ],
+        [
+          "19",
+          "0",
+          "yes-no question",
+          "yes-no question",
+          "",
+          163866,
+          165533
+        ]
+      ],
+      "mirror_only": [
+        [
+          "19",
+          "0",
+          "yes-no question",
+          "yes-no question",
+          "",
+          81933,
+          82766
+        ],
+        [
+          "35",
+          "0",
+          "rhetorical question",
+          "wh rhq",
+          "",
+          149000,
+          149033
+        ],
+        [
+          "18",
+          "0",
+          "wh question",
+          "whq",
+          "",
+          78700,
+          80333
+        ],
+        [
+          "11",
+          "0",
+          "topic/focus",
+          "sentence-initial adverb",
+          "",
+          41300,
+          42033
+        ],
+        [
+          "23",
+          "0",
+          "role shift",
+          "reporter",
+          "",
+          96033,
+          100033
+        ],
+        [
+          "23",
+          "0",
+          "yes-no question",
+          "yes-no question",
+          "",
+          96233,
+          99866
+        ],
+        [
+          "24",
+          "0",
+          "role shift",
+          "Ali's Wife",
+          "",
+          100500,
+          103800
+        ],
+        [
+          "24",
+          "0",
+          "negative",
+          "negation",
+          "",
+          102900,
+          103800
+        ],
+        [
+          "25",
+          "0",
+          "role shift",
+          "reporter",
+          "",
+          104800,
+          105700
+        ],
+        [
+          "25",
+          "0",
+          "yes-no question",
+          "yes-no question",
+          "",
+          104966,
+          105533
+        ],
+        [
+          "26",
+          "0",
+          "role shift",
+          "Ali",
+          "",
+          108633,
+          109266
+        ],
+        [
+          "26",
+          "0",
+          "role shift",
+          "Ali",
+          "",
+          110433,
+          113700
+        ],
+        [
+          "28",
+          "0",
+          "role shift",
+          "Ali",
+          "",
+          118133,
+          118166
+        ],
+        [
+          "28",
+          "0",
+          "role shift",
+          "reporter",
+          "",
+          119500,
+          120333
+        ],
+        [
+          "28",
+          "0",
+          "role shift",
+          "Ali",
+          "",
+          121533,
+          124766
+        ],
+        [
+          "3",
+          "0",
+          "negative",
+          "negation",
+          "",
+          13333,
+          13733
+        ],
+        [
+          "2",
+          "0",
+          "role shift",
+          "grandfather",
+          "",
+          9200,
+          11100
+        ],
+        [
+          "30",
+          "0",
+          "rhetorical question",
+          "yes-no rhq",
+          "",
+          128766,
+          129133
+        ],
+        [
+          "30",
+          "0",
+          "negative",
+          "negation",
+          "",
+          129300,
+          129900
+        ],
+        [
+          "6",
+          "0",
+          "conditional/when",
+          "when",
+          "",
+          19700,
+          19800
+        ],
+        [
+          "6",
+          "0",
+          "conditional/when",
+          "OFFSET",
+          "",
+          19833,
+          19866
+        ],
+        [
+          "5",
+          "0",
+          "conditional/when",
+          "when",
+          "",
+          18300,
+          19700
+        ],
+        [
+          "31",
+          "0",
+          "rhetorical question",
+          "wh rhq",
+          "",
+          132500,
+          132533
+        ],
+        [
+          "4",
+          "0",
+          "role shift",
+          "father",
+          "",
+          15166,
+          17566
+        ]
+      ],
+      "display_metadata_differences": {
+        "official_participants": {
+          "0": {
+            "AGE": "22",
+            "GENDER": "male",
+            "ID": "0",
+            "LABEL": "Mike",
+            "LANGUAGE": "ASL",
+            "NAME": "Michael Eric Schlang"
+          }
+        },
+        "mirror_participants": {
+          "0": {
+            "AGE": "22",
+            "GENDER": "male",
+            "ID": "0",
+            "LABEL": "Mike",
+            "LANGUAGE": "ASL",
+            "NAME": "Michael Schlang"
+          }
+        }
+      }
+    },
+    {
+      "xml_file": "ncslgr10a.xml",
+      "official_fixture": "evidence/ncslgr/ncslgr10a.official_fixture.xml",
+      "semantic_function_equal": true,
+      "official_only": [],
+      "mirror_only": [],
+      "display_metadata_differences": {
+        "official_participants": {
+          "0": {
+            "ID": "0",
+            "NAME": "Benjamin James Bahan",
+            "LABEL": "Ben",
+            "AGE": "42",
+            "GENDER": "male",
+            "LANGUAGE": "ASL"
+          }
+        },
+        "mirror_participants": {
+          "0": {
+            "AGE": "42 years",
+            "GENDER": "male",
+            "ID": "0",
+            "LABEL": "Ben",
+            "LANGUAGE": "ASL",
+            "NAME": "Benjamin Bahan"
+          }
+        }
+      }
+    }
+  ]
+}

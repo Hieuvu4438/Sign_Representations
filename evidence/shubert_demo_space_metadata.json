@@ -1,0 +1,184 @@
+{
+  "_id": "686f1929f2ea83dcb93fd2c0",
+  "id": "ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText",
+  "sdk": "gradio",
+  "likes": 1,
+  "tags": [
+    "gradio",
+    "region:us"
+  ],
+  "private": false,
+  "author": "ShesterG",
+  "sha": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+  "lastModified": "2025-07-12T22:34:35.000Z",
+  "cardData": {
+    "title": "TTIC SHuBERT ASLVideo To EnglishText 2",
+    "emoji": "\ud83d\udcda",
+    "colorFrom": "blue",
+    "colorTo": "gray",
+    "sdk": "gradio",
+    "sdk_version": "5.35.0",
+    "app_file": "app.py",
+    "pinned": false,
+    "license": "mit",
+    "short_description": "Sign Language Translation"
+  },
+  "subdomain": "shesterg-ttic-shubert-aslvideo-to-englishtext",
+  "gated": false,
+  "disabled": false,
+  "host": "https://shesterg-ttic-shubert-aslvideo-to-englishtext.hf.space",
+  "models": [
+    "google/byt5-base",
+    "ShesterG/SHuBERT"
+  ],
+  "region": "us",
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "__pycache__/body_features.cpython-38.pyc"
+    },
+    {
+      "rfilename": "__pycache__/crop_face.cpython-38.pyc"
+    },
+    {
+      "rfilename": "__pycache__/crop_hands.cpython-38.pyc"
+    },
+    {
+      "rfilename": "__pycache__/dinov2_features.cpython-38.pyc"
+    },
+    {
+      "rfilename": "__pycache__/inference.cpython-38.pyc"
+    },
+    {
+      "rfilename": "__pycache__/kpe_mediapipe.cpython-38.pyc"
+    },
+    {
+      "rfilename": "__pycache__/shubert.cpython-38.pyc"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "attention.py"
+    },
+    {
+      "rfilename": "block.py"
+    },
+    {
+      "rfilename": "body_features.py"
+    },
+    {
+      "rfilename": "crop_face.py"
+    },
+    {
+      "rfilename": "crop_hands.py"
+    },
+    {
+      "rfilename": "dailymoth_examples/L5hUxT5YbnY_crop_1.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/L5hUxT5YbnY_crop_2.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/L5hUxT5YbnY_crop_3.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/L5hUxT5YbnY_crop_4.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/L5hUxT5YbnY_crop_5.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/L5hUxT5YbnY_crop_6.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/L5hUxT5YbnY_crop_7.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_1.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_10.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_2.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_3.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_4.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_5.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_6.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_7.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_8.mp4"
+    },
+    {
+      "rfilename": "dailymoth_examples/rDUefZVPfmU_crop_9.mp4"
+    },
+    {
+      "rfilename": "dinov2_features.py"
+    },
+    {
+      "rfilename": "features.py"
+    },
+    {
+      "rfilename": "inference.py"
+    },
+    {
+      "rfilename": "kpe_mediapipe.py"
+    },
+    {
+      "rfilename": "pre-requirements.txt"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "shubert.py"
+    },
+    {
+      "rfilename": "shubert_inference.py"
+    }
+  ],
+  "createdAt": "2025-07-10T01:36:41.000Z",
+  "usedStorage": 11769551,
+  "runtime": {
+    "stage": "RUNNING",
+    "hardware": {
+      "current": "cpu-basic",
+      "requested": "cpu-basic"
+    },
+    "gcTimeout": 172800,
+    "replicas": {
+      "current": 1,
+      "requested": 1
+    },
+    "devMode": false,
+    "domains": [
+      {
+        "domain": "shesterg-ttic-shubert-aslvideo-to-englishtext-2.hf.space",
+        "stage": "READY"
+      },
+      {
+        "domain": "shesterg-ttic-shubert-aslvideo-to-englishtext.hf.space",
+        "stage": "READY"
+      }
+    ],
+    "sha": "69d3d77aa4a4fec89048f5417d44fa717e36f6f8",
+    "pySpacesVersion": "0.48.1"
+  }
+}

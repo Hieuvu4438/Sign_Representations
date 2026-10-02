@@ -1,0 +1,41 @@
+{
+  "status": "PASS_CATEGORICAL_CALIBRATION_SENSITIVITY_WITH_LIMITS",
+  "observed_utc": "2026-10-01T00:36:24.630163+00:00",
+  "source_summary": "runs/ncslgr_calibration_v1/summary.json",
+  "heads": 9,
+  "selected_temperatures": [
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0
+  ],
+  "upper_grid_boundary_count": 9,
+  "argmax_and_raw_probability_reproduction": "All9heads matched immutable prior prediction tables and probabilities in runtime checks. Positive temperature preserved argmax.",
+  "primary": {
+    "point": 1.9014784081349962,
+    "reference_point": 13.197944982715487,
+    "delta": -11.296466574580492,
+    "delta_ci95": [
+      -15.858035037185479,
+      -7.11493534986416
+    ],
+    "groups": 88,
+    "samples": 88,
+    "seeds": 3,
+    "resamples": 2000,
+    "scope": "Conditional fixed-head source-group interval; no signer-population or retraining uncertainty."
+  },
+  "interpretation": "Within-grid validation-selected scaling lowers categorical NLL/Brier on this exploratory cohort. All9choices hit upper grid boundary; do not claim calibrated uncertainty or expand grid using test results.",
+  "limits": [
+    "Same-cohort test classification already observed: exploratory sensitivity, not independent confirmatory calibration.",
+    "One validation signer, only27validation utterances, sparse NEG/YN. Validation reused for original LR selection; calibration selection is not independent of head selection.",
+    "One test signer and four shared XML archive groups; conditional source-group CIs are not signer-population inference.",
+    "Finite-bin ECE on88test utterances is noisy; improved NLL alone does not establish calibrated uncertainty.",
+    "No representation adaptation, semantic minimal-pair accuracy or method novelty."
+  ]
+}

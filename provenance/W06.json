@@ -1,0 +1,12 @@
+{
+  "asset_id": "W06",
+  "url": "https://huggingface.co/ShesterG/SHuBERT/resolve/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/models/hand_landmarker.task",
+  "revision": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+  "bytes": 7819105,
+  "local_path": "checkpoints/shubert_author_hf/models/hand_landmarker.task",
+  "utc_time": "2026-09-30T18:49:37.090494+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Public author model; research pipeline; license/training overlap to audit.",
+  "content_type": "application/octet-stream"
+}

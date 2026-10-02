@@ -1,0 +1,2147 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SignStream™ Annotation: 
+Addendum to 
+Conventions used for the  
+American Sign Language  
+Linguistic Research Project 
+ 
+Carol Neidle 
+Boston University 
+ 
+Report No. 13 
+American Sign Language 
+Linguistic Research Project 
+http://www.bu.edu/asllrp/ 
+ASLLRP Annotation Schema 
+version 3.0 
+ 
+© August 2007
+
+
+i 
+ 
+Contents 
+ 
+Contents................................................................................................................................................... i 
+List of figures......................................................................................................................................... iii 
+Introduction............................................................................................................................................ 1 
+♦ 
+Background information .....................................................................................................................................1 
+The American Sign Language Research Project (ASLLRP) at Boston University .................................................................1 
+SignStream™................................................................................................................................................................................1 
+National Center for Sign Language and Gesture Resources (NCSLGR) at BU.......................................................................1 
+Data Distribution: ASL Video with Linguistic Annotations .....................................................................................................1 
+♦ 
+Purpose of this document ....................................................................................................................................2 
+♦ 
+Organization..........................................................................................................................................................2 
+♦ 
+Acknowledgments.................................................................................................................................................2 
+Challenges for consistency with large amounts of data.......................................................................... 3 
+♦ 
+ASL variants differing in handshape.................................................................................................................3 
+♦ 
+Non one-to-one correspondence between English glosses and ASL signs....................................................3 
+Lack of standardization of glossing conventions........................................................................................................................4 
+Many-to-one (and many-to-many) relationships between ASL signs and English translations..............................................4 
+Parts of speech: One ASL sign corresponding to more than one English POS........................................................................5 
+Two morphologically related ASL signs ending up with morphologically unrelated English glosses ..................................6 
+♦ 
+How much morphological decomposition to include in glosses?...................................................................6 
+♦ 
+Part of speech labeling .........................................................................................................................................7 
+♦ 
+A word of caution to computer scientists..........................................................................................................7 
+Illustrations of glosses ............................................................................................................................ 8 
+Consistency in the annotation of gestures............................................................................................. 16 
+♦ 
+Some comments on the annotation of gestures ..............................................................................................16 
+Gestures vs. signs........................................................................................................................................................................16 
+Difficulties in capturing meanings and choosing labels...........................................................................................................16 
+♦ 
+Palms Up ..............................................................................................................................................................17 
+♦ 
+Palms Out.............................................................................................................................................................20 
+Sideways Movement ..................................................................................................................................................................20 
+Movement Away from Body .....................................................................................................................................................21 
+Movement Down ........................................................................................................................................................................22 
+♦ 
+Palms Down .........................................................................................................................................................22 
+♦ 
+Palms facing each other/Center........................................................................................................................23 
+♦ 
+Palms facing body...............................................................................................................................................25 
+Sideways Movement ..................................................................................................................................................................26 
+♦ 
+Other Gestures ....................................................................................................................................................26 
+♦ 
+Stories from which the above examples were taken......................................................................................27 
+
+ii 
+ 
+Appendix A.  Available software and data ............................................................................................ 28 
+♦ 
+The SignStream™ application..........................................................................................................................28 
+♦ 
+NCSLGR Data Sets.............................................................................................................................................28 
+Earlier collections .......................................................................................................................................................................28 
+NCSLGR Data Release 2007.....................................................................................................................................................29 
+Appendix B: Handshapes ..................................................................................................................... 31 
+Appendix C: SignStream™ XML DTD ................................................................................................ 38 
+Appendix D: References ....................................................................................................................... 40 
+Index..................................................................................................................................................... 45 
+
+iii 
+ 
+List of figures 
+Figure 1. ASL variants distinguished by handshape ..................................................................................... 8 
+Figure 2.  Glosses for signs that can translate English “leave” .................................................................... 8 
+Figure 3.  Sign glossed as EXCUSE-GO....................................................................................................... 8 
+Figure 4.  Glosses for signs that can translate English “look”...................................................................... 9 
+Figure 5.  Glosses for signs that can translate English “open”..................................................................... 9 
+Figure 6.  Two signs that can be used to translate English “pay” ................................................................ 9 
+Figure 7.  Glosses for signs about talking/signing......................................................................................... 9 
+Figure 8.  Glosses for FINISH vs. FINISH-shake....................................................................................... 10 
+Figure 9. Glosses for signs corresponding to “out” in English................................................................... 10 
+Figure 10.  Several of the many ASL signs for “no,” “none,” “nothing,” “nobody”................................ 10 
+Figure 11.  English glosses for several ASL signs in our data set.............................................................. 11 
+Figure 12.  English glosses for other ASL signs in our data set ................................................................. 12 
+Figure 13.  Signs with multiple English translations, depending on usage ............................................... 13 
+Figure 14.  Glosses for English “give”......................................................................................................... 13 
+Figure 15.  Glosses for English “mind” ....................................................................................................... 14 
+Figure 16.  Glosses for English “telephone,” “call”.................................................................................... 14 
+Figure 17.  Morphologically related ASL signs glossed as MISTAKE and WRONG............................. 14 
+Figure 18.  Morphologically related ASL signs glossed as RESIDENCE/ADDRESS and LIVE........... 15 
+ 
+
+iv 
+
+1 
+ 
+Introduction 
+♦ Background information  
+The American Sign Language Research Project (ASLLRP) at Boston University  
+The American Sign Language Linguistic Research Project, henceforth ASLLRP, has been a 
+collaborative endeavor involving the participation of many individuals over the past 15 years or 
+so. The linguistic focus of this project has been the study of the syntax of American Sign 
+Language (ASL); see, e.g., [1, 3, 4, 7, 15-18, 23, 24, 31-33, 40, 41].  In conjunction with this 
+research, we have developed software to facilitate the linguistic annotation and examination of 
+sign language data.  The SignStream™ application is described below. See http://www.bu.edu/asllrp/ 
+for further information. 
+SignStream™ 
+SignStream™ is a Macintosh Classic application1 for linguistic annotation of visual language 
+data [19, 21, 22, 42].  The program is available on CD-ROM  or from our Web site (see Appendix 
+A).  A Java reimplementation is currently underway, planned for release in 2008. The new 
+version will contain many new features, including tools for efficient annotation of fine-grained 
+phonological information.  It will run on a variety of computer platforms and will be 
+backwards-compatible with transcriptions of data that have been carried out with the current 
+version of SignStream (v. 2.2.2). 
+National Center for Sign Language and Gesture Resources (NCSLGR) at BU 
+In collaboration with colleagues at Rutgers University, researchers at Boston University in 
+Linguistics and Computer Science set up a data collection facility with synchronized digital 
+video cameras enabling capture of multiple views of signing by Deaf native users of American 
+Sign Language (ASL).  These videos have been annotated using SignStream™, following 
+conventions discussed in ASLLRP Report No. 11 [21] and this addendum to that report. The data 
+have been an important element not only of our linguistic research, but also of collaborative 
+work with computer scientists (Dimitris Metaxas; Gabriel Tsechpenakis; Christian Vogler; Stan 
+Sclaroff, et al.) interested in the problem of sign language recognition [2, 6, 12-14, 20, 42-51].  
+These data are available to researchers, as explained below. See http://www.bu.edu/asllrp/cslgr. 
+Data Distribution: ASL Video with Linguistic Annotations 
+The full list of data now available is contained in Appendix A.  The 2007 data release 
+includes 15 short narratives as well as over 200 individual elicited utterances incorporating a 
+range of different syntactic constructions (for a total of just about 1,100 utterances in all).  These 
+are distributed on CD-ROM and over the Internet.  It will also soon be possible to search 
+through these data sets through a Web interface currently under development, which will also 
+enable download of those video files (available in a variety of formats) and annotations that 
+may be of interest.  The annotations are available not only as SignStream™ database files, but  
+also as XML (see Appendix C for the XML specifications).  This report, in conjunction with [3], 
+explains the conventions used for these annotations. 
+                                                
+1 Note that the newest Macintosh computers with Intel processors do not support Classic applications, nor does the 
+Leopard operating system that Apple has announced for release in October of 2007. 
+
+SignStream Annotation Conventions                                         2                                              Introduction 
+ 
+ 
+♦ Purpose of this document 
+This report is intended to supplement and extend ASLLRP Report No. 11 [21] , which 
+described the conventions used for the data we had annotated using SignStream™ until that 
+time. This document discusses issues that have arisen since then with respect to the annotations 
+and  is intended to provide explanations for the annotation conventions of the ASLLRP 2007 
+Data Release. We discuss the considerations that led us to make particular choices. Different 
+circumstances, annotation tools, and linguistic interests could very well lead others to make 
+different choices. We hope, at least, that raising these issues may help others to arrive at their 
+own coding decisions.   
+Important note:  This discussion builds on what was established in [21], which includes 
+essential explanations and caveats about interpretation of these annotations.  The conventions 
+described in these two documents combined will be referred to as version 3.0 of the ASLLRP 
+Annotation Schema. 
+♦ Organization 
+The first part of this report focuses on the choices of English glosses for ASL signs.  The 
+second part addresses the problems with annotation of ASL gestures.  Examples and 
+illustrations provided throughout this report are taken from the stories, listed on page 27; 
+complete information about available data is provided in Appendix A.  Appendix B reiterates 
+information from [21] about handshape labels, for convenient access.  Appendix C provides the 
+DTD for the SignStream™ XML format.  
+♦ Acknowledgments 
+Contributors to the ASLLRP at Boston University have included many people who were 
+graduate students here while they were involved in this project:  Debra Aarons, Ben Bahan, 
+Fran Conlin, Quinn Duffy, Sarah Fish, Jack Hoza, Judith Labath, Robert G. Lee, Dawn 
+MacLaughlin, Deborah Perry, and Michael Schlang.  Other invaluable participants in the project 
+have included David Greenberg (the principal programmer for SignStream™ versions 1 and 2) 
+and Otmar Fœlsche at Dartmouth University; Iryna Zhuravlova, our current SignStream™ 
+developer; and Stan Sclaroff and Vassilis Athitsos, who have assisted with the data capture.  We 
+are also very grateful for assistance and consultation by Lana Cook, Carla DaSilva, Dana 
+Schlang, and Norma Tourangeau.  Thanks also to Rebecca Kranz, a student at the Boston 
+University Academy who has worked as intern during the summer of 2007.  The design of the 
+SignStream™ application and the decisions about annotation have benefited from the work, 
+suggestions, and ideas contributed by those listed above, as well as Jason Boyd, Diane Brentari, 
+Sue Duncan, Barbara Eger, Erica Hruby, Judy Kegl, George Kierstein, Ginger Leon, Tamara 
+Neuberger, Patricia Trowbridge, and others. We are also grateful for discussions and e-mail 
+exchanges with those who have been using SignStream. This research has been funded in part 
+by grants from the National Science Foundation (#SBR-9410562, #IIS-9528985, #IIS-9912573, 
+#EIA-9809340, #IIS-0329009, and #CNS-04279883).  
+ 
+
+SignStream Annotation Conventions                                         3                                     Challenges for consistency 
+ 
+Challenges for consistency with large amounts of data 
+The attempt to represent ASL signs via glosses from a totally different language, English, 
+poses certain unavoidable problems.  This has necessitated choices involving trade-offs of 
+various kinds.  Decisions have been made with a view to how the gloss annotations will be 
+exploited.  However, some of these have been arbitrary, and many would not be obvious 
+without explanation.  This document—in combination with SignStream™ Annotation: 
+Conventions used for the American Sign Language Linguistic Research Project, ASLLRP Report 11 
+[21]—is intended to assist those who wish to make use of the annotated data described in 
+Appendix A in understanding what the annotations actually mean.   
+This report is also intended as documentation of choices that have been made to assist those 
+who will be continuing to work on this project.  As additional data are added to our collection, 
+consistency with respect to annotations is critical to the overall utility of the data set.  
+To facilitate both linguistics and computer science research, we have tried our best to settle 
+on conventions to ensure that every time a particular English gloss is used, it corresponds to a 
+unique ASL sign, and conversely, that the same ASL sign will have a predictable English gloss. 
+♦ ASL variants differing in handshape 
+For cases where there were close variants of a single ASL sign (which would most naturally 
+have the same English gloss), we added information about handshape—in parentheses, 
+preceding the gloss—to distinguish them, as shown in Figure 1.  If only one variant includes a 
+notation of handshape, the unmarked form of the sign (or the variant that occurred most 
+frequently in our corpus) is generally the one left without indication of handshape.  The ”code” 
+for interpreting handshape labels is found in Appendix B.  In one case, there was no standard 
+handshape descriptor available to distinguish two signs. A variant of BETWEEN was glossed as 
+“(vulcan)BETWEEN” since the non-dominant handshape is reminiscent of that used as a Vulcan 
+salute on Star Trek. 
+♦ Non one-to-one correspondence between English glosses and ASL signs 
+Most ASL signs can be used in a variety of ways, and, depending on their usage, can have 
+multiple translations into English.  Likewise, a single English translation may be appropriate, in 
+various contexts, for more than one ASL sign.  
+There are certain English words that might, depending on context, be the most appropriate 
+translation for several different ASL signs.  Consider, for example, the verb “leave,” which itself 
+has several different meanings and usages in English, as in (1) and (2). 
+(1) I left (the party). 
+(2) I left the book on the table.  
+One option for annotation would have been to simply gloss ASL signs as LEAVE-1, 
+LEAVE-2, and so on.  However, we decided instead, in such cases, to choose different English 
+words to be used consistently with each of the variants.  Figure 2 shows the alternative glosses 
+that have been adopted,  reserving LEAVE as the gloss for the sign that begins with both hands 
+palms down and then has sideward movement of the hands that change to an A handshape.  
+
+SignStream Annotation Conventions                                         4                                      Challenges for consistency 
+This does not mean, however, that the differences in meaning of the English words have any 
+necessary relationship to the differences in sign meaning, although in the rare cases where it 
+was possible to convey distinctions in meaning through the glossing, we did so.  For example, 
+there is a sign that seems to involve aspects of both the meaning and articulation of TAKE-OFF 
+and EXCUSE, which was glossed as EXCUSE-GO, shown in Figure 3. 
+Similarly, there are several uses of “look” in English, as in examples (3)-(5). 
+(3) John looked (up/at the wolf).  
+(4) John looked tired. 
+(5) John looked like his father. 
+Figure 4 illustrates the glossing conventions we have used for the various meanings of “look,” 
+the last of which is a compound (as indicated by the + ).  
+The sign for “open” varies depending on what is being opened.  We used the gloss  
+OPEN-BOOK to distinguish that sign from the sign usually glossed as OPEN.  These are both 
+illustrated in Figure 5. 
+For signs with very close meanings and various but overlapping English translations, we 
+made sometimes arbitrary assignments of English glosses, and we followed these conventions 
+to ensure consistency.  Sometimes these glosses were supplemented by handshape information.  
+Examples are shown in Figure 6 through Figure 7.  The gloss TALKwg incorporates information 
+about the articulation:  finger wiggling.  A similar notation was used to distinguish a variant of 
+the sign FINISH that occasionally involves shaking of the hands (rotation of the wrists), as 
+illustrated for the gloss FINISH-shake in Figure 8. 
+The many signs (and their variants) for conveying the idea of no, none, nobody, nothing 
+posed a particularly difficult challenge.  The choice of English glosses in this case provides 
+virtually no information about the range of meanings and usages that all of these signs can 
+have.  An attempt was made, again, simply to provide unique labels, as illustrated in Figure 10.  
+Lack of standardization of glossing conventions 
+One obvious problem with the use of English glossing is the lack of standardization.  In 
+Figure 11 and Figure 12, illustrations are provided for a few glosses that may not be transparent 
+(or for cases in which other glosses might alternatively have been used). 
+Many-to-one (and many-to-many) relationships between ASL signs and English translations 
+As in all languages, it is possible to have two very different words/meanings that “sound” 
+the same.  There are, unsurprisingly, ASL signs that can have very different meanings, and thus 
+very different ways of being translated into English.  There are also cases where the ASL sign 
+does not have a very good translation into English at all, because there is no word in English 
+that is used in quite the same way.  In cases like these, we have used two English words 
+separated by a slash.  For some signs, of course, the list would grow quite long if it were to 
+include all possible English translations.  For example, we used the gloss PRICE for the sign that 
+can mean “cost,” “tax,” “toll,” “fee,” “fine“ (as in one of our stories), “penalty,” or “price.”  As 
+with all of the glosses, there are meanings of the sign that simply are not represented in the  
+ 
+
+SignStream Annotation Conventions                                         5                                     Challenges for consistency 
+ 
+conventional gloss that is being used (making the gloss seem quite odd in certain contexts). 
+Some examples are included in Figure 13.  These glosses also face the same issues mentioned 
+elsewhere in this document, including those related to parts of speech, to be discussed next.  
+Parts of speech: One ASL sign corresponding to more than one English POS 
+Sometimes an ASL sign can function as more than one part of speech, e.g., both a noun and a 
+verb, or both an adjective and an adverb.  Despite the fact that the optimal English translations 
+on those two usages would frequently be different, we have generally chosen a single English 
+translation.  Sometimes the choice of English word was arbitrary; sometimes it was motivated 
+by frequency of occurrence of the signs with the various meanings.  Some generalizations about 
+the choices we made are listed here: 
+• For verbs that can be used to translate both verbs and participial adjectives in English 
+(e.g., “tempt” or “tempted”), we have generally used the verbal form (TEMPT).  Thus, for 
+example, the sign that can mean either “bored” or “boring” is glossed as BORE. Other 
+similar examples include FINISH (which can used to express the English adjective 
+“finished,” as in “Are you finished?”), MOTIVATE (which can mean “motivated”), and 
+SCARE (which can mean “scared”).  
+• For signs that in ASL only have an adjectival form, even though English productively uses 
+both a verbal and adjectival form of its nearest translation, we have opted for the 
+participial/adjectival English word (e.g., RELIEVED, FASCINATED).  
+• There are also some signs that can be used as either  nouns or adjectives.  For example, the 
+sign NAUSEA is used in one of our examples as an adjective meaning “gross” or 
+“disgusting.”  The nominal form is used for that English gloss.  The gloss DIFFERENT 
+was used to translate both the adjective, “different,” and the noun, “difference.” The 
+adjective SICK, with reduplication also functions as a noun (meaning “disease”). There 
+are two verbs that frequently translate the English “give”.  We have glossed one of them 
+as GIVE and the other as GIFT (as it also has the possibility to be used as a noun).  These 
+are illustrated in  Figure 14. 
+• For signs that could have a prepositional or verbal meaning, generally, we stayed with the 
+preposition for the English gloss.  For example, ACROSS was used for the sign sometimes 
+corresponding to the English preposition “across” and sometimes to the verb meaning “to 
+cross.”  
+• There are many ASL signs that can function as both nouns and verbs, whereas the forms 
+would be different for the English translations.  We have used APPLAUSE for both 
+“applaud” and “applause,” BLOOD as to translate the English “blood” and “bleed,” LIVE 
+to translate both “live” and “life,” INFORM to translate both “inform” and “information“; 
+the nominal form in ASL may, but need not, involve reduplication of the stem, which is 
+indicated by + when it occurs. The same is true for the noun “advice” and the verb 
+“advise,” glossed as ADVISE, with a + to mark the reduplication frequently found with 
+the nominal forms.  We use the gloss ADVANTAGE both for the noun and for the verb 
+meaning “to take advantage”.  For “mind”, we glossed the noun as MIND and a verb 
+used in constructions such as “would you mind… ?” as NOT-MIND; see Figure 15. 
+
+SignStream Annotation Conventions                                         6                                      Challenges for consistency 
+• In general, we used the same gloss, but different parts of speech, for signs that can 
+function in different ways syntactically, e.g. READY (used either as an adjective or a verb 
+meaning “to get ready”).  However, in some cases, particularly when the English 
+translations have significantly different (albeit sometimes morphologically related) forms, 
+we included more than one possible English translation with a slash, as in LEGAL/LAW, 
+FAVORITE/PREFER. 
+• Sometimes a single gloss has the possibility to function as multiple parts of speech, e.g., 
+CONFUSE (meaning “confuse,” “confused,” or “confusion”). 
+• In some cases, we opted for best translation of the most frequent usage.  For example, 
+REALLY, which is appears quite a lot in our data set, used especially by one of our 
+signers as a kind of discourse marker, can also have a variety of other meanings (not all of 
+them adverbial), including ‘true’ or ‘sure.’   We have stuck with that same gloss, REALLY, 
+in all cases, except when it occurred as part of the idiomatic expression, TRUE-BUSINESS. 
+We have also had cases of the converse situation:  i.e., a single English word that can be used 
+with more than one part of speech, but where the translations would be different in ASL based 
+on the syntactic category.  For example, “phone” or “telephone” in English are both used as 
+nouns and verbs.  However, the corresponding noun and verb in ASL are distinct.  For this case, 
+we used PHONE as the noun and CALL-BY-PHONE as the verb in our glosses.  (Note that 
+there is a different sign, CALL.)  These are illustrated in Figure 16.  
+Two morphologically related ASL signs ending up with morphologically unrelated English 
+glosses 
+We have, in some cases, (regrettably) obscured the relatedness of ASL signs by giving them 
+glosses that display no relationship in English.  An example of this was just mentioned:  the fact 
+that the idiomatic TRUE-BUSINESS incorporates a morpheme that we have elsewhere glossed 
+differently, as REALLY.  In the interest of having unique English glosses for different signs, for 
+example, we have used MISTAKE and WRONG as English glosses for ASL signs that are quite 
+similar in their articulation, as shown in Figure 17. Another case in which two ASL signs that 
+are related in meaning and that look very much alike receive English glosses that obscure this 
+relatedness is illustrated in Figure 18. 
+♦ How much morphological decomposition to include in glosses? 
+In general, we opted for limited overt indication of the internal morphological structure of 
+ASL signs, thereby (regrettably) obscuring morphemes that are common to different signs.  For 
+example, the agentive –er suffix in English has a counterpart in ASL, a suffix meaning “person” 
+added very productively to verbs.  We used the gloss TEACHER rather than TEACH+PERSON. 
+(We included morphological detail only in one case, for “Bostonian,” where the name sign for 
+Boston was followed by that suffix. We glossed that as ns-BOSTON+PERSON.) 
+Similar choices arose with compounds.  We did gloss the signs for “lunch” and “dinner” as 
+EAT+NIGHT and EAT+NOON, respectively.  We also glossed the sign that would be translated 
+as “shopping” as a reduplicated form containing the verb BUY, with the + sign marking the 
+reduplication:  BUY+ . However, we used the gloss STORE for the noun produced by a double 
+articulation of the sign for the verb SELL. 
+
+SignStream Annotation Conventions                                         7                                     Challenges for consistency 
+ 
+ 
+♦ Part of speech labeling 
+Given the fact that similar ASL forms can sometimes be used for different parts of speech, as 
+discussed on page 5, it is not always completely clear what part of speech is involved. This 
+makes labeling of parts of speech a difficult task. In some constructions, this is exacerbated by 
+the fact that ASL is a null copula language.  For example, a predicative adjective and a verb can 
+both be found immediately following the subject.  Another difficult case we encountered were 
+utterances that consisted of a single sign, especially in “Scary Story.” Sequences such as: 
+  RAIN.  LIGHTNING.  THUNDER.    
+These could be sequences of sentence fragments containing nouns—painting a narrative 
+portrait—or they could be verbs:  “It was raining…” etc.  Sometimes when this was unclear, 
+arbitrary choices were made in the labeling of parts of speech. 
+Furthermore, in some cases, more than one of the category labels we are using would be 
+appropriate.  For example, for possessive pronouns, we have used the label ‘possessive’ 
+whereas we might just has well have tagged them as pronouns.  A similar situation arises with 
+demonstratives, which have generally been labeled as such, regardless of other syntactic 
+functions. 
+♦ A word of caution to computer scientists 
+One problem involved in the segmentation of narratives into “utterance”-length chunks 
+(with the divisions between units not always corresponding exactly to sentence boundaries) is 
+that there is continuity of signing from one unit of annotation to the next.  There are cases, for 
+example, where the new “utterance” includes the tail end of a prior sign or non-manual 
+expression.  Annotations of very brief behaviors (e.g., single frame) at the start of a sentence 
+might best be disregarded as exemplars of entire signs.  There may also be behaviors (of the 
+non-dominant hand especially) that continue for longer durations from the very beginning of an 
+utterance, but that are in fact remnants of the articulation of a sign from the previous utterance.
+ 
+
+SignStream Annotation Conventions                                         8                                           Illustrations of glosses 
+Illustrations of glosses 
+Note for all figures:  If more than one picture is included for a sign, these represent frames from 
+the video sequence, in chronological order (the first usually at or near the beginning, and the 
+last at or near the end of the production of that sign).  
+ 
+ 
+ 
+BORN 
+(S)BORN 
+(vulcan)BETWEEN 
+ 
+ 
+STORY 
+(crvd-sprd-B)STORY 
+ 
+ 
+A non-standard 
+handshape 
+Figure 1. ASL variants distinguished by handshape 
+ 
+ 
+ 
+DEPART 
+TAKE-OFF 
+LEAVE-THERE 
+Figure 2.  Glosses for signs that can translate English “leave”  
+ 
+EXCUSE-GO 
+Figure 3.  Sign glossed as EXCUSE-GO 
+ 
+ 
+
+SignStream Annotation Conventions                                         9                                              Illustrations of glosses 
+ 
+ 
+ 
+ 
+ 
+LOOK 
+LOOK-LIKE 
+LOOK+SAME (start and end) 
+Figure 4.  Glosses for signs that can translate English “look”  
+ 
+ 
+OPEN 
+OPEN-BOOK 
+Figure 5.  Glosses for signs that can translate English “open” 
+ 
+ 
+PAY 
+(flat-O)PAY 
+Figure 6.  Two signs that can be used to translate English “pay” 
+ 
+ 
+ 
+ 
+TALK 
+TALKwg 
+(with fingers wiggling) 
+SIGN 
+USE-SIGN-LANGUAGE 
+Figure 7.  Glosses for signs about talking/signing 
+ 
+ 
+
+SignStream Annotation Conventions                                         10                                           Illustrations of glosses 
+ 
+ 
+ 
+FINISH 
+FINISH-shake 
+Figure 8.  Glosses for FINISH vs. FINISH-shake 
+ 
+ 
+OUTSIDE 
+GO-OUT  
+ 
+ 
+OUT 
+GET-OUT 
+Figure 9. Glosses for signs corresponding to “out” in English 
+ 
+(side to side movement) 
+ 
+(side to side movement) 
+ 
+(start and end) 
+(O)NONE 
+(F)NONE 
+(O>5)NOTHING 
+                
+  (arms cross) 
+(O)NONE/NOTHING 
+Figure 10.  Several of the many ASL signs for “no,” “none,” “nothing,” “nobody” 
+
+SignStream Annotation Conventions                                         11                                              Illustrations of glosses  
+ 
+ 
+ 
+ALL-THE-WAY 
+TOTAL 
+ 
+STRAIGHT-ALL-THE-WAY 
+FALL-INTO-PLACE 
+ 
+ 
+PLAY-AGAINST 
+FALL-INTO-IT 
+ 
+ 
+GAME 
+LONG-LIST 
+Figure 11.  English glosses for several ASL signs in our data set 
+ 
+ 
+
+SignStream Annotation Conventions                                         12                                           Illustrations of glosses 
+ 
+ 
+GONE 
+ALL-GONE  
+ 
+ 
+(2h)EMPTY 
+SET-ASIDE 
+ 
+ 
+ 
+OVER-NIGHT 
+ 
+ 
+GRAB-CHANCE 
+ALL-NIGHT 
+ 
+ 
+STAY-AWAKE 
+STAY-AWAKE-ALL-NIGHT 
+Figure 12.  English glosses for other ASL signs in our data set 
+ 
+ 
+ 
+ 
+ 
+
+SignStream Annotation Conventions                                         13                                              Illustrations of glosses  
+ 
+ 
+MELT/SOLVE 
+FINALLY/SUCCEED  
+ 
+ 
+ 
+OVER/AFTER 
+ANYWAY/NOT-MATTER 
+CITY/COMMUNITY 
+ 
+ 
+ 
+SPECIAL/ 
+EXCEPT  
+INSURANCE/ 
+INFECTION 
+PACE/PROGRESS 
+ 
+ 
+ 
+ 
+ 
+ 
+SPEECH/LECTURE 
+CREATE/PRETEND 
+ Figure 13.  Signs with multiple English translations, depending on usage 
+ 
+ 
+GIVE (verb) 
+GIFT (used as noun or verb) 
+Figure 14.  Glosses for English “give”  
+ 
+ 
+
+SignStream Annotation Conventions                                         14                                           Illustrations of glosses 
+ 
+ 
+ 
+MIND 
+NOT-MIND 
+Figure 15.  Glosses for English “mind”  
+ 
+ 
+PHONE (N) 
+CALL (V) 
+ 
+CALL-BY-PHONE (V)     [bandaged finger affecting final handshape] 
+Figure 16.  Glosses for English “telephone,” “call”  
+ 
+(used as a verb)  
+note: twist of wrist 
+ 
+ 
+(generally used as a noun or adjective) 
+ 
+MISTAKE 
+WRONG 
+Figure 17.  Morphologically related ASL signs glossed as MISTAKE and WRONG 
+ 
+ 
+ 
+
+SignStream Annotation Conventions                                         15                                              Illustrations of glosses  
+ 
+ 
+[note: two contacts with body] 
+ 
+(used to translate both “live” and “life“) 
+RESIDENCE/ADDRESS 
+LIVE 
+Figure 18.  Morphologically related ASL signs glossed as RESIDENCE/ADDRESS and LIVE 
+ 
+
+SignStream Annotation Conventions                                         16                                              Annotation of gestures 
+Consistency in the annotation of gestures 
+♦ Some comments on the annotation of gestures 
+The annotation of gestures turned out to be one of the least straightforward challenges we 
+faced.  In our data, we discovered gestures that seemed to recur frequently for individual 
+signers or across signers.  For most of these, no conventional glosses are available.  Thanks to 
+Quinn Duffy for his painstaking efforts in helping to sort through these gestures and to 
+establish some commonalities of meaning and consistency of glossing.  To the extent that some 
+consistency has been achieved, this will facilitate the study of gestures in this corpus. All of this 
+is a rich area for further study (and a careful study of these gestures would, in turn, surely lead 
+to better conventions for labeling). 
+Gestures vs. signs 
+It is not always clear where to draw the line between signs (glossed with capital letters) and 
+gestures (which include the meaning, as best we can capture it, in quotation marks and not in 
+capital letters, sometimes preceded by an identifying handshape) .  How conventionalized and 
+frequent does the gesture have to be before it is considered a sign?  The answer is not clear, and 
+some arbitrary decisions were made, of necessity. 
+Difficulties in capturing meanings and choosing labels 
+Although there are recurrences of similar manual gestures, there are often subtle (or less 
+subtle) differences in meaning (sometimes conveyed through non-manual expressions).  These 
+are gradient, precisely because they are gestural; so it is often difficult to categorize them 
+precisely. There are trade-offs in glossing between capturing the similarity of the different 
+occurrences vs. the nuances in meaning. The “meanings” in quotation marks are, at best, a 
+rough approximation (and may capture what was intended better in some contexts than in 
+others). It would be a mistake to pay much attention to the English words used in these labels.    
+For example, there is a frequent use of open palms (5 handshape) that serves as a carrier of 
+affective information, the essence of which is in fact expressed non-manually.  Some of these are 
+illustrated at the top of page 17.  Similarly, there is a range of gestures that function as filled 
+pauses of one sort or another, where meaning is pretty much impossible to capture (labeled as 
+“you know,” “you see,” “hesitation,” “looking for words,” etc.).  Subcategorization of these 
+gestures is extremely difficult. 
+Below are listed some of the common gestures, along with the annotation we have used for 
+them, and the source of each of the examples illustrated. The stories from which these examples 
+are taken are listed by their brief titles; full reference information is provided in Appendix A 
+(Data distribution) and Appendix D (References). A table with information about the particular 
+stories from which these examples were taken is found at the end of this section.  
+We group gestures here according to articulatory properties. 
+
+SignStream Annotation Conventions                                         17                                              Annotation of gestures 
+ 
+♦ Palms Up 
+ 
+ 
+ 
+ 
+5”sheepish” 
+5”resignation” 
+5”trepidation” 
+[Whitewater, U 32] 
+[Roadtrip 1, U 17] 
+[Dorm prank, U 48] 
+ 
+ 
+ 
+  
+ 
+ 
+5”dumbfounded” 
+5”frustration” 
+5”exasperation” 
+[Whitewater, U 28]  
+[Siblings, U 24] 
+[Dorm prank, U 26] 
+ 
+ 
+(frequently with head nod) 
+ 
+5”that’s the way it is”  
+5”everything in order” 
+[Speeding, U 27] 
+[Whitewater, U 22] 
+ 
+ 
+ 
+ 
+5”you know” 
+5”you see” 
+[Boston-LA, U 22] 
+[Accident, U 62] 
+
+SignStream Annotation Conventions                                         18                                              Annotation of gestures 
+ 
+ 
+ 
+ 
+ 
+ 
+5”actually” 
+5”ok (giving in)” 
+5”looking for words“ 
+[LAPD, U 88] 
+[LAPD, U 91] 
+[Whitewater, U 51] 
+ 
+ 
+ 
+ 
+ 
+5”I don’t know” 
+(sometimes both hands remain low) 
+(2h)5”I don’t know” 
+[Scary story, U 40] 
+[Football, U 25] 
+ 
+ 
+ 
+ 
+5”out of my control” 
+5”not know what to do” 
+[Accident, U 48] 
+[LAPD, U 45] 
+ 
+ 
+ 
+ 
+ 
+5”panic” 
+5”aw, man” 
+B-L”go on” 
+[Three pigs, U 40] 
+[Roadtrip 1, U 13] 
+[Speeding, U 24] 
+ 
+ 
+ 
+
+SignStream Annotation Conventions                                         19                                              Annotation of gestures 
+ 
+ 
+ 
+ 
+ 
+5”of course” 
+5”let’s see” 
+5”come on” 
+[Roadtrip 1, U 25] 
+[Three pigs, U 53] 
+[Accident, U 9] 
+ 
+ 
+ 
+5”what’s going on?”  
+[Scary story, U 19] 
+ 
+ 
+5”concession”  
+5”ok, hey” 
+(introducing a clause that’s going to be followed by a but… ) 
+[Football, U 45] 
+[Football, U 53] 
+
+SignStream Annotation Conventions                                         20                                              Annotation of gestures 
+ 
+ 
+♦ Palms Out 
+ 
+ 
+ 
+5”oh well” 
+5”what the heck” 
+[Roadtrip 1, U 17] 
+[Accident, U 22] 
+ 
+ 
+Sideways Movement 
+ 
+ 
+5”to let you know, it’s OK” 
+5”reassure” 
+[Speeding, U 40] 
+[Boston-LA, U 47] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(hands move back and forth along a plane) 
+ 
+(outward motion) 
+5”wave no”+ 
+5”wave no” 
+[Roadtrip 2, U 38] 
+[Accident, U 60] 
+
+SignStream Annotation Conventions                                         21                                              Annotation of gestures 
+ 
+ 
+ 
+ 
+ 
+5”hey, no” 
+5”no more” 
+[LAPD, U 59] 
+[Dorm prank, U 54] 
+ 
+ 
+ 
+5”anyway” 
+5”keep in mind” 
+[Roadtrip 1, U 10] 
+[Boston-LA, U 47] 
+ 
+Movement Away from Body 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5”it’s ok” 
+(1h)5”it’s ok” 
+[Three pigs, U 49]  
+[Speeding, U 20] 
+ 
+ 
+ 
+5”hey“ 
+5”for our sake” 
+5”hands off” 
+[Speeding, U 22] 
+[Roadtrip 2, U 27] 
+[Dorm prank, U 54] 
+
+SignStream Annotation Conventions                                         22                                              Annotation of gestures 
+ 
+ 
+ 
+ 
+5”got it?” 
+[Roadtrip 2, U 24] 
+Movement Down 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+♦ Palms Down 
+ 
+ 
+ 
+ 
+5”set” 
+5”whoa” 
+5”ahh” 
+[Dorm prank, U 16] 
+[Whitewater, U 33] 
+[Whitewater, U 66] 
+ 
+ 
+ 
+ 
+5”forget it” 
+[Three pigs, U 13] 
+Dorm prank, U 7] 
+ 
+(often with head nod) 
+ 
+ 
+5”so, all set” 
+5”not a big deal” 
+[Accident, U 62] 
+[Whitewater, U 60] 
+
+SignStream Annotation Conventions                                         23                                              Annotation of gestures 
+ 
+ 
+ 
+5”sigh” 
+5”dismissive gesture” 
+[Whitewater, U 66] 
+[LAPD, U 44] 
+ 
+ 
+ 
+ 
+ 
+ 
+5”calm down” 
+5”reassuring self” 
+5”checking it out” 
+[LAPD, U 100] 
+[Scary story, U 25] 
+[Scary story, U 19] 
+ 
+ 
+ 
+ 
+5”listen up” 
+[Roadtrip 2, U 11] 
+[Football, U 50] 
+♦ Palms facing each other/Center  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+(slight wiggle at wrists) 
+5”so, ok” 
+5”surprised” 
+5”so-so” 
+5”oh gosh” 
+[Three pigs, U 40] 
+[Three pigs, U 68] 
+[Ali, U 21] 
+[LAPD, U 53] 
+ 
+
+SignStream Annotation Conventions                                         24                                              Annotation of gestures 
+ 
+ 
+ 
+ 
+ 
+ 
+FORGET-IT 
+5”nah” 
+[Whitewater, U 24] 
+[LAPD, U 19] 
+ 
+ 
+ 
+ 
+5”let it go” (as in let go of a topic/thought/desire)  
+5”leave it at that” 
+[Ali, U 9] 
+[Roadtrip 2, U 21] 
+ 
+ 
+ 
+ 
+5”this is nothing” 
+5”drop topic” 
+[Whitewater, U 23] 
+[Roadtrip 1, U 28] 
+ 
+ 
+ 
+ 
+B-L”go ahead” 
+5”come here” 
+[Boston-LA, U 77] 
+[Ali, U 3] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+SignStream Annotation Conventions                                         25                                              Annotation of gestures 
+ 
+ 
+ 
+ 
+“gees” 
+“oh my god” 
+[Dorm prank, U 35] 
+[Dorm prank, U 35] 
+ 
+ 
+ 
+(clap hands together and rub them) 
+5”ok, let’s see” 
+[Whitewater, U 8] 
+ 
+ 
+ 
+5”waiting for news” 
+[Siblings, U 18] 
+ 
+♦ Palms facing body 
+  
+ 
+ 
+5”wow” 
+[Siblings, U 18] 
+ 
+ 
+ 
+
+SignStream Annotation Conventions                                         26                                              Annotation of gestures 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5”reluctance” 
+5”perplexed” 
+5”relieved” 
+[Accident, U 19] 
+[LAPD, U 25] 
+[Accident, U 51] 
+ 
+Sideways Movement 
+ 
+ 
+ 
+5”things proceeding normally” 
+5”taken aback” 
+[Accident, U 19] 
+[LAPD, U 24] 
+ 
+♦ Other Gestures 
+ 
+ 
+ 
+5”hesitation”  note: changes a lot depending on what is before/after it 
+generally any pause between signs that indicates stopping suddenly (in role shift) or searching for words 
+[Three pigs, U 61] 
+[Dorm prank, U 42] 
+ 
+ 
+ 
+ 
+“darn” 
+R”hoping” 
+[Ali, U 37] 
+[Siblings, U 10] 
+ 
+
+SignStream Annotation Conventions                                         27                                              Annotation of gestures 
+ 
+♦ Stories from which the above examples were taken 
+ 
+Story title 
+Citation info 
+(see Appendix D) 
+CD-ROM distribution (see Appendix A):   
+NCSLGR SignStream™ Databases [2007] 
+Close Call 
+[34] 
+Vol. 3 
+Speeding 
+[35] 
+Vol. 3 
+Three pigs 
+[36] 
+Vol. 3 
+Accident 
+[37] 
+Vol. 4 
+Biker 
+[38] 
+Vol. 4 
+Boston-LA 
+[39] 
+Vol. 4 
+Ali 
+[25] 
+Vol. 5 
+Dorm prank 
+[26] 
+Vol. 5 
+Whitewater 
+[30] 
+Vol. 5 
+Football 
+[27] 
+Vol. 6 
+LAPD 
+[28] 
+Vol. 6 
+Siblings 
+[29] 
+Vol. 6 
+Roadtrip 1 
+[9] 
+Vol. 7 
+Roadtrip 2 
+[10] 
+Vol. 7 
+Scary story 
+[11] 
+Vol. 7 
+
+SignStream Annotation Conventions                                         28                                              Software and data 
+ 
+Appendix A.  Available software and data 
+All of the CD-ROM’s listed below are distributed by Carol Neidle through the 
+American Sign Language Linguistic Research Project at Boston University. 
+♦ The SignStream™ application 
+The SignStream application can be downloaded from the Web site or obtained on CD-
+ROM: http://www.bu.edu/asllrp/SignStream; http://www.bu.edu/asllrp/signstream/other_materials.html.   
+♦ NCSLGR Data Sets 
+Earlier collections 
+The first two CD-ROM’s that were distributed are listed below.  Video files for data 
+collected through the National Center for Sign Language and Gesture Resources 
+(NCSLGR) at Boston University are available in a variety of formats.  Further information 
+is available from our Web site:  http://www.bu.edu/asllrp/cslgr/ . 
+ASLLRP SignStream™ Databases, Vol. 1, version 2  [2003] 
+This CD-ROM contains SignStream™ transcriptions of excerpts from several stories distributed 
+on video by DawnSignPress (http://dawnsignpress.com/). These video clips were provided in 
+digital format by DawnSignPress and are used here with permission. We gratefully acknowledge 
+and appreciate their making these videos accessible for this purpose.  The database files include: 
+1. DSP Dead Dog Story 
+2. DSP Immigrants Story 
+3. DSP Introduction to a Story 
+4. DSP Ski Trip Story. 
+This version incorporates corrections since Version 1, and is consistent with the annotation 
+conventions described in ASLLRP Report 11. 
+ 
+NCSLGR SignStream™ Databases, Vol. 1  [2003] 
+This CD contains data collected in the National Center for Sign Language and Gesture 
+Resources at Boston University and annotated with SignStream. SignStream™ version 2.2.2 is 
+required.  The 8 SignStream database files contain over 200 utterances, with 3 synchronized 
+video files for each utterance (a front view, side view, and close-up of the face).  
+The annotation conventions used here are described in ASLLRP Report 11. 
+ 
+
+SignStream Annotation Conventions                                         29                                              Software and data 
+ 
+ 
+ 
+NCSLGR Data Release 2007 
+Summer 2007 marks the release of 6 additional CD-ROMs containing elicited 
+utterances  (Vol. 2) and short narratives (Vols. 3-7).   All of these require SignStream™ 
+version 2.2.2, and all the video data were collected in the NCSLGR. 
+NCSLGR SignStream™ Databases, Vol. 2  [2007] 
+The 8 SignStream database files contain over 200 utterances, with 3 synchronized video files for 
+each utterance (a front view, side view, and close-up of the face).  
+ 
+NCSLGR SignStream™ Databases, Vol. 3  [2007] 
+The following narratives are included (SignStream database files with a total of 169 utterances, each 
+with 4 synchronized video files—2 stereoscopic front views, a side view, and a close-up of the face): 
+1. Close call 
+2. Speeding 
+3. Three pigs 
+ 
+NCSLGR SignStream™ Databases, Vol. 4  [2007] 
+The following narratives are included (SignStream database files with a total of 171 utterances, each 
+with 2 synchronized video files—a front view and a close-up of the face): 
+1. Accident 
+2. Biker 
+3. Boston-LA 
+ 
+NCSLGR SignStream™ Databases, Vol. 5  [2007] 
+The following narratives are included (SignStream database files with a total of 157 utterances, each 
+with 3 synchronized video files—a front view, a side view, and a close-up of the face): 
+1. Ali 
+2. Dorm prank 
+3. Whitewater 
+ 
+ 
+
+SignStream Annotation Conventions                                         30                                              Software and data 
+ 
+ 
+ 
+NCSLGR SignStream™ Databases, Vol. 6  [2007]  
+The following narratives are included (SignStream database files with a total of 244 utterances, each 
+with 2 synchronized video files—a front view and a close-up of the face): 
+1. Football 
+2. LAPD 
+3. Siblings 
+ 
+NCSLGR SignStream™ Databases, Vol. 7  [2007]  
+The following narratives are included (SignStream database files with a total of 151 utterances, each 
+with 3 synchronized video files—a front view, a side view, and a close-up of the face): 
+1. Roadtrip 1 
+2. Roadtrip 2 
+3. Scary story 
+ 
+More detailed information about the contents of these data sets, including counts of the numbers of signs 
+and tokens will soon be available online from . 
+ 
+ 
+ 
+ 
+
+SignStream Annotation Conventions                                         31                                              Handshapes 
+ 
+Appendix B: Handshapes 
+Here the handshape names we use are listed, and the handshapes are illustrated. 
+The term ‘bent’ is used  to indicate flexion at the base joint.  The term ‘curved’ is used 
+systematically when there is flexion at non-base joints, following, e.g., Crasborn and van der 
+Kooij [8].  Handshapes in which the selected fingers are together are listed above the 
+corresponding handshapes in which the selected fingers are spread. 
+Handshapes named in terms of letters used in fingerspelling are written with capital letters.  
+Hyphens are used with modifiers.   
+The term ‘open’ refers to the thumb of the handshape being extended. [5] 
+In some cases, a conventional name is used in place of the more descriptive label 
+(e.g., “horns”).  
+
+SignStream Annotation Conventions                                         32                                              Handshapes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A 
+B 
+crvd-B 
+crvd-sprd-B 
+B-xd 
+ 
+ 
+ 
+ 
+ 
+flat-B 
+B-L 
+bent-B 
+bent-B-L 
+C 
+ 
+ 
+ 
+ 
+ 
+sml-C/3 
+lrg-C/3 
+flat-C 
+tight-C 
+tight-C/2 
+ 
+
+SignStream Annotation Conventions                                         33                                              Handshapes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+C-L 
+crvd-flat-B 
+D 
+E 
+loose-E 
+ 
+ 
+ 
+ 
+ 
+alt-M 
+alt-N 
+F 
+cocked-F 
+open-F 
+ 
+ 
+ 
+ 
+ 
+flat-F 
+G 
+flat-G 
+alt-G 
+I 
+
+SignStream Annotation Conventions                                         34                                              Handshapes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+K 
+alt-P 
+L 
+crvd-L 
+bent-L 
+ 
+ 
+ 
+ 
+ 
+L-X 
+I-L-Y 
+bent-I-L-Y 
+M 
+bent-M 
+ 
+ 
+ 
+ 
+ 
+full-M 
+N 
+bent-N 
+O 
+baby-O 
+ 
+
+SignStream Annotation Conventions                                         35                                              Handshapes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+flat-O 
+flat-O/2 
+R 
+S 
+T 
+ 
+ 
+ 
+ 
+ 
+X-over-thumb 
+U 
+bent-U 
+crvd-U 
+V 
+ 
+ 
+ 
+ 
+ 
+crvd-V 
+W 
+crvd-W 
+X 
+Y 
+
+SignStream Annotation Conventions                                         36                                              Handshapes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+bent-1 
+Horns 
+O/2-Horns 
+bent-Horns 
+ 
+ 
+ 
+ 
+ 
+3 
+U-L 
+crvd-3 
+4 
+5 
+ 
+ 
+ 
+ 
+ 
+crvd-5 
+5-C 
+5-C-tt 
+5-C-L 
+6 
+ 
+
+SignStream Annotation Conventions                                         37                                              Handshapes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7 
+8 
+cocked-8 
+open-8 
+25 
+ 
+ 
+ 
+ 
+ 
+9 
+open-9 
+10 
+fanned-flat-O 
+cocked-S 
+ 
+cocked-U 
+ 
+ 
+
+SignStream Annotation Conventions                                         38                                                          XML DTD 
+ 
+Appendix C: SignStream™ XML DTD 
+ 
+Note:  Information about field and value names and labels, as well as the database export 
+text file format, is contained in the appendices of [21]. 
+ 
+ 
+Contained here are the XML Document Type Definitions (DTD’s). 
+ 
+ 
+<?xml version=“1.0”?> 
+ 
+<!DOCTYPE SIGNSTREAM-DATABASE [ 
+  <!ELEMENT DISTRIBUTOR (#PCDATA)> 
+  <!ELEMENT AUTHOR  (#PCDATA)> 
+  <!ELEMENT CITATION (#PCDATA)> 
+  <!ELEMENT NOTES (#PCDATA)> 
+  <!ELEMENT PARTICIPANTS  (PARTICIPANT+)> 
+  <!ELEMENT CODING-SCHEME (FIELD+)> 
+  <!ELEMENT MEDIA-FILES    (MEDIA-FILE+)> 
+  <!ELEMENT UTTERANCES    (UTTERANCE+)> 
+]> 
+ 
+<!ATTLIST SIGNSTREAM-DATABASE  
+ 
+SIGNSTREAM-VERSION  CDATA  #REQUIRED 
+ 
+SOURCE CDATA  #REQUIRED  
+ 
+DATABASE-VERSION CDATA  #REQUIRED>
+ 
+ 
+ 
+<!ELEMENT PARTICIPANT (BACKGROUND)> 
+<!ATTLIST PARTICIPANT  
+ 
+ID ID #REQUIRED 
+ 
+NAME CDATA  #REQUIRED 
+ 
+LABEL CDATA #IMPLIED 
+ 
+AGE CDATA #IMPLIED 
+ 
+GENDER (male/female)  #IMPLIED 
+ 
+LANGUAGE CDATA #IMPLIED 
+ 
+COMMENTS CDATA #IMPLIED 
+ 
+PARENTS CDATA #IMPLIED> 
+<!ELEMENT BACKGROUND (#PCDATA)> 
+ 
+ 
+<!ELEMENT FIELD(VALUE+)> 
+<!ATTLIST FIELD 
+ 
+ID ID #REQUIRED 
+ 
+NAME CDATA  #REQUIRED 
+ 
+LABEL CDATA #IMPLIED 
+ 
+COLOR CDATA #IMPLIED 
+ 
+CONSTRAINT CDATA #IMPLIED 
+ 
+PREFIX CDATA #IMPLIED> 
+ 
+<!ATTLIST VALUE 
+ 
+ID ID #REQUIRED 
+ 
+NAME CDATA  #REQUIRED 
+ 
+LABEL CDATA #IMPLIED 
+ 
+COLOR CDATA #IMPLIED> 
+ 
+
+SignStream Annotation Conventions                                         39                                                          XML DTD 
+ 
+ 
+ 
+ 
+<!ATTLIST MEDIA-FILE 
+ 
+ID ID #REQUIRED 
+ 
+LEGACY-PATH CDATA  #REQUIRED 
+> 
+ 
+<!ELEMENT UTTERANCE(NOTES, MEDIA-REF+, SEGMENT+)> 
+<!ATTLIST UTTERANCE 
+ 
+ID ID #REQUIRED 
+ 
+EXCERPT CDATA  #REQUIRED 
+ 
+S CDATA  #REQUIRED 
+ 
+E CDATA  #REQUIRED 
+> 
+ 
+<!ELEMENT NOTES CDATA> 
+ 
+<!ATTLIST MEDIA-REF 
+ 
+ID IDREF #REQUIRED 
+> 
+ 
+<!ELEMENT SEGMENT(TRACK+)> 
+<!ATTLIST SEGMENT 
+ 
+PARTICIPANT-ID IDREF #REQUIRED 
+ 
+PRIMARY (true|false) #IMPLIED 
+> 
+ 
+<!ELEMENT TRACK(A+)> 
+<!ATTLIST TRACK 
+ 
+FID IDREF #REQUIRED 
+> 
+ 
+<!ATTLIST A 
+ 
+S CDATA  #REQUIRED 
+ 
+E CDATA  #REQUIRED 
+ 
+VID IDREF #REQUIRED 
+> 
+ 
+ 
+ 
+ 
+
+SignStream Annotation Conventions                                         40                                                         References 
+ 
+Appendix D: References 
+[1] 
+Aarons, D., B. Bahan, J. Kegl & C. Neidle. 1995. Lexical Tense Markers in American 
+Sign Language. In Language, Gesture, and Space, ed. Emmorey, K., J. S. Reilly, pp. 
+225-253. Hillsdale, NJ: Lawrence Erlbaum 
+ 
+[2] 
+Athitsos, V. & S. Sclaroff. 2003. Database indexing methods for 3D hand pose 
+estimation. Proc. 5th Int. Workshop on Gesture and Sign Language based Human-
+Computer Interaction  
+ 
+[3] 
+Bahan, B., J. Kegl, R. G. Lee, D. MacLaughlin & C. Neidle. 2000. The Licensing of 
+Null Arguments in American Sign Language. Linguistic Inquiry 31: 1-27 
+ 
+[4] 
+Bahan, B., J. Kegl, D. MacLaughlin & C. Neidle. 1995. Convergent Evidence for the 
+Structure of Determiner Phrases in American Sign Language. In FLSM VI: 
+Proceedings of the Sixth Annual Meeting of the Formal Linguistics Society of Mid-
+America, ed. Gabriele, L., D. Hardison, R. Westmoreland, pp. 1-12. 
+Bloomington, Indiana: Indiana University Linguistics Club 
+ 
+[5] 
+Brentari, D. 1998. A prosodic model of sign language phonology. Cambridge, MA: MIT 
+Press 
+ 
+[6] 
+Castelli, T., M. Betke & C. Neidle. 2006. Facial Feature Tracking and Occlusion 
+Recovery in American Sign Language. In Pattern Recognition in Information 
+Systems: Proceedings of the 6th International Workshop on Pattern Recogntion in 
+Information Systems - PRIS 2006 ed. Fred, A., A. Lourenço, pp. 81-90. Paphos, 
+Cyprus: INSTICC Press 
+ 
+[7] 
+Conlin, F., P. Hagstrom & C. Neidle. 2003. A particle of indefiniteness in American 
+Sign Language. Linguistic Discovery 2 
+ 
+[8] 
+Crasborn, O. & E. van der Kooij. in preparation. Base-joint position in Sign 
+Language 
+of 
+the 
+Netherlands: 
+phonetic 
+variation 
+and 
+phonological 
+specification. In Issues in the Phonetics-Phonology Interface, ed. Heuven, V. J. v., 
+H. G. van der Hulst, J. M. van de Weijer 
+ 
+[9] 
+Duffy, Q., C. Neidle, R. G. Lee & M. Schlang. 2007. Roadtrip 1 (version 1.0). 
+NCSLGR SignStream™ Databases Vol. 7; distributed by C. Neidle for the 
+American Sign Language Linguistic Research Project, Boston University, 
+Boston, MA 
+ 
+[10] ---. 2007. Roadtrip 2 (version 1.0). NCSLGR SignStream™ Databases Vol. 7; 
+distributed by C. Neidle for the American Sign Language Linguistic Research 
+Project, Boston University, Boston, MA 
+ 
+
+SignStream Annotation Conventions                                         41                                                         References 
+ 
+ 
+ 
+ 
+[11] ---. 2007. Scary story (version 1.0). NCSLGR SignStream™ Databases Vol. 7; 
+distributed by C. Neidle for the American Sign Language Linguistic Research 
+Project, Boston University, Boston, MA 
+ 
+[12] Erdem, M. & S. Sclaroff. 2002. Automatic detection of relevant head gestures in 
+American Sign Language communication. Proc. Int. Conf. on Pattern Recognition 
+(ICPR)  
+ 
+[13] Goldenstein, S. & C. Vogler. 2006. When Occlusions are Outliers. Proceedings of the 
+Workshop on the 25 Years of RANSAC (in conjunction with CVPR)  
+ 
+[14] He, W., G. Tsechpenakis, D. Metaxas & C. Neidle. 2005. Discovery of Informative 
+Unlabeled Data for Improved Learning. Presented at IEEE International Workshop 
+on Modeling People and Human Interaction(PHI '05) in conjunction with ICCV 
+'05,Beijing, China, October, 2005 
+ 
+[15] Hoza, J., C. Neidle, D. MacLaughlin, J. Kegl & B. Bahan. 1997. A Unified Syntactic 
+Account of Rhetorical Questions in American Sign Language. In Syntactic 
+Structure and Discourse Function:  An Examination of Two Constructions in ASL, 
+Report Number 4, ed. Neidle, C., D. MacLaughlin, R. G. Lee, pp. 1-23. Boston 
+University, Boston, MA: American Sign Language Linguistic Research Project 
+ 
+[16] Kegl, J., C. Neidle, D. MacLaughlin, J. Hoza & B. Bahan. 1996. The Case for 
+Grammar, Order and Position in ASL: A Reply to Bouchard and Dubuisson. 
+Sign Language Studies 90: 1-23 
+ 
+[17] Lee, R. G., C. Neidle, D. MacLaughlin, B. Bahan & J. Kegl. 1997. Role Shift in ASL: A 
+Syntactic Look at Direct Speech. In Syntactic Structure and Discourse Function: 
+An Examination of Two Constructions in ASL, Report Number 4, ed. Neidle, C., D. 
+MacLaughlin, R. G. Lee, pp. 24-45. Boston, MA: American Sign Language 
+Linguistic Research Project, Boston University 
+ 
+[18] MacLaughlin, D., C. Neidle, B. Bahan & R. G. Lee. 2000. Morphological Inflections 
+and Syntactic Representations of Person and Number in ASL. Recherches 
+linguistiques de Vincennes 29 : Langage et surdité: 73-100 
+ 
+[19] MacLaughlin, D., C. Neidle & D. Greenfield. 2000. SignStream™ User's Guide, 
+Version 2.0, American Sign Language Linguistic Research Project No. 9, Boston 
+University, Boston, MA 
+ 
+[20] Metaxas, D. & G. Tsechpenakis. 2005. Dynamic Data Driven Coupling of 
+Continuous and Discrete Methods for 3D Tracking, International Conference 
+on Computational Science, (ICCS'05), Atlanta, USA, May, 2005. . In Lecture 
+Notes in Computer Science, pp. 712: Springer-Verlag 
+ 
+
+SignStream Annotation Conventions                                         42                                                         References 
+ 
+ 
+ 
+ 
+[21] Neidle, C. 2002. SignStream™ Annotation:  Conventions used for the American Sign 
+Language Linguistic Research Project. Rep. 11, American Sign Language Linguistic 
+Research Project Report No. 11, Boston University, Boston, MA 
+ 
+[22] ---. 2002. SignStream™: A Database Tool for Research on Visual-Gestural Language. 
+Journal of Sign Language and Linguistics 4: 203-214 
+ 
+[23] ---. 2003. Language Across Modalities: ASL Focus and Question Constructions. 
+Linguistic Variation Yearbook 2: 71-98 
+ 
+[24] Neidle, C., B. Bahan, D. MacLaughlin, R. G. Lee & J. Kegl. 1998. Realizations of 
+Syntactic Agreement in American Sign Language:  Similarities between the 
+Clause and the Noun Phrase. Studia Linguistica 52: 191-226 
+ 
+[25] Neidle, C., Q. Duffy, R. G. Lee & M. Schlang. 2007. Ali (version 1.0). NCSLGR 
+SignStream™ Databases Vol. 5; distributed by C. Neidle for the American Sign 
+Language Linguistic Research Project, Boston University, Boston, MA 
+ 
+[26] ---. 2007. Dorm prank (version 1.0). NCSLGR SignStream™ Databases Vol. 5; 
+distributed by C. Neidle for the American Sign Language Linguistic Research 
+Project, Boston University, Boston, MA 
+ 
+[27] ---. 2007. Football (version 1.0). NCSLGR SignStream™ Databases Vol. 6; distributed 
+by C. Neidle for the American Sign Language Linguistic Research Project, 
+Boston University, Boston, MA 
+ 
+[28] ---. 2007. LAPD (version 1.0). NCSLGR SignStream™ Databases Vol. 5; distributed by 
+C. Neidle for the American Sign Language Linguistic Research Project, Boston 
+University, Boston, MA 
+ 
+[29] ---. 2007. Siblings (version 1.0). NCSLGR SignStream™ Databases Vol. 6; distributed 
+by C. Neidle for the American Sign Language Linguistic Research Project, 
+Boston University, Boston, MA 
+ 
+[30] ---. 2007. Whitewater (version 1.0). NCSLGR SignStream™ Databases Vol. 5; 
+distributed by C. Neidle for the American Sign Language Linguistic Research 
+Project, Boston University, Boston, MA 
+ 
+[31] Neidle, C., J. Kegl, B. Bahan, D. Aarons & D. MacLaughlin. 1997. Rightward Wh-
+Movement in American Sign Language. In Rightward Movement, ed. Beerman 
+(sic), D., D. LeBlanc, H. Van Riemsdijk, pp. 247-278. Philadelphia: John 
+Benjamins 
+ 
+[32] Neidle, C., J. Kegl, D. MacLaughlin, B. Bahan & R. G. Lee. 2000. The Syntax of 
+American Sign Language: Functional Categories and Hierarchical Structure. 
+Cambridge, MA: MIT Press 
+
+SignStream Annotation Conventions                                         43                                                         References 
+ 
+ 
+ 
+ 
+ 
+[33] Neidle, C. & R. G. Lee. 2006. Syntactic agreement across language modalities. In 
+Studies on Agreement, ed. Costa, J., M. C. Figueiredo Silva. Amsterdam: John 
+Benjamins 
+ 
+[34] Neidle, C., R. G. Lee, Q. Duffy & M. Schlang. 2007. Close Call (version 1.0). 
+NCSLGR SignStream™ Databases Vol. 3; distributed by C. Neidle for the 
+American Sign Language Linguistic Research Project, Boston University, 
+Boston, MA 
+ 
+[35] ---. 2007. Speeding (version 1.0). NCSLGR SignStream™ Databases Vol. 3; distributed 
+by C. Neidle for the American Sign Language Linguistic Research Project, 
+Boston University, Boston, MA 
+ 
+[36] ---. 2007. Three pigs (version 1.0). NCSLGR SignStream™ Databases Vol. 3; 
+distributed by C. Neidle for the American Sign Language Linguistic Research 
+Project, Boston University, Boston, MA 
+ 
+[37] Neidle, C., R. G. Lee, M. Schlang & Q. Duffy. 2007. Accident (version 1.0). NCSLGR 
+SignStream™ Databases Vol. 4; distributed by C. Neidle for the American Sign 
+Language Linguistic Research Project, Boston University, Boston, MA 
+ 
+[38] ---. 2007. Biker (version 1.0). NCSLGR SignStream™ Databases Vol. 4; distributed by 
+C. Neidle for the American Sign Language Linguistic Research Project, Boston 
+University, Boston, MA 
+ 
+[39] ---. 2007. Boston-LA (version 1.0). NCSLGR SignStream™ Databases Vol. 4; 
+distributed by C. Neidle for the American Sign Language Linguistic Research 
+Project, Boston University, Boston, MA 
+ 
+[40] Neidle, C. & D. MacLaughlin. 2002. The Distribution of Functional Projections in 
+ASL: Evidence from Overt Expressions of Syntactic Features. In Functional 
+Structure in the DP and IP: The Cartography of Syntactic Structures, ed. Cinque, G. 
+Oxford: Oxford University Press 
+ 
+[41] Neidle, C., D. MacLaughlin, R. G. Lee, B. Bahan & J. Kegl. 1998. The Rightward 
+Analysis of Wh-movement in ASL: A Reply to Petronio and Lillo-Martin 1997. 
+Language 74: 819-831 
+ 
+[42] Neidle, C., S. Sclaroff & V. Athitsos. 2001. SignStream™: A Tool for Linguistic and 
+Computer Vision Research on Visual-Gestural Language Data. Behavior 
+Research Methods, Instruments, and Computers 33: 311-320 
+ 
+[43] Papaterou, P., G. Kollios, S. Sclaroff & D. Gunopoulos. 2005. Discovering Frequent 
+Arrangements of Temporal Intervals. Proceedings of the International Conference 
+on Data Mining (ICDM): 354-361 
+
+SignStream Annotation Conventions                                         44                                                         References 
+ 
+ 
+ 
+ 
+ 
+[44] Tsechpenakis, G., D. Metaxas, O. Hadjiliadis & C. Neidle. 2006. Robust Online 
+Change-point Detection in Video Sequences. 2nd IEEE Workshop on Vision for 
+Human Computer Interaction (V4HCI), in conjunction with IEEE Conference on 
+Computer Vision and Pattern Recognition (CVPR’06), New York, NY, June 2006.  
+ 
+[45] Tsechpenakis, G., D. Metaxas & C. Neidle. 2006. Learning-based Coupling of 
+Discrete and Continuous Trackers. Computer Vision and Image Understanding 
+104: 140-156, Nov/Dec 2006 
+ 
+[46] ---. In press. Combining Discrete and Continuous 3D Trackers. In Understanding, 
+Modelling, Capture and Animation Series: Computational Imaging and Vision, Vol. 
+36 ed. Rosenhahn, B., R. Klette, D. Metaxas: Springer 
+ 
+[47] Vogler, C. & S. Goldenstein. 2005. Analysis of facial expressions in American Sign 
+Language. Proceedings of the 3rd Intl. Conf. on Universal Access in Human-
+Computer Interaction (UAHCI) 2005. 
+ 
+[48] ---. In press, 2007. Facial movement analysis in ASL. Springer Journal on Universal 
+Access in the Information Society  
+ 
+[49] Vogler, C., S. Goldenstein, J. Stolfi, V. Pavlovic & D. Metaxas. 2007. Outlier rejection 
+in high-dimensional deformable models. Image and Vision Computing 25: 274-
+284 
+ 
+[50] Vogler, C. & D. Metaxas. 2004. Handshapes and movements: Multiple-channel ASL 
+recognition. Springer Lecture Notes in Artificial Intelligence (Proceedings of the 
+Gesture Workshop '03, Genova, Italy) 2915: 247-258 
+ 
+[51] Yuan, Q., S. Sclaroff & V. Athitsos. 2005. Automatic 2D Hand Tracking in Video 
+Sequences. Proc. IEEE Workshop on Applications of Comptuer Vision, Jan. 2005  
+ 
+ 
+ 
+
+                                                                                                      45                                                                                          Index 
+Index 
+A 
+Accident, 27, 29 
+ACROSS, 5 
+address, 15 
+ADVANTAGE, 5 
+advice, 5 
+ADVISE, 5 
+agentive, 6 
+Ali, 27, 29 
+ALL-GONE, 12 
+ALL-NIGHT, 12 
+ALL-THE-WAY, 11 
+American Sign Language Linguistic Research Project. 
+See ASLLRP 
+ANYWAY/NOT-MATTER, 13 
+APPLAUSE, 5 
+ASLLRP, 1, 28 
+B 
+BETWEEN, 3 
+Biker, 27, 29 
+bleed, 5 
+BLOOD, 5 
+BORE, 5 
+BORN, 8 
+Bostonian, 6 
+Boston-LA, 27, 29 
+BUY, 6 
+C 
+CALL, 6, 14 
+CALL-BY-PHONE, 6, 14 
+CD-ROM’s, 28 
+CITY/COMMUNITY, 13 
+Close Call, 27, 29 
+Compounds, 6 
+CONFUSE, 6 
+cost, 4 
+CREATE/PRETEND, 13 
+D 
+Data, 28 
+DawnSignPress 
+Stories, 28 
+Dead Dog Story, 28 
+DEPART, 8 
+DIFFERENT, 5 
+dinner, 6 
+Dorm prank, 27, 29 
+Duffy, Quinn, 16 
+E 
+EAT+NIGHT, 6 
+EAT+NOON, 6 
+EMPTY, 12 
+EXCUSE, 4 
+EXCUSE-GO, 4, 8 
+F 
+FALL-INTO-IT, 11 
+FALL-INTO-PLACE, 11 
+FASCINATED, 5 
+FAVORITE/PREFER, 6 
+fee, 4 
+FINALLY/SUCCEED, 13 
+fine, 4 
+FINISH, 4, 5, 10 
+FINISH-shake, 4, 10 
+Football, 27, 30 
+FORGET-IT, 24 
+
+                                                                                                               46                                                                                          Index 
+ 
+G 
+GAME, 11 
+Gestures, 18 
+”darn”, 26 
+”gees”, 25 
+”nah”, 24 
+”oh my god”, 25 
+5”actually”, 18 
+5”ahh”, 22 
+5”anyway”, 21 
+5”aw, man”, 18 
+5”calm down”, 23 
+5”checking it out”, 23 
+5”come here”, 24 
+5”come on”, 19 
+5”concession”, 19 
+5”dismissive gesture”, 23 
+5”drop topic”, 24 
+5”dumbfounded”, 17 
+5”everything in order”, 17 
+5”exasperation”, 17 
+5”for our sake”, 21 
+5”forget it”, 22 
+5”frustration”, 17 
+5”hands off”, 21 
+5”hesitation”, 26 
+5”hey, no”, 21 
+5”hey”, 21 
+5”I don’t know”, 18 
+5”it’s ok”, 21 
+5”keep in mind”, 21 
+5”leave it at that”, 24 
+5”let it go”, 24 
+5”let’s see”, 19 
+5”listen up”, 23 
+5”looking for words, 18 
+5”no more”, 21 
+5”not a big deal”, 22 
+5”not know what to do”, 18 
+5”of course”, 19 
+5”oh gosh”, 23 
+5”oh well”, 20 
+5”ok (giving in)”, 18 
+5”ok, hey”, 19 
+5”ok, let’s see”, 25 
+5”out of my control”, 18 
+5”panic”, 18 
+5”perplexed”, 26 
+5”reassure”, 20 
+5”reassuring self”, 23 
+5”relieved”, 26 
+5”reluctance”, 26 
+5”resignation”, 17 
+5”set”, 22 
+5”sheepish”, 17 
+5”sigh”, 23 
+5”so, all set”, 22 
+5”so, ok”, 23 
+5”so-so”, 23 
+5”surprised”, 23 
+5”taken aback”, 26 
+5”that’s the way it is”, 17 
+5”this is nothing”, 24 
+5”to let you know, it’s OK”, 20 
+5”trepidation”, 17 
+5”waiting for news”, 25 
+5”wave no”, 20 
+5”what the heck”, 20 
+5”what’s going on?”, 19 
+5”whoa”, 22 
+5”wow”, 25 
+5”you know”, 17 
+5”you see”, 17 
+B-L”go ahead”, 24 
+B-L”go on”, 18 
+FORGET-IT, 24 
+R”hoping”, 26 
+vs. signs, 16 
+get ready, 6 
+GET-OUT, 10 
+GIFT, 13 
+GIVE, 13 
+GONE, 12 
+
+                                                                                              47                                                                                          Index 
+ 
+ 
+ 
+ 
+GO-OUT, 10 
+GRAB-CHANCE, 12 
+H 
+Handshapes, 31 
+Handshapes, distinguishing signs, 3 
+I 
+idiomatic expressions, 6 
+Immigrants Story, 28 
+INFORM, 5 
+information, 5 
+INSURANCE/INFECTION, 13 
+Introduction to a Story, 28 
+L 
+LAPD, 27, 30 
+law, 6 
+LEAVE, 3 
+LEAVE-THERE, 8 
+LEGAL/LAW, 6 
+life, 15 
+LIVE, 5, 15 
+LONG-LIST, 11 
+LOOK, 9 
+LOOK+SAME, 9 
+LOOK-LIKE, 9 
+lunch, 6 
+M 
+Macintosh, 1 
+MELT/SOLVE, 13 
+MIND, 14 
+MISTAKE, 6, 14 
+Morphology, 6 
+MOTIVATE, 5 
+N 
+Narratives of 2007 ASLLRP collection, 27 
+National Center for Sign Language and Gesture 
+Resources. See NCSLGR 
+NAUSEA, 5 
+NCSLGR, 1, 28 
+NONE, 10 
+NONE/NOTHING, 10 
+NOTHING, 10 
+NOT-MIND, 14 
+ns-BOSTON+PERSON, 6 
+O 
+OPEN, 4, 9 
+OPEN-BOOK, 4, 9 
+OUT, 10. See also:  OUTSIDE, GO-OUT, GET-OUT 
+OUTSIDE, 10 
+OVER/AFTER, 13 
+OVER-NIGHT, 12 
+P 
+PACE/PROGRESS, 13 
+Part of speech, 5 
+Demonstratives, 7 
+Labeling, 7 
+Possessives, 7 
+PAY, 9 
+penalty, 4 
+PERSON, 6 
+PHONE, 6, 14 
+PLAY-AGAINST, 11 
+prefer, 6 
+PRICE, 4 
+
+                                                                                                               48                                                                                          Index 
+ 
+ 
+R 
+READY, 6 
+REALLY, 6 
+RELIEVED, 5 
+RESIDENCE/ADDRESS, 15 
+Roadtrip 1, 27, 30 
+Roadtrip 2, 27, 30 
+S 
+SCARE, 5 
+Scary story, 27, 30 
+Segmentation issues, 7 
+SELL, 6 
+SET-ASIDE, 12 
+shopping, 6 
+Siblings, 27, 30 
+SICK, 5 
+SIGN, 9 
+SignStream™, 1, 28 
+version 3, under development, 1, 2 
+XML DTD, 38 
+Ski Trip Story, 28 
+Software, 28 
+SPECIAL/EXCEPT, 13 
+SPEECH/LECTURE, 13 
+Speeding, 27, 29 
+STAY-AWAKE, 12 
+STAY-AWAKE-ALL-NIGHT, 12 
+STORE, 6 
+STORY, 8 
+STRAIGHT-ALL-THE-WAY, 11 
+sure, 6 
+ 
+T 
+take advantage, 5 
+TAKE-OFF, 4, 8 
+TALK, 4, 9 
+TALKwg, 4, 9 
+tax, 4 
+telephone, 6 
+TEMPT, 5 
+Three pigs, 27, 29 
+toll, 4 
+TOTAL, 11 
+true, 6 
+TRUE-BUSINESS, 6 
+U 
+USE-SIGN-LANGUAGE, 9 
+V 
+Video, 1 
+vulcan. See  BETWEEN 
+W 
+Whitewater, 27, 29 
+WRONG, 6, 14 
+X 
+XML, 1, 38 
+ 
+ 

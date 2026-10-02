@@ -1,0 +1,12 @@
+{
+  "asset_id": "W07",
+  "url": "https://huggingface.co/ShesterG/SHuBERT/resolve/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/models/yolov8n.pt",
+  "revision": "578a0233e770c8ce4dc75d859b91fdea7c34f5aa",
+  "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "bytes": 6549796,
+  "local_path": "checkpoints/shubert_author_hf/models/yolov8n.pt",
+  "utc_time": "2026-09-30T18:49:53.111264+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": "Public author model; research pipeline; license/training overlap to audit.",
+  "content_type": "application/octet-stream"
+}

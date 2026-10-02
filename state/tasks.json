@@ -1,0 +1,295 @@
+{
+  "updated_utc": "2026-10-01T07:52:16.837399+00:00",
+  "goal_status": "active",
+  "previous_goal_turn_classification": "progress",
+  "scope": "Entire original execution plan; no verified novelty method yet",
+  "tasks": [
+    {
+      "task_id": "T00",
+      "status": "PASS",
+      "depends_on": [],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": null,
+      "pid": null,
+      "outputs": [
+        "evidence/bootstrap_inventory.json"
+      ],
+      "checks": [],
+      "reason": "Read-only bounded inventory complete; GPU 0 explicitly granted; disk reserve now passes."
+    },
+    {
+      "task_id": "T01",
+      "status": "PARTIAL_REQUIRED_SOURCE_SCOPING_COMPLETE",
+      "depends_on": [
+        "T00"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": null,
+      "pid": null,
+      "outputs": [
+        "evidence/literature_matrix.csv",
+        "provenance/source_commits.json",
+        "provenance/assets.json"
+      ],
+      "checks": [],
+      "reason": "37matrixentries:17core +17listed expansion +3older closest functional priors. All listed sources have relevant declared reading scope, including How2Sign arXivv2dataset methods/grouping and supplement reading. Full source/PDF acquisition and remaining integrity/venue checks are not certified complete; no exhaustive/full-read claim."
+    },
+    {
+      "task_id": "T02",
+      "status": "PASS",
+      "depends_on": [
+        "T00"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": null,
+      "pid": null,
+      "outputs": [
+        "data/manifests/all.jsonl",
+        "reports/manifest_coverage.json",
+        "reports/manifest_validation.json",
+        "reports/how2sign_root_comparison.json"
+      ],
+      "checks": [],
+      "reason": "Seven available dataset formats normalized and all 214613 rows schema-validated. Missing videos, unknown recording IDs and unverified CSL crop lineage remain explicit coverage limitations, not gold claims."
+    },
+    {
+      "task_id": "T03",
+      "status": "PASS",
+      "depends_on": [
+        "T01",
+        "T02"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": null,
+      "pid": null,
+      "outputs": [
+        "reports/split_audit.json",
+        "reports/gate_decisions.json",
+        "configs/protocol_common_v1.yaml",
+        "state/protocol_common_v1.lock.json"
+      ],
+      "checks": [],
+      "reason": "Gate decisions updated after public historicalNCSLGRsource discovery; limited internal recorded-function protocol locked. External semantic/B query/negative gates remain blocked; source/pretraining/external overlap limitations explicit."
+    },
+    {
+      "task_id": "T04",
+      "status": "PASS_LOCAL_TRANSLATOR_NUMERICAL_SMOKE",
+      "depends_on": [
+        "T00",
+        "T01"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": null,
+      "pid": null,
+      "outputs": [
+        "provenance/env_signrep.pip-freeze.txt",
+        "features/signrep_pilot/load_audit.json",
+        "provenance/W01.json",
+        "provenance/env_shubert_native.pip-freeze.txt",
+        "features/shubert_native_pilot_gpu_attempt4/report.json",
+        "reports/shubert_cuda_import_audit.json",
+        "reports/shubert_demo_source_audit.json",
+        "provenance/W08.json",
+        "provenance/env_shubert_translation.pip-freeze.txt",
+        "features/shubert_translation_smoke_attempt1/report.json",
+        "features/semantic_pair_backend_smoke_attempt1/report.json"
+      ],
+      "checks": [],
+      "reason": "C04 source/configs and W08checksum verified. Custom ByT5CPU strict load, real104frame C04cue pipeline,39token source-caption NLL/padding and boundedgeneration PASS. W08encoder differs213/226W02tensors; no exact paper model/semantic-pair accuracy claim. Separate env freeze saved."
+    },
+    {
+      "task_id": "T05",
+      "status": "IN_PROGRESS_REVIEWED_NATIVE_LEXICAL_RECOVERY",
+      "depends_on": [
+        "T02",
+        "T04"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": "scripts/extract_features.py --manifest data/manifests/common_v1.jsonl --backbone signrep --config configs/signrep.yaml --output features/signrep_common_v1 --resume",
+      "run_id": "common_v1",
+      "pid": null,
+      "outputs": [
+        "features/signrep_pilot/extraction_report.json",
+        "reports/signrep_pilot_cost.json",
+        "features/signrep_common_v1/index.jsonl",
+        "features/shubert_native_pilot_gpu_attempt4/report.json",
+        "reports/shubert_native_pilot_cost.json",
+        "configs/protocol_native_common_v1.json",
+        "features/shubert_native_common_v1_preprocessing/report.json",
+        "features/shubert_native_common_v1/extraction_report.json",
+        "reports/shubert_cohort_header_sample.json"
+      ],
+      "checks": [],
+      "reason": "NativeNCS222fullcache/auditcomplete. Originalnativelexical diskguard failurespreserved1235features/1237prepared. Capacityfreed; reviewedrecovery nowCPUpreprocessing RUNNING, then soleGPU0consumer onfullpreparation. Samehashes/reserve; noextraGPU."
+    },
+    {
+      "task_id": "T06",
+      "status": "WAITING_FOR_REVIEWED_NATIVE_LEXICAL_RECOVERY",
+      "depends_on": [
+        "T03",
+        "T05"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": "common_v1",
+      "pid": null,
+      "outputs": [
+        "state/common_suite.json",
+        "runs/experiment_registry.csv",
+        "configs/protocol_fair_common_v1.json",
+        "runs/fair_common_v1/status.json"
+      ],
+      "checks": [],
+      "reason": "Original8SignRep runscomplete. Oldfair_commonwaiter pre-fittingFAIL retained. Same locked equal-grid controls scheduled inruns/fair_common_v1_recovery1 only afterfullnativePASS."
+    },
+    {
+      "task_id": "T07A",
+      "status": "PARTIAL_INTERNAL_NATIVE_FUNCTION_CONTROLS_COMPLETE",
+      "depends_on": [
+        "T03",
+        "T05"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": "ncslgr_diagnostic_v1",
+      "pid": null,
+      "outputs": [
+        "reports/asl_mtp_metadata_audit.json",
+        "reports/asl_mtp_resolution_pilot.json",
+        "reports/annotation_request.csv",
+        "reports/ncslgr_annotation_audit/report.json",
+        "reports/ncslgr_media_audit.json",
+        "data/external/ncslgr/diagnostic_v1/protocol.lock.json",
+        "runs/ncslgr_diagnostic_v1/summary.json",
+        "reports/ncslgr_diagnostic_audit.json",
+        "configs/protocol_ncslgr_intervals_v1.json",
+        "runs/ncslgr_intervals_v1/summary.json",
+        "reports/ncslgr_interval_audit.json",
+        "runs/fair_ncslgr_v1/summary.json",
+        "runs/ncslgr_author_pool_v1/summary.json",
+        "reports/native_ncslgr_controls_audit.json",
+        "scripts/run_semantic_pairs.py",
+        "reports/semantic_pairs_readiness_v1/status.json",
+        "features/semantic_pair_backend_smoke_attempt1/report.json",
+        "reports/track_requirements_audit_v1.md",
+        "configs/protocol_ncslgr_branch_ablation_v3.json",
+        "scripts/extract_ncslgr_branch_ablation.py",
+        "scripts/run_ncslgr_branch_ablation.py",
+        "scripts/continue_ncslgr_branch_ablation.py",
+        "reports/ncslgr_branch_ablation_smoke_v3_audit.json",
+        "reports/ncslgr_branch_reproduction_diagnostic_v1.json",
+        "state/ncslgr_branch_ablation_v3/status.json"
+      ],
+      "checks": [],
+      "reason": "Native222CPUcache PASS. Strict18equal-budget controls completed on175eligibleutterances65train/27val/83test;61intervaltest. Native temporal minus globalIoU-.06551CI[-.12845,-.01105]; allsixlearnedreadouts belowtrain-durationprior. Separate9head author-imputed sensitivity full222done; masks audited. Nofullscope/absence/independentsemanticgold. ExternalsemanticCLIimplemented; scoring/accountingtestspass, realgold/media readinessdryrunblocked; noA01accuracyclaim. New semantic CLI backend numerical integration PASS on one 104-frame training-signer source caption, repeated text tie and blank streams; no distinct semantic-pair/external accuracy. A03 eight same-source interventions now extracting CPU on exact175common cohort after two training-only numerical smoke cases. Original-cache equivalence unestablished; v1 import and v2 guard failures archived. No ablation classification metric until full extraction then24matchedheads."
+    },
+    {
+      "task_id": "T07B",
+      "status": "BLOCKED_DATA",
+      "depends_on": [
+        "T03",
+        "T05"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": null,
+      "pid": null,
+      "outputs": [
+        "reports/gate_decisions.json",
+        "reports/annotation_request.csv",
+        "scripts/run_grounding.py",
+        "src/signrepr/grounding.py",
+        "configs/experiments/Q02.yaml",
+        "reports/grounding_readiness_v1/status.json",
+        "reports/grounding_implementation_audit_v1.json",
+        "reports/track_requirements_audit_v1.md"
+      ],
+      "checks": [],
+      "reason": "Q02 standard CPU subsequence-DTW and metrics implemented; eight synthetic tests including complete CLI integration PASS. Actual readiness stops before search with BLOCKED_GOLD_OR_MAPPING. Verified ASL lexeme mapping, exhaustive occurrences/absence and resolved query/target signer/recording groups remain missing; Q00/Q01/Q03/Q04/Q05 not evaluated."
+    },
+    {
+      "task_id": "T08",
+      "status": "PENDING_MECHANISM_AND_INDEPENDENT_CONFIRMATION",
+      "depends_on": [
+        "T07A",
+        "T07B"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": null,
+      "pid": null,
+      "outputs": [
+        "reports/novelty_matrix.csv",
+        "reports/method_decision_v1.md"
+      ],
+      "checks": [],
+      "reason": "Nativefunctioncontrols complete without supportedtemporalbenefit; allsixendpointreadouts belowpredeclaredtrainprior. Author-imputedpooling sensitivity doesnotestablishcausalencoderadvantage. Noadaptationchosen; independentmechanism/goldconfirmation and lexicalretentioncontrols required."
+    },
+    {
+      "task_id": "T09",
+      "status": "PENDING",
+      "depends_on": [
+        "T06",
+        "T07A",
+        "T07B",
+        "T08"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": null,
+      "pid": null,
+      "outputs": [
+        "reports/common_v1_primary_bootstrap.json",
+        "reports/common_v1_error_audit/report.json",
+        "reports/ncslgr_expert_review_v1/manifest.json",
+        "reports/ncslgr_expert_review_v1/review_template.csv"
+      ],
+      "checks": [],
+      "reason": "SignRep common paired recording bootstrap, historical NCSLGR classification/recorded-core interval bootstraps, boundary integrity and train-duration-prior sensitivity complete. Fixed error cases have zero expert reviews. Native functioncontrols completed; lexical recovery live in CPU preprocessing; external confirmation and ASL expert review pending. Validation-temperature categorical sensitivity completed on9immutable heads; all9choices at upper grid boundary, original predictions preserved. Concrete30case interval review packet prepared; proposed fixed10dual-review subset; all expert fields still pending, no external contact. Native222cache,27savedheads and747boundaryfiles auditPASS; strict/imputedpopulationdifferences retained."
+    },
+    {
+      "task_id": "T10",
+      "status": "PENDING",
+      "depends_on": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07A",
+        "T07B",
+        "T08",
+        "T09"
+      ],
+      "inputs": [],
+      "input_hashes": {},
+      "command": null,
+      "run_id": null,
+      "pid": null,
+      "outputs": [
+        "reports/research_status.md",
+        "REPRODUCE.md"
+      ],
+      "checks": [],
+      "reason": "Interim reporting only; final synthesis, claim ledger completion and requirement-by-requirement audit remain."
+    }
+  ],
+  "current_goal_turn_classification": "progress"
+}

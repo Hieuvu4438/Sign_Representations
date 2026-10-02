@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "completed_jobs": [
+    [
+      "B00",
+      0
+    ],
+    [
+      "B01",
+      0
+    ],
+    [
+      "B02",
+      0
+    ],
+    [
+      "B02",
+      1
+    ],
+    [
+      "B02",
+      2
+    ],
+    [
+      "B03",
+      0
+    ],
+    [
+      "B03",
+      1
+    ],
+    [
+      "B03",
+      2
+    ]
+  ],
+  "statistics_status": "PASS_PAIRED_GROUPED_BOOTSTRAP",
+  "expert_error_review": "PENDING"
+}

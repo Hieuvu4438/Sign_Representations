@@ -1,0 +1,515 @@
+[
+  {
+    "sample_id": "ncslgr:ncslgr10r:3",
+    "asset_id": "NCSLGR_FRONTAL_2cb5f760f7cfe81b",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "3",
+      "main gloss": "fs-JOHN SEE WHO YESTERDAY part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d13c_1167_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d13c_1167_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d13c_1167_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d13c_1167_large_1.avi",
+      "Video file name in XML file": "d13c_1167_small_1.mov",
+      "Video sequence id": "1167"
+    },
+    "bytes": 835965,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d13c_1167_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d13c_1167_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:29",
+    "asset_id": "NCSLGR_FRONTAL_2273fa51031ee481",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "29",
+      "main gloss": "SEE fs-JOAN WHO (1h)part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d59b_1180_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d59b_1180_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d59b_1180_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d59b_1180_large_1.avi",
+      "Video file name in XML file": "d59b_1180_small_1.mov",
+      "Video sequence id": "1180"
+    },
+    "bytes": 1027121,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d59b_1180_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d59b_1180_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:27",
+    "asset_id": "NCSLGR_FRONTAL_71095719a6da9ec2",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "27",
+      "main gloss": "fs-JOHN SEE YESTERDAY WHO part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d51_1177_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d51_1177_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d51_1177_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d51_1177_large_1.avi",
+      "Video file name in XML file": "d51_1177_small_1.mov",
+      "Video sequence id": "1177"
+    },
+    "bytes": 959917,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d51_1177_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d51_1177_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:0",
+    "asset_id": "NCSLGR_FRONTAL_6dc3f611d97ce5b2",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "0",
+      "main gloss": "fs-JOHN LOVE WHO",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d10_1166_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d10_1166_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d10_1166_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d10_1166_large_1.avi",
+      "Video file name in XML file": "d10_1166_small_1.mov",
+      "Video sequence id": "1166"
+    },
+    "bytes": 1024257,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d10_1166_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d10_1166_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:14",
+    "asset_id": "NCSLGR_FRONTAL_6f1fa3f8f3193223",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "14",
+      "main gloss": "fs-JOHN LOVE WHO part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d38_1156_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d38_1156_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d38_1156_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d38_1156_large_1.avi",
+      "Video file name in XML file": "d38_1156_small_1.mov",
+      "Video sequence id": "1156"
+    },
+    "bytes": 964669,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d38_1156_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d38_1156_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:17",
+    "asset_id": "NCSLGR_FRONTAL_5552a266fa07b22a",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "17",
+      "main gloss": "fs-MARY ARRIVE HOW+ part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d40_1159_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d40_1159_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d40_1159_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d40_1159_large_1.avi",
+      "Video file name in XML file": "d40_1159_small_1.mov",
+      "Video sequence id": "1159"
+    },
+    "bytes": 756157,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d40_1159_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d40_1159_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:36",
+    "asset_id": "NCSLGR_FRONTAL_04daf15d39391882",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "36",
+      "main gloss": "fs-JOHN BUY YESTERDAY \"WHAT\"",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d9_1165_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d9_1165_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d9_1165_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d9_1165_large_1.avi",
+      "Video file name in XML file": "d9_1165_small_1.mov",
+      "Video sequence id": "1165"
+    },
+    "bytes": 870309,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d9_1165_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d9_1165_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:6",
+    "asset_id": "NCSLGR_FRONTAL_fe1eda4b1746963b",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "6",
+      "main gloss": "fs-JOHN SEE WHO YESTERDAY HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d1_1161_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d1_1161_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d1_1161_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d1_1161_large_1.avi",
+      "Video file name in XML file": "d1_1161_small_1.mov",
+      "Video sequence id": "1161"
+    },
+    "bytes": 1119357,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d1_1161_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d1_1161_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:1",
+    "asset_id": "NCSLGR_FRONTAL_104d222007991cf3",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "1",
+      "main gloss": "fs-JOHN LOVE \"WHAT\" HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d11_1146_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d11_1146_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d11_1146_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d11_1146_large_1.avi",
+      "Video file name in XML file": "d11_1146_small_1.mov",
+      "Video sequence id": "1146"
+    },
+    "bytes": 634109,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d11_1146_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d11_1146_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:5",
+    "asset_id": "NCSLGR_FRONTAL_4de8d72e20b4f0fc",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "5",
+      "main gloss": "IX-1p NEVER SEE fs-JOHN POSS-3p:i CAR (1h)part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d18_1149_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d18_1149_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d18_1149_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d18_1149_large_1.avi",
+      "Video file name in XML file": "d18_1149_small_1.mov",
+      "Video sequence id": "1149"
+    },
+    "bytes": 1085549,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d18_1149_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d18_1149_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:16",
+    "asset_id": "NCSLGR_FRONTAL_746a974015d48de3",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "16",
+      "main gloss": "MOTHERwg BUY CAR (Y)WHY+ part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d39_1157_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d39_1157_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d39_1157_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d39_1157_large_1.avi",
+      "Video file name in XML file": "d39_1157_small_1.mov",
+      "Video sequence id": "1157"
+    },
+    "bytes": 1039789,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d39_1157_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d39_1157_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:24",
+    "asset_id": "NCSLGR_FRONTAL_c3f102f1d8530269",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "24",
+      "main gloss": "WHO FIND/FIND-OUT BOOK+ part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d48_1174_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d48_1174_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d48_1174_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d48_1174_large_1.avi",
+      "Video file name in XML file": "d48_1174_small_1.mov",
+      "Video sequence id": "1174"
+    },
+    "bytes": 1338113,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d48_1174_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d48_1174_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:33",
+    "asset_id": "NCSLGR_FRONTAL_a280a427b15fcc9d",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "33",
+      "main gloss": "fs-JOHN (2h)NOT-KNOW ANSWER part:indef",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d67_1182_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d67_1182_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d67_1182_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d67_1182_large_1.avi",
+      "Video file name in XML file": "d67_1182_small_1.mov",
+      "Video sequence id": "1182"
+    },
+    "bytes": 1090513,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d67_1182_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d67_1182_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:11",
+    "asset_id": "NCSLGR_FRONTAL_16d53f84cd71901d",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "11",
+      "main gloss": "SEE SOMETHING/ONE part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d36_1154_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d36_1154_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d36_1154_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d36_1154_large_1.avi",
+      "Video file name in XML file": "d36_1154_small_1.mov",
+      "Video sequence id": "1154"
+    },
+    "bytes": 735593,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d36_1154_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d36_1154_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:15",
+    "asset_id": "NCSLGR_FRONTAL_4ccb3e670e0879f2",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "15",
+      "main gloss": "MOTHER BUY CAR FOR-FOR part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d39b_1158_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d39b_1158_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d39b_1158_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d39b_1158_large_1.avi",
+      "Video file name in XML file": "d39b_1158_small_1.mov",
+      "Video sequence id": "1158"
+    },
+    "bytes": 921029,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d39b_1158_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d39b_1158_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:4",
+    "asset_id": "NCSLGR_FRONTAL_f1f67ba5f8a689e9",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "4",
+      "main gloss": "fs-JOHN SEE WHO YESTERDAY HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d13_1147_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d13_1147_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d13_1147_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d13_1147_large_1.avi",
+      "Video file name in XML file": "d13_1147_small_1.mov",
+      "Video sequence id": "1147"
+    },
+    "bytes": 753841,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d13_1147_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d13_1147_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:12",
+    "asset_id": "NCSLGR_FRONTAL_ccc433a760771ff9",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "12",
+      "main gloss": "fs-JOHN (2h)NOT-KNOW ANSWER part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d37b_1168_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d37b_1168_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d37b_1168_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d37b_1168_large_1.avi",
+      "Video file name in XML file": "d37b_1168_small_1.mov",
+      "Video sequence id": "1168"
+    },
+    "bytes": 1067389,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d37b_1168_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d37b_1168_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:34",
+    "asset_id": "NCSLGR_FRONTAL_153275c15b62f6ed",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "34",
+      "main gloss": "fs-JOHN SEE YESTERDAY WHO",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d6_1163_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d6_1163_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d6_1163_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d6_1163_large_1.avi",
+      "Video file name in XML file": "d6_1163_small_1.mov",
+      "Video sequence id": "1163"
+    },
+    "bytes": 985101,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d6_1163_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d6_1163_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:30",
+    "asset_id": "NCSLGR_FRONTAL_b9223604a4dfe6d8",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "30",
+      "main gloss": "SEE fs-JOAN WHO HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d59_1179_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d59_1179_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d59_1179_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d59_1179_large_1.avi",
+      "Video file name in XML file": "d59_1179_small_1.mov",
+      "Video sequence id": "1179"
+    },
+    "bytes": 993049,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d59_1179_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d59_1179_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:18",
+    "asset_id": "NCSLGR_FRONTAL_e390ce7e2ff09b59",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "18",
+      "main gloss": "\"WHAT\" fs-JOHN BUY YESTERDAY \"WHAT\"",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d41_1160_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d41_1160_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d41_1160_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d41_1160_large_1.avi",
+      "Video file name in XML file": "d41_1160_small_1.mov",
+      "Video sequence id": "1160"
+    },
+    "bytes": 890677,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d41_1160_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d41_1160_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:2",
+    "asset_id": "NCSLGR_FRONTAL_deb6164a21f98668",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "2",
+      "main gloss": "fs-JOHN SEE WHO YESTERDAY (1h)part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d13b_1148_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d13b_1148_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d13b_1148_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d13b_1148_large_1.avi",
+      "Video file name in XML file": "d13b_1148_small_1.mov",
+      "Video sequence id": "1148"
+    },
+    "bytes": 726213,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d13b_1148_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d13b_1148_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:31",
+    "asset_id": "NCSLGR_FRONTAL_3ea0dda7712e7f67",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "31",
+      "main gloss": "fs-JOHN HOLD SEE YESTERDAY WHO",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d5_1162_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d5_1162_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d5_1162_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d5_1162_large_1.avi",
+      "Video file name in XML file": "d5_1162_small_1.mov",
+      "Video sequence id": "1162"
+    },
+    "bytes": 1002425,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d5_1162_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d5_1162_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:25",
+    "asset_id": "NCSLGR_FRONTAL_e3432191124e30c1",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "25",
+      "main gloss": "fs-JOHN SEE WHO YESTERDAY part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d49_1175_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d49_1175_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d49_1175_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d49_1175_large_1.avi",
+      "Video file name in XML file": "d49_1175_small_1.mov",
+      "Video sequence id": "1175"
+    },
+    "bytes": 867145,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d49_1175_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d49_1175_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:32",
+    "asset_id": "NCSLGR_FRONTAL_daa49491fac8317f",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "32",
+      "main gloss": "SOMETHING/ONE SEE fs-JOAN HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d61_1181_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d61_1181_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d61_1181_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d61_1181_large_1.avi",
+      "Video file name in XML file": "d61_1181_small_1.mov",
+      "Video sequence id": "1181"
+    },
+    "bytes": 1010577,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d61_1181_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d61_1181_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:35",
+    "asset_id": "NCSLGR_FRONTAL_d0dfff66cab43c0f",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "35",
+      "main gloss": "ARRIVE HOLD WHO",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d8_1164_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d8_1164_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d8_1164_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d8_1164_large_1.avi",
+      "Video file name in XML file": "d8_1164_small_1.mov",
+      "Video sequence id": "1164"
+    },
+    "bytes": 672041,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d8_1164_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d8_1164_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:13",
+    "asset_id": "NCSLGR_FRONTAL_4fd3a363cec404dd",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "13",
+      "main gloss": "fs-JOHN (2h)NOT-KNOW ANSWER part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d37_1155_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d37_1155_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d37_1155_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d37_1155_large_1.avi",
+      "Video file name in XML file": "d37_1155_small_1.mov",
+      "Video sequence id": "1155"
+    },
+    "bytes": 835193,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d37_1155_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d37_1155_small_1.mov"
+  },
+  {
+    "sample_id": "ncslgr:ncslgr10r:26",
+    "asset_id": "NCSLGR_FRONTAL_f46d02ee030a8875",
+    "index_row": {
+      "XML file": "ncslgr10r.xml",
+      "Occurs in utterance id": "26",
+      "main gloss": "FIND/FIND-OUT BOOK+ WHO part:indef HOLD",
+      "Perspective/Camera id": "1",
+      "Compressed MOV file": "http://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d50_1176_small_1.mov",
+      "Uncompressed AVI": "http://csr.bu.edu/asl0/uploading/2002_04_19/large/d50_1176_large_1.avi",
+      "Uncompressed AVI mirror 1": "http://csr.bu.edu/asl0/uploading/2002_04_19/sequences/d50_1176_1.avi",
+      "Uncompressed AVI mirror 2": "http://csr.bu.edu/asl0/working/tapes2/2002_04_19/slave1b/d50_1176_large_1.avi",
+      "Video file name in XML file": "d50_1176_small_1.mov",
+      "Video sequence id": "1176"
+    },
+    "bytes": 818093,
+    "url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d50_1176_small_1.mov",
+    "final_url": "https://csr.bu.edu/asl/private/downloads/2002_4_9/slave1/d50_1176_small_1.mov"
+  }
+]

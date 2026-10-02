@@ -1,0 +1,12 @@
+{
+  "asset_id": "P17",
+  "url": "https://aclanthology.org/2025.wslp-main.10.pdf",
+  "revision": "proceedings_or_explicit_v1",
+  "sha256": "01bda3b0a137dffc814d341e2513e980a6389be358d12fbdccdf86247addeae3",
+  "bytes": 249604,
+  "local_path": "evidence/papers/P17.pdf",
+  "utc_time": "2026-09-30T17:41:38.615639+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

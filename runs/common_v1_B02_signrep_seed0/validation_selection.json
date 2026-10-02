@@ -1,0 +1,30 @@
+{
+  "selected": {
+    "learning_rate": 0.01,
+    "hidden": null,
+    "epoch": 68,
+    "validation_macro_recall": 0.8891666666666665
+  },
+  "trials": [
+    {
+      "learning_rate": 0.0001,
+      "hidden": null,
+      "best_epoch": 95,
+      "validation_macro_recall": 0.7441666666666668
+    },
+    {
+      "learning_rate": 0.001,
+      "hidden": null,
+      "best_epoch": 100,
+      "validation_macro_recall": 0.8616666666666666
+    },
+    {
+      "learning_rate": 0.01,
+      "hidden": null,
+      "best_epoch": 68,
+      "validation_macro_recall": 0.8891666666666665
+    }
+  ],
+  "protocol_sha256": "204aa0aa7552e88dc4874bc5fc793ac676d5cf3adc2612c7a44661068bb8b0c7",
+  "test_scores_available_at_selection": false
+}

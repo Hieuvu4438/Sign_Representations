@@ -1,0 +1,12 @@
+{
+  "asset_id": "P26",
+  "url": "https://arxiv.org/pdf/2603.23617v2",
+  "revision": "arXivv2;2026-09-02;BMVC2026 acceptance stated by authors",
+  "sha256": "b42f748b7392d78743351292c2e9019d2b272815fc93c61da8e6a49468519480",
+  "bytes": 6893038,
+  "local_path": "evidence/papers/P26.pdf",
+  "utc_time": "2026-09-30T20:43:54.808450+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

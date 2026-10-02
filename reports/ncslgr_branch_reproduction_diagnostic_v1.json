@@ -1,0 +1,55 @@
+{
+  "status": "PASS_NUMERICAL_DIAGNOSIS_NO_SCIENTIFIC_METRICS",
+  "source_split": "train",
+  "sample_id": "ncslgr:ncslgr10p:11:body",
+  "source_sha256": "6463730d3f4c68975ebcbf1376960243bc0bf1e541072017b2c46272e2f8cfdc",
+  "reference_shard_sha256": "d8e60e30156fe83d0b1c1922141852758f22c6e17fcf2a1554952099f3b2653b",
+  "frames": 173,
+  "torch": "2.1.1+cu121",
+  "numpy": "1.26.3",
+  "mkldnn_enabled": true,
+  "stream_repeat_4_threads_max_abs_difference": {
+    "face": 0.0,
+    "left_hand": 0.0,
+    "right_hand": 0.0,
+    "body_posture": 0.0
+  },
+  "encoder_repeat_4_threads_max_abs_difference": 0.0,
+  "four_thread_reproduction": {
+    "max_abs_difference": 4.7206878662109375e-05,
+    "rmse": 6.197458323851582e-07,
+    "allclose_atol1e_5_rtol1e_5": false,
+    "observed_pool_cosine": 0.9999999999894131,
+    "observed_pool_max_abs_difference": 6.273470678115622e-07
+  },
+  "encoder_one_thread_same_inputs": {
+    "max_abs_difference": 2.2411346435546875e-05,
+    "rmse": 6.161029454479623e-07,
+    "allclose_atol1e_5_rtol1e_5": true,
+    "observed_pool_cosine": 0.9999999999873004,
+    "observed_pool_max_abs_difference": 1.3834438472581922e-06
+  },
+  "all_one_thread_reproduction": {
+    "max_abs_difference": 4.8160552978515625e-05,
+    "rmse": 6.51930177175483e-07,
+    "allclose_atol1e_5_rtol1e_5": false,
+    "observed_pool_cosine": 0.9999999999877467,
+    "observed_pool_max_abs_difference": 1.3428518386149335e-06
+  },
+  "dino_four_vs_one_thread_max_abs_difference": {
+    "face": 1.919269561767578e-05,
+    "left_hand": 8.225440979003906e-06,
+    "right_hand": 7.927417755126953e-06,
+    "body_posture": 0.0
+  },
+  "source_sha256_map": {
+    "scripts/diagnose_ncslgr_branch_reproduction.py": "923ac6f5bdbb61cf24cc8df2bd5fde5c0ae61b14e14a234462d306bdefa6ba0e",
+    "scripts/extract_shubert_pilot.py": "dd7b4181ed7e072cb8b042dd903dce2a10b1a62e6731737d5ebdccad0438b386",
+    "src/signrepr/shubert.py": "54d3cbb114a6a0adc45cfe324b467bc84445cff40f165ef825e7c61d097b17ad"
+  },
+  "elapsed_seconds": 98.65780545899179,
+  "limits": [
+    "One failed training clip only; no val/test labels or grammar metrics examined.",
+    "Original absolute-tolerance failure preserved. Diagnostic alone does not authorize widening locked tolerance or establish source/checkpoint mismatch."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "asset_id": "P04",
+  "url": "https://arxiv.org/pdf/2604.27232v3",
+  "revision": "v3",
+  "sha256": "6ca58d1d094eeeb129b176c3cb2ae31fe865d7d438f5c5a1039492d09158b132",
+  "bytes": 4194304,
+  "local_path": "evidence/papers/P04.pdf",
+  "utc_time": "2026-09-30T17:21:07.315212+00:00",
+  "status": "INCOMPLETE_PDF_RETRACTED",
+  "license_access_note": null,
+  "content_type": "application/pdf",
+  "reason": "4 MiB partial response; missing EOF; public HEAD full file is 13402252 bytes"
+}

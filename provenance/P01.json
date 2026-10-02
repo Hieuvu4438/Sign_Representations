@@ -1,0 +1,12 @@
+{
+  "asset_id": "P01",
+  "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wong_SignRep_Enhancing_Self-Supervised_Sign_Representations_ICCV_2025_paper.pdf",
+  "revision": "ICCV2025 proceedings",
+  "sha256": "249bfe15eb77d754de780c24bf97c328a7d171a59655baa16b37765389e8a15c",
+  "bytes": 2281530,
+  "local_path": "evidence/papers/P01.pdf",
+  "utc_time": "2026-09-30T17:20:28.944535+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}

@@ -1,0 +1,17 @@
+{
+  "classification_macro_recall": 0.6098039215686275,
+  "classification_top1": 0.6136363636363636,
+  "classification_samples": 88,
+  "macro_class_aware_interval_IoU": 0.2831633250885436,
+  "class_agnostic_mean_IoU": 0.44163449513628233,
+  "interval_samples": 65,
+  "mean_onset_offset_error_ms": [
+    681.8201174180341,
+    347.94198278958584
+  ],
+  "class_aware_success": {
+    "0.3": 0.36923076923076925,
+    "0.5": 0.2923076923076923,
+    "0.7": 0.2
+  }
+}

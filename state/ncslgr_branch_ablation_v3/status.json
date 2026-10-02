@@ -1,0 +1,19 @@
+{
+  "status": "PASS_EXPLORATORY_CUE_ABLATION_PIPELINE",
+  "pid": 3,
+  "device": "cpu",
+  "gpu_workers": 0,
+  "config_sha256": "e333093d5b4b2a00a096e48e0907cd561682bb6b10872d0011f4c36af56e7e1b",
+  "script_sha256": "7ab186c58e462581019b03017a628d70da963ff2f9d5d2f83d727663e647f66e",
+  "reviewed_smoke_sha256": "cc7458a1a2095e70199075a8323006230ea40ff1ab37ef38cc0fc1e0631f197f",
+  "source_split_of_smoke": "train",
+  "original_cache_equivalence": "NOT_CERTIFIED",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "scripts/run_ncslgr_branch_ablation.py"
+  ],
+  "log": "logs/ncslgr_branch_ablation_readouts_v3.log",
+  "updated_utc": "2026-10-01T08:22:44Z",
+  "elapsed_seconds": 2189.8689314950025,
+  "summary_sha256": "0f4792cf7725840499b5215dd6987ddeb6bf6f237abb18b0f7860ac790c67b07"
+}

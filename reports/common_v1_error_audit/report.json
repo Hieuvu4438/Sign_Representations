@@ -1,0 +1,70 @@
+{
+  "status": "TECHNICAL_AUDIT_COMPLETE_EXPERT_REVIEW_PENDING",
+  "error_pool": 443,
+  "selected": 30,
+  "selection": {
+    "baseline": "B03",
+    "error_pool": "Union of incorrect predictions across seeds [0,1,2]",
+    "count": 30,
+    "ranking": "SHA256(42:sample_id)",
+    "expert_review_required": true,
+    "machine_review_allowed": [
+      "decode integrity",
+      "path/ID mapping",
+      "timing/masks",
+      "metadata presence"
+    ],
+    "no_visual_linguistic_guessing": true
+  },
+  "selected_sample_ids": [
+    "asl_citizen:8582081133628761-TINY",
+    "asl_citizen:03945007591252714-WOW",
+    "asl_citizen:31573107118682464-SOON 3",
+    "asl_citizen:29921705550419175-ADVANTAGE",
+    "asl_citizen:2964595750887693-MOTIVATION",
+    "asl_citizen:9838705366556413-HOUR",
+    "asl_citizen:7764407168011447-DANCER",
+    "asl_citizen:2241415233945685-PIE",
+    "asl_citizen:5786245403965293-SOON 3",
+    "asl_citizen:11775239102850565-HONEST",
+    "asl_citizen:6557459030517943-I LOVE_YOU",
+    "asl_citizen:4814381667317289-MAGNET 4",
+    "asl_citizen:1506301246657502-FISH",
+    "asl_citizen:48570714821161354-DIFFERENT SITUATION",
+    "asl_citizen:013061639347932363-FALL 2",
+    "asl_citizen:12409103675769195-SOON 3",
+    "asl_citizen:5535373342686922-FALL 2",
+    "asl_citizen:5000931412799545-SHARPEN 1",
+    "asl_citizen:15670971950012635-STOPWATCH",
+    "asl_citizen:7384807608009649-MOUNTAIN 2",
+    "asl_citizen:26340872028484785-PHILADELPHIA",
+    "asl_citizen:43465593353899346-COME HERE",
+    "asl_citizen:6741347999864296-HAIRDRYER 2",
+    "asl_citizen:9123942913795273-POOP",
+    "asl_citizen:3746881511755742-REGISTER",
+    "asl_citizen:2582906950708326-BANK",
+    "asl_citizen:10351527495084278-MARCH",
+    "asl_citizen:23777351543576053-AGAIN",
+    "asl_citizen:10261467643150368-JOIN",
+    "asl_citizen:7847137420042962-LETTER"
+  ],
+  "technical_failures": 0,
+  "linguistic_reviews_completed": 0,
+  "prediction_inputs": [
+    {
+      "path": "runs/common_v1_B03_signrep_seed0/predictions.csv",
+      "sha256": "bb2c37f50f33c1bf4fab526f9483dc8a70429f3fc4ec5f869c62c975c6ba62de"
+    },
+    {
+      "path": "runs/common_v1_B03_signrep_seed1/predictions.csv",
+      "sha256": "b745508ccfb52a597efd66b10d8af3bd791b17841e2d8793148308e32c732439"
+    },
+    {
+      "path": "runs/common_v1_B03_signrep_seed2/predictions.csv",
+      "sha256": "99438cab0b50946cc52d1602506303c68f3f0cceb553d561d3c70e4c5829db7d"
+    }
+  ],
+  "protocol_sha256": "204aa0aa7552e88dc4874bc5fc793ac676d5cf3adc2612c7a44661068bb8b0c7",
+  "implementation_sha256": "95b30387dd08867de9b6a3c926a9d243434bd339243a5f65205154eda7da402e",
+  "limitations": "Automated technical audit does not determine whether signing or the lexical gold label is correct."
+}

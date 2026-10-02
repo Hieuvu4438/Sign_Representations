@@ -1,0 +1,12 @@
+{
+  "asset_id": "P36",
+  "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0086268&type=printable",
+  "revision": "PLOS ONE2014 journal version",
+  "sha256": "d36774a0ed546ce1e81e197ff0766320fb2b15be3e5873f79517f4214b8ad545",
+  "bytes": 2153528,
+  "local_path": "evidence/papers/P36.pdf",
+  "utc_time": "2026-09-30T20:43:45.133223+00:00",
+  "status": "VERIFIED_LOCAL_BYTES",
+  "license_access_note": null,
+  "content_type": "application/pdf"
+}
