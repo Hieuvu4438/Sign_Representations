@@ -1,11 +1,12 @@
 __pycache__/
 *.pyc
 .venv*/
-third_party/
+# Vendor upstream source, but keep nested repository metadata local.
+/third_party/**/.git
 /artifacts/legacy/third_party
 artifacts/runtime/
-checkpoints/
-features/
+/artifacts/legacy/checkpoints/
+/artifacts/legacy/features/
 artifacts/legacy/evidence/papers/*.pdf
 artifacts/legacy/evidence/papers/*.txt
 *.partial

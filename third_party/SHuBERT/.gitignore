@@ -1,0 +1,10 @@
+mc3/
+install_mc3.sh
+project.env
+slurm_outputs/
+outputs/
+features/shubert_inference_xiaodan_test.sh
+__pycache__/
+*.py[cod]
+*xiaodan*.*
+manifest_files/

@@ -18,7 +18,8 @@ checkpoint và manifest đã khóa giữ nguyên nội dung.
 Đây là khôi phục môi trường có sẵn trên máy hiện tại, không phải installer cho
 máy mới. Hai venv SHuBERT còn dùng base Python/packages của môi trường Conda
 `h4wpp`; venv SignRep cũng dùng system packages. Clone Git không chứa các môi
-trường này, source ngoài hoặc checkpoint. Trên máy mới cần chuẩn bị chúng theo
+trường này hoặc checkpoint. Source trong `third_party/` được vendored vào Git;
+metadata `.git` của từng repo con chỉ giữ local. Trên máy mới cần chuẩn bị môi trường và checkpoint theo
 `artifacts/legacy/provenance/source_commits.json`, `provenance/assets.json`,
 ba file `provenance/env_*.pip-freeze.txt` và hướng dẫn environment của tác giả.
 Các file freeze có đường dẫn local, không nên cài nguyên xi trên máy khác.
@@ -95,9 +96,9 @@ Các runner từ chối ghi đè output cũ; mỗi lần chạy dùng thư mục
 
 ## Git và kết quả kiểm tra
 
-`.gitignore` loại `third_party`, symlink source local, `.venv-*`, checkpoint,
-feature caches, video, logs và toàn bộ `artifacts/runtime/`. Chỉ code, hướng dẫn
-và báo cáo setup nhỏ được commit.
+`.gitignore` loại metadata Git của repo con, symlink source local, `.venv-*`,
+checkpoint, feature caches, video, logs và toàn bộ `artifacts/runtime/`.
+Source `third_party/` và thư mục `method/` được đưa vào Git.
 
 Xem [báo cáo setup](artifacts/legacy/reports/runtime_setup_20261003.md).
 Hướng dẫn và bằng chứng thí nghiệm lịch sử nằm trong
