@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 .venv*/
 third_party/
+/artifacts/legacy/third_party
+artifacts/runtime/
 checkpoints/
 features/
 artifacts/legacy/evidence/papers/*.pdf

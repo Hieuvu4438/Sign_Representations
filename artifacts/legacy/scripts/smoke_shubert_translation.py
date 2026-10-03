@@ -19,7 +19,7 @@ import yaml
 from PIL import Image
 from torchvision import transforms
 
-from _common import ROOT
+from _common import ROOT, relocated_local_path
 from signrepr.io import read_jsonl, sha256, write_json
 from signrepr.scoring import token_nll
 from signrepr.shubert import load_native_dino
@@ -70,7 +70,7 @@ def main():
         captions = [e['text'] for e in annotation['events'] if e['field_name'] == 'English translation' and e['text']]
         if len(captions) != 1:
             raise ValueError('Smoke requires one unambiguous source-recorded caption')
-        path = Path(row['source_root']) / row['relative_path']
+        path = relocated_local_path(Path(row['source_root']) / row['relative_path'])
         sidecar = json.loads(path.with_suffix('.metadata.json').read_text())
         if sha256(path) != sidecar['prepared_sha256'] or not sidecar['roi_lossless_verified']:
             raise ValueError('Prepared source-captioned clip failed ROI/checksum provenance')

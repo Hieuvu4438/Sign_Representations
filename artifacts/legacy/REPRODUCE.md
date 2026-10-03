@@ -1,5 +1,11 @@
 # Reproduce the current execution stage
 
+After the archive move, run relative commands in this document from
+`artifacts/legacy`. First run `python3 artifacts/legacy/scripts/setup_runtime.py`
+from the repository root. See the root `README.md` for current upstream inference
+commands and fresh output directories. Historical locked manifests and result
+snapshots are preserved; their absolute paths may refer to the pre-move layout.
+
 This project executes `docs/proposal1/Sign_Representation_AI_Agent_Execution_Plan_VI.md`.
 Research is **IN_PROGRESS**. A verified novel method has not yet been established.
 Do not call the common lexical cohort a full ASL Citizen reproduction or a novelty result.
