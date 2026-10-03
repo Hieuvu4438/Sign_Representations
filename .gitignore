@@ -7,6 +7,7 @@ __pycache__/
 artifacts/runtime/
 /artifacts/legacy/checkpoints/
 /artifacts/legacy/features/
+/artifacts/legacy/**/features/
 artifacts/legacy/evidence/papers/*.pdf
 artifacts/legacy/evidence/papers/*.txt
 *.partial
