@@ -1,0 +1,7 @@
+{
+  "protocol": "P003_v1",
+  "projection_seed": 1337,
+  "timeout_seconds": 120,
+  "test_pattern": "test_*.py",
+  "scope": "technical non-test warmup guard erratum; scientific configs unchanged"
+}

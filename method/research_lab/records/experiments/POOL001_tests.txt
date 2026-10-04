@@ -1,0 +1,25 @@
+test_leakage_and_duplicate_ids_rejected (test_cohort.CohortTests.test_leakage_and_duplicate_ids_rejected) ... ok
+test_nested_support_and_no_dev_selection (test_cohort.CohortTests.test_nested_support_and_no_dev_selection) ... ok
+test_bit_distance_oracle (test_duplicate_screen.DuplicateScreenTests.test_bit_distance_oracle) ... ok
+test_low_information_and_duration (test_duplicate_screen.DuplicateScreenTests.test_low_information_and_duration) ... ok
+test_ids_joined_not_zipped (test_metrics.MetricsTests.test_ids_joined_not_zipped) ... ok
+test_incomplete_duplicate_extra_and_empty_predictions_rejected (test_metrics.MetricsTests.test_incomplete_duplicate_extra_and_empty_predictions_rejected) ... ok
+test_independent_rank_oracle (test_metrics.MetricsTests.test_independent_rank_oracle) ... ok
+test_invalid_ranking_and_unknown_labels_rejected (test_metrics.MetricsTests.test_invalid_ranking_and_unknown_labels_rejected) ... ok
+test_ties_and_nonfinite (test_metrics.MetricsTests.test_ties_and_nonfinite) ... ok
+test_activity_regression_oracle (test_pooling_probes.PoolingProbeTests.test_activity_regression_oracle) ... ok
+test_irregular_bins_empty_policy_projection (test_pooling_probes.PoolingProbeTests.test_irregular_bins_empty_policy_projection) ... ok
+test_prototype_and_invalid_inputs (test_pooling_probes.PoolingProbeTests.test_prototype_and_invalid_inputs) ... ok
+test_ridge_independent_oracle_and_dual_primal (test_pooling_probes.PoolingProbeTests.test_ridge_independent_oracle_and_dual_primal) ... ok
+test_threshold_roundoff_and_large_jitter (test_timeline.TimelineTests.test_threshold_roundoff_and_large_jitter) ... ok
+test_boundary_and_quantile_oracles (test_video_contract.VideoContractTests.test_boundary_and_quantile_oracles) ... ok
+test_count_mismatch_rejected (test_video_contract.VideoContractTests.test_count_mismatch_rejected) ... ok
+test_dhash_direction_oracle (test_video_contract.VideoContractTests.test_dhash_direction_oracle) ... ok
+test_counts_and_tail (test_window_contract.WindowContractTests.test_counts_and_tail) ... ok
+test_irregular_pts_and_end_oracle (test_window_contract.WindowContractTests.test_irregular_pts_and_end_oracle) ... ok
+test_reject_invalid_timeline_and_short_clip (test_window_contract.WindowContractTests.test_reject_invalid_timeline_and_short_clip) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.019s
+
+OK

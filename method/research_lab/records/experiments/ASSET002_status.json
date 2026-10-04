@@ -1,0 +1,31 @@
+{
+  "run_id": "ASSET002_20261004_H003_v0_5e2de9e7_s1701",
+  "protocol": "H003_v0_asset_audit",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2601828,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T05:21:06.501012+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/stream_reliability/scripts/audit_assets.py",
+    "--config",
+    "method/stream_reliability/configs/ASSET002.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "ASSET002_20261004_H003_v0_5e2de9e7_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/ASSET002_20261004_H003_v0_5e2de9e7_s1701"
+  ],
+  "config_sha256": "5e2de9e7c34474438db5ca147b72f3b48b44225c4264afd9158890b9f8260f11",
+  "H_id": "H003",
+  "output_hashes": {
+    "remote_tree.json": "bda6086fa30afb2c8f6e760c2b2cb54981c338b6cff830e53bf75f1faac16172",
+    "asset_equality.json": "14f7c056354e6869ea4628db95e09cbe5ba99cdbbdde7e80bc6cbd1c3a93143c"
+  },
+  "end_utc": "2026-10-04T05:21:07.691198+00:00",
+  "wall_seconds": 1.1901996840024367,
+  "exit_code": 0
+}

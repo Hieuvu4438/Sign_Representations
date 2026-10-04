@@ -1,0 +1,30 @@
+{
+  "run_id": "GLAUDIT001_20261004_H003_v0_0bf71e65_s1701",
+  "protocol": "H003_v0_graphics_accounting",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2625797,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T05:39:50.912892+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/stream_reliability/scripts/register_graphics_erratum.py",
+    "--config",
+    "method/stream_reliability/configs/GLAUDIT001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "GLAUDIT001_20261004_H003_v0_0bf71e65_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/GLAUDIT001_20261004_H003_v0_0bf71e65_s1701"
+  ],
+  "config_sha256": "0bf71e65230489b3109a892b4e9acc8bad325f72aabf3b9c8162cadd5258a716",
+  "H_id": "H003",
+  "output_hashes": {
+    "graphics_accounting.json": "6bb427a85a8a0a2dbca3b61f8082aa72f76818d14153615d11aca18a78f96e17"
+  },
+  "end_utc": "2026-10-04T05:39:50.917503+00:00",
+  "wall_seconds": 0.0046268709702417254,
+  "exit_code": 0
+}

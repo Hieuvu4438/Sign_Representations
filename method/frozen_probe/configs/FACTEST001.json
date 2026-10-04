@@ -1,0 +1,6 @@
+{
+  "protocol": "A002_post_outcome_query_gallery_factorial",
+  "projection_seed": 1337,
+  "timeout_seconds": 120,
+  "test_pattern": "test_factorial.py"
+}

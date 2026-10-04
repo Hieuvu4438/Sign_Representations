@@ -1,0 +1,36 @@
+{
+  "protocol": "A002_post_outcome_query_gallery_factorial",
+  "seed": 1701,
+  "timeout_seconds": 240,
+  "prediction_run": "method/frozen_probe/runtime/CONFIRM001_20261004_H002_P003v1_7b94d089_s1701",
+  "prediction_status_sha256": "b68cf4d2fd08476592516acb5546bb2fbe4ed5f18265f2c47bb48959f2159ed5",
+  "analysis_run": "method/frozen_probe/runtime/CONFAN002_20261004_H002_P003v1_12d05a8e_s1701",
+  "analysis_status_sha256": "7a81e8e54da8a261479275593dcf17a0418a15702bfe0a92da248afa378a04bf",
+  "verification_run": "method/frozen_probe/runtime/PREDVERIFY001_20261004_P003v1_s1701",
+  "verification_status_sha256": "869062f785d1b809a46f033527d0cb2eb940b291df1b304e7a1038330bfc3c00",
+  "methods": [
+    "full_activity",
+    "uniform8",
+    "random8_s2718",
+    "random8_s31415"
+  ],
+  "support_seeds": [
+    1701,
+    1702,
+    1703
+  ],
+  "gallery_budget": 8,
+  "comparisons": "all16 query/gallery pairs, all3 supports;48fullrank matrices, allmetrics; no new primary policy",
+  "new_policy_trials": 0,
+  "GPU_hours": 0,
+  "registered_utc": "2026-10-03T22:51:05.405494+00:00",
+  "outcome_access": "P003 full original diagonal quality/cost already known; no mixed query/gallery outcomes computed before this registration",
+  "statistical_scope": "post-outcome descriptive exploratory, no new inferential tests/CI or policy selection",
+  "outputs": [
+    "rankings.npz",
+    "summary.json",
+    "metrics.csv",
+    "table.md"
+  ],
+  "contrasts": "For each sparse recipe: query-only=QsGd-QdGd; gallery-only=QdGs-QdGd; jointly=QsGs-QdGd; interaction=QsGs-QsGd-QdGs+QdGd; report allseed andmean DCG/Top1 contrasts and every participant meanDCG contrast."
+}

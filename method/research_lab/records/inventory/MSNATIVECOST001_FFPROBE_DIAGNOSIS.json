@@ -1,0 +1,33 @@
+{
+  "phase": "bounded read-only ffprobe option diagnosis after terminal cost failure; no model quality",
+  "command": [
+    "ffprobe",
+    "-v",
+    "error",
+    "-threads",
+    "1",
+    "-select_streams",
+    "v:0",
+    "-read_intervals",
+    "0.033366667%3.800366667",
+    "-show_entries",
+    "stream=time_base,start_pts,width,height:frame=pts",
+    "-of",
+    "json",
+    "/home/dongvk/datasets/MS-ASL/video/C37R_Ix8-qs.mp4"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "parsed_streams": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "time_base": "1/90000",
+      "start_pts": 2970
+    }
+  ],
+  "first_frame": {},
+  "frame_count": 85,
+  "captured_wall_seconds": null,
+  "GPU_hours": 0
+}

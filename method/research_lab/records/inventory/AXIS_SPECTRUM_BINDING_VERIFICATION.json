@@ -1,0 +1,43 @@
+{
+  "AXISTEST001": {
+    "run_id": "AXISTEST001_20261004_d984cba6_s1701",
+    "pid": 3018231,
+    "wall_seconds": 0.15057547495234758,
+    "artifact_verification": {
+      "passed": true,
+      "file_count": 24,
+      "logical_bytes": 99602,
+      "ceiling_bytes": 2097152
+    },
+    "maximum_planned_bytes": 527553,
+    "all_bindings_pass": true
+  },
+  "AXISTRANSFER001": {
+    "run_id": "AXISTRANSFER001_20261004_96db86b7_s1701",
+    "pid": 3020212,
+    "wall_seconds": 1.5692961600143462,
+    "artifact_verification": {
+      "passed": true,
+      "file_count": 32,
+      "logical_bytes": 14810320,
+      "ceiling_bytes": 20971520
+    },
+    "maximum_planned_bytes": 15821902,
+    "all_bindings_pass": true
+  },
+  "AXISVERIFY001": {
+    "run_id": "AXISVERIFY001_20261004_17989353_s1701",
+    "pid": 3023264,
+    "wall_seconds": 0.5345167700434104,
+    "artifact_verification": {
+      "passed": true,
+      "file_count": 12,
+      "logical_bytes": 48559,
+      "ceiling_bytes": 2097152
+    },
+    "maximum_planned_bytes": 593260,
+    "all_bindings_pass": true
+  },
+  "prior_prelaunch_bindings_unchanged": true,
+  "inspection_wall_seconds": "uninstrumented; top-level run captured walls above"
+}

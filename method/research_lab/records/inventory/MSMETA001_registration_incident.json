@@ -1,0 +1,18 @@
+{
+  "stage": "prelaunch configuration construction",
+  "status": "failed",
+  "exit_code": 1,
+  "command": [
+    "python",
+    "method/frozen_probe/scripts/register_msasl_stage.py",
+    "--stage",
+    "audit"
+  ],
+  "reason": "FileNotFoundError: LINEAGE003 legacy run has manifest_audit.json, not artifact_manifest.json",
+  "config_created": false,
+  "runtime_created": false,
+  "wall_seconds": "uninstrumented",
+  "GPU_hours": 0,
+  "repair": "fresh register_msasl_stage_v2.py binds actual status/config/manifest_audit/CSV; original test-bound registration helper preserved",
+  "scientific_outcome": "none"
+}

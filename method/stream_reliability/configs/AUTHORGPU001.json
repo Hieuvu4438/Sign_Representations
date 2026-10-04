@@ -1,0 +1,64 @@
+{
+  "H_id": "H003",
+  "seed": 1701,
+  "runtime_roots": [
+    "method/frozen_probe/runtime",
+    "method/research_lab/runtime",
+    "method/stream_reliability/runtime"
+  ],
+  "cost_errata": [
+    {
+      "path": "method/stream_reliability/runtime/GLAUDIT001_20261004_H003_v0_0bf71e65_s1701/graphics_accounting.json",
+      "sha256": "6bb427a85a8a0a2dbca3b61f8082aa72f76818d14153615d11aca18a78f96e17"
+    }
+  ],
+  "program_ceiling_seconds": 14400,
+  "hypothesis_ceiling_seconds": 3600,
+  "granted_uuid": "GPU-3775c606-49da-34fe-322c-756749074f5b",
+  "dino_source_run": "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701",
+  "main_checkpoint": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+  "atol": 0.0001,
+  "rtol": 0.0001,
+  "protocol": "H003_v2_native_CUDA_compatibility",
+  "timeout_seconds": 180,
+  "batch_size": 16,
+  "max_payload_bytes": 67108864,
+  "input_run": "method/stream_reliability/runtime/INPUTPARITY001_20261004_H003_v1_3700038a_s1701",
+  "dino_checkpoints": {
+    "face": "checkpoints/shubert_author_hf/models/dinov2face.pth",
+    "hand": "checkpoints/shubert_author_hf/models/dinov2hand.pth"
+  },
+  "author_dino_source": "third_party/SHuBERT/features/dinov2_features.py",
+  "new_task_measurement": false,
+  "success": "Exact native author CUDA function outputs equal separately loaded own wrapper all4 clips/all396 frames/12layers; original CPU/GPU gate remains failed",
+  "stop": "Stop on any native CUDA parity/identity/finite/cap failure, no task scoring or tolerance change",
+  "input_hashes": {
+    "method/stream_reliability/runtime/INPUTPARITY001_20261004_H003_v1_3700038a_s1701/status.json": "d78d79db52ce69c7fc3df230885f2bc5035ea24b9af2e05b6198a21196c5a28a",
+    "method/stream_reliability/runtime/INPUTPARITY001_20261004_H003_v1_3700038a_s1701/input_parity.json": "c4eeb77a238f884326ddb7b6c741d0c2794b5a421f6af6c7c4d48e8f6e776c1f",
+    "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701/source_manifest.json": "3dc2bfe287875e2eee96768429d29bd137e08fe17c47117b107185f255b3a848",
+    "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+    "third_party/SHuBERT/features/dinov2_features.py": "6631e836bcbc018d734ae8606dff4d6bd5d19251541a19fff0974941f81eaf82",
+    "method/stream_reliability/gpu_accounting.py": "b1551f82e94da0ad690e958932427feaeb7991b542c09fe7e1a7ae1a0ef092dd",
+    "third_party/SHuBERT/fairseq/examples/shubert/models/shubert.py": "aa63d20a989d1c78de6d635b367973eb476fdeb0ca93f4e8017c50b9b8c8d76f",
+    "third_party/SHuBERT/fairseq/fairseq/models/wav2vec/wav2vec2.py": "3249a758261c059be4617c44eae79c0ac8b0a3cc2bf0fab6b221ced91c01ac7d",
+    "checkpoints/shubert_author_hf/models/dinov2face.pth": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+    "checkpoints/shubert_author_hf/models/dinov2hand.pth": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85",
+    "method/stream_reliability/scripts/audit_author_gpu.py": "ef5561fabec7e43d365500e56f5bdec7c42b194799dac8ff8da841010a489e14",
+    "third_party/SHuBERT/features/shubert_inference.py": "ac89377454d82e990b5a18db16f778a6f29886a3a489fa2d71b439fa3cebcfcd",
+    "method/stream_reliability/runtime/NUMDIAG001_20261004_H003_v1_2986835f_s1701/status.json": "ba0c71df40f913481a3adfc8eb3c0e67fd5d6b642a41076277fc497276daa509",
+    "method/stream_reliability/runtime/NUMCPU001_20261004_H003_v1_0e5eeffb_s1701/cpu_precision_diagnostic.json": "1d9f8718c05246e791fbfb0d8b869bcdd5d576d2be50ba533fbe0039f4d8fbc2",
+    "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/first_context_comparison.npz": "cae5436511776b44394c3e3e39bb9e601767859b50a136f34dd51010741fe8be",
+    "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/DINO_inputs_0.npz": "f013a8ee5f6ac2ae4541328b7420e553000b329aeb1385d116220c7dd883471a",
+    "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/DINO_inputs_1.npz": "06532f85d3ebd25e15f6476ac383406daf873f5cc6ed62de9da71bab1afa1c49",
+    "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/DINO_inputs_2.npz": "0c3012d316a075457aca9a8e21f3d9d2b3fa70724662731cfc593f9c71a67637",
+    "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/DINO_inputs_3.npz": "2ce65e67161d8b427255807fe3d2956b3799c25d591749f4ff24a662b7e94240"
+  },
+  "author_source": "third_party/SHuBERT/features/shubert_inference.py",
+  "first_context_comparison": "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/first_context_comparison.npz",
+  "DINO_inputs": [
+    "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/DINO_inputs_0.npz",
+    "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/DINO_inputs_1.npz",
+    "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/DINO_inputs_2.npz",
+    "/dev/shm/shubert_features_NUMDIAG001_20261004_H003_v1_2986835f_s1701/DINO_inputs_3.npz"
+  ]
+}

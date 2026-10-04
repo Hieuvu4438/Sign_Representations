@@ -1,0 +1,7 @@
+{
+  "cross_split_pairs_tested": 2057947,
+  "eligible_pairs": 653053,
+  "candidates": [],
+  "automatic_exclusions": 0,
+  "scope": "same five-thumbnail/length heuristic as NEAR001; only selected train/dev versus selected test; not exhaustive uniqueness"
+}

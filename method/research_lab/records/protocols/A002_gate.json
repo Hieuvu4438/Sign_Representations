@@ -1,0 +1,21 @@
+{
+  "verdict": "REGISTERED_POST_OUTCOME_EXPLORATORY",
+  "protocol": "A002",
+  "registered_utc": "2026-10-03T22:54:30.579400+00:00",
+  "config_sha256": "6f5a61bc80d1fcd002dbd7fcac055870b93da87c0c893516459bb60ede6232ea",
+  "file_hashes": {
+    "method/frozen_probe/factorial.py": "86d819901668b5cf0a42c0b22e12d107723614dd94081fe75301627a74cdb860",
+    "method/frozen_probe/scripts/analyze_query_gallery.py": "4856be501d26d968c608e8751aefa0e3dac40476c3bdea28db612b0cd86d79b5",
+    "method/frozen_probe/tests/test_factorial.py": "7587276740fb168f00ee772102e53a0e76cd4005614ca9c4c5b3590c26c43675",
+    "method/research_lab/records/protocols/A002_query_gallery_factorial.md": "9819c01a3c430d2de9a3dd8c015f1a404cf7cdbafc9a33347b5b6b534144517c",
+    "method/research_lab/records/protocols/P003_v1_serialization_gate.json": "1a247568d6946f985f4d979874dbd5192ed16a268b9bfe3a3ce8cd0994f0738e"
+  },
+  "scientific_gate": "method/research_lab/records/protocols/P003_v1_serialization_gate.json",
+  "software_run": "method/frozen_probe/runtime/FACTEST001_20261004_A002_s1337",
+  "software_status_sha256": "3628e3a6439e657aec78cfc3383a7edc76d8653991afbe2e29f774734bd2a040",
+  "software_report_sha256": "6e941a262cdedde412784b41fdb354a54a769a30a13417b7499d24a0fe245070",
+  "software_checks": 3,
+  "mixed_outcomes_computed_before_gate": false,
+  "original_diagonal_results_already_known": true,
+  "role_review": "Same-agent Protocol Auditor/Engineer: immutable P003 sources/configs/policies; post-outcome label/all48cells/no new primary selection;3manual software oracles pass; CPU-only"
+}

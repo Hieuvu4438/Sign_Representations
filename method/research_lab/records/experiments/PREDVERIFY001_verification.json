@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "source_recipe_complete": true,
+  "pooled_shape_finite_L2_pass": true,
+  "all15_exact_rankings_regenerated": true,
+  "query_N": 1217,
+  "actual_window_counts": {
+    "full_activity": 38238,
+    "uniform8": 10019,
+    "random8_s2718": 10019,
+    "random8_s31415": 10019
+  },
+  "pooled_payload_sha256": "5bfa8a0a027c1bd657651551a68cd7d40f4cac709ba87b167e2c853f45822a22",
+  "input_status_hashes": {
+    "prediction": "b68cf4d2fd08476592516acb5546bb2fbe4ed5f18265f2c47bb48959f2159ed5",
+    "prepared": "3e9ffa88c6574fad69dac39abee92cd62c9075ac2600f81ed6c2268939e21bc2"
+  },
+  "gallery_unique_sources": 1313,
+  "scope": "post-execution integrity only; no ground-truth accuracy/DCG/MRR computed",
+  "test_task_scores_read": false
+}

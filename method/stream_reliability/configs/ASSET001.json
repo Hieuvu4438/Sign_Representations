@@ -1,0 +1,30 @@
+{
+  "protocol": "H003_v0_asset_audit",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "metadata_url": "https://huggingface.co/api/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/tree/main/models?expand=true",
+  "max_response_bytes": 2097152,
+  "assets": [
+    {
+      "local_path": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+      "remote_path": "models/checkpoint_836_400000.pt",
+      "expected_local_sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d"
+    },
+    {
+      "local_path": "checkpoints/shubert_author_hf/models/dinov2face.pth",
+      "remote_path": "models/dinov2face.pth",
+      "expected_local_sha256": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb"
+    },
+    {
+      "local_path": "checkpoints/shubert_author_hf/models/dinov2hand.pth",
+      "remote_path": "models/dinov2hand.pth",
+      "expected_local_sha256": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85"
+    }
+  ],
+  "author_source_chain": [
+    "https://arxiv.org/html/2411.16765v3",
+    "https://shubert.pals.ttic.edu/",
+    "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText"
+  ]
+}

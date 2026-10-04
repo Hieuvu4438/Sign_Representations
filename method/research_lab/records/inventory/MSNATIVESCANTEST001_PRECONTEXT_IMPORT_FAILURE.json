@@ -1,0 +1,10 @@
+{
+  "phase": "precontext import; registered output directory absent",
+  "registered_run_id": "MSNATIVESCANTEST001_20261004_8e02db2e_s1701",
+  "command": [".venv-shubert-native/bin/python", "method/frozen_probe/scripts/audit_msasl_native_scan.py", "--config", "method/frozen_probe/configs/MSNATIVESCANTEST001.json", "--run-id", "MSNATIVESCANTEST001_20261004_8e02db2e_s1701", "--output-dir", "method/frozen_probe/runtime/MSNATIVESCANTEST001_20261004_8e02db2e_s1701", "--seed", "1701"],
+  "exit_code": 1,
+  "error": "ModuleNotFoundError: No module named av at audit_msasl_native_scan.py:12",
+  "instrumented_wall_seconds": null,
+  "GPU_hours": 0,
+  "repair": "Use the existing /home/haipd/miniconda3/bin/python recorded by successful MSNATIVE002; config/scanner/oracles and absent output identity unchanged. No installation or shared-environment edits. Preregistration did not fix the executable. Retain this precontext failure separately."
+}

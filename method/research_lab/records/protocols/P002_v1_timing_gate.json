@@ -1,0 +1,14 @@
+{
+  "verdict": "VALIDATED",
+  "protocol": "P002_v1",
+  "scope": "five-source shared-GPU paired cost diagnostic only",
+  "issued_utc": "2026-10-03T20:37:23.601386+00:00",
+  "timing_config_sha256": "40173e0300d977ed93448e2f0c277d5a85cc611ae70276fe73aea049e3ed46c8",
+  "cache_manifest_sha256": "4b2217203fb25af9110226e06cb56f7171ae4b46b111b9bf77c049c33ab9e737",
+  "quality_status_sha256": "f85d41e5f9181158c23f41475f6aa31f01b58750e97beda76fe7bde172aa3b55",
+  "policy_code_sha256": "d536f18fb1a78ef363b338e6f8dc701a2a4ada33428c5268ca54d7ec11f70cc3",
+  "software_report_sha256": "d75d34d67c149705267f6db8cb7940624a208266e2d8dc0927168aedbe342327",
+  "timing_code_sha256": "362e9864438f0687257598e2d96b34770135eba25e93a2aa247d8e6e7c9d0a93",
+  "test_access": "none",
+  "auditor": "sequential same-agent Protocol Auditor"
+}

@@ -1,0 +1,29 @@
+{
+  "sample_id": "3746195589464887-SPEND.mp4",
+  "archive_member": "ASL_Citizen/videos/3746195589464887-SPEND.mp4",
+  "archive_url": "https://download.microsoft.com/download/b/8/8/b88c0bae-e6c1-43e1-8726-98cf5af36ca4/ASL_Citizen.zip",
+  "archive_bytes": 45924134223,
+  "http_headers": {
+    "Content-Length": "45924134223",
+    "Content-Type": "application/octet-stream",
+    "Server": "Kestrel",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"0x66C703EABF2B49391CB7B3749773EFF2890BC0510CCD9E0F006D2A34BC975425\"",
+    "Last-Modified": "Mon, 17 Feb 2025 12:32:10 GMT",
+    "X-Ms-ApiVersion": "Distribute 1.2",
+    "X-Ms-Region": "prod-weu-z1",
+    "Content-Disposition": "attachment; filename=ASL_Citizen.zip; filename*=UTF-8''ASL_Citizen.zip",
+    "Cache-Control": "public, max-age=900",
+    "Expires": "Sun, 04 Oct 2026 05:09:44 GMT",
+    "Date": "Sun, 04 Oct 2026 04:54:44 GMT",
+    "Connection": "close"
+  },
+  "member_bytes": 92741,
+  "compressed_member_bytes": 81316,
+  "zip_crc32": 1170755080,
+  "official_sha256": "0d63a9ad56aa5e2ce8c6f9a3d45626bfcc93f6d1c4faad3ae6011f9e712d8bd1",
+  "local_sha256": "0d63a9ad56aa5e2ce8c6f9a3d45626bfcc93f6d1c4faad3ae6011f9e712d8bd1",
+  "byte_equal": true,
+  "downloaded_bytes": 10759569,
+  "scope": "one contract-failing source byte equality only; no source replacement/test scores"
+}

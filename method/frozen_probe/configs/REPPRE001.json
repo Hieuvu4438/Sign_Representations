@@ -1,0 +1,104 @@
+{
+  "cohort_manifest": "method/research_lab/records/inventory/COHORT002_cohort.json",
+  "video_audit": "method/research_lab/records/inventory/VID003_video_audit.json",
+  "cache_identity": {
+    "cohort_sha256": "bf9f72c927687f5a0657dad32b940b67a38c65311312c9d60ec4d4d8c91d875c",
+    "audit_sha256": "d32a4349398ed7b97ba756301500f59a410393feb5cfebdeac7e6e8a9bd0a26e",
+    "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+    "upstream_commit": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "timm": "1.0.20",
+      "albumentations": "2.0.8",
+      "numpy": "2.5.3"
+    },
+    "preprocessing_code_sha256": "8ce9cc5fd7b142c88b54cf3cb5d59b86df38ae47e876e677a09f2a24c8d2dc7c",
+    "temporal_code_sha256": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "contract": {
+      "output_layer": "features",
+      "output_dim": 768,
+      "dtype": "float32",
+      "window_length": 16,
+      "stride": 2,
+      "feature_unit": "native_frame_window",
+      "context": "offline_16_frame_local_window",
+      "physical_device": "GPU0",
+      "TF32": false,
+      "encoder_seed": 1701,
+      "language": "ASL",
+      "sampling": "native_PTS_no_resampling_drop_incomplete_tail",
+      "channels": "RGB",
+      "spatial": "full_frame_resize_224x224_no_crop",
+      "normalization": {
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "max_pixel_value": 255
+      },
+      "handedness": "unchanged_no_flip_or_swap",
+      "missingness_policy": "abort_no_exclusion_or_zero_fill",
+      "valid_mask": "all_16_frames_true_no_padding",
+      "end_boundary": "next_native_PTS_last_estimated_median_delta",
+      "temporal_metadata": "complete native PTS and FPS in hash-bound VID003 audit"
+    }
+  },
+  "checkpoint": "checkpoints/signrep/ckpt.pt",
+  "extraction_report": "method/frozen_probe/runtime/CACHE006_20261004_H002_P004v1_bf385467_s1701/report.json",
+  "budget_runtime_roots": [
+    "method/frozen_probe/runtime",
+    "method/research_lab/runtime"
+  ],
+  "protocol": "P004_v1",
+  "H_id": "H002",
+  "seed": 1701,
+  "methods": [
+    "full_mean",
+    "full_activity",
+    "uniform8",
+    "random8_s2718",
+    "random8_s31415"
+  ],
+  "support_seeds": [
+    1701,
+    1702,
+    1703
+  ],
+  "gallery_budget": 1,
+  "dcg_loss_margin": 0.02,
+  "min_window_reduction": 2.0,
+  "cost_ratio_floor": 0.8,
+  "policy_trials": 6,
+  "new_policy_trials": 0,
+  "batch_size": 2,
+  "max_frames_per_video": 2000,
+  "project_gpu_ceiling_seconds": 14400,
+  "hypothesis_gpu_ceiling_seconds": 7200,
+  "cache_manifest": "/dev/shm/signrep_p004_a6efb5f0c3fc05970165/manifest.json",
+  "train_thresholds": "method/research_lab/records/protocols/P004_v1_train_thresholds.json",
+  "timeout_seconds": 1800,
+  "dataset": "/home/dongvk/datasets/ASL_Citizen",
+  "split_hashes": {
+    "train": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329",
+    "val": "6ac78c9d551dfcc81d225a5279d7637c2891a4490851234be6e4674666e21366",
+    "test": "b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e"
+  },
+  "max_queries": 2500,
+  "max_logical_source_read_bytes": 8589934592,
+  "representative_rates": {
+    "encoder_seconds_per_window": 0.02245592712502306,
+    "decode_preprocess_seconds_per_frame": 0.002142665605721695,
+    "pool_search_seconds_per_query_recipe": 0.0024286227533593776,
+    "safety_factor": 1.5,
+    "setup_seconds": 60,
+    "source_run": "TIME001_20261004_P002v1_s1701",
+    "source_sha256": "78e45cb649012065eaf3d64249c3898ef9e081dc17b8b0d676296634a38cef84"
+  },
+  "prediction_allowance_seconds": 4744.655175192864
+}

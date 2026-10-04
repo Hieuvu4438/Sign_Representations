@@ -1,0 +1,2694 @@
+{
+  "pairs_tested": {
+    "cross_split": 106474,
+    "within_split": 111656
+  },
+  "eligible_pairs": {
+    "cross_split": 33961,
+    "within_split": 37444
+  },
+  "candidates": [
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "007338026348426174-SUPERIOR.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 77
+      },
+      "b": {
+        "sample_id": "6940777753611116-MEDITATE 2.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 45
+      },
+      "mean_hamming": 4.2,
+      "max_hamming": 7,
+      "distances": [
+        2,
+        2,
+        7,
+        6,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9606299212598425
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "01939633543494801-WATCH.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 94
+      },
+      "b": {
+        "sample_id": "4831800153499368-BARRETTE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 3
+      },
+      "mean_hamming": 4.0,
+      "max_hamming": 12,
+      "distances": [
+        0,
+        0,
+        12,
+        6,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9180327868852459
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "02185976473813267-SCHOOL.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 66
+      },
+      "b": {
+        "sample_id": "216789421332654-PIPE 3.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 57
+      },
+      "mean_hamming": 6.0,
+      "max_hamming": 11,
+      "distances": [
+        4,
+        10,
+        11,
+        4,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9166666666666666
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "026971305456448436-KITTEN.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 41
+      },
+      "b": {
+        "sample_id": "1152624013258674-WHY NOT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 98
+      },
+      "mean_hamming": 1.4,
+      "max_hamming": 3,
+      "distances": [
+        2,
+        1,
+        1,
+        3,
+        0
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9741379310344828
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "026971305456448436-KITTEN.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 41
+      },
+      "b": {
+        "sample_id": "13099966021919407-DEDICATE 1.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 23
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 11,
+      "distances": [
+        2,
+        3,
+        10,
+        11,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9826086956521739
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "026971305456448436-KITTEN.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 41
+      },
+      "b": {
+        "sample_id": "18033330588384122-CLOSE DOOR.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 17
+      },
+      "mean_hamming": 4.4,
+      "max_hamming": 5,
+      "distances": [
+        5,
+        3,
+        5,
+        4,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9292035398230089
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "026971305456448436-KITTEN.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 41
+      },
+      "b": {
+        "sample_id": "808642394956963-CLIENT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 16
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 12,
+      "distances": [
+        2,
+        3,
+        12,
+        11,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8828125
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "03476106980569016-KISS ON_CHEEK.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 40
+      },
+      "b": {
+        "sample_id": "20972832700008603-BUY.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 8
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 10,
+      "distances": [
+        3,
+        7,
+        10,
+        5,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.96875
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "03938151099990228-CLAP.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 15
+      },
+      "b": {
+        "sample_id": "6940777753611116-MEDITATE 2.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 45
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 8,
+      "distances": [
+        7,
+        3,
+        8,
+        8,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9606299212598425
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "08174334743749734-ROPE.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 64
+      },
+      "b": {
+        "sample_id": "2006902446418628-SMILE.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 72
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 11,
+      "distances": [
+        2,
+        8,
+        11,
+        4,
+        0
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8771929824561403
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "08174334743749734-ROPE.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 64
+      },
+      "b": {
+        "sample_id": "9817216085584577-FINGERSPELL.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 29
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 10,
+      "distances": [
+        5,
+        10,
+        4,
+        4,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9649122807017544
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "08423464985141993-seedCATHOLIC.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 12
+      },
+      "b": {
+        "sample_id": "6261974594387636-seedMORNING.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 47
+      },
+      "mean_hamming": 4.8,
+      "max_hamming": 10,
+      "distances": [
+        6,
+        1,
+        10,
+        2,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9541984732824428
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "0878821079883021-GLUE 2.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 35
+      },
+      "b": {
+        "sample_id": "6830586541364028-PET.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 53
+      },
+      "mean_hamming": 3.4,
+      "max_hamming": 5,
+      "distances": [
+        3,
+        4,
+        5,
+        1,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9122807017543859
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "09870723174635287-INFECTION.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 39
+      },
+      "b": {
+        "sample_id": "1600041077935792-SCOUT.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 67
+      },
+      "mean_hamming": 4.4,
+      "max_hamming": 10,
+      "distances": [
+        3,
+        3,
+        10,
+        4,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8089887640449438
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "10421760727572105-WANT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 93
+      },
+      "b": {
+        "sample_id": "22914094527724194-TODAY.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 82
+      },
+      "mean_hamming": 5.6,
+      "max_hamming": 10,
+      "distances": [
+        5,
+        4,
+        6,
+        3,
+        10
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9236641221374046
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "10421760727572105-WANT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 93
+      },
+      "b": {
+        "sample_id": "35292258156245193-OPEN WALLET.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 49
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 10,
+      "distances": [
+        5,
+        4,
+        10,
+        4,
+        6
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9029850746268657
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "1152624013258674-WHY NOT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 98
+      },
+      "b": {
+        "sample_id": "13099966021919407-DEDICATE 1.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 23
+      },
+      "mean_hamming": 5.6,
+      "max_hamming": 11,
+      "distances": [
+        4,
+        2,
+        11,
+        10,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9913793103448276
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "1152624013258674-WHY NOT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 98
+      },
+      "b": {
+        "sample_id": "18033330588384122-CLOSE DOOR.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 17
+      },
+      "mean_hamming": 4.2,
+      "max_hamming": 6,
+      "distances": [
+        3,
+        4,
+        6,
+        3,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9051724137931034
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "13080037814462697-CIRCLE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 14
+      },
+      "b": {
+        "sample_id": "22914094527724194-TODAY.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 82
+      },
+      "mean_hamming": 5.2,
+      "max_hamming": 12,
+      "distances": [
+        0,
+        2,
+        12,
+        9,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9770992366412213
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "13080037814462697-CIRCLE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 14
+      },
+      "b": {
+        "sample_id": "35292258156245193-OPEN WALLET.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 49
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 10,
+      "distances": [
+        2,
+        2,
+        10,
+        10,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9552238805970149
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "13099966021919407-DEDICATE 1.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 23
+      },
+      "b": {
+        "sample_id": "5791215279876238-SWEAR IN.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 78
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 10,
+      "distances": [
+        5,
+        2,
+        10,
+        6,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9745762711864406
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "13099966021919407-DEDICATE 1.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 23
+      },
+      "b": {
+        "sample_id": "808642394956963-CLIENT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 16
+      },
+      "mean_hamming": 5.6,
+      "max_hamming": 12,
+      "distances": [
+        4,
+        4,
+        12,
+        6,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8984375
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "15546424270453518-CRASH.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 20
+      },
+      "b": {
+        "sample_id": "30048993393727064-KISS ON_CHEEK.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 40
+      },
+      "mean_hamming": 4.8,
+      "max_hamming": 9,
+      "distances": [
+        4,
+        8,
+        9,
+        2,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 1.0
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "15546424270453518-CRASH.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 20
+      },
+      "b": {
+        "sample_id": "6050351106902119-HALF.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 37
+      },
+      "mean_hamming": 6.0,
+      "max_hamming": 11,
+      "distances": [
+        3,
+        11,
+        8,
+        7,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9310344827586207
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "1594842946113968-BOYFRIEND.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 6
+      },
+      "b": {
+        "sample_id": "808642394956963-CLIENT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 16
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 9,
+      "distances": [
+        7,
+        6,
+        9,
+        4,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9411764705882353
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "16110924695348516-YOUR.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 99
+      },
+      "b": {
+        "sample_id": "1838397122146136-HANDCUFFS.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 38
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 10,
+      "distances": [
+        2,
+        7,
+        10,
+        2,
+        6
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8785046728971962
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "16110924695348516-YOUR.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 99
+      },
+      "b": {
+        "sample_id": "4900310367188452-DONT WANT.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 25
+      },
+      "mean_hamming": 5.2,
+      "max_hamming": 9,
+      "distances": [
+        3,
+        6,
+        9,
+        2,
+        6
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9042553191489362
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "17207220339232143-seedCLIENT.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 16
+      },
+      "b": {
+        "sample_id": "8494922226756327-seedSWEAR IN.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 78
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 9,
+      "distances": [
+        1,
+        8,
+        9,
+        3,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8228571428571428
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "19804398529007283-BOYFRIEND.mp4",
+        "split": "train",
+        "participant_id": "P37",
+        "class_id": 6
+      },
+      "b": {
+        "sample_id": "9284495160416826-DEDICATE 1.mp4",
+        "split": "train",
+        "participant_id": "P37",
+        "class_id": 23
+      },
+      "mean_hamming": 5.6,
+      "max_hamming": 12,
+      "distances": [
+        3,
+        8,
+        12,
+        3,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8860759493670886
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "2006902446418628-SMILE.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 72
+      },
+      "b": {
+        "sample_id": "9817216085584577-FINGERSPELL.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 29
+      },
+      "mean_hamming": 4.8,
+      "max_hamming": 9,
+      "distances": [
+        3,
+        6,
+        9,
+        4,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9090909090909091
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "2008299147313397-TOW 3.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 85
+      },
+      "b": {
+        "sample_id": "24442962392359258-SCHOOL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 66
+      },
+      "mean_hamming": 4.8,
+      "max_hamming": 11,
+      "distances": [
+        1,
+        4,
+        11,
+        6,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8943661971830986
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "2008299147313397-TOW 3.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 85
+      },
+      "b": {
+        "sample_id": "38849378886592834-VILLAGE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 91
+      },
+      "mean_hamming": 4.4,
+      "max_hamming": 9,
+      "distances": [
+        1,
+        4,
+        9,
+        7,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9793103448275862
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "2008299147313397-TOW 3.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 85
+      },
+      "b": {
+        "sample_id": "9009989267129546-MEDITATE 3.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 44
+      },
+      "mean_hamming": 4.8,
+      "max_hamming": 12,
+      "distances": [
+        2,
+        3,
+        12,
+        6,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 1.0
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "2063573675540451-BARK 3.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 2
+      },
+      "b": {
+        "sample_id": "7614624709201805-UNDERWEAR 2.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 89
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 11,
+      "distances": [
+        3,
+        11,
+        9,
+        2,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8533333333333334
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "20923186407557282-REMIND.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 62
+      },
+      "b": {
+        "sample_id": "24442962392359258-SCHOOL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 66
+      },
+      "mean_hamming": 3.6,
+      "max_hamming": 9,
+      "distances": [
+        3,
+        2,
+        9,
+        3,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.937007874015748
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "20923186407557282-REMIND.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 62
+      },
+      "b": {
+        "sample_id": "32633483038452393-MAKE BELIEVE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 43
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 11,
+      "distances": [
+        4,
+        2,
+        11,
+        11,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9411764705882353
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "20923186407557282-REMIND.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 62
+      },
+      "b": {
+        "sample_id": "38849378886592834-VILLAGE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 91
+      },
+      "mean_hamming": 2.4,
+      "max_hamming": 7,
+      "distances": [
+        1,
+        0,
+        7,
+        2,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8206896551724138
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "20923186407557282-REMIND.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 62
+      },
+      "b": {
+        "sample_id": "5845177924093796-INFECTION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 39
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 11,
+      "distances": [
+        5,
+        4,
+        11,
+        7,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 1.0
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "20923186407557282-REMIND.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 62
+      },
+      "b": {
+        "sample_id": "730466266560857-POOR.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 58
+      },
+      "mean_hamming": 3.6,
+      "max_hamming": 8,
+      "distances": [
+        1,
+        1,
+        8,
+        6,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8880597014925373
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "21075246183577456-CHEESE.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 13
+      },
+      "b": {
+        "sample_id": "4039544008037359-EMAIL.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 27
+      },
+      "mean_hamming": 4.4,
+      "max_hamming": 10,
+      "distances": [
+        4,
+        3,
+        10,
+        0,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8586956521739131
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "21075246183577456-CHEESE.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 13
+      },
+      "b": {
+        "sample_id": "6931178547025278-TURKEY.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 87
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 9,
+      "distances": [
+        4,
+        6,
+        9,
+        2,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8846153846153846
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "22314031156693792-BARK 3.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 2
+      },
+      "b": {
+        "sample_id": "6987310570099052-UNDERWEAR 2.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 89
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 12,
+      "distances": [
+        5,
+        8,
+        12,
+        2,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9052631578947369
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "22602369398061128-ABOUT 2.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 0
+      },
+      "b": {
+        "sample_id": "681223896114747-EMAIL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 27
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 8,
+      "distances": [
+        5,
+        5,
+        5,
+        8,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9214659685863874
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "22914094527724194-TODAY.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 82
+      },
+      "b": {
+        "sample_id": "35292258156245193-OPEN WALLET.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 49
+      },
+      "mean_hamming": 4.6,
+      "max_hamming": 10,
+      "distances": [
+        2,
+        2,
+        10,
+        5,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9776119402985075
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "22914094527724194-TODAY.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 82
+      },
+      "b": {
+        "sample_id": "9319355529646804-SHAME.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 68
+      },
+      "mean_hamming": 4.0,
+      "max_hamming": 7,
+      "distances": [
+        3,
+        3,
+        7,
+        4,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9847328244274809
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "23784530391846737-FISHING.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 30
+      },
+      "b": {
+        "sample_id": "2596986287783567-YOUR.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 99
+      },
+      "mean_hamming": 5.6,
+      "max_hamming": 12,
+      "distances": [
+        3,
+        8,
+        12,
+        3,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8028169014084507
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "23955800426666274-UNDERWEAR 2.mp4",
+        "split": "train",
+        "participant_id": "P11",
+        "class_id": 89
+      },
+      "b": {
+        "sample_id": "319208222723425-FROWN 1.mp4",
+        "split": "train",
+        "participant_id": "P11",
+        "class_id": 32
+      },
+      "mean_hamming": 1.4,
+      "max_hamming": 5,
+      "distances": [
+        0,
+        5,
+        1,
+        0,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9090909090909091
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "24442962392359258-SCHOOL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 66
+      },
+      "b": {
+        "sample_id": "32633483038452393-MAKE BELIEVE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 43
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 12,
+      "distances": [
+        3,
+        2,
+        10,
+        12,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8818897637795275
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "24442962392359258-SCHOOL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 66
+      },
+      "b": {
+        "sample_id": "38849378886592834-VILLAGE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 91
+      },
+      "mean_hamming": 2.8,
+      "max_hamming": 4,
+      "distances": [
+        2,
+        2,
+        4,
+        3,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8758620689655172
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "24442962392359258-SCHOOL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 66
+      },
+      "b": {
+        "sample_id": "41022506513568-CARVE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 10
+      },
+      "mean_hamming": 3.8,
+      "max_hamming": 9,
+      "distances": [
+        4,
+        2,
+        9,
+        2,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8466666666666667
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "24442962392359258-SCHOOL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 66
+      },
+      "b": {
+        "sample_id": "5845177924093796-INFECTION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 39
+      },
+      "mean_hamming": 4.6,
+      "max_hamming": 8,
+      "distances": [
+        4,
+        2,
+        6,
+        8,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.937007874015748
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "24442962392359258-SCHOOL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 66
+      },
+      "b": {
+        "sample_id": "730466266560857-POOR.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 58
+      },
+      "mean_hamming": 4.4,
+      "max_hamming": 9,
+      "distances": [
+        2,
+        1,
+        9,
+        7,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9477611940298507
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "24442962392359258-SCHOOL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 66
+      },
+      "b": {
+        "sample_id": "8485644461958379-SCOUT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 67
+      },
+      "mean_hamming": 4.0,
+      "max_hamming": 8,
+      "distances": [
+        2,
+        2,
+        8,
+        5,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.905511811023622
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "26064596374486504-SANDWICH 3.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 65
+      },
+      "b": {
+        "sample_id": "35292258156245193-OPEN WALLET.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 49
+      },
+      "mean_hamming": 6.0,
+      "max_hamming": 8,
+      "distances": [
+        7,
+        4,
+        7,
+        8,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8993288590604027
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "26064596374486504-SANDWICH 3.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 65
+      },
+      "b": {
+        "sample_id": "9319355529646804-SHAME.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 68
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 8,
+      "distances": [
+        8,
+        3,
+        6,
+        7,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8657718120805369
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "26690778696323636-FINGERSPELL.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 29
+      },
+      "b": {
+        "sample_id": "3397509350854959-MUCH.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 48
+      },
+      "mean_hamming": 3.6,
+      "max_hamming": 9,
+      "distances": [
+        1,
+        2,
+        9,
+        5,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9719626168224299
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "29686904249859114-GLUE 2.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 35
+      },
+      "b": {
+        "sample_id": "8708260460513657-ESCAPE.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 28
+      },
+      "mean_hamming": 5.2,
+      "max_hamming": 10,
+      "distances": [
+        3,
+        9,
+        10,
+        3,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8461538461538461
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "30048993393727064-KISS ON_CHEEK.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 40
+      },
+      "b": {
+        "sample_id": "6050351106902119-HALF.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 37
+      },
+      "mean_hamming": 5.6,
+      "max_hamming": 11,
+      "distances": [
+        1,
+        11,
+        7,
+        9,
+        0
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9310344827586207
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "30580503701389183-SPOT SOMETHING.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 74
+      },
+      "b": {
+        "sample_id": "45803339806985366-ESCAPE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 28
+      },
+      "mean_hamming": 5.2,
+      "max_hamming": 11,
+      "distances": [
+        1,
+        2,
+        11,
+        7,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.925
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "30580503701389183-SPOT SOMETHING.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 74
+      },
+      "b": {
+        "sample_id": "9103978052701638-PROTECTION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 59
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 11,
+      "distances": [
+        2,
+        4,
+        5,
+        11,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9523809523809523
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "3067471764316796-APPOINTMENT.mp4",
+        "split": "train",
+        "participant_id": "P11",
+        "class_id": 1
+      },
+      "b": {
+        "sample_id": "5739505297385641-SCHOOL.mp4",
+        "split": "train",
+        "participant_id": "P11",
+        "class_id": 66
+      },
+      "mean_hamming": 3.8,
+      "max_hamming": 6,
+      "distances": [
+        6,
+        5,
+        4,
+        2,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8333333333333334
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "322947839480074-EMAIL.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 27
+      },
+      "b": {
+        "sample_id": "8113964414381023-ABOUT 2.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 0
+      },
+      "mean_hamming": 3.8,
+      "max_hamming": 9,
+      "distances": [
+        1,
+        7,
+        9,
+        1,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8636363636363636
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "322947839480074-EMAIL.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 27
+      },
+      "b": {
+        "sample_id": "8669644339700311-CHEESE.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 13
+      },
+      "mean_hamming": 4.8,
+      "max_hamming": 9,
+      "distances": [
+        2,
+        9,
+        7,
+        3,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9090909090909091
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "32633483038452393-MAKE BELIEVE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 43
+      },
+      "b": {
+        "sample_id": "5845177924093796-INFECTION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 39
+      },
+      "mean_hamming": 4.4,
+      "max_hamming": 8,
+      "distances": [
+        3,
+        2,
+        8,
+        6,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9411764705882353
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "32633483038452393-MAKE BELIEVE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 43
+      },
+      "b": {
+        "sample_id": "730466266560857-POOR.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 58
+      },
+      "mean_hamming": 4.6,
+      "max_hamming": 9,
+      "distances": [
+        3,
+        3,
+        7,
+        9,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.835820895522388
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "32633483038452393-MAKE BELIEVE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 43
+      },
+      "b": {
+        "sample_id": "8485644461958379-SCOUT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 67
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 10,
+      "distances": [
+        3,
+        2,
+        10,
+        9,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9739130434782609
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "3330583417668693-WANT.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 93
+      },
+      "b": {
+        "sample_id": "515452933541009-SANDWICH 3.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 65
+      },
+      "mean_hamming": 3.4,
+      "max_hamming": 8,
+      "distances": [
+        2,
+        8,
+        7,
+        0,
+        0
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9322033898305084
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "33704836209027045-SCOUT.mp4",
+        "split": "train",
+        "participant_id": "P11",
+        "class_id": 67
+      },
+      "b": {
+        "sample_id": "41691199438105864-MAKE BELIEVE.mp4",
+        "split": "train",
+        "participant_id": "P11",
+        "class_id": 43
+      },
+      "mean_hamming": 5.6,
+      "max_hamming": 8,
+      "distances": [
+        5,
+        8,
+        6,
+        4,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9508196721311475
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "33704836209027045-SCOUT.mp4",
+        "split": "train",
+        "participant_id": "P11",
+        "class_id": 67
+      },
+      "b": {
+        "sample_id": "41884104518222887-WANT.mp4",
+        "split": "train",
+        "participant_id": "P11",
+        "class_id": 93
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 10,
+      "distances": [
+        5,
+        6,
+        3,
+        5,
+        10
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8032786885245902
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "35142742354317846-GROUP.mp4",
+        "split": "train",
+        "participant_id": "P29",
+        "class_id": 36
+      },
+      "b": {
+        "sample_id": "6737682449683315-SKI.mp4",
+        "split": "train",
+        "participant_id": "P29",
+        "class_id": 71
+      },
+      "mean_hamming": 3.6,
+      "max_hamming": 6,
+      "distances": [
+        2,
+        6,
+        3,
+        4,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9811320754716981
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "35292258156245193-OPEN WALLET.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 49
+      },
+      "b": {
+        "sample_id": "9319355529646804-SHAME.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 68
+      },
+      "mean_hamming": 3.8,
+      "max_hamming": 11,
+      "distances": [
+        1,
+        1,
+        11,
+        5,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9626865671641791
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "3628032021272203-seedSHAME.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 68
+      },
+      "b": {
+        "sample_id": "8007994121582791-seedLEAGUE.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 42
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 6,
+      "distances": [
+        5,
+        6,
+        6,
+        6,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 1.0
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "38849378886592834-VILLAGE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 91
+      },
+      "b": {
+        "sample_id": "41022506513568-CARVE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 10
+      },
+      "mean_hamming": 3.0,
+      "max_hamming": 9,
+      "distances": [
+        2,
+        0,
+        9,
+        3,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9666666666666667
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "38849378886592834-VILLAGE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 91
+      },
+      "b": {
+        "sample_id": "5845177924093796-INFECTION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 39
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 9,
+      "distances": [
+        4,
+        4,
+        8,
+        9,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8206896551724138
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "38849378886592834-VILLAGE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 91
+      },
+      "b": {
+        "sample_id": "730466266560857-POOR.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 58
+      },
+      "mean_hamming": 4.0,
+      "max_hamming": 9,
+      "distances": [
+        0,
+        1,
+        9,
+        8,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9241379310344827
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "3890000247486136-seedBRAILLE.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 7
+      },
+      "b": {
+        "sample_id": "8007994121582791-seedLEAGUE.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 42
+      },
+      "mean_hamming": 6.0,
+      "max_hamming": 11,
+      "distances": [
+        5,
+        7,
+        11,
+        4,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9672131147540983
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "3948462747047805-TOO MUCH.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 84
+      },
+      "b": {
+        "sample_id": "47232515541392317-BUY.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 8
+      },
+      "mean_hamming": 5.6,
+      "max_hamming": 10,
+      "distances": [
+        2,
+        2,
+        10,
+        7,
+        7
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9826086956521739
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "3952758889037944-BEE.mp4",
+        "split": "train",
+        "participant_id": "P31",
+        "class_id": 4
+      },
+      "b": {
+        "sample_id": "4348734812291011-FROWN 1.mp4",
+        "split": "train",
+        "participant_id": "P31",
+        "class_id": 32
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 11,
+      "distances": [
+        6,
+        8,
+        11,
+        1,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9090909090909091
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "4010895662120537-ROPE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 64
+      },
+      "b": {
+        "sample_id": "7566648748606568-SMILE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 72
+      },
+      "mean_hamming": 4.2,
+      "max_hamming": 10,
+      "distances": [
+        2,
+        2,
+        10,
+        4,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8450704225352113
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "4348734812291011-FROWN 1.mp4",
+        "split": "train",
+        "participant_id": "P31",
+        "class_id": 32
+      },
+      "b": {
+        "sample_id": "6156025078292298-UNDERWEAR 2.mp4",
+        "split": "train",
+        "participant_id": "P31",
+        "class_id": 89
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 11,
+      "distances": [
+        4,
+        11,
+        6,
+        4,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9777777777777777
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "44339575791194785-CROCODILE.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 21
+      },
+      "b": {
+        "sample_id": "5285653456968582-TODAY.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 82
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 9,
+      "distances": [
+        3,
+        7,
+        9,
+        3,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9120879120879121
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "44339575791194785-CROCODILE.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 21
+      },
+      "b": {
+        "sample_id": "6304290485476065-CIRCLE.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 14
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 7,
+      "distances": [
+        5,
+        6,
+        7,
+        3,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8383838383838383
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "45803339806985366-ESCAPE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 28
+      },
+      "b": {
+        "sample_id": "9103978052701638-PROTECTION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 59
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 10,
+      "distances": [
+        3,
+        2,
+        10,
+        8,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8809523809523809
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "47038146654287716-OSTRICH.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 50
+      },
+      "b": {
+        "sample_id": "7464906167030079-YOUR.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 99
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 10,
+      "distances": [
+        10,
+        2,
+        10,
+        2,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8802083333333334
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "47232515541392317-BUY.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 8
+      },
+      "b": {
+        "sample_id": "6790404730832984-LEAGUE.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 42
+      },
+      "mean_hamming": 3.8,
+      "max_hamming": 11,
+      "distances": [
+        2,
+        1,
+        11,
+        3,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8692307692307693
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "505401137706317-OPEN WALLET.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 49
+      },
+      "b": {
+        "sample_id": "5285653456968582-TODAY.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 82
+      },
+      "mean_hamming": 4.8,
+      "max_hamming": 8,
+      "distances": [
+        2,
+        8,
+        8,
+        4,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9010989010989011
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "5155027815716509-BARK 3.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 2
+      },
+      "b": {
+        "sample_id": "8194169079739646-UNDERWEAR 2.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 89
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 9,
+      "distances": [
+        3,
+        8,
+        6,
+        9,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8723404255319149
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "5178361322749898-MORNING.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 47
+      },
+      "b": {
+        "sample_id": "7081142473635891-TEMPTATION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 80
+      },
+      "mean_hamming": 6.0,
+      "max_hamming": 12,
+      "distances": [
+        2,
+        6,
+        12,
+        5,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8827160493827161
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "5194320449099665-COUNT.mp4",
+        "split": "train",
+        "participant_id": "P29",
+        "class_id": 19
+      },
+      "b": {
+        "sample_id": "8204384484717335-VAMPIRE.mp4",
+        "split": "train",
+        "participant_id": "P29",
+        "class_id": 90
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 10,
+      "distances": [
+        2,
+        5,
+        10,
+        4,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9607843137254902
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "5285653456968582-TODAY.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 82
+      },
+      "b": {
+        "sample_id": "6304290485476065-CIRCLE.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 14
+      },
+      "mean_hamming": 3.6,
+      "max_hamming": 9,
+      "distances": [
+        2,
+        9,
+        6,
+        0,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9191919191919192
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "5289510713701053-ESCAPE.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 28
+      },
+      "b": {
+        "sample_id": "7319805468459308-SPOT SOMETHING.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 74
+      },
+      "mean_hamming": 4.8,
+      "max_hamming": 9,
+      "distances": [
+        3,
+        9,
+        9,
+        2,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9855072463768116
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "5571747513094896-PUT.mp4",
+        "split": "train",
+        "participant_id": "P29",
+        "class_id": 60
+      },
+      "b": {
+        "sample_id": "7894738931299394-ESCAPE.mp4",
+        "split": "train",
+        "participant_id": "P29",
+        "class_id": 28
+      },
+      "mean_hamming": 3.6,
+      "max_hamming": 7,
+      "distances": [
+        1,
+        7,
+        7,
+        2,
+        1
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 1.0
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "563153197682775-TOGETHER.mp4",
+        "split": "train",
+        "participant_id": "P43",
+        "class_id": 83
+      },
+      "b": {
+        "sample_id": "8378236591125945-POOR.mp4",
+        "split": "train",
+        "participant_id": "P43",
+        "class_id": 58
+      },
+      "mean_hamming": 5.6,
+      "max_hamming": 11,
+      "distances": [
+        1,
+        6,
+        11,
+        8,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8588235294117647
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "5791215279876238-SWEAR IN.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 78
+      },
+      "b": {
+        "sample_id": "808642394956963-CLIENT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 16
+      },
+      "mean_hamming": 5.8,
+      "max_hamming": 12,
+      "distances": [
+        5,
+        2,
+        12,
+        8,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.921875
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "5845177924093796-INFECTION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 39
+      },
+      "b": {
+        "sample_id": "730466266560857-POOR.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 58
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 9,
+      "distances": [
+        4,
+        3,
+        9,
+        7,
+        4
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8880597014925373
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "5845177924093796-INFECTION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 39
+      },
+      "b": {
+        "sample_id": "8485644461958379-SCOUT.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 67
+      },
+      "mean_hamming": 3.4,
+      "max_hamming": 8,
+      "distances": [
+        2,
+        2,
+        8,
+        5,
+        0
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9663865546218487
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "6940777753611116-MEDITATE 2.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 45
+      },
+      "b": {
+        "sample_id": "9103978052701638-PROTECTION.mp4",
+        "split": "val",
+        "participant_id": "P39",
+        "class_id": 59
+      },
+      "mean_hamming": 6.0,
+      "max_hamming": 11,
+      "distances": [
+        4,
+        3,
+        10,
+        11,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9921259842519685
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "7987322874252003-seedSHUT OUT.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 70
+      },
+      "b": {
+        "sample_id": "8007994121582791-seedLEAGUE.mp4",
+        "split": "train",
+        "participant_id": "P52",
+        "class_id": 42
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 9,
+      "distances": [
+        3,
+        9,
+        8,
+        2,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9262295081967213
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "8113964414381023-ABOUT 2.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 0
+      },
+      "b": {
+        "sample_id": "8669644339700311-CHEESE.mp4",
+        "split": "val",
+        "participant_id": "P26",
+        "class_id": 13
+      },
+      "mean_hamming": 5.0,
+      "max_hamming": 10,
+      "distances": [
+        3,
+        8,
+        10,
+        2,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.95
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "8162978103126861-FROWN 1.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 32
+      },
+      "b": {
+        "sample_id": "9010165141134947-UNDERWEAR 2.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 89
+      },
+      "mean_hamming": 5.2,
+      "max_hamming": 8,
+      "distances": [
+        3,
+        3,
+        7,
+        8,
+        5
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.9324324324324325
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "8194169079739646-UNDERWEAR 2.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 89
+      },
+      "b": {
+        "sample_id": "9684886534469543-FROWN 1.mp4",
+        "split": "val",
+        "participant_id": "P21",
+        "class_id": 32
+      },
+      "mean_hamming": 5.2,
+      "max_hamming": 7,
+      "distances": [
+        3,
+        7,
+        6,
+        7,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 1.0
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "8710829614441289-BARK 3.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 2
+      },
+      "b": {
+        "sample_id": "9010165141134947-UNDERWEAR 2.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 89
+      },
+      "mean_hamming": 4.0,
+      "max_hamming": 7,
+      "distances": [
+        1,
+        4,
+        7,
+        6,
+        2
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 1.0
+    },
+    {
+      "pair_type": "within_split",
+      "a": {
+        "sample_id": "878251945068014-BRAILLE.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 7
+      },
+      "b": {
+        "sample_id": "9643359504766531-BEE.mp4",
+        "split": "val",
+        "participant_id": "P5",
+        "class_id": 4
+      },
+      "mean_hamming": 5.4,
+      "max_hamming": 9,
+      "distances": [
+        5,
+        9,
+        4,
+        6,
+        3
+      ],
+      "information_positions": 5,
+      "frame_count_ratio": 0.8148148148148148
+    }
+  ],
+  "cross_split_candidates": 0,
+  "automatic_exclusions": 0,
+  "thresholds": "original compare_pair: frame_ratio>=.8, >=3 informative positions(std>=5), mean Hamming<=6/max<=12",
+  "scope": "bounded coarse fingerprint screen, not exhaustive uniqueness/session/pretraining disjointness"
+}

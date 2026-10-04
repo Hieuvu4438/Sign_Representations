@@ -1,0 +1,37 @@
+{
+  "registered_utc": "2026-10-04T13:03:31.465907+00:00",
+  "run_id": "MSCLKTEST001_20261004_e263ce1e_s1701",
+  "config": "method/frozen_probe/configs/MSCLKTEST001.json",
+  "config_sha256": "e263ce1ef0743b3bc15d316238375d783128e7d6bac7ecb2f3ab26e0b787495a",
+  "output_dir": "method/frozen_probe/runtime/MSCLKTEST001_20261004_e263ce1e_s1701",
+  "CPU_limit_seconds": 60,
+  "GPU_hours": 0,
+  "durable_bytes_ceiling": 2097152,
+  "maximum_planned_logical_bytes": 629778,
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/msasl_clock_audit.py": "790ac0afcd982c8e17c3e94f621617bb9e233824be3e68d29fccc178b34d9d0f",
+    "method/frozen_probe/resources.py": "27242333dd98852765d93e119fa1f591fe732dff1aa12f1a18fd69ca1fa0e4f2",
+    "method/frozen_probe/scripts/audit_msasl_clocks.py": "b42c36499a709f88d9c74ac2b787cbc67d213e99f788cddaceb1968fd3f6b2fb",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/frozen_probe/scripts/register_msclock_stage.py": "9daaddb4522874073bf324319b156926670a2283f2833946e3f66a2a5192dc88",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_msasl_clock_audit.py": "11da21fc9a059f0db04d74748265360d4b4eaae7217a6fc9c9aef897ed83763d",
+    "method/research_lab/records/decisions/D063.md": "b23ab31d4e8c72406955d1bf4efc0702fe0e7965fa84c6978062762e55d0a0d7",
+    "method/research_lab/records/protocols/MSCLKTEST001_manual_temporal_oracles.md": "b559daa7ccfeadee350012ed11e8aa473a3dc6197f3a99cb6a535781b68c1396"
+  },
+  "command": [
+    "/home/haipd/miniconda3/bin/python",
+    "method/frozen_probe/scripts/audit_msasl_clocks.py",
+    "--config",
+    "method/frozen_probe/configs/MSCLKTEST001.json",
+    "--run-id",
+    "MSCLKTEST001_20261004_e263ce1e_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/MSCLKTEST001_20261004_e263ce1e_s1701",
+    "--seed",
+    "1701"
+  ]
+}

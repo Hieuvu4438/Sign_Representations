@@ -1,0 +1,30 @@
+{
+  "run_id": "SIZE002_20261004_P004v0_s1704",
+  "protocol": "P004_v0_train_only_feasibility",
+  "seed": 1704,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2199791,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T23:12:52.878996+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/audit_replication_feasibility.py",
+    "--config",
+    "method/frozen_probe/configs/SIZE002.json",
+    "--seed",
+    "1704",
+    "--run-id",
+    "SIZE002_20261004_P004v0_s1704",
+    "--output-dir",
+    "method/frozen_probe/runtime/SIZE002_20261004_P004v0_s1704"
+  ],
+  "config_sha256": "5acf45969cb554b61abe1e8432da8b6987b3bf0752d7d9aa28451af9a2269c5a",
+  "output_hashes": {
+    "screen.json": "a9be99eb5ecad757e19a2441e11f8cb7fb827f0e07744aeee3b042981f056bdd",
+    "feasibility.json": "d67554406f45ceff0ed3491d7b372f76b84f92843cad457e923bca5f23ed743c"
+  },
+  "end_utc": "2026-10-03T23:12:53.110403+00:00",
+  "wall_seconds": 0.2314277479890734,
+  "exit_code": 0
+}

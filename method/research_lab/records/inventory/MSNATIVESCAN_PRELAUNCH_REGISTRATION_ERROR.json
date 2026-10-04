@@ -1,0 +1,9 @@
+{
+  "phase": "prelaunch registration; no config/output/job created",
+  "command": ".venv-shubert-native/bin/python method/frozen_probe/scripts/register_msnativescan.py --stage tests",
+  "exit_code": 1,
+  "error": "ValueError: absolute register_msnativescan.py path cannot be relative_to relative method/frozen_probe root",
+  "repair": "Normalize __file__ relative to Path.cwd() before source snapshot enumeration; no algorithm/input/resource rule changed, no completed run modified",
+  "GPU_hours": 0,
+  "instrumented_wall_seconds": null
+}

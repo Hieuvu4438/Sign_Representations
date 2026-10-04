@@ -1,0 +1,235 @@
+{
+  "protocol": "P004_v1_evidence_index",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "completed_runs": [
+    {
+      "path": "method/frozen_probe/runtime/CACHE005_20261004_P001v4_s1701",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/VERIFY001_20261004_P001v4_s1701",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/BASE002_20261004_P001v4_s1337",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/ANALYZE002_20261004_P001v4_s1701",
+      "single_output": "analysis.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/QUAL001_20261004_P002v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/TIME001_20261004_P002v1_s1701",
+      "single_output": "timing.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPORT001_20261004_P002v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/CONFTEST001_20261004_P003v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/THR001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/PRETEST001_20261004_H002_P003v1_741b0823_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/CONFTEST002_20261004_P003v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPRO001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/THRREPRO001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/COVTEST001_20261004_A001_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/COVER001_20261004_A001_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/COVFIG001_20261004_A001_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/COVFIG002_20261004_A001_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPRO002_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/CONFIRM001_20261004_H002_P003v1_7b94d089_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/PREDTEST001_20261004_P003v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/PREDVERIFY001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/SERTEST001_20261004_P003v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/CONFAN002_20261004_H002_P003v1_12d05a8e_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/SYNTH001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/SYNTH002_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPRO003_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/LIT002_20261004_S03final_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/FACTEST001_20261004_A002_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/FACTOR001_20261004_A002_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/COHORT002_20261004_P004v0_s1704",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/SIZE002_20261004_P004v0_s1704",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/SIZE003_20261004_P004v0_s1704",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPRO004_20261004_A002_P004prep_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPTEST001_20261004_H002_P004v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPREG001_20261004_H002_P004v1_a94ebf77_s1701",
+      "single_output": "gate.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPCTEST001_20261004_H002_P004v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/CACHE006_20261004_H002_P004v1_bf385467_s1701",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPQUAL001_20261004_H002_P004v1_c80107ef_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPFREEZE001_20261004_H002_P004v1_51760390_s1701",
+      "single_output": "gate.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/CONTRACT001_20261004_H002_P004v1_62a27084_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/SHORTREL001_20261004_H002_P004v1_s1701",
+      "single_output": null
+    }
+  ],
+  "budget_runtime_roots": [
+    "method/frozen_probe/runtime",
+    "method/research_lab/runtime"
+  ],
+  "binding_documents": [
+    "method/research_lab/records/protocols/P001_v4_participant_erratum.md",
+    "method/research_lab/records/protocols/P003_v1_freeze.json",
+    "method/research_lab/records/protocols/P003_v1_warmup_gate.json",
+    "method/research_lab/records/protocols/P003_v1_warmup_erratum.md",
+    "method/research_lab/records/protocols/P003_v1_train_thresholds.json",
+    "method/research_lab/records/protocols/A001_input_coverage.md",
+    "method/research_lab/records/protocols/P003_v1_serialization_erratum.md",
+    "method/research_lab/records/protocols/P003_v1_serialization_source.diff",
+    "method/research_lab/records/protocols/P003_v1_serialization_gate.json",
+    "method/research_lab/records/protocols/P003_v1_scoring_gate.json",
+    "method/frozen_probe/runtime/CONFAN001_20261004_H002_P003v1_12d05a8e_s1701/status.json",
+    "method/frozen_probe/runtime/CONFAN001_20261004_H002_P003v1_12d05a8e_s1701/error.txt",
+    "method/frozen_probe/runtime/CONFAN001_20261004_H002_P003v1_12d05a8e_s1701/config.json",
+    "method/research_lab/records/decisions/D010.md",
+    "method/research_lab/records/protocols/A002_query_gallery_factorial.md",
+    "method/research_lab/records/protocols/A002_gate.json",
+    "method/research_lab/records/literature/NOVELTY_20261004_H002_r2.md",
+    "method/research_lab/records/literature/sources/S03F.md",
+    "method/research_lab/records/literature/sources/L04.md",
+    "method/research_lab/records/literature/sources/L05.md",
+    "method/research_lab/records/decisions/D011.md",
+    "method/research_lab/records/decisions/D012.md",
+    "method/frozen_probe/runtime/LIT001_20261004_S03final_s1701/status.json",
+    "method/frozen_probe/runtime/LIT001_20261004_S03final_s1701/config.json",
+    "method/frozen_probe/runtime/LIT001_20261004_S03final_s1701/error.txt",
+    "method/frozen_probe/runtime/SIZE001_20261004_P004v0_s1704/status.json",
+    "method/frozen_probe/runtime/SIZE001_20261004_P004v0_s1704/config.json",
+    "method/frozen_probe/runtime/SIZE001_20261004_P004v0_s1704/error.txt",
+    "method/frozen_probe/runtime/VID003_20261004_P004v0_s1704/status.json",
+    "method/frozen_probe/runtime/VID003_20261004_P004v0_s1704/config.json",
+    "method/frozen_probe/runtime/VID003_20261004_P004v0_s1704/video_audit.json",
+    "method/frozen_probe/runtime/VID003_20261004_P004v0_s1704/source_snapshot/audit_cohort_video.py",
+    "method/frozen_probe/runtime/VID003_20261004_P004v0_s1704/source_snapshot/audit_signrep.py",
+    "method/frozen_probe/runtime/VID003_20261004_P004v0_s1704/source_snapshot/temporal.py",
+    "method/frozen_probe/runtime/VID003_20261004_P004v0_s1704/source_snapshot/video_contract.py",
+    "method/research_lab/records/protocols/P004_v1_dev_pilot.md",
+    "method/research_lab/records/protocols/P004_v1_dev_gate.json",
+    "method/research_lab/records/protocols/P004_v1_test.md",
+    "method/research_lab/records/protocols/P004_v1_test_freeze.json",
+    "method/research_lab/records/protocols/P004_v1_train_thresholds.json",
+    "method/research_lab/records/protocols/P004_v1_wrapper_diffs.txt",
+    "method/research_lab/records/decisions/D013.md",
+    "method/research_lab/records/decisions/D014.md",
+    "method/research_lab/records/inventory/COHORT002_cohort.json",
+    "method/research_lab/records/inventory/VID003_video_audit.json",
+    "method/research_lab/records/inventory/CONTRACT001_source_census.json",
+    "method/research_lab/records/inventory/CONTRACT001_duplicate_screen.json",
+    "method/research_lab/records/inventory/SHORTREL001_release_equality.json",
+    "method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701/status.json",
+    "method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701/config.json",
+    "method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701/error.txt",
+    "method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701/test_manifest.json",
+    "method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701/audit_progress.json",
+    "method/frozen_probe/runtime/SHORTREL001_20261004_H002_P004v1_s1701/ranges.json",
+    "method/frozen_probe/runtime/SHORTREL001_20261004_H002_P004v1_s1701/range_reader_snapshot.py",
+    "method/research_lab/scripts/audit_release.py"
+  ],
+  "scope_note": "32standard completed provenance rows; VID003complete native audit bound explicitly with its historical flat source snapshots, not relabeled as RunContext environment layout.",
+  "H_id": "H002"
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "CONFAN002_20261004_H002_P003v1_12d05a8e_s1701",
+  "protocol": "P003_v1",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2123583,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T22:16:28.790618+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/analyze_confirmatory.py",
+    "--config",
+    "method/frozen_probe/configs/CONFAN001.json",
+    "--freeze",
+    "method/research_lab/records/protocols/P003_v1_serialization_gate.json",
+    "--prediction-run",
+    "method/frozen_probe/runtime/CONFIRM001_20261004_H002_P003v1_7b94d089_s1701",
+    "--seed",
+    "1701",
+    "--run-id",
+    "CONFAN002_20261004_H002_P003v1_12d05a8e_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/CONFAN002_20261004_H002_P003v1_12d05a8e_s1701"
+  ],
+  "config_sha256": "12d05a8ecd5656a021742cc120d8d8b437504596996cc344dbbd20f5d294083b",
+  "H_id": "H002",
+  "output_hashes": {
+    "analysis.json": "ee83251ea253a0e60ca70a72bea03e39951a45d474d9a010fef98000f5d79a0c",
+    "metrics.csv": "97acf2902ef4176fb193940ef2e9c052e83127f84a7a40fc985592e70085274f",
+    "table.md": "34dc7b8b86c7f0ae23a2b0f97782b0c03b845163fb6083fa7991b19a7e03727b"
+  },
+  "end_utc": "2026-10-03T22:16:28.941454+00:00",
+  "wall_seconds": 0.15085059800185263,
+  "exit_code": 0
+}

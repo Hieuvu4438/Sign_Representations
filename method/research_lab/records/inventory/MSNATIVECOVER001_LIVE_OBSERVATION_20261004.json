@@ -1,0 +1,37 @@
+{
+  "observed_utc": "2026-10-04T12:11:37.979190+00:00",
+  "run_id": "MSNATIVECOVER001_20261004_4ea6cf6a_s1701",
+  "session_id": 51449,
+  "live_status_snapshot": {
+    "GPU_hours": 0,
+    "artifact_ceiling_bytes": 20971520,
+    "command": [
+      "/home/haipd/miniconda3/bin/python",
+      "method/frozen_probe/scripts/audit_msasl_native_scan_v3.py",
+      "--config",
+      "method/frozen_probe/configs/MSNATIVECOVER001.json",
+      "--run-id",
+      "MSNATIVECOVER001_20261004_4ea6cf6a_s1701",
+      "--output-dir",
+      "method/frozen_probe/runtime/MSNATIVECOVER001_20261004_4ea6cf6a_s1701",
+      "--seed",
+      "1701"
+    ],
+    "config_sha256": "4ea6cf6aa87e7309d4805668a7fa40caa98175ca73a2bb782c3b3ae478808233",
+    "expected_rows": 3425,
+    "host": "ptitiec",
+    "pid": 3209972,
+    "progress_rows": 1400,
+    "protocol": "MSNATIVECOVER001_full_eligibility",
+    "row_status_counts": {
+      "eligible": 1386,
+      "incomplete": 14
+    },
+    "run_id": "MSNATIVECOVER001_20261004_4ea6cf6a_s1701",
+    "seed": 1701,
+    "start_utc": "2026-10-04T12:01:46.776153+00:00",
+    "status": "running"
+  },
+  "process_observation": "    PID STAT     ELAPSED   RSS %CPU COMMAND\n3209972 Rl         09:51 159344 89.9 /home/haipd/miniconda3/bin/python method/frozen_probe/scripts/audit_msasl_native_scan_v3.py --config method/frozen_probe/configs/MSNATIVECOVER001.json --run-id MSNATIVECOVER001_20261004_4ea6cf6a_s1701 --output-dir method/frozen_probe/runtime/MSNATIVECOVER001_20261004_4ea6cf6a_s1701 --seed 1701\n",
+  "scope": "Historical live observation only; poll original handle/current status before resuming. Not a terminal native-coverage report or PID/lock proof of later liveness."
+}

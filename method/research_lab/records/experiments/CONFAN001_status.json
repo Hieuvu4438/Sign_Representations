@@ -1,0 +1,32 @@
+{
+  "run_id": "CONFAN001_20261004_H002_P003v1_12d05a8e_s1701",
+  "protocol": "P003_v1",
+  "seed": 1701,
+  "status": "failed",
+  "GPU_hours": 0,
+  "pid": 2120285,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T22:12:42.316514+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/analyze_confirmatory.py",
+    "--config",
+    "method/frozen_probe/configs/CONFAN001.json",
+    "--freeze",
+    "method/research_lab/records/protocols/P003_v1_warmup_gate.json",
+    "--prediction-run",
+    "method/frozen_probe/runtime/CONFIRM001_20261004_H002_P003v1_7b94d089_s1701",
+    "--seed",
+    "1701",
+    "--run-id",
+    "CONFAN001_20261004_H002_P003v1_12d05a8e_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/CONFAN001_20261004_H002_P003v1_12d05a8e_s1701"
+  ],
+  "config_sha256": "12d05a8ecd5656a021742cc120d8d8b437504596996cc344dbbd20f5d294083b",
+  "H_id": "H002",
+  "end_utc": "2026-10-03T22:12:42.467498+00:00",
+  "wall_seconds": 0.15099926805123687,
+  "exit_code": 1,
+  "error": "TypeError('Object of type bool is not JSON serializable')"
+}

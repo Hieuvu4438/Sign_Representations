@@ -1,0 +1,18 @@
+{
+  "protocol": "H003_v0_load_audit",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 300,
+  "asset_run": "method/stream_reliability/runtime/ASSET002_20261004_H003_v0_5e2de9e7_s1701",
+  "checkpoint": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+  "checkpoint_sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+  "upstream_hashes": {
+    "third_party/SHuBERT/fairseq/examples/shubert/models/shubert.py": "aa63d20a989d1c78de6d635b367973eb476fdeb0ca93f4e8017c50b9b8c8d76f",
+    "third_party/SHuBERT/fairseq/fairseq/models/wav2vec/wav2vec2.py": "3249a758261c059be4617c44eae79c0ac8b0a3cc2bf0fab6b221ced91c01ac7d",
+    "third_party/SHuBERT/features/shubert_inference.py": "ac89377454d82e990b5a18db16f778a6f29886a3a489fa2d71b439fa3cebcfcd"
+  },
+  "synthetic_frames": 16,
+  "device": "cpu",
+  "new_task_measurement": false,
+  "model_container_trust": "local author bytes equal published author model repository via ASSET002"
+}

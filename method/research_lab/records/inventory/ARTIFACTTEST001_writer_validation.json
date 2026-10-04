@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "full_shape_fixture_verification": {
+    "passed": true,
+    "file_count": 15,
+    "logical_bytes": 9406478,
+    "ceiling_bytes": 20971520
+  },
+  "fixture_directory": "/dev/shm/signrep_artifact_fixtures_20261004_v0_s1701",
+  "retained_fixture_logical_bytes": 9408858,
+  "fixture_ceiling_bytes": 33554432,
+  "fixture_manifest_sha256": "18c4491831349a32f3ab053f62ad3103557f459b7315a358d2b76cef88b12262",
+  "GPU_hours": 0,
+  "new_encoder_calls": 0,
+  "scientific_measurements": 0,
+  "scope": "software serialization/budget/identity checks on synthetic arrays; not actual H006 output conversion, task-quality confirmation or resource repair"
+}

@@ -1,0 +1,174 @@
+{
+  "run_id": "NUMCPU001_20261004_H003_v1_0e5eeffb_s1701",
+  "GPU_hours": 0,
+  "sample_id": "0009570133052014818-GO BACK_AND_FORTH.mp4",
+  "frames": 156,
+  "layerwise": [
+    {
+      "layer": 1,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 4.160389066807721e-06,
+      "GPU32_vs_promoted_relative_L2": 2.617040263287879e-06,
+      "CPU_GPU_relative_L2": 4.6387960564019015e-06
+    },
+    {
+      "layer": 2,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 3.6772047636230124e-06,
+      "GPU32_vs_promoted_relative_L2": 2.9307744545829173e-06,
+      "CPU_GPU_relative_L2": 4.685570117093071e-06
+    },
+    {
+      "layer": 3,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 4.621225655381409e-06,
+      "GPU32_vs_promoted_relative_L2": 3.4986161597820237e-06,
+      "CPU_GPU_relative_L2": 5.542367078883038e-06
+    },
+    {
+      "layer": 4,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 5.12465818212693e-06,
+      "GPU32_vs_promoted_relative_L2": 3.771147278244767e-06,
+      "CPU_GPU_relative_L2": 6.2407722665546105e-06
+    },
+    {
+      "layer": 5,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 4.6806915040790125e-06,
+      "GPU32_vs_promoted_relative_L2": 3.846106545485523e-06,
+      "CPU_GPU_relative_L2": 5.88181159369585e-06
+    },
+    {
+      "layer": 6,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 4.818229339505807e-06,
+      "GPU32_vs_promoted_relative_L2": 4.448243261928267e-06,
+      "CPU_GPU_relative_L2": 7.051972366931125e-06
+    },
+    {
+      "layer": 7,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 4.8388679797141914e-06,
+      "GPU32_vs_promoted_relative_L2": 3.864334958190249e-06,
+      "CPU_GPU_relative_L2": 6.580765619183571e-06
+    },
+    {
+      "layer": 8,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 4.629342701975042e-06,
+      "GPU32_vs_promoted_relative_L2": 3.752254823372966e-06,
+      "CPU_GPU_relative_L2": 6.0246704046692745e-06
+    },
+    {
+      "layer": 9,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 3.7817361299119875e-06,
+      "GPU32_vs_promoted_relative_L2": 4.872094185382507e-06,
+      "CPU_GPU_relative_L2": 6.317794356206789e-06
+    },
+    {
+      "layer": 10,
+      "original_failed_elements": 5,
+      "CPU32_vs_promoted_relative_L2": 1.2696064713572366e-05,
+      "GPU32_vs_promoted_relative_L2": 1.5653024148412942e-05,
+      "CPU_GPU_relative_L2": 1.7595832725515293e-05
+    },
+    {
+      "layer": 11,
+      "original_failed_elements": 2,
+      "CPU32_vs_promoted_relative_L2": 8.922652700804717e-06,
+      "GPU32_vs_promoted_relative_L2": 1.420926790673726e-05,
+      "CPU_GPU_relative_L2": 1.046166231086282e-05
+    },
+    {
+      "layer": 12,
+      "original_failed_elements": 0,
+      "CPU32_vs_promoted_relative_L2": 1.5513302693516846e-05,
+      "GPU32_vs_promoted_relative_L2": 1.0709473131462774e-05,
+      "CPU_GPU_relative_L2": 1.8036212235280075e-05
+    }
+  ],
+  "failed_coordinates": [
+    {
+      "layer": 10,
+      "frame": 46,
+      "channel": 275,
+      "cpu_FP32": -0.709357738494873,
+      "gpu_FP32": -0.7089810371398926,
+      "promoted_mixed_precision": -0.7090449492095867,
+      "CPU32_error_to_promoted": 0.0003127892852863301,
+      "GPU32_error_to_promoted": 6.391206969413865e-05
+    },
+    {
+      "layer": 10,
+      "frame": 46,
+      "channel": 726,
+      "cpu_FP32": 0.16344866156578064,
+      "gpu_FP32": 0.16387277841567993,
+      "promoted_mixed_precision": 0.1638015095030158,
+      "CPU32_error_to_promoted": 0.00035284793723516783,
+      "GPU32_error_to_promoted": 7.126891266412416e-05
+    },
+    {
+      "layer": 10,
+      "frame": 58,
+      "channel": 275,
+      "cpu_FP32": -4.460465431213379,
+      "gpu_FP32": -4.4596171379089355,
+      "promoted_mixed_precision": -4.459763785543529,
+      "CPU32_error_to_promoted": 0.0007016456698503148,
+      "GPU32_error_to_promoted": 0.00014664763459304453
+    },
+    {
+      "layer": 10,
+      "frame": 58,
+      "channel": 726,
+      "cpu_FP32": -4.396927356719971,
+      "gpu_FP32": -4.395969867706299,
+      "promoted_mixed_precision": -4.396137713677172,
+      "CPU32_error_to_promoted": 0.0007896430427987156,
+      "GPU32_error_to_promoted": 0.00016784597087315944
+    },
+    {
+      "layer": 10,
+      "frame": 100,
+      "channel": 275,
+      "cpu_FP32": 1.1233980655670166,
+      "gpu_FP32": 1.1236531734466553,
+      "promoted_mixed_precision": 1.123335205478544,
+      "CPU32_error_to_promoted": 6.286008847267155e-05,
+      "GPU32_error_to_promoted": 0.0003179679681113434
+    },
+    {
+      "layer": 11,
+      "frame": 43,
+      "channel": 275,
+      "cpu_FP32": 1.2553530931472778,
+      "gpu_FP32": 1.255952000617981,
+      "promoted_mixed_precision": 1.2560177375454409,
+      "CPU32_error_to_promoted": 0.0006646443981630501,
+      "GPU32_error_to_promoted": 6.57369274599251e-05
+    },
+    {
+      "layer": 11,
+      "frame": 43,
+      "channel": 726,
+      "cpu_FP32": 0.5192894339561462,
+      "gpu_FP32": 0.5200714468955994,
+      "promoted_mixed_precision": 0.5201556663214472,
+      "CPU32_error_to_promoted": 0.000866232365300923,
+      "GPU32_error_to_promoted": 8.421942584779796e-05
+    }
+  ],
+  "original_full_context_pass": false,
+  "original_final_x_pass": true,
+  "reference_path": "/dev/shm/shubert_cpu_precision_NUMCPU001_20261004_H003_v1_0e5eeffb_s1701/promoted_cpu_reference.npz",
+  "reference_sha256": "14ca818ee3442951755cbe66d3810938fa180db007b95df19968b0ab42cc138d",
+  "reference_bytes": 12460566,
+  "precision": "FP64 parameter/input promotion; original upstream GELU/softmax FP32 casts retained, mixed-precision diagnostic not an ideal FP64 oracle",
+  "original_gate_unchanged": true,
+  "scientific_pilot_authorized": false,
+  "CUDA_initialized": false,
+  "scope": "Numerical sensitivity investigation only; no corrected tolerance, accepted full features or task metric"
+}

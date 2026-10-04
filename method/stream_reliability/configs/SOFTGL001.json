@@ -1,0 +1,48 @@
+{
+  "H_id": "H003",
+  "seed": 1701,
+  "runtime_roots": [
+    "method/frozen_probe/runtime",
+    "method/research_lab/runtime",
+    "method/stream_reliability/runtime"
+  ],
+  "cost_errata": [
+    {
+      "path": "method/stream_reliability/runtime/GLAUDIT001_20261004_H003_v0_0bf71e65_s1701/graphics_accounting.json",
+      "sha256": "6bb427a85a8a0a2dbca3b61f8082aa72f76818d14153615d11aca18a78f96e17"
+    }
+  ],
+  "program_ceiling_seconds": 14400,
+  "hypothesis_ceiling_seconds": 3600,
+  "granted_uuid": "GPU-3775c606-49da-34fe-322c-756749074f5b",
+  "protocol": "H003_v0_software_gl_parity",
+  "timeout_seconds": 90,
+  "child_timeout_seconds": 75,
+  "prefix_frames": 32,
+  "atol": 1e-06,
+  "author_source": "third_party/SHuBERT/dataset/kpe_mediapipe.py",
+  "cohort_manifest": "method/research_lab/records/inventory/COHORT001_cohort.json",
+  "landmark_report": "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json",
+  "face_task": "checkpoints/shubert_author_hf/models/face_landmarker_v2_with_blendshapes.task",
+  "hand_task": "checkpoints/shubert_author_hf/models/hand_landmarker.task",
+  "mesa_vendor_sha256": "cd3881df4227c13ca7f9cfe6c78820f21d5f7a00a41b299214f6f827e63be369",
+  "child_environment": {
+    "__EGL_VENDOR_LIBRARY_FILENAMES": "/usr/share/glvnd/egl_vendor.d/50_mesa.json",
+    "LIBGL_ALWAYS_SOFTWARE": "true",
+    "EGL_PLATFORM": "surfaceless",
+    "LP_NUM_THREADS": "1",
+    "MESA_SHADER_CACHE_DISABLE": "true"
+  },
+  "new_task_measurement": false,
+  "success": "All128prefix frames counts/missingness/coordinates match LANDMARK001 within1e-6; every renderer llvmpipe, no NVIDIA libraries/device fd in worker; scheduler CUDA visibility preserved",
+  "stop": "Missing existing vendor/assets, worker error, non-software renderer, source/parity mismatch or deadline; preserve logs and full allowance charge, no fallback to hardware/dependency install",
+  "input_hashes": {
+    "third_party/SHuBERT/dataset/kpe_mediapipe.py": "b8fd2866270d5b701fd087632142c70fc8a981034406ac5304e1050545c67323",
+    "method/research_lab/records/inventory/COHORT001_cohort.json": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+    "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json": "ef9bab8a0ae48ab0f0c1d3571987e5c411a2706a14d2201bff1627d8f8dd72f1",
+    "checkpoints/shubert_author_hf/models/face_landmarker_v2_with_blendshapes.task": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+    "checkpoints/shubert_author_hf/models/hand_landmarker.task": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+    "method/stream_reliability/scripts/audit_software_gl.py": "94131e786a46c2b7d8ed193dfcf952c4caa9f616c1fd6da76e0551c723a5607b",
+    "method/stream_reliability/gpu_accounting.py": "b1551f82e94da0ad690e958932427feaeb7991b542c09fe7e1a7ae1a0ef092dd"
+  }
+}

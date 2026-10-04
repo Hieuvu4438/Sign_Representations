@@ -1,0 +1,48 @@
+{
+  "H_id": "H003",
+  "seed": 1701,
+  "runtime_roots": [
+    "method/frozen_probe/runtime",
+    "method/research_lab/runtime",
+    "method/stream_reliability/runtime"
+  ],
+  "cost_errata": [
+    {
+      "path": "method/stream_reliability/runtime/GLAUDIT001_20261004_H003_v0_0bf71e65_s1701/graphics_accounting.json",
+      "sha256": "6bb427a85a8a0a2dbca3b61f8082aa72f76818d14153615d11aca18a78f96e17"
+    }
+  ],
+  "program_ceiling_seconds": 14400,
+  "hypothesis_ceiling_seconds": 3600,
+  "granted_uuid": "GPU-3775c606-49da-34fe-322c-756749074f5b",
+  "dino_source_run": "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701",
+  "main_checkpoint": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+  "atol": 0.0001,
+  "rtol": 0.0001,
+  "protocol": "H003_v1_real_stream_smoke",
+  "timeout_seconds": 180,
+  "batch_size": 16,
+  "max_payload_bytes": 67108864,
+  "input_run": "method/stream_reliability/runtime/INPUTPARITY001_20261004_H003_v1_3700038a_s1701",
+  "dino_checkpoints": {
+    "face": "checkpoints/shubert_author_hf/models/dinov2face.pth",
+    "hand": "checkpoints/shubert_author_hf/models/dinov2hand.pth"
+  },
+  "author_dino_source": "third_party/SHuBERT/features/dinov2_features.py",
+  "new_task_measurement": false,
+  "success": "Four fixed native train/dev clips have exact input parity, finite complete384/14streams,12\u00d7T\u00d7768 features/masks/PTS, real DINO first-frame and full-context CPU/GPU tolerance parity",
+  "stop": "Source/coverage/nonfinite/preprocessing or tolerance mismatch, memory/time/budget limit; no quality metric/scientific pilot/test, tolerance widening or exclusion",
+  "input_hashes": {
+    "method/stream_reliability/runtime/INPUTPARITY001_20261004_H003_v1_3700038a_s1701/status.json": "d78d79db52ce69c7fc3df230885f2bc5035ea24b9af2e05b6198a21196c5a28a",
+    "method/stream_reliability/runtime/INPUTPARITY001_20261004_H003_v1_3700038a_s1701/input_parity.json": "c4eeb77a238f884326ddb7b6c741d0c2794b5a421f6af6c7c4d48e8f6e776c1f",
+    "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701/source_manifest.json": "3dc2bfe287875e2eee96768429d29bd137e08fe17c47117b107185f255b3a848",
+    "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+    "third_party/SHuBERT/features/dinov2_features.py": "6631e836bcbc018d734ae8606dff4d6bd5d19251541a19fff0974941f81eaf82",
+    "method/stream_reliability/scripts/extract_stream_smoke.py": "627d19bbdd8aad35c0744068b44bfd9734a27e21f89f61aef6f144454c13e0b0",
+    "method/stream_reliability/gpu_accounting.py": "b1551f82e94da0ad690e958932427feaeb7991b542c09fe7e1a7ae1a0ef092dd",
+    "third_party/SHuBERT/fairseq/examples/shubert/models/shubert.py": "aa63d20a989d1c78de6d635b367973eb476fdeb0ca93f4e8017c50b9b8c8d76f",
+    "third_party/SHuBERT/fairseq/fairseq/models/wav2vec/wav2vec2.py": "3249a758261c059be4617c44eae79c0ac8b0a3cc2bf0fab6b221ced91c01ac7d",
+    "checkpoints/shubert_author_hf/models/dinov2face.pth": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+    "checkpoints/shubert_author_hf/models/dinov2hand.pth": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85"
+  }
+}

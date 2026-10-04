@@ -1,0 +1,318 @@
+{
+  "run_id": "GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701",
+  "passed_diagnostic": true,
+  "query_count": 383,
+  "prediction_rows": 6894,
+  "rank": 8,
+  "metrics": {
+    "raw": {
+      "1701": {
+        "dcg": 0.7551719334020998,
+        "top1": 0.6005221932114883,
+        "top5": 0.7989556135770235,
+        "top10": 0.835509138381201,
+        "top20": 0.8720626631853786,
+        "mrr": 0.6920731862009484
+      },
+      "1702": {
+        "dcg": 0.778421846046707,
+        "top1": 0.6449086161879896,
+        "top5": 0.8067885117493473,
+        "top10": 0.8381201044386423,
+        "top20": 0.8772845953002611,
+        "mrr": 0.7228512266370795
+      },
+      "1703": {
+        "dcg": 0.7665246277797692,
+        "top1": 0.618798955613577,
+        "top5": 0.7963446475195822,
+        "top10": 0.835509138381201,
+        "top20": 0.8720626631853786,
+        "mrr": 0.7069254126312638
+      }
+    },
+    "center": {
+      "1701": {
+        "dcg": 0.7573763210917547,
+        "top1": 0.597911227154047,
+        "top5": 0.8067885117493473,
+        "top10": 0.8590078328981723,
+        "top20": 0.8798955613577023,
+        "mrr": 0.6936704193890744
+      },
+      "1702": {
+        "dcg": 0.7803919383283916,
+        "top1": 0.6449086161879896,
+        "top5": 0.8120104438642297,
+        "top10": 0.8407310704960835,
+        "top20": 0.8798955613577023,
+        "mrr": 0.7242120332628433
+      },
+      "1703": {
+        "dcg": 0.7635498909202192,
+        "top1": 0.6057441253263708,
+        "top5": 0.8015665796344648,
+        "top10": 0.8511749347258486,
+        "top20": 0.8746736292428199,
+        "mrr": 0.7014829911703555
+      }
+    },
+    "random": {
+      "1701": {
+        "dcg": 0.7584436065511377,
+        "top1": 0.6005221932114883,
+        "top5": 0.804177545691906,
+        "top10": 0.8642297650130548,
+        "top20": 0.8825065274151436,
+        "mrr": 0.6950791279468981
+      },
+      "1702": {
+        "dcg": 0.7798735672777559,
+        "top1": 0.6449086161879896,
+        "top5": 0.814621409921671,
+        "top10": 0.8407310704960835,
+        "top20": 0.8798955613577023,
+        "mrr": 0.7234936612624939
+      },
+      "1703": {
+        "dcg": 0.7647151932964737,
+        "top1": 0.608355091383812,
+        "top5": 0.8015665796344648,
+        "top10": 0.8511749347258486,
+        "top20": 0.8746736292428199,
+        "mrr": 0.703060540989119
+      }
+    },
+    "total_pca": {
+      "1701": {
+        "dcg": 0.7508828284874012,
+        "top1": 0.6057441253263708,
+        "top5": 0.783289817232376,
+        "top10": 0.8093994778067886,
+        "top20": 0.8459530026109661,
+        "mrr": 0.6891816630684249
+      },
+      "1702": {
+        "dcg": 0.7630424459091196,
+        "top1": 0.6266318537859008,
+        "top5": 0.793733681462141,
+        "top10": 0.8224543080939948,
+        "top20": 0.8616187989556136,
+        "mrr": 0.7044191590640405
+      },
+      "1703": {
+        "dcg": 0.7637494207687635,
+        "top1": 0.6318537859007833,
+        "top5": 0.7859007832898173,
+        "top10": 0.8198433420365535,
+        "top20": 0.8537859007832899,
+        "mrr": 0.706342308873469
+      }
+    },
+    "shuffled_pca": {
+      "1701": {
+        "dcg": 0.750987541584348,
+        "top1": 0.6057441253263708,
+        "top5": 0.7806788511749347,
+        "top10": 0.814621409921671,
+        "top20": 0.8433420365535248,
+        "mrr": 0.6892596661766105
+      },
+      "1702": {
+        "dcg": 0.7625248268384797,
+        "top1": 0.6266318537859008,
+        "top5": 0.7911227154046997,
+        "top10": 0.8198433420365535,
+        "top20": 0.8642297650130548,
+        "mrr": 0.7036926463719845
+      },
+      "1703": {
+        "dcg": 0.7607367184027113,
+        "top1": 0.6240208877284595,
+        "top5": 0.783289817232376,
+        "top10": 0.8172323759791122,
+        "top20": 0.8459530026109661,
+        "mrr": 0.7023281678137914
+      }
+    },
+    "residual_pca": {
+      "1701": {
+        "dcg": 0.8013140138206241,
+        "top1": 0.6501305483028721,
+        "top5": 0.8642297650130548,
+        "top10": 0.9060052219321149,
+        "top20": 0.9242819843342036,
+        "mrr": 0.7466214233587135
+      },
+      "1702": {
+        "dcg": 0.8170060220810463,
+        "top1": 0.6866840731070496,
+        "top5": 0.8642297650130548,
+        "top10": 0.8851174934725848,
+        "top20": 0.9242819843342036,
+        "mrr": 0.7675278323297989
+      },
+      "1703": {
+        "dcg": 0.8124313447427348,
+        "top1": 0.6710182767624021,
+        "top5": 0.8590078328981723,
+        "top10": 0.9007832898172323,
+        "top20": 0.9242819843342036,
+        "mrr": 0.7608690514169434
+      }
+    }
+  },
+  "mean_DCG": {
+    "raw": 0.7667061357428586,
+    "center": 0.7671060501134552,
+    "random": 0.7676774557084557,
+    "total_pca": 0.7592248983884282,
+    "shuffled_pca": 0.7580830289418462,
+    "residual_pca": 0.8102504602148016
+  },
+  "residual_minus_controls_DCG": {
+    "raw": 0.04354432447194301,
+    "center": 0.0431444101013464,
+    "random": 0.042573004506345935,
+    "total_pca": 0.05102556182637341,
+    "shuffled_pca": 0.05216743127295542
+  },
+  "all_support_seeds_nonnegative": true,
+  "conditional_participant_bootstrap": {
+    "raw": {
+      "estimate_pp": 4.354432447194303,
+      "interval95_pp": [
+        2.6424586293378596,
+        7.5856533547164675
+      ],
+      "participant_count": 5,
+      "replicates": 2000,
+      "seed": 1701,
+      "unit": "participant",
+      "weighting": "micro over all repeated clips",
+      "limitation": "same-corpus reused five dev participants; fixed bases/labels/gallery/rank; exploratory, no population or causal inference"
+    },
+    "center": {
+      "estimate_pp": 4.314441010134654,
+      "interval95_pp": [
+        2.7079500954775506,
+        7.608413366385472
+      ],
+      "participant_count": 5,
+      "replicates": 2000,
+      "seed": 1701,
+      "unit": "participant",
+      "weighting": "micro over all repeated clips",
+      "limitation": "same-corpus reused five dev participants; fixed bases/labels/gallery/rank; exploratory, no population or causal inference"
+    },
+    "random": {
+      "estimate_pp": 4.257300450634592,
+      "interval95_pp": [
+        2.6231241422225984,
+        7.514663569642269
+      ],
+      "participant_count": 5,
+      "replicates": 2000,
+      "seed": 1701,
+      "unit": "participant",
+      "weighting": "micro over all repeated clips",
+      "limitation": "same-corpus reused five dev participants; fixed bases/labels/gallery/rank; exploratory, no population or causal inference"
+    },
+    "total_pca": {
+      "estimate_pp": 5.102556182637361,
+      "interval95_pp": [
+        3.48322393376747,
+        8.492172505625724
+      ],
+      "participant_count": 5,
+      "replicates": 2000,
+      "seed": 1701,
+      "unit": "participant",
+      "weighting": "micro over all repeated clips",
+      "limitation": "same-corpus reused five dev participants; fixed bases/labels/gallery/rank; exploratory, no population or causal inference"
+    },
+    "shuffled_pca": {
+      "estimate_pp": 5.216743127295538,
+      "interval95_pp": [
+        3.5654051280941346,
+        8.492222523832964
+      ],
+      "participant_count": 5,
+      "replicates": 2000,
+      "seed": 1701,
+      "unit": "participant",
+      "weighting": "micro over all repeated clips",
+      "limitation": "same-corpus reused five dev participants; fixed bases/labels/gallery/rank; exploratory, no population or causal inference"
+    }
+  },
+  "resource": {
+    "path": "/dev/shm",
+    "total_bytes": 33365929984,
+    "free_bytes": 32869576704,
+    "planned_bytes": 67108864,
+    "cache_limit_bytes": 1073741824,
+    "reserve_fraction": 0.2,
+    "memory_bytes": {
+      "MemTotal": 66731859968,
+      "MemAvailable": 43147636736
+    },
+    "cpu_workspace_reserve_bytes": 2147483648
+  },
+  "source_hashes": {
+    "method/frozen_probe/analysis.py": "387d82f327a04ef2dedd729ae110325e3786cfa9ffef024999b83b0ba56a014c",
+    "method/frozen_probe/baseline.py": "e53cab238dca4d18a7e18e82348889484512547073e072dae09d42ea190f9835",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/configs/BASE002.json": "081641a5cd7667d477fe4be837346e18a6a4cf68f2238c6c067bac0feedb7cd4",
+    "method/frozen_probe/configs/REPQUAL001.json": "c80107efdc1c280e882314cf1e3a021d47aff2dc628db6666c72284a1a86e686",
+    "method/frozen_probe/confirmatory.py": "d86071de8f09cf58fa7ac7f474a87921a4a7be611a1d4a13108a183aa4b3040f",
+    "method/frozen_probe/geometry_transfer.py": "d4bf565c890abc65852a2581b17d443481167a26d4df077df5101c9b8f386593",
+    "method/frozen_probe/metrics.py": "43db516fa029b20986130cae6b98e95e500cefa372d15ae4c020130b9f56c79c",
+    "method/frozen_probe/participant_probe.py": "75054862251bddcfb0c5e1a2b1825f8b441e892ac65221ad6515155b5d2c3dea",
+    "method/frozen_probe/participant_removal.py": "c92e7aefdae75077e95324b2b5046bc72e017626735f105320a6942d42fd9ae7",
+    "method/frozen_probe/pooling.py": "3e96860bdf7af1ff520520fff2ec39bcc0af87955ba174afedd7768459436564",
+    "method/frozen_probe/probes.py": "2f4519452a338943ca29408a1700edfeb8ee1681535b14a86660a6001fe8f063",
+    "method/frozen_probe/resources.py": "27242333dd98852765d93e119fa1f591fe732dff1aa12f1a18fd69ca1fa0e4f2",
+    "method/frozen_probe/run_context.py": "c8e08efd93809f5a4ac69fd5ac05e45a5885ed71b46845b6ce05b6b320715ed8",
+    "method/frozen_probe/runtime/GEOMTEST001_H006v0_s1701.log": "82a1a101df31af5dbeba8e94e2c67d2ebd4d4122c56e1b9366b96e9f540a7e8c",
+    "method/frozen_probe/runtime/GEOMTEST002_H006v0_s1701.log": "0f6300c99d01259e6294980d29e8b4cd929372b8360580e522fb124fa196b059",
+    "method/frozen_probe/runtime/PARTREMTEST001_H005v1_s1701.log": "62b44dcd993dc0fb52205ade0cfdde1f45fc3afa04f0835d097c84498dc6c920",
+    "method/frozen_probe/runtime/PARTTEST001_H005v0_s1701.log": "af10c807e72fb5a7ef769bbd95e0a618919fc665b767b19e988f67bdfc4391fc",
+    "method/frozen_probe/scripts/audit_geometry_transfer.py": "dec2b0722a9ba67684ec4964e7c3cc237a302beff343a9c25ce8976da7646acb",
+    "method/frozen_probe/scripts/audit_participant_probe.py": "ac255e40c29d35271b5fdb810a4b386242c235644adf80d72f4eb734e96248c9",
+    "method/frozen_probe/scripts/audit_participant_removal.py": "ec66e2ae2bcb23cfa12baf38fbb051fbad1f4bfdfefee3a1d6b68b00abe69303",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_geometry_transfer.py": "881094ee9a2c9436296419284256964e4f510d45955984405052284a068ca9b4",
+    "method/frozen_probe/tests/test_participant_probe.py": "d8904b299658aa0f1c29625c9945f253f87e8c24ee20e527d029922a02072efb",
+    "method/frozen_probe/tests/test_participant_removal.py": "124ed1a3b26752373287a8fca6fe796a9ae1bd93d42ed89b3ccc5d0557aff1c7",
+    "method/frozen_probe/window_budget.py": "d536f18fb1a78ef363b338e6f8dc701a2a4ada33428c5268ca54d7ec11f70cc3",
+    "method/research_lab/records/decisions/D023.md": "54956189f05982d5e3a15a3360d8208a3ad24d4ae92f365b15cfb595f9e9338b",
+    "method/research_lab/records/decisions/D025.md": "3141fcb51d448ae6ed8b6d909f538310c9e602f44d179e4859cb104a1a114df0",
+    "method/research_lab/records/decisions/D027.md": "596dd6dbcf73f43aba064cf3c366d71244d104fed63211668925f0eac5bbabd5",
+    "method/research_lab/records/experiments/CACHE005_report.json": "3ac848aeeb4dab3502630b4f885cf3bf8b446d40981650a3a0f53f763290a439",
+    "method/research_lab/records/experiments/CACHE006_report.json": "a9c3d9685bcad477eef864a9aa73d32ef259372bd76afa08497bb16c00f0ee9a",
+    "method/research_lab/records/hypotheses/H005.md": "2bbd5c9e9c7294d6bee610bb68a11019ba08922f57f22cf115005d7e34cdf8e2",
+    "method/research_lab/records/hypotheses/H005_v1.md": "5e5017ea55a59a8e0ce7352b68db051070fd9937f18a96cf07146f6cc4e9c0c6",
+    "method/research_lab/records/hypotheses/H006.md": "f63201571f85b5999e3ac4bb201262387c00d88b910e6bfeedab921d15180002",
+    "method/research_lab/records/inventory/COHORT001_cohort.json": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+    "method/research_lab/records/inventory/COHORT002_cohort.json": "bf9f72c927687f5a0657dad32b940b67a38c65311312c9d60ec4d4d8c91d875c",
+    "method/research_lab/records/inventory/H005_GEOMETRY_TRANSFER_FEASIBILITY.json": "a3b5dc9855c02a5966f07a0023ece91ed6c61251d0b3295613814a2d73e8b18c",
+    "method/research_lab/records/inventory/VID002_video_audit.json": "5f93826b211e1d45667c8dc3b8b352b6c5a34644a60218c1e0dc5f77760ca0fe",
+    "method/research_lab/records/inventory/VID003_video_audit.json": "d32a4349398ed7b97ba756301500f59a410393feb5cfebdeac7e6e8a9bd0a26e",
+    "method/research_lab/records/literature/sources/S32.md": "97e7f7a7956282f5489a7a78139fd15bedc0a83aec63b19b5e4bc8c6096331a6",
+    "method/research_lab/records/literature/sources/S33.md": "98737bf41a527c87198a731a7aad7392d9b0f551419804282c3fa1a024bb33d8",
+    "method/research_lab/records/literature/sources/S34.md": "f1af7983e6330c8d742a361c92ec60fbcb013dcb71de34808e06901966d42508",
+    "method/research_lab/records/protocols/H005_v0_participant_probe.md": "c1f9416f56ee02ef3d6dd8d6af1eaab7519c476575bb7e3cf6c8759a41a9f52d",
+    "method/research_lab/records/protocols/H005_v1_participant_removal.md": "b07ea4de9c8fc278d5461334a1e745e9508829073c6b6f9ccc3c44afb2814b4f",
+    "method/research_lab/records/protocols/H006_projection_prior.md": "efe1499317b049a2bc7be2a6d209266528434ebd20d2703e1d4953a92ea2347e",
+    "method/research_lab/records/protocols/H006_v0_geometry_transfer.md": "7a19d7add9bb606d8bccc911777f447325bcdd131cb8ad7114e7488b0bf84be5",
+    "method/research_lab/records/protocols/P001_v1_parity.json": "4e4216617fe9c6782755f77ff352bbd12a76866fd5f5de2b9b86890f92a916ec",
+    "method/research_lab/records/protocols/PARTTEST001_reference.json": "962d531b63e63d8a03346435dea57136ffc21f6ddac16ff627573189be18af21"
+  },
+  "GPU_hours": 0,
+  "new_encoder_calls": 0,
+  "test_access": "none",
+  "base_dev_feature_access": "none",
+  "target_unused_train_feature_access": "none",
+  "numpy": "2.5.3",
+  "interpretation_scope": "class-disjoint same-corpus cached diagnostic, known projection family and extra base labels; no novelty/independent-population/causal/latency claim"
+}

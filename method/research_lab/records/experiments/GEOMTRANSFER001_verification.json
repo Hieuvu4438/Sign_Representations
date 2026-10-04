@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "rebuilt_rankings": 6894,
+  "query_count": 383,
+  "covariance_relative_errors": {
+    "total_pca": 4.823745645013963e-15,
+    "shuffled_pca": 1.459730793387414e-15,
+    "residual_pca": 1.453700231528961e-15
+  },
+  "earlier_raw_rankings_equal": 1149,
+  "measured_outputs_sha256": {
+    "fitted_geometry.npz": "35e2dde8beca88baad8834f8f29f687eb8171158008c0893a778c1ab36ab43ff",
+    "predictions.json": "34fd1756fc86b1ee177382b6e417f99c30932e50d57c988fd90770a4de82ad83",
+    "fit_support_metadata.json": "e715cdcc4786be56a3ce6310f2e2dd7bdefb01080aee313d3e813aa2e4b314c2",
+    "geometry_transfer.json": "5aad006602b39b7fd4d73e1e2cf74f3ef6b16e1cdf90e2625b6c31ae1a795d25"
+  },
+  "original_inputs_verified": true,
+  "mean_DCG": {
+    "raw": 0.7667061357428587,
+    "center": 0.7671060501134551,
+    "random": 0.7676774557084558,
+    "total_pca": 0.7592248983884281,
+    "shuffled_pca": 0.7580830289418463,
+    "residual_pca": 0.8102504602148017
+  },
+  "supervision_and_access_verified": true,
+  "GPU_hours": 0,
+  "scope": "same-agent independent arithmetic implementation; no new scientific trial or independent review"
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "BUD002_20261004_P001v3_s1337",
+  "protocol": "P001_v3_draft",
+  "status": "completed",
+  "seed": 1337,
+  "GPU_hours": 0,
+  "pid": 1589216,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T19:09:07.961532+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/software_smoke.py",
+    "--config",
+    "method/frozen_probe/configs/BUD002.json",
+    "--seed",
+    "1337",
+    "--run-id",
+    "BUD002_20261004_P001v3_s1337",
+    "--output-dir",
+    "method/frozen_probe/runtime/BUD002_20261004_P001v3_s1337"
+  ],
+  "config_sha256": "3df6650d740f82869997d8bb82a234b4dcea93d2437f60b5b494811305bc9c8d",
+  "script_sha256": "7e4acbd034270ba1da1c5c0cfbcfb6cf9925495d39352faff5158f4b2607b2fd",
+  "exit_code": 0,
+  "output_sha256": "f15454e5e67a24b4a648c284de359a1fbec6e72b648d2b5c3bc9f5d335e5a715",
+  "end_utc": "2026-10-03T19:09:08.426378+00:00",
+  "wall_seconds": 0.46485926397144794
+}

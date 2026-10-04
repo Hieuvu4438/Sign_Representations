@@ -1,0 +1,28 @@
+{
+  "run_id": "ASSET001_20261004_H003_v0_0395b8eb_s1701",
+  "protocol": "H003_v0_asset_audit",
+  "seed": 1701,
+  "status": "failed",
+  "GPU_hours": 0,
+  "pid": 2599753,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T05:19:26.955690+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/stream_reliability/scripts/audit_assets.py",
+    "--config",
+    "method/stream_reliability/configs/ASSET001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "ASSET001_20261004_H003_v0_0395b8eb_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/ASSET001_20261004_H003_v0_0395b8eb_s1701"
+  ],
+  "config_sha256": "0395b8eb2daf4269f59129ef3c5e381e4c6c5a85bf10ed297f958707eb31fca0",
+  "H_id": "H003",
+  "end_utc": "2026-10-04T05:19:27.273715+00:00",
+  "wall_seconds": 0.31806481000967324,
+  "exit_code": 1,
+  "error": "<HTTPError 404: 'Not Found'>"
+}

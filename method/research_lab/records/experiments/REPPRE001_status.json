@@ -1,0 +1,30 @@
+{
+  "run_id": "REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701",
+  "protocol": "P004_v1",
+  "seed": 1701,
+  "status": "failed",
+  "GPU_hours": 0,
+  "pid": 2495900,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T04:49:15.641858+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "method/frozen_probe/scripts/prepare_replication_test.py",
+    "--config",
+    "method/frozen_probe/configs/REPPRE001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701",
+    "--freeze",
+    "method/research_lab/records/protocols/P004_v1_test_freeze.json"
+  ],
+  "config_sha256": "7a4a15e7019e03280c98f34c5f05b16480293a4b839c108579a99430324433a5",
+  "H_id": "H002",
+  "end_utc": "2026-10-04T04:50:07.244694+00:00",
+  "wall_seconds": 51.60285840800498,
+  "exit_code": 1,
+  "error": "ValueError('Native length outside frozen contract; no automatic exclusion')"
+}

@@ -1,0 +1,16 @@
+{
+  "train_ids_sha256": "73a68c81c2e3940e279c2205eb69207c1907bc238020193b8d49f66bd4590c97",
+  "count": 1313,
+  "native_window_count_quartiles": [
+    23.0,
+    31.0,
+    41.0
+  ],
+  "effective_activity_fraction_quartiles": [
+    0.6877036900127287,
+    0.8034045921050055,
+    0.8805714766465791
+  ],
+  "slice_rule": "Q1 <=q25; Q2 (q25,q50]; Q3 (q50,q75]; Q4 >q75",
+  "fit_split": "train only; all fixed support-union sources; no test calibration"
+}

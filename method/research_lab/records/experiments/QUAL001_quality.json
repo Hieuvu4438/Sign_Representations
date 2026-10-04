@@ -1,0 +1,137 @@
+{
+  "primary_dcg": {
+    "full_mean": 0.8905489420671361,
+    "full_activity": 0.9344455008704146,
+    "uniform4": 0.9330933695285868,
+    "uniform8": 0.9338388932754776,
+    "random4_s2718": 0.9290844030804774,
+    "random4_s31415": 0.9301910696132693,
+    "random8_s2718": 0.9170341679340113,
+    "random8_s31415": 0.9153775354663557
+  },
+  "policies": {
+    "uniform4": {
+      "primary_dcg": 0.9330933695285868,
+      "dcg_loss": 0.001352131341827767,
+      "per_support_seed_dcg_loss": {
+        "1701": 0.00203109941058055,
+        "1702": 0.0007976514306040627,
+        "1703": 0.001227643184299021
+      },
+      "encoded_windows": 31091,
+      "window_reduction_factor": 1.9728860441928533,
+      "quality_count_screen": false,
+      "paired_participant_interval95_dcg_difference": [
+        -0.002560171407596621,
+        -0.0008174289196891507
+      ],
+      "participant_count": 5,
+      "bootstrap_seed": 1701,
+      "bootstrap_replicates": 2000
+    },
+    "uniform8": {
+      "primary_dcg": 0.9338388932754776,
+      "dcg_loss": 0.0006066075949369143,
+      "per_support_seed_dcg_loss": {
+        "1701": 0.004267113531869371,
+        "1702": -0.0020126484365979858,
+        "1703": -0.00043464231046053126
+      },
+      "encoded_windows": 15976,
+      "window_reduction_factor": 3.8394466700050076,
+      "quality_count_screen": true,
+      "paired_participant_interval95_dcg_difference": [
+        -0.004254932343686441,
+        0.0050409754904298144
+      ],
+      "participant_count": 5,
+      "bootstrap_seed": 1701,
+      "bootstrap_replicates": 2000
+    },
+    "random4_s2718": {
+      "primary_dcg": 0.9290844030804774,
+      "dcg_loss": 0.005361097789937208,
+      "per_support_seed_dcg_loss": {
+        "1701": 0.008844598914986568,
+        "1702": 0.0045562161459390405,
+        "1703": 0.002682478308886016
+      },
+      "encoded_windows": 31091,
+      "window_reduction_factor": 1.9728860441928533,
+      "quality_count_screen": false,
+      "paired_participant_interval95_dcg_difference": [
+        -0.009647167317254464,
+        0.003039156766951039
+      ],
+      "participant_count": 5,
+      "bootstrap_seed": 1701,
+      "bootstrap_replicates": 2000
+    },
+    "random4_s31415": {
+      "primary_dcg": 0.9301910696132693,
+      "dcg_loss": 0.004254431257145308,
+      "per_support_seed_dcg_loss": {
+        "1701": 0.007054471096387904,
+        "1702": 0.002645963930326456,
+        "1703": 0.003062858744721675
+      },
+      "encoded_windows": 31091,
+      "window_reduction_factor": 1.9728860441928533,
+      "quality_count_screen": false,
+      "paired_participant_interval95_dcg_difference": [
+        -0.00704653820314966,
+        -0.0024327957826104888
+      ],
+      "participant_count": 5,
+      "bootstrap_seed": 1701,
+      "bootstrap_replicates": 2000
+    },
+    "random8_s2718": {
+      "primary_dcg": 0.9170341679340113,
+      "dcg_loss": 0.01741133293640329,
+      "per_support_seed_dcg_loss": {
+        "1701": 0.026435328643227396,
+        "1702": 0.017087393964643094,
+        "1703": 0.008711276201339713
+      },
+      "encoded_windows": 15976,
+      "window_reduction_factor": 3.8394466700050076,
+      "quality_count_screen": true,
+      "paired_participant_interval95_dcg_difference": [
+        -0.024923780159136873,
+        -0.00889367857197122
+      ],
+      "participant_count": 5,
+      "bootstrap_seed": 1701,
+      "bootstrap_replicates": 2000
+    },
+    "random8_s31415": {
+      "primary_dcg": 0.9153775354663557,
+      "dcg_loss": 0.019067965404058862,
+      "per_support_seed_dcg_loss": {
+        "1701": 0.019892367122892107,
+        "1702": 0.01475938831448409,
+        "1703": 0.022552140774800722
+      },
+      "encoded_windows": 15976,
+      "window_reduction_factor": 3.8394466700050076,
+      "quality_count_screen": true,
+      "paired_participant_interval95_dcg_difference": [
+        -0.0291027580147421,
+        -0.01163318699544638
+      ],
+      "participant_count": 5,
+      "bootstrap_seed": 1701,
+      "bootstrap_replicates": 2000
+    }
+  },
+  "dense_windows": 61339,
+  "scope": "cached quality simulation; no measured encoder/latency savings",
+  "uncertainty": "five actual participant groups; exploratory/conditional, not selection-adjusted",
+  "run_id": "QUAL001_20261004_P002v1_s1701",
+  "policies_tested": 6,
+  "test_access": "none",
+  "cache_manifest_sha256": "4b2217203fb25af9110226e06cb56f7171ae4b46b111b9bf77c049c33ab9e737",
+  "numpy": "2.5.3",
+  "dense_reference_rankings_exact_parity": true
+}

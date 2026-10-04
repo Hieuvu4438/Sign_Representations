@@ -1,0 +1,182 @@
+{
+  "run_id": "CONFSEM001_20261004_H003_v3_f48ae8a2_s1701",
+  "GPU_hours": 0,
+  "samples": [
+    {
+      "sample_id": "0009570133052014818-GO BACK_AND_FORTH.mp4",
+      "frames": 156,
+      "detected_hand_categories": 139,
+      "labels": {
+        "Left": 77,
+        "Right": 62
+      },
+      "handedness_score_min": 0.5056415796279907,
+      "handedness_score_max": 0.9997417330741882,
+      "duplicate_assignment_categories": [],
+      "recorded_landmark_fields": [
+        "face_landmarks",
+        "hand_landmarks",
+        "pose_landmarks"
+      ],
+      "landmark_vector_width": 3,
+      "exported_localization_confidence": false,
+      "exported_pose_visibility": false
+    },
+    {
+      "sample_id": "0010333569349243454-TOSS OUT.mp4",
+      "frames": 87,
+      "detected_hand_categories": 48,
+      "labels": {
+        "Left": 23,
+        "Right": 25
+      },
+      "handedness_score_min": 0.5062814950942993,
+      "handedness_score_max": 0.9986836314201355,
+      "duplicate_assignment_categories": [],
+      "recorded_landmark_fields": [
+        "face_landmarks",
+        "hand_landmarks",
+        "pose_landmarks"
+      ],
+      "landmark_vector_width": 3,
+      "exported_localization_confidence": false,
+      "exported_pose_visibility": false
+    },
+    {
+      "sample_id": "00033277435717016246-ELECTROCUTE.mp4",
+      "frames": 82,
+      "detected_hand_categories": 49,
+      "labels": {
+        "Left": 30,
+        "Right": 19
+      },
+      "handedness_score_min": 0.6329594850540161,
+      "handedness_score_max": 0.9987569451332092,
+      "duplicate_assignment_categories": [],
+      "recorded_landmark_fields": [
+        "face_landmarks",
+        "hand_landmarks",
+        "pose_landmarks"
+      ],
+      "landmark_vector_width": 3,
+      "exported_localization_confidence": false,
+      "exported_pose_visibility": false
+    },
+    {
+      "sample_id": "0014822228991275832-BORROW.mp4",
+      "frames": 71,
+      "detected_hand_categories": 45,
+      "labels": {
+        "Left": 13,
+        "Right": 32
+      },
+      "handedness_score_min": 0.5000735521316528,
+      "handedness_score_max": 0.9987092018127441,
+      "duplicate_assignment_categories": [
+        {
+          "frame_index": 18,
+          "detector_index": 0,
+          "handedness_label": "Left",
+          "handedness_score": 0.9875996708869934
+        },
+        {
+          "frame_index": 21,
+          "detector_index": 0,
+          "handedness_label": "Left",
+          "handedness_score": 0.5773830413818359
+        },
+        {
+          "frame_index": 22,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.7916648983955383
+        },
+        {
+          "frame_index": 23,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.6224851608276367
+        },
+        {
+          "frame_index": 24,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.7836316823959351
+        },
+        {
+          "frame_index": 25,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.7794160842895508
+        },
+        {
+          "frame_index": 26,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.8156813383102417
+        },
+        {
+          "frame_index": 27,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.7726367712020874
+        },
+        {
+          "frame_index": 28,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.8300178050994873
+        },
+        {
+          "frame_index": 29,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.8045009970664978
+        },
+        {
+          "frame_index": 30,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.7785540819168091
+        },
+        {
+          "frame_index": 31,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.6431323885917664
+        },
+        {
+          "frame_index": 33,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.6085481643676758
+        },
+        {
+          "frame_index": 38,
+          "detector_index": 0,
+          "handedness_label": "Right",
+          "handedness_score": 0.635636568069458
+        }
+      ],
+      "recorded_landmark_fields": [
+        "face_landmarks",
+        "hand_landmarks",
+        "pose_landmarks"
+      ],
+      "landmark_vector_width": 3,
+      "exported_localization_confidence": false,
+      "exported_pose_visibility": false
+    }
+  ],
+  "total_frames": 396,
+  "duplicate_assignment_count": 14,
+  "duplicate_handedness_min": 0.5773830413818359,
+  "duplicate_handedness_max": 0.9875996708869934,
+  "semantic_binding": "Installed HandLandmarkerResult.handedness is handedness classification; its Category.score is not a localization/visibility/tracking quality probability",
+  "observation_binding": "Saved raw landmark vectors contain x/y/z only; upstream drops pose visibility and exports no hand detection/presence/tracking confidence score",
+  "distinction": "Configuration confidence thresholds are detector controls; returned handedness score cannot be substituted for them or for manual crop correctness",
+  "localization_error_metric_computed": false,
+  "quality_calibration_verified": false,
+  "scientific_pilot_authorized": false,
+  "scope": "Four fixed raw observation/source semantics audit only; duplicate assignment is structural source reuse, not annotated true tracking failure"
+}

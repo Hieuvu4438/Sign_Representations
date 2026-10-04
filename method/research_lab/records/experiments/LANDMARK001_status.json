@@ -1,0 +1,31 @@
+{
+  "run_id": "LANDMARK001_20261004_H003_v0_85a92d70_s1701",
+  "protocol": "H003_v0_landmark_smoke",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2621179,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T05:36:27.768597+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "method/stream_reliability/scripts/audit_landmarks.py",
+    "--config",
+    "method/stream_reliability/configs/LANDMARK001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "LANDMARK001_20261004_H003_v0_85a92d70_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/LANDMARK001_20261004_H003_v0_85a92d70_s1701"
+  ],
+  "config_sha256": "85a92d70adc2bcd37fcff382465a866340061a1eba847d1a29e5aecd247c5830",
+  "H_id": "H003",
+  "artifact_root": "/dev/shm/shubert_h003_landmarks_85a92d70adc2bcd37fcf",
+  "output_hashes": {
+    "landmark_audit.json": "ef9bab8a0ae48ab0f0c1d3571987e5c411a2706a14d2201bff1627d8f8dd72f1"
+  },
+  "end_utc": "2026-10-04T05:37:11.164545+00:00",
+  "wall_seconds": 43.395969011005946,
+  "exit_code": 0
+}

@@ -1,0 +1,12 @@
+{
+  "read_date": "2026-10-04",
+  "primary_source": "https://ffmpeg.org/doxygen/4.4/structAVFrame.html",
+  "read_scope": "Selected AVFrame.best_effort_timestamp field description; not whole documentation or exact installed commit source",
+  "source_statement": "best_effort_timestamp is decoder-estimated using heuristics in stream time base",
+  "installed_reference": "ffprobe 9c33b2f, 2021, libavcodec58/libavformat58; documentation4.4 is a nearby API version, not exact binary-version parity",
+  "local_evidence": "MSPTSDIAG001 all38native selectedticks and entiredecoded prefix match ffprobe pkt_pts exactly; everyrow has some best_effort!=original tick. Sevenpreroll-only/30withinselected/oneboundary disorder",
+  "interpretation": "RawPTS and estimated best-effort clocks are distinct. Cannot silently use estimated clock as original observed nativePTS or infer true annotation alignment",
+  "next_action": "Registered read-only clock provenance/correspondence diagnostic, preserve both clocks and boundary membership deltas on all38rows before any prospective adapter/availability decision",
+  "quality_access": "none",
+  "GPU_hours": 0
+}

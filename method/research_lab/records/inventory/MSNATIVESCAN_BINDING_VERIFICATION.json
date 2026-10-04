@@ -1,0 +1,59 @@
+{
+  "verified_utc": "2026-10-04T12:10:00.271325+00:00",
+  "passed": true,
+  "terminal_runs": {
+    "MSNATIVESCANTEST001": {
+      "run_id": "MSNATIVESCANTEST001_20261004_8e02db2e_s1701",
+      "status": "completed",
+      "pid": 3162199,
+      "wall_seconds": 0.18738770904019475,
+      "GPU_hours": 0,
+      "actual_logical_bytes": 77149,
+      "config_sha256": "8e02db2edf57b76dd7b264c1253490be334aaf82fd29349e891beaac1295d8f8",
+      "status_sha256": "47a38958e80bff1b53540ed300ae5197d6de4f3f94d34875c5c536aad3fd1002",
+      "caps_passed": true
+    },
+    "MSNATIVESCANTEST002": {
+      "run_id": "MSNATIVESCANTEST002_20261004_4ef1a301_s1701",
+      "status": "completed",
+      "pid": 3187609,
+      "wall_seconds": 0.5296552060171962,
+      "GPU_hours": 0,
+      "actual_logical_bytes": 88368,
+      "config_sha256": "4ef1a301409f559f2ba2a72caa82eb737b7c6db8ef44484880f6a9f9aa15d433",
+      "status_sha256": "11533e602877e47bd5d5ad9519437587929aaa051c960dda3ff7ad0f5517c35c",
+      "caps_passed": true
+    },
+    "MSNATIVECOST001": {
+      "run_id": "MSNATIVECOST001_20261004_081736a5_s1701",
+      "status": "failed",
+      "pid": 3166455,
+      "wall_seconds": 8.608493214007467,
+      "GPU_hours": 0,
+      "actual_logical_bytes": 82068,
+      "config_sha256": "081736a59062801fc6713734d0e126af554f81ba93208b92501557b0dff71738",
+      "status_sha256": "095a2fa0ef61ff2be86a6b06b7349825cccaf0619982379545a31d855881876a",
+      "caps_passed": true
+    },
+    "MSNATIVECOST002": {
+      "run_id": "MSNATIVECOST002_20261004_e151de94_s1701",
+      "status": "completed",
+      "pid": 3189124,
+      "wall_seconds": 8.226066450937651,
+      "GPU_hours": 0,
+      "actual_logical_bytes": 108678,
+      "config_sha256": "e151de94690b5a62e7fcf63beab3dc4198298130cdd9f1903e962cb14d0f68f9",
+      "status_sha256": "57f434961a0528f1e763190e3692c2972091eca9f4d4ada56444b127548f68fe",
+      "caps_passed": true
+    }
+  },
+  "actual_terminal_wall_seconds": 17.55160258000251,
+  "actual_terminal_logical_bytes": 356263,
+  "GPU_hours": 0,
+  "reference_rows": 11,
+  "reference_controls": 4,
+  "target_rows": 7,
+  "integer_pts_frames": 1155,
+  "scope": "Same-agent independent arithmetic/hash/cap/native-reference consistency; no new native decode/scientific confirmation. Failed individual rows missing retained explicitly. Full3425 native audit is a separate live job, not covered by these checks.",
+  "verifier_source_sha256": "2da6c8e34ed39f28a4c5f67d67d4108cc1ab55f680503ee2cfb8acb873612ec3"
+}

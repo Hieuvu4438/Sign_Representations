@@ -1,0 +1,10 @@
+{
+  "source_run": "COVER001_20261004_A001_s1701",
+  "source_status_sha256": "c63d3e870b97c9311be8f182367b6c36fbb4272985414c5e33c8ce4167f13f2f",
+  "matplotlib": "3.10.8",
+  "numpy": "2.5.3",
+  "rows": 8724,
+  "unit": "per-clip frame exposure fraction over dense complete native-window domain",
+  "scope": "auxiliary post-metadata/pre-quality analysis, source-only; no inference about retrieval quality or causality",
+  "caption": "Uniform8 and both fixed same-count random8 policies, all fixed sources in each split. Dense coverage is1 by definition. Incomplete tail outside dense domain excluded. A coverage curve is not an accuracy or linguistic-information curve."
+}

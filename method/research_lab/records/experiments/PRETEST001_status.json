@@ -1,0 +1,35 @@
+{
+  "run_id": "PRETEST001_20261004_H002_P003v1_741b0823_s1701",
+  "protocol": "P003_v1",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 1832354,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T21:21:29.200885+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "method/frozen_probe/scripts/prepare_confirmatory.py",
+    "--config",
+    "method/frozen_probe/configs/PRETEST001.json",
+    "--freeze",
+    "method/research_lab/records/protocols/P003_v1_freeze.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "PRETEST001_20261004_H002_P003v1_741b0823_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/PRETEST001_20261004_H002_P003v1_741b0823_s1701"
+  ],
+  "config_sha256": "741b082363b9c832060804afed03ea66c95466383624a542d0a82e6b6caf36a6",
+  "H_id": "H002",
+  "output_hashes": {
+    "test_manifest.json": "d53c69916ca072159ffda93dcbdf7a3b68e37df2636bab4db1cfc68d0256ed43",
+    "video_audit.json": "83c33c6abedf3c534b45ed6242e166e0ebf5c4b120f221fd821f5f3685cff91d",
+    "duplicate_screen.json": "ec1337b1c949a0b96d1591daf55f248fb58d64e2be2b63ea129e5780b5d796cd",
+    "preflight_estimate.json": "44109b3132a4a143f868295f85661e140bc6ce95864e0687f0276e0f483d9bc6"
+  },
+  "end_utc": "2026-10-03T21:23:56.531212+00:00",
+  "wall_seconds": 147.33035248005763,
+  "exit_code": 0
+}

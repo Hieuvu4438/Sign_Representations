@@ -1,0 +1,35 @@
+{
+  "run_id": "LIT002_20261004_S03final_s1701",
+  "protocol": "S03_final_source_retrieval",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2154114,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T22:51:04.255003+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/read_primary_sources.py",
+    "--config",
+    "method/frozen_probe/configs/LIT002.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "LIT002_20261004_S03final_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/LIT002_20261004_S03final_s1701"
+  ],
+  "config_sha256": "1e7bd4e77d6237d5d85cd7803823d2b4dcb4546803523e91ea0c50c7667ffd71",
+  "output_hashes": {
+    "SignRep_ICCV2025_main.pdf": "249bfe15eb77d754de780c24bf97c328a7d171a59655baa16b37765389e8a15c",
+    "SignRep_ICCV2025_main_preflight.json": "0c23d7ad810ba9bff499961f18b3ae1c7368d3ddcd2aa923f718fe1d5d3567c8",
+    "SignRep_ICCV2025_main.txt": "00aea833a755da46da83034de236570140c68a930a391c072772c1c9348034b5",
+    "SignRep_ICCV2025_supp.pdf": "3dfd69a9f70b592f360037fe3abce5d99210a1a8305edc6dd64579f8b5d7eaec",
+    "SignRep_ICCV2025_supp_preflight.json": "578ee91f09dcfc41f89ce7f981ef20f6379606fdd328668bf171d4189e7fb3c0",
+    "SignRep_ICCV2025_supp.txt": "484cadb3660482f94a56eda81e4755cfc536b8035b00a45a8fc53a9e3d45654c",
+    "retrieval.json": "93b85ee5269a2176ba3b8f9727f3dbfe5870372ac29715a92cf6f0aa056d893c"
+  },
+  "end_utc": "2026-10-03T22:51:36.042303+00:00",
+  "wall_seconds": 31.787322469986975,
+  "exit_code": 0
+}

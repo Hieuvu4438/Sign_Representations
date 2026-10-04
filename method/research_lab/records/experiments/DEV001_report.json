@@ -1,0 +1,24 @@
+{
+  "run_id": "DEV001_20261004_P001v3_s1701",
+  "nvidia_smi": {
+    "physical_index": 0,
+    "uuid": "GPU-3775c606-49da-34fe-322c-756749074f5b",
+    "total_mib": 49140,
+    "free_mib": 16243,
+    "utilization_percent": 34,
+    "min_free_mib": 8192,
+    "max_utilization": 100,
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=index,uuid,memory.total,memory.free,utilization.gpu",
+      "--format=csv,noheader,nounits"
+    ]
+  },
+  "torch_uuid_string": "3775c606-49da-34fe-322c-756749074f5b",
+  "torch_uuid_repr": "<torch._C._CUuuid object at 0x7efbd48129b0>",
+  "torch_uuid_type": "_CUuuid",
+  "torch_device_name": "NVIDIA RTX 5880 Ada Generation",
+  "torch_total_memory": 50875793408,
+  "torch_version": "2.11.0+cu128",
+  "scope": "device property/UUID inspection only; no encoder or scores"
+}

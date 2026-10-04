@@ -1,0 +1,30 @@
+{
+  "run_id": "REPRO003_20261004_P003v1_s1701",
+  "protocol": "P003_v1_evidence_index",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2147216,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T22:43:32.583398+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/build_reproduction_index.py",
+    "--config",
+    "method/frozen_probe/configs/REPRO003.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "REPRO003_20261004_P003v1_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/REPRO003_20261004_P003v1_s1701"
+  ],
+  "config_sha256": "69a1b8e949abc280c2c0c3ef32c6d1e250b581bd3363dbfd3f23781e547d7226",
+  "output_hashes": {
+    "reproduction.json": "50acbbe007a702fccc928a312c287c2adebd10e5183e10f98121c34cfe296944",
+    "reproduction.md": "14ae773dc6d2b13eabbe87444b1b7d08f4230f8db07e10e0474a21cf0c6a3c02"
+  },
+  "end_utc": "2026-10-03T22:43:32.635751+00:00",
+  "wall_seconds": 0.052367211086675525,
+  "exit_code": 0
+}

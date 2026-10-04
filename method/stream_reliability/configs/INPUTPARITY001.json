@@ -1,0 +1,29 @@
+{
+  "protocol": "H003_v1_input_adapter",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 180,
+  "max_output_bytes": 268435456,
+  "pts_tolerance_seconds": 0.00051,
+  "face_source": "third_party/SHuBERT/dataset/crop_face.py",
+  "hands_source": "third_party/SHuBERT/dataset/crop_hands.py",
+  "body_source": "third_party/SHuBERT/features/body_features.py",
+  "landmark_report": "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json",
+  "cohort_manifest": "method/research_lab/records/inventory/COHORT001_cohort.json",
+  "geometry_report": "method/stream_reliability/runtime/CROP002_20261004_H003_v0_8b0186e6_s1701/frame_geometry.json",
+  "new_task_measurement": false,
+  "success": "All396fixed native frames exact native encoded crop pixel/body parity, all masks/provenance and duplicate flags explicit; source time identity matches",
+  "stop": "Any error/shape/count/pixel/body/source mismatch; no drop/tolerance widening/codec change or exception-to-zero substitution",
+  "input_hashes": {
+    "third_party/SHuBERT/dataset/crop_face.py": "f028c60330ddd99cd3d71b06dad5b2c233aef438797db35d3b57dad83e910c11",
+    "third_party/SHuBERT/dataset/crop_hands.py": "d4ec451e3aed5993101051412a3f44d9c24e0155fff4e701fb475c4fda109560",
+    "third_party/SHuBERT/features/body_features.py": "4db7742e852cf9b6358235be3f3fb4dada2e5beae82eea149c509add8eb41cd7",
+    "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json": "ef9bab8a0ae48ab0f0c1d3571987e5c411a2706a14d2201bff1627d8f8dd72f1",
+    "method/research_lab/records/inventory/COHORT001_cohort.json": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+    "method/stream_reliability/runtime/CROP002_20261004_H003_v0_8b0186e6_s1701/frame_geometry.json": "e583db1db07f19c9f39ad31d478b4ad0c4f32faa554d4ac4590c9b2fcf2433ca",
+    "method/stream_reliability/input_contract.py": "00c76fa650e3988756d78855f8e339eee2e0fa3389dd3d7b673e53576d98fc11",
+    "method/stream_reliability/scripts/audit_input_parity.py": "644b7687493a249cfa09088229f5d9f52c70ede95111b7a9e39a99ba22ae2482",
+    "method/research_lab/records/protocols/H003_v1_input_adapter.md": "2ccc2bb7166bbe5a3404d00833613aa60b6ce39c96d59398f2cefac6acc54192",
+    "method/research_lab/records/experiments/INPUTTEST001_tests.txt": "69099632842028f7a987776bfa276830ec614e832c32b3bf4482de4928fe5dcc"
+  }
+}

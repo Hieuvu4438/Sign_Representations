@@ -1,0 +1,26 @@
+{
+  "run_id": "COHORT001_20261003_s1701",
+  "status": "completed",
+  "GPU_hours": 0,
+  "start_utc": "2026-10-03T15:47:29.534256+00:00",
+  "pid": 1244953,
+  "host": "ptitiec",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/build_cohort.py",
+    "--config",
+    "method/frozen_probe/configs/COHORT001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "COHORT001_20261003_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/COHORT001_20261003_s1701"
+  ],
+  "script_sha256": "26d07c75b3a895dfa8dd4cec0f081f6f16ef8d5efa8198b1d4366102c6771cd5",
+  "config_sha256": "b5cde32ee1d06cff2aede844696bb884b12e4190209d0c9a142ce03a04cc1d61",
+  "exit_code": 0,
+  "output_sha256": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+  "end_utc": "2026-10-03T15:47:30.447164+00:00",
+  "wall_seconds": 0.9129195279674605
+}

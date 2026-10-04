@@ -1,0 +1,18 @@
+{
+  "protocol": "P001_v1",
+  "sample_manifest": "method/research_lab/records/inventory/DATA001_r1_video_audit.json",
+  "video_root": "/home/dongvk/datasets/ASL_Citizen/videos",
+  "checkpoint": "checkpoints/signrep/ckpt.pt",
+  "device": "cpu",
+  "dtype": "float32",
+  "window_length": 16,
+  "stride": 2,
+  "batch_size": 2,
+  "selection": "first_and_last_valid_window_per_video",
+  "preprocessing_atol": 0.000001,
+  "preprocessing_rtol": 0.00001,
+  "feature_atol": 0.00001,
+  "feature_rtol": 0.0001,
+  "max_frames_per_video": 500,
+  "timeout_seconds": 900
+}

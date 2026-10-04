@@ -1,0 +1,8 @@
+{
+  "protocol": "P003_v1_artifact_integrity",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "prediction_run": "method/frozen_probe/runtime/CONFIRM001_20261004_H002_P003v1_7b94d089_s1701",
+  "prepared_run": "method/frozen_probe/runtime/PRETEST001_20261004_H002_P003v1_741b0823_s1701",
+  "scope": "additional post-execution integrity only, no new scientific scoring/selection/config changes"
+}

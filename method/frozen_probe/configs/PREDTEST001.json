@@ -1,0 +1,6 @@
+{
+  "protocol": "P003_v1_artifact_integrity",
+  "projection_seed": 1337,
+  "timeout_seconds": 120,
+  "test_pattern": "test_prediction_contract.py"
+}

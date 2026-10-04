@@ -1,0 +1,37 @@
+{
+  "verdict": "VALIDATED",
+  "scope": "first adapted P001_v4 train/dev failure pilot only; not confirmatory, benchmark reproduction or PAPER_READY",
+  "protocol": "P001_v4",
+  "issued_utc": "2026-10-03T20:09:09.277415+00:00",
+  "auditor": "Codex sequential Protocol Auditor; not independent audit",
+  "baseline_config_sha256": "081641a5cd7667d477fe4be837346e18a6a4cf68f2238c6c067bac0feedb7cd4",
+  "cache_manifest_sha256": "4b2217203fb25af9110226e06cb56f7171ae4b46b111b9bf77c049c33ab9e737",
+  "cache_identity_sha256": "0e652cd85bc98af46b292316c7f73dd86ec48727b80513a2a84c9c55c9e3b2de",
+  "cache_integrity_report_sha256": "d99d00a3bce8b5b571ebb5227446731ed62a9a2cb73bf090e78489c68fd8eafb",
+  "cache_integrity_status_sha256": "f1789061c75ca67a4e66fb8634ace3f7a1b6f3e32feaff9f9221da0866b7affc",
+  "software_report_sha256": "d6b88be13db65a0aab7bfcada9f13bc85ed551688e0ed99741af236bfa566b11",
+  "GPU_parity_report_sha256": "59bb3e678555fea4c76edad8b554e813bba830421c57a196f5f49b121740e618",
+  "baseline_source_hashes": {
+    "baseline.py": "e53cab238dca4d18a7e18e82348889484512547073e072dae09d42ea190f9835",
+    "probes.py": "2f4519452a338943ca29408a1700edfeb8ee1681535b14a86660a6001fe8f063",
+    "pooling.py": "3e96860bdf7af1ff520520fff2ec39bcc0af87955ba174afedd7768459436564",
+    "analysis.py": "387d82f327a04ef2dedd729ae110325e3786cfa9ffef024999b83b0ba56a014c",
+    "metrics.py": "43db516fa029b20986130cae6b98e95e500cefa372d15ae4c020130b9f56c79c",
+    "cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "scripts/run_baseline.py": "204215f604729d1649b5c3d003dc85c3e2090111d19889bb5b9237f958350766"
+  },
+  "source_count": 1691,
+  "windows": 61339,
+  "query_count": 378,
+  "classes": 100,
+  "comparisons": 108,
+  "test_access": "none",
+  "HPO_trials": 0,
+  "limitations": [
+    "pretraining/session overlap unknown; narrow internal checkpoint utility only",
+    "heuristic near-duplicate screen is not an exhaustive uniqueness proof",
+    "fixed alpha1 is not a tuned strongest baseline",
+    "six dev participants; conditional exploratory bootstrap, no broad population inference",
+    "shared GPU timing is not dedicated throughput"
+  ]
+}

@@ -1,0 +1,80 @@
+--- original/method/frozen_probe/confirmatory.py
++++ corrected/method/frozen_probe/confirmatory.py
+@@ -23,8 +23,17 @@
+ def check_freeze(gate_path, config_path):
+     gate = json.loads(Path(gate_path).read_text())
+     config_path = Path(config_path).resolve()
+-    if (gate['verdict'] != 'FROZEN_BEFORE_SELECTED_TEST_ACCESS'
+-            or gate['config_hashes'].get(str(config_path.relative_to(REPO))) != file_sha(config_path)):
++    if gate['verdict'] == 'VALIDATED_TECHNICAL_ERRATUM_BEFORE_SCORING':
++        original_path = REPO / gate['original_freeze']
++        if file_sha(original_path) != gate['original_freeze_sha256']:
++            raise ValueError('Original pre-test registration changed')
++        original = json.loads(original_path.read_text())
++        if (original['verdict'] != 'FROZEN_BEFORE_SELECTED_TEST_ACCESS'
++                or gate['scientific_config_changes'] or gate['config_hashes'] != original['config_hashes']):
++            raise ValueError('Technical erratum cannot change scientific configuration')
++    elif gate['verdict'] != 'FROZEN_BEFORE_SELECTED_TEST_ACCESS':
++        raise ValueError('Unissued confirmatory freeze')
++    if gate['config_hashes'].get(str(config_path.relative_to(REPO))) != file_sha(config_path):
+         raise ValueError('Confirmatory config not bound to the pre-test freeze')
+     for name, digest in gate['file_hashes'].items():
+         if file_sha(REPO / name) != digest:
+--- original/method/frozen_probe/scripts/predict_confirmatory.py
++++ corrected/method/frozen_probe/scripts/predict_confirmatory.py
+@@ -91,10 +91,10 @@
+         model, params = load_model(checkpoint, device)
+         torch.cuda.synchronize()
+         model_setup_seconds = time.perf_counter() - setup_started
+-        # Same fixed train source as pilot; no test-dependent warmup selection.
++        # Same fixed non-test source as pilot. Erratum: HATCH2 is dev, not train.
+         warmup_source = next(s for s in cohort['samples'] if s['sample_id'] == config['warmup_train_source'])
+-        if warmup_source['split'] != 'train' or file_sha(warmup_source['input_path']) != warmup_source['source_sha256']:
+-            raise ValueError('Warmup train source identity mismatch')
++        if warmup_source['split'] not in ('train', 'val') or file_sha(warmup_source['input_path']) != warmup_source['source_sha256']:
++            raise ValueError('Warmup non-test source identity mismatch')
+         rgb, pts, _ = decode_video(warmup_source['input_path'], 2000)
+         frames = preprocess_rgb(rgb)
+         warmup_start = time.perf_counter()
+--- original/method/frozen_probe/tests/test_confirmatory.py
++++ corrected/method/frozen_probe/tests/test_confirmatory.py
+@@ -1,13 +1,38 @@
+ import copy
++import json
++from pathlib import Path
++import tempfile
+ import unittest
++from unittest.mock import patch
+ 
+ import numpy as np
+ 
+-from confirmatory import METHODS, RECIPES, SEEDS, activity_proxy, analyze, cost_summary, query_map, search, verify_rankings
++from confirmatory import METHODS, RECIPES, SEEDS, activity_proxy, analyze, check_freeze, cost_summary, query_map, search, verify_rankings
+ from test_cache_baseline import fixture
+ 
+ 
+ class ConfirmatoryTests(unittest.TestCase):
++    def test_erratum_cannot_reopen_scientific_config(self):
++        import confirmatory
++        from cache import file_sha
++        with tempfile.TemporaryDirectory() as directory:
++            repo = Path(directory)
++            config = repo / 'config.json'
++            config.write_text('{}')
++            original = repo / 'original.json'
++            original.write_text(json.dumps(dict(verdict='FROZEN_BEFORE_SELECTED_TEST_ACCESS',
++                config_hashes={'config.json': file_sha(config)}, file_hashes={})))
++            gate = repo / 'gate.json'
++            record = dict(verdict='VALIDATED_TECHNICAL_ERRATUM_BEFORE_SCORING', original_freeze='original.json',
++                original_freeze_sha256=file_sha(original), scientific_config_changes=[],
++                config_hashes={'config.json': file_sha(config)}, file_hashes={})
++            gate.write_text(json.dumps(record))
++            with patch.object(confirmatory, 'REPO', repo):
++                check_freeze(gate, config)
++                record['scientific_config_changes'] = ['dcg_loss_margin']
++                gate.write_text(json.dumps(record))
++                with self.assertRaises(ValueError): check_freeze(gate, config)
++
+     def test_test_split_is_explicit_and_never_a_gallery(self):
+         cohort, _, _ = fixture()
+         test = dict(classes=cohort['classes'], samples=[dict(sample_id=f'test_{c}', split='test', gloss=g,

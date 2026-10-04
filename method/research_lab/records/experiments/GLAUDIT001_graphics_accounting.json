@@ -1,0 +1,18 @@
+{
+  "accounting_run_id": "GLAUDIT001_20261004_H003_v0_0bf71e65_s1701",
+  "charged_run_id": "LANDMARK001_20261004_H003_v0_85a92d70_s1701",
+  "H_id": "H003",
+  "original_status_path": "method/stream_reliability/runtime/LANDMARK001_20261004_H003_v0_85a92d70_s1701/status.json",
+  "original_status_sha256": "27255a18c5f62ba9b03e8f1850cd2d46c81d409c71788a7da76a4db8af30d453",
+  "original_GPU_hours": 0,
+  "conservative_GPU_seconds": 43.395969011005946,
+  "observation": [
+    "Successfully initialized EGL. Major : 1 Minor: 5",
+    "GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2",
+    "Created TensorFlow Lite XNNPACK delegate for CPU."
+  ],
+  "observation_provenance": "Actual unified execution session90929 stderr, captured in tool transcript; not a saved native stderr file",
+  "reason": "CPU TFLite delegate still created NVIDIA OpenGL contexts; torch CUDA_initialized=False does not exclude graphics resource use",
+  "accounting": "Replace cost for the same actual LANDMARK001 run, not a second GPU job; whole wall is an upper bound",
+  "original_artifacts_preserved": true
+}

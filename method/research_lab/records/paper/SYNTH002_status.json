@@ -1,0 +1,35 @@
+{
+  "run_id": "SYNTH002_20261004_P003v1_s1701",
+  "protocol": "P003_v1_result_presentation",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2145322,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T22:41:25.389356+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/report_confirmatory.py",
+    "--config",
+    "method/frozen_probe/configs/SYNTH002.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "SYNTH002_20261004_P003v1_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/SYNTH002_20261004_P003v1_s1701"
+  ],
+  "config_sha256": "f7cd33c824b492424289fe05af44aeb46be85fae83b7141118746deed5b459f0",
+  "output_hashes": {
+    "diagnostics.md": "a3231e066d4c680c58e5133659670929a0c700ec64b7a139b4c6a74009c8864e",
+    "cases.csv": "a076df8c8cc456c3c3fd636f9b8a401e8c4a1b8eccde52ea12a4cee5041491f1",
+    "quality_cost.svg": "1f7547b37de25abee09f3f63af4023bc0f5de5ee15aaf465c048647b97426636",
+    "quality_cost.pdf": "d0071d3ac11463a3c34fa441df195287cc65f5089a402a783f60f531cfa4ef47",
+    "quality_cost.png": "07709ff2147ac201fb2b9fa746e4980baeaee14ed2ef658f276da73e3d0664fa",
+    "figure_data.csv": "fd2e228a2682b13d49e51f3528bbde5f0dd0115a3c30f14963db6716a1c6a8f3",
+    "report_metadata.json": "84654a5880f344c85ff35dc9260c9f5efaf9225e225e5eeb5c544a6ac93ca521"
+  },
+  "end_utc": "2026-10-03T22:41:25.863921+00:00",
+  "wall_seconds": 0.47457863797899336,
+  "exit_code": 0
+}

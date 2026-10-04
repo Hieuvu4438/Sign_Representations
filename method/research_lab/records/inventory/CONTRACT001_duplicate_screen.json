@@ -1,0 +1,7 @@
+{
+  "cross_split_pairs_tested": 795183,
+  "eligible_pairs": 246091,
+  "candidates": [],
+  "fewer_than_five_fingerprint_sources": [],
+  "scope": "bounded thumbnail/length screen, not exhaustive uniqueness/session/pretraining proof"
+}

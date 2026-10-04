@@ -1,0 +1,9 @@
+{
+  "phase": "prelaunch AST dependency enumeration; no config/registration/run/output created",
+  "command": "python3 method/frozen_probe/scripts/register_msptsdiag.py",
+  "exit_code": 1,
+  "error": "SyntaxError: unmatched closing parenthesis in diagnose_msasl_pts.py:87",
+  "repair": "Remove extra closing parenthesis before registration; diagnostic selections/rules/resources unchanged",
+  "instrumented_wall_seconds": null,
+  "GPU_hours": 0
+}

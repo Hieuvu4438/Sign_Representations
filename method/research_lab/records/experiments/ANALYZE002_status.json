@@ -1,0 +1,29 @@
+{
+  "run_id": "ANALYZE002_20261004_P001v4_s1701",
+  "protocol": "P001_v4",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 1748746,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T20:10:13.930196+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/analyze_baseline.py",
+    "--config",
+    "method/frozen_probe/configs/ANALYZE002.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "ANALYZE002_20261004_P001v4_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/ANALYZE002_20261004_P001v4_s1701",
+    "--prediction-run",
+    "method/frozen_probe/runtime/BASE002_20261004_P001v4_s1337"
+  ],
+  "config_sha256": "780ad71b4ff9769f1ce446bae4caa164044203c550070a9b534127460f43e489",
+  "output_sha256": "35f5ab6a113597aef97c1c887c021e6de6b62affe5081b93c8c37dfeca1a9b19",
+  "end_utc": "2026-10-03T20:10:14.099939+00:00",
+  "wall_seconds": 0.16975964698940516,
+  "exit_code": 0
+}

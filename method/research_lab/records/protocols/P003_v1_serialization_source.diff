@@ -1,0 +1,21 @@
+--- warmup-corrected/confirmatory.py
++++ serialization-corrected/confirmatory.py
+@@ -23,7 +23,8 @@
+ def check_freeze(gate_path, config_path):
+     gate = json.loads(Path(gate_path).read_text())
+     config_path = Path(config_path).resolve()
+-    if gate['verdict'] == 'VALIDATED_TECHNICAL_ERRATUM_BEFORE_SCORING':
++    if gate['verdict'] in ('VALIDATED_TECHNICAL_ERRATUM_BEFORE_SCORING',
++                           'VALIDATED_SERIALIZATION_ERRATUM_AFTER_EXECUTION'):
+         original_path = REPO / gate['original_freeze']
+         if file_sha(original_path) != gate['original_freeze_sha256']:
+             raise ValueError('Original pre-test registration changed')
+@@ -180,7 +181,7 @@
+         summaries[method] = dict(N=len(rows), encoded_windows=counts, dense_windows=dense,
+             window_reduction_factor=dense / counts, median_paired_query_ratio=float(np.median(ratios)),
+             p50_seconds=float(np.quantile(times, .5)), p95_seconds=float(np.quantile(times, .95)),
+-            sum_pipeline_seconds=float(times.sum()), actual_cost_screen=counts * 2 <= dense and np.median(ratios) <= .8)
++            sum_pipeline_seconds=float(times.sum()), actual_cost_screen=bool(counts * 2 <= dense and np.median(ratios) <= .8))
+     return summaries
+ 
+ 

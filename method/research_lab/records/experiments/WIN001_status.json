@@ -1,0 +1,28 @@
+{
+  "run_id": "WIN001_20261004_P002v1_s1337",
+  "protocol": "P002_v1_draft",
+  "status": "completed",
+  "seed": 1337,
+  "GPU_hours": 0,
+  "pid": 1783271,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T20:34:21.290036+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/software_smoke.py",
+    "--config",
+    "method/frozen_probe/configs/WIN001.json",
+    "--seed",
+    "1337",
+    "--run-id",
+    "WIN001_20261004_P002v1_s1337",
+    "--output-dir",
+    "method/frozen_probe/runtime/WIN001_20261004_P002v1_s1337"
+  ],
+  "config_sha256": "897aeca56f29e2b4bac32f9e8a725a621e725026d1d647bc5a21464e2dd637bd",
+  "script_sha256": "7e4acbd034270ba1da1c5c0cfbcfb6cf9925495d39352faff5158f4b2607b2fd",
+  "exit_code": 0,
+  "output_sha256": "d75d34d67c149705267f6db8cb7940624a208266e2d8dc0927168aedbe342327",
+  "end_utc": "2026-10-03T20:34:21.738713+00:00",
+  "wall_seconds": 0.4486948800040409
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "PREDTEST001_20261004_P003v1_s1337",
+  "protocol": "P003_v1_artifact_integrity",
+  "status": "completed",
+  "seed": 1337,
+  "GPU_hours": 0,
+  "pid": 2096165,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T22:04:57.595034+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/software_smoke.py",
+    "--config",
+    "method/frozen_probe/configs/PREDTEST001.json",
+    "--seed",
+    "1337",
+    "--run-id",
+    "PREDTEST001_20261004_P003v1_s1337",
+    "--output-dir",
+    "method/frozen_probe/runtime/PREDTEST001_20261004_P003v1_s1337"
+  ],
+  "config_sha256": "3aa4afd029331011707609753d2be5eca0e3f5c48fa0ed1d0166a13e0726608e",
+  "script_sha256": "7e4acbd034270ba1da1c5c0cfbcfb6cf9925495d39352faff5158f4b2607b2fd",
+  "exit_code": 0,
+  "output_sha256": "f366e8a5abf4beb71f78ae6057687c2bd1c4c3049bb2fc93f110ba190cfad3c3",
+  "end_utc": "2026-10-03T22:04:57.653948+00:00",
+  "wall_seconds": 0.05893231800291687
+}

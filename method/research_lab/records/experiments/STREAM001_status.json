@@ -1,0 +1,30 @@
+{
+  "run_id": "STREAM001_20261004_H003_v0_dbd8c39f_s1701",
+  "protocol": "H003_v0_input_audit",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2589089,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T05:11:03.550390+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/stream_reliability/scripts/audit_inputs.py",
+    "--config",
+    "method/stream_reliability/configs/STREAM001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "STREAM001_20261004_H003_v0_dbd8c39f_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/STREAM001_20261004_H003_v0_dbd8c39f_s1701"
+  ],
+  "config_sha256": "dbd8c39f2902e13ac321418cc07b37b1ea6c915cdf0f613022f91fd26ff60eca",
+  "H_id": "H003",
+  "output_hashes": {
+    "input_audit.json": "e10aff4f33ba6c9567656350e85fd58bacd022de29b1ee096abb60043d503709"
+  },
+  "end_utc": "2026-10-04T05:11:03.579001+00:00",
+  "wall_seconds": 0.028631688095629215,
+  "exit_code": 0
+}

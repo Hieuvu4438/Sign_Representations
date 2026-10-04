@@ -1,0 +1,20 @@
+{
+  "registered_utc": "2026-10-04T09:33:58.800788+00:00",
+  "run_id": "LINEAGE002_20261004_743c4e83_s1701",
+  "config": "method/frozen_probe/configs/LINEAGE002.json",
+  "config_sha256": "743c4e83c2fe1c93c105d602bc83433d7bc569d0ef7944b9fd2067b73a6858d3",
+  "output_dir": "method/frozen_probe/runtime/LINEAGE002_20261004_743c4e83_s1701",
+  "provenance_only": true,
+  "GPU_hours": 0,
+  "CPU_limit_seconds": 120,
+  "durable_bytes_ceiling": 2097152,
+  "input_hashes": {
+    "method/frozen_probe/runtime/LINEAGE001_20261004_51cfb6f8_s1701/status.json": "e07be0c2733f6635cdf8e855363a8dd60c25db824c337179c62bba79d049bed9",
+    "method/frozen_probe/runtime/LINEAGE001_20261004_51cfb6f8_s1701/lineage_audit.json": "3a575d8c269cf390d1a93a9fd295da616334218b53582b1ad3dd37fc66a5d4d5",
+    "method/frozen_probe/runtime/LINEAGE001_20261004_51cfb6f8_s1701/youtube_sl25_objects.json": "10635932b94a8a0dbe38621f6523f01cf77ecfb168ccaa1c10c2d15cf15d82cc",
+    "method/frozen_probe/scripts/audit_pretrain_manifest.py": "7cc912a96c57514aaf08b827328516c09526ef9b06ab6e6d36d6de25ce623fc3",
+    "/home/dongvk/datasets/youtubeASL/youtube-asl_youtube_asl_video_ids.txt": "ca5622737279afc33b1f9ddfa585b5e8bd284f1be458c461e10887b03e519191",
+    "method/research_lab/records/protocols/LINEAGE002_public_pretrain_manifest.md": "a8e10dcb3e45241f0cc321e35c019a8a260aac56113fe4b1ba5a721a730fabfc",
+    "method/research_lab/records/decisions/D032.md": "9b49c7f1e474d61035252bc17b70cdf8bca2ac3791f605e55d968799536fd6cf"
+  }
+}

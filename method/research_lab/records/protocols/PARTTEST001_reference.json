@@ -1,0 +1,9 @@
+{
+  "version": "1.8.0",
+  "path": "/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py",
+  "sha256": "88cade87eae97aae8214a5b9bdee8bf44a31653d5f72f62de3cef7bff9885c9d",
+  "symbol": "balanced_accuracy_score",
+  "adjusted": false,
+  "audited_algorithm": "confusion diagonal/row totals; mean of recalls for observed true labels",
+  "fixture_log_sha256": "af10c807e72fb5a7ef769bbd95e0a618919fc665b767b19e988f67bdfc4391fc"
+}

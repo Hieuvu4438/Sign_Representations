@@ -1,0 +1,137 @@
+P004 wrappers derived only from this new direction own immutable P003 code, not legacy/upstream project methods.
+Original P003 files unchanged; source SHA and exact reviewed derivation diffs below.
+Original method/frozen_probe/scripts/prepare_confirmatory.py: SHA256 54b7f3954befa07565623deaf07a7a5095b6906316d758b6b4e04e2d2cb0bdd7
+New method/frozen_probe/scripts/prepare_replication_test.py: SHA256 b00b9b57d3ed565b7f5c6ad9b1414f0f1d4a2c673de206ac10522f6c2ffc438a
+--- method/frozen_probe/scripts/prepare_confirmatory.py
++++ method/frozen_probe/scripts/prepare_replication_test.py
+@@ -1,4 +1,4 @@
+-"""First selected-test access after P003 code/config/analysis freeze; CPU only."""
++"""First selected-test access after P004 code/config/analysis freeze; CPU only."""
+ import argparse
+ from collections import Counter
+ import csv
+@@ -12,7 +12,8 @@
+ REPO = ROOT.parents[1]
+ sys.path.insert(0, str(ROOT))
+ from cache import file_sha
+-from confirmatory import check_freeze, query_map
++from confirmatory import query_map
++from replication_test import check_test_freeze as check_freeze
+ from run_context import RunContext
+ from scripts.screen_duplicates import compare_pair
+ from video_contract import dhash64, fingerprint_indices, summarize_timeline
+@@ -58,10 +59,10 @@
+             samples.append(dict(sample_id=key, gloss=row['Gloss'], class_id=classes[row['Gloss']], split='test',
+                 participant_id=row['Participant ID'], input_path=str(path), source_bytes=path.stat().st_size,
+                 source_sha256=file_sha(path)))
+-        test = dict(classes=cohort['classes'], samples=samples, predicate='every official test row with exact Gloss in COHORT001 classes',
++        test = dict(classes=cohort['classes'], samples=samples, predicate='every official test row with exact Gloss in COHORT002 classes',
+             run_id=args.run_id, freeze_sha256=file_sha(args.freeze), frozen_utc=freeze['frozen_utc'],
+             selected_metadata_access_utc=run.status['start_utc'], split_hashes=config['split_hashes'],
+-            class_map_origin='COHORT001 train only; no test resampling', automatic_exclusions=0,
++            class_map_origin='COHORT002 train only; no test resampling', automatic_exclusions=0,
+             participant_counts=dict(Counter(s['participant_id'] for s in samples)),
+             class_counts=dict(Counter(s['gloss'] for s in samples)))
+         query_map(cohort, test)
+@@ -135,7 +136,7 @@
+             rates['pool_search_seconds_per_query_recipe'] * len(samples) * 4)
+         run.save('preflight_estimate.json', dict(actual_query_count=len(samples), actual_participant_count=len(test['participant_counts']),
+             estimated_gpu_allocation_seconds=estimate, actual_encoder_windows_planned=audit['dense_windows'] + 3 * audit['sparse_windows'],
+-            rates=rates, gallery_source='reuse verified immutable train-only CACHE005; no test fit',
++            rates=rates, gallery_source='reuse verified immutable train-only CACHE006; no test fit',
+             planned_pooled_payload_bytes=len(samples) * 5 * 768 * 8, source_read_bytes_audit=planned,
+             launch_eligible=len(candidates) == 0 and estimate <= config['prediction_allowance_seconds']))
+         run.status['output_hashes'] = {name: file_sha(run.output / name) for name in
+Original method/frozen_probe/scripts/predict_confirmatory.py: SHA256 2dbb89600bb4ff37db797ad994c2b253c8027e63f5cd1b3093bc55dd002b1086
+New method/frozen_probe/scripts/predict_replication_test.py: SHA256 d26ba4b1a310cd063e30f0a2263499eb0c405b7ba4fcaaf731863b768cda2292
+--- method/frozen_probe/scripts/predict_confirmatory.py
++++ method/frozen_probe/scripts/predict_replication_test.py
+@@ -1,4 +1,4 @@
+-"""P003 actual pre-encoder selection for every locked test query; no scoring."""
++"""P004 actual pre-encoder selection for every locked test query; no scoring."""
+ import argparse
+ import importlib.metadata
+ import json
+@@ -11,7 +11,8 @@
+ sys.path.insert(0, str(ROOT))
+ from budget import inspect_budget
+ from cache import CacheReader, file_sha
+-from confirmatory import METHODS, RECIPES, SEEDS, activity_proxy, build_galleries, check_freeze, query_map, search
++from confirmatory import METHODS, RECIPES, SEEDS, activity_proxy, build_galleries, query_map, search
++from replication_test import check_test_freeze as check_freeze
+ from resources import configure_gpu, gpu_preflight, scratch_preflight
+ from run_context import RunContext
+ from window_budget import pooled_vector, selected_indices
+@@ -58,7 +59,8 @@
+         identity = config['cache_identity']
+         reader = CacheReader(config['cache_manifest'], identity, cohort, old_audit)
+         gallery_started = time.perf_counter()
+-        galleries, gallery_meta = build_galleries(reader, cohort)
++        galleries, gallery_meta = build_galleries(reader, cohort, budget=1)
++        gallery_meta['origin'] = 'verified P004 train-only CACHE006; one-example galleries'
+         gallery_setup_seconds = time.perf_counter() - gallery_started
+         if len(cohort['classes']) != 100 or tuple(config['methods']) != METHODS or tuple(config['support_seeds']) != SEEDS:
+             raise ValueError('Locked cohort/method/gallery specification changed')
+@@ -91,8 +93,8 @@
+         model, params = load_model(checkpoint, device)
+         torch.cuda.synchronize()
+         model_setup_seconds = time.perf_counter() - setup_started
+-        # Same fixed non-test source as pilot. Erratum: HATCH2 is dev, not train.
+-        warmup_source = next(s for s in cohort['samples'] if s['sample_id'] == config['warmup_train_source'])
++        # Fixed lexically first registered train source; no test warmup.
++        warmup_source = next(s for s in cohort['samples'] if s['sample_id'] == config['warmup_source'])
+         if warmup_source['split'] not in ('train', 'val') or file_sha(warmup_source['input_path']) != warmup_source['source_sha256']:
+             raise ValueError('Warmup non-test source identity mismatch')
+         rgb, pts, _ = decode_video(warmup_source['input_path'], 2000)
+Original method/frozen_probe/scripts/analyze_confirmatory.py: SHA256 4d97599016670a73f8564edcce0a2e2b225bb8c6954fa5b5bf1ba70988747380
+New method/frozen_probe/scripts/analyze_replication_test.py: SHA256 5277eb8e52dd82744f8842fef99618997ba671f1b2a6f01cb6547ec4e527d059
+--- method/frozen_probe/scripts/analyze_confirmatory.py
++++ method/frozen_probe/scripts/analyze_replication_test.py
+@@ -1,4 +1,4 @@
+-"""Score only complete, frozen P003 held-out predictions; rebuild all evidence."""
++"""Score only complete, frozen P004 held-out predictions; rebuild all evidence."""
+ import argparse
+ import csv
+ import json
+@@ -9,7 +9,8 @@
+ REPO = ROOT.parents[1]
+ sys.path.insert(0, str(ROOT))
+ from cache import file_sha
+-from confirmatory import METHODS, analyze, check_freeze
++from confirmatory import METHODS, analyze
++from replication_test import check_test_freeze as check_freeze
+ from run_context import RunContext
+ 
+ 
+@@ -37,6 +38,7 @@
+         with np.load(args.prediction_run / 'rankings.npz', allow_pickle=False) as archive:
+             rankings = {name: archive[name] for name in archive.files}
+         result = analyze(schema, rankings, timing['observations'], diagnostics, thresholds)
++        result['scope'] = '100 fresh train-selected ASL classes, existing checkpoint, one labeled train example/class; adapted held-out lookup'
+         result.update(prediction_run=status['run_id'], prediction_status_sha256=file_sha(args.prediction_run / 'status.json'),
+                       freeze_sha256=file_sha(args.freeze), N_expected=len(schema['query_ids']), N_scored=len(schema['query_ids']),
+                       thresholds=thresholds, timing_boundary=timing['boundary'], timing_excluded=timing['excluded'])
+Original method/frozen_probe/scripts/verify_confirmatory.py: SHA256 52c50196428a40a500e806fb76dd46ba1c51ba1ca61b01ae1afdf309a99f6f63
+New method/frozen_probe/scripts/verify_replication_test.py: SHA256 f24866626a123ca59b17fceb4511f09ea66b4af4b5a174e859de48a4686d3767
+--- method/frozen_probe/scripts/verify_confirmatory.py
++++ method/frozen_probe/scripts/verify_replication_test.py
+@@ -28,8 +28,8 @@
+         statuses = {}
+         for role, path in (('prediction', prediction), ('prepared', prepared)):
+             status = json.loads((path/'status.json').read_text())
+-            if status['status'] != 'completed' or status['protocol'] != 'P003_v1':
+-                raise ValueError('Complete P003 execution required before verification')
++            if status['status'] != 'completed' or status['protocol'] != 'P004_v1':
++                raise ValueError('Complete P004 execution required before verification')
+             for name, digest in status['output_hashes'].items():
+                 if file_sha(path/name) != digest:
+                     raise ValueError('Bound source/output artifact changed')
+@@ -53,7 +53,7 @@
+             pooled = {name: archive[name] for name in archive.files}
+         verify_pooled_arrays(pooled, len(schema['query_ids']), 768)
+         reader = CacheReader(scientific_config['cache_manifest'], scientific_config['cache_identity'], cohort, old_audit)
+-        galleries, metadata = build_galleries(reader, cohort)
++        galleries, metadata = build_galleries(reader, cohort, budget=1)
+         with np.load(prediction/'rankings.npz', allow_pickle=False) as archive:
+             rankings = {name: archive[name] for name in archive.files}
+         if set(rankings) != {f'{m}_s{s}' for m in METHODS for s in SEEDS}:

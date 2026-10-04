@@ -1,0 +1,30 @@
+{
+  "run_id": "COVER001_20261004_A001_s1701",
+  "protocol": "A001_input_coverage",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 1960962,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T21:41:05.058638+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/analyze_input_coverage.py",
+    "--config",
+    "method/frozen_probe/configs/COVER001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "COVER001_20261004_A001_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/COVER001_20261004_A001_s1701"
+  ],
+  "config_sha256": "5744bd77067e5f8a793ff521a29668be9b5b231e55760827e973eab26a971623",
+  "output_hashes": {
+    "coverage.json": "c67385dd1200379062a4a0647ef6fa7e7f18c97d7fe2ace13c9a4f771d9abccd",
+    "table.md": "b0b0b2d6f576941c9b63165261f05042e152d571c7ce39e55f7abb17c1fe367f"
+  },
+  "end_utc": "2026-10-03T21:41:05.439727+00:00",
+  "wall_seconds": 0.38110705697909,
+  "exit_code": 0
+}

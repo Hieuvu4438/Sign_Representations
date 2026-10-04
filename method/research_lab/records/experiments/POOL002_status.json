@@ -1,0 +1,28 @@
+{
+  "run_id": "POOL002_20261004_P001v3_s1337",
+  "protocol": "P001_v3_draft",
+  "status": "completed",
+  "seed": 1337,
+  "GPU_hours": 0,
+  "pid": 1527399,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T18:26:31.963584+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/software_smoke.py",
+    "--config",
+    "method/frozen_probe/configs/POOL002.json",
+    "--seed",
+    "1337",
+    "--run-id",
+    "POOL002_20261004_P001v3_s1337",
+    "--output-dir",
+    "method/frozen_probe/runtime/POOL002_20261004_P001v3_s1337"
+  ],
+  "config_sha256": "34187c25cfeccb0d90b429b9ffc67432e5286d9483e478017e3e10e9205937ab",
+  "script_sha256": "230cc1049bba4ab303afaa51951bc1a2829cd0cbac496419a853858320d7938a",
+  "exit_code": 0,
+  "output_sha256": "e272afcc449d59506cc97320dde1569a4f74e123ad1e376d9dca506a97e8769d",
+  "end_utc": "2026-10-03T18:26:31.999084+00:00",
+  "wall_seconds": 0.035511841997504234
+}

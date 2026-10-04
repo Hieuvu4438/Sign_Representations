@@ -1,0 +1,25 @@
+{
+  "protocol": "H006_v0_arithmetic_verification",
+  "H_id": "H006",
+  "seed": 1701,
+  "timeout_seconds": 180,
+  "GPU_allocation_seconds": 0,
+  "HPO_trials": 0,
+  "parent_runtime": "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701",
+  "earlier_raw_runtime": "method/frozen_probe/runtime/REPQUAL001_20261004_H002_P004v1_c80107ef_s1701",
+  "numeric_atol": 1e-12,
+  "orthogonality_atol": 1e-10,
+  "covariance_relative_atol": 1e-08,
+  "input_hashes": {
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/status.json": "bca78776fe7925283ec2d12bb336f045651974dd946cd9a02952ac8120a8b686",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/config.json": "9ea77572a4607061041a851bcb315908a1d7aade24855a951176411eb6e4d273",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/fitted_geometry.npz": "35e2dde8beca88baad8834f8f29f687eb8171158008c0893a778c1ab36ab43ff",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/predictions.json": "34fd1756fc86b1ee177382b6e417f99c30932e50d57c988fd90770a4de82ad83",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/fit_support_metadata.json": "e715cdcc4786be56a3ce6310f2e2dd7bdefb01080aee313d3e813aa2e4b314c2",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/geometry_transfer.json": "5aad006602b39b7fd4d73e1e2cf74f3ef6b16e1cdf90e2625b6c31ae1a795d25",
+    "method/frozen_probe/runtime/REPQUAL001_20261004_H002_P004v1_c80107ef_s1701/schema.json": "5cdc805b5125c6bfe16bdb67b88360a282bb41cca2d5e03f692b2a31beb427a2",
+    "method/frozen_probe/runtime/REPQUAL001_20261004_H002_P004v1_c80107ef_s1701/rankings.npz": "53aa7a408ec6cf5d6c81678416dbfcf7507b6a66ddca32d814b07c7ac6411d84",
+    "method/frozen_probe/runtime/REPQUAL001_20261004_H002_P004v1_c80107ef_s1701/status.json": "072cb0c32d5e0b4c892d0c59fca4e9ef547f7721015f3ceeeeaca19effb5c3de",
+    "method/frozen_probe/scripts/verify_geometry_transfer.py": "47a660afbd34452dbced6bd4f6bb276f4bd589b6608de4e5c823ea38f14e902f"
+  }
+}

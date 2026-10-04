@@ -1,0 +1,18 @@
+{
+  "protocol": "S03_final_source_retrieval",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "max_bytes_per_source": 16777216,
+  "preflight_script": "/home/haipd/.codex/skills/academic-research-suite/ars/scripts/pdf_read_preflight.py",
+  "sources": [
+    {
+      "name": "SignRep_ICCV2025_main",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wong_SignRep_Enhancing_Self-Supervised_Sign_Representations_ICCV_2025_paper.pdf"
+    },
+    {
+      "name": "SignRep_ICCV2025_supp",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/supplemental/Wong_SignRep_Enhancing_Self-Supervised_ICCV_2025_supplemental.pdf"
+    }
+  ],
+  "engineering_retry": "Supplement HEAD10771324B exceeds initial8MiB cap; raise bounded cap to16MiB, sources unchanged. Original failed run retained."
+}

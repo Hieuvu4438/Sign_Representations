@@ -1,0 +1,13 @@
+{
+  "protocol": "P001_v3_draft",
+  "output_layer": "features",
+  "bins": 4,
+  "output_dim": 768,
+  "projection_seed": 1337,
+  "shuffle_seed": 2718,
+  "activity": "max_clamped_raw_regression_0_1",
+  "zero_weight_rule": "clip_mean",
+  "test_pattern": "test_*.py",
+  "timeout_seconds": 60,
+  "scope": "synthetic cache, baseline, resources and CLI gate checks"
+}

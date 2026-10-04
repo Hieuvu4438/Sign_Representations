@@ -1,0 +1,33 @@
+{
+  "run_id": "FEAT001_20261003_P001v1_s1701",
+  "protocol": "P001_v1",
+  "seed": 1701,
+  "status": "completed",
+  "pid": 1231299,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T15:37:28.548299+00:00",
+  "GPU_hours": 0,
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "method/frozen_probe/scripts/validate_features.py",
+    "--config",
+    "method/frozen_probe/configs/FEAT001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "FEAT001_20261003_P001v1_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/FEAT001_20261003_P001v1_s1701"
+  ],
+  "config_sha256": "93528798935515dca9e54b1dbc9ed35c5d6973d0a33fdf7b04b680ad84c419af",
+  "exit_code": 0,
+  "code_hashes": {
+    "method/frozen_probe/scripts/validate_features.py": "b87e682be8a253c9f8ed68263fb5c99f3cd03cce2afe48d7d2b213075fc5ca35",
+    "method/frozen_probe/signrep_adapter.py": "8ce9cc5fd7b142c88b54cf3cb5d59b86df38ae47e876e677a09f2a24c8d2dc7c",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/scripts/audit_signrep.py": "3a6be1132955fab416196234eb0bbb85278b6c4dbde20eb039531fe2f305f2d7"
+  },
+  "output_sha256": "1eb27ebefe5174d4e485262f5682b1c811de30bd9e8d7918c41dde864c0cebf7",
+  "end_utc": "2026-10-03T15:38:53.623368+00:00",
+  "wall_seconds": 85.0750880659325
+}

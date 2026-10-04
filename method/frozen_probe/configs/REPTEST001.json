@@ -1,0 +1,6 @@
+{
+  "protocol": "P004_v1",
+  "projection_seed": 1337,
+  "test_pattern": "test_replication.py",
+  "timeout_seconds": 60
+}

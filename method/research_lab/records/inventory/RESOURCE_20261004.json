@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-03T18:57:32.315757+00:00",
+  "scope": "read-only resource inspection; no job or cache launched",
+  "GPU_launch_ready": false,
+  "GPU_reason": "Granted GPU0 busy/insufficient VRAM: {'physical_index': 0, 'uuid': 'GPU-3775c606-49da-34fe-322c-756749074f5b', 'total_mib': 49140, 'free_mib': 1622, 'utilization_percent': 100, 'min_free_mib': 8192, 'max_utilization': 10, 'command': ['nvidia-smi', '--query-gpu=index,uuid,memory.total,memory.free,utilization.gpu', '--format=csv,noheader,nounits']}",
+  "scratch": {
+    "path": "/dev/shm",
+    "total_bytes": 33365929984,
+    "free_bytes": 33200656384,
+    "planned_bytes": 200535472,
+    "cache_limit_bytes": 1073741824,
+    "reserve_fraction": 0.2,
+    "memory_bytes": {
+      "MemTotal": 66731859968,
+      "MemAvailable": 39745179648
+    },
+    "cpu_workspace_reserve_bytes": 2147483648
+  },
+  "code_changes_since_AN001": []
+}

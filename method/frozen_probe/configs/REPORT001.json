@@ -1,0 +1,7 @@
+{
+  "protocol": "P002_v1",
+  "seed": 1701,
+  "timeout_seconds": 60,
+  "H_id": "H002",
+  "scope": "rebuild joint eligibility and all-policy table; no extra trial"
+}

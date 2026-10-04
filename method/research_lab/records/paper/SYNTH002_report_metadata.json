@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "analysis": {
+      "run": "method/frozen_probe/runtime/CONFAN002_20261004_H002_P003v1_12d05a8e_s1701",
+      "status_sha256": "7a81e8e54da8a261479275593dcf17a0418a15702bfe0a92da248afa378a04bf",
+      "file": "analysis.json"
+    },
+    "schema": {
+      "run": "method/frozen_probe/runtime/CONFIRM001_20261004_H002_P003v1_7b94d089_s1701",
+      "status_sha256": "b68cf4d2fd08476592516acb5546bb2fbe4ed5f18265f2c47bb48959f2159ed5",
+      "file": "schema.json"
+    }
+  },
+  "case_rows": 1000,
+  "matplotlib": "3.10.8",
+  "scope": "presentation only; original selected cases and all controls retained",
+  "caption": "Quality is averaged over three fixed galleries. Timing: one independent full decode/preprocess/encoder/pool/three-gallery-search observation per query and recipe, shared-eligible GPU and uncontrolled OS cache. Model/gallery setup and integrity/persistence excluded. Full_mean quality shares the dense pass and has no separate timing. Plot margin line alone is not the joint quality/CI/cost screen."
+}

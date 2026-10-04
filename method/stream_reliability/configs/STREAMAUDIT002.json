@@ -1,0 +1,108 @@
+{
+  "protocol": "H003_v2_artifact_closure",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "runs": [
+    {
+      "path": "method/stream_reliability/runtime/ASSET001_20261004_H003_v0_0395b8eb_s1701",
+      "record_alias": "ASSET001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/ASSET002_20261004_H003_v0_5e2de9e7_s1701",
+      "record_alias": "ASSET002"
+    },
+    {
+      "path": "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701",
+      "record_alias": "DINOSRC001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/GLAUDIT001_20261004_H003_v0_0bf71e65_s1701",
+      "record_alias": "GLAUDIT001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/LANDMARK001_20261004_H003_v0_85a92d70_s1701",
+      "record_alias": "LANDMARK001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/LOAD001_20261004_H003_v0_a6ab5917_s1701",
+      "record_alias": "SHUBERT_LOAD001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/STREAM001_20261004_H003_v0_dbd8c39f_s1701",
+      "record_alias": "STREAM001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/STREAMDINO001_20261004_H003_v0_a09ef752_s1701",
+      "record_alias": "STREAMDINO001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/STREAMGPU001_20261004_H003_v0_aeb2c96d_s1701",
+      "record_alias": "STREAMGPU001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/CROP001_20261004_H003_v0_9ae32957_s1701",
+      "record_alias": "CROP001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/CROP002_20261004_H003_v0_8b0186e6_s1701",
+      "record_alias": "CROP002"
+    },
+    {
+      "path": "method/stream_reliability/runtime/SOFTGL001_20261004_H003_v0_5877f510_s1701",
+      "record_alias": "SOFTGL001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/INPUTPARITY001_20261004_H003_v1_3700038a_s1701",
+      "record_alias": "INPUTPARITY001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/STREAMFEAT001_20261004_H003_v1_c525a0ad_s1701",
+      "record_alias": "STREAMFEAT001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/NUMDIAG001_20261004_H003_v1_2986835f_s1701",
+      "record_alias": "NUMDIAG001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/NUMCPU001_20261004_H003_v1_0e5eeffb_s1701",
+      "record_alias": "NUMCPU001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/AUTHORGPU001_20261004_H003_v2_ac538b19_s1701",
+      "record_alias": "AUTHORGPU001"
+    }
+  ],
+  "frozen_gates": [
+    "method/research_lab/records/protocols/P003_v1_serialization_gate.json",
+    "method/research_lab/records/protocols/P004_v1_dev_gate.json",
+    "method/research_lab/records/protocols/P004_v1_test_freeze.json"
+  ],
+  "dino_source_run": "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701",
+  "landmark_report": "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json",
+  "budget_config": "method/stream_reliability/configs/AUTHORGPU001.json",
+  "expected_program_seconds": 5723.708538375213,
+  "documents": [
+    "method/research_lab/records/STATE.md",
+    "method/research_lab/records/PROGRAM_GATES.md",
+    "method/research_lab/records/decisions/D019.md",
+    "method/research_lab/records/hypotheses/H003.md",
+    "method/research_lab/records/claims/LEDGER.md",
+    "method/research_lab/records/SESSION_AUDIT_r12.md",
+    "method/research_lab/records/literature/sources/S01.md",
+    "method/research_lab/records/experiments/INDEX.md",
+    "method/research_lab/records/experiments/STREAMBUDTEST001_tests.txt",
+    "method/research_lab/records/decisions/D017.md",
+    "method/research_lab/records/decisions/D018.md",
+    "method/research_lab/records/experiments/INPUTTEST001_tests.txt",
+    "method/research_lab/records/inventory/CROP001_crop_contract.json"
+  ],
+  "record_output": "method/research_lab/records/artifact_audit_20261004_r11.json",
+  "native_cuda_report": "method/research_lab/records/experiments/AUTHORGPU001_author_gpu_parity.json",
+  "aligned_input_report": "method/research_lab/records/inventory/INPUTPARITY001_input_parity.json",
+  "input_hashes": {
+    "method/research_lab/records/experiments/AUTHORGPU001_author_gpu_parity.json": "ae70aef902c44194868eb4bf8b91f6c7abb6ee97d4a2ab42ffb989957e306925",
+    "method/research_lab/records/inventory/INPUTPARITY001_input_parity.json": "c4eeb77a238f884326ddb7b6c741d0c2794b5a421f6af6c7c4d48e8f6e776c1f",
+    "method/stream_reliability/scripts/audit_artifacts.py": "27ba44a38da75c1e68b8872fb6aa61d7b5e546e2a2948ab740bd6658c78ab907"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "registered_utc": "2026-10-04T09:30:47.615600+00:00",
+  "run_id": "LINEAGE001_20261004_51cfb6f8_s1701",
+  "config": "method/frozen_probe/configs/LINEAGE001.json",
+  "config_sha256": "51cfb6f84fc4013c6d8e2bb72492fb16f7d985a5d7f711c188a45ae6daf239a2",
+  "output_dir": "method/frozen_probe/runtime/LINEAGE001_20261004_51cfb6f8_s1701",
+  "provenance_only": true,
+  "CPU_limit_seconds": 120,
+  "GPU_hours": 0,
+  "durable_bytes_ceiling": 4194304,
+  "input_hashes": {
+    "method/frozen_probe/scripts/audit_signrep_lineage.py": "0c7d4d3d4624170bd5ac36c3fe2a323ec92eec04997214ee1aa249ae8b24394a",
+    "method/research_lab/records/protocols/LINEAGE001_signrep_provenance.md": "581e7eefae4a4b6db5f8925e56b42aab5693593f92d99d49b700f73bdd6f6c6d",
+    "method/research_lab/records/decisions/D031.md": "73b66de68d992035aea32a20953c89a25a66ee2814b8355bd4d6945262d90c8d",
+    "method/research_lab/records/literature/sources/S39.md": "be87c956104beca2c44593c00bcca64d1a395cdc1c9eb40254f314098e4a3ebc",
+    "method/research_lab/records/inventory/SignRep_release_metadata_20261003.json": "d216e5d7977e79d102050e1611de9ac9b09be24812187df7bcf5be1bdd1ba872",
+    "method/research_lab/records/inventory/COHORT001_cohort.json": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+    "method/research_lab/records/inventory/COHORT002_cohort.json": "bf9f72c927687f5a0657dad32b940b67a38c65311312c9d60ec4d4d8c91d875c",
+    "/home/dongvk/datasets/ASL_Citizen/asl_citizen_all_in_one.json": "f7be962f88ba2fc9d4b42358974277e5261d3e4a825d347e4a191929027123bc",
+    "/home/dongvk/datasets/youtubeASL/youtube-asl_youtube_asl_video_ids.txt": "ca5622737279afc33b1f9ddfa585b5e8bd284f1be458c461e10887b03e519191"
+  }
+}

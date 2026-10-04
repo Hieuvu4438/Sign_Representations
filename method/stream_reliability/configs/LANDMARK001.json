@@ -1,0 +1,48 @@
+{
+  "protocol": "H003_v0_landmark_smoke",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 300,
+  "cohort_manifest": "method/research_lab/records/inventory/COHORT001_cohort.json",
+  "video_audit": "method/research_lab/records/inventory/VID002_video_audit.json",
+  "sample_ids": [
+    "0009570133052014818-GO BACK_AND_FORTH.mp4",
+    "0010333569349243454-TOSS OUT.mp4",
+    "00033277435717016246-ELECTROCUTE.mp4",
+    "0014822228991275832-BORROW.mp4"
+  ],
+  "author_source": "third_party/SHuBERT/dataset/kpe_mediapipe.py",
+  "remote_tree": "method/stream_reliability/runtime/ASSET002_20261004_H003_v0_5e2de9e7_s1701/remote_tree.json",
+  "max_frames": 480,
+  "max_output_bytes": 33554432,
+  "pts_tolerance_seconds": 0.00051,
+  "task_filenames": [
+    "face_landmarker_v2_with_blendshapes.task",
+    "hand_landmarker.task"
+  ],
+  "required_installed_models": [
+    "modules/face_landmark/face_landmark.tflite",
+    "modules/pose_landmark/pose_landmark_full.tflite",
+    "modules/pose_detection/pose_detection.tflite",
+    "modules/hand_landmark/hand_landmark_full.tflite",
+    "modules/palm_detection/palm_detection_full.tflite",
+    "modules/holistic_landmark/hand_recrop.tflite",
+    "modules/face_detection/face_detection_short_range.tflite"
+  ],
+  "detector_options": {
+    "face_num_faces": 6,
+    "hand_num_hands": 6,
+    "hand_min_detection_confidence": 0.05,
+    "holistic_min_detection_confidence": 0.1,
+    "delegate": "CPU"
+  },
+  "new_task_measurement": false,
+  "success": "All fixed train/dev native frames have raw detections/explicit absent fields and aligned PTS; assets match published author; no zero/scores threshold labels",
+  "stop": "Source/PTS mismatch, missing installed assets, nonfinite landmarks, timeout or RAM cap; no implicit downloads/exclusions",
+  "input_hashes": {
+    "method/research_lab/records/inventory/COHORT001_cohort.json": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+    "method/research_lab/records/inventory/VID002_video_audit.json": "5f93826b211e1d45667c8dc3b8b352b6c5a34644a60218c1e0dc5f77760ca0fe",
+    "third_party/SHuBERT/dataset/kpe_mediapipe.py": "b8fd2866270d5b701fd087632142c70fc8a981034406ac5304e1050545c67323",
+    "method/stream_reliability/runtime/ASSET002_20261004_H003_v0_5e2de9e7_s1701/remote_tree.json": "bda6086fa30afb2c8f6e760c2b2cb54981c338b6cff830e53bf75f1faac16172"
+  }
+}

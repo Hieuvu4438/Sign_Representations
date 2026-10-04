@@ -1,0 +1,458 @@
+{
+  "run_id": "INPUTPARITY001_20261004_H003_v1_3700038a_s1701",
+  "protocol": "H003_v1_input_adapter",
+  "GPU_hours": 0,
+  "resources": {
+    "path": "/dev/shm",
+    "total_bytes": 33365929984,
+    "free_bytes": 33049624576,
+    "planned_bytes": 268435456,
+    "cache_limit_bytes": 1073741824,
+    "reserve_fraction": 0.2,
+    "memory_bytes": {
+      "MemTotal": 66731859968,
+      "MemAvailable": 59552763904
+    },
+    "cpu_workspace_reserve_bytes": 2147483648
+  },
+  "artifact_root": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701",
+  "samples": [
+    {
+      "sample_id": "0009570133052014818-GO BACK_AND_FORTH.mp4",
+      "source_id": "0009570133052014818-GO BACK_AND_FORTH.mp4",
+      "split": "train",
+      "signer_group": "P33",
+      "language": "ASL",
+      "input_path": "/home/dongvk/datasets/ASL_Citizen/videos/0009570133052014818-GO BACK_AND_FORTH.mp4",
+      "source_sha256": "23228fb47735bbc5fb9d9c3b483a7a73a94dd94d5e64d9c497fbb3b964b489a5",
+      "frames": 156,
+      "native_avg_fps": 30.0,
+      "sampling_rule": "all native source frames; original PTS retained in metadata",
+      "codec": "author mp4v/OpenCV BGR writer\u2192decord RGB at avgFPS; metadata preserves source-native timeline",
+      "media": [
+        {
+          "stream": "face",
+          "frames": 156,
+          "shape": [
+            156,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/0/reference/0009570133052014818-GO BACK_AND_FORTH_face.mp4",
+          "reference_sha256": "2e87821cfad5495366baa1cefed15b7eb3e195be721a0058f18335021f1d269d",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/0/adapted/0009570133052014818-GO BACK_AND_FORTH_face.mp4",
+          "adapted_sha256": "2e87821cfad5495366baa1cefed15b7eb3e195be721a0058f18335021f1d269d"
+        },
+        {
+          "stream": "left_hand",
+          "frames": 156,
+          "shape": [
+            156,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/0/reference/0009570133052014818-GO BACK_AND_FORTH_hand1.mp4",
+          "reference_sha256": "76923402de4e5ef748efc95a0dcf3706c9f48b364075593977d4a2fe575407cf",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/0/adapted/0009570133052014818-GO BACK_AND_FORTH_hand1.mp4",
+          "adapted_sha256": "76923402de4e5ef748efc95a0dcf3706c9f48b364075593977d4a2fe575407cf"
+        },
+        {
+          "stream": "right_hand",
+          "frames": 156,
+          "shape": [
+            156,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/0/reference/0009570133052014818-GO BACK_AND_FORTH_hand2.mp4",
+          "reference_sha256": "d5edcd5b4a59b79798cf92926c1943104efeb3f04ef416601c232a1194ee7a09",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/0/adapted/0009570133052014818-GO BACK_AND_FORTH_hand2.mp4",
+          "adapted_sha256": "d5edcd5b4a59b79798cf92926c1943104efeb3f04ef416601c232a1194ee7a09"
+        }
+      ],
+      "body_shape": [
+        156,
+        14
+      ],
+      "body_dtype": "float64",
+      "body_reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/0/reference/0009570133052014818-GO BACK_AND_FORTH_pose.npy",
+      "body_reference_sha256": "d202ab09e13fb241d4788a37463c4562a928f7ec7d7134e19221d1f8c1160f64",
+      "body_adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/0/adapted/0009570133052014818-GO BACK_AND_FORTH_pose.npy",
+      "body_adapted_sha256": "d202ab09e13fb241d4788a37463c4562a928f7ec7d7134e19221d1f8c1160f64",
+      "metadata_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/0/adapted/observation_metadata.json",
+      "metadata_sha256": "25a754de32a5c36d7b903903b4684eadc5d972358b7c64462a28e979fd552a14",
+      "native_duplicates_flagged": 0,
+      "observed_counts": {
+        "face": 156,
+        "left_hand": 65,
+        "right_hand": 58,
+        "body_posture": 156
+      },
+      "fill_counts": {
+        "face": {
+          "observed": 156,
+          "repeat_previous": 0,
+          "initial_blank": 0,
+          "initial_body_sentinel": 0
+        },
+        "left_hand": {
+          "observed": 65,
+          "repeat_previous": 53,
+          "initial_blank": 38,
+          "initial_body_sentinel": 0
+        },
+        "right_hand": {
+          "observed": 58,
+          "repeat_previous": 60,
+          "initial_blank": 38,
+          "initial_body_sentinel": 0
+        },
+        "body_posture": {
+          "observed": 156,
+          "repeat_previous": 0,
+          "initial_blank": 0,
+          "initial_body_sentinel": 0
+        }
+      },
+      "all_exact_parity": true,
+      "correct_anatomy_verified": false,
+      "natural_failure_labels": false
+    },
+    {
+      "sample_id": "0010333569349243454-TOSS OUT.mp4",
+      "source_id": "0010333569349243454-TOSS OUT.mp4",
+      "split": "train",
+      "signer_group": "P10",
+      "language": "ASL",
+      "input_path": "/home/dongvk/datasets/ASL_Citizen/videos/0010333569349243454-TOSS OUT.mp4",
+      "source_sha256": "1215f138c7d6e1ff1aa1c1f45475294edad007c899a599974eac6e770b41bc15",
+      "frames": 87,
+      "native_avg_fps": 30.398,
+      "sampling_rule": "all native source frames; original PTS retained in metadata",
+      "codec": "author mp4v/OpenCV BGR writer\u2192decord RGB at avgFPS; metadata preserves source-native timeline",
+      "media": [
+        {
+          "stream": "face",
+          "frames": 87,
+          "shape": [
+            87,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/1/reference/0010333569349243454-TOSS OUT_face.mp4",
+          "reference_sha256": "84649edb532e1920dd9b33b4278fb2f1df88565065c5e12d18c4e66ef6b868b9",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/1/adapted/0010333569349243454-TOSS OUT_face.mp4",
+          "adapted_sha256": "84649edb532e1920dd9b33b4278fb2f1df88565065c5e12d18c4e66ef6b868b9"
+        },
+        {
+          "stream": "left_hand",
+          "frames": 87,
+          "shape": [
+            87,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/1/reference/0010333569349243454-TOSS OUT_hand1.mp4",
+          "reference_sha256": "bf6e6512b7f07a52c77442e80fd601d95bdc8028fb033989934665b451ca76db",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/1/adapted/0010333569349243454-TOSS OUT_hand1.mp4",
+          "adapted_sha256": "bf6e6512b7f07a52c77442e80fd601d95bdc8028fb033989934665b451ca76db"
+        },
+        {
+          "stream": "right_hand",
+          "frames": 87,
+          "shape": [
+            87,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/1/reference/0010333569349243454-TOSS OUT_hand2.mp4",
+          "reference_sha256": "dab5c677b4354bb7517b3c74b2afcf6ab952234e48a838619b0b92114d41e89d",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/1/adapted/0010333569349243454-TOSS OUT_hand2.mp4",
+          "adapted_sha256": "dab5c677b4354bb7517b3c74b2afcf6ab952234e48a838619b0b92114d41e89d"
+        }
+      ],
+      "body_shape": [
+        87,
+        14
+      ],
+      "body_dtype": "float64",
+      "body_reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/1/reference/0010333569349243454-TOSS OUT_pose.npy",
+      "body_reference_sha256": "e38e9e31b92cdd7b06ab3ebe0f49071b5af751e6d108de30863383718bf25eab",
+      "body_adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/1/adapted/0010333569349243454-TOSS OUT_pose.npy",
+      "body_adapted_sha256": "e38e9e31b92cdd7b06ab3ebe0f49071b5af751e6d108de30863383718bf25eab",
+      "metadata_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/1/adapted/observation_metadata.json",
+      "metadata_sha256": "10c6a04f63d5b3748bfcdf077c82c5413589d1554c34c9b3169b30f0f44589c2",
+      "native_duplicates_flagged": 0,
+      "observed_counts": {
+        "face": 87,
+        "left_hand": 19,
+        "right_hand": 21,
+        "body_posture": 87
+      },
+      "fill_counts": {
+        "face": {
+          "observed": 87,
+          "repeat_previous": 0,
+          "initial_blank": 0,
+          "initial_body_sentinel": 0
+        },
+        "left_hand": {
+          "observed": 19,
+          "repeat_previous": 27,
+          "initial_blank": 41,
+          "initial_body_sentinel": 0
+        },
+        "right_hand": {
+          "observed": 21,
+          "repeat_previous": 33,
+          "initial_blank": 33,
+          "initial_body_sentinel": 0
+        },
+        "body_posture": {
+          "observed": 87,
+          "repeat_previous": 0,
+          "initial_blank": 0,
+          "initial_body_sentinel": 0
+        }
+      },
+      "all_exact_parity": true,
+      "correct_anatomy_verified": false,
+      "natural_failure_labels": false
+    },
+    {
+      "sample_id": "00033277435717016246-ELECTROCUTE.mp4",
+      "source_id": "00033277435717016246-ELECTROCUTE.mp4",
+      "split": "val",
+      "signer_group": "P21",
+      "language": "ASL",
+      "input_path": "/home/dongvk/datasets/ASL_Citizen/videos/00033277435717016246-ELECTROCUTE.mp4",
+      "source_sha256": "3be9bb4315ad3021bc172ac30fda805800149ca52cb7ee3644868a72bef6ad1d",
+      "frames": 82,
+      "native_avg_fps": 30.00365898280278,
+      "sampling_rule": "all native source frames; original PTS retained in metadata",
+      "codec": "author mp4v/OpenCV BGR writer\u2192decord RGB at avgFPS; metadata preserves source-native timeline",
+      "media": [
+        {
+          "stream": "face",
+          "frames": 82,
+          "shape": [
+            82,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/2/reference/00033277435717016246-ELECTROCUTE_face.mp4",
+          "reference_sha256": "d96c79d0f447377096aae07aa919b75782196d56851c896a32c2885befa27da6",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/2/adapted/00033277435717016246-ELECTROCUTE_face.mp4",
+          "adapted_sha256": "d96c79d0f447377096aae07aa919b75782196d56851c896a32c2885befa27da6"
+        },
+        {
+          "stream": "left_hand",
+          "frames": 82,
+          "shape": [
+            82,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/2/reference/00033277435717016246-ELECTROCUTE_hand1.mp4",
+          "reference_sha256": "6fb5d7b1eccba7b2ee85525601b364feb370871327ec883cb26bd98f938cd9b6",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/2/adapted/00033277435717016246-ELECTROCUTE_hand1.mp4",
+          "adapted_sha256": "6fb5d7b1eccba7b2ee85525601b364feb370871327ec883cb26bd98f938cd9b6"
+        },
+        {
+          "stream": "right_hand",
+          "frames": 82,
+          "shape": [
+            82,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/2/reference/00033277435717016246-ELECTROCUTE_hand2.mp4",
+          "reference_sha256": "9c512afa292dd004bb97b0c674176eb3198b891f2491006412ee4065558151f9",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/2/adapted/00033277435717016246-ELECTROCUTE_hand2.mp4",
+          "adapted_sha256": "9c512afa292dd004bb97b0c674176eb3198b891f2491006412ee4065558151f9"
+        }
+      ],
+      "body_shape": [
+        82,
+        14
+      ],
+      "body_dtype": "float64",
+      "body_reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/2/reference/00033277435717016246-ELECTROCUTE_pose.npy",
+      "body_reference_sha256": "a3ed7c593aad3d25f5e3a200abe6d7fd127795f3ace01d8c6975a3496bc2c8c0",
+      "body_adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/2/adapted/00033277435717016246-ELECTROCUTE_pose.npy",
+      "body_adapted_sha256": "a3ed7c593aad3d25f5e3a200abe6d7fd127795f3ace01d8c6975a3496bc2c8c0",
+      "metadata_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/2/adapted/observation_metadata.json",
+      "metadata_sha256": "f592467d08f58294b4aab655f4fb44792a0137e95b74a1a28beb5b9f9975276b",
+      "native_duplicates_flagged": 0,
+      "observed_counts": {
+        "face": 82,
+        "left_hand": 24,
+        "right_hand": 15,
+        "body_posture": 82
+      },
+      "fill_counts": {
+        "face": {
+          "observed": 82,
+          "repeat_previous": 0,
+          "initial_blank": 0,
+          "initial_body_sentinel": 0
+        },
+        "left_hand": {
+          "observed": 24,
+          "repeat_previous": 52,
+          "initial_blank": 6,
+          "initial_body_sentinel": 0
+        },
+        "right_hand": {
+          "observed": 15,
+          "repeat_previous": 58,
+          "initial_blank": 9,
+          "initial_body_sentinel": 0
+        },
+        "body_posture": {
+          "observed": 82,
+          "repeat_previous": 0,
+          "initial_blank": 0,
+          "initial_body_sentinel": 0
+        }
+      },
+      "all_exact_parity": true,
+      "correct_anatomy_verified": false,
+      "natural_failure_labels": false
+    },
+    {
+      "sample_id": "0014822228991275832-BORROW.mp4",
+      "source_id": "0014822228991275832-BORROW.mp4",
+      "split": "val",
+      "signer_group": "P26",
+      "language": "ASL",
+      "input_path": "/home/dongvk/datasets/ASL_Citizen/videos/0014822228991275832-BORROW.mp4",
+      "source_sha256": "d76ea58968e3a99ef0bf7e5413b3cdb12748170c98862450a60dc17b06537bfd",
+      "frames": 71,
+      "native_avg_fps": 29.995775242923532,
+      "sampling_rule": "all native source frames; original PTS retained in metadata",
+      "codec": "author mp4v/OpenCV BGR writer\u2192decord RGB at avgFPS; metadata preserves source-native timeline",
+      "media": [
+        {
+          "stream": "face",
+          "frames": 71,
+          "shape": [
+            71,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/3/reference/0014822228991275832-BORROW_face.mp4",
+          "reference_sha256": "3cc66319e67b2effc0dc772ccbd8437f42420085e9bd90c7fae0241692249006",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/3/adapted/0014822228991275832-BORROW_face.mp4",
+          "adapted_sha256": "3cc66319e67b2effc0dc772ccbd8437f42420085e9bd90c7fae0241692249006"
+        },
+        {
+          "stream": "left_hand",
+          "frames": 71,
+          "shape": [
+            71,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/3/reference/0014822228991275832-BORROW_hand1.mp4",
+          "reference_sha256": "36d6aa2e79a7c2e282b092f340a3b86c60e4a221da1efe80b2fa0220e8f6aba2",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/3/adapted/0014822228991275832-BORROW_hand1.mp4",
+          "adapted_sha256": "36d6aa2e79a7c2e282b092f340a3b86c60e4a221da1efe80b2fa0220e8f6aba2"
+        },
+        {
+          "stream": "right_hand",
+          "frames": 71,
+          "shape": [
+            71,
+            224,
+            224,
+            3
+          ],
+          "max_pixel_error": 0,
+          "reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/3/reference/0014822228991275832-BORROW_hand2.mp4",
+          "reference_sha256": "2108297196a1812951216972cf9652a91d9e30b3f648ca225292c63cf9c191d6",
+          "adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/3/adapted/0014822228991275832-BORROW_hand2.mp4",
+          "adapted_sha256": "2108297196a1812951216972cf9652a91d9e30b3f648ca225292c63cf9c191d6"
+        }
+      ],
+      "body_shape": [
+        71,
+        14
+      ],
+      "body_dtype": "float64",
+      "body_reference_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/3/reference/0014822228991275832-BORROW_pose.npy",
+      "body_reference_sha256": "5ff0d1cd21c74c7f72a2f8c37d2f557abde2b29a607e951f25c996211cde3c28",
+      "body_adapted_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/3/adapted/0014822228991275832-BORROW_pose.npy",
+      "body_adapted_sha256": "5ff0d1cd21c74c7f72a2f8c37d2f557abde2b29a607e951f25c996211cde3c28",
+      "metadata_path": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701/3/adapted/observation_metadata.json",
+      "metadata_sha256": "101a17446d3be007783c37c238a8e1d2b8f2fc907365d44d0d64e38e39288cb4",
+      "native_duplicates_flagged": 14,
+      "observed_counts": {
+        "face": 71,
+        "left_hand": 22,
+        "right_hand": 32,
+        "body_posture": 71
+      },
+      "fill_counts": {
+        "face": {
+          "observed": 71,
+          "repeat_previous": 0,
+          "initial_blank": 0,
+          "initial_body_sentinel": 0
+        },
+        "left_hand": {
+          "observed": 22,
+          "repeat_previous": 32,
+          "initial_blank": 17,
+          "initial_body_sentinel": 0
+        },
+        "right_hand": {
+          "observed": 32,
+          "repeat_previous": 32,
+          "initial_blank": 7,
+          "initial_body_sentinel": 0
+        },
+        "body_posture": {
+          "observed": 71,
+          "repeat_previous": 0,
+          "initial_blank": 0,
+          "initial_body_sentinel": 0
+        }
+      },
+      "all_exact_parity": true,
+      "correct_anatomy_verified": false,
+      "natural_failure_labels": false
+    }
+  ],
+  "scope": "CPU encoded-crop/body/mask contract only; no model/task inference",
+  "native_bad_branches_parity": false,
+  "adaptations": "initial None frame retained/14D body sentinel; invalid geometry fails before state commit",
+  "completed": true,
+  "total_frames": 396,
+  "all_exact_parity": true,
+  "artifact_bytes": 16527451,
+  "ready_for_registered_real_model_smoke": true,
+  "scientific_pilot_authorized": false
+}

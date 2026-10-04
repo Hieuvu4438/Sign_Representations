@@ -1,0 +1,27 @@
+{
+  "run_id": "CERTBOUND001_20261004_H004_v0_dcb321f7_s1701",
+  "protocol": "H004_v0_completion_bounds",
+  "H_id": "H004",
+  "seed": 1701,
+  "status": "failed",
+  "exit_code": 1,
+  "GPU_hours": 0,
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "method/frozen_probe/scripts/audit_completion_feasibility.py",
+    "--config",
+    "method/frozen_probe/configs/CERTBOUND001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "CERTBOUND001_20261004_H004_v0_dcb321f7_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/CERTBOUND001_20261004_H004_v0_dcb321f7_s1701"
+  ],
+  "config_sha256": "dcb321f76835b59d2040b027689eec50ba33c7bcc4bbe51360a4dbb274f05a28",
+  "failure_phase": "Python parser before RunContext",
+  "error": "SyntaxError: unmatched ')' at audit_completion_feasibility.py:109",
+  "observed_utc": "2026-10-04T07:28:47.181688+00:00",
+  "wall_seconds": null,
+  "wall_measurement": "Unavailable: failure before RunContext instrumentation; no model/cache measurement executed"
+}

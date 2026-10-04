@@ -1,0 +1,24 @@
+{
+  "audited_utc": "2026-10-04T08:34:05.852427+00:00",
+  "scope": "metadata/cache-manifest feasibility only; no array/outcome or test access",
+  "base_classes": 100,
+  "new_classes": 100,
+  "gloss_intersection": [],
+  "source_sha_intersection": [],
+  "sample_id_intersection": [],
+  "new_train_count": 278,
+  "new_val_count": 383,
+  "val_participant_overlap": [
+    "P12",
+    "P21",
+    "P26",
+    "P39",
+    "P5"
+  ],
+  "base_manifest_sha256": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+  "new_manifest_sha256": "bf9f72c927687f5a0657dad32b940b67a38c65311312c9d60ec4d4d8c91d875c",
+  "cache006_report_passed": true,
+  "cache006_manifest_available": true,
+  "cache006_manifest_sha_matches": true,
+  "limitation": "new gloss classes/sources, same corpus and reused dev participants; not independent domain/linguistic ontology or new confirmatory test"
+}

@@ -1,0 +1,10 @@
+{
+  "protocol": "P001_v2_draft",
+  "dataset_root": "/home/dongvk/datasets/ASL_Citizen",
+  "classes": 100,
+  "class_selection_seed": 1701,
+  "support_seeds": [1701, 1702, 1703],
+  "label_budgets": [1, 2, 4, 8],
+  "max_source_read_bytes": 4294967296,
+  "timeout_seconds": 900
+}

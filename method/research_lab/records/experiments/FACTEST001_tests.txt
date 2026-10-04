@@ -1,0 +1,8 @@
+test_complete_cells_and_full_rank_permutations_required (test_factorial.FactorialTests.test_complete_cells_and_full_rank_permutations_required) ... ok
+test_hand_computed_query_gallery_axes_and_interaction (test_factorial.FactorialTests.test_hand_computed_query_gallery_axes_and_interaction) ... ok
+test_reject_identity_signer_split_and_method_coverage (test_factorial.FactorialTests.test_reject_identity_signer_split_and_method_coverage) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

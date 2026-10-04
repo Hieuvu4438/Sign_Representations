@@ -1,0 +1,9 @@
+{
+  "protocol": "P001_v3",
+  "seed": 1701,
+  "timeout_seconds": 60,
+  "cohort_manifest": "method/research_lab/records/inventory/COHORT001_cohort.json",
+  "cohort_sha256": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+  "bootstrap_reps": 2000,
+  "bootstrap_seed": 1701
+}

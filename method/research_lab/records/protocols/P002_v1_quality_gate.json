@@ -1,0 +1,16 @@
+{
+  "verdict": "VALIDATED",
+  "protocol": "P002_v1",
+  "scope": "adapted dev quality simulation only; no actual cost/confirmatory/novelty claim",
+  "issued_utc": "2026-10-03T20:35:02.626246+00:00",
+  "quality_config_sha256": "2450a706d29f9b3ac6c64e80f711c4c3107bb1638669b95f4d9675bec635b412",
+  "cache_manifest_sha256": "4b2217203fb25af9110226e06cb56f7171ae4b46b111b9bf77c049c33ab9e737",
+  "policy_code_sha256": "d536f18fb1a78ef363b338e6f8dc701a2a4ada33428c5268ca54d7ec11f70cc3",
+  "software_report_sha256": "d75d34d67c149705267f6db8cb7940624a208266e2d8dc0927168aedbe342327",
+  "cache_integrity_report_sha256": "d99d00a3bce8b5b571ebb5227446731ed62a9a2cb73bf090e78489c68fd8eafb",
+  "scorer_sha256": "43db516fa029b20986130cae6b98e95e500cefa372d15ae4c020130b9f56c79c",
+  "participant_count": 5,
+  "policy_trials": 6,
+  "test_access": "none",
+  "auditor": "same-agent Protocol Auditor; not independent"
+}

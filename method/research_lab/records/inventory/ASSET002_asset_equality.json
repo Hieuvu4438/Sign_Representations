@@ -1,0 +1,70 @@
+{
+  "run_id": "ASSET002_20261004_H003_v0_5e2de9e7_s1701",
+  "accessed_utc": "2026-10-04T05:21:07.691013+00:00",
+  "metadata_url": "https://huggingface.co/api/models/ShesterG/SHuBERT/tree/main/models?expand=true",
+  "http_status": 200,
+  "http_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "11153",
+    "Connection": "close",
+    "Date": "Sun, 04 Oct 2026 05:21:06 GMT",
+    "ETag": "W/\"2b91-AWSy/z18expvlOQPr7J4FQda2YU\"",
+    "X-Powered-By": "huggingface-moon",
+    "X-Request-Id": "Root=1-6ac1e242-509efcb42de58e616b20cb28",
+    "RateLimit": "\"api\";r=499;t=202",
+    "RateLimit-Policy": "\"fixed window\";\"api\";q=500;w=300",
+    "cross-origin-opener-policy": "same-origin",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Access-Control-Max-Age": "86400",
+    "Access-Control-Allow-Origin": "https://huggingface.co",
+    "Vary": "Origin",
+    "Access-Control-Expose-Headers": "X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 fe870fc7ff90447613c96e94ae815614.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "HAN50-P2",
+    "Alt-Svc": "h3=\":443\"; ma=86400",
+    "X-Amz-Cf-Id": "GvmYYfBBGIL85jo5F8RdAHZF5-f4MAgF6GiWURlATZgkICE9o8icrw==",
+    "Strict-Transport-Security": "max-age=31536000"
+  },
+  "response_bytes": 11153,
+  "response_sha256": "dcd56fb52ec18757b90bcd7248a82a5c23d374c2c751006750583d026f0fab4e",
+  "assets": [
+    {
+      "local_path": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+      "remote_path": "models/checkpoint_836_400000.pt",
+      "local_bytes": 1057496908,
+      "remote_bytes": 1057496908,
+      "local_sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+      "remote_sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+      "equal": true
+    },
+    {
+      "local_path": "checkpoints/shubert_author_hf/models/dinov2face.pth",
+      "remote_path": "models/dinov2face.pth",
+      "local_bytes": 112850895,
+      "remote_bytes": 112850895,
+      "local_sha256": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+      "remote_sha256": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+      "equal": true
+    },
+    {
+      "local_path": "checkpoints/shubert_author_hf/models/dinov2hand.pth",
+      "remote_path": "models/dinov2hand.pth",
+      "local_bytes": 112850895,
+      "remote_bytes": 112850895,
+      "local_sha256": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85",
+      "remote_sha256": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85",
+      "equal": true
+    }
+  ],
+  "all_equal": true,
+  "source": "author project linked demo code points to author model repository; not GoogleDrive byte comparison",
+  "author_source": {
+    "url": "https://huggingface.co/spaces/ShesterG/TTIC-SHuBERT-ASLVideo-to-EnglishText/resolve/69d3d77aa4a4fec89048f5417d44fa717e36f6f8/app.py",
+    "local_path": "method/stream_reliability/runtime/source_reference/shubert_demo_app_69d3d77a.py",
+    "sha256": "bae4fc005cce5c808bef9e55c98d6975cd07aef1af5368798cbb24a365dcba5b",
+    "asset_repo": "ShesterG/SHuBERT",
+    "locator": "MODEL_REPO and snapshot_download allow_patterns=models/*"
+  },
+  "scope": "published author asset equality only; no model load/parity/exclusion membership or task score"
+}

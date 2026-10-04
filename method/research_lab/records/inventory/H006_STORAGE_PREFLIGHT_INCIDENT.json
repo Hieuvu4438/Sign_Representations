@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-10-04T09:17:04.990960+00:00",
+  "run_id": "SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701",
+  "registered_durable_bytes_ceiling": 20971520,
+  "observed_durable_logical_bytes": 40750758,
+  "observed_allocated_file_bytes": 40972288,
+  "run_directory": "method/frozen_probe/runtime/SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701",
+  "file_bytes": {
+    "predictions.json": 11777579,
+    "fitted_shrinkage.npz": 28338802
+  },
+  "registration_ceiling_exceeded": true,
+  "cause": "planned output underestimated six full768x768 FP64 covariance/whitening arrays; these alone are28338802bytes before11777579byte predictions",
+  "handling": "retain immutable outputs and failed estimate; no retroactive quota approval or scientific rerun; no further large writes; require full nbytes and bounded serialization estimate in next registration",
+  "scientific_validity": "ranking/metric/fit evidence independently passes; resource compliance failed, not a negative task result",
+  "GPU_hours": 0
+}

@@ -1,0 +1,31 @@
+{
+  "run_id": "INPUTPARITY001_20261004_H003_v1_3700038a_s1701",
+  "protocol": "H003_v1_input_adapter",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2671772,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T06:15:57.190512+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "method/stream_reliability/scripts/audit_input_parity.py",
+    "--config",
+    "method/stream_reliability/configs/INPUTPARITY001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "INPUTPARITY001_20261004_H003_v1_3700038a_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/INPUTPARITY001_20261004_H003_v1_3700038a_s1701"
+  ],
+  "config_sha256": "3700038a63762059667e6b8e2b83234e4b9176c8cb9712aa152a5f688fa56563",
+  "H_id": "H003",
+  "artifact_root": "/dev/shm/shubert_inputs_INPUTPARITY001_20261004_H003_v1_3700038a_s1701",
+  "output_hashes": {
+    "input_parity.json": "c4eeb77a238f884326ddb7b6c741d0c2794b5a421f6af6c7c4d48e8f6e776c1f"
+  },
+  "end_utc": "2026-10-04T06:16:07.522636+00:00",
+  "wall_seconds": 10.332137229037471,
+  "exit_code": 0
+}

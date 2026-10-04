@@ -1,0 +1,28 @@
+{
+  "run_id": "ALLOC001_20261004_P001v4_s1337",
+  "protocol": "P001_v4_draft",
+  "status": "completed",
+  "seed": 1337,
+  "GPU_hours": 0,
+  "pid": 1612263,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T19:25:08.590600+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/software_smoke.py",
+    "--config",
+    "method/frozen_probe/configs/ALLOC001.json",
+    "--seed",
+    "1337",
+    "--run-id",
+    "ALLOC001_20261004_P001v4_s1337",
+    "--output-dir",
+    "method/frozen_probe/runtime/ALLOC001_20261004_P001v4_s1337"
+  ],
+  "config_sha256": "4e839508ac89597567fd5c9c63a8ae9df9107f569fd4e10a2afa46e1f4f25ca3",
+  "script_sha256": "7e4acbd034270ba1da1c5c0cfbcfb6cf9925495d39352faff5158f4b2607b2fd",
+  "exit_code": 0,
+  "output_sha256": "d6b88be13db65a0aab7bfcada9f13bc85ed551688e0ed99741af236bfa566b11",
+  "end_utc": "2026-10-03T19:25:09.125962+00:00",
+  "wall_seconds": 0.5353774890536442
+}

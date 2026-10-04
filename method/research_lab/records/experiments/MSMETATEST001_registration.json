@@ -1,0 +1,26 @@
+{
+  "registered_utc": "2026-10-04T10:47:32.754232+00:00",
+  "run_id": "MSMETATEST001_20261004_8e4a749d_s1701",
+  "config": "method/frozen_probe/configs/MSMETATEST001.json",
+  "config_sha256": "8e4a749d6bc60d125929d16bd0795cd1f429633a901729ae2c944063082c326a",
+  "output_dir": "method/frozen_probe/runtime/MSMETATEST001_20261004_8e4a749d_s1701",
+  "CPU_limit_seconds": 120,
+  "GPU_hours": 0,
+  "durable_bytes_ceiling": 2097152,
+  "maximum_planned_logical_bytes": 489383,
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/msasl_metadata.py": "3029e94be29b90c75e8b16be0c24a91acacb30778c12ed062b5485950f251b95",
+    "method/frozen_probe/resources.py": "27242333dd98852765d93e119fa1f591fe732dff1aa12f1a18fd69ca1fa0e4f2",
+    "method/frozen_probe/scripts/audit_msasl_metadata.py": "73977d025aff43394fcdf0e425dc4fbbc0666f01a551ca06ae6dfb72d1a1e038",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_msasl_metadata.py": "b83d299325a6724a7082365572b2dc0a2618f8fada48c17b166d6244c514a4e0",
+    "/home/haipd/Sign_Representations/method/frozen_probe/scripts/register_msasl_stage.py": "8587f96b3d55d2924c06fb7bc3ed7afad78ca1ab1412e760fc0781490a9a1181",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/research_lab/records/decisions/D041.md": "94abb4441ad0e54bf5db6be4344f837171b9ca97f830e9299e9dee24ea1f383d",
+    "method/research_lab/records/protocols/MSMETA001_release_metadata.md": "3a0599940c8723122f00d64c2e5b3b466c31b96e5892be404b986e2d09b73cc7",
+    "method/research_lab/records/literature/sources/S40.md": "a4a07765e68fe9596e907818fb85ff5455d328018d8e85573347610663914474"
+  }
+}

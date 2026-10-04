@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "run_id": "PARTREMOVE001_20261004_H005_v1_1fab462b_s1701",
+  "prediction_rows": 5670,
+  "queries_per_mode_seed": 378,
+  "independent_DCG_fullrank_recount": true,
+  "all_input_output_bindings_unchanged": true,
+  "all_fit_support_query_contracts_checked": true,
+  "saved_basis_orthogonality": true,
+  "raw_ID_equals_v0": true,
+  "registered_gate_recount": false,
+  "output_hashes": {
+    "fitted_transforms.npz": "2639c8228c3a73f5d8649ef402d94d41c41187aa51a7b0c9069a2df2fcb1114b",
+    "predictions.json": "de44f5846aa994c071f605bf6d58fa161753efc5436b1f57fa45df6c9663d8ed",
+    "fold_metadata.json": "a7c5ced2a4f3434f0f49b0e4746032a3b3c335542e3a42141381b89a7c82a0a4",
+    "removal_diagnostic.json": "1b17a98edb0cd46e1b1e21022de26329b7a2c6774ef4fcc5ddd650de7c723537"
+  },
+  "config_sha256": "1fab462ba128a0e2c22d1c1849882a7e767d59de4da7321ee21843dd58dfbebf",
+  "status_sha256": "50cd62cac1517f40fd162262a58e5990ca666183dd52ed6b9477f26a86314e42",
+  "environment_sha256": "27bda7363e9a321b37b32cd335b6c8ab32ca7205b65f29c6d32bce0b7d1932b4",
+  "CPU_wall_seconds": 1.2432625030633062,
+  "GPU_hours": 0
+}

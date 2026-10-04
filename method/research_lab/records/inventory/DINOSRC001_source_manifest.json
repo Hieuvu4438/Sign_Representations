@@ -1,0 +1,230 @@
+{
+  "run_id": "DINOSRC001_20261004_H003_v0_a7f22e04_s1701",
+  "repository": "facebookresearch/dinov2",
+  "commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 11359,
+      "git_blob_sha": "5471dc10377b76db85a2feca7a99a7eef4980ba8",
+      "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/LICENSE"
+    },
+    {
+      "path": "dinov2/__init__.py",
+      "bytes": 218,
+      "git_blob_sha": "ae847e46898077fe3d8701b8a181d7b4e3d41cd9",
+      "sha256": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/__init__.py"
+    },
+    {
+      "path": "dinov2/hub/__init__.py",
+      "bytes": 195,
+      "git_blob_sha": "b88da6bf80be92af00b72dfdb0a806fa64a7a2d9",
+      "sha256": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/__init__.py"
+    },
+    {
+      "path": "dinov2/hub/backbones.py",
+      "bytes": 5586,
+      "git_blob_sha": "af5fd95d38eb33f73a85b92a94a715773a4e70bc",
+      "sha256": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/backbones.py"
+    },
+    {
+      "path": "dinov2/hub/cell_dino/backbones.py",
+      "bytes": 5082,
+      "git_blob_sha": "ce476f822c34caac13fa2e0451a881d946678399",
+      "sha256": "5e2be2a84f04bab20050f8e9c6e14870d5a2d3e7894631dd8747e00f3b5299d2",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/cell_dino/backbones.py"
+    },
+    {
+      "path": "dinov2/hub/classifiers.py",
+      "bytes": 8223,
+      "git_blob_sha": "1ac6b1c0e6b64248e71d9944a498039c7887c3a8",
+      "sha256": "e2dcf8c2aaec1c695bb20dae8f808811e28f27032338f3450f2ac17e309e0e1d",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/classifiers.py"
+    },
+    {
+      "path": "dinov2/hub/depth/__init__.py",
+      "bytes": 287,
+      "git_blob_sha": "91716e58ab6158d814df8c653644d9af4c7be65c",
+      "sha256": "de8f3fbecabae6552ebb8f3d7dee27987b1dbc11e94143c95137c438e86a9123",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/depth/__init__.py"
+    },
+    {
+      "path": "dinov2/hub/depth/decode_heads.py",
+      "bytes": 29268,
+      "git_blob_sha": "f455accad38fec6ecdd53460233a564c34f434da",
+      "sha256": "04eb9639a4441409b80651c3d019a6e850c32b7e709236ceb6dbbaeb9fa17713",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/depth/decode_heads.py"
+    },
+    {
+      "path": "dinov2/hub/depth/encoder_decoder.py",
+      "bytes": 13909,
+      "git_blob_sha": "eb29ced67957a336e763b0e7c90c0eeaea36fea8",
+      "sha256": "1baf6f59269fb99faf274900f12910a22e038a3bb6d81c6fc712c0c482041a57",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/depth/encoder_decoder.py"
+    },
+    {
+      "path": "dinov2/hub/depth/ops.py",
+      "bytes": 1229,
+      "git_blob_sha": "15880ee0cb7652d4b41c489b927bf6a156b40e5e",
+      "sha256": "85d58e303eff9a0a306d97101c8b35c24196bfe55e8da019df1e4817411a4dc7",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/depth/ops.py"
+    },
+    {
+      "path": "dinov2/hub/depthers.py",
+      "bytes": 8159,
+      "git_blob_sha": "3109ec844a88771a7ae3c16e34868bb73ca0ea35",
+      "sha256": "098e10859c1e8188d5245318911025eef1c5f37331d01e6014167027b25cd5b7",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/depthers.py"
+    },
+    {
+      "path": "dinov2/hub/dinotxt.py",
+      "bytes": 2997,
+      "git_blob_sha": "5678539f05ab98fe2ef29c1c78aa36d753ea15f9",
+      "sha256": "9124df0f7f8f21995f33a86a4e6545c11e25591f7bafcbe96a299ae6bd070677",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/dinotxt.py"
+    },
+    {
+      "path": "dinov2/hub/text/dinotxt_model.py",
+      "bytes": 5657,
+      "git_blob_sha": "e561e1915485d30aee3cd04fb65da0e3db55dd36",
+      "sha256": "7ef7bfceaacfd1566a3984038a691edeaf9b9f42910583e5de62a00e3cf852d0",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/text/dinotxt_model.py"
+    },
+    {
+      "path": "dinov2/hub/text/dinov2_wrapper.py",
+      "bytes": 2600,
+      "git_blob_sha": "2689dc2fdd73c5be0b32d7f60abb6c11b760e3c2",
+      "sha256": "834423f869038ce7c2b1794564018e0d3ca8194faa6d4c17f0d208b1625d0c64",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/text/dinov2_wrapper.py"
+    },
+    {
+      "path": "dinov2/hub/text/text_tower.py",
+      "bytes": 3513,
+      "git_blob_sha": "a74c15f0eb64092728e245bbce08958e75ddc82c",
+      "sha256": "fa591e45ad0e7400290e716ff0ddca102fd646edc2da448807c1006a5b94744f",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/text/text_tower.py"
+    },
+    {
+      "path": "dinov2/hub/text/text_transformer.py",
+      "bytes": 2424,
+      "git_blob_sha": "7f836481b1a9fe98271d894423c4fd79644dd487",
+      "sha256": "7138271bc95251d33a172cead1392434b9f8f7b1401fe1e0b4c37e64ff2bf354",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/text/text_transformer.py"
+    },
+    {
+      "path": "dinov2/hub/text/tokenizer.py",
+      "bytes": 1662,
+      "git_blob_sha": "97a6b32eae76e5a1fcf63964d6ff9bf482dfeb0e",
+      "sha256": "85078188841107932343123f29104288615b41ca4e5d1eb2d8623e02a8ac749a",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/text/tokenizer.py"
+    },
+    {
+      "path": "dinov2/hub/text/vision_tower.py",
+      "bytes": 6844,
+      "git_blob_sha": "8777aa9d27546da5c31cf2c995c6c1ed6a24ac37",
+      "sha256": "2496418c885c01ba7b7b9172d72906911ad950211c08a6e085ef2ee574405ebb",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/text/vision_tower.py"
+    },
+    {
+      "path": "dinov2/hub/utils.py",
+      "bytes": 1598,
+      "git_blob_sha": "c6fa705f31736069cd68c5f642253cb5ad7fbe10",
+      "sha256": "579613e3d7b82c2a387eddc215ad9f076b8740f9618229628395fe5755dbd131",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/utils.py"
+    },
+    {
+      "path": "dinov2/hub/xray_dino/backbones.py",
+      "bytes": 838,
+      "git_blob_sha": "f49b54be1c3aa5a0fbe17427b86f9277598aa925",
+      "sha256": "23c4513ac900815772d6076d2dd8c6e8564cd85ec11873c8ebe62e5de0647d03",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/hub/xray_dino/backbones.py"
+    },
+    {
+      "path": "dinov2/layers/__init__.py",
+      "bytes": 498,
+      "git_blob_sha": "d640d145fbfb8993d6e7ceec4eb22b5b0a3e62fa",
+      "sha256": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/__init__.py"
+    },
+    {
+      "path": "dinov2/layers/attention.py",
+      "bytes": 3298,
+      "git_blob_sha": "f1d3dabf14ffbd5eb68c3c16edc56d0da19b1265",
+      "sha256": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/attention.py"
+    },
+    {
+      "path": "dinov2/layers/block.py",
+      "bytes": 11609,
+      "git_blob_sha": "7e83b71ccb428ca099d2d1d49933dc837faeecfa",
+      "sha256": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/block.py"
+    },
+    {
+      "path": "dinov2/layers/dino_head.py",
+      "bytes": 2007,
+      "git_blob_sha": "0ace8ffd6297a1dd480b19db407b662a6ea0f565",
+      "sha256": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/dino_head.py"
+    },
+    {
+      "path": "dinov2/layers/drop_path.py",
+      "bytes": 1157,
+      "git_blob_sha": "1d640e0b969b8dcba96260243473700b4e5b24b5",
+      "sha256": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/drop_path.py"
+    },
+    {
+      "path": "dinov2/layers/layer_scale.py",
+      "bytes": 1097,
+      "git_blob_sha": "0b38971302b3c8fb3d4c05a5f0912fafe0e80816",
+      "sha256": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/layer_scale.py"
+    },
+    {
+      "path": "dinov2/layers/mlp.py",
+      "bytes": 1269,
+      "git_blob_sha": "bbf9432aae9258612caeae910a7bde17999e328e",
+      "sha256": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/mlp.py"
+    },
+    {
+      "path": "dinov2/layers/patch_embed.py",
+      "bytes": 2829,
+      "git_blob_sha": "8b7c0804784a42cf80c0297d110dcc68cc85b339",
+      "sha256": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/patch_embed.py"
+    },
+    {
+      "path": "dinov2/layers/swiglu_ffn.py",
+      "bytes": 3200,
+      "git_blob_sha": "340cee356cb4ad7cb3c8bbefa121f39f7c4e5c6f",
+      "sha256": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/swiglu_ffn.py"
+    },
+    {
+      "path": "dinov2/models/__init__.py",
+      "bytes": 1574,
+      "git_blob_sha": "817a63aeb07802ca02f75c9cef674b97355deb3f",
+      "sha256": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/models/__init__.py"
+    },
+    {
+      "path": "dinov2/models/vision_transformer.py",
+      "bytes": 16438,
+      "git_blob_sha": "34694244ae4e6467a4aa315180a89b323336bf0b",
+      "sha256": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+      "url": "https://raw.githubusercontent.com/facebookresearch/dinov2/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/models/vision_transformer.py"
+    }
+  ],
+  "source_bytes": 156624,
+  "tree_bytes": 66329,
+  "GPU_hours": 0,
+  "scope": "Official pinned architecture source only; author historical DINO commit unknown",
+  "environment_mutation": false,
+  "weights_downloaded": false
+}

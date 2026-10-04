@@ -1,0 +1,9 @@
+{
+  "encoder_seconds_per_window": 0.02245592712502306,
+  "decode_preprocess_seconds_per_frame": 0.002142665605721695,
+  "pool_search_seconds_per_query_recipe": 0.0024286227533593776,
+  "safety_factor": 1.5,
+  "setup_seconds": 60,
+  "source_run": "TIME001_20261004_P002v1_s1701",
+  "source_sha256": "78e45cb649012065eaf3d64249c3898ef9e081dc17b8b0d676296634a38cef84"
+}

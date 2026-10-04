@@ -1,0 +1,319 @@
+{
+  "run_id": "VAL001_20261003",
+  "kind": "synthetic_scorer_parity",
+  "source_url": "https://raw.githubusercontent.com/microsoft/ASL-citizen-code/17f0148b00ef87a5957ec103da8d10bd8eb1fa23/I3D/aslcitizen_testing.py",
+  "source_commit": "17f0148b00ef87a5957ec103da8d10bd8eb1fa23",
+  "source_sha256": "79ccd4ecdf626b994dd2a185bac49eec9eccc9a73cebb4c6a9bfacfa8f3cc664",
+  "wrapper_sha256": "43db516fa029b20986130cae6b98e95e500cefa372d15ae4c020130b9f56c79c",
+  "script_sha256": "5607f924db662b691a3d3f72804a2f6ea49f889fc62bd39608cb8617e3639976",
+  "python": "3.13.5",
+  "numpy": "2.5.3",
+  "tolerance": 1e-12,
+  "fixtures": [
+    {
+      "id": "rank_1",
+      "oracle": {
+        "dcg": 1.0,
+        "top1": 1.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 1.0
+      },
+      "upstream": {
+        "dcg": 1.0,
+        "top1": 1.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 1.0
+      },
+      "wrapper": {
+        "dcg": 1.0,
+        "top1": 1.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 1.0
+      },
+      "passed": true
+    },
+    {
+      "id": "rank_3",
+      "oracle": {
+        "dcg": 0.5,
+        "top1": 0.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "upstream": {
+        "dcg": 0.5,
+        "top1": 0.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "wrapper": {
+        "dcg": 0.5,
+        "top1": 0.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "passed": true
+    },
+    {
+      "id": "rank_5",
+      "oracle": {
+        "dcg": 0.38685280723454163,
+        "top1": 0.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.2
+      },
+      "upstream": {
+        "dcg": 0.38685280723454163,
+        "top1": 0.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.2
+      },
+      "wrapper": {
+        "dcg": 0.38685280723454163,
+        "top1": 0.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.2
+      },
+      "passed": true
+    },
+    {
+      "id": "rank_6",
+      "oracle": {
+        "dcg": 0.3562071871080222,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.16666666666666666
+      },
+      "upstream": {
+        "dcg": 0.3562071871080222,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.16666666666666666
+      },
+      "wrapper": {
+        "dcg": 0.3562071871080222,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.16666666666666666
+      },
+      "passed": true
+    },
+    {
+      "id": "rank_10",
+      "oracle": {
+        "dcg": 0.2890648263178879,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.1
+      },
+      "upstream": {
+        "dcg": 0.2890648263178879,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.1
+      },
+      "wrapper": {
+        "dcg": 0.2890648263178879,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.1
+      },
+      "passed": true
+    },
+    {
+      "id": "rank_11",
+      "oracle": {
+        "dcg": 0.27894294565112987,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 1.0,
+        "mrr": 0.09090909090909091
+      },
+      "upstream": {
+        "dcg": 0.27894294565112987,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 1.0,
+        "mrr": 0.09090909090909091
+      },
+      "wrapper": {
+        "dcg": 0.27894294565112987,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 1.0,
+        "mrr": 0.09090909090909091
+      },
+      "passed": true
+    },
+    {
+      "id": "rank_20",
+      "oracle": {
+        "dcg": 0.227670248696953,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 1.0,
+        "mrr": 0.05
+      },
+      "upstream": {
+        "dcg": 0.227670248696953,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 1.0,
+        "mrr": 0.05
+      },
+      "wrapper": {
+        "dcg": 0.227670248696953,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 1.0,
+        "mrr": 0.05
+      },
+      "passed": true
+    },
+    {
+      "id": "rank_21",
+      "oracle": {
+        "dcg": 0.22424382421757544,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 0.0,
+        "mrr": 0.047619047619047616
+      },
+      "upstream": {
+        "dcg": 0.22424382421757544,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 0.0,
+        "mrr": 0.047619047619047616
+      },
+      "wrapper": {
+        "dcg": 0.22424382421757544,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 0.0,
+        "mrr": 0.047619047619047616
+      },
+      "passed": true
+    },
+    {
+      "id": "rank_25",
+      "oracle": {
+        "dcg": 0.21274605355336318,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 0.0,
+        "mrr": 0.04
+      },
+      "upstream": {
+        "dcg": 0.21274605355336318,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 0.0,
+        "mrr": 0.04
+      },
+      "wrapper": {
+        "dcg": 0.21274605355336318,
+        "top1": 0.0,
+        "top5": 0.0,
+        "top10": 0.0,
+        "top20": 0.0,
+        "mrr": 0.04
+      },
+      "passed": true
+    },
+    {
+      "id": "tie_local_rule",
+      "ranking": [
+        2,
+        0,
+        1
+      ],
+      "wrapper": {
+        "dcg": 0.5,
+        "top1": 0.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "upstream": {
+        "dcg": 0.5,
+        "top1": 0.0,
+        "top5": 1.0,
+        "top10": 1.0,
+        "top20": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "passed": true
+    }
+  ],
+  "invalid_inputs": [
+    {
+      "id": "empty",
+      "passed": true,
+      "reason": "Prediction IDs must exactly match reference IDs without duplicates",
+      "upstream": "no coverage validation at function boundary"
+    },
+    {
+      "id": "duplicate",
+      "passed": true,
+      "reason": "Prediction IDs must exactly match reference IDs without duplicates",
+      "upstream": "no coverage validation at function boundary"
+    },
+    {
+      "id": "missing_and_extra",
+      "passed": true,
+      "reason": "Prediction IDs must exactly match reference IDs without duplicates",
+      "upstream": "no coverage validation at function boundary"
+    }
+  ],
+  "passed": true,
+  "scope": "eval_metrics class-ranking only; no model or benchmark parity",
+  "caveats": [
+    "tie ordering is local ascending class ID, not a verified torch tie rule",
+    "complete vocabulary required; all-wrong rank still has nonzero DCG/MRR",
+    "no upstream dev predictions/checkpoint replay",
+    "no gallery/instance-ranking protocol validated"
+  ]
+}

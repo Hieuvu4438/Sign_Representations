@@ -1,0 +1,32 @@
+{
+  "protocol": "LINEAGE001_signrep_provenance",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "GPU_allocation_seconds": 0,
+  "HPO_trials": 0,
+  "checkpoint": "checkpoints/signrep/ckpt.pt",
+  "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "upstream_commit": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+  "cohorts": [
+    "method/research_lab/records/inventory/COHORT001_cohort.json",
+    "method/research_lab/records/inventory/COHORT002_cohort.json"
+  ],
+  "asl_metadata": "/home/dongvk/datasets/ASL_Citizen/asl_citizen_all_in_one.json",
+  "local_youtube_asl_ids": "/home/dongvk/datasets/youtubeASL/youtube-asl_youtube_asl_video_ids.txt",
+  "max_response_bytes": 524288,
+  "public_metadata_urls": {
+    "release": "https://api.github.com/repos/ryanwongsa/SignRep/releases/tags/v0.0.1",
+    "youtube_sl25_objects": "https://storage.googleapis.com/storage/v1/b/gresearch/o?prefix=youtube-sl-25%2F&maxResults=20"
+  },
+  "input_hashes": {
+    "method/frozen_probe/scripts/audit_signrep_lineage.py": "0c7d4d3d4624170bd5ac36c3fe2a323ec92eec04997214ee1aa249ae8b24394a",
+    "method/research_lab/records/protocols/LINEAGE001_signrep_provenance.md": "581e7eefae4a4b6db5f8925e56b42aab5693593f92d99d49b700f73bdd6f6c6d",
+    "method/research_lab/records/decisions/D031.md": "73b66de68d992035aea32a20953c89a25a66ee2814b8355bd4d6945262d90c8d",
+    "method/research_lab/records/literature/sources/S39.md": "be87c956104beca2c44593c00bcca64d1a395cdc1c9eb40254f314098e4a3ebc",
+    "method/research_lab/records/inventory/SignRep_release_metadata_20261003.json": "d216e5d7977e79d102050e1611de9ac9b09be24812187df7bcf5be1bdd1ba872",
+    "method/research_lab/records/inventory/COHORT001_cohort.json": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+    "method/research_lab/records/inventory/COHORT002_cohort.json": "bf9f72c927687f5a0657dad32b940b67a38c65311312c9d60ec4d4d8c91d875c",
+    "/home/dongvk/datasets/ASL_Citizen/asl_citizen_all_in_one.json": "f7be962f88ba2fc9d4b42358974277e5261d3e4a825d347e4a191929027123bc",
+    "/home/dongvk/datasets/youtubeASL/youtube-asl_youtube_asl_video_ids.txt": "ca5622737279afc33b1f9ddfa585b5e8bd284f1be458c461e10887b03e519191"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "audited_utc": "2026-10-03T23:22:12.675877+00:00",
+  "scope": "saved artifact/source/schema/count integrity and unchanged original scientific bindings; internal same-agent review",
+  "own_python_AST_files": 65,
+  "verified_completed_runs": {
+    "CACHE005_20261004_P001v4_s1701": {
+      "status_sha256": "1799ae251310376c9d80402053020dbdf4df3d04917448c5c58aa0d9c4b49681",
+      "snapshot_files": 37,
+      "GPU_hours": 0.6879440907425144
+    },
+    "VERIFY001_20261004_P001v4_s1701": {
+      "status_sha256": "f1789061c75ca67a4e66fb8634ace3f7a1b6f3e32feaff9f9221da0866b7affc",
+      "snapshot_files": 38,
+      "GPU_hours": 0
+    },
+    "BASE002_20261004_P001v4_s1337": {
+      "status_sha256": "3a3d4a1e603f7dfe4ec9857996887837610fab40ede3892cd15a9e7f3e601e58",
+      "snapshot_files": 38,
+      "GPU_hours": 0
+    },
+    "ANALYZE002_20261004_P001v4_s1701": {
+      "status_sha256": "6b8ca0b188f5ecea20f8ffd688447bf0f89c4cb48b6683405eb4b2f86b75a12e",
+      "snapshot_files": 38,
+      "GPU_hours": 0
+    },
+    "QUAL001_20261004_P002v1_s1701": {
+      "status_sha256": "f85d41e5f9181158c23f41475f6aa31f01b58750e97beda76fe7bde172aa3b55",
+      "snapshot_files": 42,
+      "GPU_hours": 0
+    },
+    "TIME001_20261004_P002v1_s1701": {
+      "status_sha256": "83b80d303ba27145297bd3c03faa730a32ee7ed18f11d3fb085ef1e8eee2b268",
+      "snapshot_files": 42,
+      "GPU_hours": 0.016028904153079365
+    },
+    "REPORT001_20261004_P002v1_s1701": {
+      "status_sha256": "a7b41b19a2b4f684353b2b213f3307dfc48e374f9e70b3f6cf7a14d67c792bee",
+      "snapshot_files": 43,
+      "GPU_hours": 0
+    },
+    "CONFTEST001_20261004_P003v1_s1337": {
+      "status_sha256": "9b322878ad47edc9b40ec236c433bd24923d4690eb76ad173aed2df505bf10fd",
+      "snapshot_files": 48,
+      "GPU_hours": 0
+    },
+    "THR001_20261004_P003v1_s1701": {
+      "status_sha256": "9069086c8e99146e84447a4b6a97ca9f445e834c4ef4a03c34cd1e243f96236d",
+      "snapshot_files": 48,
+      "GPU_hours": 0
+    },
+    "PRETEST001_20261004_H002_P003v1_741b0823_s1701": {
+      "status_sha256": "3e9ffa88c6574fad69dac39abee92cd62c9075ac2600f81ed6c2268939e21bc2",
+      "snapshot_files": 48,
+      "GPU_hours": 0
+    },
+    "CONFTEST002_20261004_P003v1_s1337": {
+      "status_sha256": "c686401eec7f087114db6ffb9ed9f2c1853b7639e01f4e4aca1e15ee9d46cdf6",
+      "snapshot_files": 48,
+      "GPU_hours": 0
+    },
+    "REPRO001_20261004_P003v1_s1701": {
+      "status_sha256": "b3418b1d7279a86cf4cfcf5efcd67ab899a6277d1984923b5f6b768ed1338511",
+      "snapshot_files": 49,
+      "GPU_hours": 0
+    },
+    "THRREPRO001_20261004_P003v1_s1701": {
+      "status_sha256": "4033bff6268143c28674d2271b81230fb6169494541f905e8afdd9a1c7393e18",
+      "snapshot_files": 53,
+      "GPU_hours": 0
+    },
+    "COVTEST001_20261004_A001_s1337": {
+      "status_sha256": "e27c0cb7cd17ef02c921c80835fc71efd79d9bc46044874a907fa141e37399f8",
+      "snapshot_files": 52,
+      "GPU_hours": 0
+    },
+    "COVER001_20261004_A001_s1701": {
+      "status_sha256": "c63d3e870b97c9311be8f182367b6c36fbb4272985414c5e33c8ce4167f13f2f",
+      "snapshot_files": 52,
+      "GPU_hours": 0
+    },
+    "COVFIG001_20261004_A001_s1701": {
+      "status_sha256": "b85a51261896bd6f6875125112e7316561941be5ffceeb0a99973f31eca13f5d",
+      "snapshot_files": 54,
+      "GPU_hours": 0
+    },
+    "COVFIG002_20261004_A001_s1701": {
+      "status_sha256": "27a445bfec78aac8c6f66ab286747eb860dbe38466eaa76599ed1559551676c8",
+      "snapshot_files": 54,
+      "GPU_hours": 0
+    },
+    "REPRO002_20261004_P003v1_s1701": {
+      "status_sha256": "d64b345443ae8023dc30a58818e11943680eba2b4fc41e0d27363f4aaa36824b",
+      "snapshot_files": 54,
+      "GPU_hours": 0
+    },
+    "CONFIRM001_20261004_H002_P003v1_7b94d089_s1701": {
+      "status_sha256": "b68cf4d2fd08476592516acb5546bb2fbe4ed5f18265f2c47bb48959f2159ed5",
+      "snapshot_files": 48,
+      "GPU_hours": 0.666011324960014
+    },
+    "PREDTEST001_20261004_P003v1_s1337": {
+      "status_sha256": "f8e3cd757d559c600a654092b2d4105a0a6a3a1e1f42230da60f17c5926489bb",
+      "snapshot_files": 57,
+      "GPU_hours": 0
+    },
+    "PREDVERIFY001_20261004_P003v1_s1701": {
+      "status_sha256": "869062f785d1b809a46f033527d0cb2eb940b291df1b304e7a1038330bfc3c00",
+      "snapshot_files": 57,
+      "GPU_hours": 0
+    },
+    "SERTEST001_20261004_P003v1_s1337": {
+      "status_sha256": "1ebe621aefca6567262086ee81e8edd747054e7e3356b99d1b48401873fdcd33",
+      "snapshot_files": 58,
+      "GPU_hours": 0
+    },
+    "CONFAN002_20261004_H002_P003v1_12d05a8e_s1701": {
+      "status_sha256": "7a81e8e54da8a261479275593dcf17a0418a15702bfe0a92da248afa378a04bf",
+      "snapshot_files": 58,
+      "GPU_hours": 0
+    },
+    "SYNTH001_20261004_P003v1_s1701": {
+      "status_sha256": "e4be747d47702ea85b7859f43e926897f99fc27bc408759569ed26130837d5e5",
+      "snapshot_files": 59,
+      "GPU_hours": 0
+    },
+    "SYNTH002_20261004_P003v1_s1701": {
+      "status_sha256": "d888ea8f4b1e0edd6ec4a2100e08bbb09aca5aba6f0d936b44fd01dad2cf04f1",
+      "snapshot_files": 59,
+      "GPU_hours": 0
+    },
+    "REPRO003_20261004_P003v1_s1701": {
+      "status_sha256": "8d04d72d7b429ee24e9e0d335ab08d8bbf08ccf6c35ee9b80e0c97751e2fe869",
+      "snapshot_files": 59,
+      "GPU_hours": 0
+    },
+    "LIT002_20261004_S03final_s1701": {
+      "status_sha256": "1177d951d15bc865e47d49a023c78d247530b374373058a804ec20ba87851f86",
+      "snapshot_files": 60,
+      "GPU_hours": 0
+    },
+    "FACTEST001_20261004_A002_s1337": {
+      "status_sha256": "3628e3a6439e657aec78cfc3383a7edc76d8653991afbe2e29f774734bd2a040",
+      "snapshot_files": 63,
+      "GPU_hours": 0
+    },
+    "FACTOR001_20261004_A002_s1701": {
+      "status_sha256": "c7a9fc0709220abfb9a58c6a799696320eae42b89620e1bcdbcfafd221b74ad3",
+      "snapshot_files": 63,
+      "GPU_hours": 0
+    },
+    "COHORT002_20261004_P004v0_s1704": {
+      "status_sha256": "3bc263ea982f2cbb81de9f7d06091350827d24f32669ef32420947c7413e07ea",
+      "snapshot_files": 64,
+      "GPU_hours": 0
+    },
+    "SIZE002_20261004_P004v0_s1704": {
+      "status_sha256": "3c77a97b700e5b317f124d344cfdd7fd7c9261861c25db4ebc9b7831abfd69a8",
+      "snapshot_files": 65,
+      "GPU_hours": 0
+    },
+    "SIZE003_20261004_P004v0_s1704": {
+      "status_sha256": "c8308a39d97011f2f5c71371b43c416443d46f714b6e955b912fb2fe7a23ebfa",
+      "snapshot_files": 65,
+      "GPU_hours": 0
+    }
+  },
+  "binding_documents_verified": 35,
+  "VID003_full_source_count": 661,
+  "VID003_flat_snapshots_verified": true,
+  "COHORT002_100_vocabulary_disjoint": true,
+  "all3_support_seed_budgets1": true,
+  "A002_complete_ranks": 48,
+  "A002_original12diagonals_exact": true,
+  "A002_metric_csv_rows": 48,
+  "literature_matrix_rows": 20,
+  "PDF_page_preflight": {
+    "main": "UNAVAILABLE",
+    "supp": "UNAVAILABLE"
+  },
+  "local_links_verified": 28,
+  "terminal_GPU_seconds": 4942.689395845286,
+  "new_GPU_seconds_this_turn": 0,
+  "live_attempts": [],
+  "P004_projection_not_launch_gate": true,
+  "passed": true
+}

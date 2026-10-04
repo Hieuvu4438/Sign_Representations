@@ -1,0 +1,15 @@
+{
+  "protocol": "H003_v0_dino_source_audit",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 180,
+  "commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "exact_paths": ["LICENSE", "dinov2/__init__.py"],
+  "python_prefixes": ["dinov2/hub/", "dinov2/models/", "dinov2/layers/"],
+  "max_tree_bytes": 1048576,
+  "max_source_bytes": 2097152,
+  "max_file_bytes": 131072,
+  "max_files": 40,
+  "rationale": "Existing native env and author weights available; missing official DINO architecture source is needed to test strict loading. Bounded essential source records only on nearly-full root; no bulk model/data download or installation.",
+  "new_task_measurement": false
+}

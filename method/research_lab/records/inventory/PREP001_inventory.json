@@ -1,0 +1,302 @@
+{
+  "run_id": "PREP001_20261003",
+  "status": "running",
+  "pid": 1173636,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T14:53:51.744095+00:00",
+  "script_sha256": "8b1873d2313573528d0411e22485ebd08dd60dbf3c36751beeb80b3dfe7f95b9",
+  "python": "3.13.5",
+  "root": "/home/haipd/Sign_Representations",
+  "config": {
+    "citizen_root": "/home/dongvk/datasets/ASL_Citizen",
+    "dataset_roots": [
+      "/home/dongvk/datasets/ASL_Citizen",
+      "/home/dongvk/datasets/WLASL2000",
+      "/home/dongvk/datasets/MS-ASL",
+      "/home/shared_data/sign_language/How2Sign",
+      "/home/dongvk/datasets/How2Sign",
+      "/home/shared_data/sign_language/CSLDaily",
+      "/home/dongvk/datasets/CSL_Daily_Sentence_Crop",
+      "/home/dongvk/datasets/phoenix14T",
+      "/home/dongvk/datasets/youtubeASL"
+    ]
+  },
+  "git": {
+    "/home/haipd/Sign_Representations": {
+      "argv": [
+        "git",
+        "-C",
+        "/home/haipd/Sign_Representations",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "6da1e45894dbbc46faa73f8f1be64d841ed5dcd5",
+      "stderr": ""
+    },
+    "/home/haipd/Sign_Representations/third_party/SignRep": {
+      "argv": [
+        "git",
+        "-C",
+        "/home/haipd/Sign_Representations/third_party/SignRep",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+      "stderr": ""
+    },
+    "/home/haipd/Sign_Representations/third_party/SHuBERT": {
+      "argv": [
+        "git",
+        "-C",
+        "/home/haipd/Sign_Representations/third_party/SHuBERT",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "cc1929326075bfbad7ad73159b2acf84356059bb",
+      "stderr": ""
+    }
+  },
+  "rules_hashes": {
+    "docs/proposal2/AGENTS.md": "aa93f4ecb46d55e738486f9fa950a8648d13a70525061849b04382522dfd32cf",
+    "docs/proposal2/research_lab/01_CHARTER.md": "03a4958cd84136bcd058c5d251fcc43a9318321343d9f5874e2fc35d99f17bc7",
+    "docs/proposal2/research_lab/02_RESEARCH_LOOP.md": "a1f81de4ad9b5e02953e3720c589e5562c4d2d60b0d3b3bc7b71c9b2266508b2",
+    "docs/proposal2/research_lab/03_LITERATURE.md": "fc3f603da424fdcda9607ce681d1abda4ec2a5aa587005273ca5b3c4804f2c3a",
+    "docs/proposal2/research_lab/04_IDEA_PORTFOLIO.md": "8a4a5bcd01191b96d28fb2303d0eda76587b6a454333a3fc7c8871dd21b236c4",
+    "docs/proposal2/research_lab/05_DATA_FEATURES.md": "d639ea47b0d71fdb2a82dd669acc5fce261da681bdc3d88c58b819e777fe7051",
+    "docs/proposal2/research_lab/06_EVALUATION.md": "f7700eeb9fb3d956511e9a68607751a519fd7fe355bfe7a92cadbddbbd738d82",
+    "docs/proposal2/research_lab/07_EXPERIMENTS.md": "71f3c68e34aec4c96e595681e8d56495c157c68114784d104480e20d567ea57d",
+    "docs/proposal2/research_lab/08_EVIDENCE.md": "c2f7be049d013978e05a7246669e83083430206949e6b333acde39d307a6d2b0",
+    "docs/proposal2/research_lab/09_PAPER.md": "f725e3646c2d3f40b26e1ef095a491c4c576a7528c81a20a204b63cc8ca1ddc0",
+    "docs/proposal2/research_lab/10_SOURCE_MAP.md": "be577cddb68d434495375fdeb6a1b9a0d019c84932d19e8ec689f49b99c4819e",
+    "docs/proposal2/research_lab/11_BOOTSTRAP.md": "b7cb47b6a2dcf6748fa25dc791e9b060f85bf6408f482ad950c9f5311478a180",
+    "docs/proposal2/research_lab/AGENTS.md": "8bb9714ece8086d98d26765051caefc1603b85c5c27c5c9c3d7bb71a415c9546",
+    "docs/proposal2/research_lab/README.md": "a8e345496ca792d46a00e01c8470364e59d7d103055f7266510d3a513e5c70f9",
+    "docs/proposal2/research_lab/templates/DECISION.md": "80b420bb72b151221c6e8d22209f6f369f5326253dc9cfafb23fb9150979244d",
+    "docs/proposal2/research_lab/templates/EXPERIMENT.md": "0e91d2d4e162777f8469ac7445b861b8941a22a4df527bd6ecc851dd3263710e",
+    "docs/proposal2/research_lab/templates/HYPOTHESIS.md": "23864ed44abe13d779e4ad2c391d49752ac505f53db68c266850d9855daf4b27",
+    "docs/proposal2/research_lab/templates/PAPER_DOSSIER.md": "1ac403b653974d713657e780ebd13e91c7cfb01f9a99a79240f10e65a28bc63e",
+    "docs/proposal2/research_lab/templates/PROTOCOL.md": "6ff0d14561ab53ce053ea06f96fa07731e7a410f76524e5fc027faec9d00c06d",
+    "docs/proposal2/research_lab/templates/SOURCE_CARD.md": "8ac82967e793b090792fe70da430a977069b871048082c3275995e6470709038",
+    "docs/proposal2/research_lab/templates/STATE.md": "160ef06a9fee7f463a07727c9675dfa1f8a61b2af0bc331c1a2798f22d33fe28"
+  },
+  "allocation_env": {},
+  "gpu": {
+    "argv": [
+      "nvidia-smi",
+      "--query-gpu=index,name,memory.total,memory.used",
+      "--format=csv,noheader"
+    ],
+    "exit_code": 0,
+    "stdout": "0, NVIDIA RTX 5880 Ada Generation, 49140 MiB, 46898 MiB",
+    "stderr": ""
+  },
+  "gpu_allocation_status": "unknown",
+  "disk": {
+    "total_bytes": 3934171283456,
+    "free_bytes": 76157091840,
+    "reserve_fraction": 0.2,
+    "reserve_gate_passed": false
+  },
+  "roots": {
+    "/home/dongvk/datasets/ASL_Citizen": {
+      "exists": true,
+      "entry_names": [
+        "asl_citizen_all_in_one.json",
+        "keypoints",
+        "label_maps.json",
+        "my_src",
+        "splits",
+        "use.txt",
+        "videos"
+      ]
+    },
+    "/home/dongvk/datasets/WLASL2000": {
+      "exists": true,
+      "entry_names": [
+        "WLASL2000",
+        "keypoint",
+        "metadata_meaning_frames.json",
+        "preprocess"
+      ]
+    },
+    "/home/dongvk/datasets/MS-ASL": {
+      "exists": true,
+      "entry_names": [
+        "C-UDA-0.1_annotated_discussion.pdf",
+        "MSASL_classes.json",
+        "MSASL_synonym.json",
+        "MSASL_test.json",
+        "MSASL_train.json",
+        "MSASL_val.json",
+        "README.md",
+        "cut_processed_video",
+        "environment.yml",
+        "info",
+        "keypoint",
+        "metadata_msasl_like_wsasl.json",
+        "metadata_msasl_like_wsasl_100.json",
+        "metadata_msasl_like_wsasl_200.json",
+        "msasl.tar",
+        "msasl1k.json",
+        "src_download",
+        "video"
+      ]
+    },
+    "/home/shared_data/sign_language/How2Sign": {
+      "exists": true,
+      "entry_names": [
+        "eval",
+        "test",
+        "train"
+      ]
+    },
+    "/home/dongvk/datasets/How2Sign": {
+      "exists": true,
+      "entry_names": [
+        "draft.py",
+        "from_uni_sign_source",
+        "labels.train"
+      ]
+    },
+    "/home/shared_data/sign_language/CSLDaily": {
+      "exists": true,
+      "entry_names": [
+        "labels.dev",
+        "labels.test",
+        "labels.train",
+        "videos"
+      ]
+    },
+    "/home/dongvk/datasets/CSL_Daily_Sentence_Crop": {
+      "exists": true,
+      "entry_names": [
+        "dev_data_with_num_frames.csv",
+        "keypoint",
+        "keypoint_focus_hand_w_face",
+        "labels.dev",
+        "labels.test",
+        "labels.train",
+        "metadata_meaning_frames.json",
+        "test_data_with_num_frames.csv",
+        "train_data_with_num_frames.csv",
+        "videos"
+      ]
+    },
+    "/home/dongvk/datasets/phoenix14T": {
+      "exists": true,
+      "entry_names": [
+        "PHOENIX-2014-T-release-v3",
+        "phoenix14t.pami0.dev.annotations_only.gzip",
+        "phoenix14t.pami0.test.annotations_only.gzip",
+        "phoenix14t.pami0.train.annotations_only.gzip",
+        "videos_phoenix"
+      ]
+    },
+    "/home/dongvk/datasets/youtubeASL": {
+      "exists": true,
+      "entry_names": [
+        "youtube-asl_youtube_asl_video_ids.txt"
+      ]
+    }
+  },
+  "checkpoints": {
+    "checkpoints/signrep/ckpt.pt": {
+      "path": "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+      "exists": true,
+      "bytes": 222676746,
+      "sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+      "loading_coverage": "unknown",
+      "inference_parity": "not_run",
+      "upstream_mapping": "unknown"
+    },
+    "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt": {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+      "exists": true,
+      "bytes": 1057496908,
+      "sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+      "loading_coverage": "unknown",
+      "inference_parity": "not_run",
+      "upstream_mapping": "unknown"
+    }
+  },
+  "config_sha256": "a0d22ae8d90e0d6fb2c4dbd791b3bc996f990c1bad44b8777b531fdfa834ebde",
+  "asl_citizen": {
+    "splits": {
+      "train": {
+        "csv_path": "/home/dongvk/datasets/ASL_Citizen/splits/train.csv",
+        "csv_sha256": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329",
+        "rows": 40154,
+        "unique_video_ids": 40154,
+        "duplicate_video_rows": 0,
+        "participants": 35,
+        "empty_participant_rows": 0,
+        "empty_gloss_rows": 0,
+        "gloss_classes": 2731,
+        "min_class_support": 9,
+        "max_class_support": 24,
+        "available_video_files": 40154,
+        "missing_video_files": 0
+      },
+      "val": {
+        "csv_path": "/home/dongvk/datasets/ASL_Citizen/splits/val.csv",
+        "csv_sha256": "6ac78c9d551dfcc81d225a5279d7637c2891a4490851234be6e4674666e21366",
+        "rows": 10304,
+        "unique_video_ids": 10304,
+        "duplicate_video_rows": 0,
+        "participants": 6,
+        "empty_participant_rows": 0,
+        "empty_gloss_rows": 0,
+        "gloss_classes": 2731,
+        "min_class_support": 2,
+        "max_class_support": 7,
+        "available_video_files": 10304,
+        "missing_video_files": 0
+      },
+      "test": {
+        "csv_path": "/home/dongvk/datasets/ASL_Citizen/splits/test.csv",
+        "csv_sha256": "b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e",
+        "rows": 32941,
+        "unique_video_ids": 32941,
+        "duplicate_video_rows": 0,
+        "participants": 11,
+        "empty_participant_rows": 0,
+        "empty_gloss_rows": 0,
+        "gloss_classes": 2731,
+        "min_class_support": 7,
+        "max_class_support": 20,
+        "available_video_files": 32941,
+        "missing_video_files": 0
+      }
+    },
+    "overlap_counts": {
+      "train__val": {
+        "video_ids": 0,
+        "participant_ids": 0
+      },
+      "train__test": {
+        "video_ids": 0,
+        "participant_ids": 0
+      },
+      "val__test": {
+        "video_ids": 0,
+        "participant_ids": 0
+      }
+    },
+    "non_train_glosses": {
+      "val": [],
+      "test": []
+    },
+    "not_audited": [
+      "video decoding",
+      "near duplicate content",
+      "session IDs",
+      "participant identity correctness",
+      "pretraining overlap",
+      "official release equality",
+      "license local provenance"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "REPQUAL001_20261004_H002_P004v1_c80107ef_s1701",
+  "protocol": "P004_v1",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2255519,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T23:45:44.759576+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/quality_replication.py",
+    "--config",
+    "method/frozen_probe/configs/REPQUAL001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "REPQUAL001_20261004_H002_P004v1_c80107ef_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/REPQUAL001_20261004_H002_P004v1_c80107ef_s1701",
+    "--launch-gate",
+    "method/research_lab/records/protocols/P004_v1_dev_gate.json",
+    "--cache-run",
+    "method/frozen_probe/runtime/CACHE006_20261004_H002_P004v1_bf385467_s1701"
+  ],
+  "config_sha256": "c80107efdc1c280e882314cf1e3a021d47aff2dc628db6666c72284a1a86e686",
+  "H_id": "H002",
+  "output_hashes": {
+    "quality.json": "ac6689e6de249d060ee29c844268fae0a7f86a368a1f278f741022e455efe39b",
+    "schema.json": "5cdc805b5125c6bfe16bdb67b88360a282bb41cca2d5e03f692b2a31beb427a2",
+    "selections.json": "4b13bb5d2106a476366f3f06a2ff674a5fb87c0ae6df5dd2530fcc97670187a1",
+    "train_thresholds.json": "a068e9ecd7cd2bbdd7d51a7839fb51e49b8ff0e37b729012c93464fe0faf805c",
+    "rankings.npz": "53aa7a408ec6cf5d6c81678416dbfcf7507b6a66ddca32d814b07c7ac6411d84"
+  },
+  "end_utc": "2026-10-03T23:45:45.986908+00:00",
+  "wall_seconds": 1.2273515169508755,
+  "exit_code": 0
+}

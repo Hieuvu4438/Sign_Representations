@@ -1,0 +1,12 @@
+{
+  "protocol": "P001_v2",
+  "cohort": "method/research_lab/records/inventory/COHORT001_cohort.json",
+  "cohort_sha256": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+  "expected_samples": 1691,
+  "window_length": 16,
+  "stride": 2,
+  "fingerprint_quantiles": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "max_planned_source_read_bytes": 4294967296,
+  "max_frames_per_clip": 2000,
+  "timeout_seconds": 900
+}

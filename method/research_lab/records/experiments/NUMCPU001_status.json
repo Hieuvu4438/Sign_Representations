@@ -1,0 +1,30 @@
+{
+  "run_id": "NUMCPU001_20261004_H003_v1_0e5eeffb_s1701",
+  "protocol": "H003_v1_CPU_precision_diagnostic",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2694173,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T06:33:02.605735+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "method/stream_reliability/scripts/audit_numerical_cpu.py",
+    "--config",
+    "method/stream_reliability/configs/NUMCPU001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "NUMCPU001_20261004_H003_v1_0e5eeffb_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/NUMCPU001_20261004_H003_v1_0e5eeffb_s1701"
+  ],
+  "config_sha256": "0e5eeffb925a550a3403f68a797077c3e226369c19dfa059ddd5029c023f6230",
+  "H_id": "H003",
+  "output_hashes": {
+    "cpu_precision_diagnostic.json": "1d9f8718c05246e791fbfb0d8b869bcdd5d576d2be50ba533fbe0039f4d8fbc2"
+  },
+  "end_utc": "2026-10-04T06:33:05.720441+00:00",
+  "wall_seconds": 3.1147183519788086,
+  "exit_code": 0
+}

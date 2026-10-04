@@ -1,0 +1,353 @@
+{
+  "run_id": "STREAM001_20261004_H003_v0_dbd8c39f_s1701",
+  "samples": [
+    {
+      "sample_id": "0009570133052014818-GO BACK_AND_FORTH.mp4",
+      "split": "train",
+      "participant_id": "P33",
+      "raw_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/0009570133052014818-GO BACK_AND_FORTH.pkl",
+      "raw_bytes": 426895,
+      "raw_sha256": "429e57f659a3eafc9d7d40e6759455b5e5d6841775a950ad8f9bf557f8f91cce",
+      "native_frames": 156,
+      "fields": {
+        "keypoints": {
+          "kind": "list",
+          "length": 156,
+          "element_shapes": [
+            [
+              1,
+              133,
+              2
+            ]
+          ],
+          "element_dtypes": [
+            "float64"
+          ],
+          "finite": true,
+          "first": {
+            "kind": "array",
+            "shape": [
+              1,
+              133,
+              2
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": 0.04205484390258789,
+            "max": 1.0779360353946685
+          },
+          "global_min": -0.10448732376098632,
+          "global_max": 1.49211182196935
+        },
+        "scores": {
+          "kind": "list",
+          "length": 156,
+          "element_shapes": [
+            [
+              1,
+              133
+            ]
+          ],
+          "element_dtypes": [
+            "float32"
+          ],
+          "finite": true,
+          "first": {
+            "kind": "array",
+            "shape": [
+              1,
+              133
+            ],
+            "dtype": "float32",
+            "finite": true,
+            "min": 1.0224688053131104,
+            "max": 9.504911422729492
+          },
+          "global_min": 0.47368574142456055,
+          "global_max": 10.080117225646973
+        }
+      },
+      "stream_timestamp_metadata_keys": [],
+      "frame_count_agreement": {
+        "keypoints": true,
+        "scores": true
+      },
+      "coordinate_ontology": "unknown; array dimensions do not establish landmark naming",
+      "score_semantics": "unknown; key name scores is not calibrated failure ground truth",
+      "preprocessing_provenance": "unknown; local filename/schema cannot establish author MediaPipe pipeline"
+    },
+    {
+      "sample_id": "0010333569349243454-TOSS OUT.mp4",
+      "split": "train",
+      "participant_id": "P10",
+      "raw_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/0010333569349243454-TOSS OUT.pkl",
+      "raw_bytes": 238153,
+      "raw_sha256": "bb7743da44935796e4a616aadeab7fc83a84d613482a98c52a830e3aba68644a",
+      "native_frames": 87,
+      "fields": {
+        "keypoints": {
+          "kind": "list",
+          "length": 87,
+          "element_shapes": [
+            [
+              1,
+              133,
+              2
+            ]
+          ],
+          "element_dtypes": [
+            "float64"
+          ],
+          "finite": true,
+          "first": {
+            "kind": "array",
+            "shape": [
+              1,
+              133,
+              2
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": 0.10732971959643897,
+            "max": 0.9900167718529701
+          },
+          "global_min": -0.10331239700317382,
+          "global_max": 1.554529349009196
+        },
+        "scores": {
+          "kind": "list",
+          "length": 87,
+          "element_shapes": [
+            [
+              1,
+              133
+            ]
+          ],
+          "element_dtypes": [
+            "float32"
+          ],
+          "finite": true,
+          "first": {
+            "kind": "array",
+            "shape": [
+              1,
+              133
+            ],
+            "dtype": "float32",
+            "finite": true,
+            "min": 0.5914202332496643,
+            "max": 8.511762619018555
+          },
+          "global_min": 0.4538724422454834,
+          "global_max": 9.67629623413086
+        }
+      },
+      "stream_timestamp_metadata_keys": [],
+      "frame_count_agreement": {
+        "keypoints": true,
+        "scores": true
+      },
+      "coordinate_ontology": "unknown; array dimensions do not establish landmark naming",
+      "score_semantics": "unknown; key name scores is not calibrated failure ground truth",
+      "preprocessing_provenance": "unknown; local filename/schema cannot establish author MediaPipe pipeline"
+    },
+    {
+      "sample_id": "00033277435717016246-ELECTROCUTE.mp4",
+      "split": "val",
+      "participant_id": "P21",
+      "raw_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/00033277435717016246-ELECTROCUTE.pkl",
+      "raw_bytes": 224478,
+      "raw_sha256": "4a16b2f9beffa7069a00182b9e178bfa606fa8475775e72acbb8b190b8191765",
+      "native_frames": 82,
+      "fields": {
+        "keypoints": {
+          "kind": "list",
+          "length": 82,
+          "element_shapes": [
+            [
+              1,
+              133,
+              2
+            ]
+          ],
+          "element_dtypes": [
+            "float64"
+          ],
+          "finite": true,
+          "first": {
+            "kind": "array",
+            "shape": [
+              1,
+              133,
+              2
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": 0.1458768581350645,
+            "max": 1.4680555615160198
+          },
+          "global_min": -0.03306746482849121,
+          "global_max": 1.4680555615160198
+        },
+        "scores": {
+          "kind": "list",
+          "length": 82,
+          "element_shapes": [
+            [
+              1,
+              133
+            ]
+          ],
+          "element_dtypes": [
+            "float32"
+          ],
+          "finite": true,
+          "first": {
+            "kind": "array",
+            "shape": [
+              1,
+              133
+            ],
+            "dtype": "float32",
+            "finite": true,
+            "min": 0.4775906503200531,
+            "max": 8.520223617553711
+          },
+          "global_min": 0.4180293679237366,
+          "global_max": 9.875879287719727
+        }
+      },
+      "stream_timestamp_metadata_keys": [],
+      "frame_count_agreement": {
+        "keypoints": true,
+        "scores": true
+      },
+      "coordinate_ontology": "unknown; array dimensions do not establish landmark naming",
+      "score_semantics": "unknown; key name scores is not calibrated failure ground truth",
+      "preprocessing_provenance": "unknown; local filename/schema cannot establish author MediaPipe pipeline"
+    },
+    {
+      "sample_id": "0014822228991275832-BORROW.mp4",
+      "split": "val",
+      "participant_id": "P26",
+      "raw_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/0014822228991275832-BORROW.pkl",
+      "raw_bytes": 194384,
+      "raw_sha256": "4b63df1b47b9ccb6d358a220137c76e091bdffb149e4ed9c27ccfe13a36bff58",
+      "native_frames": 71,
+      "fields": {
+        "keypoints": {
+          "kind": "list",
+          "length": 71,
+          "element_shapes": [
+            [
+              1,
+              133,
+              2
+            ]
+          ],
+          "element_dtypes": [
+            "float64"
+          ],
+          "finite": true,
+          "first": {
+            "kind": "array",
+            "shape": [
+              1,
+              133,
+              2
+            ],
+            "dtype": "float64",
+            "finite": true,
+            "min": 0.11583633422851562,
+            "max": 1.0185543075203896
+          },
+          "global_min": 0.07530970573425293,
+          "global_max": 1.2865341141819955
+        },
+        "scores": {
+          "kind": "list",
+          "length": 71,
+          "element_shapes": [
+            [
+              1,
+              133
+            ]
+          ],
+          "element_dtypes": [
+            "float32"
+          ],
+          "finite": true,
+          "first": {
+            "kind": "array",
+            "shape": [
+              1,
+              133
+            ],
+            "dtype": "float32",
+            "finite": true,
+            "min": 0.6812450885772705,
+            "max": 9.54826545715332
+          },
+          "global_min": 0.4201187491416931,
+          "global_max": 10.303129196166992
+        }
+      },
+      "stream_timestamp_metadata_keys": [],
+      "frame_count_agreement": {
+        "keypoints": true,
+        "scores": true
+      },
+      "coordinate_ontology": "unknown; array dimensions do not establish landmark naming",
+      "score_semantics": "unknown; key name scores is not calibrated failure ground truth",
+      "preprocessing_provenance": "unknown; local filename/schema cannot establish author MediaPipe pipeline"
+    }
+  ],
+  "N": 4,
+  "source_read_bytes": 1083910,
+  "upstream_code_hashes": {
+    "third_party/SHuBERT/features/shubert_inference.py": "ac89377454d82e990b5a18db16f778a6f29886a3a489fa2d71b439fa3cebcfcd",
+    "third_party/SHuBERT/features/body_features.py": "4db7742e852cf9b6358235be3f3fb4dada2e5beae82eea149c509add8eb41cd7",
+    "third_party/SHuBERT/features/dinov2_features.py": "6631e836bcbc018d734ae8606dff4d6bd5d19251541a19fff0974941f81eaf82",
+    "third_party/SHuBERT/dataset/kpe_mediapipe.py": "b8fd2866270d5b701fd087632142c70fc8a981034406ac5304e1050545c67323",
+    "third_party/SHuBERT/fairseq/examples/shubert/models/shubert.py": "aa63d20a989d1c78de6d635b367973eb476fdeb0ca93f4e8017c50b9b8c8d76f"
+  },
+  "model_assets": [
+    {
+      "path": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+      "exists": true,
+      "bytes": 1057496908,
+      "release_mapping": "unknown; existence only, no model load/hash in this input-only audit"
+    },
+    {
+      "path": "checkpoints/shubert_author_hf/models/dinov2face.pth",
+      "exists": true,
+      "bytes": 112850895,
+      "release_mapping": "unknown; existence only, no model load/hash in this input-only audit"
+    },
+    {
+      "path": "checkpoints/shubert_author_hf/models/dinov2hand.pth",
+      "exists": true,
+      "bytes": 112850895,
+      "release_mapping": "unknown; existence only, no model load/hash in this input-only audit"
+    }
+  ],
+  "upstream_input_interface": {
+    "face_dim": 384,
+    "left_hand_dim": 384,
+    "right_hand_dim": 384,
+    "body_dim": 14,
+    "inputs": "three separately extracted DINO crop arrays plus normalized body array; requires explicit synchronization",
+    "reference": "pinned SHuBERT source, default config; not checkpoint-state/config parity"
+  },
+  "SHuBERT_ready_four_streams": false,
+  "natural_failure_labels_verified": false,
+  "GPU_hours": 0,
+  "scope": "raw train/dev schema/provenance audit only; no embedding extraction, classifier, threshold or natural failure labeling",
+  "next_dependencies": [
+    "identify raw coordinate ontology/extractor provenance",
+    "verify timestamps/crop/handedness mapping",
+    "produce or identify author-compatible four streams",
+    "verify score/missingness meanings and masks",
+    "audit strict checkpoint state/environment before any model parity"
+  ]
+}

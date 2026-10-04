@@ -1,0 +1,8 @@
+test_complete_source_recipe_and_reject_wrong_indices (test_prediction_contract.PredictionContractTests.test_complete_source_recipe_and_reject_wrong_indices) ... ok
+test_label_signer_timeline_schema_binding (test_prediction_contract.PredictionContractTests.test_label_signer_timeline_schema_binding) ... ok
+test_pooled_real_dtype_capacity_and_normalization (test_prediction_contract.PredictionContractTests.test_pooled_real_dtype_capacity_and_normalization) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.006s
+
+OK

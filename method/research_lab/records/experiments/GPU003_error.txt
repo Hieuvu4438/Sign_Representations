@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/method/frozen_probe/scripts/gpu_smoke.py", line 37, in main
+    device = configure_gpu(observation)
+  File "/home/haipd/Sign_Representations/method/frozen_probe/resources.py", line 55, in configure_gpu
+    if len(matches) != 1: raise RuntimeError('Granted physical GPU0 not uniquely visible to scheduler')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Granted physical GPU0 not uniquely visible to scheduler

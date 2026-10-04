@@ -1,0 +1,70 @@
+{
+  "run_id": "STREAMGPU001_20261004_H003_v0_aeb2c96d_s1701",
+  "hardware": {
+    "physical_index": 0,
+    "uuid": "GPU-3775c606-49da-34fe-322c-756749074f5b",
+    "total_mib": 49140,
+    "free_mib": 46152,
+    "utilization_percent": 0,
+    "min_free_mib": 8192,
+    "max_utilization": 10,
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=index,uuid,memory.total,memory.free,utilization.gpu",
+      "--format=csv,noheader,nounits"
+    ]
+  },
+  "torch_version": "2.1.1+cu121",
+  "atol": 0.0001,
+  "rtol": 0.0001,
+  "dtype": "float32",
+  "TF32": false,
+  "models": [
+    {
+      "name": "SHuBERT_author_layer_last",
+      "shape": [
+        12,
+        16,
+        768
+      ],
+      "finite": true,
+      "parity": true,
+      "max_absolute_error": 0.010467529296875
+    },
+    {
+      "name": "SHuBERT_final_x_separate",
+      "shape": [
+        1,
+        16,
+        768
+      ],
+      "finite": true,
+      "parity": true,
+      "max_absolute_error": 3.123283386230469e-05
+    },
+    {
+      "name": "dinov2face",
+      "shape": [
+        1,
+        384
+      ],
+      "finite": true,
+      "parity": true,
+      "max_absolute_error": 7.62939453125e-06
+    },
+    {
+      "name": "dinov2hand",
+      "shape": [
+        1,
+        384
+      ],
+      "finite": true,
+      "parity": true,
+      "max_absolute_error": 9.261071681976318e-06
+    }
+  ],
+  "scope": "Synthetic CPU/GPU numerical interface only; no real video/crop/mask, scientific pilot or benchmark",
+  "all_pass": true,
+  "peak_torch_allocated_bytes": 368437760,
+  "peak_torch_reserved_bytes": 434110464
+}

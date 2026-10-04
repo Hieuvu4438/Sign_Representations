@@ -1,0 +1,14 @@
+{
+  "original_config": "method/frozen_probe/configs/MSCOHORT001.json",
+  "original_config_sha256": "327a08cdda07486904f54c3c4002b22aef26d89ec6cf7161cd508cad4005a025",
+  "launched": false,
+  "output_dir_created": false,
+  "GPU_hours": 0,
+  "record_upper_bound_bytes": 2098338,
+  "original_file_cap": 2097152,
+  "reason": "Complete per-record payload upper bound exceeds declared file cap",
+  "replacement_config": "method/frozen_probe/configs/MSCOHORT002.json",
+  "new_candidate_file_cap": 3145728,
+  "total_ceiling_unchanged": 4194304,
+  "preflight_wall_seconds": "uninstrumented"
+}

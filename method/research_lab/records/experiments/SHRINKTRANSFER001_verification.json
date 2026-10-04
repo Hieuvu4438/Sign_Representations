@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "recounted_rows": 9192,
+  "original_space_LW_rankings_equal": 6894,
+  "independent_fourth_moment_fit_errors": {
+    "residual": {
+      "covariance_max_abs_error": 2.168404344971009e-19,
+      "shrinkage": 0.05555678719233484
+    },
+    "total": {
+      "covariance_max_abs_error": 4.336808689942018e-19,
+      "shrinkage": 0.035573129576730804
+    },
+    "shuffled": {
+      "covariance_max_abs_error": 4.336808689942018e-19,
+      "shrinkage": 0.03560319443735447
+    }
+  },
+  "input_output_digests_verified": true,
+  "parent_fit_support_contract_equal": true,
+  "mean_DCG": {
+    "raw": 0.7667061357428587,
+    "residual_pca": 0.8102504602148017,
+    "residual_lw_cos": 0.829746385456466,
+    "residual_lw_maha": 0.8046075388724051,
+    "total_lw_cos": 0.7626392085011817,
+    "total_lw_maha": 0.7074060946519142,
+    "shuffled_lw_cos": 0.7621715720449861,
+    "shuffled_lw_maha": 0.7050348767538015
+  },
+  "GPU_hours": 0,
+  "scope": "independent arithmetic implementation by same agent; no new recipe, trial, label access or independent scientific review"
+}

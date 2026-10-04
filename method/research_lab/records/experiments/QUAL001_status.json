@@ -1,0 +1,38 @@
+{
+  "run_id": "QUAL001_20261004_P002v1_s1701",
+  "protocol": "P002_v1",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 1784104,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T20:35:02.745842+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/window_quality.py",
+    "--config",
+    "method/frozen_probe/configs/QUAL001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "QUAL001_20261004_P002v1_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/QUAL001_20261004_P002v1_s1701",
+    "--cache-manifest",
+    "/dev/shm/signrep_frozen_probe_8bfd9b55453cd54f1d7b/manifest.json",
+    "--launch-gate",
+    "method/research_lab/records/protocols/P002_v1_quality_gate.json"
+  ],
+  "config_sha256": "2450a706d29f9b3ac6c64e80f711c4c3107bb1638669b95f4d9675bec635b412",
+  "H_id": "H002",
+  "output_hashes": {
+    "quality.json": "efb1208ccd911c3ccb794b9f09da5aaa2cb6dd00414e804d7e724e86c4914081",
+    "metrics.json": "931dca6de160eb42dcba94fefac6459a937a5e1827f5e6c5d19759349be13cde",
+    "selections.json": "5f2ef612feb9bf8e411aa5ba1177322f242c35c3a67e10327222b8fba2426e66",
+    "schema.json": "c4f38a2deab3df9bb10bf1b8edd87ae39f46491ed8e309b29ee4ffed3c3adf33",
+    "rankings.npz": "c23236396a6ff71ec9e97906852c928f0b2de60e4104105ef10234fdf2b33a26"
+  },
+  "end_utc": "2026-10-03T20:35:05.063502+00:00",
+  "wall_seconds": 2.317679961095564,
+  "exit_code": 0
+}

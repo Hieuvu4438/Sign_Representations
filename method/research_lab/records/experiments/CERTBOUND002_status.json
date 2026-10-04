@@ -1,0 +1,28 @@
+{
+  "run_id": "CERTBOUND002_20261004_H004_v0_e625ae90_s1701",
+  "protocol": "H004_v0_completion_bounds",
+  "seed": 1701,
+  "status": "failed",
+  "GPU_hours": 0,
+  "pid": 2772751,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T07:28:54.624631+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "method/frozen_probe/scripts/audit_completion_feasibility.py",
+    "--config",
+    "method/frozen_probe/configs/CERTBOUND002.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "CERTBOUND002_20261004_H004_v0_e625ae90_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/CERTBOUND002_20261004_H004_v0_e625ae90_s1701"
+  ],
+  "config_sha256": "e625ae90678cef6938baf4d7978cabea9ede629c265fd3b970f5218b0d4f47ae",
+  "H_id": "H004",
+  "end_utc": "2026-10-04T07:28:55.640022+00:00",
+  "wall_seconds": 1.0154099630890414,
+  "exit_code": 1,
+  "error": "ValueError('Gallery seeds differ')"
+}

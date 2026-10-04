@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "name": "SignRep_ICCV2025_main",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wong_SignRep_Enhancing_Self-Supervised_Sign_Representations_ICCV_2025_paper.pdf",
+      "bytes": 2281530,
+      "pdf_sha256": "249bfe15eb77d754de780c24bf97c328a7d171a59655baa16b37765389e8a15c",
+      "text_sha256": "00aea833a755da46da83034de236570140c68a930a391c072772c1c9348034b5",
+      "preflight_sha256": "0c23d7ad810ba9bff499961f18b3ae1c7368d3ddcd2aa923f718fe1d5d3567c8",
+      "preflight_verdict": "UNAVAILABLE",
+      "trusted_page_anchors": false,
+      "extraction_engine": "PyMuPDF",
+      "observed_pages": 11,
+      "headers": {
+        "Last-Modified": "Sat, 27 Sep 2025 15:15:00 GMT",
+        "ETag": "\"22d03a-63fc9dda7c500\"",
+        "Content-Length": "2281530",
+        "Content-Type": "application/pdf"
+      },
+      "scope": "retrieval/extraction only; reading scope recorded separately in source card"
+    },
+    {
+      "name": "SignRep_ICCV2025_supp",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/supplemental/Wong_SignRep_Enhancing_Self-Supervised_ICCV_2025_supplemental.pdf",
+      "bytes": 10771324,
+      "pdf_sha256": "3dfd69a9f70b592f360037fe3abce5d99210a1a8305edc6dd64579f8b5d7eaec",
+      "text_sha256": "484cadb3660482f94a56eda81e4755cfc536b8035b00a45a8fc53a9e3d45654c",
+      "preflight_sha256": "578ee91f09dcfc41f89ce7f981ef20f6379606fdd328668bf171d4189e7fb3c0",
+      "preflight_verdict": "UNAVAILABLE",
+      "trusted_page_anchors": false,
+      "extraction_engine": "PyMuPDF",
+      "observed_pages": 6,
+      "headers": {
+        "Last-Modified": "Wed, 10 Sep 2025 16:33:36 GMT",
+        "ETag": "\"a45b7c-63e74fb72d800\"",
+        "Content-Length": "10771324",
+        "Content-Type": "application/pdf"
+      },
+      "scope": "retrieval/extraction only; reading scope recorded separately in source card"
+    }
+  ],
+  "fitz_version": "1.27.2.3",
+  "preflight_script_sha256": "e4a2431fe2f2525ec755877869a93ee4ff2dd13a44f294d38ceb2e0736b5af16",
+  "no_install": true,
+  "GPU_used": false
+}

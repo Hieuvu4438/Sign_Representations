@@ -1,0 +1,314 @@
+{
+  "run_id": "GPU004_20261004_P001v3_s1701",
+  "scope": "GPU numerical parity and representative cost; no task score",
+  "GPU": {
+    "physical_index": 0,
+    "uuid": "GPU-3775c606-49da-34fe-322c-756749074f5b",
+    "total_mib": 49140,
+    "free_mib": 16243,
+    "utilization_percent": 77,
+    "min_free_mib": 8192,
+    "max_utilization": 100,
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=index,uuid,memory.total,memory.free,utilization.gpu",
+      "--format=csv,noheader,nounits"
+    ]
+  },
+  "device": "cuda:0",
+  "dtype": "float32",
+  "TF32": false,
+  "batch_size": 2,
+  "deterministic_algorithms": false,
+  "determinism_limit": "CUDA kernels not certified bitwise deterministic",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.3",
+    "timm": "1.0.20",
+    "albumentations": "2.0.8"
+  },
+  "code_hashes": {
+    "analysis.py": "387d82f327a04ef2dedd729ae110325e3786cfa9ffef024999b83b0ba56a014c",
+    "baseline.py": "e53cab238dca4d18a7e18e82348889484512547073e072dae09d42ea190f9835",
+    "budget.py": "0828d11d94d903da3064bb096de3cb09ac42f1834df4eee3e52c5e8377ee9751",
+    "cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "metrics.py": "43db516fa029b20986130cae6b98e95e500cefa372d15ae4c020130b9f56c79c",
+    "pooling.py": "3e96860bdf7af1ff520520fff2ec39bcc0af87955ba174afedd7768459436564",
+    "probes.py": "2f4519452a338943ca29408a1700edfeb8ee1681535b14a86660a6001fe8f063",
+    "resources.py": "27242333dd98852765d93e119fa1f591fe732dff1aa12f1a18fd69ca1fa0e4f2",
+    "run_context.py": "c8e08efd93809f5a4ac69fd5ac05e45a5885ed71b46845b6ce05b6b320715ed8",
+    "scripts/analyze_baseline.py": "d7fa49db8876ce6d56451a7abe4b59785cfce59f18ff213c277f9ca8dbe30814",
+    "scripts/audit_cohort_video.py": "87d20c94b0fc1211f9f24961b95e2fac984680113849ac71cb705306aa98171b",
+    "scripts/audit_signrep.py": "3a6be1132955fab416196234eb0bbb85278b6c4dbde20eb039531fe2f305f2d7",
+    "scripts/audit_video.py": "0a08f1c97e1e0cd7275adcd31b227cae6d4785c6f7b25ba6e08082af10c28cc6",
+    "scripts/build_cohort.py": "26d07c75b3a895dfa8dd4cec0f081f6f16ef8d5efa8198b1d4366102c6771cd5",
+    "scripts/extract_cache.py": "6e8c8b1cacd253868a08fe1917589833bed6b432d1be3226ac053687d619cfa6",
+    "scripts/gpu_smoke.py": "12c5c195b74e7f686f33b572abecb8f40f9f6dd3cecfff9caf3376a565b3b4f4",
+    "scripts/inspect_device.py": "28685c3abaac092207f784eb746036b61aada78824989452cb22b04b9e160b2a",
+    "scripts/run_baseline.py": "290937dedbeab805998eb28b6fdd808102ac91f8f6119fb767678acd7bba68d9",
+    "scripts/screen_duplicates.py": "06e7dc568552220f0a33128a5d935db64275cf4c9545b70643929a8d5be062d2",
+    "scripts/software_smoke.py": "7e4acbd034270ba1da1c5c0cfbcfb6cf9925495d39352faff5158f4b2607b2fd",
+    "scripts/validate_features.py": "b87e682be8a253c9f8ed68263fb5c99f3cd03cce2afe48d7d2b213075fc5ca35",
+    "scripts/validate_scorer.py": "5607f924db662b691a3d3f72804a2f6ea49f889fc62bd39608cb8617e3639976",
+    "signrep_adapter.py": "8ce9cc5fd7b142c88b54cf3cb5d59b86df38ae47e876e677a09f2a24c8d2dc7c",
+    "temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "tests/test_analysis.py": "5990cf9c54e2b422b764666d8f91393ad91555e5d531d14359b169f1adbd35d9",
+    "tests/test_budget_status.py": "4f5541b035595395c5b8c0ddd1037f0f8b0cac4395153167ca6ed3ca90d35bf1",
+    "tests/test_cache_baseline.py": "f9cb23f38fffa00585413636e2414f9100a9a73aec35f4e46471bde3edd4fe3b",
+    "tests/test_cli_gates.py": "8b3a5f19d278f22edda41295270c263529cfce637d48420c93f5eaeeca5706a3",
+    "tests/test_cohort.py": "8761946e1631a8ce21f08cc20ac89b9ca1e7c77ee3b81c107673854f6bef8cc8",
+    "tests/test_duplicate_screen.py": "80b49f047c748efa52d37c29e41cf14515bfe9eef20ba4657f2c226fdcbf0ce2",
+    "tests/test_metrics.py": "33f46fe5a44b982b6e13b5f08a64dfef973a768ec2009e308556bf778621d697",
+    "tests/test_pooling_probes.py": "50be4167695ee38a3afd418f0851263c801d2a6d0fa297401810ebeb9ff79af0",
+    "tests/test_resources.py": "a757de758a6aa0c99505d0635b70ab4e2391f33844d141f53b09c7f3b178e66d",
+    "tests/test_timeline.py": "69a9bcc5d35eab739ed21b02f7a62fe1ec24963eff096038604ab0cfc03db53c",
+    "tests/test_video_contract.py": "d3774fe788c7ca0acb8a2e7d6eb2a88a83934a9d627a3589a5fe16d6e7a6d3dc",
+    "tests/test_window_contract.py": "7a5008116c4c036f7af21543c4c1b63f7967116168cf2297ba5a0d1bec0f1a12",
+    "video_contract.py": "8560a3effb9017663647593fa75458ba7773d681a1d55c0bcfb44620c02b06fb"
+  },
+  "upstream_python_sha256": {
+    "augmentation/video/base_video_aug.py": "59e1eb7e836aaaf4efc69533af87f80630d9601ec7efe642f5bc514f080d1b9f",
+    "example_usage.py": "a53aa5b1c21e34ece8b7c228751a08c15de90f25914b8fe7d80115225f34af97",
+    "models/final_models/FINAL_hiera_latent_model_head_v25_active.py": "70ac165c22a40450005d5dceae283d7095b037d6173dcea1872f3341b8a432fe",
+    "models/head_models/dict_head_v6_FINAL_thoughtful.py": "615c87f77aff2380874dcb1433d60b89af68890e94da8ba9cf9b4983471b07dd",
+    "models/hiera/hfhub.py": "12efb9ab1838536d5a9971440ea09efbabcd48b7a758e5fb87f417b0c33a15b7",
+    "models/hiera/hiera.py": "e8e9cab4d662ebb3ceaa6ce85d31bd0efb79325d68c192e93ff9b0bf9cc66c91",
+    "models/hiera/hiera_clstoken.py": "a80a84701765bbc079dfaf52c41ef5e7b06c91d6bbedca05db08b1f313701d44",
+    "models/hiera/hiera_nodec_mae.py": "385d4e3fbc2e2b3b8636c22712fabb9b664a464a86d8ead818725fa08389fd52",
+    "models/hiera/hiera_utils.py": "2af7cc75eb7a90e4eb16dcb08e229807b93c5efc74765eff3f3ee7ac017eb354"
+  },
+  "model_params": {
+    "ckpt_dir": null,
+    "backbone_params": {
+      "drop_path_rate": 0.1,
+      "num_cls_tokens": 0
+    },
+    "out_dim": 768,
+    "mask_ratio": 0.0,
+    "init_weights": false,
+    "cls_head_name": "models.head_models.dict_head_v6_FINAL_thoughtful",
+    "cls_head_params": {
+      "latents_params": {
+        "hidden_dim": 512,
+        "out_dim": 384
+      },
+      "total_frames": 16,
+      "projection_params": {
+        "full_body_angles": {
+          "hidden_dim": null,
+          "output_dim": 44
+        },
+        "full_right_angles": {
+          "hidden_dim": null,
+          "output_dim": 82
+        },
+        "full_left_angles": {
+          "hidden_dim": null,
+          "output_dim": 82
+        },
+        "body_pose": {
+          "hidden_dim": null,
+          "output_dim": 183
+        },
+        "right_pose": {
+          "hidden_dim": null,
+          "output_dim": 63
+        },
+        "left_pose": {
+          "hidden_dim": null,
+          "output_dim": 63
+        },
+        "body_dist": {
+          "hidden_dim": null,
+          "output_dim": 792
+        },
+        "right_dist": {
+          "hidden_dim": null,
+          "output_dim": 165
+        },
+        "left_dist": {
+          "hidden_dim": null,
+          "output_dim": 165
+        }
+      }
+    }
+  },
+  "input_hashes": {
+    "checkpoint": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+    "cpu_report": "1eb27ebefe5174d4e485262f5682b1c811de30bd9e8d7918c41dde864c0cebf7",
+    "cpu_features": "eef793069b2af8db86cb00740b6f3c81977b38f9091179301832ed55b013f624",
+    "video_audit": "5f93826b211e1d45667c8dc3b8b352b6c5a34644a60218c1e0dc5f77760ca0fe"
+  },
+  "samples": [
+    {
+      "sample_id": "8092627456861683-MAGNET 4.mp4",
+      "source_sha256": "77f8210069d68556bc73b679046cae7a6b88136ea2de23250aae3892064df392",
+      "split": "train",
+      "frames": 83,
+      "windows": 34,
+      "parity": {
+        "features": {
+          "max_abs_difference": 1.8775463104248047e-06,
+          "passed": true
+        },
+        "latent": {
+          "max_abs_difference": 8.58306884765625e-06,
+          "passed": true
+        },
+        "cls_active": {
+          "max_abs_difference": 1.1920928955078125e-07,
+          "passed": true
+        }
+      },
+      "preprocessing_seconds": 0.2109832470305264,
+      "encoder_seconds": 1.0469625829719007
+    },
+    {
+      "sample_id": "6173129876778358-SHOT.mp4",
+      "source_sha256": "6c4ad7873436125191a9fbe824a9b3d55203f8a4211e342d3b2d53162bad0196",
+      "split": "train",
+      "frames": 55,
+      "windows": 20,
+      "parity": {
+        "features": {
+          "max_abs_difference": 2.5033950805664062e-06,
+          "passed": true
+        },
+        "latent": {
+          "max_abs_difference": 7.62939453125e-06,
+          "passed": true
+        },
+        "cls_active": {
+          "max_abs_difference": 1.7881393432617188e-07,
+          "passed": true
+        }
+      },
+      "preprocessing_seconds": 0.13417250802740455,
+      "encoder_seconds": 0.5281126840272918
+    },
+    {
+      "sample_id": "7427448757909043-BUT.mp4",
+      "source_sha256": "244c34d5bb37726d2a9e4eecf7269d3ed05b721ec2755ef67e1d89419b78420c",
+      "split": "val",
+      "frames": 40,
+      "windows": 13,
+      "parity": {
+        "features": {
+          "max_abs_difference": 3.6954879760742188e-06,
+          "passed": true
+        },
+        "latent": {
+          "max_abs_difference": 7.867813110351562e-06,
+          "passed": true
+        },
+        "cls_active": {
+          "max_abs_difference": 2.384185791015625e-07,
+          "passed": true
+        }
+      },
+      "preprocessing_seconds": 0.090385458082892,
+      "encoder_seconds": 0.624453502940014
+    },
+    {
+      "sample_id": "7612328418048391-BARK.mp4",
+      "source_sha256": "cc507913528c962d5ae7b20c8824c29e24efb3c03c1a1c85a4771a070ce14a83",
+      "split": "val",
+      "frames": 124,
+      "windows": 55,
+      "parity": {
+        "features": {
+          "max_abs_difference": 1.3113021850585938e-06,
+          "passed": true
+        },
+        "latent": {
+          "max_abs_difference": 8.58306884765625e-06,
+          "passed": true
+        },
+        "cls_active": {
+          "max_abs_difference": 1.1920928955078125e-07,
+          "passed": true
+        }
+      },
+      "preprocessing_seconds": 0.3423550759907812,
+      "encoder_seconds": 2.071501118945889
+    },
+    {
+      "sample_id": "9428952336629859-GUN.mp4",
+      "source_sha256": "925c50f4669db205fada8f9d2ada82f350eab59952c3906c7f927da6a93c6493",
+      "split": "val",
+      "frames": 144,
+      "windows": 65,
+      "parity": {
+        "features": {
+          "max_abs_difference": 1.3113021850585938e-06,
+          "passed": true
+        },
+        "latent": {
+          "max_abs_difference": 6.67572021484375e-06,
+          "passed": true
+        },
+        "cls_active": {
+          "max_abs_difference": 2.086162567138672e-07,
+          "passed": true
+        }
+      },
+      "preprocessing_seconds": 0.3575061830924824,
+      "encoder_seconds": 2.12021989794448
+    }
+  ],
+  "passed": true,
+  "estimate_full_cache_wall_seconds": 5929.338287642211,
+  "estimate_is_provisional": true,
+  "estimate_rule": "max per-window/per-frame rates across five fixed clips",
+  "total_windows": 61339,
+  "total_frames": 147226,
+  "peak_allocated_bytes": 811848704,
+  "peak_reserved_bytes": 998244352,
+  "budget_before_launch": {
+    "hypothesis": "H001",
+    "project_limit_seconds": 14400,
+    "hypothesis_limit_seconds": 3600,
+    "project_used_seconds": 0.11082934204023331,
+    "hypothesis_used_seconds": 0.11082934204023331,
+    "remaining_seconds": 3599.8891706579598,
+    "counted_attempts": [
+      {
+        "run_id": "DEV001_20261004_P001v3_s1701",
+        "H_id": "H001",
+        "status": "completed",
+        "GPU_seconds": 0.01724991004448384
+      },
+      {
+        "run_id": "GPU003_20261004_P001v3_s1701",
+        "H_id": "H001",
+        "status": "failed",
+        "GPU_seconds": 0.09357943199574947
+      }
+    ],
+    "status_sha256": {
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/AN001_20261004_P001v3_s1337/status.json": "8db9996a64501f4e3d9372bb2af4b4c794368db48f7512f2718d1bb0145f2953",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/BUD001_20261004_P001v3_s1337/status.json": "ccf9db1cd85c37ae928425d74c3c11dcb77f76da9e60ac61be12d18422f864b6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/BUD002_20261004_P001v3_s1337/status.json": "75b2120eddf7d9dcc83bfecd75b591a4ba07ffe69e828555ef9bcf7af854c6ee",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/COHORT001_20261003_s1701/status.json": "3821e562453a1568e339aa9b570ca6b8156af8398c68fdc1c8aec855a44781cf",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DATA001_20261003/status.json": "5da4a20abd7a491b401ed1be78e8c691f2dc3156839685ca9f225d9b6a5052e7",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DATA001_20261003_r1/status.json": "c0c71b27f70571d2e4e841e8939b72be603c94d90c8fe1e1eb53b2c2eaede983",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DEV001_20261004_P001v3_s1701/status.json": "b28f7c6fcdf73c13af7fcc1c3b381256cc70bb695507416ed082f74a76d2aeab",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/FEAT001_20261003_P001v1_s1701/status.json": "cdc6018fe88bed5e6631c777651eb249ac3d241383e52ae05cef32c3179d1566",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/GPU003_20261004_P001v3_s1701/status.json": "874c3b6ca8f2958a68e96fed965720e2931c018ba2a61c1f33ac772ed7f3e6d6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003/status.json": "31441927f0d2569c5091e9516dd54783f18c9c14754ce31e66f4d9b91219d5c6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003_r1/status.json": "9346853994465df3a21b8aa2b6cfe471a59fef006ceae8955603fd2caa5fee40",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003_r2/status.json": "fcaedb71bc7c5673db89ab4db2cf89c884633f5faa7395cf1091dec7a4a00832",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/NEAR001_20261004_P001v2_s1701/status.json": "9404ab25ab748736dda007197eb35aa2ac04a91ac0c324c6c4ed496623755295",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PIPE001_20261004_P001v3_s1337/status.json": "885feb6873c0cc0268637a5cc32ab254bf49401d39bfee1b180088b1216afeb0",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PIPE002_20261004_P001v3_s1337/status.json": "08ac92d58ccc174b56034861a7bad412daa975f7410c10dc7b49a00313130e55",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/POOL001_20261004_P001v3_s1337/status.json": "812c0e6a07e2cdc585950b7fa638d739d68591dbb7e296f3c2e38f0875f24f8d",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/POOL002_20261004_P001v3_s1337/status.json": "8abac52a94410027587a1d9c7435a3c0b86fe58b48718c69c7a09feab83813eb",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/UUID001_20261004_P001v3_s1337/status.json": "9a14b2e61fa988ca95ecb4d20aab8c35bdfb07d682f3d94a1163c470daa99229",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VAL001_20261003/status.json": "04c02836c0ffafbb9670fc237209186a89015804897814c0d0af9e9c0d7f301a",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VID002_20261003_P001v2_s1701/status.json": "504f9ff7b292aa9010d75db5ad6395ab16520a6799098089f10d98834527b6f3",
+      "/home/haipd/Sign_Representations/method/research_lab/runtime/PREP001_20261003/status.json": "41aa533175b8c179f9763c0a4c98b79b41b5cb396143225e0bc06959dec96ad0",
+      "/home/haipd/Sign_Representations/method/research_lab/runtime/REL001_20261003/status.json": "c06b78e27d0ed419f426a140080fdda644475fda5102e90110ad555ecf11d2a8"
+    }
+  },
+  "extraction_within_H001_budget": false
+}

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "parent_runs": [
+    {
+      "run_id": "LINEAGE001_20261004_51cfb6f8_s1701",
+      "status": "completed",
+      "wall_seconds": 1.7354275030083954,
+      "durable_bytes": 510137,
+      "ceiling_bytes": 4194304
+    },
+    {
+      "run_id": "LINEAGE002_20261004_743c4e83_s1701",
+      "status": "failed",
+      "wall_seconds": 1.735323350992985,
+      "durable_bytes": 1173362,
+      "ceiling_bytes": 2097152
+    },
+    {
+      "run_id": "LINEAGE003_20261004_v1_c555e3dc_s1701",
+      "status": "completed",
+      "wall_seconds": 1.141348479082808,
+      "durable_bytes": 1180804,
+      "ceiling_bytes": 2097152
+    }
+  ],
+  "first_record_retained": "Bdj5MUf_3Hc",
+  "source_rows": 39197,
+  "source_unique_ids": 39197,
+  "local_ids": 11096,
+  "local_ids_in_pool": 11096,
+  "failed_and_retry_source_bytes_equal": true,
+  "all_bound_inputs_snapshots_configs_outputs_verified": true,
+  "parent_instrumented_CPU_seconds": 4.612099333084188,
+  "GPU_hours": 0,
+  "new_encoder_calls": 0,
+  "scope": "same-agent independent line recount and provenance verification only; no training-membership or task-quality evidence"
+}

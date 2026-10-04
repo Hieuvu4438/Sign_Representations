@@ -1,0 +1,53 @@
+{
+  "protocol": "MSNATIVE001_cpu_smoke",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "GPU_allocation_seconds": 0,
+  "HPO_trials": 0,
+  "source_snapshots": {
+    "source_snapshot/bounded_artifacts.py": "method/frozen_probe/bounded_artifacts.py",
+    "source_snapshot/bounded_cpu_context.py": "method/frozen_probe/bounded_cpu_context.py",
+    "source_snapshot/cache.py": "method/frozen_probe/cache.py",
+    "source_snapshot/msasl_native.py": "method/frozen_probe/msasl_native.py",
+    "source_snapshot/resources.py": "method/frozen_probe/resources.py",
+    "source_snapshot/scripts/audit_msasl_native.py": "method/frozen_probe/scripts/audit_msasl_native.py",
+    "source_snapshot/temporal.py": "method/frozen_probe/temporal.py",
+    "source_snapshot/tests/test_msasl_native.py": "method/frozen_probe/tests/test_msasl_native.py"
+  },
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/msasl_native.py": "b5b73dd04a56ce7e1879afe34a0a91642bbba3f4b50cdf993d0c39a96e7fed6a",
+    "method/frozen_probe/resources.py": "27242333dd98852765d93e119fa1f591fe732dff1aa12f1a18fd69ca1fa0e4f2",
+    "method/frozen_probe/scripts/audit_msasl_native.py": "32280bd3676b842787b42ddfbaf6afdb62d154675c466909468d868cf0971905",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_msasl_native.py": "c6368ae94d6546ea3c2ed818739c093e0a165ebf17f386329e0968d04912515a",
+    "/home/haipd/Sign_Representations/method/frozen_probe/scripts/register_native_stage.py": "89cf75f4f5596316ca4b62108695235bd9bff09f4976a4a92b084a37ca7263e8",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/research_lab/records/decisions/D044.md": "8d2b3dec34254b36c9df12f468182adc89923c2056f92a64b0155f3935f95bd3",
+    "method/research_lab/records/protocols/MSNATIVE001_cpu_smoke.md": "c1eff6142bfefaa46fd2164d3efb610367806731190e0b5b04483ae4e1068ebc",
+    "method/frozen_probe/runtime/MSMETA001_20261004_b776d25d_s1701/official_annotation_archive.bin": "a8562008309eea4129e1bc0ed7f654a314fee195227222859657e307b6434c34",
+    "method/frozen_probe/runtime/MSMETA001_20261004_b776d25d_s1701/release_provenance.json": "f88421eeefea0241cfa2645aa0baa46f332424c531a2d6c0bfce236669ba0fe3",
+    "method/frozen_probe/runtime/MSMETA001_20261004_b776d25d_s1701/status.json": "a1af612b370c084e19d2c83ade632021238047395e333992b1d17f4f9050d46e"
+  },
+  "artifact_file_caps": {
+    "source_snapshot/bounded_artifacts.py": 9919,
+    "source_snapshot/bounded_cpu_context.py": 8396,
+    "source_snapshot/cache.py": 9237,
+    "source_snapshot/msasl_native.py": 3958,
+    "source_snapshot/resources.py": 3502,
+    "source_snapshot/scripts/audit_msasl_native.py": 6870,
+    "source_snapshot/temporal.py": 1192,
+    "source_snapshot/tests/test_msasl_native.py": 2303,
+    "config.json": 65536,
+    "environment.json": 32768,
+    "status.json": 65536,
+    "error.txt": 65536,
+    "combined_log.txt": 65536,
+    "native_tests.json": 16384
+  },
+  "artifact_manifest_cap": 65536,
+  "artifact_ceiling_bytes": 2097152,
+  "software_only": true
+}

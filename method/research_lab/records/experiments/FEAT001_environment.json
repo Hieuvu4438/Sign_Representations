@@ -1,0 +1,17 @@
+{
+  "executable": "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:09:02) [GCC 11.2.0]",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "timm": "1.0.20",
+    "albumentations": "2.0.8",
+    "numpy": "2.5.3",
+    "cv2": "5.0.0"
+  },
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 1,
+  "deterministic_algorithms": true,
+  "CUDA_VISIBLE_DEVICES": "",
+  "git_base": "6da1e45894dbbc46faa73f8f1be64d841ed5dcd5"
+}

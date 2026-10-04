@@ -1,0 +1,15 @@
+{
+  "run_id": "VERIFY001_20261004_P001v4_s1701",
+  "passed": true,
+  "scope": "real cache integrity only; no task score",
+  "source_count": 1691,
+  "windows": 61339,
+  "payload_bytes": 190727048,
+  "cache_manifest": "/dev/shm/signrep_frozen_probe_8bfd9b55453cd54f1d7b/manifest.json",
+  "cache_manifest_sha256": "4b2217203fb25af9110226e06cb56f7171ae4b46b111b9bf77c049c33ab9e737",
+  "cache_identity_sha256": "0e652cd85bc98af46b292316c7f73dd86ec48727b80513a2a84c9c55c9e3b2de",
+  "extraction_report_sha256": "3ac848aeeb4dab3502630b4f885cf3bf8b446d40981650a3a0f53f763290a439",
+  "extraction_status_sha256": "1799ae251310376c9d80402053020dbdf4df3d04917448c5c58aa0d9c4b49681",
+  "all_shard_hashes_arrays_and_native_centers_checked": true,
+  "test_access": "none"
+}

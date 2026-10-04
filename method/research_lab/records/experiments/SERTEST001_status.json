@@ -1,0 +1,28 @@
+{
+  "run_id": "SERTEST001_20261004_P003v1_s1337",
+  "protocol": "P003_v1_serialization_erratum",
+  "status": "completed",
+  "seed": 1337,
+  "GPU_hours": 0,
+  "pid": 2122230,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T22:14:58.760235+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/software_smoke.py",
+    "--config",
+    "method/frozen_probe/configs/SERTEST001.json",
+    "--seed",
+    "1337",
+    "--run-id",
+    "SERTEST001_20261004_P003v1_s1337",
+    "--output-dir",
+    "method/frozen_probe/runtime/SERTEST001_20261004_P003v1_s1337"
+  ],
+  "config_sha256": "991175bba9166fd8cb6fbded09568b908dd631e0cc348ae8eb9803f94d5011b5",
+  "script_sha256": "7e4acbd034270ba1da1c5c0cfbcfb6cf9925495d39352faff5158f4b2607b2fd",
+  "exit_code": 0,
+  "output_sha256": "d97eb2944a5e43794b5258ab3ed05ff3a0132aa07b40e2a16d56230fb3bca54e",
+  "end_utc": "2026-10-03T22:14:59.166587+00:00",
+  "wall_seconds": 0.40636485593859106
+}

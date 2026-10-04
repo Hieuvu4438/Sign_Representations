@@ -1,0 +1,36 @@
+{
+  "run_id": "POOL002_20261004_P001v3_s1337",
+  "scope": "synthetic/unit software checks only",
+  "tests_run": 21,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "code_hashes": {
+    "pooling.py": "3e96860bdf7af1ff520520fff2ec39bcc0af87955ba174afedd7768459436564",
+    "probes.py": "2f4519452a338943ca29408a1700edfeb8ee1681535b14a86660a6001fe8f063",
+    "scripts/software_smoke.py": "230cc1049bba4ab303afaa51951bc1a2829cd0cbac496419a853858320d7938a",
+    "tests/test_cohort.py": "8761946e1631a8ce21f08cc20ac89b9ca1e7c77ee3b81c107673854f6bef8cc8",
+    "tests/test_duplicate_screen.py": "80b49f047c748efa52d37c29e41cf14515bfe9eef20ba4657f2c226fdcbf0ce2",
+    "tests/test_metrics.py": "33f46fe5a44b982b6e13b5f08a64dfef973a768ec2009e308556bf778621d697",
+    "tests/test_pooling_probes.py": "50be4167695ee38a3afd418f0851263c801d2a6d0fa297401810ebeb9ff79af0",
+    "tests/test_timeline.py": "69a9bcc5d35eab739ed21b02f7a62fe1ec24963eff096038604ab0cfc03db53c",
+    "tests/test_video_contract.py": "d3774fe788c7ca0acb8a2e7d6eb2a88a83934a9d627a3589a5fe16d6e7a6d3dc",
+    "tests/test_window_contract.py": "7a5008116c4c036f7af21543c4c1b63f7967116168cf2297ba5a0d1bec0f1a12"
+  },
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:09:02) [GCC 11.2.0]",
+  "numpy": "2.5.3",
+  "configuration": {
+    "protocol": "P001_v3_draft",
+    "output_layer": "features",
+    "bins": 4,
+    "output_dim": 768,
+    "projection_seed": 1337,
+    "shuffle_seed": 2718,
+    "activity": "max_clamped_raw_regression_0_1",
+    "zero_weight_rule": "clip_mean",
+    "test_pattern": "test_*.py",
+    "timeout_seconds": 30
+  },
+  "log_sha256": "1d0a5d2778faf0bba5ed8855f8d8884b4224705b9fbbd48bd174479a8f1b9164"
+}

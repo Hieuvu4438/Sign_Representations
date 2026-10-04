@@ -1,0 +1,14 @@
+{
+  "expected_run_id": "MSCOHORT002_20261004_904cf3c8_s1701",
+  "expected_output_dir": "method/frozen_probe/runtime/MSCOHORT002_20261004_904cf3c8_s1701",
+  "actual_run_id": "MSCOHORT002_20261004_a31e7b04_s1701",
+  "actual_output_dir": "method/frozen_probe/runtime/MSCOHORT002_20261004_a31e7b04_s1701",
+  "config_sha256": "904cf3c8084c7b7e1274271576eb7d4c775e761098bfa76e3051dd281adcaf61",
+  "actual_status": "completed",
+  "exit_code": 0,
+  "wall_seconds": 0.4829649979947135,
+  "GPU_hours": 0,
+  "preregistered_execution_validity": "invalid run/output ID, retained actual diagnostic outputs; no numbers promoted",
+  "reason": "Agent hardcoded wrong run hash in launch command",
+  "repair": "MSCOHORT003 launch exact fields from freshregistration"
+}

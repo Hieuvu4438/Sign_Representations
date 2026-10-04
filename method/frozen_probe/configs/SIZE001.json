@@ -1,0 +1,36 @@
+{
+  "protocol": "P004_v0_train_only_feasibility",
+  "seed": 1704,
+  "timeout_seconds": 120,
+  "inputs": {
+    "cohort": {
+      "path": "method/research_lab/records/inventory/COHORT002_cohort.json",
+      "sha256": "bf9f72c927687f5a0657dad32b940b67a38c65311312c9d60ec4d4d8c91d875c"
+    },
+    "audit": {
+      "path": "method/research_lab/records/inventory/VID003_video_audit.json",
+      "sha256": "d32a4349398ed7b97ba756301500f59a410393feb5cfebdeac7e6e8a9bd0a26e"
+    },
+    "original_audit": {
+      "path": "method/research_lab/records/inventory/VID002_video_audit.json",
+      "sha256": "5f93826b211e1d45667c8dc3b8b352b6c5a34644a60218c1e0dc5f77760ca0fe"
+    },
+    "rates": {
+      "path": "method/research_lab/records/protocols/P003_v1_representative_rates.json",
+      "sha256": "7b4166bbef477864f4cbc439c26df263d7b4779b89d33b08497e61a67775fd83"
+    },
+    "original_analysis": {
+      "path": "method/research_lab/records/experiments/CONFAN002_analysis.json",
+      "sha256": "ee83251ea253a0e60ca70a72bea03e39951a45d474d9a010fef98000f5d79a0c"
+    },
+    "original_test_audit": {
+      "path": "method/frozen_probe/runtime/PRETEST001_20261004_H002_P003v1_741b0823_s1701/video_audit.json",
+      "sha256": "83c33c6abedf3c534b45ed6242e166e0ebf5c4b120f221fd821f5f3685cff91d"
+    }
+  },
+  "budget_runtime_roots": [
+    "method/frozen_probe/runtime",
+    "method/research_lab/runtime"
+  ],
+  "scope": "source screen and conditional projection only; not new test access or inference launch gate"
+}

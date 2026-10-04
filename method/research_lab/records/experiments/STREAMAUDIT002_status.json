@@ -1,0 +1,30 @@
+{
+  "run_id": "STREAMAUDIT002_20261004_H003_v2_closure_s1701",
+  "protocol": "H003_v2_artifact_closure",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2707373,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T06:43:01.107956+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "method/stream_reliability/scripts/audit_artifacts.py",
+    "--config",
+    "method/stream_reliability/configs/STREAMAUDIT002.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "STREAMAUDIT002_20261004_H003_v2_closure_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/STREAMAUDIT002_20261004_H003_v2_closure_s1701"
+  ],
+  "config_sha256": "fc354fb0b989fee9d2ec7957b22ca1794eb2ebbe4f5361ee214647824fe5b102",
+  "H_id": "H003",
+  "output_hashes": {
+    "artifact_audit.json": "f84c30158026173f7482a46d2e56a538ca6603579e7b4236f9b0bcb7b065db02"
+  },
+  "end_utc": "2026-10-04T06:43:01.192788+00:00",
+  "wall_seconds": 0.0848420059774071,
+  "exit_code": 0
+}

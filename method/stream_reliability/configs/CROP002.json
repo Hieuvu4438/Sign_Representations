@@ -1,0 +1,27 @@
+{
+  "protocol": "H003_v0_crop_contract",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 180,
+  "max_fixture_bytes": 33554432,
+  "pts_tolerance_seconds": 0.00051,
+  "hands_source": "third_party/SHuBERT/dataset/crop_hands.py",
+  "face_source": "third_party/SHuBERT/dataset/crop_face.py",
+  "body_source": "third_party/SHuBERT/features/body_features.py",
+  "landmark_report": "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json",
+  "cohort_manifest": "method/research_lab/records/inventory/COHORT001_cohort.json",
+  "primary": "Explicit native software/input contracts and independent canonical geometry/color oracles; no task metric",
+  "new_task_measurement": false,
+  "input_hashes": {
+    "third_party/SHuBERT/dataset/crop_hands.py": "d4ec451e3aed5993101051412a3f44d9c24e0155fff4e701fb475c4fda109560",
+    "third_party/SHuBERT/dataset/crop_face.py": "f028c60330ddd99cd3d71b06dad5b2c233aef438797db35d3b57dad83e910c11",
+    "third_party/SHuBERT/features/body_features.py": "4db7742e852cf9b6358235be3f3fb4dada2e5beae82eea149c509add8eb41cd7",
+    "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json": "ef9bab8a0ae48ab0f0c1d3571987e5c411a2706a14d2201bff1627d8f8dd72f1",
+    "method/research_lab/records/inventory/COHORT001_cohort.json": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+    "method/research_lab/records/protocols/H003_v0_crop_contract.md": "65f90daa5f0e82a57371bbe453b2605a0b4b714dd60169c23f3d04c2dac2e1db",
+    "method/stream_reliability/scripts/audit_crop_contract.py": "02049b289dccd4d1de3c0ff1b7037ac7c187d757b03cbe602b7d0ab38a2d140a"
+  },
+  "retry": 1,
+  "parent_failed_run": "CROP001_20261004_H003_v0_9ae32957_s1701",
+  "diagnosis": "Native hand box coordinates include NumPy int64. CROP001 failed only final frame_geometry strict-JSON persistence; explicit Python int conversion at box metadata boundary, no geometry/detector/oracle/scientific setting change."
+}

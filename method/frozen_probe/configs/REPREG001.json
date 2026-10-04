@@ -1,0 +1,24 @@
+{
+  "protocol": "P004_v1",
+  "H_id": "H002",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "scientific_configs": [
+    "method/frozen_probe/configs/CACHE006.json",
+    "method/frozen_probe/configs/REPQUAL001.json"
+  ],
+  "original_scientific_gate": "method/research_lab/records/protocols/P003_v1_serialization_gate.json",
+  "estimate_full_dev_first_seconds": 4710.633480887967,
+  "planned_cache_bytes": 81016848,
+  "bound_documents": [
+    "method/research_lab/records/protocols/P004_v1_dev_pilot.md",
+    "method/research_lab/records/protocols/P003_v1_serialization_gate.json",
+    "method/research_lab/records/decisions/D012.md",
+    "method/research_lab/records/inventory/COHORT002_cohort.json",
+    "method/research_lab/records/inventory/VID003_video_audit.json",
+    "method/research_lab/records/inventory/SIZE003_feasibility.json",
+    "method/frozen_probe/runtime/GPU004_20261004_P001v3_s1701/report.json",
+    "method/frozen_probe/runtime/GPU004_20261004_P001v3_s1701/status.json"
+  ],
+  "role_review": "Same-agent Researcher/Engineer/ProtocolAuditor/Statistician/SkepticalReviewer sequential conclusions in P004_v1_dev_pilot.md; not independent"
+}

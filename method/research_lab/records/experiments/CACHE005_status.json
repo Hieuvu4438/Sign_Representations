@@ -1,0 +1,87 @@
+{
+  "run_id": "CACHE005_20261004_P001v4_s1701",
+  "protocol": "P001_v4",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0.6879440907425144,
+  "pid": 1614077,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T19:26:24.796034+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "method/frozen_probe/scripts/extract_cache.py",
+    "--config",
+    "method/frozen_probe/configs/CACHE005.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "CACHE005_20261004_P001v4_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/CACHE005_20261004_P001v4_s1701",
+    "--smoke-run",
+    "method/frozen_probe/runtime/GPU004_20261004_P001v3_s1701"
+  ],
+  "config_sha256": "1b979f9e65e72b42aa68421c8e84d02ff4d17185885f637cdf108be3e9192b8e",
+  "H_id": "H001",
+  "GPU_allocated": true,
+  "gpu_start_utc": "2026-10-03T19:26:26.068187+00:00",
+  "budget_before_launch": {
+    "hypothesis": "H001",
+    "project_limit_seconds": 14400,
+    "hypothesis_limit_seconds": 7200,
+    "project_used_seconds": 10.745844365097582,
+    "hypothesis_used_seconds": 10.745844365097582,
+    "remaining_seconds": 7189.254155634902,
+    "counted_attempts": [
+      {
+        "run_id": "DEV001_20261004_P001v3_s1701",
+        "H_id": "H001",
+        "status": "completed",
+        "GPU_seconds": 0.01724991004448384
+      },
+      {
+        "run_id": "GPU003_20261004_P001v3_s1701",
+        "H_id": "H001",
+        "status": "failed",
+        "GPU_seconds": 0.09357943199574947
+      },
+      {
+        "run_id": "GPU004_20261004_P001v3_s1701",
+        "H_id": "H001",
+        "status": "completed",
+        "GPU_seconds": 10.635015023057349
+      }
+    ],
+    "status_sha256": {
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/ALLOC001_20261004_P001v4_s1337/status.json": "cebd0231c7d8ceef7dac1f85a2f41cf74f7ae9e666b8ad462a93cf17b2d55a71",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/AN001_20261004_P001v3_s1337/status.json": "8db9996a64501f4e3d9372bb2af4b4c794368db48f7512f2718d1bb0145f2953",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/BUD001_20261004_P001v3_s1337/status.json": "ccf9db1cd85c37ae928425d74c3c11dcb77f76da9e60ac61be12d18422f864b6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/BUD002_20261004_P001v3_s1337/status.json": "75b2120eddf7d9dcc83bfecd75b591a4ba07ffe69e828555ef9bcf7af854c6ee",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/COHORT001_20261003_s1701/status.json": "3821e562453a1568e339aa9b570ca6b8156af8398c68fdc1c8aec855a44781cf",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DATA001_20261003/status.json": "5da4a20abd7a491b401ed1be78e8c691f2dc3156839685ca9f225d9b6a5052e7",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DATA001_20261003_r1/status.json": "c0c71b27f70571d2e4e841e8939b72be603c94d90c8fe1e1eb53b2c2eaede983",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DEV001_20261004_P001v3_s1701/status.json": "b28f7c6fcdf73c13af7fcc1c3b381256cc70bb695507416ed082f74a76d2aeab",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/FEAT001_20261003_P001v1_s1701/status.json": "cdc6018fe88bed5e6631c777651eb249ac3d241383e52ae05cef32c3179d1566",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/GPU003_20261004_P001v3_s1701/status.json": "874c3b6ca8f2958a68e96fed965720e2931c018ba2a61c1f33ac772ed7f3e6d6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/GPU004_20261004_P001v3_s1701/status.json": "af4d4d34f37746826cc9da8cecffce6ba20b82df7b356f9c4629b948ec17dc50",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003/status.json": "31441927f0d2569c5091e9516dd54783f18c9c14754ce31e66f4d9b91219d5c6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003_r1/status.json": "9346853994465df3a21b8aa2b6cfe471a59fef006ceae8955603fd2caa5fee40",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003_r2/status.json": "fcaedb71bc7c5673db89ab4db2cf89c884633f5faa7395cf1091dec7a4a00832",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/NEAR001_20261004_P001v2_s1701/status.json": "9404ab25ab748736dda007197eb35aa2ac04a91ac0c324c6c4ed496623755295",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PIPE001_20261004_P001v3_s1337/status.json": "885feb6873c0cc0268637a5cc32ab254bf49401d39bfee1b180088b1216afeb0",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PIPE002_20261004_P001v3_s1337/status.json": "08ac92d58ccc174b56034861a7bad412daa975f7410c10dc7b49a00313130e55",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/POOL001_20261004_P001v3_s1337/status.json": "812c0e6a07e2cdc585950b7fa638d739d68591dbb7e296f3c2e38f0875f24f8d",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/POOL002_20261004_P001v3_s1337/status.json": "8abac52a94410027587a1d9c7435a3c0b86fe58b48718c69c7a09feab83813eb",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/UUID001_20261004_P001v3_s1337/status.json": "9a14b2e61fa988ca95ecb4d20aab8c35bdfb07d682f3d94a1163c470daa99229",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VAL001_20261003/status.json": "04c02836c0ffafbb9670fc237209186a89015804897814c0d0af9e9c0d7f301a",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VID002_20261003_P001v2_s1701/status.json": "504f9ff7b292aa9010d75db5ad6395ab16520a6799098089f10d98834527b6f3",
+      "/home/haipd/Sign_Representations/method/research_lab/runtime/PREP001_20261003/status.json": "41aa533175b8c179f9763c0a4c98b79b41b5cb396143225e0bc06959dec96ad0",
+      "/home/haipd/Sign_Representations/method/research_lab/runtime/REL001_20261003/status.json": "c06b78e27d0ed419f426a140080fdda644475fda5102e90110ad555ecf11d2a8"
+    }
+  },
+  "gpu_deadline_seconds": 7189,
+  "output_sha256": "3ac848aeeb4dab3502630b4f885cf3bf8b446d40981650a3a0f53f763290a439",
+  "end_utc": "2026-10-03T20:07:42.666915+00:00",
+  "wall_seconds": 2477.8709064159775,
+  "exit_code": 0
+}

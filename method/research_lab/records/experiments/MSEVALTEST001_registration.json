@@ -1,0 +1,41 @@
+{
+  "registered_utc": "2026-10-04T14:22:48.916729+00:00",
+  "run_id": "MSEVALTEST001_20261004_a14e1536_s1701",
+  "config": "method/frozen_probe/configs/MSEVALTEST001.json",
+  "config_sha256": "a14e1536113929b17bfb1673edebe0a307ae641c600aba8a0d554082138baada",
+  "output_dir": "method/frozen_probe/runtime/MSEVALTEST001_20261004_a14e1536_s1701",
+  "CPU_limit_seconds": 60,
+  "GPU_seconds": 0,
+  "durable_bytes_ceiling": 2097152,
+  "maximum_planned_logical_bytes": 1319535,
+  "input_hashes": {
+    "method/frozen_probe/analysis.py": "387d82f327a04ef2dedd729ae110325e3786cfa9ffef024999b83b0ba56a014c",
+    "method/frozen_probe/axis_spectrum.py": "dfe0288600eb48f9521420e148381b4f282b2336d9cc1699e37b38e2801cfaf4",
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/compact_geometry_artifacts.py": "44462a19f7117ec22877bd9cc649cd079679156453fefa55bf6115bd6158212b",
+    "method/frozen_probe/dictionary_metrics.py": "7099c48efaabb98b0e0e1984a07ae2c09ae7dbd94674530807d36b3523fa87aa",
+    "method/frozen_probe/metrics.py": "43db516fa029b20986130cae6b98e95e500cefa372d15ae4c020130b9f56c79c",
+    "method/frozen_probe/msasl_geometry_eval.py": "219632e0db284b02c23ddf302495af9d02ca3b7ff291b98dccb899957f62e7b4",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/frozen_probe/scripts/register_msasl_eval_stage.py": "e409b48b411fa229ee41ba837879f1dd5e5c92bdd930e854d64f5efb695ffc72",
+    "method/frozen_probe/scripts/test_msasl_geometry_eval.py": "de366e0f531e9dc69f6a7cc497c6da8d9489a594620c8b887c828180407d3225",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_msasl_geometry_eval.py": "5c3113f3f8a26957ff5e2c23ad35cbb8ea346c2a85227c412b9cd7ae7538ee08",
+    "method/research_lab/records/decisions/D071.md": "92807c11ce374bfb73750641c02966fdec25972a8ea78c0387844b71267d80b4",
+    "method/research_lab/records/protocols/MSEVALTEST001_manual_geometry_oracles.md": "f602faf242cc576c4ffa2582668301bdc48f65a007dc1b378968d4d56176c508"
+  },
+  "command": [
+    "/home/haipd/miniconda3/bin/python",
+    "method/frozen_probe/scripts/test_msasl_geometry_eval.py",
+    "--config",
+    "method/frozen_probe/configs/MSEVALTEST001.json",
+    "--run-id",
+    "MSEVALTEST001_20261004_a14e1536_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/MSEVALTEST001_20261004_a14e1536_s1701",
+    "--seed",
+    "1701"
+  ]
+}

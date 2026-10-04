@@ -1,0 +1,16 @@
+{
+  "protocol": "A001_input_coverage",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "methods": [
+    "full_activity",
+    "uniform8",
+    "random8_s2718",
+    "random8_s31415"
+  ],
+  "video_audits": {
+    "method/research_lab/records/inventory/VID002_video_audit.json": "5f93826b211e1d45667c8dc3b8b352b6c5a34644a60218c1e0dc5f77760ca0fe",
+    "method/research_lab/records/inventory/PRETEST001_video_audit.json": "83c33c6abedf3c534b45ed6242e166e0ebf5c4b120f221fd821f5f3685cff91d"
+  },
+  "scope": "additional descriptive structural analysis; primary P003 unchanged; no score/label/feature read"
+}

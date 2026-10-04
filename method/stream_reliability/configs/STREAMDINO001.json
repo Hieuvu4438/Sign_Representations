@@ -1,0 +1,18 @@
+{
+  "protocol": "H003_v0_dino_load_audit",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 180,
+  "source_run": "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701",
+  "asset_run": "method/stream_reliability/runtime/ASSET002_20261004_H003_v0_5e2de9e7_s1701",
+  "author_source": "third_party/SHuBERT/features/dinov2_features.py",
+  "author_source_sha256": "6631e836bcbc018d734ae8606dff4d6bd5d19251541a19fff0974941f81eaf82",
+  "dependencies": [
+    ["method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701", "source_manifest.json", "3dc2bfe287875e2eee96768429d29bd137e08fe17c47117b107185f255b3a848"],
+    ["method/stream_reliability/runtime/ASSET002_20261004_H003_v0_5e2de9e7_s1701", "asset_equality.json", "14f7c056354e6869ea4628db95e09cbe5ba99cdbbdde7e80bc6cbd1c3a93143c"]
+  ],
+  "device": "cpu",
+  "new_task_measurement": false,
+  "success": "Exact key/shape coverage and strict load both assets; finite (1,384) outputs; exact PIL helper preprocessing parity; no CUDA allocation",
+  "stop": "Missing/unexpected/shape mismatch, nonfinite output or changed dependency; retain failure, no strict=False fallback"
+}

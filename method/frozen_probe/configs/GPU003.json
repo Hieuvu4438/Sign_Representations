@@ -1,0 +1,38 @@
+{
+  "protocol": "P001_v3",
+  "seed": 1701,
+  "timeout_seconds": 900,
+  "min_free_mib": 8192,
+  "max_gpu_utilization": 100,
+  "checkpoint": "checkpoints/signrep/ckpt.pt",
+  "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "cpu_report": "method/frozen_probe/runtime/FEAT001_20261003_P001v1_s1701/parity.json",
+  "cpu_features": "method/frozen_probe/runtime/FEAT001_20261003_P001v1_s1701/selected_features.npz",
+  "video_audit": "method/research_lab/records/inventory/VID002_video_audit.json",
+  "video_root": "/home/dongvk/datasets/ASL_Citizen/videos",
+  "upstream_commit": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "timm": "1.0.20",
+    "albumentations": "2.0.8",
+    "numpy": "2.5.3"
+  },
+  "batch_size": 2,
+  "max_frames_per_video": 2000,
+  "feature_atol": 1e-05,
+  "feature_rtol": 0.0001,
+  "estimate_safety_multiplier": 1.5,
+  "hash_and_write_reserve_seconds": 600,
+  "cpu_report_sha256": "1eb27ebefe5174d4e485262f5682b1c811de30bd9e8d7918c41dde864c0cebf7",
+  "cpu_features_sha256": "eef793069b2af8db86cb00740b6f3c81977b38f9091179301832ed55b013f624",
+  "video_audit_sha256": "5f93826b211e1d45667c8dc3b8b352b6c5a34644a60218c1e0dc5f77760ca0fe",
+  "H_id": "H001",
+  "project_gpu_ceiling_seconds": 14400,
+  "H001_gpu_ceiling_seconds": 3600,
+  "budget_runtime_roots": [
+    "method/frozen_probe/runtime",
+    "method/research_lab/runtime"
+  ],
+  "resource_mode": "user_confirmed_available_shared_GPU0",
+  "cost_scope": "shared_GPU_load_at_measurement_not_dedicated_throughput"
+}

@@ -1,0 +1,18 @@
+{
+  "protocol": "ARTIFACTTEST001_bounded_writer",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "GPU_allocation_seconds": 0,
+  "HPO_trials": 0,
+  "fixture_directory": "/dev/shm/signrep_artifact_fixtures_20261004_v0_s1701",
+  "fixture_bytes_ceiling": 33554432,
+  "input_hashes": {
+    "method/research_lab/records/protocols/ARTIFACTTEST001_bounded_writer.md": "aafef3e4c16ccf03620b4342dd524361cd735bf97961dbf2eb399918f31d7fb1",
+    "method/research_lab/records/decisions/D035.md": "102ba21941e9b4846b320b042a3c5cd0c149d1de006ef59a36555f6a438e3b17",
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/compact_geometry_artifacts.py": "44462a19f7117ec22877bd9cc649cd079679156453fefa55bf6115bd6158212b",
+    "method/frozen_probe/scripts/validate_artifact_writer.py": "2967168b1520ec1e104b0655977a34c78f34dbe818c1debccb4ddfde3db04681",
+    "method/frozen_probe/tests/test_bounded_artifacts.py": "6775214b2d3a0d4a6e197e15929720000c572d52e204220a0db04cf6aae932ac",
+    "method/research_lab/records/inventory/H006_STORAGE_PREFLIGHT_INCIDENT.json": "78b5069e7d889f1b6523a2c85a6e1200227fc3956064ad9774151293f7edb095"
+  }
+}

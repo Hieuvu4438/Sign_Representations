@@ -1,0 +1,277 @@
+{
+  "run_id": "CROP001_20261004_H003_v0_9ae32957_s1701",
+  "GPU_hours": 0,
+  "fixtures": [
+    {
+      "name": "canonical_body_independent_oracle",
+      "result": {
+        "pass_oracle": true,
+        "max_abs_error": 8.326672684688674e-17
+      },
+      "error": null
+    },
+    {
+      "name": "body_observed_then_missing",
+      "result": {
+        "shape": [
+          2,
+          14
+        ],
+        "finite": true,
+        "rows_equal": true
+      },
+      "error": null
+    },
+    {
+      "name": "body_initial_whole_row_None",
+      "result": null,
+      "error": {
+        "type": "ValueError",
+        "message": "setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part."
+      }
+    },
+    {
+      "name": "body_initial_pose_field_None",
+      "result": {
+        "shape": [
+          2,
+          14
+        ],
+        "finite": true,
+        "rows_equal": false
+      },
+      "error": null
+    },
+    {
+      "name": "collapsed_shoulders",
+      "result": {
+        "finite": false
+      },
+      "error": null
+    },
+    {
+      "name": "two_separated_hands",
+      "result": {
+        "left_index": 0,
+        "right_index": 1,
+        "same_detection": false
+      },
+      "error": null
+    },
+    {
+      "name": "one_shared_detection_both_wrists",
+      "result": {
+        "left_index": 0,
+        "right_index": 0,
+        "same_detection": true
+      },
+      "error": null
+    },
+    {
+      "name": "empty_hand_list",
+      "result": null,
+      "error": {
+        "type": "IndexError",
+        "message": "list index out of range"
+      }
+    },
+    {
+      "name": "exact_0p1_wrist_threshold",
+      "result": {
+        "left_index": null,
+        "right_index": null,
+        "same_detection": false
+      },
+      "error": null
+    },
+    {
+      "name": "oversized_hand_box",
+      "result": {
+        "box": [
+          0,
+          0,
+          200,
+          200
+        ],
+        "pixel_shape": [
+          48,
+          64,
+          3
+        ],
+        "declared_extent_matches": false
+      },
+      "error": null
+    },
+    {
+      "name": "valid_face_color_permutation",
+      "result": {
+        "shape": [
+          39,
+          39,
+          3
+        ],
+        "equal": true
+      },
+      "error": null
+    },
+    {
+      "name": "face_cues_outside_image",
+      "result": null,
+      "error": {
+        "type": "ValueError",
+        "message": "could not broadcast input array from shape (7,12,3) into shape (7,0,3)"
+      }
+    },
+    {
+      "name": "initial_None_native_face_writer",
+      "result": {
+        "expected_native_frames": 2,
+        "written_frames": [
+          1
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "initial_None_native_hands_writer",
+      "result": {
+        "expected_native_frames": 2,
+        "written_frames": [
+          1,
+          1
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "lossless_known_color_oracle",
+      "result": {
+        "exact_decord_RGB": true,
+        "exact_OpenCV_BGR_after_permutation": true,
+        "source_shape": [
+          2,
+          48,
+          64,
+          3
+        ],
+        "command": [
+          "ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-f",
+          "rawvideo",
+          "-pix_fmt",
+          "rgb24",
+          "-s",
+          "64x48",
+          "-r",
+          "1",
+          "-i",
+          "pipe:0",
+          "-c:v",
+          "ffv1",
+          "-pix_fmt",
+          "bgr0",
+          "-threads",
+          "1",
+          "/dev/shm/shubert_crop_audit_CROP001_20261004_H003_v0_9ae32957_s1701/color_lossless.mkv"
+        ]
+      },
+      "error": null
+    },
+    {
+      "name": "author_swap_then_Bgr_writer_roundtrip",
+      "result": {
+        "max_abs_pixel_error": 4,
+        "mean_abs_pixel_error": 2.6666666666666665,
+        "left_R_exceeds_B": true,
+        "lossy_codec": true,
+        "exact_pixel_parity_claim": false
+      },
+      "error": null
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "0009570133052014818-GO BACK_AND_FORTH.mp4",
+      "split": "train",
+      "frames": 156,
+      "counts": {
+        "left_selected": 65,
+        "right_selected": 58,
+        "same_detection": 0,
+        "face_crop_errors": 0,
+        "hand_crop_errors": 0,
+        "body_nonfinite": 0,
+        "real_decord_vs_CvRGB_max_error": 0
+      }
+    },
+    {
+      "sample_id": "0010333569349243454-TOSS OUT.mp4",
+      "split": "train",
+      "frames": 87,
+      "counts": {
+        "left_selected": 19,
+        "right_selected": 21,
+        "same_detection": 0,
+        "face_crop_errors": 0,
+        "hand_crop_errors": 0,
+        "body_nonfinite": 0,
+        "real_decord_vs_CvRGB_max_error": 0
+      }
+    },
+    {
+      "sample_id": "00033277435717016246-ELECTROCUTE.mp4",
+      "split": "val",
+      "frames": 82,
+      "counts": {
+        "left_selected": 24,
+        "right_selected": 15,
+        "same_detection": 0,
+        "face_crop_errors": 0,
+        "hand_crop_errors": 0,
+        "body_nonfinite": 0,
+        "real_decord_vs_CvRGB_max_error": 0
+      }
+    },
+    {
+      "sample_id": "0014822228991275832-BORROW.mp4",
+      "split": "val",
+      "frames": 71,
+      "counts": {
+        "left_selected": 22,
+        "right_selected": 32,
+        "same_detection": 14,
+        "face_crop_errors": 0,
+        "hand_crop_errors": 0,
+        "body_nonfinite": 0,
+        "real_decord_vs_CvRGB_max_error": 0
+      }
+    }
+  ],
+  "resources": {
+    "path": "/dev/shm",
+    "total_bytes": 33365929984,
+    "free_bytes": 33049698304,
+    "planned_bytes": 33554432,
+    "cache_limit_bytes": 1073741824,
+    "reserve_fraction": 0.2,
+    "memory_bytes": {
+      "MemTotal": 66731859968,
+      "MemAvailable": 59569848320
+    },
+    "cpu_workspace_reserve_bytes": 2147483648
+  },
+  "fixture_root": "/dev/shm/shubert_crop_audit_CROP001_20261004_H003_v0_9ae32957_s1701",
+  "upstream_sources": {
+    "third_party/SHuBERT/dataset/crop_hands.py": "d4ec451e3aed5993101051412a3f44d9c24e0155fff4e701fb475c4fda109560",
+    "third_party/SHuBERT/dataset/crop_face.py": "f028c60330ddd99cd3d71b06dad5b2c233aef438797db35d3b57dad83e910c11",
+    "third_party/SHuBERT/features/body_features.py": "4db7742e852cf9b6358235be3f3fb4dada2e5beae82eea149c509add8eb41cd7",
+    "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json": "ef9bab8a0ae48ab0f0c1d3571987e5c411a2706a14d2201bff1627d8f8dd72f1",
+    "method/research_lab/records/inventory/COHORT001_cohort.json": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+    "method/research_lab/records/protocols/H003_v0_crop_contract.md": "65f90daa5f0e82a57371bbe453b2605a0b4b714dd60169c23f3d04c2dac2e1db"
+  },
+  "scope": "CPU input geometry/observability/color audit only, no DINO/model/task inference",
+  "natural_failure_ground_truth": false
+}

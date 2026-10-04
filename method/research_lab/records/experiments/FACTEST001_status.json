@@ -1,0 +1,28 @@
+{
+  "run_id": "FACTEST001_20261004_A002_s1337",
+  "protocol": "A002_post_outcome_query_gallery_factorial",
+  "status": "completed",
+  "seed": 1337,
+  "GPU_hours": 0,
+  "pid": 2156682,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T22:53:56.787933+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/software_smoke.py",
+    "--config",
+    "method/frozen_probe/configs/FACTEST001.json",
+    "--seed",
+    "1337",
+    "--run-id",
+    "FACTEST001_20261004_A002_s1337",
+    "--output-dir",
+    "method/frozen_probe/runtime/FACTEST001_20261004_A002_s1337"
+  ],
+  "config_sha256": "bda8d6da7193dacbe70e35f420abba8526b11a9c7d4b5979068e154b147cc640",
+  "script_sha256": "7e4acbd034270ba1da1c5c0cfbcfb6cf9925495d39352faff5158f4b2607b2fd",
+  "exit_code": 0,
+  "output_sha256": "6e941a262cdedde412784b41fdb354a54a769a30a13417b7499d24a0fe245070",
+  "end_utc": "2026-10-03T22:53:56.828502+00:00",
+  "wall_seconds": 0.04058162902947515
+}

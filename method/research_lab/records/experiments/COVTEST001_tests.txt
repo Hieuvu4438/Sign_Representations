@@ -1,0 +1,8 @@
+test_long_hole_nonuniform_pts_and_invalid_indices (test_coverage.CoverageTests.test_long_hole_nonuniform_pts_and_invalid_indices) ... ok
+test_overlap_union_and_boundary_gaps_oracle (test_coverage.CoverageTests.test_overlap_union_and_boundary_gaps_oracle) ... ok
+test_uniform_native_coverage_and_incomplete_tail_oracle (test_coverage.CoverageTests.test_uniform_native_coverage_and_incomplete_tail_oracle) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

@@ -1,0 +1,38 @@
+{
+  "run_id": "STREAMFEAT001_20261004_H003_v1_c525a0ad_s1701",
+  "protocol": "H003_v1_real_stream_smoke",
+  "hardware": {
+    "physical_index": 0,
+    "uuid": "GPU-3775c606-49da-34fe-322c-756749074f5b",
+    "total_mib": 49140,
+    "free_mib": 46152,
+    "utilization_percent": 0,
+    "min_free_mib": 8192,
+    "max_utilization": 10,
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=index,uuid,memory.total,memory.free,utilization.gpu",
+      "--format=csv,noheader,nounits"
+    ]
+  },
+  "RAM": {
+    "path": "/dev/shm",
+    "total_bytes": 33365929984,
+    "free_bytes": 33033031680,
+    "planned_bytes": 67108864,
+    "cache_limit_bytes": 1073741824,
+    "reserve_fraction": 0.2,
+    "memory_bytes": {
+      "MemTotal": 66731859968,
+      "MemAvailable": 59524366336
+    },
+    "cpu_workspace_reserve_bytes": 2147483648
+  },
+  "artifact_root": "/dev/shm/shubert_features_STREAMFEAT001_20261004_H003_v1_c525a0ad_s1701",
+  "samples": [],
+  "atol": 0.0001,
+  "rtol": 0.0001,
+  "dtype": "float32",
+  "TF32": false,
+  "scope": "Four fixed native train/dev data smoke only; no task head/metric, corpus/failure-rate or paper parity"
+}

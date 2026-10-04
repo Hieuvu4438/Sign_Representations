@@ -1,0 +1,30 @@
+{
+  "registered_utc": "2026-10-04T09:10:05.635877+00:00",
+  "run_id": "SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701",
+  "config": "method/frozen_probe/configs/SHRINKTRANSFER001.json",
+  "config_sha256": "b010cafba13bcbebf2959bbec02398764f22bdde1cc2fde222cab123246e53d3",
+  "output_dir": "method/frozen_probe/runtime/SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701",
+  "GPU_hours": 0,
+  "CPU_limit_seconds": 180,
+  "input_hashes": {
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/status.json": "bca78776fe7925283ec2d12bb336f045651974dd946cd9a02952ac8120a8b686",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/config.json": "9ea77572a4607061041a851bcb315908a1d7aade24855a951176411eb6e4d273",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/fitted_geometry.npz": "35e2dde8beca88baad8834f8f29f687eb8171158008c0893a778c1ab36ab43ff",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/predictions.json": "34fd1756fc86b1ee177382b6e417f99c30932e50d57c988fd90770a4de82ad83",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/geometry_transfer.json": "5aad006602b39b7fd4d73e1e2cf74f3ef6b16e1cdf90e2625b6c31ae1a795d25",
+    "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/fit_support_metadata.json": "e715cdcc4786be56a3ce6310f2e2dd7bdefb01080aee313d3e813aa2e4b314c2",
+    "method/frozen_probe/shrinkage_geometry.py": "cd9d2351d54a6b60d0faca81dab1cfb4e563b0db559e8fee0d9ea234352c7fca",
+    "method/frozen_probe/scripts/audit_shrinkage_transfer.py": "467185d659a6da198705408719455d215f0337b4c12135d3abcddaa8590dd65d",
+    "method/frozen_probe/tests/test_shrinkage_geometry.py": "19683b1229431184b12da3936cdad2be81b2f837f420b014467cdd06c18c5aec",
+    "method/frozen_probe/runtime/SHRINKTEST001_H006v1_s1701.log": "edb4e2159c923ea45a32656078835cdf531c3d7b414c670dd786978875cb0678",
+    "method/research_lab/records/hypotheses/H006_v1.md": "000bd2e9cac1b666648e161822106e24ed363017dcb097726c66f22fc00e2257",
+    "method/research_lab/records/protocols/H006_v1_shrinkage_controls.md": "02ee142c13a0479228c2182bf56fc839584655899f4e17265b199e53b0b93816",
+    "method/research_lab/records/decisions/D029.md": "9e66c55e1299eca33465fa6799edf9013836a6b776832349aebc80862c3a6512",
+    "method/research_lab/records/literature/sources/S35.md": "8290288402348ac823fdc4112984d6091773ea2949c9babadc7baec53a091513",
+    "method/research_lab/records/literature/sources/S36.md": "cc2bc8a242933321d7399d25fb0181aa5862bd39f40bce3f4c8a26e9a2c61838",
+    "method/research_lab/records/literature/sources/S37.md": "9950b9fae44cec28fd0f755e2af788b59bc84803a982c524c66a9828bd49c00f",
+    "method/research_lab/records/literature/sources/S38.md": "124c0ccebd5074c43847267f500390fcb1d35db22160b12eaa475c782285073c",
+    "/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/covariance/_shrunk_covariance.py": "f1b3e23de01bb2400bbbac45bdab0197cbe5c526abe03075689bf86c698c661d",
+    "/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py": "db4c637d064073e83533bcb920cc2b544a26b92d517b09d8a07c59780a3594fd"
+  }
+}

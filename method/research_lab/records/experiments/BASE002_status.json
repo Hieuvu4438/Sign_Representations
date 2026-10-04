@@ -1,0 +1,37 @@
+{
+  "run_id": "BASE002_20261004_P001v4_s1337",
+  "protocol": "P001_v4",
+  "seed": 1337,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 1747449,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T20:09:21.905027+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/run_baseline.py",
+    "--config",
+    "method/frozen_probe/configs/BASE002.json",
+    "--seed",
+    "1337",
+    "--run-id",
+    "BASE002_20261004_P001v4_s1337",
+    "--output-dir",
+    "method/frozen_probe/runtime/BASE002_20261004_P001v4_s1337",
+    "--cache-manifest",
+    "/dev/shm/signrep_frozen_probe_8bfd9b55453cd54f1d7b/manifest.json",
+    "--launch-gate",
+    "method/research_lab/records/protocols/P001_v4_launch_gate.json"
+  ],
+  "config_sha256": "081641a5cd7667d477fe4be837346e18a6a4cf68f2238c6c067bac0feedb7cd4",
+  "output_hashes": {
+    "rankings.npz": "1f6f3f3486856bf8c2209abfe2ff80fcc8d385890cac026ecdf86314f17a628e",
+    "prediction_schema.json": "c98529dfa0f09496554c6df297f91a3573c8eb897ddbbc3f010ef3c78be222f4",
+    "pooling_metadata.json": "6ad34798e2c1a91de4bf4d06828ede56ecc8050af75a77d1bd2efc86cfbe5dab",
+    "results.json": "00f0d25c6b72203b96e79b5320fb209fa4f1461a6e55071a2c0f496028248e50",
+    "cache_manifest.json": "4b2217203fb25af9110226e06cb56f7171ae4b46b111b9bf77c049c33ab9e737"
+  },
+  "end_utc": "2026-10-03T20:09:27.398176+00:00",
+  "wall_seconds": 5.493168686050922,
+  "exit_code": 0
+}

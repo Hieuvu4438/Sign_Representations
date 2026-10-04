@@ -1,0 +1,53 @@
+{
+  "protocol": "H003_v0_gpu_interface",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "program_ceiling_seconds": 14400,
+  "hypothesis_ceiling_seconds": 3600,
+  "runtime_roots": [
+    "method/frozen_probe/runtime",
+    "method/research_lab/runtime",
+    "method/stream_reliability/runtime"
+  ],
+  "cost_errata": [
+    {
+      "path": "method/stream_reliability/runtime/GLAUDIT001_20261004_H003_v0_0bf71e65_s1701/graphics_accounting.json",
+      "sha256": "6bb427a85a8a0a2dbca3b61f8082aa72f76818d14153615d11aca18a78f96e17"
+    }
+  ],
+  "granted_uuid": "GPU-3775c606-49da-34fe-322c-756749074f5b",
+  "completed_dependencies": [
+    "method/stream_reliability/runtime/LOAD001_20261004_H003_v0_a6ab5917_s1701",
+    "method/stream_reliability/runtime/STREAMDINO001_20261004_H003_v0_a09ef752_s1701"
+  ],
+  "dino_source_run": "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701",
+  "main_reference": "method/stream_reliability/runtime/LOAD001_20261004_H003_v0_a6ab5917_s1701/synthetic_reference.npz",
+  "dino_reference": "method/stream_reliability/runtime/STREAMDINO001_20261004_H003_v0_a09ef752_s1701/synthetic_dino_reference.npz",
+  "main_checkpoint": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+  "dino_checkpoints": {
+    "dinov2face": "checkpoints/shubert_author_hf/models/dinov2face.pth",
+    "dinov2hand": "checkpoints/shubert_author_hf/models/dinov2hand.pth"
+  },
+  "atol": 0.0001,
+  "rtol": 0.0001,
+  "new_task_measurement": false,
+  "success": "All four synthetic outputs finite and np.allclose against frozen CPU references; exact strict loads; no tolerance widening",
+  "stop": "Changed SHA, live owned GPU, insufficient VRAM/budget, missing dependency or parity failure; no task/test inference",
+  "scope": "Numerical software smoke only, authorized by D016; H003 method/pilot remains held",
+  "input_hashes": {
+    "method/stream_reliability/runtime/LOAD001_20261004_H003_v0_a6ab5917_s1701/load_audit.json": "8260b70a8bfc30b5fd13b9ecf2f619b828ef9864fdb394649f698ae55cabd5a4",
+    "method/stream_reliability/runtime/LOAD001_20261004_H003_v0_a6ab5917_s1701/synthetic_reference.npz": "9b8a79830f5ef7943c52976d5949e042cced6bd20f48ef559460470e2d566566",
+    "method/stream_reliability/runtime/STREAMDINO001_20261004_H003_v0_a09ef752_s1701/dino_load_audit.json": "8afb70213db41316d6430239268aaf7b8710c560860fadb1bc8444ff84c8198f",
+    "method/stream_reliability/runtime/STREAMDINO001_20261004_H003_v0_a09ef752_s1701/synthetic_dino_reference.npz": "a4d9cae9369f443ef846a320dc61f864f314014aa97253707897512238597347",
+    "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701/source_manifest.json": "3dc2bfe287875e2eee96768429d29bd137e08fe17c47117b107185f255b3a848",
+    "method/stream_reliability/scripts/audit_gpu_parity.py": "88b7f45c3997febd823662da3cc8ca8a34b634ba8275eeda7fa6901369bade09",
+    "method/stream_reliability/gpu_accounting.py": "b1551f82e94da0ad690e958932427feaeb7991b542c09fe7e1a7ae1a0ef092dd",
+    "method/stream_reliability/run_context.py": "c8e08efd93809f5a4ac69fd5ac05e45a5885ed71b46845b6ce05b6b320715ed8",
+    "third_party/SHuBERT/fairseq/examples/shubert/models/shubert.py": "aa63d20a989d1c78de6d635b367973eb476fdeb0ca93f4e8017c50b9b8c8d76f",
+    "third_party/SHuBERT/fairseq/fairseq/models/wav2vec/wav2vec2.py": "3249a758261c059be4617c44eae79c0ac8b0a3cc2bf0fab6b221ced91c01ac7d",
+    "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+    "checkpoints/shubert_author_hf/models/dinov2face.pth": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+    "checkpoints/shubert_author_hf/models/dinov2hand.pth": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85"
+  }
+}

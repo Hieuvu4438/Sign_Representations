@@ -1,0 +1,14 @@
+{
+  "protocol": "P004_v1_source_release_diagnostic",
+  "H_id": "H002",
+  "seed": 1701,
+  "timeout_seconds": 300,
+  "range_reader_source": "method/research_lab/scripts/audit_release.py",
+  "range_reader_sha256": "9cc33d4afc58c5889316dc4ba7854967d2e236a06f3123d8d294c43b5d4d31ae",
+  "archive_url": "https://download.microsoft.com/download/b/8/8/b88c0bae-e6c1-43e1-8726-98cf5af36ca4/ASL_Citizen.zip",
+  "max_download_bytes": 33554432,
+  "max_member_bytes": 1048576,
+  "sample_id": "3746195589464887-SPEND.mp4",
+  "local_path": "/home/dongvk/datasets/ASL_Citizen/videos/3746195589464887-SPEND.mp4",
+  "local_sha256": "0d63a9ad56aa5e2ce8c6f9a3d45626bfcc93f6d1c4faad3ae6011f9e712d8bd1"
+}

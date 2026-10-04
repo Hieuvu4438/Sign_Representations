@@ -1,0 +1,42 @@
+{
+  "source_sha256": "5d71de9f70a01eb82e6f92366608f77404a12e4afe70c7783a0e600f100c8aa2",
+  "current_full_covariance_plus_whitening_plan": {
+    "array_payload_bytes": {
+      "residual_covariance": 4718592,
+      "residual_whitening": 4718592,
+      "total_covariance": 4718592,
+      "total_whitening": 4718592,
+      "shuffled_covariance": 4718592,
+      "shuffled_whitening": 4718592
+    },
+    "array_payload_total_bytes": 28311552,
+    "bounded_other_bytes": 5242880,
+    "estimated_upper_bound_bytes": 33554432,
+    "ceiling_bytes": 20971520,
+    "remaining_bytes": -12582912,
+    "passed": false,
+    "limitation": "Prospective plan only: serialization, metadata, snapshot and log/report bounds require writer enforcement; not peak RAM or actual disk measurement"
+  },
+  "prospective_symmetric_covariance_and_binary_rank_plan": {
+    "array_payload_bytes": {
+      "residual_covariance_upper_triangle": 2362368,
+      "total_covariance_upper_triangle": 2362368,
+      "shuffled_covariance_upper_triangle": 2362368,
+      "ranks": 1838400,
+      "mean": 6144,
+      "eigenvalues": 18432,
+      "row_metrics": 441216
+    },
+    "array_payload_total_bytes": 9391296,
+    "bounded_other_bytes": 5242880,
+    "estimated_upper_bound_bytes": 14634176,
+    "ceiling_bytes": 20971520,
+    "remaining_bytes": 6337344,
+    "passed": true,
+    "limitation": "Prospective plan only: serialization, metadata, snapshot and log/report bounds require writer enforcement; not peak RAM or actual disk measurement"
+  },
+  "actual_format_implemented": false,
+  "prospective_writer_enforcement_verified": false,
+  "interpretation": "size planner only, no scientific rerun/format conversion/quota increase; next writer requires bound enforcement before measurement",
+  "GPU_hours": 0
+}

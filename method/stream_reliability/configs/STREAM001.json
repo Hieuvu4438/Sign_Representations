@@ -1,0 +1,40 @@
+{
+  "protocol": "H003_v0_input_audit",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 60,
+  "cohort_manifest": "method/research_lab/records/inventory/COHORT001_cohort.json",
+  "video_audit": "method/research_lab/records/inventory/VID002_video_audit.json",
+  "sample_ids": [
+    "0009570133052014818-GO BACK_AND_FORTH.mp4",
+    "0010333569349243454-TOSS OUT.mp4",
+    "00033277435717016246-ELECTROCUTE.mp4",
+    "0014822228991275832-BORROW.mp4"
+  ],
+  "keypoint_root": "/home/dongvk/datasets/ASL_Citizen/keypoints",
+  "max_file_bytes": 1048576,
+  "max_total_bytes": 4194304,
+  "upstream_files": [
+    "third_party/SHuBERT/features/shubert_inference.py",
+    "third_party/SHuBERT/features/body_features.py",
+    "third_party/SHuBERT/features/dinov2_features.py",
+    "third_party/SHuBERT/dataset/kpe_mediapipe.py",
+    "third_party/SHuBERT/fairseq/examples/shubert/models/shubert.py"
+  ],
+  "input_hashes": {
+    "method/research_lab/records/inventory/COHORT001_cohort.json": "d3327a955efce9128fc10f1e13e5daae884ba0abe8c0920ff48dcc1339b25830",
+    "method/research_lab/records/inventory/VID002_video_audit.json": "5f93826b211e1d45667c8dc3b8b352b6c5a34644a60218c1e0dc5f77760ca0fe",
+    "third_party/SHuBERT/features/shubert_inference.py": "ac89377454d82e990b5a18db16f778a6f29886a3a489fa2d71b439fa3cebcfcd",
+    "third_party/SHuBERT/features/body_features.py": "4db7742e852cf9b6358235be3f3fb4dada2e5beae82eea149c509add8eb41cd7",
+    "third_party/SHuBERT/features/dinov2_features.py": "6631e836bcbc018d734ae8606dff4d6bd5d19251541a19fff0974941f81eaf82",
+    "third_party/SHuBERT/dataset/kpe_mediapipe.py": "b8fd2866270d5b701fd087632142c70fc8a981034406ac5304e1050545c67323",
+    "third_party/SHuBERT/fairseq/examples/shubert/models/shubert.py": "aa63d20a989d1c78de6d635b367973eb476fdeb0ca93f4e8017c50b9b8c8d76f"
+  },
+  "model_assets": [
+    "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+    "checkpoints/shubert_author_hf/models/dinov2face.pth",
+    "checkpoints/shubert_author_hf/models/dinov2hand.pth"
+  ],
+  "selected_header_layout_already_inspected": true,
+  "regime": "read-only raw train/dev input schema only; no task/method measurement or natural-failure labels"
+}

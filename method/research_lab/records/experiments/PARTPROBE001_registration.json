@@ -1,0 +1,9 @@
+{
+  "run_id": "PARTPROBE001_20261004_H005_v0_6143bb5b_s1701",
+  "registered_utc": "2026-10-04T08:13:18.673946+00:00",
+  "config_sha256": "6143bb5bfdb6645c816eb43bdef67719bc19c31dd7da5baf52c59060fdcfba2a",
+  "output_dir": "method/frozen_probe/runtime/PARTPROBE001_20261004_H005_v0_6143bb5b_s1701",
+  "status": "queued",
+  "test_access": "none",
+  "prelaunch_incident": "Initial registration compared all historical CACHE005 Python snapshots, including unrelated subsequently versioned run_baseline.py, and failed before config or run creation. Seven frozen cores instead verified against immutable CERTPAIR001 bindings; no core edit or measurement."
+}

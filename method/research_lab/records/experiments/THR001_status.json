@@ -1,0 +1,23 @@
+{
+  "run_id": "THR001_20261004_P003v1_s1701",
+  "protocol": "P003_v1",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 1830482,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T21:19:22.361294+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "-"
+  ],
+  "config_sha256": "7cf852f73d46cbba845adff69d0edfc7da6d7809ec08ee688c5080e74db2dda0",
+  "H_id": "H002",
+  "output_hashes": {
+    "train_thresholds.json": "bc35f9396d64b0adf87ac806ac0b27316ca9215b67208fce62dbb2773303af15",
+    "representative_rates.json": "7b4166bbef477864f4cbc439c26df263d7b4779b89d33b08497e61a67775fd83"
+  },
+  "end_utc": "2026-10-03T21:19:22.783368+00:00",
+  "wall_seconds": 0.42208941595163196,
+  "exit_code": 0
+}

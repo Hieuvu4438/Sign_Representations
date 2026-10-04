@@ -1,0 +1,86 @@
+{
+  "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "checkpoint_bytes": 222676746,
+  "checkpoint_top_level_metadata": {
+    "model": {
+      "type": "OrderedDict",
+      "key_count": 327,
+      "keys": null
+    }
+  },
+  "model_tensor_count": 327,
+  "upstream_commit": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+  "upstream_tracked_paths": [
+    "LICENSE",
+    "README.md",
+    "augmentation/video/base_video_aug.py",
+    "example_usage.py",
+    "models/final_models/FINAL_hiera_latent_model_head_v25_active.py",
+    "models/head_models/dict_head_v6_FINAL_thoughtful.py",
+    "models/hiera/hfhub.py",
+    "models/hiera/hiera.py",
+    "models/hiera/hiera_clstoken.py",
+    "models/hiera/hiera_nodec_mae.py",
+    "models/hiera/hiera_utils.py",
+    "requirements.txt"
+  ],
+  "public_metadata": {
+    "release": {
+      "url": "https://api.github.com/repos/ryanwongsa/SignRep/releases/tags/v0.0.1",
+      "max_response_bytes": 524288,
+      "http_status": 200,
+      "headers": {
+        "ETag": "W/\"041fdc995345cec7a4145e967cb2a4b6bf0de88a08a85304ea057ad3fa8ecb03\"",
+        "Last-Modified": "Wed, 19 Nov 2025 13:52:28 GMT",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "bytes": 3778,
+      "sha256": "94a25f85c393dd3c7b086b2417d148c75bde7146f54e5d71ecc840dbc0754a37"
+    },
+    "youtube_sl25_objects": {
+      "url": "https://storage.googleapis.com/storage/v1/b/gresearch/o?prefix=youtube-sl-25%2F&maxResults=20",
+      "max_response_bytes": 524288,
+      "http_status": 200,
+      "headers": {
+        "ETag": null,
+        "Last-Modified": null,
+        "Content-Type": "application/json; charset=UTF-8"
+      },
+      "bytes": 1026,
+      "sha256": "10635932b94a8a0dbe38621f6523f01cf77ecfb168ccaa1c10c2d15cf15d82cc"
+    }
+  },
+  "release_tag": "v0.0.1",
+  "release_assets": [
+    {
+      "name": "ckpt.pt",
+      "size": 222676746,
+      "digest": "sha256:f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b"
+    }
+  ],
+  "released_asset_match_verified": true,
+  "youtube_sl25_object_listing": [
+    {
+      "name": "youtube-sl-25/youtube-sl-25-metadata.csv",
+      "size": "667188",
+      "generation": "1718728410650400",
+      "md5Hash": "xGARMnwrI3h1sFPvR585nw=="
+    }
+  ],
+  "listing_complete": true,
+  "local_youtube_asl_id_rows": 11096,
+  "local_youtube_asl_unique_valid_ids": 11096,
+  "selected_ASL_train_val_rows": 2352,
+  "local_aux_metadata_joined_rows": 2352,
+  "selected_aux_metadata_fields": [
+    "action",
+    "subset"
+  ],
+  "checkpoint_specific_training_membership": "not verified from asset identity/parameter tensors",
+  "ASL_Citizen_pretraining_byte_source_signer_class_disjointness": "unknown",
+  "accepted_ASL_to_YouTube_source_join": false,
+  "scope": "public source-ID inventory and checkpoint metadata only; no media download, task score, source or class disjointness inferred from filename mismatch",
+  "GPU_hours": 0,
+  "new_encoder_calls": 0,
+  "test_feature_or_quality_access": "none"
+}

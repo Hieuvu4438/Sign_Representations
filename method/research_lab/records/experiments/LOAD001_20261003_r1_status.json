@@ -1,0 +1,13 @@
+{
+  "run_id": "LOAD001_20261003_r1",
+  "pid": 1180541,
+  "host": "ptitiec",
+  "status": "failed",
+  "start_utc": "2026-10-03T14:59:12.764258+00:00",
+  "script_sha256": "3a6be1132955fab416196234eb0bbb85278b6c4dbde20eb039531fe2f305f2d7",
+  "GPU_hours": 0,
+  "exit_code": 1,
+  "error": "ImportError(\"cannot import name 'Mlp' from 'timm.models.layers' (/home/haipd/miniconda3/lib/python3.13/site-packages/timm/models/layers/__init__.py)\")",
+  "end_utc": "2026-10-03T14:59:14.004442+00:00",
+  "wall_seconds": 1.2402035320410505
+}

@@ -1,0 +1,562 @@
+{
+  "verified_utc": "2026-10-04T13:09:47.507199+00:00",
+  "passed": true,
+  "runs": {
+    "MSCLKTEST001": {
+      "run_id": "MSCLKTEST001_20261004_e263ce1e_s1701",
+      "status": "completed",
+      "pid": 3827104,
+      "wall_seconds": 0.1012888120021671,
+      "logical_bytes": 66504,
+      "config_sha256": "e263ce1ef0743b3bc15d316238375d783128e7d6bac7ecb2f3ab26e0b787495a",
+      "status_sha256": "4e16c29cdfc650810383219125fa6ffbbb78306ccc70d9660f0b44ed77dfaa3e"
+    },
+    "MSCLKDIAG001": {
+      "run_id": "MSCLKDIAG001_20261004_eda0732f_s1701",
+      "status": "failed",
+      "pid": 3827358,
+      "wall_seconds": 0.35390539304353297,
+      "logical_bytes": 68836,
+      "config_sha256": "eda0732f6eb2776fc94d3cdabc04e6f7648f07bd16abc0bf667e87fe3cd1e1ed",
+      "status_sha256": "143d243956d94fddb339caf0d45fb992a3b3768943c703f95ec3a282c165e4be"
+    },
+    "MSCLKTEST002": {
+      "run_id": "MSCLKTEST002_20261004_ac0ea149_s1701",
+      "status": "completed",
+      "pid": 3828777,
+      "wall_seconds": 0.10423589299898595,
+      "logical_bytes": 69668,
+      "config_sha256": "ac0ea149af9a3d363ea1f0becfc8980287be9062e6b19e4e918cb1b703c20927",
+      "status_sha256": "e010d13f43a44b8283eccae3d23d1fca2808fbad0bb5527eb9b7f86f34dfe541"
+    },
+    "MSCLKDIAG002": {
+      "run_id": "MSCLKDIAG002_20261004_14f3fbed_s1701",
+      "status": "completed",
+      "pid": 3829073,
+      "wall_seconds": 52.26399232400581,
+      "logical_bytes": 6853497,
+      "config_sha256": "14f3fbedd2c93277415b0415ff3baa466e7c43ee90a34a6a0f117bd2deff7762",
+      "status_sha256": "1ea48e587b1fc5ff5cbcd1c754c608d5aa18b15cafb86c4635052ab7186013b1"
+    }
+  },
+  "rows": 38,
+  "join_pass_counts": {
+    "ffmpeg_best_clock_exact": 36,
+    "ffmpeg_count_exact": 38,
+    "ffmpeg_exit_zero": 38,
+    "ffmpeg_packet_sizes_exact": 38,
+    "ffmpeg_rgb_hashes_exact": 38,
+    "native_full_raw_exact": 37,
+    "old_native_prefix_exact": 38
+  },
+  "original_whole_prefix_gate_failed": true,
+  "negative_joins": [
+    {
+      "sample_id": "train_11094",
+      "native_raw_disagreement_indices": [
+        324
+      ],
+      "ffmpeg_best_disagreement_indices": [
+        324
+      ],
+      "all_disagreements_outside_selected": true
+    },
+    {
+      "sample_id": "train_11134",
+      "native_raw_disagreement_indices": [],
+      "ffmpeg_best_disagreement_indices": [
+        166
+      ],
+      "all_disagreements_outside_selected": true
+    }
+  ],
+  "membership_changes": [
+    {
+      "sample_id": "train_11136",
+      "raw_count": 59,
+      "best_count": 60,
+      "added": [
+        6
+      ],
+      "removed": []
+    }
+  ],
+  "posthoc_selected_scope_joins": [
+    {
+      "sample_id": "train_02900",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02902",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02903",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02904",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02906",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02907",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02909",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02910",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02914",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02921",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02924",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_02935",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_07614",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_08807",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11049",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11050",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11051",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11052",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11056",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11059",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11060",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11072",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11083",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11088",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11094",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11095",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11096",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11103",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11109",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11110",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11118",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11119",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11120",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11130",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11134",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_11136",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_13734",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    },
+    {
+      "sample_id": "train_15809",
+      "raw_prefix_through_last_best_selected_exact": true,
+      "ffmpeg_best_selected_clock_exact": true,
+      "selected_RGB_exact": true
+    }
+  ],
+  "selected_scope_label": "Diagnostic localization only; does not relax or rescue registered whole-prefix gate",
+  "captured_wall_seconds": 52.8234224220505,
+  "logical_bytes": 7058505,
+  "effective_budget": {
+    "hypothesis": "H006",
+    "project_limit_seconds": 14400,
+    "hypothesis_limit_seconds": 120,
+    "project_used_seconds": 5726.849607205135,
+    "hypothesis_used_seconds": 3.1410688299220055,
+    "remaining_seconds": 116.858931170078,
+    "counted_attempts": [
+      {
+        "run_id": "CACHE005_20261004_P001v4_s1701",
+        "H_id": "H001",
+        "status": "completed",
+        "GPU_seconds": 2476.5987266730517
+      },
+      {
+        "run_id": "CACHE006_20261004_H002_P004v1_bf385467_s1701",
+        "H_id": "H002",
+        "status": "completed",
+        "GPU_seconds": 703.5025056890445
+      },
+      {
+        "run_id": "CONFIRM001_20261004_H002_P003v1_7b94d089_s1701",
+        "H_id": "H002",
+        "status": "completed",
+        "GPU_seconds": 2397.6407698560506
+      },
+      {
+        "run_id": "DEV001_20261004_P001v3_s1701",
+        "H_id": "H001",
+        "status": "completed",
+        "GPU_seconds": 0.01724991004448384
+      },
+      {
+        "run_id": "GPU003_20261004_P001v3_s1701",
+        "H_id": "H001",
+        "status": "failed",
+        "GPU_seconds": 0.09357943199574947
+      },
+      {
+        "run_id": "GPU004_20261004_P001v3_s1701",
+        "H_id": "H001",
+        "status": "completed",
+        "GPU_seconds": 10.635015023057349
+      },
+      {
+        "run_id": "MSFEATUREGPU002_20261004_6c9b41bc_s1701",
+        "H_id": "H006",
+        "status": "completed",
+        "GPU_seconds": 3.1410688299220055
+      },
+      {
+        "run_id": "TIME001_20261004_P002v1_s1701",
+        "H_id": "H002",
+        "status": "completed",
+        "GPU_seconds": 57.704054951085716
+      },
+      {
+        "run_id": "AUTHORGPU001_20261004_H003_v2_ac538b19_s1701",
+        "H_id": "H003",
+        "status": "completed",
+        "GPU_seconds": 3.883341262931935
+      },
+      {
+        "run_id": "LANDMARK001_20261004_H003_v0_85a92d70_s1701",
+        "H_id": "H003",
+        "status": "completed",
+        "GPU_seconds": 43.395969011005946
+      },
+      {
+        "run_id": "NUMDIAG001_20261004_H003_v1_2986835f_s1701",
+        "H_id": "H003",
+        "status": "completed",
+        "GPU_seconds": 6.638495894963853
+      },
+      {
+        "run_id": "SOFTGL001_20261004_H003_v0_5877f510_s1701",
+        "H_id": "H003",
+        "status": "completed",
+        "GPU_seconds": 14.095760175026955
+      },
+      {
+        "run_id": "STREAMFEAT001_20261004_H003_v1_c525a0ad_s1701",
+        "H_id": "H003",
+        "status": "failed",
+        "GPU_seconds": 6.602126126992516
+      },
+      {
+        "run_id": "STREAMGPU001_20261004_H003_v0_aeb2c96d_s1701",
+        "H_id": "H003",
+        "status": "completed",
+        "GPU_seconds": 2.9009443699615076
+      }
+    ],
+    "status_sha256": {
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/ALLOC001_20261004_P001v4_s1337/status.json": "cebd0231c7d8ceef7dac1f85a2f41cf74f7ae9e666b8ad462a93cf17b2d55a71",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/AN001_20261004_P001v3_s1337/status.json": "8db9996a64501f4e3d9372bb2af4b4c794368db48f7512f2718d1bb0145f2953",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/ANALYZE002_20261004_P001v4_s1701/status.json": "6b8ca0b188f5ecea20f8ffd688447bf0f89c4cb48b6683405eb4b2f86b75a12e",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/ARTIFACTCTX001_20261004_ff5f9a77_s1701/status.json": "466af6e89d3941ff497e8025c4e81f562685c58ff254d66851f0c12db3b314c3",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/ARTIFACTTEST001_20261004_9067da2e_s1701/status.json": "b8cbfbd3b24883edfeb7debbff2fa6a2ad024b8c3464a6c3306de897929c7c67",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/AXISTEST001_20261004_d984cba6_s1701/status.json": "5d3a87d241d2878dab93c5bfafac1953fed275b4d51888116a121ca04dc108a2",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/AXISTRANSFER001_20261004_96db86b7_s1701/status.json": "3a2a431d503a2f2a84baa4d46de01608eaf4fb5d4b4a9a3b47334ff3d291e559",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/AXISVERIFY001_20261004_17989353_s1701/status.json": "1ab93c37f76e5f191c59dc29cf643616cb5e91fae87e453c3b5ebc88fce26b5d",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/BASE002_20261004_P001v4_s1337/status.json": "3a3d4a1e603f7dfe4ec9857996887837610fab40ede3892cd15a9e7f3e601e58",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/BUD001_20261004_P001v3_s1337/status.json": "ccf9db1cd85c37ae928425d74c3c11dcb77f76da9e60ac61be12d18422f864b6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/BUD002_20261004_P001v3_s1337/status.json": "75b2120eddf7d9dcc83bfecd75b591a4ba07ffe69e828555ef9bcf7af854c6ee",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CACHE005_20261004_P001v4_s1701/status.json": "1799ae251310376c9d80402053020dbdf4df3d04917448c5c58aa0d9c4b49681",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CACHE006_20261004_H002_P004v1_bf385467_s1701/status.json": "ff12f8ed99fd8526986b2ab6648c8457a3d4ac51e383847f71ac7037b7391330",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CERTBOUND001_20261004_H004_v0_dcb321f7_s1701/status.json": "8a7708c24b37d09d2934b60432ca09e414080ae4db8e09456dbc4ff5a94929e2",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CERTBOUND002_20261004_H004_v0_e625ae90_s1701/status.json": "842e766423b506a8c67705c46a88b65ba0ce7886dc5031f7fec1b18461bb12ce",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CERTBOUND003_20261004_H004_v0_7ecb32f2_s1701/status.json": "e2e5b080571826ec2c2fdfe96b039069398e5b1026aa96f6c30b3a8856ddcade",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CERTPAIR001_20261004_H004_v1_87b44b6a_s1701/status.json": "bc8c7b7e32796441f49c3ef711e383944f940b637fe8f9f914feb20a38d55f3a",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/COHORT001_20261003_s1701/status.json": "3821e562453a1568e339aa9b570ca6b8156af8398c68fdc1c8aec855a44781cf",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/COHORT002_20261004_P004v0_s1704/status.json": "3bc263ea982f2cbb81de9f7d06091350827d24f32669ef32420947c7413e07ea",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CONFAN001_20261004_H002_P003v1_12d05a8e_s1701/status.json": "c5782a2b97f08f17637e914d44883febe73a86e67a794498bdaa229d2d5020aa",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CONFAN002_20261004_H002_P003v1_12d05a8e_s1701/status.json": "7a81e8e54da8a261479275593dcf17a0418a15702bfe0a92da248afa378a04bf",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CONFIRM001_20261004_H002_P003v1_7b94d089_s1701/status.json": "b68cf4d2fd08476592516acb5546bb2fbe4ed5f18265f2c47bb48959f2159ed5",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CONFTEST001_20261004_P003v1_s1337/status.json": "9b322878ad47edc9b40ec236c433bd24923d4690eb76ad173aed2df505bf10fd",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CONFTEST002_20261004_P003v1_s1337/status.json": "c686401eec7f087114db6ffb9ed9f2c1853b7639e01f4e4aca1e15ee9d46cdf6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/CONTRACT001_20261004_H002_P004v1_62a27084_s1701/status.json": "f56e8175947a348f6f3c3cc645b49ab543bca7620cee86ab8a90069569c41be1",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/COVER001_20261004_A001_s1701/status.json": "c63d3e870b97c9311be8f182367b6c36fbb4272985414c5e33c8ce4167f13f2f",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/COVFIG001_20261004_A001_s1701/status.json": "b85a51261896bd6f6875125112e7316561941be5ffceeb0a99973f31eca13f5d",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/COVFIG002_20261004_A001_s1701/status.json": "27a445bfec78aac8c6f66ab286747eb860dbe38466eaa76599ed1559551676c8",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/COVTEST001_20261004_A001_s1337/status.json": "e27c0cb7cd17ef02c921c80835fc71efd79d9bc46044874a907fa141e37399f8",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DATA001_20261003/status.json": "5da4a20abd7a491b401ed1be78e8c691f2dc3156839685ca9f225d9b6a5052e7",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DATA001_20261003_r1/status.json": "c0c71b27f70571d2e4e841e8939b72be603c94d90c8fe1e1eb53b2c2eaede983",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DEV001_20261004_P001v3_s1701/status.json": "b28f7c6fcdf73c13af7fcc1c3b381256cc70bb695507416ed082f74a76d2aeab",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DICTTEST001_20261004_c4250939_s1701/status.json": "2ef3023246d9289f424f7b8dc31c27e14515c51432c6e53dca31e1ca52b89ff9",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/FACTEST001_20261004_A002_s1337/status.json": "3628e3a6439e657aec78cfc3383a7edc76d8653991afbe2e29f774734bd2a040",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/FACTOR001_20261004_A002_s1701/status.json": "c7a9fc0709220abfb9a58c6a799696320eae42b89620e1bcdbcfafd221b74ad3",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/FEAT001_20261003_P001v1_s1701/status.json": "cdc6018fe88bed5e6631c777651eb249ac3d241383e52ae05cef32c3179d1566",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701/status.json": "bca78776fe7925283ec2d12bb336f045651974dd946cd9a02952ac8120a8b686",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/GEOMVERIFY001_20261004_H006_v0_963633df_s1701/status.json": "8b569789ba0ed00a4441a4d928b1461a64cffff8f2ee77d01cc369febda18715",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/GPU003_20261004_P001v3_s1701/status.json": "874c3b6ca8f2958a68e96fed965720e2931c018ba2a61c1f33ac772ed7f3e6d6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/GPU004_20261004_P001v3_s1701/status.json": "af4d4d34f37746826cc9da8cecffce6ba20b82df7b356f9c4629b948ec17dc50",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/GPUCTXTEST001_20261004_a229030f_s1701/status.json": "87cfced438bc7bb2cb89183789c453c9cc32b95210341dab575ce3bb832d8f80",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LINEAGE001_20261004_51cfb6f8_s1701/status.json": "e07be0c2733f6635cdf8e855363a8dd60c25db824c337179c62bba79d049bed9",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LINEAGE002_20261004_743c4e83_s1701/status.json": "6195791246cc22f9c07ad76814486f007c1cb8d1aaad223f148b9e1c3d5c2da0",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LINEAGE003_20261004_v1_c555e3dc_s1701/status.json": "34ae973da7d766b900c0301d739f5beca76ebd85832c249fb2fed4d2866cb517",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LINEAGEVERIFY001_20261004_bc394c82_s1701/status.json": "3a50e26cca208870b13e2e560afae0e775d6e1f9b23ebb8fea2587de2f9ed6c8",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LIT001_20261004_S03final_s1701/status.json": "1cc4533ea77e551b8267aaa0cd7b9c04f3c3a9c5a6ae117e22b5966c2cba39cb",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LIT002_20261004_S03final_s1701/status.json": "1177d951d15bc865e47d49a023c78d247530b374373058a804ec20ba87851f86",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003/status.json": "31441927f0d2569c5091e9516dd54783f18c9c14754ce31e66f4d9b91219d5c6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003_r1/status.json": "9346853994465df3a21b8aa2b6cfe471a59fef006ceae8955603fd2caa5fee40",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003_r2/status.json": "fcaedb71bc7c5673db89ab4db2cf89c884633f5faa7395cf1091dec7a4a00832",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSCLKDIAG001_20261004_eda0732f_s1701/status.json": "143d243956d94fddb339caf0d45fb992a3b3768943c703f95ec3a282c165e4be",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSCLKDIAG002_20261004_14f3fbed_s1701/status.json": "1ea48e587b1fc5ff5cbcd1c754c608d5aa18b15cafb86c4635052ab7186013b1",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSCLKTEST001_20261004_e263ce1e_s1701/status.json": "4e16c29cdfc650810383219125fa6ffbbb78306ccc70d9660f0b44ed77dfaa3e",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSCLKTEST002_20261004_ac0ea149_s1701/status.json": "e010d13f43a44b8283eccae3d23d1fca2808fbad0bb5527eb9b7f86f34dfe541",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSCOHORT002_20261004_a31e7b04_s1701/status.json": "0f1f9135910d323bdeb49de5793489979ac03dcb2e47f2f90010d2c06a9032ea",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSCOHORT003_20261004_7cdf83cd_s1701/status.json": "58088c11596b5db39bc04ebe43fe01ac9390d0426d5d8e9b2d4df5d2d78d0b92",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSFEATURECPU001_20261004_a5093745_s1701/status.json": "41815c25a864bcc7c6f5edaf10ce25d7c275a6a0ddaa76631aabdf13d7c1ec9d",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSFEATUREGPU002_20261004_6c9b41bc_s1701/status.json": "bbc2b529b510a1d59fea6cecc5763be5d85fc5a266b0b61cc2e3e0a5de3791ec",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSMETA001_20261004_b776d25d_s1701/status.json": "a1af612b370c084e19d2c83ade632021238047395e333992b1d17f4f9050d46e",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSMETA002_20261004_1a6bcfb1_s1701/status.json": "73cfa2a08ffdafe4ec9c4ee291799230c7f42c00346567beb5d4846051ae1908",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSMETATEST001_20261004_8e4a749d_s1701/status.json": "62d019033d76a1e81de51c37d112e36072f068a1e647103be61e5a5b54204d3b",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSMETATEST002_20261004_d133097c_s1701/status.json": "35ebda94bd566edd6336f15aaf21e050d40a9ecacf554ab639202b7696899b4c",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSMETAVERIFY001_20261004_0d40fece_s1701/status.json": "60a9e4cbf1eca7768287cec520655ff5c4627ffb566349e3079f38ed16776946",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSNATIVE001_20261004_1b1748ce_s1701/status.json": "051d955f24a529f515420d5ae6f70a83f21542d951d479d756bfddbc28978481",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSNATIVE002_20261004_524e4542_s1701/status.json": "4af3a8dc6d0228f2e9eb98847a4d24be8da70d9701d257124ed0693c7cf9d39f",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSNATIVECOST001_20261004_081736a5_s1701/status.json": "095a2fa0ef61ff2be86a6b06b7349825cccaf0619982379545a31d855881876a",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSNATIVECOST002_20261004_e151de94_s1701/status.json": "57f434961a0528f1e763190e3692c2972091eca9f4d4ada56444b127548f68fe",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSNATIVECOVER001_20261004_4ea6cf6a_s1701/status.json": "4725cfdf0cae5158fe3db7ad88edc7271d85f6b9552fb63b149519dcb6459bf4",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSNATIVESCANTEST001_20261004_8e02db2e_s1701/status.json": "47a38958e80bff1b53540ed300ae5197d6de4f3f94d34875c5c536aad3fd1002",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSNATIVESCANTEST002_20261004_4ef1a301_s1701/status.json": "11533e602877e47bd5d5ad9519437587929aaa051c960dda3ff7ad0f5517c35c",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSNATIVETEST001_20261004_ef76733e_s1701/status.json": "1fd50470641cd6b2ab4c11632495ab0c6dd60d6ff9b1f8588a679c09321e39cf",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSNATIVETEST002_20261004_8308e124_s1701/status.json": "5e945636499664b2de8276003346bcaa258e77a0da9c817055ae8659c84c5382",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSPREPROC001_20261004_731e697c_s1701/status.json": "055264fe164e70e37e64cc1ae405cb200458e320592bb8378a9180adb51391f8",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/MSPTSDIAG001_20261004_b78185be_s1701/status.json": "5b61125508728980f6c3f95b189213ce6afe83584504f3372e5ffe06a0a2fc28",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/NEAR001_20261004_P001v2_s1701/status.json": "9404ab25ab748736dda007197eb35aa2ac04a91ac0c324c6c4ed496623755295",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PARTPROBE001_20261004_H005_v0_6143bb5b_s1701/status.json": "49727d78bbee54e3c7602896ab753a7dd3984ff05fcb451290e08b6ff17cb0f4",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PARTREMOVE001_20261004_H005_v1_1fab462b_s1701/status.json": "50cd62cac1517f40fd162262a58e5990ca666183dd52ed6b9477f26a86314e42",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PIPE001_20261004_P001v3_s1337/status.json": "885feb6873c0cc0268637a5cc32ab254bf49401d39bfee1b180088b1216afeb0",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PIPE002_20261004_P001v3_s1337/status.json": "08ac92d58ccc174b56034861a7bad412daa975f7410c10dc7b49a00313130e55",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/POOL001_20261004_P001v3_s1337/status.json": "812c0e6a07e2cdc585950b7fa638d739d68591dbb7e296f3c2e38f0875f24f8d",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/POOL002_20261004_P001v3_s1337/status.json": "8abac52a94410027587a1d9c7435a3c0b86fe58b48718c69c7a09feab83813eb",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PREDTEST001_20261004_P003v1_s1337/status.json": "f8e3cd757d559c600a654092b2d4105a0a6a3a1e1f42230da60f17c5926489bb",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PREDVERIFY001_20261004_P003v1_s1701/status.json": "869062f785d1b809a46f033527d0cb2eb940b291df1b304e7a1038330bfc3c00",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PRETEST001_20261004_H002_P003v1_741b0823_s1701/status.json": "3e9ffa88c6574fad69dac39abee92cd62c9075ac2600f81ed6c2268939e21bc2",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/QUAL001_20261004_P002v1_s1701/status.json": "f85d41e5f9181158c23f41475f6aa31f01b58750e97beda76fe7bde172aa3b55",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPCTEST001_20261004_H002_P004v1_s1337/status.json": "c6b3ba2f63541bad189a4669e20a57a45a54d3b54795c79ad7c588ebc9f2d1c8",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPFREEZE001_20261004_H002_P004v1_51760390_s1701/status.json": "8b873cc33e24f92f7f7defc0cb0e41fb33e8ff9d2c22e82fe4085115a77818c0",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPORT001_20261004_P002v1_s1701/status.json": "a7b41b19a2b4f684353b2b213f3307dfc48e374f9e70b3f6cf7a14d67c792bee",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701/status.json": "b9ea8e422bbd80abc456ddbd9184b74e4809877e885049ebeb55f3721d62f7ba",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPQUAL001_20261004_H002_P004v1_c80107ef_s1701/status.json": "072cb0c32d5e0b4c892d0c59fca4e9ef547f7721015f3ceeeeaca19effb5c3de",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPREG001_20261004_H002_P004v1_a94ebf77_s1701/status.json": "30281aabc39d5a5481c8a63d1a39729438ccfa6609acfbb940a53bc52d0fc83a",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPRO001_20261004_P003v1_s1701/status.json": "b3418b1d7279a86cf4cfcf5efcd67ab899a6277d1984923b5f6b768ed1338511",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPRO002_20261004_P003v1_s1701/status.json": "d64b345443ae8023dc30a58818e11943680eba2b4fc41e0d27363f4aaa36824b",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPRO003_20261004_P003v1_s1701/status.json": "8d04d72d7b429ee24e9e0d335ab08d8bbf08ccf6c35ee9b80e0c97751e2fe869",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPRO004_20261004_A002_P004prep_s1701/status.json": "78fd41a87b258535aee7eecd024b1ed098e1fbfca3f25c5b944c5e275d1e8b4f",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPRO005_20261004_H002_P004v1_14c62023_s1701/status.json": "ced562f92ba575a15c28d3a75a34dbc24246d3c2cf57bfa2fc72c1d74996decb",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/REPTEST001_20261004_H002_P004v1_s1337/status.json": "e1569fd0c36a06700badfa27d69cd828bf4c05918c63e189ebc01bdf3b241513",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/SERTEST001_20261004_P003v1_s1337/status.json": "1ebe621aefca6567262086ee81e8edd747054e7e3356b99d1b48401873fdcd33",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/SHORTREL001_20261004_H002_P004v1_s1701/status.json": "b1b281e9e51554d644720817dfdcbc344958a17c47ec6901ea250eef4fe132f2",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701/status.json": "58abb128ea4e185916658263312b0ac3268d9fe18a47ac8ef856334c33845d37",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/SHRINKVERIFY001_20261004_H006_v1_451ad2ba_s1701/status.json": "9faf5ad7a439ad19b2768835aa61ff1102c844967cf0f040fecc725ecf855de6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/SIZE001_20261004_P004v0_s1704/status.json": "88bb6b65e17f41d876e40fdac7653b6f4715db2786c598f2d854d4ea7a190f12",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/SIZE002_20261004_P004v0_s1704/status.json": "3c77a97b700e5b317f124d344cfdd7fd7c9261861c25db4ebc9b7831abfd69a8",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/SIZE003_20261004_P004v0_s1704/status.json": "c8308a39d97011f2f5c71371b43c416443d46f714b6e955b912fb2fe7a23ebfa",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/SYNTH001_20261004_P003v1_s1701/status.json": "e4be747d47702ea85b7859f43e926897f99fc27bc408759569ed26130837d5e5",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/SYNTH002_20261004_P003v1_s1701/status.json": "d888ea8f4b1e0edd6ec4a2100e08bbb09aca5aba6f0d936b44fd01dad2cf04f1",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/THR001_20261004_P003v1_s1701/status.json": "9069086c8e99146e84447a4b6a97ca9f445e834c4ef4a03c34cd1e243f96236d",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/THRREPRO001_20261004_P003v1_s1701/status.json": "4033bff6268143c28674d2271b81230fb6169494541f905e8afdd9a1c7393e18",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/TIME001_20261004_P002v1_s1701/status.json": "83b80d303ba27145297bd3c03faa730a32ee7ed18f11d3fb085ef1e8eee2b268",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/UUID001_20261004_P001v3_s1337/status.json": "9a14b2e61fa988ca95ecb4d20aab8c35bdfb07d682f3d94a1163c470daa99229",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VAL001_20261003/status.json": "04c02836c0ffafbb9670fc237209186a89015804897814c0d0af9e9c0d7f301a",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VERIFY001_20261004_P001v4_s1701/status.json": "f1789061c75ca67a4e66fb8634ace3f7a1b6f3e32feaff9f9221da0866b7affc",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VID002_20261003_P001v2_s1701/status.json": "504f9ff7b292aa9010d75db5ad6395ab16520a6799098089f10d98834527b6f3",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VID003_20261004_P004v0_s1704/status.json": "24f83c62b96adede8b353a2b38a02646db5f5cd848dd563b66922a0c17d471c6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/WIN001_20261004_P002v1_s1337/status.json": "9b9e272e2f9bf73e42791ec4537724733cfc72654d09b522720515dc734727e3",
+      "/home/haipd/Sign_Representations/method/research_lab/runtime/PREP001_20261003/status.json": "41aa533175b8c179f9763c0a4c98b79b41b5cb396143225e0bc06959dec96ad0",
+      "/home/haipd/Sign_Representations/method/research_lab/runtime/REL001_20261003/status.json": "c06b78e27d0ed419f426a140080fdda644475fda5102e90110ad555ecf11d2a8",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/ASSET001_20261004_H003_v0_0395b8eb_s1701/status.json": "ac69261628cb9d1675f5a6412f5536fe92d31469c3457948000e3b0d9a7b6a1c",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/ASSET002_20261004_H003_v0_5e2de9e7_s1701/status.json": "9c784c75876c6a261cb7ed5dc96a7796d603477ee32f812e758c89cda15d8e15",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/AUTHORGPU001_20261004_H003_v2_ac538b19_s1701/status.json": "af530a73f7162174b60ab294addabe36a79e0678b6d93d8a2ec6c3f471b7d95a",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/CONFSEM001_20261004_H003_v3_f48ae8a2_s1701/status.json": "e46928d565bd1bba7970463afa54abe59c27b64ce60ddc91a2bfd8fdc19d52e1",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/CROP001_20261004_H003_v0_9ae32957_s1701/status.json": "396005db1afba59b0ffb9c9979210510a7993e326da34c053e5356b8018d5137",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/CROP002_20261004_H003_v0_8b0186e6_s1701/status.json": "b0203824319bd3e29e1721674ed8bec57b7eba7460fc4d5a2ef4d078bc3fd165",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701/status.json": "33fa2668dc3f548fabb552415e791181fa1df9200dbcde6341c108c3d28262eb",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/GLAUDIT001_20261004_H003_v0_0bf71e65_s1701/status.json": "4693e0cb592d405979b22a1304c20ea7f4b55df7b1ecd96f1a551c0eb76698eb",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/INPUTPARITY001_20261004_H003_v1_3700038a_s1701/status.json": "d78d79db52ce69c7fc3df230885f2bc5035ea24b9af2e05b6198a21196c5a28a",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/LANDMARK001_20261004_H003_v0_85a92d70_s1701/status.json": "27255a18c5f62ba9b03e8f1850cd2d46c81d409c71788a7da76a4db8af30d453",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/LOAD001_20261004_H003_v0_a6ab5917_s1701/status.json": "6dc72ab1f31ebdbf81a7f20056b42f2d9c0e68fec8017776a9d9c6c641c0ab0c",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/NUMCPU001_20261004_H003_v1_0e5eeffb_s1701/status.json": "6309c8ca0d953dffbe627b80bcbd610199aedf39d6386535e17563c71e07d4be",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/NUMDIAG001_20261004_H003_v1_2986835f_s1701/status.json": "ba0c71df40f913481a3adfc8eb3c0e67fd5d6b642a41076277fc497276daa509",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/SOFTGL001_20261004_H003_v0_5877f510_s1701/status.json": "91f72e72411e902148efe937852a30f65b7a14acde0060f569cedcd5e20ddbf5",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/STREAM001_20261004_H003_v0_dbd8c39f_s1701/status.json": "3bc063e6b0c47a6cd9be088f3b98ba25dc49800619dec396d7950d84b18b296e",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/STREAMAUDIT001_20261004_H003_v0_78c036c8_s1701/status.json": "bf7a311ee371ba6817b0fa57738bed02a3621b575a623e73be411fc035b9b450",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/STREAMAUDIT002_20261004_H003_v2_closure_s1701/status.json": "4bd18c7dc60a943ac0615a94809b91501a2b4417b4a33e185dfc65726a061b05",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/STREAMDINO001_20261004_H003_v0_a09ef752_s1701/status.json": "42a3f11418ed755016279d460b7815a2e8d7f9327a708989f625676de926820b",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/STREAMFEAT001_20261004_H003_v1_c525a0ad_s1701/status.json": "d6e46db77e9316ac20152c197313ff7fe7ec7ed9b28f0680dae2e8b9b60b4716",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/STREAMGPU001_20261004_H003_v0_aeb2c96d_s1701/status.json": "26ec3ecfdd61e5694a1c4ee3379cb3449efaf54703d589c2a66ad895bb2bd940",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/TRACKJOIN001_20261004_H003_v3_23186c3a_s1701/status.json": "c6f2c89dc41aa7147581b7775710d0aacd07569ec23e725445098c40fccfe4dc",
+      "/home/haipd/Sign_Representations/method/stream_reliability/runtime/TRACKREL001_20261004_H003_v3_86c265a8_s1701/status.json": "becbbb018439d8e0cef35526b221317e286ef65fe270523436d321fa89a44722"
+    },
+    "accounting_errata": [
+      {
+        "run_id": "LANDMARK001_20261004_H003_v0_85a92d70_s1701",
+        "conservative_GPU_seconds": 43.395969011005946,
+        "accounting_path": "/home/haipd/Sign_Representations/method/stream_reliability/runtime/GLAUDIT001_20261004_H003_v0_0bf71e65_s1701/graphics_accounting.json",
+        "accounting_sha256": "6bb427a85a8a0a2dbca3b61f8082aa72f76818d14153615d11aca18a78f96e17"
+      }
+    ]
+  },
+  "source_sha256": "9ca6cc079ae1d19bad6d9bcea280e02658d65939c553b673167bd76e65a72f53",
+  "scope": "Same-agent independent saved-file/rational arithmetic/parser/hash recount; no additional RGB decode/scientific review or accepted clock/cohort/quality protocol"
+}

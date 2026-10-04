@@ -1,0 +1,29 @@
+{
+  "run_id": "PREDVERIFY001_20261004_P003v1_s1701",
+  "protocol": "P003_v1_artifact_integrity",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2118436,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T22:10:41.498394+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/verify_confirmatory.py",
+    "--config",
+    "method/frozen_probe/configs/PREDVERIFY001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "PREDVERIFY001_20261004_P003v1_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/PREDVERIFY001_20261004_P003v1_s1701"
+  ],
+  "config_sha256": "a8c260e64a375276bb0ee974547b41398801cfe3d837d91edcf6f4bb3653ff98",
+  "output_hashes": {
+    "verification.json": "4342d36743d8e8a0d6acd7dbd8d7d84ff97fd9b30659b8b397482564f15fafe0"
+  },
+  "end_utc": "2026-10-03T22:10:45.471965+00:00",
+  "wall_seconds": 3.973593688919209,
+  "exit_code": 0
+}

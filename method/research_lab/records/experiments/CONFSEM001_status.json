@@ -1,0 +1,30 @@
+{
+  "run_id": "CONFSEM001_20261004_H003_v3_f48ae8a2_s1701",
+  "protocol": "H003_v3_confidence_semantics",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2734728,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T07:01:28.624260+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "method/stream_reliability/scripts/audit_confidence_semantics.py",
+    "--config",
+    "method/stream_reliability/configs/CONFSEM001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "CONFSEM001_20261004_H003_v3_f48ae8a2_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/CONFSEM001_20261004_H003_v3_f48ae8a2_s1701"
+  ],
+  "config_sha256": "f48ae8a293373b8ec84fe7df20ffcf5fc24a3784730ab13ea0653032c6ce0dfe",
+  "H_id": "H003",
+  "output_hashes": {
+    "confidence_semantics.json": "790602bcbdac076cf245983d09cfb09295af77a866e03f5aa122a85077f6d801"
+  },
+  "end_utc": "2026-10-04T07:01:28.803357+00:00",
+  "wall_seconds": 0.17911771696526557,
+  "exit_code": 0
+}

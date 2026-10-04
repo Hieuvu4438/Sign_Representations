@@ -1,0 +1,31 @@
+{
+  "run_id": "STREAMDINO001_20261004_H003_v0_a09ef752_s1701",
+  "protocol": "H003_v0_dino_load_audit",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2617020,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T05:33:10.785216+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "method/stream_reliability/scripts/audit_dino_loading.py",
+    "--config",
+    "method/stream_reliability/configs/STREAMDINO001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "STREAMDINO001_20261004_H003_v0_a09ef752_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/STREAMDINO001_20261004_H003_v0_a09ef752_s1701"
+  ],
+  "config_sha256": "a09ef7527d2f64521c1a7a744abbcffb644c6992f97ff654a29584404ee9d351",
+  "H_id": "H003",
+  "output_hashes": {
+    "dino_load_audit.json": "8afb70213db41316d6430239268aaf7b8710c560860fadb1bc8444ff84c8198f",
+    "synthetic_dino_reference.npz": "a4d9cae9369f443ef846a320dc61f864f314014aa97253707897512238597347"
+  },
+  "end_utc": "2026-10-04T05:33:12.570261+00:00",
+  "wall_seconds": 1.7850635560462251,
+  "exit_code": 0
+}

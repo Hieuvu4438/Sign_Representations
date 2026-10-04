@@ -1,0 +1,22 @@
+{
+  "run_id": "REL001_20261003",
+  "status": "completed",
+  "start_utc": "2026-10-03T15:41:29.449567+00:00",
+  "pid": 1236960,
+  "host": "ptitiec",
+  "GPU_hours": 0,
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/research_lab/scripts/audit_release.py",
+    "--run-id",
+    "REL001_20261003",
+    "--output-dir",
+    "method/research_lab/runtime/REL001_20261003"
+  ],
+  "script_sha256": "9cc33d4afc58c5889316dc4ba7854967d2e236a06f3123d8d294c43b5d4d31ae",
+  "exit_code": 0,
+  "output_sha256": "4b09436eade8db763f279b08cf0c424b4606399c09975628df31edf1c9dab705",
+  "downloaded_bytes": 12343212,
+  "end_utc": "2026-10-03T15:41:33.154558+00:00",
+  "wall_seconds": 3.705001902068034
+}

@@ -1,0 +1,15 @@
+Command: PYTHONPATH=method/frozen_probe python3 -m unittest discover -s method/frozen_probe/tests -v
+Date: 2026-10-03 UTC, after DATA001 jitter fix
+Exit: 0
+
+test_ids_joined_not_zipped ... ok
+test_incomplete_duplicate_extra_and_empty_predictions_rejected ... ok
+test_independent_rank_oracle ... ok
+test_invalid_ranking_and_unknown_labels_rejected ... ok
+test_ties_and_nonfinite ... ok
+test_threshold_roundoff_and_large_jitter ... ok
+
+Ran 6 tests in 0.000s
+OK
+
+Actual command output recorded in shortened test-name form. No benchmark claims.

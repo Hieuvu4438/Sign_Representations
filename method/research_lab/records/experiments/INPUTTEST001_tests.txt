@@ -1,0 +1,11 @@
+test_collapsed_body_rejected_without_nan_or_state_commit (__main__.InputTests) ... ok
+test_frame_gap_rejected_without_state_advance (__main__.InputTests) ... ok
+test_initial_whole_row_missing_retains_one_frame_and14D (__main__.InputTests) ... ok
+test_malformed_face_error_not_silently_filled (__main__.InputTests) ... ok
+test_native_duplicate_assignment_preserved_and_flagged (__main__.InputTests) ... ok
+test_observed_then_missing_retains_pixels_but_not_observed_mask (__main__.InputTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.058s
+
+OK

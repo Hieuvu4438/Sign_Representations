@@ -1,0 +1,39 @@
+{
+  "LINEAGEVERIFY001": {
+    "run_id": "LINEAGEVERIFY001_20261004_bc394c82_s1701",
+    "wall_seconds": 0.1331578780664131,
+    "durable_logical_bytes": 518168,
+    "ceiling_bytes": 2097152,
+    "all_input_config_output_bindings_pass": true
+  },
+  "ARTIFACTTEST001": {
+    "run_id": "ARTIFACTTEST001_20261004_9067da2e_s1701",
+    "wall_seconds": 0.2067365749971941,
+    "durable_logical_bytes": 552073,
+    "ceiling_bytes": 2097152,
+    "all_input_config_output_bindings_pass": true
+  },
+  "ARTIFACTCTX001": {
+    "run_id": "ARTIFACTCTX001_20261004_ff5f9a77_s1701",
+    "wall_seconds": 0.10225344798527658,
+    "durable_logical_bytes": 43493,
+    "ceiling_bytes": 2097152,
+    "all_input_config_output_bindings_pass": true,
+    "bounded_store_verification": {
+      "passed": true,
+      "file_count": 12,
+      "logical_bytes": 43493,
+      "ceiling_bytes": 2097152
+    },
+    "preflight_maximum_logical_bytes": 1378413
+  },
+  "synthetic_fixture_independent_arrays": {
+    "passed": true,
+    "rows_recounted": 9192,
+    "covariance_upper_rows_recounted": 2304,
+    "scope": "synthetic numerical records only"
+  },
+  "GPU_hours": 0,
+  "scientific_measurements": 0,
+  "inspection_wall_seconds": "uninstrumented; terminal parent run costs above"
+}

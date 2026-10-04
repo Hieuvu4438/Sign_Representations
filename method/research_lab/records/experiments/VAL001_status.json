@@ -1,0 +1,11 @@
+{
+  "run_id": "VAL001_20261003",
+  "status": "completed",
+  "start_utc": "2026-10-03T14:56:09.792043+00:00",
+  "exit_code": 0,
+  "GPU_hours": 0,
+  "wall_seconds": 0.1963795309420675,
+  "end_utc": "2026-10-03T14:56:09.988423+00:00",
+  "output_sha256": "4e4216617fe9c6782755f77ff352bbd12a76866fd5f5de2b9b86890f92a916ec",
+  "download_bytes": 7081
+}

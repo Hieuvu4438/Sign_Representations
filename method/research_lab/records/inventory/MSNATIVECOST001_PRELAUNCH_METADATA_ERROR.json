@@ -1,0 +1,10 @@
+{
+  "phase": "prelaunch registration; no cost config/registration/output/job created",
+  "command": "/home/haipd/miniconda3/bin/python method/frozen_probe/scripts/register_msnativescan.py --stage cost",
+  "exit_code": 1,
+  "error": "AssertionError: old four smoke IDs absent from MSASL100 candidate manifest",
+  "verified_cause": "Old smoke class IDs830,120,513,175 are outside label<100 vocabulary, not native/exclusion failures",
+  "repair": "Fresh v2 wrapper/helper explicitly supplies four historical rows as reference-only controls alongside metadata-extrema target candidates. Neither add these controls to target coverage nor alter the3425candidate manifest; original software-stage bound code/config/status remain immutable",
+  "instrumented_wall_seconds": null,
+  "GPU_hours": 0
+}

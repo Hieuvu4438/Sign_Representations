@@ -1,0 +1,116 @@
+{
+  "run_id": "LANDMARK001_20261004_H003_v0_85a92d70_s1701",
+  "GPU_hours": 0,
+  "artifact_root": "/dev/shm/shubert_h003_landmarks_85a92d70adc2bcd37fcf",
+  "task_assets": {
+    "face_landmarker_v2_with_blendshapes.task": {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/face_landmarker_v2_with_blendshapes.task",
+      "sha256": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+      "bytes": 11577701
+    },
+    "hand_landmarker.task": {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/hand_landmarker.task",
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "bytes": 7819105
+    }
+  },
+  "installed_model_hashes": {
+    "modules/face_landmark/face_landmark.tflite": "1055cb9d4a9ca8b8c688902a3a5194311138ba256bcc94e336d8373a5f30c814",
+    "modules/pose_landmark/pose_landmark_full.tflite": "e9a5c5cb17f736fafd4c2ec1da3b3d331d6edbe8a0d32395855aeb2cdfd64b9f",
+    "modules/pose_detection/pose_detection.tflite": "9ba9dd3d42efaaba86b4ff0122b06f29c4122e756b329d89dca1e297fd8f866c",
+    "modules/hand_landmark/hand_landmark_full.tflite": "11c272b891e1a99ab034208e23937a8008388cf11ed2a9d776ed3d01d0ba00e3",
+    "modules/palm_detection/palm_detection_full.tflite": "1b14e9422c6ad006cde6581a46c8b90dd573c07ab7f3934b5589e7cea3f89a54",
+    "modules/holistic_landmark/hand_recrop.tflite": "67d996ce96f9d36fe17d2693022c6da93168026ab2f028f9e2365398d8ac7d5d",
+    "modules/face_detection/face_detection_short_range.tflite": "bbff11cebd1eb27a1e004cae0b0e63ec8c551cbf34a4451148b4908b8db3eca8"
+  },
+  "samples": [
+    {
+      "sample_id": "0009570133052014818-GO BACK_AND_FORTH.mp4",
+      "split": "train",
+      "frames": 156,
+      "source_sha256": "23228fb47735bbc5fb9d9c3b483a7a73a94dd94d5e64d9c497fbb3b964b489a5",
+      "pts_max_delta_s": 1.9836425746433406e-07,
+      "counts": {
+        "face_absent": 0,
+        "hand_absent": 86,
+        "pose_absent": 0,
+        "multi_face": 0,
+        "multi_hand_over_two": 10
+      },
+      "raw_path": "/dev/shm/shubert_h003_landmarks_85a92d70adc2bcd37fcf/0.json.gz",
+      "raw_bytes": 2287349,
+      "raw_sha256": "b77085c17780630e2e502ee2ff67754becc82adee18af8d0da5d99b512fa9efa"
+    },
+    {
+      "sample_id": "0010333569349243454-TOSS OUT.mp4",
+      "split": "train",
+      "frames": 87,
+      "source_sha256": "1215f138c7d6e1ff1aa1c1f45475294edad007c899a599974eac6e770b41bc15",
+      "pts_max_delta_s": 5.105895994894638e-07,
+      "counts": {
+        "face_absent": 0,
+        "hand_absent": 61,
+        "pose_absent": 0,
+        "multi_face": 0,
+        "multi_hand_over_two": 1
+      },
+      "raw_path": "/dev/shm/shubert_h003_landmarks_85a92d70adc2bcd37fcf/1.json.gz",
+      "raw_bytes": 1261388,
+      "raw_sha256": "cb8c6d86f888583cd1fce603b2c3542a559369b3ef1d7ff3df83056a86884bcb"
+    },
+    {
+      "sample_id": "00033277435717016246-ELECTROCUTE.mp4",
+      "split": "val",
+      "frames": 82,
+      "source_sha256": "3be9bb4315ad3021bc172ac30fda805800149ca52cb7ee3644868a72bef6ad1d",
+      "pts_max_delta_s": 1.0299682617898043e-07,
+      "counts": {
+        "face_absent": 0,
+        "hand_absent": 54,
+        "pose_absent": 0,
+        "multi_face": 0,
+        "multi_hand_over_two": 2
+      },
+      "raw_path": "/dev/shm/shubert_h003_landmarks_85a92d70adc2bcd37fcf/2.json.gz",
+      "raw_bytes": 1195379,
+      "raw_sha256": "e0af5139e446ee86551c63bf6d9e21745bf6b3b905584c5d6ab141610ed828a9"
+    },
+    {
+      "sample_id": "0014822228991275832-BORROW.mp4",
+      "split": "val",
+      "frames": 71,
+      "source_sha256": "d76ea58968e3a99ef0bf7e5413b3cdb12748170c98862450a60dc17b06537bfd",
+      "pts_max_delta_s": 1.0299682617898043e-07,
+      "counts": {
+        "face_absent": 0,
+        "hand_absent": 35,
+        "pose_absent": 0,
+        "multi_face": 0,
+        "multi_hand_over_two": 1
+      },
+      "raw_path": "/dev/shm/shubert_h003_landmarks_85a92d70adc2bcd37fcf/3.json.gz",
+      "raw_bytes": 1033463,
+      "raw_sha256": "9aed61843bb1cbf5806219fd42284f910d5c7e8dd4aa60ae74c6de9089c4b198"
+    }
+  ],
+  "detector_options": {
+    "face_num_faces": 6,
+    "hand_num_hands": 6,
+    "hand_min_detection_confidence": 0.05,
+    "holistic_min_detection_confidence": 0.1,
+    "delegate": "CPU"
+  },
+  "semantics": "Raw API counts/handedness categories; no ground-truth tracking quality or probability calibration",
+  "deviations": [
+    "Holistic reset at every clip boundary",
+    "Sequential native frames without upstream seek(0)",
+    "Retain raw detections before crop/fill and preserve decoded timestamps"
+  ],
+  "scope": "Train/dev input smoke only; no crops, DINO features, task scores or test access",
+  "total_frames": 396,
+  "raw_bytes": 5777579,
+  "CUDA_initialized": false,
+  "mediapipe_version": "0.10.14",
+  "decord_version": "0.6.0",
+  "completed": true
+}

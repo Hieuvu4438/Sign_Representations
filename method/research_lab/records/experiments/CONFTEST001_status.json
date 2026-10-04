@@ -1,0 +1,28 @@
+{
+  "run_id": "CONFTEST001_20261004_P003v1_s1337",
+  "protocol": "P003_v1",
+  "status": "completed",
+  "seed": 1337,
+  "GPU_hours": 0,
+  "pid": 1828493,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T21:17:06.025789+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/software_smoke.py",
+    "--config",
+    "method/frozen_probe/configs/CONFTEST001.json",
+    "--seed",
+    "1337",
+    "--run-id",
+    "CONFTEST001_20261004_P003v1_s1337",
+    "--output-dir",
+    "method/frozen_probe/runtime/CONFTEST001_20261004_P003v1_s1337"
+  ],
+  "config_sha256": "29a1f0b9aabc0067b33d0cf2cb77d964fe4d3e90c08697bdda2695be44124731",
+  "script_sha256": "7e4acbd034270ba1da1c5c0cfbcfb6cf9925495d39352faff5158f4b2607b2fd",
+  "exit_code": 0,
+  "output_sha256": "717bd687b4e054ae166a7cb9d487a69d4e50d15686678eeb90f9d76f65912d99",
+  "end_utc": "2026-10-03T21:17:06.559327+00:00",
+  "wall_seconds": 0.5335540599189699
+}

@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-10-04T13:38:54.117418+00:00",
+  "status": "metadata_locked; actualcost run not registered/implemented",
+  "extraction_manifest_sha256": "6286f344c937d4807911635c9a1282bb7d72a481922449cf456ddfef60cc19e4",
+  "sampling_rule": "Eachsplit fixed min/lower-median/max by(windowcount,sampleID), plus firstlexicographic affected extraction input; no encoder/quality access",
+  "samples": [
+    {
+      "sample_id": "train_13060",
+      "roles": [
+        "train_minimum"
+      ],
+      "native_frames": 21,
+      "windows": 3
+    },
+    {
+      "sample_id": "train_03183",
+      "roles": [
+        "train_lower_median"
+      ],
+      "native_frames": 87,
+      "windows": 36
+    },
+    {
+      "sample_id": "train_14520",
+      "roles": [
+        "train_maximum"
+      ],
+      "native_frames": 327,
+      "windows": 156
+    },
+    {
+      "sample_id": "val_02934",
+      "roles": [
+        "val_minimum"
+      ],
+      "native_frames": 16,
+      "windows": 1
+    },
+    {
+      "sample_id": "val_03598",
+      "roles": [
+        "val_lower_median"
+      ],
+      "native_frames": 75,
+      "windows": 30
+    },
+    {
+      "sample_id": "val_02277",
+      "roles": [
+        "val_maximum"
+      ],
+      "native_frames": 220,
+      "windows": 103
+    },
+    {
+      "sample_id": "train_02910",
+      "roles": [
+        "first_affected_extraction_input"
+      ],
+      "native_frames": 148,
+      "windows": 67
+    }
+  ],
+  "expected_encoder_windows": 396,
+  "fulltask_encoder_windows": 36424,
+  "proposed_bounded_GPU_seconds": 90,
+  "H006_current_cumulative_ceiling_seconds": 120,
+  "H006_used_seconds": 3.1410688299220055,
+  "planned_precision": "FP32/batch1/strict samecheckpoint/eval/mask0/no-grad/allnative16stride2windows",
+  "dependency": "New framecollector/feature/pooling wrapper with input hash/manual fixtures and complete artifacts must be implemented and registered BEFORE launch; timing measures source decode/preprocess/encoder/pooling separately under contention",
+  "forecast": "OriginalGPU smoke measured .02436-.04292s/window excluding source/preprocess; not a fullpipeline budget proof. No fulltask allocation yet."
+}

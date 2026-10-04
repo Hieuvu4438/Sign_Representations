@@ -1,0 +1,127 @@
+{
+  "protocol": "P003_v1_evidence_index",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "completed_runs": [
+    {
+      "path": "method/frozen_probe/runtime/CACHE005_20261004_P001v4_s1701",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/VERIFY001_20261004_P001v4_s1701",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/BASE002_20261004_P001v4_s1337",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/ANALYZE002_20261004_P001v4_s1701",
+      "single_output": "analysis.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/QUAL001_20261004_P002v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/TIME001_20261004_P002v1_s1701",
+      "single_output": "timing.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPORT001_20261004_P002v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/CONFTEST001_20261004_P003v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/THR001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/PRETEST001_20261004_H002_P003v1_741b0823_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/CONFTEST002_20261004_P003v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPRO001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/THRREPRO001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/COVTEST001_20261004_A001_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/COVER001_20261004_A001_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/COVFIG001_20261004_A001_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/COVFIG002_20261004_A001_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/REPRO002_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/CONFIRM001_20261004_H002_P003v1_7b94d089_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/PREDTEST001_20261004_P003v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/PREDVERIFY001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/SERTEST001_20261004_P003v1_s1337",
+      "single_output": "report.json"
+    },
+    {
+      "path": "method/frozen_probe/runtime/CONFAN002_20261004_H002_P003v1_12d05a8e_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/SYNTH001_20261004_P003v1_s1701",
+      "single_output": null
+    },
+    {
+      "path": "method/frozen_probe/runtime/SYNTH002_20261004_P003v1_s1701",
+      "single_output": null
+    }
+  ],
+  "budget_runtime_roots": [
+    "method/frozen_probe/runtime",
+    "method/research_lab/runtime"
+  ],
+  "binding_documents": [
+    "method/research_lab/records/protocols/P001_v4_participant_erratum.md",
+    "method/research_lab/records/protocols/P003_v1_freeze.json",
+    "method/research_lab/records/protocols/P003_v1_warmup_gate.json",
+    "method/research_lab/records/protocols/P003_v1_warmup_erratum.md",
+    "method/research_lab/records/protocols/P003_v1_train_thresholds.json",
+    "method/research_lab/records/protocols/A001_input_coverage.md",
+    "method/research_lab/records/protocols/P003_v1_serialization_erratum.md",
+    "method/research_lab/records/protocols/P003_v1_serialization_source.diff",
+    "method/research_lab/records/protocols/P003_v1_serialization_gate.json",
+    "method/research_lab/records/protocols/P003_v1_scoring_gate.json",
+    "method/frozen_probe/runtime/CONFAN001_20261004_H002_P003v1_12d05a8e_s1701/status.json",
+    "method/frozen_probe/runtime/CONFAN001_20261004_H002_P003v1_12d05a8e_s1701/error.txt",
+    "method/frozen_probe/runtime/CONFAN001_20261004_H002_P003v1_12d05a8e_s1701/config.json",
+    "method/research_lab/records/decisions/D010.md"
+  ]
+}

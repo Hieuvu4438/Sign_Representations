@@ -1,0 +1,41 @@
+{
+  "protocol": "H004_v0_completion_bounds",
+  "H_id": "H004",
+  "seed": 1701,
+  "timeout_seconds": 180,
+  "prior_quality_config": "method/frozen_probe/configs/REPQUAL001.json",
+  "cache_report": "method/research_lab/records/experiments/CACHE006_report.json",
+  "checkpoint": "checkpoints/signrep/ckpt.pt",
+  "new_model_inference": false,
+  "GPU_allocation_seconds": 0,
+  "half_budget_fraction_floor": 0.5,
+  "query_count": 383,
+  "gallery_seeds": [
+    1701,
+    1702,
+    1703
+  ],
+  "input_hashes": {
+    "method/frozen_probe/completion_bounds.py": "65e10053b2ce5fa3145936a7c3c45a083b48111142dd7d61b3f67568ee951261",
+    "method/frozen_probe/scripts/audit_completion_feasibility.py": "bfdcf1bf89ad73ec86c7f5633b33d8738613660f994d8e9800c86b40cb62aae3",
+    "method/frozen_probe/tests/test_completion_bounds.py": "8e3ee4f8bdaa0f6090ffa9ea277d0a7966d055c63715c210ec12f2d1e1aa631a",
+    "method/frozen_probe/runtime/CERTTEST001_H004v0_s1701.log": "5a5d4226d64eb789e551e3f0b6b9bda315e20869d4b07f8badf2e06b898179f3",
+    "method/frozen_probe/configs/REPQUAL001.json": "c80107efdc1c280e882314cf1e3a021d47aff2dc628db6666c72284a1a86e686",
+    "method/research_lab/records/experiments/CACHE006_report.json": "a9c3d9685bcad477eef864a9aa73d32ef259372bd76afa08497bb16c00f0ee9a",
+    "method/frozen_probe/runtime/CACHE006_20261004_H002_P004v1_bf385467_s1701/status.json": "ff12f8ed99fd8526986b2ab6648c8457a3d4ac51e383847f71ac7037b7391330",
+    "method/research_lab/records/protocols/H004_v0_completion_bounds.md": "c27d0c1489c20516c1d33944414482c70c8a4787d9eabfbf3d748aa8d4d3d844",
+    "third_party/SignRep/models/final_models/FINAL_hiera_latent_model_head_v25_active.py": "70ac165c22a40450005d5dceae283d7095b037d6173dcea1872f3341b8a432fe",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/confirmatory.py": "d86071de8f09cf58fa7ac7f474a87921a4a7be611a1d4a13108a183aa4b3040f",
+    "method/frozen_probe/pooling.py": "3e96860bdf7af1ff520520fff2ec39bcc0af87955ba174afedd7768459436564",
+    "method/frozen_probe/probes.py": "2f4519452a338943ca29408a1700edfeb8ee1681535b14a86660a6001fe8f063",
+    "method/frozen_probe/window_budget.py": "d536f18fb1a78ef363b338e6f8dc701a2a4ada33428c5268ca54d7ec11f70cc3",
+    "method/frozen_probe/resources.py": "27242333dd98852765d93e119fa1f591fe732dff1aa12f1a18fd69ca1fa0e4f2",
+    "method/frozen_probe/run_context.py": "c8e08efd93809f5a4ac69fd5ac05e45a5885ed71b46845b6ce05b6b320715ed8",
+    "checkpoints/signrep/ckpt.pt": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+    "method/research_lab/records/inventory/COHORT002_cohort.json": "bf9f72c927687f5a0657dad32b940b67a38c65311312c9d60ec4d4d8c91d875c",
+    "method/research_lab/records/inventory/VID003_video_audit.json": "d32a4349398ed7b97ba756301500f59a410393feb5cfebdeac7e6e8a9bd0a26e"
+  },
+  "retry_of": "CERTBOUND002_20261004_H004_v0_e625ae90_s1701",
+  "technical_change": "Validate the actual string seed keys then convert to integer wrapper keys; no support or scientific condition changes"
+}

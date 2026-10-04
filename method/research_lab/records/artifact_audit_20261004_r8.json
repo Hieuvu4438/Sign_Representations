@@ -1,0 +1,46 @@
+{
+  "audited_utc": "2026-10-04T05:05:27.840934+00:00",
+  "scope": "internal same-agent source/artifact/count/freeze integrity, not independent scientific review",
+  "own_python_AST_files": 79,
+  "verified_completed_predecessor_runs": 41,
+  "bound_documents": 56,
+  "unchanged_scientific_gates": {
+    "P003_v1_serialization_gate": {
+      "sha256": "1a247568d6946f985f4d979874dbd5192ed16a268b9bfe3a3ce8cd0994f0738e",
+      "bound_files": 61,
+      "config_count": 3
+    },
+    "P004_v1_dev_gate": {
+      "sha256": "b95069bba9f0e81b60be72e6160b7ded91e34c8259a811704b60274fc71af486",
+      "bound_files": 81,
+      "config_count": 2
+    },
+    "P004_v1_test_freeze": {
+      "sha256": "99d11517e30aa570d32cbca3c8bd72fd1c014eedf05e585dde41ab601c960bfd",
+      "bound_files": 97,
+      "config_count": 4
+    }
+  },
+  "local_links_checked": 43,
+  "P004_dev_screen": true,
+  "P004_all_query_native_recipe_eligible": false,
+  "new_test_predictions": false,
+  "official_short_source_byte_equal": true,
+  "GPU_budget": {
+    "project_used_seconds": 5646.19190153433,
+    "hypothesis_used_seconds": 3158.847330496181,
+    "remaining_seconds": 4041.152669503819
+  },
+  "no_live_owned_GPU_attempts": true,
+  "metadata_errata": [
+    "SHORTREL001 name omits config prefix; actual digest bound",
+    "REPRO005 name prefix14c62023 incorrect; actual f09975e3... bound; historical run preserved"
+  ],
+  "document_hashes": {
+    "method/research_lab/records/STATE.md": "261094e6c6bec1a729d749915c74b3cb20d40f257a4e5bf9a5a20a754cd49b30",
+    "method/research_lab/records/PROGRAM_GATES.md": "0dc68d99e917f36daa1457249e4c614408a59443c69c127aa8991cfbe846fa4a",
+    "method/research_lab/records/paper/PAPER_DOSSIER.md": "49d0edc83785ff435029bcf8932dd0f971e165e7bc10de0c449faaaaf61f5227",
+    "method/research_lab/records/decisions/D013.md": "c11760168b0e930038e01526c508ea6d816f493b636028eabf0564ccbb0f625c",
+    "method/research_lab/records/decisions/D014.md": "b541a2d37073809160916b7c744ef8ca7ac8bf4cca5cfec5bb8ea91ec74cda44"
+  }
+}

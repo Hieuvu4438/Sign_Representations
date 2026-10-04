@@ -1,0 +1,24 @@
+{
+  "registered_utc": "2026-10-04T09:13:16.852020+00:00",
+  "run_id": "SHRINKVERIFY001_20261004_H006_v1_451ad2ba_s1701",
+  "config": "method/frozen_probe/configs/SHRINKVERIFY001.json",
+  "config_sha256": "451ad2ba60ab6b9f5052d0c41bcf5c5478178bae2bf9dadffd2742945a5420c4",
+  "output_dir": "method/frozen_probe/runtime/SHRINKVERIFY001_20261004_H006_v1_451ad2ba_s1701",
+  "verification_only": true,
+  "rank_rule": "all6894new LW rows exact in original-space inverse-covariance metric; all9192 rows recounted",
+  "fixed_tolerances": {
+    "numeric_atol": 1e-12,
+    "inverse_identity_atol": 1e-08
+  },
+  "input_hashes": {
+    "method/frozen_probe/runtime/SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701/status.json": "58abb128ea4e185916658263312b0ac3268d9fe18a47ac8ef856334c33845d37",
+    "method/frozen_probe/runtime/SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701/config.json": "b010cafba13bcbebf2959bbec02398764f22bdde1cc2fde222cab123246e53d3",
+    "method/frozen_probe/runtime/SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701/fitted_shrinkage.npz": "75a681f409c62515a9e9887cb554d75b28582dde1cecffe10851cc4ad98a8a91",
+    "method/frozen_probe/runtime/SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701/fit_support_metadata.json": "c9f450f68b466842641eb8935b70b9e27ba3c081b2fa0be96a003de8e0168d32",
+    "method/frozen_probe/runtime/SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701/predictions.json": "42aedbb8e4af3b8ff0c2f1dde0441b9c69b3787671591d6059c0e9e80a0fddaf",
+    "method/frozen_probe/runtime/SHRINKTRANSFER001_20261004_H006_v1_b010cafb_s1701/shrinkage_transfer.json": "3d34922ccd99fb03f227616b66548dd61ec192e53cc5da4229c7ebf4ac98ba18",
+    "method/frozen_probe/scripts/verify_shrinkage_transfer.py": "f8812806d6e34855a602a83e83b2e29b14dfce60dfcf3d5da1e5b63fe63b563d"
+  },
+  "CPU_limit_seconds": 180,
+  "GPU_hours": 0
+}

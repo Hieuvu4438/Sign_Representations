@@ -1,0 +1,39 @@
+{
+  "registered_utc": "2026-10-04T13:22:55.103242+00:00",
+  "run_id": "MSESTTEST001_20261004_2019aeb5_s1701",
+  "config": "method/frozen_probe/configs/MSESTTEST001.json",
+  "config_sha256": "2019aeb5c29a57d1e2788e72e2a9ff4dc3a400f0266caad1e7a4052404fa59f7",
+  "output_dir": "method/frozen_probe/runtime/MSESTTEST001_20261004_2019aeb5_s1701",
+  "CPU_limit_seconds": 60,
+  "GPU_hours": 0,
+  "durable_bytes_ceiling": 2097152,
+  "maximum_planned_logical_bytes": 657058,
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/msasl_estimated_clock.py": "72d576066e7d75ac6c74f274cd7f99910fc6b258b50e8154a68b15f30e61bcc0",
+    "method/frozen_probe/msasl_native.py": "b5b73dd04a56ce7e1879afe34a0a91642bbba3f4b50cdf993d0c39a96e7fed6a",
+    "method/frozen_probe/resources.py": "27242333dd98852765d93e119fa1f591fe732dff1aa12f1a18fd69ca1fa0e4f2",
+    "method/frozen_probe/rgb_payload_hash.py": "df6dfb661d5621614daf3c8f5ef08858b1fd205f04cc158f3fc82a499bde6798",
+    "method/frozen_probe/scripts/audit_msasl_estimated_cohort.py": "6db7b09b74673c9ccde946aff9b3b164c87375d2ba668e1721d3124b3d152d8f",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/frozen_probe/scripts/register_msestimated_stage.py": "dc0f659fa6c873c265fed96f0e4572524a7c9e2011177009d65782f55004f7df",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_msasl_estimated_clock.py": "dd41043626976ad1990b3fb1bbf8d4845e81a2109eead57e7e8994ee672008f6",
+    "method/research_lab/records/decisions/D066.md": "6ad3fb57e4b61abb1208c926d851e929131a7c87db96f0a646b95894dd25f576",
+    "method/research_lab/records/protocols/MSESTTEST001_temporal_pixel_oracles.md": "db4708d3e0355c4dd2cb661498cf26c7417f6204b4d7cab426440e995c47d783"
+  },
+  "command": [
+    "/home/haipd/miniconda3/bin/python",
+    "method/frozen_probe/scripts/audit_msasl_estimated_cohort.py",
+    "--config",
+    "method/frozen_probe/configs/MSESTTEST001.json",
+    "--run-id",
+    "MSESTTEST001_20261004_2019aeb5_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/MSESTTEST001_20261004_2019aeb5_s1701",
+    "--seed",
+    "1701"
+  ]
+}

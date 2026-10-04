@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "byte_parity": true,
+  "fit_split": "train only",
+  "original_run": "THR001_20261004_P003v1_s1701",
+  "new_scientific_thresholds": false,
+  "test_access": "none",
+  "expected_hashes": {
+    "train_thresholds.json": "bc35f9396d64b0adf87ac806ac0b27316ca9215b67208fce62dbb2773303af15",
+    "representative_rates.json": "7b4166bbef477864f4cbc439c26df263d7b4779b89d33b08497e61a67775fd83"
+  },
+  "reason": "THR001 historical Python stdin argv omitted its driver; this versioned command closes replay provenance"
+}

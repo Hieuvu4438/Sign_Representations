@@ -1,0 +1,33 @@
+{
+  "run_id": "COVFIG002_20261004_A001_s1701",
+  "protocol": "A001_input_coverage_figure",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 1989896,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T21:46:18.550843+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/plot_input_coverage.py",
+    "--config",
+    "method/frozen_probe/configs/COVFIG002.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "COVFIG002_20261004_A001_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/COVFIG002_20261004_A001_s1701"
+  ],
+  "config_sha256": "01de3a93a29656ee161d58675cfc78dd296e903b0d922795683c9f9e05d29d26",
+  "output_hashes": {
+    "coverage_ecdf.svg": "e17bbc49e261f6072e3e0d81a0ed3e8c79e6b38f20118d33aec4fd46aee1c0b9",
+    "coverage_ecdf.pdf": "8efdc800e0a2c18194859e704f35991cd09b4a99a0cb538b1e9645c0a9d9a276",
+    "coverage_ecdf.png": "953959d3d6eb503b82b4b30571e3a8030e48992ed22bba14d44d9bcc18f36751",
+    "figure_data.csv": "1230edf35ad4563c5b841810b797fff5dc61b1fb70361eb3d3ad3638b2032296",
+    "figure_metadata.json": "1a0cabf92ce63dd0cf1e8b0911b63cf8e6e774b1f98c1d54f01185370dfe7592"
+  },
+  "end_utc": "2026-10-03T21:46:19.198777+00:00",
+  "wall_seconds": 0.6479559229919687,
+  "exit_code": 0
+}

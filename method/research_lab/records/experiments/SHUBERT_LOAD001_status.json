@@ -1,0 +1,31 @@
+{
+  "run_id": "LOAD001_20261004_H003_v0_a6ab5917_s1701",
+  "protocol": "H003_v0_load_audit",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2606692,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T05:24:58.746521+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "method/stream_reliability/scripts/audit_loading.py",
+    "--config",
+    "method/stream_reliability/configs/LOAD001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "LOAD001_20261004_H003_v0_a6ab5917_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/LOAD001_20261004_H003_v0_a6ab5917_s1701"
+  ],
+  "config_sha256": "a6ab5917b33ae1cdb8ad8b23f1ea012d2a28e62674a8a9fbe2a8a6d714110605",
+  "H_id": "H003",
+  "output_hashes": {
+    "load_audit.json": "8260b70a8bfc30b5fd13b9ecf2f619b828ef9864fdb394649f698ae55cabd5a4",
+    "synthetic_reference.npz": "9b8a79830f5ef7943c52976d5949e042cced6bd20f48ef559460470e2d566566"
+  },
+  "end_utc": "2026-10-04T05:25:01.437383+00:00",
+  "wall_seconds": 2.6908837610390037,
+  "exit_code": 0
+}

@@ -1,0 +1,484 @@
+[
+  {
+    "type": "directory",
+    "oid": "cdb6de005ef928af6499f2e2cf8ae2647c4198fc",
+    "size": 0,
+    "path": "models/byt5_base",
+    "lastCommit": {
+      "id": "04f74e6a363b234d29a69799932192afb41f6e50",
+      "title": "initial commit",
+      "date": "2025-07-06T16:59:11.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "83a79e997f59f9f371a274e109b792daf86f7c96",
+    "size": 0,
+    "path": "models/checkpoint-11625",
+    "lastCommit": {
+      "id": "04f74e6a363b234d29a69799932192afb41f6e50",
+      "title": "initial commit",
+      "date": "2025-07-06T16:59:11.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "37d15d18cb1a3ad68f6fd204430c87c547cd6866",
+    "size": 1057496908,
+    "lfs": {
+      "oid": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+      "size": 1057496908,
+      "pointerSize": 135
+    },
+    "xetHash": "d72ca231b77795a3710e81a786f59d387636d1bc791b6745b91dd99d4efca744",
+    "path": "models/checkpoint_836_400000.pt",
+    "lastCommit": {
+      "id": "04f74e6a363b234d29a69799932192afb41f6e50",
+      "title": "initial commit",
+      "date": "2025-07-06T16:59:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ShesterG/SHuBERT/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/files?blob-id=37d15d18cb1a3ad68f6fd204430c87c547cd6866&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.4.3/27691"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "DoubleStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.26"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pickle-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2eb2d699c4bb15d0e599eec16a59c3efae128101",
+    "size": 112850895,
+    "lfs": {
+      "oid": "ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb",
+      "size": 112850895,
+      "pointerSize": 134
+    },
+    "xetHash": "b82e7c34b9a66b459be3cb55a272bd980816f9f1c3fc704ae0432b1fbb3d3264",
+    "path": "models/dinov2face.pth",
+    "lastCommit": {
+      "id": "04f74e6a363b234d29a69799932192afb41f6e50",
+      "title": "initial commit",
+      "date": "2025-07-06T16:59:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "caution",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ShesterG/SHuBERT/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/files?blob-id=2eb2d699c4bb15d0e599eec16a59c3efae128101&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.4.3/27691"
+      },
+      "pickleImportScan": {
+        "status": "caution",
+        "message": "This file contains imports that require your attention. Click on the pickle button to get more detail.",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._tensor",
+            "name": "_rebuild_from_type_v2",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "Tensor",
+            "safety": "suspicious"
+          }
+        ],
+        "version": "0.0.26"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/ebf07e5720a2ccbee559a89f2a8afd7b85ba14bf9ff156842cefb3de5be59bcb?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pickle-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "662574a094c7852bda0c50562dc1ee934eae6463",
+    "size": 112850895,
+    "lfs": {
+      "oid": "c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85",
+      "size": 112850895,
+      "pointerSize": 134
+    },
+    "xetHash": "d9907e749df16f9e9b0763a50065c3841c4bcc3e9a149b5ecf2e38ee86f34fb6",
+    "path": "models/dinov2hand.pth",
+    "lastCommit": {
+      "id": "04f74e6a363b234d29a69799932192afb41f6e50",
+      "title": "initial commit",
+      "date": "2025-07-06T16:59:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "caution",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ShesterG/SHuBERT/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/files?blob-id=662574a094c7852bda0c50562dc1ee934eae6463&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.4.3/27691"
+      },
+      "pickleImportScan": {
+        "status": "caution",
+        "message": "This file contains imports that require your attention. Click on the pickle button to get more detail.",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "Tensor",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch._tensor",
+            "name": "_rebuild_from_type_v2",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.26"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/c6ffaf9fbf57b906a5f288b8dbbbeb8651a5cf7a37623fa284cb8e56bf640d85?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pickle-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "30ad25a66fbd538eddd331561f2be427caeef0c1",
+    "size": 11577701,
+    "lfs": {
+      "oid": "8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9",
+      "size": 11577701,
+      "pointerSize": 133
+    },
+    "xetHash": "4447f821f06b9e57e90d3d9e91357569831a0da9b5380c800b3cd04c2260b98d",
+    "path": "models/face_landmarker_v2_with_blendshapes.task",
+    "lastCommit": {
+      "id": "04f74e6a363b234d29a69799932192afb41f6e50",
+      "title": "initial commit",
+      "date": "2025-07-06T16:59:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ShesterG/SHuBERT/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/files?blob-id=30ad25a66fbd538eddd331561f2be427caeef0c1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.4.3/27691"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/8e0044e474913045fff3ace464ab14db1646f5f49b42f7c38cacc5f85a5bb8e9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5ecab741879892d97c2f90bbf03bf55d7213db7c",
+    "size": 7819105,
+    "lfs": {
+      "oid": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "size": 7819105,
+      "pointerSize": 132
+    },
+    "xetHash": "b3100b5b5e250841ae74c4e2616d80e014f4d670f13b5301a70fc9784be05d01",
+    "path": "models/hand_landmarker.task",
+    "lastCommit": {
+      "id": "04f74e6a363b234d29a69799932192afb41f6e50",
+      "title": "initial commit",
+      "date": "2025-07-06T16:59:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ShesterG/SHuBERT/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/files?blob-id=5ecab741879892d97c2f90bbf03bf55d7213db7c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "719e6f1dbdfe7c560e5933fc8b0c5a7e857d0234",
+    "size": 6549796,
+    "lfs": {
+      "oid": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+      "size": 6549796,
+      "pointerSize": 132
+    },
+    "xetHash": "ef74f33cfab427c528d6dc80cde8c43788bd455108f802c38acbc82614231220",
+    "path": "models/yolov8n.pt",
+    "lastCommit": {
+      "id": "04f74e6a363b234d29a69799932192afb41f6e50",
+      "title": "initial commit",
+      "date": "2025-07-06T16:59:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "caution",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ShesterG/SHuBERT/578a0233e770c8ce4dc75d859b91fdea7c34f5aa/files?blob-id=719e6f1dbdfe7c560e5933fc8b0c5a7e857d0234&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "caution",
+        "message": "This file contains imports that require your attention. Click on the pickle button to get more detail.",
+        "pickleImports": [
+          {
+            "module": "ultralytics.nn.modules.conv",
+            "name": "Concat",
+            "safety": "suspicious"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch.nn.modules.container",
+            "name": "ModuleList",
+            "safety": "suspicious"
+          },
+          {
+            "module": "ultralytics.nn.modules.block",
+            "name": "SPPF",
+            "safety": "suspicious"
+          },
+          {
+            "module": "ultralytics.nn.modules.block",
+            "name": "Bottleneck",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch.nn.modules.pooling",
+            "name": "MaxPool2d",
+            "safety": "suspicious"
+          },
+          {
+            "module": "ultralytics.nn.tasks",
+            "name": "DetectionModel",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "__builtin__",
+            "name": "set",
+            "safety": "suspicious"
+          },
+          {
+            "module": "ultralytics.nn.modules.block",
+            "name": "DFL",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch",
+            "name": "Size",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch.nn.modules.activation",
+            "name": "SiLU",
+            "safety": "suspicious"
+          },
+          {
+            "module": "ultralytics.nn.modules.conv",
+            "name": "Conv",
+            "safety": "suspicious"
+          },
+          {
+            "module": "ultralytics.nn.modules.head",
+            "name": "Detect",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_parameter",
+            "safety": "suspicious"
+          },
+          {
+            "module": "ultralytics.nn.modules.block",
+            "name": "C2f",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch.nn.modules.upsampling",
+            "name": "Upsample",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch",
+            "name": "HalfStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch.nn.modules.batchnorm",
+            "name": "BatchNorm2d",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch.nn.modules.conv",
+            "name": "Conv2d",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch.nn.modules.container",
+            "name": "Sequential",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch",
+            "name": "LongStorage",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe Pickle-based model\nSafe PyTorch model",
+        "reportLink": "https://research.jfrog.com/model-threats/pickle-malcode?utm_source=huggingface"
+      }
+    }
+  }
+]

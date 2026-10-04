@@ -1,0 +1,29 @@
+{
+  "run_id": "VERIFY001_20261004_P001v4_s1701",
+  "protocol": "P001_v4",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 1745434,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T20:07:55.797807+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/verify_cache.py",
+    "--config",
+    "method/frozen_probe/configs/VERIFY001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "VERIFY001_20261004_P001v4_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/VERIFY001_20261004_P001v4_s1701",
+    "--extraction-run",
+    "method/frozen_probe/runtime/CACHE005_20261004_P001v4_s1701"
+  ],
+  "config_sha256": "14ed666f795425329e206538d35adb26a007914e95797c908f627c560e11716f",
+  "output_sha256": "d99d00a3bce8b5b571ebb5227446731ed62a9a2cb73bf090e78489c68fd8eafb",
+  "end_utc": "2026-10-03T20:07:56.268647+00:00",
+  "wall_seconds": 0.4708572749514133,
+  "exit_code": 0
+}

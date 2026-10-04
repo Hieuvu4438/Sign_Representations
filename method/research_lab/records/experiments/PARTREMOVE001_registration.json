@@ -1,0 +1,8 @@
+{
+  "run_id": "PARTREMOVE001_20261004_H005_v1_1fab462b_s1701",
+  "registered_utc": "2026-10-04T08:28:07.418988+00:00",
+  "config_sha256": "1fab462ba128a0e2c22d1c1849882a7e767d59de4da7321ee21843dd58dfbebf",
+  "output_dir": "method/frozen_probe/runtime/PARTREMOVE001_20261004_H005_v1_1fab462b_s1701",
+  "status": "queued",
+  "test_access": "none"
+}

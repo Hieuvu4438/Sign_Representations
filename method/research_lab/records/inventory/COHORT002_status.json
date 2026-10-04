@@ -1,0 +1,30 @@
+{
+  "run_id": "COHORT002_20261004_P004v0_s1704",
+  "protocol": "P004_v0_train_only_feasibility",
+  "seed": 1704,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2166571,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T23:05:10.427937+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/prepare_replication_cohort.py",
+    "--config",
+    "method/frozen_probe/configs/COHORT002.json",
+    "--seed",
+    "1704",
+    "--run-id",
+    "COHORT002_20261004_P004v0_s1704",
+    "--output-dir",
+    "method/frozen_probe/runtime/COHORT002_20261004_P004v0_s1704"
+  ],
+  "config_sha256": "693e5056733bd07a38db89fa868e94e9c0691f2f4d33ed46af196b14f47df73f",
+  "output_hashes": {
+    "cohort.json": "bf9f72c927687f5a0657dad32b940b67a38c65311312c9d60ec4d4d8c91d875c",
+    "inventory.json": "6607372432729c0cc460194f35fe1a6dac5fe3690458e6da5c31d33dadbbe9b5"
+  },
+  "end_utc": "2026-10-03T23:05:10.884228+00:00",
+  "wall_seconds": 0.45631693198811263,
+  "exit_code": 0
+}

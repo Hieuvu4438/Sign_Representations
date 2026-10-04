@@ -1,0 +1,30 @@
+{
+  "audited_utc": "2026-10-04T05:15:03.392370+00:00",
+  "scope": "cross-direction STREAM001 source/schema/asset/external-snapshot integrity; internal same-agent, not scientific robustness validation",
+  "prior_P004_artifact_checkpoint": "artifact_audit_20261004_r8.json",
+  "prior_checkpoint_sha256": "e3ec8b96fc30bf6437a145bc0500084e615e6b291a17c1058848b005dcd4f251",
+  "completed_input_run": "STREAM001_20261004_H003_v0_dbd8c39f_s1701",
+  "status_sha256": "3bc063e6b0c47a6cd9be088f3b98ba25dc49800619dec396d7950d84b18b296e",
+  "config_sha256": "dbd8c39f2902e13ac321418cc07b37b1ea6c915cdf0f613022f91fd26ff60eca",
+  "output_sha256": "e10aff4f33ba6c9567656350e85fd58bacd022de29b1ee096abb60043d503709",
+  "own_stream_source_snapshot_files": 2,
+  "external_upstream_files": 5,
+  "raw_files_verified": 4,
+  "raw_bytes": 1083910,
+  "model_assets_present": 3,
+  "native_frame_counts_agree": true,
+  "timestamps_verified": false,
+  "natural_failure_labels_verified": false,
+  "four_stream_features_ready": false,
+  "original_P003_bindings_unchanged": true,
+  "no_live_owned_processes": true,
+  "GPU_seconds_unchanged": 5646.19190153433,
+  "document_hashes": {
+    "method/research_lab/records/STATE.md": "ef4f2f341ed85533371aa746b0289ee74539de626ab8516486fc2a59d53ed145",
+    "method/research_lab/records/PROGRAM_GATES.md": "d173ece90d59799248e5d363f4239dcac3190abe248fa1cc5e617bbac5246983",
+    "method/research_lab/records/decisions/D015.md": "a560292cefea932bace915a7dc4b77383008604b0910783353bf30cf5492d84f",
+    "method/research_lab/records/hypotheses/H003.md": "709c4793ac37b96ee25428140dd581f6afe7604a2d8812d893713be971940b4b",
+    "method/research_lab/records/claims/LEDGER.md": "b1c5dd05c9fd5a747183d9d82cdbe0d423cb73758fafebf78b665b048b8c6153",
+    "method/research_lab/records/SESSION_AUDIT_r10.md": "f2c44b089fa4501c3ce47558e8f523a72daf97b99024ffb9118c56bc2f9b9429"
+  }
+}

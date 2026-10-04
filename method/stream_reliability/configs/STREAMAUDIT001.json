@@ -1,0 +1,65 @@
+{
+  "protocol": "H003_v0_artifact_closure",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "runs": [
+    {
+      "path": "method/stream_reliability/runtime/ASSET001_20261004_H003_v0_0395b8eb_s1701",
+      "record_alias": "ASSET001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/ASSET002_20261004_H003_v0_5e2de9e7_s1701",
+      "record_alias": "ASSET002"
+    },
+    {
+      "path": "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701",
+      "record_alias": "DINOSRC001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/GLAUDIT001_20261004_H003_v0_0bf71e65_s1701",
+      "record_alias": "GLAUDIT001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/LANDMARK001_20261004_H003_v0_85a92d70_s1701",
+      "record_alias": "LANDMARK001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/LOAD001_20261004_H003_v0_a6ab5917_s1701",
+      "record_alias": "SHUBERT_LOAD001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/STREAM001_20261004_H003_v0_dbd8c39f_s1701",
+      "record_alias": "STREAM001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/STREAMDINO001_20261004_H003_v0_a09ef752_s1701",
+      "record_alias": "STREAMDINO001"
+    },
+    {
+      "path": "method/stream_reliability/runtime/STREAMGPU001_20261004_H003_v0_aeb2c96d_s1701",
+      "record_alias": "STREAMGPU001"
+    }
+  ],
+  "frozen_gates": [
+    "method/research_lab/records/protocols/P003_v1_serialization_gate.json",
+    "method/research_lab/records/protocols/P004_v1_dev_gate.json",
+    "method/research_lab/records/protocols/P004_v1_test_freeze.json"
+  ],
+  "dino_source_run": "method/stream_reliability/runtime/DINOSRC001_20261004_H003_v0_a7f22e04_s1701",
+  "landmark_report": "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json",
+  "budget_config": "method/stream_reliability/configs/STREAMGPU001.json",
+  "expected_program_seconds": 5692.488814915298,
+  "documents": [
+    "method/research_lab/records/STATE.md",
+    "method/research_lab/records/PROGRAM_GATES.md",
+    "method/research_lab/records/decisions/D016.md",
+    "method/research_lab/records/hypotheses/H003.md",
+    "method/research_lab/records/claims/LEDGER.md",
+    "method/research_lab/records/SESSION_AUDIT_r11.md",
+    "method/research_lab/records/literature/sources/S01.md",
+    "method/research_lab/records/experiments/INDEX.md",
+    "method/research_lab/records/experiments/STREAMBUDTEST001_tests.txt"
+  ],
+  "record_output": "method/research_lab/records/artifact_audit_20261004_r10.json"
+}

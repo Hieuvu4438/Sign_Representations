@@ -1,0 +1,13 @@
+{
+  "protocol": "H003_v0_graphics_accounting",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 30,
+  "original_status_path": "method/stream_reliability/runtime/LANDMARK001_20261004_H003_v0_85a92d70_s1701/status.json",
+  "original_status_sha256": "27255a18c5f62ba9b03e8f1850cd2d46c81d409c71788a7da76a4db8af30d453",
+  "observed_console": [
+    "Successfully initialized EGL. Major : 1 Minor: 5",
+    "GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2",
+    "Created TensorFlow Lite XNNPACK delegate for CPU."
+  ]
+}

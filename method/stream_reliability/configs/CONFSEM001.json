@@ -1,0 +1,17 @@
+{
+  "protocol": "H003_v3_confidence_semantics",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "landmark_report": "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json",
+  "input_report": "method/research_lab/records/inventory/INPUTPARITY001_input_parity.json",
+  "question": "What confidence quantities are actually exported, and are high/low handedness scores available on known duplicate native assignments? No manual tracking-error or calibration claim.",
+  "new_task_measurement": false,
+  "input_hashes": {
+    "method/research_lab/records/inventory/LANDMARK001_landmark_audit.json": "ef9bab8a0ae48ab0f0c1d3571987e5c411a2706a14d2201bff1627d8f8dd72f1",
+    "method/research_lab/records/inventory/INPUTPARITY001_input_parity.json": "c4eeb77a238f884326ddb7b6c741d0c2794b5a421f6af6c7c4d48e8f6e776c1f",
+    "method/stream_reliability/scripts/audit_confidence_semantics.py": "c185043f389e35d6311cd8a3ae1933a219a65547d6f454f80f3dcc93baa805d2",
+    "third_party/SHuBERT/dataset/kpe_mediapipe.py": "b8fd2866270d5b701fd087632142c70fc8a981034406ac5304e1050545c67323",
+    "/home/haipd/Sign_Representations/.venv-shubert-native/lib/python3.10/site-packages/mediapipe/tasks/python/vision/hand_landmarker.py": "d4580ccdc37b1c127294ad5c7e593887daebeff190f401f6b3b0250cb18ca9a4"
+  }
+}

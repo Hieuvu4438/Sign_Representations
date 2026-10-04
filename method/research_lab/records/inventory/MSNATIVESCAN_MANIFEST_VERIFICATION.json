@@ -1,0 +1,24 @@
+{
+  "verified_utc": "2026-10-04T12:11:37.917763+00:00",
+  "completed_run_manifests": {
+    "MSNATIVESCANTEST001": {
+      "passed": true,
+      "files": 17,
+      "bytes_excluding_manifest": 74087,
+      "manifest_sha256": "78b83d35a3b16f53f1a2ba29204f3a7bbcf172eb9156d8bda6fe23511204cab9"
+    },
+    "MSNATIVESCANTEST002": {
+      "passed": true,
+      "files": 17,
+      "bytes_excluding_manifest": 85281,
+      "manifest_sha256": "d9a74d31119023a4fabfa437c4fc98dfd0eed4dfdfcec461e85fa1cc3d0c8934"
+    },
+    "MSNATIVECOST002": {
+      "passed": true,
+      "files": 18,
+      "bytes_excluding_manifest": 105492,
+      "manifest_sha256": "fc665807534534ff164c3e90b71dde293d125898cbc64fd694f4c5eebb9eaf5d"
+    }
+  },
+  "scope": "All manifest entries and actual file counts/bytes/SHA checked, same-agent closure; failedcost manifest absent as expected, full native audit still live"
+}

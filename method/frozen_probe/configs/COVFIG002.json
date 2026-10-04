@@ -1,0 +1,8 @@
+{
+  "protocol": "A001_input_coverage_figure",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "source_run": "method/frozen_probe/runtime/COVER001_20261004_A001_s1701",
+  "source_status_sha256": "c63d3e870b97c9311be8f182367b6c36fbb4272985414c5e33c8ce4167f13f2f",
+  "display_correction": "add x-axis margins so ECDF jump at coverage1 is visible; data/analysis unchanged"
+}

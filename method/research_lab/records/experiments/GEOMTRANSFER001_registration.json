@@ -1,0 +1,8 @@
+{
+  "run_id": "GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701",
+  "registered_utc": "2026-10-04T08:45:39.980767+00:00",
+  "config_sha256": "9ea77572a4607061041a851bcb315908a1d7aade24855a951176411eb6e4d273",
+  "output_dir": "method/frozen_probe/runtime/GEOMTRANSFER001_20261004_H006_v0_9ea77572_s1701",
+  "status": "queued",
+  "test_access": "none"
+}

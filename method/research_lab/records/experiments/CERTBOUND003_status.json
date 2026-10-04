@@ -1,0 +1,31 @@
+{
+  "run_id": "CERTBOUND003_20261004_H004_v0_7ecb32f2_s1701",
+  "protocol": "H004_v0_completion_bounds",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2773788,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T07:29:40.328188+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "method/frozen_probe/scripts/audit_completion_feasibility.py",
+    "--config",
+    "method/frozen_probe/configs/CERTBOUND003.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "CERTBOUND003_20261004_H004_v0_7ecb32f2_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/CERTBOUND003_20261004_H004_v0_7ecb32f2_s1701"
+  ],
+  "config_sha256": "7ecb32f2878b21a9c64d7b0ccfc02e5235020b635a902509ad939a8fb0b20e3f",
+  "H_id": "H004",
+  "output_hashes": {
+    "pairs.json": "f3863d487a8d37daea3b896cf27f38e3b22dca501491a7a571b66b8eb46a3a3f",
+    "completion_feasibility.json": "6f970e44e320b8a1d78e59911031cffcff78d439832be70addd9506e85b9b339"
+  },
+  "end_utc": "2026-10-04T07:29:46.040891+00:00",
+  "wall_seconds": 5.71272339404095,
+  "exit_code": 0
+}

@@ -1,0 +1,73 @@
+{
+  "run_id": "LOAD001_20261003_r2",
+  "torch": "2.3.1+cu121",
+  "device": "cpu",
+  "checkpoint": "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+  "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "example_sha256": "a53aa5b1c21e34ece8b7c228751a08c15de90f25914b8fe7d80115225f34af97",
+  "model_params": {
+    "ckpt_dir": null,
+    "backbone_params": {
+      "drop_path_rate": 0.1,
+      "num_cls_tokens": 0
+    },
+    "out_dim": 768,
+    "mask_ratio": 0.0,
+    "init_weights": false,
+    "cls_head_name": "models.head_models.dict_head_v6_FINAL_thoughtful",
+    "cls_head_params": {
+      "latents_params": {
+        "hidden_dim": 512,
+        "out_dim": 384
+      },
+      "total_frames": 16,
+      "projection_params": {
+        "full_body_angles": {
+          "hidden_dim": null,
+          "output_dim": 44
+        },
+        "full_right_angles": {
+          "hidden_dim": null,
+          "output_dim": 82
+        },
+        "full_left_angles": {
+          "hidden_dim": null,
+          "output_dim": 82
+        },
+        "body_pose": {
+          "hidden_dim": null,
+          "output_dim": 183
+        },
+        "right_pose": {
+          "hidden_dim": null,
+          "output_dim": 63
+        },
+        "left_pose": {
+          "hidden_dim": null,
+          "output_dim": 63
+        },
+        "body_dist": {
+          "hidden_dim": null,
+          "output_dim": 792
+        },
+        "right_dist": {
+          "hidden_dim": null,
+          "output_dim": 165
+        },
+        "left_dist": {
+          "hidden_dim": null,
+          "output_dim": 165
+        }
+      }
+    }
+  },
+  "model_file_sha256": "70ac165c22a40450005d5dceae283d7095b037d6173dcea1872f3341b8a432fe",
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "mismatched_shapes": {},
+  "state_tensor_numel_coverage": 1.0,
+  "strict_load_passed": true,
+  "inference_parity": "not_run",
+  "scope": "loading only, not feature/benchmark parity",
+  "eval_mode": true
+}

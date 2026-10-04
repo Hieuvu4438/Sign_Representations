@@ -1,0 +1,153 @@
+{
+  "run_id": "AUTHORGPU001_20261004_H003_v2_ac538b19_s1701",
+  "protocol": "H003_v2_native_CUDA_compatibility",
+  "hardware": {
+    "physical_index": 0,
+    "uuid": "GPU-3775c606-49da-34fe-322c-756749074f5b",
+    "total_mib": 49140,
+    "free_mib": 46152,
+    "utilization_percent": 0,
+    "min_free_mib": 8192,
+    "max_utilization": 10,
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=index,uuid,memory.total,memory.free,utilization.gpu",
+      "--format=csv,noheader,nounits"
+    ]
+  },
+  "RAM": {
+    "path": "/dev/shm",
+    "total_bytes": 33365929984,
+    "free_bytes": 33005535232,
+    "planned_bytes": 67108864,
+    "cache_limit_bytes": 1073741824,
+    "reserve_fraction": 0.2,
+    "memory_bytes": {
+      "MemTotal": 66731859968,
+      "MemAvailable": 59426951168
+    },
+    "cpu_workspace_reserve_bytes": 2147483648
+  },
+  "samples": [
+    {
+      "sample_id": "0009570133052014818-GO BACK_AND_FORTH.mp4",
+      "split": "train",
+      "frames": 156,
+      "native_parity_bitwise": true,
+      "max_absolute_error": 0.0,
+      "layer_shape": [
+        12,
+        156,
+        768
+      ],
+      "final_x_shape": [
+        1,
+        156,
+        768
+      ],
+      "feature_path": "/dev/shm/shubert_author_gpu_AUTHORGPU001_20261004_H003_v2_ac538b19_s1701/0/own_features.npz",
+      "feature_sha256": "0fc2182db35e56c919b53dd414621d8944a5b60e5d095d3ba9f8cbf1653c9d91",
+      "native_reference_path": "/dev/shm/shubert_author_gpu_AUTHORGPU001_20261004_H003_v2_ac538b19_s1701/0/native_author_layers.npy",
+      "native_reference_sha256": "a21e98e609101624d8ff9a57abaec6a40544117a13d8cf48cc51b86f8aa1445b",
+      "feature_bytes": 6961932,
+      "source_sha256": "23228fb47735bbc5fb9d9c3b483a7a73a94dd94d5e64d9c497fbb3b964b489a5",
+      "metadata_sha256": "25a754de32a5c36d7b903903b4684eadc5d972358b7c64462a28e979fd552a14",
+      "final_x_author_function_reference": false,
+      "context_mode": "full-clip bidirectional offline",
+      "same_as_saved_failed_run_GPU": true
+    },
+    {
+      "sample_id": "0010333569349243454-TOSS OUT.mp4",
+      "split": "train",
+      "frames": 87,
+      "native_parity_bitwise": true,
+      "max_absolute_error": 0.0,
+      "layer_shape": [
+        12,
+        87,
+        768
+      ],
+      "final_x_shape": [
+        1,
+        87,
+        768
+      ],
+      "feature_path": "/dev/shm/shubert_author_gpu_AUTHORGPU001_20261004_H003_v2_ac538b19_s1701/1/own_features.npz",
+      "feature_sha256": "9beb3071cb71be1135e70feebce003ab9791260f85ee74d39e0b6abcacf71872",
+      "native_reference_path": "/dev/shm/shubert_author_gpu_AUTHORGPU001_20261004_H003_v2_ac538b19_s1701/1/native_author_layers.npy",
+      "native_reference_sha256": "dfb07fee9528d83041a847363e30fa45863fda5794da426b62d2158ba6455fd4",
+      "feature_bytes": 3883635,
+      "source_sha256": "1215f138c7d6e1ff1aa1c1f45475294edad007c899a599974eac6e770b41bc15",
+      "metadata_sha256": "10c6a04f63d5b3748bfcdf077c82c5413589d1554c34c9b3169b30f0f44589c2",
+      "final_x_author_function_reference": false,
+      "context_mode": "full-clip bidirectional offline"
+    },
+    {
+      "sample_id": "00033277435717016246-ELECTROCUTE.mp4",
+      "split": "val",
+      "frames": 82,
+      "native_parity_bitwise": true,
+      "max_absolute_error": 0.0,
+      "layer_shape": [
+        12,
+        82,
+        768
+      ],
+      "final_x_shape": [
+        1,
+        82,
+        768
+      ],
+      "feature_path": "/dev/shm/shubert_author_gpu_AUTHORGPU001_20261004_H003_v2_ac538b19_s1701/2/own_features.npz",
+      "feature_sha256": "0dce37adb9169bca383a1d7c9f1e493a5250b13f552fa0fa938bba6551daf2bf",
+      "native_reference_path": "/dev/shm/shubert_author_gpu_AUTHORGPU001_20261004_H003_v2_ac538b19_s1701/2/native_author_layers.npy",
+      "native_reference_sha256": "7a7dcfcf689581575d866942174b8de34ab6a478fad45c97b6de3735747249ad",
+      "feature_bytes": 3660570,
+      "source_sha256": "3be9bb4315ad3021bc172ac30fda805800149ca52cb7ee3644868a72bef6ad1d",
+      "metadata_sha256": "f592467d08f58294b4aab655f4fb44792a0137e95b74a1a28beb5b9f9975276b",
+      "final_x_author_function_reference": false,
+      "context_mode": "full-clip bidirectional offline"
+    },
+    {
+      "sample_id": "0014822228991275832-BORROW.mp4",
+      "split": "val",
+      "frames": 71,
+      "native_parity_bitwise": true,
+      "max_absolute_error": 0.0,
+      "layer_shape": [
+        12,
+        71,
+        768
+      ],
+      "final_x_shape": [
+        1,
+        71,
+        768
+      ],
+      "feature_path": "/dev/shm/shubert_author_gpu_AUTHORGPU001_20261004_H003_v2_ac538b19_s1701/3/own_features.npz",
+      "feature_sha256": "325b782f1b7fb640769cb6d691bb1daa2b24aea80c68734ce60c88e116d7f4d3",
+      "native_reference_path": "/dev/shm/shubert_author_gpu_AUTHORGPU001_20261004_H003_v2_ac538b19_s1701/3/native_author_layers.npy",
+      "native_reference_sha256": "69d9561fef30d87435efbb02bfceb9d0e641f2b5ab500790abf480e0f5661dd0",
+      "feature_bytes": 3169827,
+      "source_sha256": "d76ea58968e3a99ef0bf7e5413b3cdb12748170c98862450a60dc17b06537bfd",
+      "metadata_sha256": "101a17446d3be007783c37c238a8e1d2b8f2fc907365d44d0d64e38e39288cb4",
+      "final_x_author_function_reference": false,
+      "context_mode": "full-clip bidirectional offline"
+    }
+  ],
+  "comparison": "separately loaded models, direct native author CUDA load_model/process_sample vs own assembly",
+  "required": "bitwise equality all 12 author layer-last arrays, all four full contexts",
+  "original_CPU_GPU_gate_pass": false,
+  "original_tolerance_unchanged": true,
+  "precision": "FP32/TF32off",
+  "scientific_pilot_authorized": false,
+  "PAPER_READY": false,
+  "scope": "Author CUDA pipeline compatibility only; not restored CPU/GPU parity, natural failures, task quality or paper reproduction",
+  "completed": true,
+  "all_bitwise_native_parity": true,
+  "total_frames": 396,
+  "payload_bytes": 34123612,
+  "peak_torch_allocated_bytes": 384549376,
+  "peak_torch_reserved_bytes": 444596224,
+  "author_loader_tensor_coverage": 226
+}

@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-04T14:09:25.257015+00:00",
+  "cost_runtime": "method/frozen_probe/runtime/MSFEATCOST001_20261004_ec0ecb40_s1701",
+  "measured_rates": {
+    "decode_per_clip": 1.567721790052019,
+    "preprocess_per_frame": 0.0004976562912237238,
+    "encoder_per_window": 0.05925699901611855,
+    "pool_per_clip": 0.0004527720157057047
+  },
+  "new_clips": 1030,
+  "new_native_frames": 86953,
+  "new_windows": 36028,
+  "reused_clips": 7,
+  "reused_windows": 396,
+  "total_clips": 1037,
+  "total_windows": 36424,
+  "conservative_raw_estimate_seconds": 3793.4036669732523,
+  "factor": 1.25,
+  "setup_output_margin_seconds": 100,
+  "conservative_estimate_seconds": 4841.754583716565,
+  "GPU_allocation_seconds": 5000,
+  "job_deadline_seconds": 6000,
+  "H006_cumulative_ceiling_seconds": 5400,
+  "program_ceiling_seconds": 14400,
+  "limitation": "Worstobserved components extrapolated withmargin; content/IO/contention may differ, not certifiedduration. No smallercohort/stride rescue."
+}

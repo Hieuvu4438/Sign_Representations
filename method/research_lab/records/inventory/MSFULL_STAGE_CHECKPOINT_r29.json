@@ -1,0 +1,71 @@
+{
+  "verified_utc": "2026-10-04T14:33:24.039570+00:00",
+  "completed": {
+    "MSFULLTEST001": {
+      "run_id": "MSFULLTEST001_20261004_cd504c50_s1701",
+      "pid": 7875,
+      "wall_seconds": 0.17667360790073872,
+      "GPU_seconds": 0,
+      "report": {
+        "GPU_hours": 0,
+        "groups": [
+          "strict_cost_vector_ID_input_shape_norm_guards",
+          "complete_only_partial_final_shards"
+        ],
+        "passed": true,
+        "scope": "Software cache/shard integrity only, no model or taskquality"
+      },
+      "store": {
+        "passed": true,
+        "file_count": 30,
+        "logical_bytes": 129312,
+        "ceiling_bytes": 2097152
+      },
+      "status_sha256": "b112a47fd55bb3b35eefa8180bc714f651c4fda4cb015ab5651d51c2d0b8135a",
+      "report_sha256": "6bb73297f5a3c94b32733089a9714cc1ba1828bfeb17e534cd96c10401888426"
+    },
+    "MSEVALTEST001": {
+      "run_id": "MSEVALTEST001_20261004_a14e1536_s1701",
+      "pid": 388827,
+      "wall_seconds": 0.17386387602891773,
+      "GPU_seconds": 0,
+      "report": {
+        "GPU_hours": 0,
+        "groups": [
+          "manual_six_saved_geometry_projections",
+          "exact_train_query_dictionary_source_signer_joins",
+          "tied_scores_complete_ranks_micro_macro",
+          "fixed_primary_and_unequal_signer_clip_bootstrap"
+        ],
+        "passed": true,
+        "scope": "Synthetic software oracles only; no real target features or taskquality"
+      },
+      "store": {
+        "passed": true,
+        "file_count": 21,
+        "logical_bytes": 87233,
+        "ceiling_bytes": 2097152
+      },
+      "status_sha256": "d6d66bdca0a1c6e1fe183fda8c78778edeefe7cf90cc61b0b50938383236fddd",
+      "report_sha256": "35a196163a6cee1e24676279e79f188e35c1a336dab11b9e0b36a110bbb69dc5"
+    }
+  },
+  "scope": "Current registered fixture input/config/output/store hashes and live process snapshot only; no quality scoring or external review",
+  "live_snapshot": {
+    "observed_utc": "2026-10-04T14:33:24.042106+00:00",
+    "session_id": 11913,
+    "proc_cmdline": "/home/haipd/Sign_Representations/.venv-signrep/bin/python method/frozen_probe/scripts/extract_msasl_dictionary.py --config method/frozen_probe/configs/MSFULLFEAT001.json --run-id MSFULLFEAT001_20261004_c10f9e63_s1701 --output-dir method/frozen_probe/runtime/MSFULLFEAT001_20261004_c10f9e63_s1701 --seed 1701 ",
+    "status_sha256": "07414d31fd1a81922d5f507b571610ced69595688b2b22e22079043dbdf119a2",
+    "run_id": "MSFULLFEAT001_20261004_c10f9e63_s1701",
+    "status": "running",
+    "pid": 8255,
+    "progress_clips": 650,
+    "completed_shards": 26,
+    "new_encoder_windows": 23022,
+    "reused_windows": 262,
+    "gpu_start_utc": "2026-10-04T14:14:54.838605+00:00",
+    "terminal_charge": "Pending until the same run terminates; do not count live GPU_hours0 as zero cost"
+  },
+  "cost_verification_path": "method/research_lab/records/inventory/MSFEATURE_COST_BINDING_VERIFICATION.json",
+  "cost_verification_sha256": "75579b3f5926e28f7ae98009277353c4b6d38971b94072f12804d90ced036581"
+}

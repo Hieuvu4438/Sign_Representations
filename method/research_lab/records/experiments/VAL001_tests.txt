@@ -1,0 +1,14 @@
+Command: PYTHONPATH=method/frozen_probe python3 -m unittest discover -s method/frozen_probe/tests -v
+Date: 2026-10-03 UTC
+Exit code: 0
+
+test_ids_joined_not_zipped ... ok
+test_incomplete_duplicate_extra_and_empty_predictions_rejected ... ok
+test_independent_rank_oracle ... ok
+test_invalid_ranking_and_unknown_labels_rejected ... ok
+test_ties_and_nonfinite ... ok
+
+Ran 5 tests in 0.000s
+OK
+
+Recorded from observed command output. CPU software checks, not performance data.

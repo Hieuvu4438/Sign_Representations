@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-03T19:15:52.032840+00:00",
+  "scope": "read-only prelaunch inspection, no GPU/cache allocation",
+  "budget": {
+    "hypothesis": "H001",
+    "project_limit_seconds": 14400,
+    "hypothesis_limit_seconds": 3600,
+    "project_used_seconds": 0.0,
+    "hypothesis_used_seconds": 0.0,
+    "remaining_seconds": 3600.0,
+    "counted_attempts": [],
+    "status_sha256": {
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/AN001_20261004_P001v3_s1337/status.json": "8db9996a64501f4e3d9372bb2af4b4c794368db48f7512f2718d1bb0145f2953",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/BUD001_20261004_P001v3_s1337/status.json": "ccf9db1cd85c37ae928425d74c3c11dcb77f76da9e60ac61be12d18422f864b6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/BUD002_20261004_P001v3_s1337/status.json": "75b2120eddf7d9dcc83bfecd75b591a4ba07ffe69e828555ef9bcf7af854c6ee",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/COHORT001_20261003_s1701/status.json": "3821e562453a1568e339aa9b570ca6b8156af8398c68fdc1c8aec855a44781cf",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DATA001_20261003/status.json": "5da4a20abd7a491b401ed1be78e8c691f2dc3156839685ca9f225d9b6a5052e7",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/DATA001_20261003_r1/status.json": "c0c71b27f70571d2e4e841e8939b72be603c94d90c8fe1e1eb53b2c2eaede983",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/FEAT001_20261003_P001v1_s1701/status.json": "cdc6018fe88bed5e6631c777651eb249ac3d241383e52ae05cef32c3179d1566",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003/status.json": "31441927f0d2569c5091e9516dd54783f18c9c14754ce31e66f4d9b91219d5c6",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003_r1/status.json": "9346853994465df3a21b8aa2b6cfe471a59fef006ceae8955603fd2caa5fee40",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/LOAD001_20261003_r2/status.json": "fcaedb71bc7c5673db89ab4db2cf89c884633f5faa7395cf1091dec7a4a00832",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/NEAR001_20261004_P001v2_s1701/status.json": "9404ab25ab748736dda007197eb35aa2ac04a91ac0c324c6c4ed496623755295",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PIPE001_20261004_P001v3_s1337/status.json": "885feb6873c0cc0268637a5cc32ab254bf49401d39bfee1b180088b1216afeb0",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/PIPE002_20261004_P001v3_s1337/status.json": "08ac92d58ccc174b56034861a7bad412daa975f7410c10dc7b49a00313130e55",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/POOL001_20261004_P001v3_s1337/status.json": "812c0e6a07e2cdc585950b7fa638d739d68591dbb7e296f3c2e38f0875f24f8d",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/POOL002_20261004_P001v3_s1337/status.json": "8abac52a94410027587a1d9c7435a3c0b86fe58b48718c69c7a09feab83813eb",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VAL001_20261003/status.json": "04c02836c0ffafbb9670fc237209186a89015804897814c0d0af9e9c0d7f301a",
+      "/home/haipd/Sign_Representations/method/frozen_probe/runtime/VID002_20261003_P001v2_s1701/status.json": "504f9ff7b292aa9010d75db5ad6395ab16520a6799098089f10d98834527b6f3",
+      "/home/haipd/Sign_Representations/method/research_lab/runtime/PREP001_20261003/status.json": "41aa533175b8c179f9763c0a4c98b79b41b5cb396143225e0bc06959dec96ad0",
+      "/home/haipd/Sign_Representations/method/research_lab/runtime/REL001_20261003/status.json": "c06b78e27d0ed419f426a140080fdda644475fda5102e90110ad555ecf11d2a8"
+    }
+  },
+  "GPU_launch_ready": false,
+  "GPU_reason": "Granted GPU0 busy/insufficient VRAM: {'physical_index': 0, 'uuid': 'GPU-3775c606-49da-34fe-322c-756749074f5b', 'total_mib': 49140, 'free_mib': 16243, 'utilization_percent': 100, 'min_free_mib': 8192, 'max_utilization': 10, 'command': ['nvidia-smi', '--query-gpu=index,uuid,memory.total,memory.free,utilization.gpu', '--format=csv,noheader,nounits']}",
+  "scratch": {
+    "path": "/dev/shm",
+    "total_bytes": 33365929984,
+    "free_bytes": 33261068288,
+    "planned_bytes": 200535472,
+    "cache_limit_bytes": 1073741824,
+    "reserve_fraction": 0.2,
+    "memory_bytes": {
+      "MemTotal": 66731859968,
+      "MemAvailable": 44319440896
+    },
+    "cpu_workspace_reserve_bytes": 2147483648
+  },
+  "code_changes_since_BUD002": []
+}

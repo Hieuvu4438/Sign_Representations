@@ -1,0 +1,101 @@
+{
+  "samples": [
+    {
+      "sample_id": "0009570133052014818-GO BACK_AND_FORTH.mp4",
+      "frames": 32,
+      "observed_hand_frames": 0,
+      "max_absolute_errors": {
+        "face_landmarks": 0.0,
+        "hand_landmarks": 0.0,
+        "pose_landmarks": 0.0
+      },
+      "parity": true
+    },
+    {
+      "sample_id": "0010333569349243454-TOSS OUT.mp4",
+      "frames": 32,
+      "observed_hand_frames": 2,
+      "max_absolute_errors": {
+        "face_landmarks": 0.0,
+        "hand_landmarks": 0.0,
+        "pose_landmarks": 0.0
+      },
+      "parity": true
+    },
+    {
+      "sample_id": "00033277435717016246-ELECTROCUTE.mp4",
+      "frames": 32,
+      "observed_hand_frames": 25,
+      "max_absolute_errors": {
+        "face_landmarks": 0.0,
+        "hand_landmarks": 0.0,
+        "pose_landmarks": 0.0
+      },
+      "parity": true
+    },
+    {
+      "sample_id": "0014822228991275832-BORROW.mp4",
+      "frames": 32,
+      "observed_hand_frames": 25,
+      "max_absolute_errors": {
+        "face_landmarks": 0.0,
+        "hand_landmarks": 0.0,
+        "pose_landmarks": 0.0
+      },
+      "parity": true
+    }
+  ],
+  "all_pass": true,
+  "CUDA_VISIBLE_DEVICES": null,
+  "selected_environment": {
+    "__EGL_VENDOR_LIBRARY_FILENAMES": "/usr/share/glvnd/egl_vendor.d/50_mesa.json",
+    "LIBGL_ALWAYS_SOFTWARE": "true",
+    "EGL_PLATFORM": "surfaceless",
+    "LP_NUM_THREADS": "1",
+    "MESA_SHADER_CACHE_DISABLE": "true"
+  },
+  "forbidden_NVIDIA_libraries": [],
+  "NVIDIA_device_fds": [],
+  "library_mappings": [
+    "7fe21d4cf000-7fe21d565000 r--p 00000000 fd:00 3806320                    /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so",
+    "7fe21d565000-7fe21e865000 r-xp 00096000 fd:00 3806320                    /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so",
+    "7fe21e865000-7fe21f351000 r--p 01396000 fd:00 3806320                    /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so",
+    "7fe21f351000-7fe21f3d8000 r--p 01e81000 fd:00 3806320                    /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so",
+    "7fe21f3d8000-7fe21f3ea000 rw-p 01f08000 fd:00 3806320                    /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so",
+    "7fe22f0b7000-7fe22f0c1000 r--p 00000000 fd:00 3410265                    /usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0.0.0",
+    "7fe22f0c1000-7fe22f0ec000 r-xp 0000a000 fd:00 3410265                    /usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0.0.0",
+    "7fe22f0ec000-7fe22f0fc000 r--p 00035000 fd:00 3410265                    /usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0.0.0",
+    "7fe22f0fc000-7fe22f0ff000 r--p 00044000 fd:00 3410265                    /usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0.0.0",
+    "7fe22f0ff000-7fe22f100000 rw-p 00047000 fd:00 3410265                    /usr/lib/x86_64-linux-gnu/libEGL_mesa.so.0.0.0"
+  ],
+  "run_id": "SOFTGL001_20261004_H003_v0_5877f510_s1701",
+  "renderer_lines": [
+    "I0000 00:00:1791094068.967507 2661294 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094069.007830 2661319 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094069.062402 2661370 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094072.613694 2661462 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094072.625589 2661487 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094072.656804 2661539 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094075.420976 2661590 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094075.430319 2661615 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094075.465837 2661664 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094079.122327 2661716 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094079.134129 2661741 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)",
+    "I0000 00:00:1791094079.163527 2661790 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.4), renderer: llvmpipe (LLVM 15.0.7, 256 bits)"
+  ],
+  "child_command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "/home/haipd/Sign_Representations/method/stream_reliability/scripts/audit_software_gl.py",
+    "--config",
+    "/home/haipd/Sign_Representations/method/stream_reliability/configs/SOFTGL001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "SOFTGL001_20261004_H003_v0_5877f510_s1701",
+    "--output-dir",
+    "/home/haipd/Sign_Representations/method/stream_reliability/runtime/SOFTGL001_20261004_H003_v0_5877f510_s1701",
+    "--worker"
+  ],
+  "scope": "128 fixed prefix frames/software resource parity only, not natural-failure or benchmark validation",
+  "accounting": "Entire parent child-probe allocation conservatively charged; no retroactive refund of LANDMARK001"
+}

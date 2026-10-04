@@ -1,0 +1,20 @@
+{
+  "protocol": "H003_v1_CPU_precision_diagnostic",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 180,
+  "max_payload_bytes": 33554432,
+  "diagnostic_report": "method/stream_reliability/runtime/NUMDIAG001_20261004_H003_v1_2986835f_s1701/numerical_diagnostic.json",
+  "checkpoint": "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+  "new_task_measurement": false,
+  "question": "Are seven registered FP32 CPU/GPU tolerance violations in layers10/11 consistent with numerical sensitivity when promoting the same parameters/inputs? Preserve original source FP32 casts and failed gate; no mathematical full64 oracle or accepted parity claim.",
+  "input_hashes": {
+    "method/stream_reliability/runtime/NUMDIAG001_20261004_H003_v1_2986835f_s1701/numerical_diagnostic.json": "3cd41ccf2e0e0aa4065c39d1a96752e5a0e16350f3ad198f6a7f3a99b12e2019",
+    "checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+    "third_party/SHuBERT/fairseq/examples/shubert/models/shubert.py": "aa63d20a989d1c78de6d635b367973eb476fdeb0ca93f4e8017c50b9b8c8d76f",
+    "third_party/SHuBERT/fairseq/fairseq/modules/layer_norm.py": "25aa47361d2d89cdc9ae5f3c8766ba96e8e4d20bcdaecf00b71958db923fd4e9",
+    "third_party/SHuBERT/fairseq/fairseq/modules/multihead_attention.py": "c08ce7cccdcad7cde780af254d4661801c760a782fe82400737917748e359a3f",
+    "third_party/SHuBERT/fairseq/fairseq/models/wav2vec/wav2vec2.py": "3249a758261c059be4617c44eae79c0ac8b0a3cc2bf0fab6b221ced91c01ac7d",
+    "method/stream_reliability/scripts/audit_numerical_cpu.py": "273e40601c1f83df3dbf51ce9441fc87591d67100d91d01edb22d3b5c111ccdf"
+  }
+}

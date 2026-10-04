@@ -1,0 +1,27 @@
+{
+  "run_id": "NEAR001_20261004_P001v2_s1701",
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 1502509,
+  "host": "ptitiec",
+  "seed": 1701,
+  "start_utc": "2026-10-03T18:11:56.274873+00:00",
+  "command": [
+    "/home/haipd/miniconda3/bin/python3",
+    "method/frozen_probe/scripts/screen_duplicates.py",
+    "--input",
+    "method/frozen_probe/runtime/VID002_20261003_P001v2_s1701/video_audit.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "NEAR001_20261004_P001v2_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/NEAR001_20261004_P001v2_s1701"
+  ],
+  "script_sha256": "06e7dc568552220f0a33128a5d935db64275cf4c9545b70643929a8d5be062d2",
+  "input_sha256": "5f93826b211e1d45667c8dc3b8b352b6c5a34644a60218c1e0dc5f77760ca0fe",
+  "exit_code": 0,
+  "output_sha256": "f20eaddf5ec68bc3bba0ee96cbca19e2f3a5f595f8405355b75a56bf8f163a4e",
+  "end_utc": "2026-10-03T18:11:57.293118+00:00",
+  "wall_seconds": 1.0182634489610791
+}

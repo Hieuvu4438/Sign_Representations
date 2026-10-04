@@ -1,0 +1,40 @@
+{
+  "audited_utc": "2026-10-03T21:31:20.715825+00:00",
+  "scope": "new confirmatory artifacts, immutable completed outputs/source snapshots, issued technical gate and live progress; no task-score audit yet",
+  "own_python_AST_files": 48,
+  "verified_completed_runs": {
+    "CONFTEST001_20261004_P003v1_s1337": {
+      "status_sha256": "9b322878ad47edc9b40ec236c433bd24923d4690eb76ad173aed2df505bf10fd",
+      "snapshot_files": 48,
+      "GPU_hours": 0
+    },
+    "CONFTEST002_20261004_P003v1_s1337": {
+      "status_sha256": "c686401eec7f087114db6ffb9ed9f2c1853b7639e01f4e4aca1e15ee9d46cdf6",
+      "snapshot_files": 48,
+      "GPU_hours": 0
+    },
+    "THR001_20261004_P003v1_s1701": {
+      "status_sha256": "9069086c8e99146e84447a4b6a97ca9f445e834c4ef4a03c34cd1e243f96236d",
+      "snapshot_files": 48,
+      "GPU_hours": 0
+    },
+    "PRETEST001_20261004_H002_P003v1_741b0823_s1701": {
+      "status_sha256": "3e9ffa88c6574fad69dac39abee92cd62c9075ac2600f81ed6c2268939e21bc2",
+      "snapshot_files": 48,
+      "GPU_hours": 0
+    }
+  },
+  "technical_gate_sha256": "49f9859054d66bd84be5f54544f2c075d13d4cdd10d9baaa1f892dc3c096d8f7",
+  "original_pretest_freeze_sha256": "accde4989d9c59bb4f5b96037faa4b91b1c73af8e5000d2ac29016ec29665179",
+  "live_run": {
+    "run_id": "CONFIRM001_20261004_H002_P003v1_7b94d089_s1701",
+    "pid": 1887036,
+    "progress": {
+      "completed_queries": 75,
+      "expected_queries": 1217,
+      "measured_pipeline_seconds": 140.9134343842743,
+      "scored": false
+    }
+  },
+  "passed": true
+}

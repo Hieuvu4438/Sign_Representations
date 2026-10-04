@@ -1,0 +1,164 @@
+{
+  "run_id": "REL001_20261003",
+  "archive_url": "https://download.microsoft.com/download/b/8/8/b88c0bae-e6c1-43e1-8726-98cf5af36ca4/ASL_Citizen.zip",
+  "archive_bytes": 45924134223,
+  "http_headers": {
+    "Content-Length": "45924134223",
+    "Content-Type": "application/octet-stream",
+    "Server": "Kestrel",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"0x66C703EABF2B49391CB7B3749773EFF2890BC0510CCD9E0F006D2A34BC975425\"",
+    "Last-Modified": "Mon, 17 Feb 2025 12:32:10 GMT",
+    "X-Ms-ApiVersion": "Distribute 1.2",
+    "X-Ms-Region": "prod-neu-z1",
+    "Content-Disposition": "attachment; filename=ASL_Citizen.zip; filename*=UTF-8''ASL_Citizen.zip",
+    "Cache-Control": "public, max-age=900",
+    "Expires": "Sat, 03 Oct 2026 15:56:30 GMT",
+    "Date": "Sat, 03 Oct 2026 15:41:30 GMT",
+    "Connection": "close"
+  },
+  "scope": "metadata equality only; no video bytes checked",
+  "members": [
+    {
+      "local_relative_path": "splits/train.csv",
+      "archive_member": "ASL_Citizen/splits/train.csv",
+      "file_bytes": 1998546,
+      "compressed_bytes": 801876,
+      "zip_crc32": 3641607922,
+      "official_sha256": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329",
+      "local_sha256": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329",
+      "byte_equal": true
+    },
+    {
+      "local_relative_path": "splits/val.csv",
+      "archive_member": "ASL_Citizen/splits/val.csv",
+      "file_bytes": 510233,
+      "compressed_bytes": 208043,
+      "zip_crc32": 23698627,
+      "official_sha256": "6ac78c9d551dfcc81d225a5279d7637c2891a4490851234be6e4674666e21366",
+      "local_sha256": "6ac78c9d551dfcc81d225a5279d7637c2891a4490851234be6e4674666e21366",
+      "byte_equal": true
+    },
+    {
+      "local_relative_path": "splits/test.csv",
+      "archive_member": "ASL_Citizen/splits/test.csv",
+      "file_bytes": 1625987,
+      "compressed_bytes": 650840,
+      "zip_crc32": 1503971076,
+      "official_sha256": "b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e",
+      "local_sha256": "b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e",
+      "byte_equal": true
+    },
+    {
+      "local_relative_path": "use.txt",
+      "archive_member": "ASL_Citizen/use.txt",
+      "file_bytes": 9925,
+      "compressed_bytes": 4055,
+      "zip_crc32": 885349688,
+      "official_sha256": "5f712014b70142ef06d0bac3d47cb8ff210da0671ce555a6bdc3a7b3f3538d64",
+      "local_sha256": "5f712014b70142ef06d0bac3d47cb8ff210da0671ce555a6bdc3a7b3f3538d64",
+      "byte_equal": true
+    }
+  ],
+  "all_selected_metadata_byte_equal": true,
+  "archive_member_count": 83406,
+  "requests": [
+    {
+      "start": 45924134201,
+      "stop_inclusive": 45924134222,
+      "bytes": 22,
+      "sha256": "b1ab922a89550c063ed57781c038e8c2ba5343a4e5dabab6e2f7cbaf528a1c2a"
+    },
+    {
+      "start": 45924134181,
+      "stop_inclusive": 45924134200,
+      "bytes": 20,
+      "sha256": "e9c0bcec063bd3e269cc28c4eeb6ad95131f8152705018e028a6d12bb36fa8ad"
+    },
+    {
+      "start": 45924134125,
+      "stop_inclusive": 45924134180,
+      "bytes": 56,
+      "sha256": "739b1a89060ef8c9164e2e1655232fd24ba2eb4d6beac3b156e6ebf29259fb99"
+    },
+    {
+      "start": 45913456045,
+      "stop_inclusive": 45924134124,
+      "bytes": 10678080,
+      "sha256": "1add51fae2692b363a72fa7480f371fd7bfabe486c94ff69bead3da5e4f53e11"
+    },
+    {
+      "start": 208274,
+      "stop_inclusive": 208303,
+      "bytes": 30,
+      "sha256": "34bb02be08b994de8b74ceae9ee622db87712e887a7861102b2e56a4ce86a969"
+    },
+    {
+      "start": 208304,
+      "stop_inclusive": 208331,
+      "bytes": 28,
+      "sha256": "71b65b4e07b8adfd716b6632215ce9e0698b70aa22d95bedcc94f86d8c42c663"
+    },
+    {
+      "start": 208360,
+      "stop_inclusive": 1010235,
+      "bytes": 801876,
+      "sha256": "508e6ee934ca2269dbb889ae8f17da254640d39b4c2b7a6b0168d38ff35fd6b3"
+    },
+    {
+      "start": 147,
+      "stop_inclusive": 176,
+      "bytes": 30,
+      "sha256": "2d409f57d55551db1a1ae0272e969c20cf8298447214555e68eb80a13f35065d"
+    },
+    {
+      "start": 177,
+      "stop_inclusive": 202,
+      "bytes": 26,
+      "sha256": "1f78d03df5b49c3f56116759b35ad3033c5c3aefd346947eb3056884defa84a9"
+    },
+    {
+      "start": 231,
+      "stop_inclusive": 208273,
+      "bytes": 208043,
+      "sha256": "81b7ccced9475d168406d5b56142174f5db95de09ed68b99d20ad1f19b72ecd6"
+    },
+    {
+      "start": 1010236,
+      "stop_inclusive": 1010265,
+      "bytes": 30,
+      "sha256": "d1995ae9ef3f08627492d0ac485c8512269e8471c70f548dcc207292f5eebc6d"
+    },
+    {
+      "start": 1010266,
+      "stop_inclusive": 1010292,
+      "bytes": 27,
+      "sha256": "2d064636448d1085ea868c95bded7e1305920b2c3920ad6703dbcb95d5841395"
+    },
+    {
+      "start": 1010321,
+      "stop_inclusive": 1661160,
+      "bytes": 650840,
+      "sha256": "09b4a196fa4c5013841d20e4292e3d15ad9c5d57cae5304394cceb5ed9abdfb9"
+    },
+    {
+      "start": 45913451913,
+      "stop_inclusive": 45913451942,
+      "bytes": 30,
+      "sha256": "d6477fe3f832c9dcc18bdddf06f6d3fa67a1cc4b4e7f62447ff72046b1470c8f"
+    },
+    {
+      "start": 45913451943,
+      "stop_inclusive": 45913451961,
+      "bytes": 19,
+      "sha256": "4439a31c7c2d7810a788b7d83a4d021ce64f7b4641913a5270eea6ff3bc09a6d"
+    },
+    {
+      "start": 45913451990,
+      "stop_inclusive": 45913456044,
+      "bytes": 4055,
+      "sha256": "5ee7ecd2a10f059c17501fccae923223504a33aae2197477d48a20788054996c"
+    }
+  ],
+  "downloaded_bytes": 12343212
+}

@@ -1,0 +1,6 @@
+{
+  "protocol": "A001_input_coverage",
+  "projection_seed": 1337,
+  "test_pattern": "test_coverage.py",
+  "timeout_seconds": 120
+}

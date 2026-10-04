@@ -1,0 +1,13 @@
+{
+  "run_id": "PREP001_20261003",
+  "status": "completed",
+  "pid": 1173636,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T14:53:51.744095+00:00",
+  "script_sha256": "8b1873d2313573528d0411e22485ebd08dd60dbf3c36751beeb80b3dfe7f95b9",
+  "exit_code": 0,
+  "wall_seconds": 1.3931713460478932,
+  "end_utc": "2026-10-03T14:53:53.137260+00:00",
+  "GPU_hours": 0,
+  "output_sha256": "e9f1226b7aaa0d0610ac5ac81b1d7fbc25efb9bf927fa5273ff6bef78732cb97"
+}

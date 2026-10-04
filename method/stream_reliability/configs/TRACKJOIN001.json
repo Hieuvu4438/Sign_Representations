@@ -1,0 +1,31 @@
+{
+  "protocol": "H003_v3_tracking_identifier_candidates",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 180,
+  "url": "https://www-i6.informatik.rwth-aachen.de/ftp/pub/rwth-phoenix/20110111-annotated-groundtruth.xml.gz",
+  "max_download_bytes": 2097152,
+  "max_expanded_bytes": 16777216,
+  "local_metadata": {
+    "train": "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.train.corpus.csv",
+    "dev": "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.dev.corpus.csv"
+  },
+  "local_frames": "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px",
+  "question": "Does literal _default- removal suggest local train/dev identifiers, and do first available identical-path official archive images prove or contradict exact pixel identity? Candidate names alone cannot accept annotation joins",
+  "success": "Save all266 filename candidate/count rows and bounded exact206source prefix; at most3complete images with byte/decoded pixel checks; no accepted global join or guessed offset",
+  "stop": "Refuse full200archive response, cap/hash/source failure or any quality metric; no tracking coordinate use/test quality",
+  "input_hashes": {
+    "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.train.corpus.csv": "cc3dc2461f0a222b92f3927c24ac21c1467f3e5428b406ee7fe40bca1b0b8d44",
+    "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.dev.corpus.csv": "1085141d0ed6f28c6de6196a271b72c07366ed3fe5470c9717bd44640737f00b",
+    "method/stream_reliability/runtime/TRACKREL001_20261004_H003_v3_86c265a8_s1701/tracking_release_audit.json": "5cd0f0b671726a8742f82339a5362462d1bd16afb50c444f2f0ecabc8e4152b5",
+    "method/stream_reliability/scripts/audit_tracking_join.py": "3f534374e12fe1136ba0d1f7b1ec4e437943dcef370c2f5d713c6e182dcd6238"
+  },
+  "source_report": "method/stream_reliability/runtime/TRACKREL001_20261004_H003_v3_86c265a8_s1701/tracking_release_audit.json",
+  "archive_url": "https://www-i6.informatik.rwth-aachen.de/ftp/pub/rwth-phoenix/tracking-groundtruth-sequences.tgz",
+  "archive_etag": "\"718a1c34-4c7c827905680\"",
+  "archive_size": 1904876596,
+  "range_bytes": 524288,
+  "max_members": 25,
+  "max_images": 3,
+  "max_image_bytes": 2097152
+}

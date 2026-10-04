@@ -1,0 +1,27 @@
+{
+  "protocol": "P004_v1",
+  "H_id": "H002",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "pilot_config": "method/frozen_probe/configs/REPQUAL001.json",
+  "scientific_configs": [
+    "method/frozen_probe/configs/REPPRE001.json",
+    "method/frozen_probe/configs/REPPRED001.json",
+    "method/frozen_probe/configs/REPAN001.json",
+    "method/frozen_probe/configs/REPVERIFY001.json"
+  ],
+  "bound_documents": [
+    "method/research_lab/records/protocols/P004_v1_test.md",
+    "method/research_lab/records/protocols/P004_v1_dev_gate.json",
+    "method/research_lab/records/protocols/P004_v1_train_thresholds.json",
+    "method/research_lab/records/protocols/P003_v1_serialization_gate.json",
+    "method/research_lab/records/inventory/COHORT002_cohort.json",
+    "method/research_lab/records/inventory/VID003_video_audit.json",
+    "method/research_lab/records/inventory/SIZE003_feasibility.json",
+    "method/frozen_probe/runtime/CACHE006_20261004_H002_P004v1_bf385467_s1701/report.json",
+    "method/frozen_probe/runtime/CACHE006_20261004_H002_P004v1_bf385467_s1701/status.json",
+    "method/research_lab/records/protocols/P004_v1_wrapper_diffs.txt",
+    "method/research_lab/records/decisions/D013.md"
+  ],
+  "role_review": "Same-agent five sequential roles in P004_v1_test.md; no independent audit"
+}

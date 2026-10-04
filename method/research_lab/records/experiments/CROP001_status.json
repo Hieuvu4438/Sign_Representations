@@ -1,0 +1,29 @@
+{
+  "run_id": "CROP001_20261004_H003_v0_9ae32957_s1701",
+  "protocol": "H003_v0_crop_contract",
+  "seed": 1701,
+  "status": "failed",
+  "GPU_hours": 0,
+  "pid": 2652019,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T06:00:32.124045+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "method/stream_reliability/scripts/audit_crop_contract.py",
+    "--config",
+    "method/stream_reliability/configs/CROP001.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "CROP001_20261004_H003_v0_9ae32957_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/CROP001_20261004_H003_v0_9ae32957_s1701"
+  ],
+  "config_sha256": "9ae32957b01c328516341c783ea2af609e9534a936e9dc5faf3bc118c93b6977",
+  "H_id": "H003",
+  "fixture_root": "/dev/shm/shubert_crop_audit_CROP001_20261004_H003_v0_9ae32957_s1701",
+  "end_utc": "2026-10-04T06:00:33.908368+00:00",
+  "wall_seconds": 1.784334853058681,
+  "exit_code": 1,
+  "error": "TypeError('Object of type int64 is not JSON serializable')"
+}

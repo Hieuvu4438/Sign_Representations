@@ -1,0 +1,32 @@
+{
+  "run_id": "CROP002_20261004_H003_v0_8b0186e6_s1701",
+  "protocol": "H003_v0_crop_contract",
+  "seed": 1701,
+  "status": "completed",
+  "GPU_hours": 0,
+  "pid": 2654923,
+  "host": "ptitiec",
+  "start_utc": "2026-10-04T06:02:48.655719+00:00",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+    "method/stream_reliability/scripts/audit_crop_contract.py",
+    "--config",
+    "method/stream_reliability/configs/CROP002.json",
+    "--seed",
+    "1701",
+    "--run-id",
+    "CROP002_20261004_H003_v0_8b0186e6_s1701",
+    "--output-dir",
+    "method/stream_reliability/runtime/CROP002_20261004_H003_v0_8b0186e6_s1701"
+  ],
+  "config_sha256": "8b0186e69cede76fa12c9a6f044583dd8f89a6c123facddb8b0bbbd85d596986",
+  "H_id": "H003",
+  "fixture_root": "/dev/shm/shubert_crop_audit_CROP002_20261004_H003_v0_8b0186e6_s1701",
+  "output_hashes": {
+    "crop_contract.json": "23571787017eb7300d2f6c200e0a3743fd979ea3ec7e8491c512c9b6712a8d5e",
+    "frame_geometry.json": "e583db1db07f19c9f39ad31d478b4ad0c4f32faa554d4ac4590c9b2fcf2433ca"
+  },
+  "end_utc": "2026-10-04T06:02:50.197679+00:00",
+  "wall_seconds": 1.5419714049203321,
+  "exit_code": 0
+}

@@ -1,0 +1,22 @@
+{
+  "protocol": "H003_v3_tracking_annotation_feasibility",
+  "H_id": "H003",
+  "seed": 1701,
+  "timeout_seconds": 180,
+  "url": "https://www-i6.informatik.rwth-aachen.de/ftp/pub/rwth-phoenix/20110111-annotated-groundtruth.xml.gz",
+  "max_download_bytes": 2097152,
+  "max_expanded_bytes": 25165824,
+  "local_metadata": {
+    "train": "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.train.corpus.csv",
+    "dev": "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.dev.corpus.csv"
+  },
+  "local_frames": "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/features/fullFrame-210x260px",
+  "question": "Can official older DGS manual palm/nose point annotation schema and identifiers join existing local PHOENIX2014T train/dev without guessed offsets or language transfer claims?",
+  "success": "Persist bounded source identity/schema and exact ID intersection; zero intersection remains valid metadata evidence, not a task result",
+  "stop": "No detector inference, coordinate quality metric, fuzzy join, test quality, source replacement or bulk video download",
+  "input_hashes": {
+    "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.train.corpus.csv": "cc3dc2461f0a222b92f3927c24ac21c1467f3e5428b406ee7fe40bca1b0b8d44",
+    "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.dev.corpus.csv": "1085141d0ed6f28c6de6196a271b72c07366ed3fe5470c9717bd44640737f00b",
+    "method/stream_reliability/scripts/audit_tracking_release.py": "44df2d22ab7f7bd84033fefbecab02a7887194086dd9c4e6b80677ade2e98305"
+  }
+}

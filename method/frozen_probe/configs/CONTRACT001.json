@@ -1,0 +1,21 @@
+{
+  "protocol": "P004_v1_input_contract_audit",
+  "H_id": "H002",
+  "seed": 1701,
+  "timeout_seconds": 1800,
+  "test_manifest": "method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701/test_manifest.json",
+  "cohort_manifest": "method/research_lab/records/inventory/COHORT002_cohort.json",
+  "video_audit": "method/research_lab/records/inventory/VID003_video_audit.json",
+  "expected_queries": 1203,
+  "max_frames_per_video": 2000,
+  "max_logical_source_read_bytes": 8589934592,
+  "input_hashes": {
+    "method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701/status.json": "b9ea8e422bbd80abc456ddbd9184b74e4809877e885049ebeb55f3721d62f7ba",
+    "method/frozen_probe/runtime/REPPRE001_20261004_H002_P004v1_7a4a15e7_s1701/test_manifest.json": "532d494cf6a2124a6826352bc1f7f5326077b8b1f0816c5b99e9c93bfe4cfce6",
+    "method/research_lab/records/protocols/P004_v1_test_freeze.json": "99d11517e30aa570d32cbca3c8bd72fd1c014eedf05e585dde41ab601c960bfd",
+    "method/research_lab/records/inventory/COHORT002_cohort.json": "bf9f72c927687f5a0657dad32b940b67a38c65311312c9d60ec4d4d8c91d875c",
+    "method/research_lab/records/inventory/VID003_video_audit.json": "d32a4349398ed7b97ba756301500f59a410393feb5cfebdeac7e6e8a9bd0a26e"
+  },
+  "new_test_predictions": false,
+  "recipe_changes": false
+}

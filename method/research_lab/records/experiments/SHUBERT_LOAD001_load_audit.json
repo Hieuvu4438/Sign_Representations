@@ -1,0 +1,132 @@
+{
+  "run_id": "LOAD001_20261004_H003_v0_a6ab5917_s1701",
+  "checkpoint_sha256": "9087f47602401c07c44a9c70164ca1387373938ac4642149126a43e61c20cd7d",
+  "checkpoint_top_keys": [
+    "args",
+    "cfg",
+    "criterion",
+    "extra_state",
+    "last_optimizer_state",
+    "model",
+    "optimizer_history",
+    "task_state"
+  ],
+  "state_keys": 226,
+  "default_model_keys": 226,
+  "default_architecture": {
+    "encoder_layers": 12,
+    "encoder_embed_dim": 768,
+    "encoder_ffn_embed_dim": 3072,
+    "channels_embed_dim": 384,
+    "channels_pose_embed_dim": 14,
+    "intermediate_dim": 1024,
+    "codebook_size": 256
+  },
+  "checkpoint_architecture": {
+    "encoder_layers": 12,
+    "encoder_embed_dim": 768,
+    "encoder_ffn_embed_dim": 3072,
+    "channels_embed_dim": 384,
+    "channels_pose_embed_dim": 14,
+    "intermediate_dim": 1024,
+    "codebook_size": 256
+  },
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "shape_mismatches": {},
+  "strict_coverage_pass": true,
+  "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "packages": {
+    "torch": "2.1.1+cu121",
+    "numpy": "1.26.3",
+    "omegaconf": "2.3.0"
+  },
+  "upstream_hashes": {
+    "third_party/SHuBERT/fairseq/examples/shubert/models/shubert.py": "aa63d20a989d1c78de6d635b367973eb476fdeb0ca93f4e8017c50b9b8c8d76f",
+    "third_party/SHuBERT/fairseq/fairseq/models/wav2vec/wav2vec2.py": "3249a758261c059be4617c44eae79c0ac8b0a3cc2bf0fab6b221ced91c01ac7d",
+    "third_party/SHuBERT/features/shubert_inference.py": "ac89377454d82e990b5a18db16f778a6f29886a3a489fa2d71b439fa3cebcfcd"
+  },
+  "asset_equality_sha256": "14f7c056354e6869ea4628db95e09cbe5ba99cdbbdde7e80bc6cbd1c3a93143c",
+  "scope": "CPU strict-load/software interface only; no real video stream extraction or task quality",
+  "GPU_hours": 0,
+  "strict_load_completed": true,
+  "eval_mode": true,
+  "synthetic_shape": [
+    12,
+    16,
+    768
+  ],
+  "final_x_shape": [
+    1,
+    16,
+    768
+  ],
+  "synthetic_finite": true,
+  "output_recipe": "author shubert_inference.py layer_results row[-1].squeeze(1); not interchangeable with final_x",
+  "DINO_containers": [
+    {
+      "path": "checkpoints/shubert_author_hf/models/dinov2face.pth",
+      "container_keys": [
+        "teacher"
+      ],
+      "teacher_key_count": 184,
+      "architecture_tensor_shapes": {
+        "backbone.cls_token": [
+          1,
+          1,
+          384
+        ],
+        "backbone.pos_embed": [
+          1,
+          257,
+          384
+        ],
+        "backbone.register_tokens": [
+          1,
+          4,
+          384
+        ],
+        "backbone.patch_embed.proj.weight": [
+          384,
+          3,
+          14,
+          14
+        ]
+      },
+      "strict_DINO_model_load": "not yet performed; official architecture dependency pending"
+    },
+    {
+      "path": "checkpoints/shubert_author_hf/models/dinov2hand.pth",
+      "container_keys": [
+        "teacher"
+      ],
+      "teacher_key_count": 184,
+      "architecture_tensor_shapes": {
+        "backbone.cls_token": [
+          1,
+          1,
+          384
+        ],
+        "backbone.pos_embed": [
+          1,
+          257,
+          384
+        ],
+        "backbone.register_tokens": [
+          1,
+          4,
+          384
+        ],
+        "backbone.patch_embed.proj.weight": [
+          384,
+          3,
+          14,
+          14
+        ]
+      },
+      "strict_DINO_model_load": "not yet performed; official architecture dependency pending"
+    }
+  ],
+  "peak_RSS_bytes": 1848008704,
+  "CUDA_initialized": false
+}

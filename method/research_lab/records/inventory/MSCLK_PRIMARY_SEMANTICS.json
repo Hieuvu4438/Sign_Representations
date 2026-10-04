@@ -1,0 +1,17 @@
+{
+  "sources": [
+    {
+      "url": "https://ffmpeg.org/doxygen/4.4/structAVFrame.html",
+      "read_scope": "selected best_effort_timestamp field; heuristically estimated stream timebase, not full docs"
+    },
+    {
+      "url": "https://ffmpeg.org/ffmpeg.html",
+      "read_scope": "selected ss/accurate_seek/seek_timestamp fields, not full docs"
+    },
+    {
+      "url": "https://ffmpeg.org/ffmpeg-formats.html#framehash",
+      "read_scope": "selected framehash fields/examples, not full docs"
+    }
+  ],
+  "limitation": "current CLI/4.4 API documentation is not installed2021 binary parity; actual behavior audited separately"
+}

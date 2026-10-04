@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "run_id": "PARTPROBE001_20261004_H005_v0_6143bb5b_s1701",
+  "independent_count_check": true,
+  "rows": 1313,
+  "balanced_by_fold": [
+    0.19276667494189306,
+    0.19485966184899903
+  ],
+  "all_registered_bindings_unchanged": true,
+  "output_hashes": {
+    "predictions.json": "8002c26ad5acb6a94af8310c4150506c4eef63991a815997f3040f4a843164f8",
+    "permutation_controls.json": "37c7a96efac0d5fb2d58a64f4ff69f849b592d26514851460366278e006d63f3",
+    "participant_diagnostic.json": "3119b24c461ea3f5b946b930ec5472b48df2faffb2df953dfb50d1d20ac25056"
+  },
+  "status_sha256": "49727d78bbee54e3c7602896ab753a7dd3984ff05fcb451290e08b6ff17cb0f4",
+  "environment_sha256": "3aeaddeb9768ad491da98adc6012280520d9a356d1035eae4d60b02b1488873b",
+  "scope": "prediction/count/input digest verification; not a second feature run or independent research review"
+}

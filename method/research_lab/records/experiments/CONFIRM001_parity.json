@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "N": 1217,
+  "feature_atol": 1e-05,
+  "rtol": 0.0001,
+  "max_feature_abs_error": 5.543231964111328e-06,
+  "max_activity_abs_error": 3.8743019104003906e-07,
+  "upstream_python_sha256": {
+    "augmentation/video/base_video_aug.py": "59e1eb7e836aaaf4efc69533af87f80630d9601ec7efe642f5bc514f080d1b9f",
+    "example_usage.py": "a53aa5b1c21e34ece8b7c228751a08c15de90f25914b8fe7d80115225f34af97",
+    "models/final_models/FINAL_hiera_latent_model_head_v25_active.py": "70ac165c22a40450005d5dceae283d7095b037d6173dcea1872f3341b8a432fe",
+    "models/head_models/dict_head_v6_FINAL_thoughtful.py": "615c87f77aff2380874dcb1433d60b89af68890e94da8ba9cf9b4983471b07dd",
+    "models/hiera/hfhub.py": "12efb9ab1838536d5a9971440ea09efbabcd48b7a758e5fb87f417b0c33a15b7",
+    "models/hiera/hiera.py": "e8e9cab4d662ebb3ceaa6ce85d31bd0efb79325d68c192e93ff9b0bf9cc66c91",
+    "models/hiera/hiera_clstoken.py": "a80a84701765bbc079dfaf52c41ef5e7b06c91d6bbedca05db08b1f313701d44",
+    "models/hiera/hiera_nodec_mae.py": "385d4e3fbc2e2b3b8636c22712fabb9b664a464a86d8ead818725fa08389fd52",
+    "models/hiera/hiera_utils.py": "2af7cc75eb7a90e4eb16dcb08e229807b93c5efc74765eff3f3ee7ac017eb354"
+  },
+  "model_params": {
+    "ckpt_dir": null,
+    "backbone_params": {
+      "drop_path_rate": 0.1,
+      "num_cls_tokens": 0
+    },
+    "out_dim": 768,
+    "mask_ratio": 0.0,
+    "init_weights": false,
+    "cls_head_name": "models.head_models.dict_head_v6_FINAL_thoughtful",
+    "cls_head_params": {
+      "latents_params": {
+        "hidden_dim": 512,
+        "out_dim": 384
+      },
+      "total_frames": 16,
+      "projection_params": {
+        "full_body_angles": {
+          "hidden_dim": null,
+          "output_dim": 44
+        },
+        "full_right_angles": {
+          "hidden_dim": null,
+          "output_dim": 82
+        },
+        "full_left_angles": {
+          "hidden_dim": null,
+          "output_dim": 82
+        },
+        "body_pose": {
+          "hidden_dim": null,
+          "output_dim": 183
+        },
+        "right_pose": {
+          "hidden_dim": null,
+          "output_dim": 63
+        },
+        "left_pose": {
+          "hidden_dim": null,
+          "output_dim": 63
+        },
+        "body_dist": {
+          "hidden_dim": null,
+          "output_dim": 792
+        },
+        "right_dist": {
+          "hidden_dim": null,
+          "output_dim": 165
+        },
+        "left_dist": {
+          "hidden_dim": null,
+          "output_dim": 165
+        }
+      }
+    }
+  },
+  "all_queries_checked": true
+}

@@ -1,0 +1,13 @@
+{
+  "run_id": "DATA001_20261003",
+  "status": "completed",
+  "pid": 1202324,
+  "host": "ptitiec",
+  "start_utc": "2026-10-03T15:15:42.558545+00:00",
+  "GPU_hours": 0,
+  "script_sha256": "0e6923a1534a56661a1e20d2c69d853bd930790890878e94c24fd211ffb1eae2",
+  "exit_code": 0,
+  "output_sha256": "998cfca87911684d1e938ca08172c6e3adec9f56c96b62709bbae0990a5259a8",
+  "wall_seconds": 0.4351365140173584,
+  "end_utc": "2026-10-03T15:15:42.993675+00:00"
+}

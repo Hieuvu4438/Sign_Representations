@@ -1,0 +1,36 @@
+{
+  "input_candidate_records": "method/frozen_probe/runtime/MSCOHORT003_20261004_7cdf83cd_s1701/candidate_records.json",
+  "scope": "pre-native metadata dependency check; not full scientific cohort or physical signer verification",
+  "splits": {
+    "train": {
+      "candidate_rows": 2677,
+      "signer_ids": 96,
+      "parents": 856,
+      "parents_with_multiple_signer_ids": {
+        "3zoqSvF0Z2A": [
+          175,
+          176,
+          177
+        ],
+        "p36hZJQpLoQ": [
+          213,
+          214,
+          215
+        ],
+        "mCG3gsQfiBA": [
+          412,
+          413
+        ]
+      }
+    },
+    "val": {
+      "candidate_rows": 748,
+      "signer_ids": 19,
+      "parents": 171,
+      "parents_with_multiple_signer_ids": {}
+    }
+  },
+  "GPU_hours": 0,
+  "new_encoder_calls": 0,
+  "instrumented_wall_seconds": null
+}

@@ -1,0 +1,47 @@
+{
+  "protocol": "GPUCTXTEST001_cpu_fixtures",
+  "seed": 1701,
+  "timeout_seconds": 120,
+  "GPU_allocation_seconds": 0,
+  "HPO_trials": 0,
+  "source_snapshots": {
+    "source_snapshot/bounded_artifacts.py": "method/frozen_probe/bounded_artifacts.py",
+    "source_snapshot/bounded_cpu_context.py": "method/frozen_probe/bounded_cpu_context.py",
+    "source_snapshot/bounded_gpu_context.py": "method/frozen_probe/bounded_gpu_context.py",
+    "source_snapshot/cache.py": "method/frozen_probe/cache.py",
+    "source_snapshot/resources.py": "method/frozen_probe/resources.py",
+    "source_snapshot/scripts/test_gpu_context.py": "method/frozen_probe/scripts/test_gpu_context.py",
+    "source_snapshot/temporal.py": "method/frozen_probe/temporal.py",
+    "source_snapshot/tests/test_bounded_gpu_context.py": "method/frozen_probe/tests/test_bounded_gpu_context.py"
+  },
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/bounded_gpu_context.py": "0d9b19cf016258889bde347e549718511ec77c37b828eaad92619fbf0329d090",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/resources.py": "27242333dd98852765d93e119fa1f591fe732dff1aa12f1a18fd69ca1fa0e4f2",
+    "method/frozen_probe/scripts/test_gpu_context.py": "f00e0bff18951ab7952db83b884a1707ae02b269309a40347eb618092eed9487",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_bounded_gpu_context.py": "e0b3ece4303401003f40a9c0e591f3cf75fdf97626f05c3e706462a9f17ae60a",
+    "method/research_lab/records/decisions/D048.md": "eef9c5a5c4437c9018164aad4e78d03e3366f85d2f6a5a43fdb536892431f4ee",
+    "method/research_lab/records/protocols/GPUCTXTEST001_cpu_fixtures.md": "7b0832de5544147618d0480e1e21c65004e03ccb0f5b8333231fe47709a2cafa"
+  },
+  "artifact_file_caps": {
+    "source_snapshot/bounded_artifacts.py": 9919,
+    "source_snapshot/bounded_cpu_context.py": 8396,
+    "source_snapshot/bounded_gpu_context.py": 10244,
+    "source_snapshot/cache.py": 9237,
+    "source_snapshot/resources.py": 3502,
+    "source_snapshot/scripts/test_gpu_context.py": 1851,
+    "source_snapshot/temporal.py": 1192,
+    "source_snapshot/tests/test_bounded_gpu_context.py": 4787,
+    "config.json": 65536,
+    "environment.json": 32768,
+    "status.json": 65536,
+    "error.txt": 65536,
+    "combined_log.txt": 65536,
+    "gpu_context_tests.json": 131072
+  },
+  "artifact_manifest_cap": 65536,
+  "artifact_ceiling_bytes": 2097152
+}

@@ -1,0 +1,87 @@
+{
+  "observed_utc": "2026-10-04T10:29:55.097790+00:00",
+  "files": [
+    {
+      "split": "train",
+      "path": "/home/dongvk/datasets/MS-ASL/MSASL_train.json",
+      "bytes": 6372128,
+      "sha256": "dfd75a9f3087e57b105123d3553445a9e1d2fbd0c25ee6b3767a14dee68a8c02",
+      "root_type": "list",
+      "row_count": 16054,
+      "first_row_field_types": {
+        "org_text": "str",
+        "clean_text": "str",
+        "start_time": "float",
+        "signer_id": "int",
+        "signer": "int",
+        "start": "int",
+        "end": "int",
+        "file": "str",
+        "label": "int",
+        "height": "float",
+        "fps": "float",
+        "end_time": "float",
+        "url": "str",
+        "text": "str",
+        "box": "list",
+        "width": "float"
+      }
+    },
+    {
+      "split": "val",
+      "path": "/home/dongvk/datasets/MS-ASL/MSASL_val.json",
+      "bytes": 2073271,
+      "sha256": "c698b0ce4b2be749bede18c423d32cb8d6440c23bb52a6b7beb802bbc27e44be",
+      "root_type": "list",
+      "row_count": 5287,
+      "first_row_field_types": {
+        "org_text": "str",
+        "clean_text": "str",
+        "start_time": "float",
+        "signer_id": "int",
+        "signer": "int",
+        "start": "int",
+        "end": "int",
+        "file": "str",
+        "label": "int",
+        "height": "float",
+        "fps": "float",
+        "end_time": "float",
+        "url": "str",
+        "text": "str",
+        "box": "list",
+        "width": "float"
+      }
+    },
+    {
+      "split": "test",
+      "path": "/home/dongvk/datasets/MS-ASL/MSASL_test.json",
+      "bytes": 1647870,
+      "sha256": "aa0f78ef40d03696ce7effc0d087ba6a8fe83dbd1e777a027b20a79a1514df8f",
+      "root_type": "list",
+      "row_count": 4172,
+      "first_row_field_types": {
+        "org_text": "str",
+        "clean_text": "str",
+        "start_time": "float",
+        "signer_id": "int",
+        "signer": "int",
+        "start": "int",
+        "end": "int",
+        "file": "str",
+        "label": "int",
+        "height": "float",
+        "fps": "float",
+        "end_time": "float",
+        "url": "str",
+        "text": "str",
+        "box": "list",
+        "width": "float"
+      }
+    }
+  ],
+  "scope": "read-only metadata schema/availability intake; no signer/source intersections, cohort selection, media/quality/evaluator/release-identity verification",
+  "duration_seconds": "uninstrumented",
+  "GPU_hours": 0,
+  "new_encoder_calls": 0
+}

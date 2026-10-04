@@ -1,0 +1,23 @@
+{
+  "registered_utc": "2026-10-04T10:01:42.883941+00:00",
+  "run_id": "ARTIFACTCTX001_20261004_ff5f9a77_s1701",
+  "config": "method/frozen_probe/configs/ARTIFACTCTX001.json",
+  "config_sha256": "ff5f9a77980d47d263ed7e2556cbe2865cfe3bbdf5db04d745cd2511f63483d5",
+  "output_dir": "method/frozen_probe/runtime/ARTIFACTCTX001_20261004_ff5f9a77_s1701",
+  "CPU_limit_seconds": 120,
+  "GPU_hours": 0,
+  "durable_bytes_ceiling": 2097152,
+  "fixture_directory": "/dev/shm/signrep_cpu_context_fixtures_20261004_v0_s1701",
+  "fixture_bytes_ceiling": 1048576,
+  "input_hashes": {
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/tests/test_bounded_cpu_context.py": "2c9fb2439ef6c8a202612f65ff04e3d3fb9dfce7bebe6613c63e4d2a36f37a7e",
+    "method/frozen_probe/scripts/validate_cpu_context.py": "a4e42fb3efede703a28b3ff3dd47a66081b8200d43361d52e0a00c39b4775981",
+    "method/research_lab/records/protocols/ARTIFACTCTX001_complete_cpu_context.md": "769ce46dada65f595a9254f61bf8815b3618f6f8a7b8fdc826d80368363e4ee2",
+    "method/research_lab/records/decisions/D036.md": "9025e36e1c0450d699cbf2d087637249d801c89c4898f877a5eb5a616856d7c5",
+    "method/frozen_probe/runtime/ARTIFACTTEST001_20261004_9067da2e_s1701/status.json": "b8cbfbd3b24883edfeb7debbff2fa6a2ad024b8c3464a6c3306de897929c7c67",
+    "method/frozen_probe/runtime/ARTIFACTTEST001_20261004_9067da2e_s1701/writer_validation.json": "9077d122f14c58dd7fb0ada4b336129a4275e771831178b310715f3bc4a02c1f"
+  }
+}

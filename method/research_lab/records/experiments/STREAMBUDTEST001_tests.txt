@@ -1,0 +1,9 @@
+test_duplicate_charge_rejected (__main__.AccountingTests.test_duplicate_charge_rejected) ... ok
+test_incomplete_wall_charge_rejected (__main__.AccountingTests.test_incomplete_wall_charge_rejected) ... ok
+test_original_status_tamper_rejected (__main__.AccountingTests.test_original_status_tamper_rejected) ... ok
+test_whole_wall_charge_once_and_original_preserved (__main__.AccountingTests.test_whole_wall_charge_once_and_original_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK

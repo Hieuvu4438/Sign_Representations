@@ -1,0 +1,90 @@
+{
+  "run_id": "TRACKREL001_20261004_H003_v3_86c265a8_s1701",
+  "GPU_hours": 0,
+  "release_url": "https://www-i6.informatik.rwth-aachen.de/ftp/pub/rwth-phoenix/20110111-annotated-groundtruth.xml.gz",
+  "retrieval": {
+    "final_url": "https://www-i6.informatik.rwth-aachen.de/ftp/pub/rwth-phoenix/20110111-annotated-groundtruth.xml.gz",
+    "status": 200,
+    "ETag": "\"7a3d0-4c7c7ea1c86c0\"",
+    "Last_Modified": "Tue, 21 Aug 2012 15:02:27 GMT",
+    "Content_Type": "application/x-gzip"
+  },
+  "payload_path": "/dev/shm/shubert_tracking_release_TRACKREL001_20261004_H003_v3_86c265a8_s1701/official_tracking.xml.gz",
+  "payload_bytes": 500688,
+  "payload_sha256": "fc0d304cee3268443fd53a1e22b35b1b1e2c1efb01167013671d329365e4022d",
+  "expanded_bytes": 5798111,
+  "expanded_sha256": "a25eb40b59ec1de0f259ca404ab286837811fad2979e487bdc080eab99ae45ce",
+  "root_tag": "points",
+  "tag_counts": {
+    "points": 1,
+    "video": 266,
+    "frame": 39712,
+    "point": 119136
+  },
+  "attribute_keys": {
+    "points": [],
+    "video": [
+      "name"
+    ],
+    "frame": [
+      "number"
+    ],
+    "point": [
+      "n",
+      "x",
+      "y"
+    ]
+  },
+  "root_children": [
+    {
+      "tag": "video",
+      "attribute_keys": [
+        "name"
+      ]
+    },
+    {
+      "tag": "video",
+      "attribute_keys": [
+        "name"
+      ]
+    },
+    {
+      "tag": "video",
+      "attribute_keys": [
+        "name"
+      ]
+    },
+    {
+      "tag": "video",
+      "attribute_keys": [
+        "name"
+      ]
+    }
+  ],
+  "identifier_count": 266,
+  "local_metadata": {
+    "train": {
+      "path": "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.train.corpus.csv",
+      "sha256": "cc3dc2461f0a222b92f3927c24ac21c1467f3e5428b406ee7fe40bca1b0b8d44",
+      "rows": 7096,
+      "exact_identifier_matches": 0,
+      "matched_ids": [],
+      "frame_directory_count": 0
+    },
+    "dev": {
+      "path": "/home/dongvk/datasets/phoenix14T/PHOENIX-2014-T-release-v3/PHOENIX-2014-T/annotations/manual/PHOENIX-2014-T.dev.corpus.csv",
+      "sha256": "1085141d0ed6f28c6de6196a271b72c07366ed3fe5470c9717bd44640737f00b",
+      "rows": 519,
+      "exact_identifier_matches": 0,
+      "matched_ids": [],
+      "frame_directory_count": 0
+    }
+  },
+  "ground_truth_definition": "Official webpage: left/right palm centers and nose tip; actual schema and coordinate/image mapping still must be audited",
+  "known_language": "DGS; does not supply ASL_Citizen natural-failure labels",
+  "metrics_computed": false,
+  "coordinate_values_used": false,
+  "new_test_quality_access": false,
+  "scientific_pilot_authorized": false,
+  "scope": "Metadata/schema/join feasibility only, no detector run or recognition/tracking metric"
+}
