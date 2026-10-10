@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signrep-baseline"
+version = "0.1.0"
+description = "Source-grounded reconstruction of SignRep modules and training/evaluation pipelines"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.3", "torchvision", "timm", "numpy", "opencv-python", "PyYAML", "albumentations", "tqdm"]
+
+[project.optional-dependencies]
+pose = ["mediapipe==0.10.14", "yacs==0.1.8", "matplotlib"]
+test = ["pytest"]
+assets = ["gdown==5.2.0"]
+
+[project.scripts]
+signrep-baseline = "signrep_baseline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+signrep_baseline = ["upstream_signrep/LICENSE", "upstream_planckian/LICENSE.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,36 @@
+# Paper-defined parameters; paths are relative to this config file.
+scope: paper_recipe
+manifest: ../runtime/corpus/pretrain.jsonl
+output: ../runtime/pretrain
+initialization: kinetics_mae
+checkpoint: ../runtime/kinetics/mae_hiera_base_16x224.pth
+device: cuda
+amp: false  # precision is not specified by the paper
+seed: 1     # unpublished historical seed, explicit engineering choice
+total_steps: 500000
+warmup_steps: 50000
+max_lr: 0.0001
+batch_size: 20
+validation_interval: 25000
+save_interval: 25000
+validation_gallery: ../runtime/wlasl/train.jsonl
+validation_queries: ../runtime/wlasl/val.jsonl
+weighted_retrieval: true
+choices:
+  distance: signed_xyz_source_minus_destination
+  gram_normalization: tokens_channels
+  smooth_l1_beta: 1.0
+  reconstruction_reduction: valid_element_mean
+  activity_std_correction: 1
+  activity_weighting: raw
+  pretrain_batch_counts: total_views
+  angle_confidence: teacher_detection  # U05: keypoint visibility is not an angle confidence score
+augmentation:
+  # Engineering choices U06; paper does not publish these probabilities/ranges.
+  crop_scale: [0.8, 1.0]
+  crop_ratio: [0.75, 1.3333333333333333]
+  planckian_probability: 0.8
+  planckian_mode: blackbody
+  blur_probability: 0.5
+  blur_sigma: [0.1, 2.0]
+  grayscale_probability: 0.2

@@ -1,0 +1,14 @@
+scope: paper_recipe
+train_manifest: ../runtime/recognition/train.jsonl
+validation_manifest: ../runtime/recognition/val.jsonl
+class_distribution: ../runtime/recognition/class_distribution.npz
+checkpoint: ../runtime/pretrain/best.model.pt
+output: ../runtime/recognition_train
+classes: 2000
+epochs: 100
+batch_size: 8
+warmup_steps: 1000
+device: cuda
+amp: false
+seed: 1
+short_policy: repeat_last  # U06, explicitly chosen rather than author-verified
