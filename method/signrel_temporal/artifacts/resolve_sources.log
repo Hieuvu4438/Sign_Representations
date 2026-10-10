@@ -1,0 +1,44 @@
+Cloning into 'third_party/dinov2'...
+done.
+Note: switching to '7764ea0f912e53c92e82eb78a2a1631e92725fc8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7764ea0 Safely load weights from specified URLs (#598)
+/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791282177.884681  401437 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791282177.915477  401437 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791282178.704203  401437 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791282179.794775  412413 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791282179.929294  412479 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791282179.968382  412422 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791282179.975564  412435 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791282179.987150  412434 landmark_projection_calculator.cc:78] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+I0000 00:00:1791282180.364731  412610 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791282180.443153  412636 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791282180.476239  412613 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791282180.489542  412627 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"schema_version": 1, "verified_at_utc": "2026-10-06T10:22:55.724243+00:00", "status": "VERIFIED_RUNTIME", "teacher": {"name": "dinov2_vits14", "repo_url": "https://github.com/facebookresearch/dinov2", "repo_dir": "/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2", "commit_sha": "7764ea0f912e53c92e82eb78a2a1631e92725fc8", "checkpoint_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth", "checkpoint_path": "/home/haipd/Sign_Representations/method/signrel_temporal/weights/dinov2_vits14_pretrain.pth", "feature_dim": 384, "feature_key": "x_norm_clstoken", "checkpoint_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9", "checkpoint_bytes": 88283115, "runtime_verified": true, "output_shape": [2, 384], "repeat_max_error": 0.0, "normalization": "ImageNet RGB; 224 square bicubic clean crops; L2 float32 then float16 cache", "device": "cuda", "backend": "upstream supported torch attention fallback or installed xFormers"}, "perception": {"pose": {"url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task", "path": "/home/haipd/Sign_Representations/method/signrel_temporal/weights/pose_landmarker_lite.task", "document_url": "https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker", "sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a", "bytes": 5777746, "runtime_verified": true}, "hand": {"url": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task", "path": "/home/haipd/Sign_Representations/method/signrel_temporal/weights/hand_landmarker.task", "document_url": "https://developers.google.com/edge/mediapipe/solutions/vision/hand_landmarker", "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1", "bytes": 7819105, "runtime_verified": true}}, "downloaded_bytes_this_invocation": 101879966, "licenses": [{"asset": "dinov2 code", "license": "Apache-2.0", "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/LICENSE"}, {"asset": "DINOv2 model", "license": "Apache-2.0", "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/MODEL_CARD.md"}, {"asset": "MediaPipe", "license": "Apache-2.0", "url": "https://github.com/google-ai-edge/mediapipe/blob/master/LICENSE"}], "mediapipe_version": "0.10.35"}

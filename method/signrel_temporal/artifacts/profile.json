@@ -1,0 +1,10 @@
+{
+  "status": "measured",
+  "precision": "bf16",
+  "device": "cuda",
+  "seconds_per_update": 0.6629793293153247,
+  "effective_batch": 32,
+  "peak_vram_bytes": 192572416,
+  "scope": "Sample cached recordings, mask, state and relation losses, accumulated backward, gradient clip and AdamW; excludes checkpoint/report I/O",
+  "estimated_1000_update_seconds": 662.9793293153247
+}

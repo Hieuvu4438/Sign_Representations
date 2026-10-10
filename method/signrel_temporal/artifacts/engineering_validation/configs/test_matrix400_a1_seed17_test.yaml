@@ -1,0 +1,26 @@
+schema_version: 1
+stage: test
+encoder_checkpoint: runs/matrix400_a1_seed17/checkpoints/last.pt
+cache_manifest: data/cache/eval_cache_manifest.jsonl
+eval_labels: data/manifests/eval_labels.jsonl
+query_ids: data/splits/locked_test_query_ids.json
+gallery_ids: data/splits/frozen_gallery_ids.json
+protocol_path: artifacts/protocol.json
+output_dir: results/matrix400_a1_seed17_test
+pooling:
+  window_frames: 64
+  stride_frames: 32
+  temporal_bins:
+  - 1
+  - 2
+  normalize_each_block: true
+ranking:
+  level: gloss
+  exemplar_aggregation: max_cosine
+  ks:
+  - 1
+  - 5
+audit:
+  require_known_query_gallery_signer_disjoint: true
+  disallow_exact_duplicate_videos: true
+  disallow_overlapping_recording_segments: true

@@ -1,0 +1,21 @@
+{"update": 1, "hand": 23.194412231445312, "relation": 0.015846099704504013, "elapsed_seconds": 0.13563584606163204}
+{"update": 2, "hand": 22.297653198242188, "relation": 0.01021413505077362, "elapsed_seconds": 0.16958022420294583}
+{"update": 3, "hand": 20.144817352294922, "relation": 0.044832393527030945, "elapsed_seconds": 0.23195599811151624}
+{"update": 4, "hand": 17.51262664794922, "relation": 0.03538026660680771, "elapsed_seconds": 0.27606995520181954}
+{"update": 5, "hand": 13.939680099487305, "relation": 0.04201177880167961, "elapsed_seconds": 0.3119360110722482}
+{"update": 6, "hand": 12.117801666259766, "relation": 0.04336085170507431, "elapsed_seconds": 0.3397892841603607}
+{"update": 7, "hand": 9.951507568359375, "relation": 0.02807067707180977, "elapsed_seconds": 0.3952357191592455}
+{"update": 8, "hand": 8.306203842163086, "relation": 0.04066452011466026, "elapsed_seconds": 0.5500917581375688}
+{"update": 9, "hand": 7.059961318969727, "relation": 0.014225835911929607, "elapsed_seconds": 0.6212928891181946}
+{"update": 10, "hand": 6.042619705200195, "relation": 0.04640165716409683, "elapsed_seconds": 0.6514414111152291}
+{"update": 11, "hand": 5.374536991119385, "relation": 0.04464305564761162, "elapsed_seconds": 0.7236955109983683}
+{"update": 12, "hand": 5.005335807800293, "relation": 0.03569101542234421, "elapsed_seconds": 0.7494524570647627}
+{"update": 13, "hand": 4.256392478942871, "relation": 0.04864954948425293, "elapsed_seconds": 0.7802613240201026}
+{"update": 14, "hand": 4.359912872314453, "relation": 0.06758859753608704, "elapsed_seconds": 0.8181328801438212}
+{"update": 15, "hand": 3.72042179107666, "relation": 0.01244885753840208, "elapsed_seconds": 0.8569215731695294}
+{"update": 16, "hand": 3.670024871826172, "relation": 0.04738261550664902, "elapsed_seconds": 0.8994597350247204}
+{"update": 17, "hand": 3.6138734817504883, "relation": 0.06795302778482437, "elapsed_seconds": 0.9376488570123911}
+{"update": 18, "hand": 3.412734270095825, "relation": 0.019327383488416672, "elapsed_seconds": 0.9771100841462612}
+{"update": 19, "hand": 3.3903543949127197, "relation": 0.0654909536242485, "elapsed_seconds": 1.0151519130449742}
+{"update": 20, "hand": 3.2649638652801514, "relation": 0.01271001622080803, "elapsed_seconds": 1.0533726101275533}
+{"status": "complete", "synthetic": true, "successful_updates": 20, "run_dir": "runs/smoke_current_a4_seed17", "checkpoint_sha256": "12a1611a9812cef5ee8e7d893df22d96397c9e019242219ee1af10f1536a5ec9", "elapsed_seconds": 1.067624423187226}

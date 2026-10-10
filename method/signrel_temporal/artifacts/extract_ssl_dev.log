@@ -1,0 +1,43 @@
+/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791283808.647307 1091344 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791283808.670177 1091344 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791283809.278639 1091344 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791283810.103371 1093380 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283810.288670 1093445 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791283810.368677 1093387 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283810.382570 1093392 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283810.386654 1093524 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283810.487245 1093553 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283810.503690 1093534 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283810.511415 1093544 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283810.585303 1093383 landmark_projection_calculator.cc:78] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+{"video": 1, "status": "extracted", "video_id": "h2s_8b348b169b28a1a0908d", "coverage": {"canonical_frames": 86, "hand_valid": [0.8372093023255814, 0.5813953488372093], "body_valid": 0.9883720930232558, "unique_source_frame_ratio": 0.9647058823529412, "timestamp_rounding_adjustments": 0}, "seconds": 8.237485494930297}
+I0000 00:00:1791283817.392889 1096647 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283817.430878 1096673 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283817.466149 1096660 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283817.480279 1096667 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283817.482794 1096713 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283817.527482 1096739 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283817.543117 1096715 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283817.551311 1096717 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 2, "status": "extracted", "video_id": "h2s_b17cddd2537d7a720100", "coverage": {"canonical_frames": 240, "hand_valid": [0.9916666666666667, 0.9916666666666667], "body_valid": 1.0, "unique_source_frame_ratio": 0.9583333333333334, "timestamp_rounding_adjustments": 0}, "seconds": 20.129719604970887}
+I0000 00:00:1791283838.173587 1107360 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283838.265945 1107386 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283838.298404 1107363 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283838.311623 1107382 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283838.314026 1107433 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283838.366264 1107459 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283838.381861 1107447 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283838.388589 1107448 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 3, "status": "extracted", "video_id": "h2s_74b5083a07c5bd1d87a2", "coverage": {"canonical_frames": 114, "hand_valid": [0.9649122807017544, 0.9473684210526315], "body_valid": 0.9912280701754386, "unique_source_frame_ratio": 0.9557522123893806, "timestamp_rounding_adjustments": 0}, "seconds": 7.220979860052466}
+{"status": "complete", "attempted": 3, "retained": 3, "errors": [], "profiles": [{"video_id": "h2s_8b348b169b28a1a0908d", "seconds": 8.237485494930297, "canonical_frames": 86, "crops": 122, "cache_bytes": 94884, "coverage": {"canonical_frames": 86, "hand_valid": [0.8372093023255814, 0.5813953488372093], "body_valid": 0.9883720930232558, "unique_source_frame_ratio": 0.9647058823529412, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_b17cddd2537d7a720100", "seconds": 20.129719604970887, "canonical_frames": 240, "crops": 476, "cache_bytes": 349050, "coverage": {"canonical_frames": 240, "hand_valid": [0.9916666666666667, 0.9916666666666667], "body_valid": 1.0, "unique_source_frame_ratio": 0.9583333333333334, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_74b5083a07c5bd1d87a2", "seconds": 7.220979860052466, "canonical_frames": 114, "crops": 218, "cache_bytes": 161033, "coverage": {"canonical_frames": 114, "hand_valid": [0.9649122807017544, 0.9473684210526315], "body_valid": 0.9912280701754386, "unique_source_frame_ratio": 0.9557522123893806, "timestamp_rounding_adjustments": 0}}], "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1", "sources_lock_sha256": "49d18969846c525f80a099506ad433d2134ea5e1049f301630561241d60d4c0c"}

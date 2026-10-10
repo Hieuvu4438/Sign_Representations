@@ -1,0 +1,279 @@
+/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"video": 1, "status": "reused", "video_id": "h2s_a94ccdd22cf8c38262e5"}
+{"video": 2, "status": "reused", "video_id": "h2s_22b61d6596939e1dbb15"}
+{"video": 3, "status": "reused", "video_id": "h2s_829dbcdd825ee0743b9a"}
+{"video": 4, "status": "reused", "video_id": "h2s_8dfef109a8793b82efaa"}
+{"video": 5, "status": "reused", "video_id": "h2s_2b9e71db9c92f74d25f1"}
+{"video": 6, "status": "reused", "video_id": "h2s_c23bb30560af8821f359"}
+{"video": 7, "status": "reused", "video_id": "h2s_676557e032ce84516ea5"}
+{"video": 8, "status": "reused", "video_id": "h2s_c946d5d4f41607a59b09"}
+{"video": 9, "status": "reused", "video_id": "h2s_c0ef23c497164645ca58"}
+{"video": 10, "status": "reused", "video_id": "h2s_87014aaddc13c6ff84ea"}
+{"video": 11, "status": "reused", "video_id": "h2s_af5cf344a08da5b3128b"}
+{"video": 12, "status": "reused", "video_id": "h2s_d9df03952c89208f123d"}
+{"video": 13, "status": "reused", "video_id": "h2s_5628d0fee79bb3a1ad00"}
+{"video": 14, "status": "reused", "video_id": "h2s_1faefe3fb311f4042fb2"}
+{"video": 15, "status": "reused", "video_id": "h2s_b882b4a672e7a5514153"}
+{"video": 16, "status": "reused", "video_id": "h2s_d1d8f15834bca4dad5d2"}
+{"video": 17, "status": "reused", "video_id": "h2s_d9817a2fdf2e137e615f"}
+{"video": 18, "status": "reused", "video_id": "h2s_f3a237f91298718ea33d"}
+{"video": 19, "status": "reused", "video_id": "h2s_5b97e2116be59e45c9ee"}
+{"video": 20, "status": "reused", "video_id": "h2s_0d261230af1b1bb9ac11"}
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791283540.796427  958645 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1791283540.821256  958645 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791283541.555632  958645 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791283542.628373  961314 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283542.804032  961386 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791283542.887531  961336 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283542.911055  961333 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283542.919620  961444 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283543.049497  961470 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283543.062212  961446 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283543.069441  961459 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283543.150707  961316 landmark_projection_calculator.cc:78] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+{"video": 21, "status": "extracted", "video_id": "h2s_ea10a85d134b952aecae", "coverage": {"canonical_frames": 125, "hand_valid": [0.944, 0.936], "body_valid": 1.0, "unique_source_frame_ratio": 1.0, "timestamp_rounding_adjustments": 0}, "seconds": 15.596697584958747}
+I0000 00:00:1791283556.864355  968430 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283556.982907  968456 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283557.010266  968443 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283557.022582  968450 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283557.024641  968507 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283557.092596  968533 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283557.107785  968514 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283557.114326  968531 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 22, "status": "extracted", "video_id": "h2s_395431e1bcdc906b6142", "coverage": {"canonical_frames": 80, "hand_valid": [0.725, 0.7625], "body_valid": 0.9875, "unique_source_frame_ratio": 0.9620253164556962, "timestamp_rounding_adjustments": 0}, "seconds": 8.420264038955793}
+I0000 00:00:1791283566.551933  973219 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283566.639650  973245 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283566.667257  973222 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283566.679882  973243 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283566.682532  973285 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283566.742536  973311 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283566.757089  973299 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283566.764636  973294 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 23, "status": "extracted", "video_id": "h2s_bd49438e2da8cabd1369", "coverage": {"canonical_frames": 86, "hand_valid": [0.9883720930232558, 0.9883720930232558], "body_valid": 0.9883720930232558, "unique_source_frame_ratio": 0.9647058823529412, "timestamp_rounding_adjustments": 0}, "seconds": 6.305613497970626}
+I0000 00:00:1791283573.477951  976777 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283573.535102  976803 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283573.568020  976789 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283573.576771  976801 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283573.579248  976882 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283573.627972  976908 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283573.632542  976884 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283573.636466  976906 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 24, "status": "extracted", "video_id": "h2s_0a6b51ab0660d11cd518", "coverage": {"canonical_frames": 64, "hand_valid": [0.984375, 0.984375], "body_valid": 0.984375, "unique_source_frame_ratio": 0.9523809523809523, "timestamp_rounding_adjustments": 0}, "seconds": 4.1962099629454315}
+I0000 00:00:1791283578.323426  979214 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283578.388272  979240 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283578.422534  979218 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283578.435639  979239 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283578.438050  979280 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283578.500184  979306 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283578.514753  979286 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283578.519663  979299 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 25, "status": "extracted", "video_id": "h2s_1fc104938a8d1d95d045", "coverage": {"canonical_frames": 83, "hand_valid": [0.3614457831325301, 0.7469879518072289], "body_valid": 1.0, "unique_source_frame_ratio": 0.963855421686747, "timestamp_rounding_adjustments": 0}, "seconds": 5.762394466204569}
+I0000 00:00:1791283584.742131  982264 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283584.804621  982290 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283584.837989  982276 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283584.850945  982281 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283584.853430  982330 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283584.911680  982356 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283584.923507  982336 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283584.927501  982346 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 26, "status": "extracted", "video_id": "h2s_f182d44d50689b8821c4", "coverage": {"canonical_frames": 34, "hand_valid": [1.0, 1.0], "body_valid": 1.0, "unique_source_frame_ratio": 0.9705882352941176, "timestamp_rounding_adjustments": 0}, "seconds": 2.496184865012765}
+I0000 00:00:1791283587.863292  983926 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283587.933531  983952 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283587.961540  983930 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283587.973599  983951 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283587.976386  983998 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283588.035844  984025 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283588.045728  984001 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283588.052831  984021 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 27, "status": "extracted", "video_id": "h2s_699e0cd4dfaa17ac1af6", "coverage": {"canonical_frames": 270, "hand_valid": [0.8444444444444444, 0.9222222222222223], "body_valid": 0.9962962962962963, "unique_source_frame_ratio": 0.9591078066914498, "timestamp_rounding_adjustments": 0}, "seconds": 17.83556699496694}
+I0000 00:00:1791283606.343224  993375 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283606.424367  993401 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283606.451454  993388 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283606.456874  993399 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283606.459324  993445 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283606.511814  993475 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283606.522910  993453 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283606.529543  993462 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 28, "status": "extracted", "video_id": "h2s_78d2f31b23a60bd6146b", "coverage": {"canonical_frames": 133, "hand_valid": [0.23308270676691728, 0.19548872180451127], "body_valid": 1.0, "unique_source_frame_ratio": 0.9624060150375939, "timestamp_rounding_adjustments": 0}, "seconds": 7.423891380196437}
+I0000 00:00:1791283614.405459  997381 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283614.469029  997407 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283614.501688  997393 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283614.510448  997396 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283614.513041  997447 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283614.581764  997473 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283614.589149  997449 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283614.592451  997457 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 29, "status": "extracted", "video_id": "h2s_eeb81a6a5c2a4f81fca9", "coverage": {"canonical_frames": 67, "hand_valid": [0.8805970149253731, 0.8656716417910447], "body_valid": 0.9850746268656716, "unique_source_frame_ratio": 0.9545454545454546, "timestamp_rounding_adjustments": 0}, "seconds": 4.652017578016967}
+I0000 00:00:1791283619.683799  999960 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283619.739857  999986 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283619.777722  999968 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283619.787839  999982 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283619.804532 1000030 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283619.881506 1000056 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283619.901125 1000035 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283619.909059 1000052 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 30, "status": "extracted", "video_id": "h2s_72e0be2af16847e7dd3f", "coverage": {"canonical_frames": 98, "hand_valid": [0.41836734693877553, 1.0], "body_valid": 1.0, "unique_source_frame_ratio": 1.0, "timestamp_rounding_adjustments": 0}, "seconds": 7.352336264913902}
+I0000 00:00:1791283627.660759 1003884 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283627.706083 1003910 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283627.733875 1003892 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283627.743005 1003904 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283627.745415 1003950 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283627.794800 1003976 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283627.808454 1003960 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283627.811698 1003972 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 31, "status": "extracted", "video_id": "h2s_2c049543706b269cc7ec", "coverage": {"canonical_frames": 88, "hand_valid": [0.9431818181818182, 0.7386363636363636], "body_valid": 1.0, "unique_source_frame_ratio": 1.0, "timestamp_rounding_adjustments": 0}, "seconds": 6.953551942016929}
+I0000 00:00:1791283635.240195 1007667 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283635.295856 1007693 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283635.329067 1007679 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283635.357736 1007685 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283635.361607 1007734 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283635.415511 1007760 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283635.423749 1007738 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283635.427437 1007757 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 32, "status": "extracted", "video_id": "h2s_90d67a7396a8e9b6dbb8", "coverage": {"canonical_frames": 78, "hand_valid": [0.9102564102564102, 0.05128205128205128], "body_valid": 1.0, "unique_source_frame_ratio": 0.9615384615384616, "timestamp_rounding_adjustments": 0}, "seconds": 5.142897461075336}
+I0000 00:00:1791283641.031195 1010470 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283641.092092 1010496 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283641.126034 1010483 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283641.163043 1010493 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283641.166974 1010575 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283641.214078 1010601 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283641.231398 1010585 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283641.256983 1010593 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 33, "status": "extracted", "video_id": "h2s_63c3c74f1045157b8fc9", "coverage": {"canonical_frames": 124, "hand_valid": [0.9919354838709677, 0.056451612903225805], "body_valid": 0.9919354838709677, "unique_source_frame_ratio": 0.959349593495935, "timestamp_rounding_adjustments": 0}, "seconds": 7.7644743791315705}
+I0000 00:00:1791283649.452245 1015043 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283649.498388 1015069 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283649.522651 1015055 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283649.527414 1015066 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283649.529995 1015075 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283649.572242 1015101 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283649.583543 1015077 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283649.587681 1015097 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 34, "status": "extracted", "video_id": "h2s_c59cf00c19bcfa3cd9b5", "coverage": {"canonical_frames": 282, "hand_valid": [0.9539007092198581, 0.9716312056737588], "body_valid": 0.9964539007092199, "unique_source_frame_ratio": 0.9608540925266904, "timestamp_rounding_adjustments": 0}, "seconds": 18.897337280912325}
+I0000 00:00:1791283668.988143 1025067 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283669.041989 1025093 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283669.072737 1025079 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283669.079010 1025089 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283669.081756 1025094 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283669.123611 1025120 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283669.135985 1025108 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283669.139823 1025112 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 35, "status": "extracted", "video_id": "h2s_03f9d2c7b3481e19f5f9", "coverage": {"canonical_frames": 94, "hand_valid": [0.9574468085106383, 0.9574468085106383], "body_valid": 0.9893617021276596, "unique_source_frame_ratio": 0.956989247311828, "timestamp_rounding_adjustments": 0}, "seconds": 6.291970076970756}
+I0000 00:00:1791283675.918727 1028568 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283675.979913 1028594 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283676.024106 1028574 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283676.029640 1028591 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283676.031759 1028634 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283676.096803 1028660 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283676.105962 1028644 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283676.109056 1028658 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 36, "status": "extracted", "video_id": "h2s_c6b618e3c90b48f5fd44", "coverage": {"canonical_frames": 90, "hand_valid": [0.9888888888888889, 0.9777777777777777], "body_valid": 0.9888888888888889, "unique_source_frame_ratio": 0.9550561797752809, "timestamp_rounding_adjustments": 0}, "seconds": 6.90878481999971}
+I0000 00:00:1791283683.467137 1032071 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283683.540683 1032098 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283683.562520 1032084 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283683.575399 1032092 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283683.577562 1032143 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283683.653846 1032169 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283683.665866 1032157 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283683.669167 1032159 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 37, "status": "extracted", "video_id": "h2s_0324211f3312b728fe90", "coverage": {"canonical_frames": 88, "hand_valid": [1.0, 1.0], "body_valid": 1.0, "unique_source_frame_ratio": 0.9659090909090909, "timestamp_rounding_adjustments": 0}, "seconds": 6.437034250004217}
+I0000 00:00:1791283690.548387 1035743 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283690.605449 1035769 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283690.633577 1035746 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283690.640117 1035762 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283690.642975 1035809 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283690.702575 1035835 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283690.707631 1035820 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283690.719262 1035828 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 38, "status": "extracted", "video_id": "h2s_902fb31df26c8460c204", "coverage": {"canonical_frames": 117, "hand_valid": [0.8888888888888888, 0.8547008547008547], "body_valid": 1.0, "unique_source_frame_ratio": 0.9572649572649573, "timestamp_rounding_adjustments": 0}, "seconds": 8.544793330831453}
+I0000 00:00:1791283699.732659 1040395 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283699.801157 1040421 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283699.822787 1040397 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283699.828584 1040410 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283699.833952 1040464 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283699.891008 1040490 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283699.895006 1040482 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283699.900387 1040488 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 39, "status": "extracted", "video_id": "h2s_36871414d6a53b164b9b", "coverage": {"canonical_frames": 65, "hand_valid": [0.9846153846153847, 0.9692307692307692], "body_valid": 0.9846153846153847, "unique_source_frame_ratio": 0.953125, "timestamp_rounding_adjustments": 0}, "seconds": 4.812695628963411}
+I0000 00:00:1791283705.203679 1043139 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283705.256307 1043165 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283705.289724 1043152 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283705.300641 1043162 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283705.306470 1043247 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283705.358762 1043273 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283705.365622 1043250 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283705.369864 1043268 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 40, "status": "extracted", "video_id": "h2s_1e3fe59a2c408223c85e", "coverage": {"canonical_frames": 278, "hand_valid": [0.7014388489208633, 0.9496402877697842], "body_valid": 1.0, "unique_source_frame_ratio": 0.960431654676259, "timestamp_rounding_adjustments": 0}, "seconds": 18.84596435795538}
+I0000 00:00:1791283724.702368 1053061 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283724.791868 1053087 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283724.819474 1053071 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283724.825894 1053084 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283724.828621 1053129 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283724.897023 1053155 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283724.901518 1053143 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283724.905435 1053152 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 41, "status": "extracted", "video_id": "h2s_387ed96850c91ba57909", "coverage": {"canonical_frames": 117, "hand_valid": [1.0, 0.9914529914529915], "body_valid": 1.0, "unique_source_frame_ratio": 0.9572649572649573, "timestamp_rounding_adjustments": 0}, "seconds": 8.372835974907503}
+I0000 00:00:1791283733.717283 1057478 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283733.770865 1057504 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283733.798526 1057480 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283733.803126 1057502 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283733.806301 1057546 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283733.859297 1057572 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283733.874557 1057561 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283733.882030 1057560 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 42, "status": "extracted", "video_id": "h2s_baa92c01b987a788f40f", "coverage": {"canonical_frames": 106, "hand_valid": [0.839622641509434, 0.9716981132075472], "body_valid": 1.0, "unique_source_frame_ratio": 0.9622641509433962, "timestamp_rounding_adjustments": 0}, "seconds": 7.477350694825873}
+I0000 00:00:1791283741.823446 1061512 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283741.882230 1061538 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283741.910899 1061516 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283741.923561 1061533 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283741.926007 1061583 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283741.978810 1061609 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283741.990234 1061586 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283741.993815 1061590 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 43, "status": "extracted", "video_id": "h2s_c71801bb0d3db828555a", "coverage": {"canonical_frames": 169, "hand_valid": [0.9289940828402367, 0.8994082840236687], "body_valid": 0.9940828402366864, "unique_source_frame_ratio": 0.9583333333333334, "timestamp_rounding_adjustments": 0}, "seconds": 11.374786892905831}
+I0000 00:00:1791283753.843271 1067284 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283753.890724 1067310 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283753.927703 1067290 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283753.941045 1067301 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283753.943343 1067356 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283753.990251 1067382 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283754.001770 1067370 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283754.009615 1067359 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 44, "status": "extracted", "video_id": "h2s_442881f4695268ce296d", "coverage": {"canonical_frames": 163, "hand_valid": [0.9202453987730062, 0.9325153374233128], "body_valid": 0.9938650306748467, "unique_source_frame_ratio": 0.9629629629629629, "timestamp_rounding_adjustments": 0}, "seconds": 10.998699743999168}
+I0000 00:00:1791283765.476725 1072904 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283765.539899 1072946 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283765.567975 1072932 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283765.573535 1072941 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283765.578444 1072970 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283765.641982 1072996 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283765.646913 1072984 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283765.652584 1072988 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 45, "status": "extracted", "video_id": "h2s_fdfd8abfcfe60a5fb758", "coverage": {"canonical_frames": 278, "hand_valid": [1.0, 1.0], "body_valid": 1.0, "unique_source_frame_ratio": 0.960431654676259, "timestamp_rounding_adjustments": 0}, "seconds": 19.755328689934686}
+I0000 00:00:1791283785.941044 1082338 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283785.985205 1082364 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283786.006614 1082350 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283786.017406 1082354 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283786.019977 1082365 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283786.080220 1082391 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283786.087337 1082377 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283786.090382 1082384 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 46, "status": "extracted", "video_id": "h2s_fa28a574dc663ecc2f3e", "coverage": {"canonical_frames": 45, "hand_valid": [0.9777777777777777, 0.9777777777777777], "body_valid": 0.9777777777777777, "unique_source_frame_ratio": 0.9545454545454546, "timestamp_rounding_adjustments": 0}, "seconds": 3.55889688199386}
+I0000 00:00:1791283790.132964 1083950 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283790.194162 1083976 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283790.221723 1083955 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283790.233723 1083970 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791283790.236381 1084016 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791283790.309310 1084042 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791283790.323634 1084030 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791283790.327910 1084040 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"video": 47, "status": "extracted", "video_id": "h2s_91b26c33894949a05760", "coverage": {"canonical_frames": 200, "hand_valid": [0.935, 0.88], "body_valid": 1.0, "unique_source_frame_ratio": 1.0, "timestamp_rounding_adjustments": 0}, "seconds": 13.621847169008106}
+{"status": "complete", "attempted": 47, "retained": 47, "errors": [], "profiles": [{"video_id": "h2s_ea10a85d134b952aecae", "seconds": 15.596697584958747, "canonical_frames": 125, "crops": 235, "cache_bytes": 181565, "coverage": {"canonical_frames": 125, "hand_valid": [0.944, 0.936], "body_valid": 1.0, "unique_source_frame_ratio": 1.0, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_395431e1bcdc906b6142", "seconds": 8.420264038955793, "canonical_frames": 80, "crops": 119, "cache_bytes": 92247, "coverage": {"canonical_frames": 80, "hand_valid": [0.725, 0.7625], "body_valid": 0.9875, "unique_source_frame_ratio": 0.9620253164556962, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_bd49438e2da8cabd1369", "seconds": 6.305613497970626, "canonical_frames": 86, "crops": 170, "cache_bytes": 127460, "coverage": {"canonical_frames": 86, "hand_valid": [0.9883720930232558, 0.9883720930232558], "body_valid": 0.9883720930232558, "unique_source_frame_ratio": 0.9647058823529412, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_0a6b51ab0660d11cd518", "seconds": 4.1962099629454315, "canonical_frames": 64, "crops": 126, "cache_bytes": 93973, "coverage": {"canonical_frames": 64, "hand_valid": [0.984375, 0.984375], "body_valid": 0.984375, "unique_source_frame_ratio": 0.9523809523809523, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_1fc104938a8d1d95d045", "seconds": 5.762394466204569, "canonical_frames": 83, "crops": 92, "cache_bytes": 74984, "coverage": {"canonical_frames": 83, "hand_valid": [0.3614457831325301, 0.7469879518072289], "body_valid": 1.0, "unique_source_frame_ratio": 0.963855421686747, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_f182d44d50689b8821c4", "seconds": 2.496184865012765, "canonical_frames": 34, "crops": 68, "cache_bytes": 53176, "coverage": {"canonical_frames": 34, "hand_valid": [1.0, 1.0], "body_valid": 1.0, "unique_source_frame_ratio": 0.9705882352941176, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_699e0cd4dfaa17ac1af6", "seconds": 17.83556699496694, "canonical_frames": 270, "crops": 477, "cache_bytes": 352609, "coverage": {"canonical_frames": 270, "hand_valid": [0.8444444444444444, 0.9222222222222223], "body_valid": 0.9962962962962963, "unique_source_frame_ratio": 0.9591078066914498, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_78d2f31b23a60bd6146b", "seconds": 7.423891380196437, "canonical_frames": 133, "crops": 57, "cache_bytes": 53883, "coverage": {"canonical_frames": 133, "hand_valid": [0.23308270676691728, 0.19548872180451127], "body_valid": 1.0, "unique_source_frame_ratio": 0.9624060150375939, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_eeb81a6a5c2a4f81fca9", "seconds": 4.652017578016967, "canonical_frames": 67, "crops": 117, "cache_bytes": 88065, "coverage": {"canonical_frames": 67, "hand_valid": [0.8805970149253731, 0.8656716417910447], "body_valid": 0.9850746268656716, "unique_source_frame_ratio": 0.9545454545454546, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_72e0be2af16847e7dd3f", "seconds": 7.352336264913902, "canonical_frames": 98, "crops": 139, "cache_bytes": 111676, "coverage": {"canonical_frames": 98, "hand_valid": [0.41836734693877553, 1.0], "body_valid": 1.0, "unique_source_frame_ratio": 1.0, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_2c049543706b269cc7ec", "seconds": 6.953551942016929, "canonical_frames": 88, "crops": 148, "cache_bytes": 116850, "coverage": {"canonical_frames": 88, "hand_valid": [0.9431818181818182, 0.7386363636363636], "body_valid": 1.0, "unique_source_frame_ratio": 1.0, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_90d67a7396a8e9b6dbb8", "seconds": 5.142897461075336, "canonical_frames": 78, "crops": 75, "cache_bytes": 60310, "coverage": {"canonical_frames": 78, "hand_valid": [0.9102564102564102, 0.05128205128205128], "body_valid": 1.0, "unique_source_frame_ratio": 0.9615384615384616, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_63c3c74f1045157b8fc9", "seconds": 7.7644743791315705, "canonical_frames": 124, "crops": 130, "cache_bytes": 102124, "coverage": {"canonical_frames": 124, "hand_valid": [0.9919354838709677, 0.056451612903225805], "body_valid": 0.9919354838709677, "unique_source_frame_ratio": 0.959349593495935, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_c59cf00c19bcfa3cd9b5", "seconds": 18.897337280912325, "canonical_frames": 282, "crops": 543, "cache_bytes": 400210, "coverage": {"canonical_frames": 282, "hand_valid": [0.9539007092198581, 0.9716312056737588], "body_valid": 0.9964539007092199, "unique_source_frame_ratio": 0.9608540925266904, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_03f9d2c7b3481e19f5f9", "seconds": 6.291970076970756, "canonical_frames": 94, "crops": 180, "cache_bytes": 133937, "coverage": {"canonical_frames": 94, "hand_valid": [0.9574468085106383, 0.9574468085106383], "body_valid": 0.9893617021276596, "unique_source_frame_ratio": 0.956989247311828, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_c6b618e3c90b48f5fd44", "seconds": 6.90878481999971, "canonical_frames": 90, "crops": 177, "cache_bytes": 131140, "coverage": {"canonical_frames": 90, "hand_valid": [0.9888888888888889, 0.9777777777777777], "body_valid": 0.9888888888888889, "unique_source_frame_ratio": 0.9550561797752809, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_0324211f3312b728fe90", "seconds": 6.437034250004217, "canonical_frames": 88, "crops": 176, "cache_bytes": 131310, "coverage": {"canonical_frames": 88, "hand_valid": [1.0, 1.0], "body_valid": 1.0, "unique_source_frame_ratio": 0.9659090909090909, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_902fb31df26c8460c204", "seconds": 8.544793330831453, "canonical_frames": 117, "crops": 204, "cache_bytes": 154569, "coverage": {"canonical_frames": 117, "hand_valid": [0.8888888888888888, 0.8547008547008547], "body_valid": 1.0, "unique_source_frame_ratio": 0.9572649572649573, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_36871414d6a53b164b9b", "seconds": 4.812695628963411, "canonical_frames": 65, "crops": 127, "cache_bytes": 94712, "coverage": {"canonical_frames": 65, "hand_valid": [0.9846153846153847, 0.9692307692307692], "body_valid": 0.9846153846153847, "unique_source_frame_ratio": 0.953125, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_1e3fe59a2c408223c85e", "seconds": 18.84596435795538, "canonical_frames": 278, "crops": 459, "cache_bytes": 341774, "coverage": {"canonical_frames": 278, "hand_valid": [0.7014388489208633, 0.9496402877697842], "body_valid": 1.0, "unique_source_frame_ratio": 0.960431654676259, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_387ed96850c91ba57909", "seconds": 8.372835974907503, "canonical_frames": 117, "crops": 233, "cache_bytes": 171760, "coverage": {"canonical_frames": 117, "hand_valid": [1.0, 0.9914529914529915], "body_valid": 1.0, "unique_source_frame_ratio": 0.9572649572649573, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_baa92c01b987a788f40f", "seconds": 7.477350694825873, "canonical_frames": 106, "crops": 192, "cache_bytes": 143582, "coverage": {"canonical_frames": 106, "hand_valid": [0.839622641509434, 0.9716981132075472], "body_valid": 1.0, "unique_source_frame_ratio": 0.9622641509433962, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_c71801bb0d3db828555a", "seconds": 11.374786892905831, "canonical_frames": 169, "crops": 309, "cache_bytes": 227959, "coverage": {"canonical_frames": 169, "hand_valid": [0.9289940828402367, 0.8994082840236687], "body_valid": 0.9940828402366864, "unique_source_frame_ratio": 0.9583333333333334, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_442881f4695268ce296d", "seconds": 10.998699743999168, "canonical_frames": 163, "crops": 302, "cache_bytes": 225245, "coverage": {"canonical_frames": 163, "hand_valid": [0.9202453987730062, 0.9325153374233128], "body_valid": 0.9938650306748467, "unique_source_frame_ratio": 0.9629629629629629, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_fdfd8abfcfe60a5fb758", "seconds": 19.755328689934686, "canonical_frames": 278, "crops": 556, "cache_bytes": 407524, "coverage": {"canonical_frames": 278, "hand_valid": [1.0, 1.0], "body_valid": 1.0, "unique_source_frame_ratio": 0.960431654676259, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_fa28a574dc663ecc2f3e", "seconds": 3.55889688199386, "canonical_frames": 45, "crops": 88, "cache_bytes": 66492, "coverage": {"canonical_frames": 45, "hand_valid": [0.9777777777777777, 0.9777777777777777], "body_valid": 0.9777777777777777, "unique_source_frame_ratio": 0.9545454545454546, "timestamp_rounding_adjustments": 0}}, {"video_id": "h2s_91b26c33894949a05760", "seconds": 13.621847169008106, "canonical_frames": 200, "crops": 363, "cache_bytes": 280233, "coverage": {"canonical_frames": 200, "hand_valid": [0.935, 0.88], "body_valid": 1.0, "unique_source_frame_ratio": 1.0, "timestamp_rounding_adjustments": 0}}], "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1", "sources_lock_sha256": "49d18969846c525f80a099506ad433d2134ea5e1049f301630561241d60d4c0c"}

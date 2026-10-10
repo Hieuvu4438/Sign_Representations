@@ -1,0 +1,11 @@
+extends: pilot_a6.yaml
+experiment:
+  name: matrix400_a6
+  seed: 17
+  output_dir: runs/matrix400_a6_seed17
+train:
+  max_updates: 400
+budget:
+  phase: confirmatory
+  max_gpu_hours: 0.3
+  max_wall_minutes: 18

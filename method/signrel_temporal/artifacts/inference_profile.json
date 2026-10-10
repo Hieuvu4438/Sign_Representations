@@ -1,0 +1,20 @@
+{
+  "status": "measured",
+  "source_sha256": "163204175d1f1c1a1436dcffcccd9819992b0f4cb0967a6b8d7440772de0b2af",
+  "device": "cpu",
+  "threads": 4,
+  "checkpoint_sha256": "4854a07511cacf06df8310917fa5c7ef572d379186c32fc29ffbfe199dbdb4bc",
+  "cached_export_videos": 120,
+  "restore_model_seconds": 0.06320858397521079,
+  "total_cached_export_seconds": 1.4692994623910636,
+  "cached_export_mean_seconds_per_video": 0.012244162186592196,
+  "cached_export_median_seconds_per_video": 0.00801080057863146,
+  "cached_export_max_seconds_per_video": 0.04253474110737443,
+  "maximum_absolute_embedding_error_vs_saved_export": 0.0,
+  "ranking_repetitions": 5,
+  "ranking_queries": 80,
+  "ranking_gallery_videos": 40,
+  "ranking_mean_seconds": 0.007212181063368917,
+  "ranking_mean_seconds_per_query": 9.015226329211146e-05,
+  "scope": "CPU cached NPZ read/hash validation + frozen encoder/window/pooling; excludes raw RGB perception/teacher, one-time model restore and output-file writing. Ranking includes signer/content audit, normalization, gloss rank and metrics; excludes embedding generation and file loading. Dev protocol only."
+}

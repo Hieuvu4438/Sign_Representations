@@ -1,0 +1,19 @@
+schema_version: 1
+runs:
+- variant: A0
+  seed: 17
+  run_dir: runs/pilot_a0_seed17
+  eval_dir: results/pilot_a0_seed17_dev
+- variant: A1
+  seed: 17
+  run_dir: runs/pilot_a1_seed17
+  eval_dir: results/pilot_a1_seed17_dev
+- variant: A4
+  seed: 17
+  run_dir: runs/pilot_a4_seed17
+  eval_dir: results/pilot_a4_seed17_dev
+contrasts:
+- - A1
+  - A4
+require_complete: true
+output: results/pilot_results.csv

@@ -1,0 +1,67 @@
+{
+  "rule": "same frozen updates/configs; latest three completed same-horizon timing maxima times1.2 plus original test reserve; no score-based decisions",
+  "original_plan_sha256": "3a3d39b5eeb0d60eb8ae5b2dda96712bcfadd4b3e42bed28a1734104eca8ba7e",
+  "global_caps_unchanged": true,
+  "decisions": [
+    {
+      "variant": "A4",
+      "seed": 17,
+      "remaining_gpu_seconds": 2851.7877550632693,
+      "remaining_training_wall_seconds": 3964.1436042094138,
+      "predicted_training_seconds_with20percent_reserve": 788.0053086049854,
+      "locked_test_extraction_reserve_seconds": 442.40422459281984,
+      "allowed": true,
+      "epoch_seconds": 1791287736.9453804
+    },
+    {
+      "variant": "A4",
+      "seed": 29,
+      "remaining_gpu_seconds": 2090.4858133632224,
+      "remaining_training_wall_seconds": 3202.841662509367,
+      "predicted_training_seconds_with20percent_reserve": 913.5623300400563,
+      "locked_test_extraction_reserve_seconds": 442.40422459281984,
+      "allowed": true,
+      "epoch_seconds": 1791288500.8258302
+    },
+    {
+      "variant": "A4",
+      "seed": 43,
+      "remaining_gpu_seconds": 1421.1621577274054,
+      "remaining_training_wall_seconds": 2533.51800687355,
+      "predicted_training_seconds_with20percent_reserve": 913.5623300400563,
+      "locked_test_extraction_reserve_seconds": 442.40422459281984,
+      "allowed": true,
+      "epoch_seconds": 1791289172.860694
+    },
+    {
+      "variant": "A2",
+      "seed": 17,
+      "remaining_gpu_seconds": 1131.0627671193797,
+      "remaining_training_wall_seconds": 2243.418616265524,
+      "predicted_training_seconds_with20percent_reserve": 913.5623300400563,
+      "locked_test_extraction_reserve_seconds": 442.40422459281984,
+      "allowed": false,
+      "epoch_seconds": 1791289465.4869409
+    },
+    {
+      "variant": "A3",
+      "seed": 17,
+      "remaining_gpu_seconds": 1131.0627671193797,
+      "remaining_training_wall_seconds": 2243.418616265524,
+      "predicted_training_seconds_with20percent_reserve": 913.5623300400563,
+      "locked_test_extraction_reserve_seconds": 442.40422459281984,
+      "allowed": false,
+      "epoch_seconds": 1791289465.487501
+    },
+    {
+      "variant": "A6",
+      "seed": 17,
+      "remaining_gpu_seconds": 1131.0627671193797,
+      "remaining_training_wall_seconds": 2243.418616265524,
+      "predicted_training_seconds_with20percent_reserve": 913.5623300400563,
+      "locked_test_extraction_reserve_seconds": 442.40422459281984,
+      "allowed": false,
+      "epoch_seconds": 1791289465.4883473
+    }
+  ]
+}

@@ -1,0 +1,1332 @@
+{
+  "status": "passed",
+  "videos": 120,
+  "cache_manifest_sha256": "79a0ed78f3276c44396ebbfcdfaf88dd7919fcc55f4177daad91b46dce6de4f5",
+  "per_video": [
+    {
+      "video_id": "aslc_027f868363adca20d46f",
+      "frames": 53,
+      "hand_coverage": [
+        0.37735849056603776,
+        0.37735849056603776
+      ],
+      "body_coverage": 0.41509433962264153,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_030e0ba2107d5b9ab702",
+      "frames": 60,
+      "hand_coverage": [
+        0.05,
+        0.08333333333333333
+      ],
+      "body_coverage": 0.4,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_038a7e6abe422c5393b9",
+      "frames": 95,
+      "hand_coverage": [
+        0.042105263157894736,
+        0.3894736842105263
+      ],
+      "body_coverage": 0.47368421052631576,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_0655d2192b3e3bc19a09",
+      "frames": 107,
+      "hand_coverage": [
+        0.2803738317757009,
+        0.2616822429906542
+      ],
+      "body_coverage": 0.7102803738317757,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_0a3516c8e6c63f4adf22",
+      "frames": 63,
+      "hand_coverage": [
+        0.19047619047619047,
+        0.047619047619047616
+      ],
+      "body_coverage": 0.9841269841269841,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_0a7dce2168c154ba9773",
+      "frames": 64,
+      "hand_coverage": [
+        0.015625,
+        0.0
+      ],
+      "body_coverage": 0.53125,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_12c768e9ae80402ce10f",
+      "frames": 42,
+      "hand_coverage": [
+        0.0,
+        0.42857142857142855
+      ],
+      "body_coverage": 0.4523809523809524,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_13891d7d0f0ea4387af1",
+      "frames": 36,
+      "hand_coverage": [
+        0.2777777777777778,
+        0.4444444444444444
+      ],
+      "body_coverage": 0.5833333333333334,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_14ec519261ca486a85bf",
+      "frames": 83,
+      "hand_coverage": [
+        0.13253012048192772,
+        0.46987951807228917
+      ],
+      "body_coverage": 0.5542168674698795,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_18ddf38d7c350c957f6f",
+      "frames": 54,
+      "hand_coverage": [
+        0.0,
+        0.37037037037037035
+      ],
+      "body_coverage": 0.9444444444444444,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_1c3f830a00a637c8c550",
+      "frames": 60,
+      "hand_coverage": [
+        0.05,
+        0.06666666666666667
+      ],
+      "body_coverage": 0.26666666666666666,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_1e162c9d611d54063c65",
+      "frames": 48,
+      "hand_coverage": [
+        0.0,
+        0.5833333333333334
+      ],
+      "body_coverage": 0.625,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_1eb4bdfaa4868b3111c1",
+      "frames": 55,
+      "hand_coverage": [
+        0.0,
+        0.03636363636363636
+      ],
+      "body_coverage": 0.32727272727272727,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_222861c548ff571da334",
+      "frames": 52,
+      "hand_coverage": [
+        0.07692307692307693,
+        0.23076923076923078
+      ],
+      "body_coverage": 0.4807692307692308,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_23ca9270215c8fc87b6b",
+      "frames": 101,
+      "hand_coverage": [
+        0.10891089108910891,
+        0.0594059405940594
+      ],
+      "body_coverage": 0.2079207920792079,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_2681b9b1cd4e3d742dc9",
+      "frames": 71,
+      "hand_coverage": [
+        0.15492957746478872,
+        0.38028169014084506
+      ],
+      "body_coverage": 0.4788732394366197,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_2777a69509b647f0c14c",
+      "frames": 58,
+      "hand_coverage": [
+        0.3793103448275862,
+        0.0
+      ],
+      "body_coverage": 0.43103448275862066,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_284597a6192dc80cd228",
+      "frames": 106,
+      "hand_coverage": [
+        0.3867924528301887,
+        0.19811320754716982
+      ],
+      "body_coverage": 0.4528301886792453,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_28f4030c895e69c5dde4",
+      "frames": 106,
+      "hand_coverage": [
+        0.3113207547169811,
+        0.29245283018867924
+      ],
+      "body_coverage": 0.3490566037735849,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_2954a48bdbf8af90ffcd",
+      "frames": 39,
+      "hand_coverage": [
+        0.48717948717948717,
+        0.41025641025641024
+      ],
+      "body_coverage": 0.9743589743589743,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_29bbf391df8a24946ddd",
+      "frames": 70,
+      "hand_coverage": [
+        0.34285714285714286,
+        0.1
+      ],
+      "body_coverage": 0.44285714285714284,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_2b51ce9778e8ae169fb1",
+      "frames": 45,
+      "hand_coverage": [
+        0.24444444444444444,
+        0.3111111111111111
+      ],
+      "body_coverage": 0.9555555555555556,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_3063530d4a195fe5b385",
+      "frames": 41,
+      "hand_coverage": [
+        0.4146341463414634,
+        0.3902439024390244
+      ],
+      "body_coverage": 0.5365853658536586,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_30d27eb057ae56f3c443",
+      "frames": 62,
+      "hand_coverage": [
+        0.14516129032258066,
+        0.20967741935483872
+      ],
+      "body_coverage": 0.6290322580645161,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_33b27871362f99c102f0",
+      "frames": 55,
+      "hand_coverage": [
+        0.0,
+        0.41818181818181815
+      ],
+      "body_coverage": 0.41818181818181815,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_3517825ab574b172fcf9",
+      "frames": 73,
+      "hand_coverage": [
+        0.3561643835616438,
+        0.0547945205479452
+      ],
+      "body_coverage": 0.9863013698630136,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_37fa8612f31c5261e753",
+      "frames": 52,
+      "hand_coverage": [
+        0.19230769230769232,
+        0.34615384615384615
+      ],
+      "body_coverage": 0.46153846153846156,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_3825c10e16335af8930b",
+      "frames": 58,
+      "hand_coverage": [
+        0.5172413793103449,
+        0.0
+      ],
+      "body_coverage": 0.5689655172413793,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_3838591da16d2bcbad70",
+      "frames": 89,
+      "hand_coverage": [
+        0.056179775280898875,
+        0.19101123595505617
+      ],
+      "body_coverage": 0.39325842696629215,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_3b7cf3737909ced73cfc",
+      "frames": 61,
+      "hand_coverage": [
+        0.32786885245901637,
+        0.3114754098360656
+      ],
+      "body_coverage": 0.4098360655737705,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_408b712f7b0e110bdffd",
+      "frames": 53,
+      "hand_coverage": [
+        0.5283018867924528,
+        0.0
+      ],
+      "body_coverage": 0.6037735849056604,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_42d2876a48da43369b0a",
+      "frames": 114,
+      "hand_coverage": [
+        0.37719298245614036,
+        0.008771929824561403
+      ],
+      "body_coverage": 0.49122807017543857,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_449057f8149f760e365b",
+      "frames": 103,
+      "hand_coverage": [
+        0.27184466019417475,
+        0.22330097087378642
+      ],
+      "body_coverage": 0.5533980582524272,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_47d43b133f1d236ea57f",
+      "frames": 39,
+      "hand_coverage": [
+        0.5641025641025641,
+        0.0
+      ],
+      "body_coverage": 0.6666666666666666,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_488cdf828c7eca2fb505",
+      "frames": 57,
+      "hand_coverage": [
+        0.45614035087719296,
+        0.40350877192982454
+      ],
+      "body_coverage": 0.6666666666666666,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_489f95e866c96cc4075a",
+      "frames": 100,
+      "hand_coverage": [
+        0.45,
+        0.35
+      ],
+      "body_coverage": 0.49,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_4c34da8ebac76b820b23",
+      "frames": 130,
+      "hand_coverage": [
+        0.0,
+        0.3
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_4c43b8e0cd85d1aed5f3",
+      "frames": 53,
+      "hand_coverage": [
+        0.0,
+        0.20754716981132076
+      ],
+      "body_coverage": 0.2830188679245283,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_4e2802b20418bbef899c",
+      "frames": 47,
+      "hand_coverage": [
+        0.425531914893617,
+        0.0
+      ],
+      "body_coverage": 0.5319148936170213,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_500afaedd83926a5e19c",
+      "frames": 82,
+      "hand_coverage": [
+        0.0,
+        0.4146341463414634
+      ],
+      "body_coverage": 0.4634146341463415,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_50225b4daa5b527f462b",
+      "frames": 53,
+      "hand_coverage": [
+        0.07547169811320754,
+        0.09433962264150944
+      ],
+      "body_coverage": 0.5849056603773585,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_542d9cc0b3b707a4fd3b",
+      "frames": 50,
+      "hand_coverage": [
+        0.18,
+        0.22
+      ],
+      "body_coverage": 0.68,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_58ac4b8d116f16fdc240",
+      "frames": 81,
+      "hand_coverage": [
+        0.07407407407407407,
+        0.19753086419753085
+      ],
+      "body_coverage": 0.38271604938271603,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_5cdef0717c90a4e80509",
+      "frames": 75,
+      "hand_coverage": [
+        0.48,
+        0.4266666666666667
+      ],
+      "body_coverage": 0.5066666666666667,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_60c073f8b278ebba5ffe",
+      "frames": 59,
+      "hand_coverage": [
+        0.0,
+        0.4576271186440678
+      ],
+      "body_coverage": 0.4745762711864407,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_65d8d5b41d0419c03460",
+      "frames": 65,
+      "hand_coverage": [
+        0.2,
+        0.03076923076923077
+      ],
+      "body_coverage": 0.36923076923076925,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_66f99cdd01734a97db78",
+      "frames": 56,
+      "hand_coverage": [
+        0.21428571428571427,
+        0.32142857142857145
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_68673fd85d59f756f2e3",
+      "frames": 71,
+      "hand_coverage": [
+        0.2535211267605634,
+        0.29577464788732394
+      ],
+      "body_coverage": 0.5070422535211268,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_69697dd7ec9aca65beef",
+      "frames": 47,
+      "hand_coverage": [
+        0.0,
+        0.3404255319148936
+      ],
+      "body_coverage": 0.48936170212765956,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_69a0551d170c9ef40735",
+      "frames": 46,
+      "hand_coverage": [
+        0.5217391304347826,
+        0.5217391304347826
+      ],
+      "body_coverage": 0.6304347826086957,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_6c14517cea4a5aa507a0",
+      "frames": 50,
+      "hand_coverage": [
+        0.36,
+        0.44
+      ],
+      "body_coverage": 0.54,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_6c17b7279b571ae70c97",
+      "frames": 50,
+      "hand_coverage": [
+        0.56,
+        0.52
+      ],
+      "body_coverage": 0.64,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_6c9fc01981d2d37503b3",
+      "frames": 54,
+      "hand_coverage": [
+        0.0,
+        0.2222222222222222
+      ],
+      "body_coverage": 0.3888888888888889,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_6eb16fd4156e07462a12",
+      "frames": 83,
+      "hand_coverage": [
+        0.3614457831325301,
+        0.3373493975903614
+      ],
+      "body_coverage": 0.5301204819277109,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_74c448162fd9c47715a9",
+      "frames": 138,
+      "hand_coverage": [
+        0.07246376811594203,
+        0.45652173913043476
+      ],
+      "body_coverage": 0.9565217391304348,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_7775c504b29708ccc9ee",
+      "frames": 64,
+      "hand_coverage": [
+        0.0,
+        0.03125
+      ],
+      "body_coverage": 0.390625,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_7841c0c4e7f3b01fd3b1",
+      "frames": 49,
+      "hand_coverage": [
+        0.0,
+        0.40816326530612246
+      ],
+      "body_coverage": 0.4897959183673469,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_78a3f0abd017f9f3b0df",
+      "frames": 53,
+      "hand_coverage": [
+        0.5471698113207547,
+        0.0
+      ],
+      "body_coverage": 0.5849056603773585,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_7970784bc64bf661be48",
+      "frames": 60,
+      "hand_coverage": [
+        0.0,
+        0.1
+      ],
+      "body_coverage": 0.13333333333333333,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_7a0ee715f8616cb6c385",
+      "frames": 44,
+      "hand_coverage": [
+        0.4772727272727273,
+        0.4318181818181818
+      ],
+      "body_coverage": 0.5227272727272727,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_7ab65f8b16f12165e375",
+      "frames": 46,
+      "hand_coverage": [
+        0.0,
+        0.043478260869565216
+      ],
+      "body_coverage": 0.15217391304347827,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_7b9d80d3db5c686e1c48",
+      "frames": 99,
+      "hand_coverage": [
+        0.0,
+        0.3838383838383838
+      ],
+      "body_coverage": 0.41414141414141414,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_7bfedf71d15c4bfdcdb6",
+      "frames": 47,
+      "hand_coverage": [
+        0.40425531914893614,
+        0.3191489361702128
+      ],
+      "body_coverage": 0.5531914893617021,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_80658ae905f49450dc31",
+      "frames": 85,
+      "hand_coverage": [
+        0.03529411764705882,
+        0.3058823529411765
+      ],
+      "body_coverage": 0.6,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_8a7b15f0b207a915b02e",
+      "frames": 73,
+      "hand_coverage": [
+        0.410958904109589,
+        0.0410958904109589
+      ],
+      "body_coverage": 0.547945205479452,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_8b9f698678300f1033b1",
+      "frames": 99,
+      "hand_coverage": [
+        0.30303030303030304,
+        0.0
+      ],
+      "body_coverage": 0.35353535353535354,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_8e2f3e3151e4a7d831c4",
+      "frames": 106,
+      "hand_coverage": [
+        0.2358490566037736,
+        0.20754716981132076
+      ],
+      "body_coverage": 0.3018867924528302,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_905e1defd5ce245a0b76",
+      "frames": 41,
+      "hand_coverage": [
+        0.17073170731707318,
+        0.0
+      ],
+      "body_coverage": 0.4634146341463415,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_910de6882918d6ea8864",
+      "frames": 41,
+      "hand_coverage": [
+        0.0,
+        0.2682926829268293
+      ],
+      "body_coverage": 0.4878048780487805,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_93a9137f1b00766b6cd2",
+      "frames": 83,
+      "hand_coverage": [
+        0.40963855421686746,
+        0.40963855421686746
+      ],
+      "body_coverage": 0.5060240963855421,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_973ce316b850545eb61b",
+      "frames": 101,
+      "hand_coverage": [
+        0.24752475247524752,
+        0.3465346534653465
+      ],
+      "body_coverage": 0.44554455445544555,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_9e6278740d561bcd0040",
+      "frames": 47,
+      "hand_coverage": [
+        0.0,
+        0.48936170212765956
+      ],
+      "body_coverage": 0.5319148936170213,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_a09d9aee3e1196945940",
+      "frames": 88,
+      "hand_coverage": [
+        0.18181818181818182,
+        0.32954545454545453
+      ],
+      "body_coverage": 0.3977272727272727,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_a3c82392dabddb1b5d57",
+      "frames": 71,
+      "hand_coverage": [
+        0.5070422535211268,
+        0.0
+      ],
+      "body_coverage": 0.5211267605633803,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_a53f065dc511ab73e413",
+      "frames": 76,
+      "hand_coverage": [
+        0.0,
+        0.34210526315789475
+      ],
+      "body_coverage": 0.3815789473684211,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_a70c43595dd11026fdb4",
+      "frames": 95,
+      "hand_coverage": [
+        0.010526315789473684,
+        0.10526315789473684
+      ],
+      "body_coverage": 0.43157894736842106,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_a96b55ca6163abf3962f",
+      "frames": 49,
+      "hand_coverage": [
+        0.0,
+        0.4897959183673469
+      ],
+      "body_coverage": 0.4897959183673469,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_a9820107f0699bdf194c",
+      "frames": 75,
+      "hand_coverage": [
+        0.2,
+        0.10666666666666667
+      ],
+      "body_coverage": 0.38666666666666666,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_ae0d210c63395dbf7856",
+      "frames": 63,
+      "hand_coverage": [
+        0.0,
+        0.4126984126984127
+      ],
+      "body_coverage": 0.47619047619047616,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_af7f21e751912ed3ecbb",
+      "frames": 100,
+      "hand_coverage": [
+        0.17,
+        0.2
+      ],
+      "body_coverage": 0.34,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_af86c9773241fea9bcfe",
+      "frames": 53,
+      "hand_coverage": [
+        0.2641509433962264,
+        0.2830188679245283
+      ],
+      "body_coverage": 0.6415094339622641,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_b4669f22e7c59918b9ba",
+      "frames": 98,
+      "hand_coverage": [
+        0.25510204081632654,
+        0.3469387755102041
+      ],
+      "body_coverage": 0.45918367346938777,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_b6874106eaec55af4d52",
+      "frames": 39,
+      "hand_coverage": [
+        0.0,
+        0.4358974358974359
+      ],
+      "body_coverage": 0.46153846153846156,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_b7552bf910939c07084e",
+      "frames": 41,
+      "hand_coverage": [
+        0.4878048780487805,
+        0.0
+      ],
+      "body_coverage": 0.5365853658536586,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_b7ced8bd24a1bc5c5b0a",
+      "frames": 129,
+      "hand_coverage": [
+        0.0,
+        0.3488372093023256
+      ],
+      "body_coverage": 0.3875968992248062,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_b8eefeb1871b81eaa38c",
+      "frames": 32,
+      "hand_coverage": [
+        0.75,
+        0.0
+      ],
+      "body_coverage": 0.875,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_b9805fdbb1cf67db67c3",
+      "frames": 36,
+      "hand_coverage": [
+        0.4444444444444444,
+        0.16666666666666666
+      ],
+      "body_coverage": 0.7222222222222222,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_bde8340c701e62ee091f",
+      "frames": 98,
+      "hand_coverage": [
+        0.0,
+        0.3163265306122449
+      ],
+      "body_coverage": 0.3469387755102041,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_c1041a753a9f8f2ade23",
+      "frames": 41,
+      "hand_coverage": [
+        0.5121951219512195,
+        0.4878048780487805
+      ],
+      "body_coverage": 0.6097560975609756,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_c531d7658ac9b7c55b34",
+      "frames": 40,
+      "hand_coverage": [
+        0.0,
+        0.5
+      ],
+      "body_coverage": 0.525,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_c682c1b786798475b6d0",
+      "frames": 57,
+      "hand_coverage": [
+        0.0,
+        0.10526315789473684
+      ],
+      "body_coverage": 0.49122807017543857,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_c85480f05079054e2f42",
+      "frames": 40,
+      "hand_coverage": [
+        0.0,
+        0.3
+      ],
+      "body_coverage": 0.625,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_c9c6fa1804fbbd530763",
+      "frames": 75,
+      "hand_coverage": [
+        0.29333333333333333,
+        0.06666666666666667
+      ],
+      "body_coverage": 0.56,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_cfb66f21135a53ea5bbc",
+      "frames": 56,
+      "hand_coverage": [
+        0.05357142857142857,
+        0.39285714285714285
+      ],
+      "body_coverage": 0.6607142857142857,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_d031ab0edb064c53dfdb",
+      "frames": 134,
+      "hand_coverage": [
+        0.1044776119402985,
+        0.022388059701492536
+      ],
+      "body_coverage": 0.26865671641791045,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_d0f531a3afd2e2f9b731",
+      "frames": 44,
+      "hand_coverage": [
+        0.0,
+        0.5681818181818182
+      ],
+      "body_coverage": 0.6136363636363636,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_d56fbfe5a1bddd16832f",
+      "frames": 36,
+      "hand_coverage": [
+        0.0,
+        0.05555555555555555
+      ],
+      "body_coverage": 0.9722222222222222,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_d6cad6777409b36a24bd",
+      "frames": 43,
+      "hand_coverage": [
+        0.32558139534883723,
+        0.23255813953488372
+      ],
+      "body_coverage": 0.6976744186046512,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_d720825d6dd169d5545a",
+      "frames": 103,
+      "hand_coverage": [
+        0.019417475728155338,
+        0.2815533980582524
+      ],
+      "body_coverage": 0.3300970873786408,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_d788603f1871f9ce6616",
+      "frames": 42,
+      "hand_coverage": [
+        0.5238095238095238,
+        0.40476190476190477
+      ],
+      "body_coverage": 0.5952380952380952,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_d9313333638543306e33",
+      "frames": 111,
+      "hand_coverage": [
+        0.14414414414414414,
+        0.27927927927927926
+      ],
+      "body_coverage": 0.3063063063063063,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_d946cd17cb2123ee7509",
+      "frames": 107,
+      "hand_coverage": [
+        0.009345794392523364,
+        0.24299065420560748
+      ],
+      "body_coverage": 0.4672897196261682,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_db7474a132e1dce324c1",
+      "frames": 63,
+      "hand_coverage": [
+        0.4126984126984127,
+        0.5079365079365079
+      ],
+      "body_coverage": 0.6507936507936508,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_dce6f6bdf45056ee2be6",
+      "frames": 101,
+      "hand_coverage": [
+        0.46534653465346537,
+        0.4158415841584158
+      ],
+      "body_coverage": 0.594059405940594,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_e1c6e93ffb70bccdd5a4",
+      "frames": 74,
+      "hand_coverage": [
+        0.13513513513513514,
+        0.10810810810810811
+      ],
+      "body_coverage": 0.3783783783783784,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_e37f0b0a63d32997783e",
+      "frames": 46,
+      "hand_coverage": [
+        0.2826086956521739,
+        0.34782608695652173
+      ],
+      "body_coverage": 0.5869565217391305,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_e484b23a4dc38c714568",
+      "frames": 127,
+      "hand_coverage": [
+        0.30708661417322836,
+        0.4094488188976378
+      ],
+      "body_coverage": 0.4409448818897638,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_e94b7cd47ba0c354dba2",
+      "frames": 97,
+      "hand_coverage": [
+        0.422680412371134,
+        0.12371134020618557
+      ],
+      "body_coverage": 0.5154639175257731,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_ea82d32ead75e06db231",
+      "frames": 61,
+      "hand_coverage": [
+        0.3770491803278688,
+        0.04918032786885246
+      ],
+      "body_coverage": 0.4426229508196721,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_edc953bc24a9dd6a7954",
+      "frames": 55,
+      "hand_coverage": [
+        0.41818181818181815,
+        0.4
+      ],
+      "body_coverage": 0.43636363636363634,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_eead40f350a82d1f7c32",
+      "frames": 61,
+      "hand_coverage": [
+        0.0,
+        0.32786885245901637
+      ],
+      "body_coverage": 0.47540983606557374,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_f2a28efc907b134c29d9",
+      "frames": 46,
+      "hand_coverage": [
+        0.0,
+        0.4782608695652174
+      ],
+      "body_coverage": 0.5434782608695652,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_f2bdc28b0c83ace7079b",
+      "frames": 64,
+      "hand_coverage": [
+        0.1875,
+        0.078125
+      ],
+      "body_coverage": 0.546875,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_f72bcb7ba6cb6d4e3027",
+      "frames": 68,
+      "hand_coverage": [
+        0.45588235294117646,
+        0.45588235294117646
+      ],
+      "body_coverage": 0.5294117647058824,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_f878ec32f112eb32eae9",
+      "frames": 125,
+      "hand_coverage": [
+        0.384,
+        0.368
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_f928d6f0e39300bf6181",
+      "frames": 45,
+      "hand_coverage": [
+        0.4666666666666667,
+        0.0
+      ],
+      "body_coverage": 0.5777777777777777,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_f9c425b7dc5ba379ae47",
+      "frames": 44,
+      "hand_coverage": [
+        0.11363636363636363,
+        0.4318181818181818
+      ],
+      "body_coverage": 0.5454545454545454,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_fbe161bbaab64eb00017",
+      "frames": 118,
+      "hand_coverage": [
+        0.423728813559322,
+        0.3644067796610169
+      ],
+      "body_coverage": 0.8135593220338984,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_fd65273bf79969a8f474",
+      "frames": 45,
+      "hand_coverage": [
+        0.5555555555555556,
+        0.0
+      ],
+      "body_coverage": 0.6222222222222222,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "aslc_fec56e45ce8dd425e03e",
+      "frames": 56,
+      "hand_coverage": [
+        0.0,
+        0.32142857142857145
+      ],
+      "body_coverage": 0.35714285714285715,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    }
+  ],
+  "mean_hand_coverage": [
+    0.21875695596778003,
+    0.25875580776520407
+  ],
+  "mean_body_coverage": 0.5332432636978306
+}

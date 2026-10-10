@@ -1,0 +1,13 @@
+schema_version: 1
+aggregate: results/pilot_results.json
+state: docs/STATE.md
+limitations:
+  - Custom frozen 40-gloss K=1 subset with 80 dev queries; not the full ASL Citizen benchmark or the previous pilot protocol.
+  - Only 47 continuous segmented SSL clips train and three held-out SSL dev clips; rank diagnostics are sample limited.
+  - Existing How2Sign segmentation boundaries contribute a prior; captions and lexical labels are not read for SSL.
+  - SSL signer identity and lexical overlap are unknown; query-gallery signer disjointness is verified separately.
+  - Generic DINO appearance cosine and noisy MediaPipe crops are visual proxies, not expert phonological annotation.
+  - Natural minimal-pair evaluation is BLOCKED_EXTERNAL; no phonology improvement claim is supported.
+  - External pretrained SignRep and SHuBERT comparisons are not run in this causal pilot; no published score is copied into a same-protocol table.
+  - Pilot dev CIs describe evaluation-gloss sampling at fixed checkpoints; multi-seed confirmation and broader benchmarks are required for strong claims.
+output: results/research_report.md

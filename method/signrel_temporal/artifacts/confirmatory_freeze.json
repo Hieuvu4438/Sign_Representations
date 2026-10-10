@@ -1,0 +1,19 @@
+{
+  "protocol_sha256": "ad979522dc6ef0c7a6ffb4e0dfc289169bd2fdba786083e7f024e6f8532b2e04",
+  "eval_config_sha256": [
+    "a9646e18d9bfd8d9d9dd0f299607340549b1681fd74962ba44a3cf6d3c8cd0c4",
+    "f4d3de3fc6efdc24c6a5646538b611fbb783c1c2b1505fb01d86005dbdcbae6f",
+    "58011ede3c397a2a28f2170cf751ff851fde4b28500786c3cd3845f0ade68e22",
+    "d4b84b368f09fba5b785c278a0a36523b12fb35e396533f0cab65309a4d93b0c",
+    "a89c9b7f6659f482601c3e1892c9f996ff3e66cb1a7efc69751dc11c9c35fd2b",
+    "918416c2e5af5cd34b8600a71602dfa3e1897f06b490adfee566dfe1534a73a4",
+    "55480533c950884ae4d81ba291ccd68dfd2ff42a3c8c2fe9e1fa741245d78e16",
+    "c8b9816f6ccb492ae614b8f5b5c6a048d960a5dc635f19812c9641dd2722832c",
+    "982d30e4258791c5f363f8db1bedd1675a95b0a23a6ed9f48a15cf7923099339",
+    "e1e417b8f45d4e36ff357f67c72979c67dc9daf64a3db60bc23e82ffcf7634d0"
+  ],
+  "training_freeze_sha256": "8608c558ec15049a22fb531046b4e61f830e02ffa698b7a3cf1dcfb035f43897",
+  "matrix_plan_sha256": "3a3d39b5eeb0d60eb8ae5b2dda96712bcfadd4b3e42bed28a1734104eca8ba7e",
+  "locked_test_scores_observed": false,
+  "selection": "last completed fixed-budget checkpoint; no test tuning"
+}

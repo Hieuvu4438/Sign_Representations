@@ -1,0 +1,35 @@
+{
+  "status": "imported",
+  "data_config_sha256": "2eb6ffb44828ec7da6683ef993ced70be95922418dcda7559831671a48062ed9",
+  "raw_to_canonical": {
+    "Participant ID": "signer_id",
+    "Video file": "relative_path",
+    "Gloss": "gloss_id",
+    "ASL-LEX Code": "asllex_code"
+  },
+  "official_csv_rows": {
+    "train": 40154,
+    "val": 10304,
+    "test": 32941
+  },
+  "ssl_videos": 50,
+  "ssl_train": 47,
+  "ssl_dev": 3,
+  "evaluation_glosses": 40,
+  "gallery_videos": 40,
+  "dev_queries": 80,
+  "locked_test_queries": 80,
+  "split_fingerprint": "9c924d8a8c8e1d240b69425f2bfa7726747b4e275437542762251727926f178e",
+  "exclusions": [],
+  "license_records": {
+    "how2sign-local-research": {
+      "scope": "Authorized local research use",
+      "dataset_terms": "https://how2sign.github.io/"
+    },
+    "aslcitizen-local-research": {
+      "scope": "Authorized local research use",
+      "dataset_terms": "https://www.microsoft.com/en-us/research/project/asl-citizen/"
+    }
+  },
+  "segmentation_prior": "Existing How2Sign native segmented clips; random windows within clips; captions not read. Original global segment timestamps unknown."
+}

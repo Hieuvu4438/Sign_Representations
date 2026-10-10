@@ -1,0 +1,13 @@
+{
+  "status": "replaced_after_existing_extraction_child_completed",
+  "own_supervisor_pid": 2410433,
+  "active_extraction_pid": 2740233,
+  "epoch_seconds": 1791289589.355784,
+  "reason": "GPU contention recovered; after extraction use actual spent cost and latest fixed-row tail100 timing before deciding remaining pre-frozen controls",
+  "locked_test_metric_files_observed": false,
+  "configs_protocol_teacher_and_caps_unchanged": true,
+  "scientific_selection": "only complete400-update checkpoints; no model/score-based selection",
+  "actual_test_extraction_report_sha256": "d4e381fcffe1fc8190a1314c2b883c2fb1fe83f7522fd59796128f4ee5b9910e",
+  "test_scores_observed": false,
+  "transition_epoch_seconds": 1791289841.5710456
+}

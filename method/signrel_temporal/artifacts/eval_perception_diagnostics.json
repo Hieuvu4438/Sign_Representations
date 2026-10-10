@@ -1,0 +1,11 @@
+{
+  "status": "measured",
+  "videos": 120,
+  "valid_grid_frames": 8188,
+  "pose_status_counts": {
+    "pose_available": 8182,
+    "pose_missing": 6
+  },
+  "ambiguous_category_slot_conflicts": 475,
+  "scope": "Descriptive detector diagnostics, not expert labeled hand-swap accuracy"
+}

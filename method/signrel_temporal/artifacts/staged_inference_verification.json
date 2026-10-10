@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "staged_source_sha256": "7fa7ab77b1c9bb92b6bff7812b538732f1de51f7e4cd18c41de90c0848eacb51",
+  "frozen_training_source_sha256": "163204175d1f1c1a1436dcffcccd9819992b0f4cb0967a6b8d7440772de0b2af",
+  "real_train_caches_checked": 47,
+  "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+  "saved_export_sha256": "c1bb750e6fa928b5992034c26d70b06448b79a3852a3369c22242d7828d96cbd",
+  "results": [
+    {
+      "checkpoint": "runs/pilot_a1_seed17/checkpoints/last.pt",
+      "maximum_absolute_error_vs_saved_export": 0.0,
+      "dimension": 2304
+    },
+    {
+      "checkpoint": "results/pilot_a1_seed17_dev/encoder.pt",
+      "maximum_absolute_error_vs_saved_export": 0.0,
+      "dimension": 2304
+    }
+  ],
+  "portable_without_source_lock": true,
+  "dedicated_encoder_has_no_heads": true
+}

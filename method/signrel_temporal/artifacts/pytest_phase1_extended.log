@@ -1,0 +1,41 @@
+..............................F                                          [100%]
+=================================== FAILURES ===================================
+_______________________ test_actual_irregular_pts_video ________________________
+
+tmp_path = PosixPath('/tmp/pytest-of-haipd/pytest-50/test_actual_irregular_pts_vide0')
+
+    def test_actual_irregular_pts_video(tmp_path):
+        av=pytest.importorskip('av')
+        path=tmp_path/'irregular.mkv'
+        with av.open(str(path),'w') as container:
+            stream=container.add_stream('ffv1')
+            stream.width=stream.height=32
+            stream.pix_fmt='rgb24'
+            stream.time_base=Fraction(1,1000)
+            for j,pts in enumerate([0,33,90,250]):
+                frame=av.VideoFrame.from_ndarray(np.full((32,32,3),j*50,np.uint8),format='rgb24')
+                frame.pts=pts;frame.time_base=Fraction(1,1000)
+>               for packet in stream.encode(frame): container.mux(packet)
+                              ^^^^^^^^^^^^^^^^^^^^
+
+tests/test_vfr_runtime.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+av/video/stream.py:34: in av.video.stream.VideoStream.encode
+    ???
+av/video/stream.py:44: in av.video.stream.VideoStream.encode
+    ???
+av/codec/context.py:448: in av.codec.context.CodecContext.encode
+    ???
+av/codec/context.py:432: in av.codec.context.CodecContext._prepare_and_time_rebase_frames_for_encode
+    ???
+av/codec/context.py:247: in av.codec.context.CodecContext.open
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+>   ???
+E   av.error.ArgumentError: Invalid argument: 'avcodec_open2("ffv1", {})' returned 22
+
+av/error.py:412: ArgumentError
+=========================== short test summary info ============================
+FAILED tests/test_vfr_runtime.py::test_actual_irregular_pts_video - av.error....
+1 failed, 30 passed in 3.06s

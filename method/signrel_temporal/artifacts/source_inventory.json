@@ -1,0 +1,30 @@
+{
+  "required": {
+    "DINOv2": "VERIFIED_RUNTIME",
+    "MediaPipeHand": "VERIFIED_RUNTIME",
+    "MediaPipePose": "VERIFIED_RUNTIME"
+  },
+  "optional": {
+    "SHuBERT": {
+      "status": "NOT_RUN",
+      "reason": "Upstream fine-tuned hand/face/full pipeline not adapted; generic teacher cache incompatible"
+    },
+    "SignRep": {
+      "status": "NOT_RUN",
+      "reason": "Separate RGB upstream adapter omitted from causal pilot; no random baseline"
+    },
+    "SignSeek": {
+      "status": "UNVERIFIED_ASSET",
+      "reason": "Official checkpoint/code not verified; supervised setting differs"
+    },
+    "SignDino_Hu": {
+      "status": "UNVERIFIED_ASSET",
+      "reason": "Project checked via paper; public asset not verified"
+    },
+    "natural_minimal_pairs": {
+      "status": "BLOCKED_EXTERNAL",
+      "reason": "Curated annotation release unavailable"
+    }
+  },
+  "source_lock_sha256": "49d18969846c525f80a099506ad433d2134ea5e1049f301630561241d60d4c0c"
+}

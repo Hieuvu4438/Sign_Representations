@@ -1,0 +1,15 @@
+schema_version: 1
+runs:
+- variant: A1
+  seed: 17
+  run_dir: runs/smoke_current_a1_seed17
+  eval_dir: results/smoke_a1_seed17
+- variant: A4
+  seed: 17
+  run_dir: runs/smoke_current_a4_seed17
+  eval_dir: results/smoke_a4_seed17
+contrasts:
+- - A1
+  - A4
+require_complete: true
+output: results/smoke_results.csv

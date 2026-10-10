@@ -1,0 +1,18 @@
+schema_version: 1
+data_root: data/video_roots
+how2sign_root: /home/shared_data/sign_language/How2Sign/train/raw_videos
+asl_citizen_root: /home/dongvk/datasets/ASL_Citizen
+ssl_limit: 50
+evaluation_glosses: 40
+queries_per_gloss: 2
+subset_seed: 2026
+split_seed: 2026
+gallery_seed: 2026
+license_records:
+  how2sign-local-research:
+    scope: Authorized local research use
+    dataset_terms: https://how2sign.github.io/
+  aslcitizen-local-research:
+    scope: Authorized local research use
+    dataset_terms: https://www.microsoft.com/en-us/research/project/asl-citizen/
+output_dir: data/manifests

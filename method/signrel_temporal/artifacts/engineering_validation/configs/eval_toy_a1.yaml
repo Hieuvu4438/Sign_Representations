@@ -1,0 +1,26 @@
+schema_version: 1
+stage: toy
+encoder_checkpoint: runs/smoke_current_a1_seed17/checkpoints/last.pt
+cache_manifest: data/synthetic/eval_cache_manifest.jsonl
+eval_labels: data/synthetic/eval_labels.jsonl
+query_ids: data/synthetic/queries_ids.json
+gallery_ids: data/synthetic/gallery_ids.json
+protocol_path: data/synthetic/protocol.json
+output_dir: results/smoke_a1_seed17
+pooling:
+  window_frames: 64
+  stride_frames: 32
+  temporal_bins:
+  - 1
+  - 2
+  normalize_each_block: true
+ranking:
+  level: gloss
+  exemplar_aggregation: max_cosine
+  ks:
+  - 1
+  - 5
+audit:
+  require_known_query_gallery_signer_disjoint: true
+  disallow_exact_duplicate_videos: true
+  disallow_overlapping_recording_segments: true

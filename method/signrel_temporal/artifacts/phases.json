@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "phases": {
+    "0": {
+      "status": "passed",
+      "input_fingerprint": "c369e97ae0dd32c6e2802aa6be631b087195a9ce7b75c08acb8ae0f457e4434b",
+      "inputs": {
+        "spec_sha256": "c2df31b82905fdbfe0d6138cd9fe929d3d6eea8e60b5b5c92307fce23e7e5333"
+      },
+      "dependencies": {},
+      "artifacts": {
+        "artifacts/environment.json": "fd258bb6fe18fe8582aa6f3f75f0ec80c7033bbba4651958297670b63d5e4287",
+        "artifacts/protocol.json": "ad979522dc6ef0c7a6ffb4e0dfc289169bd2fdba786083e7f024e6f8532b2e04",
+        "docs/RELATED_WORK.md": "8f5529ca8bef5fe91fb69590a326b99f33e2774ad043ac2e22c0bdc908f465a1",
+        "docs/DECISIONS.md": "e6540fa5874698a3f4c65d6ab89c4791f2793509e2ef5997094ab89b6dd73278"
+      },
+      "evidence": "Discovery, source cards and bounded current literature scan; frozen endpoint/gallery/budget",
+      "receipt_fingerprint": "1af81a1cd56c9b5c86f11efb04c1a32b39c415b5d64578046ad13571304ded24"
+    },
+    "1": {
+      "status": "passed",
+      "input_fingerprint": "6acbdc9e0b41cd6e2c9dbab04b5847bb21c763d0842fdfee2d73270029f4964c",
+      "inputs": {
+        "source_sha256": "163204175d1f1c1a1436dcffcccd9819992b0f4cb0967a6b8d7440772de0b2af"
+      },
+      "dependencies": {
+        "0": "1af81a1cd56c9b5c86f11efb04c1a32b39c415b5d64578046ad13571304ded24"
+      },
+      "artifacts": {
+        "artifacts/pytest_current.log": "6816ed117b7432af09d62c84a9ef278c235f18fd59be4389284006003eeba8f8",
+        "results/smoke_results.json": "fd7472c959fe45957c1dafe5c6ddf66c52c17d34b36d7fe91908062154bba450",
+        "artifacts/minimal_pairs_toy.log": "2ea923dae512a9adccba5e83803d4a33f82ce9071155dd1432aec82e47a9218c"
+      },
+      "evidence": "37 tests passed; CPU synthetic integration; exact dropout resume and actual VFR fixture",
+      "receipt_fingerprint": "b63bb947ccd19c3bd612eaaa5d56c014ba781c90e86cb91e200b3e0d0967880e"
+    },
+    "2": {
+      "status": "passed",
+      "input_fingerprint": "c0f3960a7eec2c21d2f97204af13e65d6533e9b30230c9066a2a9487662fe381",
+      "inputs": {
+        "source_lock_sha256": "49d18969846c525f80a099506ad433d2134ea5e1049f301630561241d60d4c0c"
+      },
+      "dependencies": {
+        "0": "1af81a1cd56c9b5c86f11efb04c1a32b39c415b5d64578046ad13571304ded24",
+        "1": "b63bb947ccd19c3bd612eaaa5d56c014ba781c90e86cb91e200b3e0d0967880e"
+      },
+      "artifacts": {
+        "artifacts/sources.lock.json": "49d18969846c525f80a099506ad433d2134ea5e1049f301630561241d60d4c0c",
+        "artifacts/cache_qa/review.md": "95a2596798217027e342820bcabd50209bf6bbe47650d2ff0e076bebd9a00c6b"
+      },
+      "evidence": "Required original teacher/perception pinned and runtime verified; QA20 real clips plus5 evaluation examples",
+      "receipt_fingerprint": "91794864dcc122b94b3ada65c2e7f113e7c05d1fc11e77b44d9ad043193ba79c"
+    },
+    "3": {
+      "status": "passed",
+      "input_fingerprint": "3013ea2239d3fe001793aa81e725bc7803cd45969bfa787465ec162f237fa248",
+      "inputs": {
+        "data_config_sha256": "2eb6ffb44828ec7da6683ef993ced70be95922418dcda7559831671a48062ed9"
+      },
+      "dependencies": {
+        "0": "1af81a1cd56c9b5c86f11efb04c1a32b39c415b5d64578046ad13571304ded24",
+        "1": "b63bb947ccd19c3bd612eaaa5d56c014ba781c90e86cb91e200b3e0d0967880e"
+      },
+      "artifacts": {
+        "artifacts/data_adapter.json": "ba1f2c5db1f8f539a8241d363836d7abd3c768676218de0d0cd5cfb3db83d11e",
+        "artifacts/split_audit.json": "410d3a93f6e75e1016034f0552ca86ca058693c9df72b1c4130d40fe8a255fd3",
+        "artifacts/dataset_licenses.json": "a71d36ee4ca8b9b6a67b1f61143a748cdc4075aba92f4575cd09e4282bc9860b"
+      },
+      "evidence": "Separate SSL/eval metadata and actual-byte/group/signer audits; local ASL Citizen research terms read and hashed",
+      "receipt_fingerprint": "d953ecb8ed96a5bc5d82504ad8feb489f76529f25a5cf30159322b8ba380a60a"
+    },
+    "4": {
+      "status": "passed",
+      "input_fingerprint": "0f6a5e695b868fc388fd3e96ead1a7ebc6ae2c98fc1ee15b1d9614b8c5b92a36",
+      "inputs": {
+        "ssl_cache_manifest_sha256": "6bcee76eb798f5b88ab473254c53b5d1043dbe6fe48b397903d5182fa0df0ccb"
+      },
+      "dependencies": {
+        "2": "91794864dcc122b94b3ada65c2e7f113e7c05d1fc11e77b44d9ad043193ba79c",
+        "3": "d953ecb8ed96a5bc5d82504ad8feb489f76529f25a5cf30159322b8ba380a60a"
+      },
+      "artifacts": {
+        "artifacts/cache_audit.json": "a5695f7faf764fc009d8b51601609dc471feadfd629306e53770b51f6555cd20",
+        "artifacts/teacher_suitability.json": "a7953fb6903b3997e61152c1b1ac1a0f93f6d90a65f9d5cfa09b29e45e154738",
+        "artifacts/component_profile.json": "be2917bb51a3659c5377741c4a0b3bf8080fd6c91aa2a2a7442aa0cb9da491e3",
+        "artifacts/profile_final.json": "f68f9411677c8d9d1f9d3710f23f3033f844af19b702d43f0c9fbb2de789e021"
+      },
+      "evidence": "Numeric/provenance cache audit, nonconstant target variance and measured throughput; reused initial20 caches",
+      "receipt_fingerprint": "e2db7272daf2e5d6c56ca1631e794da563f43cba932608e61c128fd412b3cfde"
+    },
+    "5": {
+      "status": "passed",
+      "input_fingerprint": "8a22e896e1af41d7a87175a8c62bcde004ac71523df3d68fa0612738aee38fb4",
+      "inputs": {
+        "pilot_code_freeze_sha256": "674f6aee18a2c7937697ebe1680441d9342943f3127941900680e3d20aac59e9"
+      },
+      "dependencies": {
+        "4": "e2db7272daf2e5d6c56ca1631e794da563f43cba932608e61c128fd412b3cfde"
+      },
+      "artifacts": {
+        "runs/pilot_a1_seed17/run_manifest.json": "2e60e630f4f36616a654a5421ef24d1561d5bbd855e8a77e44a63890e88b8e91",
+        "runs/pilot_a4_seed17/run_manifest.json": "59ec14278a9a28a55ebb6e7ce2414fa3684e1bf4f3543e97a786061f0a0ebe5c",
+        "artifacts/overfit_fixed_windows.json": "63acc76138adf1e5d1efe21d2c1536303cfe64308acb2a344c0c4ed04fa4fddc",
+        "artifacts/diagnostics_a1.json": "c978e053886499d5fa01c545b1657abdd68d8c412f7c439e1ba5cc34b2eac085",
+        "artifacts/diagnostics_a4.json": "1f2177bc93bed4689e4ac5144233308cc1fa9548272eb0f72da03563f018c090",
+        "artifacts/paired_window_prefix_verification.json": "716f4552c45478650eae133090913ec8056531049fe6e8503a9066e6a71068ea",
+        "artifacts/pilot_complete_resume.log": "23d28cc812b26bf5e7ba9c33ca10a61eb621c23ba882f5b42c5b8504c76e6ca2"
+      },
+      "evidence": "Both1000-update runs complete; identical init/windows/masks; real overfit/debug; CPU exact resume and completed real resume no-op; negative H1 valid output",
+      "receipt_fingerprint": "339c8f57c5e5b5613e3bd9683a91c473487afdfc5324647a0e9e253a95f549c0"
+    },
+    "6": {
+      "status": "passed",
+      "input_fingerprint": "ab6560d21b95f942cbb59afe589b1bd124d7e54f18d019d6ebc2f568f90b25ad",
+      "inputs": {
+        "protocol_sha256": "ad979522dc6ef0c7a6ffb4e0dfc289169bd2fdba786083e7f024e6f8532b2e04"
+      },
+      "dependencies": {
+        "5": "339c8f57c5e5b5613e3bd9683a91c473487afdfc5324647a0e9e253a95f549c0"
+      },
+      "artifacts": {
+        "results/pilot_results.json": "58a409401e489d0ba3575b1fefaadb710c8377d7001a47e583998220df277a2c",
+        "artifacts/inference_api_verification.json": "f144324d17d14d1ddc4744afed60951714e2d65ed244472836485ab3d4e34390",
+        "results/minimal_pairs_real.json": "235e62033db8732c3124698826238f1d1d6685188a4fa76c4dfee14ded9d8444"
+      },
+      "evidence": "Actual80-query40-gloss dev retrieval and paired gloss bootstrap; full/headless2304D API equals exported vectors; real minimal pairs blocked, scorer and toy CLI tested",
+      "receipt_fingerprint": "a54932e39b10b4cac8e3b06b653a262de3d69e603d675530d140d6d435aca349"
+    },
+    "7": {
+      "status": "running",
+      "input_fingerprint": "8d6fb7c28938c2bc9e74e856cbdaf86d18c5dc138d793b1b6697be74e50ed7b9",
+      "inputs": {
+        "matrix_plan_sha256": "3a3d39b5eeb0d60eb8ae5b2dda96712bcfadd4b3e42bed28a1734104eca8ba7e"
+      },
+      "dependencies": {
+        "5": "339c8f57c5e5b5613e3bd9683a91c473487afdfc5324647a0e9e253a95f549c0",
+        "6": "a54932e39b10b4cac8e3b06b653a262de3d69e603d675530d140d6d435aca349"
+      },
+      "artifacts": {
+        "artifacts/matrix_plan.json": "3a3d39b5eeb0d60eb8ae5b2dda96712bcfadd4b3e42bed28a1734104eca8ba7e",
+        "artifacts/confirmatory_freeze.json": "9de801d5939f542e4438d64eed08a55814903d16ceee6d69fa091d17ff6b412c"
+      },
+      "evidence": "Nine400-update configurations locked,3 paired primary seeds, shared400 horizon selected by timing only within original global cap",
+      "receipt_fingerprint": "03c9b4c7b3cb8631ed0d4a59842f2b3b8ea2f5e21b3b97480fa06628a5e600dd"
+    }
+  }
+}

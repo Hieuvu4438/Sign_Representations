@@ -1,0 +1,13 @@
+{
+  "status": "frozen_before_real_training_and_scores",
+  "code_sha256": "163204175d1f1c1a1436dcffcccd9819992b0f4cb0967a6b8d7440772de0b2af",
+  "resolved_config_fingerprints": {
+    "a1": "d170eac8ef621f8d7ec89bd306c400da7a871f7cdea9bfa4c8cfa69cb35ab354",
+    "a4": "4652d3b300032b10918f9a5de05162c6c3bfcd9adfa3ccb33127b1b74b4234b9"
+  },
+  "source_lock_sha256": "49d18969846c525f80a099506ad433d2134ea5e1049f301630561241d60d4c0c",
+  "protocol_sha256": "ad979522dc6ef0c7a6ffb4e0dfc289169bd2fdba786083e7f024e6f8532b2e04",
+  "pytest_receipt_sha256": "6816ed117b7432af09d62c84a9ef278c235f18fd59be4389284006003eeba8f8",
+  "selection": "last fixed-budget checkpoint",
+  "test_opened": false
+}

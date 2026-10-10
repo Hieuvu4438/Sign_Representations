@@ -1,0 +1,6 @@
+schema_version: 1
+aggregate: results/smoke_results.json
+state: docs/STATE.md
+limitations:
+- 'Synthetic toy fixture: no research conclusion.'
+output: results/smoke_report.md

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "matched_completed_microbatches": 4000,
+  "windows_per_microbatch": 8,
+  "entire_A4_prefix_equals_A1": true,
+  "source": "actual accepted window/mask plan JSONL, no inferred equality"
+}

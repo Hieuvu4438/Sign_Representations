@@ -1,0 +1,6 @@
+{"completed": [".venv-core/bin/python", "-m", "signrel", "train", "--config", "configs/matrix400_a4_seed17.yaml"], "log": "artifacts/train_matrix400_a4_seed17.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "train", "--config", "configs/matrix400_a4_seed29.yaml"], "log": "artifacts/train_matrix400_a4_seed29.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "train", "--config", "configs/matrix400_a4_seed43.yaml"], "log": "artifacts/train_matrix400_a4_seed43.log"}
+{"skipped_budget": ["A2", 17]}
+{"skipped_budget": ["A3", 17]}
+{"skipped_budget": ["A6", 17]}

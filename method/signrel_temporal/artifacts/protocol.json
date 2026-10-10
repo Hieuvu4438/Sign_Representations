@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-06T10:16:55.578818+00:00",
+  "spec_sha256": "c2df31b82905fdbfe0d6138cd9fe929d3d6eea8e60b5b5c92307fce23e7e5333",
+  "setting": "sign-label-free pretraining with pretrained visual/perception priors",
+  "teacher": "original dinov2_vits14",
+  "streams": [
+    "LH",
+    "RH",
+    "BODY"
+  ],
+  "primary_endpoint": "macro_gloss_recall_at_1",
+  "primary_contrast": "A4-A1 paired by training seed",
+  "secondary": [
+    "micro_r1",
+    "micro_r5",
+    "macro_gloss_r5",
+    "mrr",
+    "coverage"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "checkpoint_rule": "last completed fixed-budget checkpoint",
+  "gallery_seed": 2026,
+  "gallery_k": 1,
+  "ranking": "gloss max exemplar cosine; stable gloss_id ties",
+  "bootstrap": {
+    "replicates": 1000,
+    "cluster": "gloss",
+    "paired_queries": true
+  },
+  "pilot_status": "exploratory; no locked test observed",
+  "pretraining_signer_overlap": "unknown until audited",
+  "unseen_gloss_pretraining": "not claimed",
+  "test_requires_frozen_configs": true,
+  "split_fingerprint": "9c924d8a8c8e1d240b69425f2bfa7726747b4e275437542762251727926f178e",
+  "data_config_sha256": "2eb6ffb44828ec7da6683ef993ced70be95922418dcda7559831671a48062ed9",
+  "gallery_manifest_sha256": "1bd2bda3780c9082752981fcfe90a7ae7f4190baa033ea913e53d5b1fc90a82e",
+  "dev_query_ids_sha256": "a9d1f42173546076c4607b1f297458923da7549d76e1d1083a839111fe984a92",
+  "locked_test_query_ids_sha256": "d38db42ebf8f2de54400b773252836005d19610afafe8a82a769de9d4cdaf8c2",
+  "evaluation_scope": "Custom frozen K=1 40-gloss ASL Citizen subset preserving official splits"
+}

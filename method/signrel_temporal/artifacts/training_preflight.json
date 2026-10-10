@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "cache_videos": 47,
+  "min_frames": 32,
+  "eligible_videos": 47,
+  "too_short_exclusions": [],
+  "code_sha256": "c93ea33b637b3037d2e8cfd690a633f0d20a7200f7814eed8adc751f97ca8461",
+  "all_cache_rows_in_ssl": true,
+  "split_audit_sha256": "410d3a93f6e75e1016034f0552ca86ca058693c9df72b1c4130d40fe8a255fd3"
+}

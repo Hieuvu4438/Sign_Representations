@@ -1,0 +1,4 @@
+extends: pilot_a4.yaml
+paths:
+  ssl_manifest: data/manifests/eval_test_videos.jsonl
+  cache_manifest: data/cache/eval_cache_manifest.jsonl

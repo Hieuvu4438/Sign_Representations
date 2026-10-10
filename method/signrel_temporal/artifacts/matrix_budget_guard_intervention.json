@@ -1,0 +1,13 @@
+{
+  "status": "original_supervisor_terminated_after_current_child_completed",
+  "driver_pid": 1941839,
+  "active_training_pid": 2275591,
+  "reason": "Observed shared-GPU slowdown requires reserving measured locked-test extraction cost at each subsequent training boundary",
+  "rule": "skip future rows unless observed conservative complete-row cost plus original test reserve fits unchanged global budget",
+  "protocol_configs_unchanged": true,
+  "observed_epoch_seconds": 1791287553.9699326,
+  "current_child_updates": 400,
+  "current_child_checkpoint_sha256": "32d1c77c1c87b6698e1099b6b62ae20f937af6390e2eb57f4892cd6693ec4f12",
+  "continuation": "artifacts/matrix_continue.py",
+  "transition_epoch_seconds": 1791287736.863848
+}

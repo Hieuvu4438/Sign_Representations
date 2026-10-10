@@ -1,0 +1,16 @@
+{
+  "ASL_Citizen": {
+    "status": "LOCAL_TERMS_READ",
+    "path": "/home/dongvk/datasets/ASL_Citizen/use.txt",
+    "sha256": "5f712014b70142ef06d0bac3d47cb8ff210da0671ce555a6bdc3a7b3f3538d64",
+    "name": "Microsoft Research License Terms",
+    "scope": "Noncommercial, non-revenue-generating research; data/modifications not redistributed; publications may report results without substantial Materials",
+    "used_here": "Local frozen evaluation, no sharing or deployment"
+  },
+  "How2Sign": {
+    "status": "USER_AUTHORIZED_LOCAL_RESEARCH",
+    "terms_file": "not_found_in_inspected_local_root",
+    "source": "https://how2sign.github.io/",
+    "used_here": "Existing segmented video clips read locally, no captions consumed or raw videos redistributed"
+  }
+}

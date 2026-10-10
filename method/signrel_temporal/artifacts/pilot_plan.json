@@ -1,0 +1,16 @@
+{
+  "status": "planned_before_real_scores",
+  "variants": [
+    "A1",
+    "A4"
+  ],
+  "seed": 17,
+  "successful_updates_per_run": 1000,
+  "profile_sha256": "5503300bdd9556eebb600681516760e660d5b273e3846a8c4048fb46d373ac29",
+  "expected_training_seconds": 1325.9586586306493,
+  "estimated_overhead_reserve_fraction": 0.2,
+  "dataset_config_sha256": "2eb6ffb44828ec7da6683ef993ced70be95922418dcda7559831671a48062ed9",
+  "selection": "last completed fixed-budget checkpoint",
+  "global_budget_ledger": "artifacts/budget_ledger.json",
+  "locked_test_opened": false
+}

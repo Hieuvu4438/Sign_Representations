@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-06T10:22:55.724243+00:00",
+  "status": "VERIFIED_RUNTIME",
+  "teacher": {
+    "name": "dinov2_vits14",
+    "repo_url": "https://github.com/facebookresearch/dinov2",
+    "repo_dir": "/home/haipd/Sign_Representations/method/signrel_temporal/third_party/dinov2",
+    "commit_sha": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "checkpoint_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth",
+    "checkpoint_path": "/home/haipd/Sign_Representations/method/signrel_temporal/weights/dinov2_vits14_pretrain.pth",
+    "feature_dim": 384,
+    "feature_key": "x_norm_clstoken",
+    "checkpoint_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "checkpoint_bytes": 88283115,
+    "runtime_verified": true,
+    "output_shape": [
+      2,
+      384
+    ],
+    "repeat_max_error": 0.0,
+    "normalization": "ImageNet RGB; 224 square bicubic clean crops; L2 float32 then float16 cache",
+    "device": "cuda",
+    "backend": "upstream supported torch attention fallback or installed xFormers"
+  },
+  "perception": {
+    "pose": {
+      "url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task",
+      "path": "/home/haipd/Sign_Representations/method/signrel_temporal/weights/pose_landmarker_lite.task",
+      "document_url": "https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker",
+      "sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a",
+      "bytes": 5777746,
+      "runtime_verified": true
+    },
+    "hand": {
+      "url": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+      "path": "/home/haipd/Sign_Representations/method/signrel_temporal/weights/hand_landmarker.task",
+      "document_url": "https://developers.google.com/edge/mediapipe/solutions/vision/hand_landmarker",
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "bytes": 7819105,
+      "runtime_verified": true
+    }
+  },
+  "downloaded_bytes_this_invocation": 101879966,
+  "licenses": [
+    {
+      "asset": "dinov2 code",
+      "license": "Apache-2.0",
+      "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/LICENSE"
+    },
+    {
+      "asset": "DINOv2 model",
+      "license": "Apache-2.0",
+      "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/MODEL_CARD.md"
+    },
+    {
+      "asset": "MediaPipe",
+      "license": "Apache-2.0",
+      "url": "https://github.com/google-ai-edge/mediapipe/blob/master/LICENSE"
+    }
+  ],
+  "mediapipe_version": "0.10.35"
+}

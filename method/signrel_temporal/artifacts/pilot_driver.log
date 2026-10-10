@@ -1,0 +1,16 @@
+{"completed": [".venv-core/bin/python", "-m", "signrel", "audit-cache", "--config", "configs/extract_eval_dev.yaml", "--output", "artifacts/eval_cache_audit.json"], "log": "artifacts/audit_eval_cache.log"}
+{"completed": [".venv-perception/bin/python", "-c", "from signrel.config import load_config; from signrel.data.profile import component_profile; component_profile(load_config(\"configs/pilot_a4.yaml\").values,\"artifacts/component_profile.json\")"], "log": "artifacts/component_profile.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "profile", "--config", "configs/pilot_a4.yaml", "--output", "artifacts/profile_final.json"], "log": "artifacts/profile_final.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "export-embeddings", "--config", "configs/eval_dev_a0.yaml"], "log": "artifacts/export_dev_a0.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "eval-retrieval", "--config", "configs/eval_dev_a0.yaml"], "log": "artifacts/eval_dev_a0.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "train", "--config", "configs/pilot_a1.yaml"], "log": "artifacts/train_pilot_a1.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "export-embeddings", "--config", "configs/eval_dev_a1.yaml"], "log": "artifacts/export_dev_a1.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "eval-retrieval", "--config", "configs/eval_dev_a1.yaml"], "log": "artifacts/eval_dev_a1.log"}
+{"completed": [".venv-core/bin/python", "-c", "from signrel.train.diagnostics import heldout_diagnostics; heldout_diagnostics(\"runs/pilot_a1_seed17/checkpoints/last.pt\",\"data/cache/ssl_dev_cache_manifest.jsonl\",\"artifacts/diagnostics_a1.json\")"], "log": "artifacts/diagnostics_a1.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "train", "--config", "configs/pilot_a4.yaml"], "log": "artifacts/train_pilot_a4.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "export-embeddings", "--config", "configs/eval_dev_a4.yaml"], "log": "artifacts/export_dev_a4.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "eval-retrieval", "--config", "configs/eval_dev_a4.yaml"], "log": "artifacts/eval_dev_a4.log"}
+{"completed": [".venv-core/bin/python", "-c", "from signrel.train.diagnostics import heldout_diagnostics; heldout_diagnostics(\"runs/pilot_a4_seed17/checkpoints/last.pt\",\"data/cache/ssl_dev_cache_manifest.jsonl\",\"artifacts/diagnostics_a4.json\")"], "log": "artifacts/diagnostics_a4.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "train", "--config", "configs/pilot_a4.yaml", "--resume", "runs/pilot_a4_seed17/checkpoints/last.pt"], "log": "artifacts/pilot_complete_resume.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "aggregate", "--config", "configs/aggregate_pilot.yaml"], "log": "artifacts/aggregate_pilot.log"}
+{"completed": [".venv-core/bin/python", "-m", "signrel", "build-report", "--config", "configs/report.yaml"], "log": "artifacts/build_report.log"}

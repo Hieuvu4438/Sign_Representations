@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "video_id": "aslc_027f868363adca20d46f",
+  "results": [
+    {
+      "checkpoint": "runs/pilot_a1_seed17/checkpoints/last.pt",
+      "dimension": 2304,
+      "max_abs_error_vs_saved_export": 0.0,
+      "status": "ok"
+    },
+    {
+      "checkpoint": "results/pilot_a1_seed17_dev/encoder.pt",
+      "dimension": 2304,
+      "max_abs_error_vs_saved_export": 0.0,
+      "status": "ok"
+    }
+  ],
+  "dedicated_encoder_omits_decoders": true
+}

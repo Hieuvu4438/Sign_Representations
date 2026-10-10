@@ -1,0 +1,73 @@
+{
+  "status": "measured",
+  "checkpoint_sha256": "4854a07511cacf06df8310917fa5c7ef572d379186c32fc29ffbfe199dbdb4bc",
+  "dev_manifest_sha256": "25266417caba4bd748440da4596df71dcbd417eea1baad5bba6eaf86e37bd158",
+  "fixed_draw_seed": 2026,
+  "microbatches": 16,
+  "train_only_shortcut_fit": true,
+  "errors": {
+    "learned": [
+      0.41799589432775974,
+      0.004365721964859404,
+      0.07892345101572573
+    ],
+    "train_mean": [
+      0.5082882717251778,
+      0.00739113443705719,
+      0.18039989937096834
+    ],
+    "nearest_visible": [
+      0.32739271875470877,
+      0.0008595535946369637,
+      0.03697094309609383
+    ],
+    "lag_only_relation": 0.08940530475229025
+  },
+  "error_order": [
+    "hand_squared_L2_stream_mean",
+    "body_smooth_L1",
+    "relation_smooth_L1"
+  ],
+  "learned_pooled": {
+    "status": "evaluated",
+    "samples": 3,
+    "dimensions": 2304,
+    "mean_per_dimension_std": 0.004050272305877855,
+    "mean_pairwise_cosine": 0.9162327218188526,
+    "effective_rank": 1.29469582387436,
+    "maximum_sample_rank": 2,
+    "mean_norm": 1.0000000021983781
+  },
+  "teacher_pooled": {
+    "status": "evaluated",
+    "samples": 3,
+    "dimensions": 2346,
+    "mean_per_dimension_std": 0.005809055210147296,
+    "mean_pairwise_cosine": 0.8355310347959856,
+    "effective_rank": 1.6596551506746953,
+    "maximum_sample_rank": 2,
+    "mean_norm": 0.9999999867046864
+  },
+  "learned_raw": {
+    "status": "evaluated",
+    "samples": 3,
+    "dimensions": 768,
+    "mean_per_dimension_std": 0.17586582634949063,
+    "mean_pairwise_cosine": 0.9197379483105997,
+    "effective_rank": 1.2105048648766608,
+    "maximum_sample_rank": 2,
+    "mean_norm": 25.769471157491598
+  },
+  "teacher_raw": {
+    "status": "evaluated",
+    "samples": 3,
+    "dimensions": 782,
+    "mean_per_dimension_std": 0.014582522191337823,
+    "mean_pairwise_cosine": 0.9246578832810931,
+    "effective_rank": 1.5105935114296252,
+    "maximum_sample_rank": 2,
+    "mean_norm": 2.40125821234504
+  },
+  "decoder_prediction_norm_mean": 1.189474656468346,
+  "scope": "Three fixed held-out SSL clips; descriptive diagnostics, sample rank cap matters. Nearest-visible is piecewise constant, not linear interpolation."
+}

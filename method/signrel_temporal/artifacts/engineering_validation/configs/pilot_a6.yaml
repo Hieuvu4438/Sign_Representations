@@ -1,0 +1,21 @@
+extends: base.yaml
+experiment:
+  name: pilot_a6
+  variant: A6
+  output_dir: runs/pilot_a6_seed17
+loss:
+  relation:
+    enabled: true
+    mode: shuffled
+    lags:
+    - -8
+    - -4
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+    - 4
+    - 8
+paths:
+  data_root: data/video_roots

@@ -1,0 +1,116 @@
+{
+  "status": "allocated_before_locked_test",
+  "rule_sha256": "b3822f57bde3427cc2c3376492ea036ab6e1d17279f663b754e1c01d9883de8f",
+  "rows": [
+    {
+      "variant": "A1",
+      "seed": 17,
+      "config": "configs/matrix400_a1_seed17.yaml",
+      "config_sha256": "c9f770dec7db6f908567296bb203f2d9d620db717295ab9cab795a8c5e89764e",
+      "resolved_config_sha256": "2194c81e583a6214a5e29fab802bf10c80735346c9283a3f312ba49ff3456105",
+      "planned_updates": 400,
+      "run_dir": "runs/matrix400_a1_seed17",
+      "eval_dir": "results/matrix400_a1_seed17_test",
+      "state": "planned"
+    },
+    {
+      "variant": "A1",
+      "seed": 29,
+      "config": "configs/matrix400_a1_seed29.yaml",
+      "config_sha256": "5d5d3a4bab5dd168be1834e7c8e059ed23523abd47504e842caedaed3d26c55e",
+      "resolved_config_sha256": "80ae9acf46cca0d4ac194cb0a278c58a0d29f18d32c2959d92dd53980ce36026",
+      "planned_updates": 400,
+      "run_dir": "runs/matrix400_a1_seed29",
+      "eval_dir": "results/matrix400_a1_seed29_test",
+      "state": "planned"
+    },
+    {
+      "variant": "A1",
+      "seed": 43,
+      "config": "configs/matrix400_a1_seed43.yaml",
+      "config_sha256": "18dfe342044f423736f6b649db6700db4a0a3b6f49d0b20bb5fd989a12e17623",
+      "resolved_config_sha256": "2a1abf85977497006ff9b711f7be71da92c5e7c16e6b61145444e9b98fd4a346",
+      "planned_updates": 400,
+      "run_dir": "runs/matrix400_a1_seed43",
+      "eval_dir": "results/matrix400_a1_seed43_test",
+      "state": "planned"
+    },
+    {
+      "variant": "A4",
+      "seed": 17,
+      "config": "configs/matrix400_a4_seed17.yaml",
+      "config_sha256": "ae921b0844cab6689fa71d6eb80eea1d93c699783a2e9279d7555593ad884cd4",
+      "resolved_config_sha256": "f8eab8da56d0ef48096ad92503141ce01ad3981e91655fa6c62788cf8d2860dc",
+      "planned_updates": 400,
+      "run_dir": "runs/matrix400_a4_seed17",
+      "eval_dir": "results/matrix400_a4_seed17_test",
+      "state": "planned"
+    },
+    {
+      "variant": "A4",
+      "seed": 29,
+      "config": "configs/matrix400_a4_seed29.yaml",
+      "config_sha256": "2e87d5716f43feb3b22a18729fcdc93e866963c80aeebf9541d56309182bcab9",
+      "resolved_config_sha256": "ac00814ed66e5c3496163f85f8019219e639ed43f011d4cddd9ee166e793cc01",
+      "planned_updates": 400,
+      "run_dir": "runs/matrix400_a4_seed29",
+      "eval_dir": "results/matrix400_a4_seed29_test",
+      "state": "planned"
+    },
+    {
+      "variant": "A4",
+      "seed": 43,
+      "config": "configs/matrix400_a4_seed43.yaml",
+      "config_sha256": "33b8b52f808379d2e2287b0282326a2129a0e7bd6a22d17c2390a49e00560abb",
+      "resolved_config_sha256": "902ca36ed5de74be7b87dc6d5fa90c70e4ee576fc4fdf1e1fd891c4b44a21e09",
+      "planned_updates": 400,
+      "run_dir": "runs/matrix400_a4_seed43",
+      "eval_dir": "results/matrix400_a4_seed43_test",
+      "state": "planned"
+    },
+    {
+      "variant": "A2",
+      "seed": 17,
+      "config": "configs/matrix400_a2_seed17.yaml",
+      "config_sha256": "24fee40fdee237a38ded09450dac3296fbc61f76c2b229e42698ee67aeea219d",
+      "resolved_config_sha256": "59f163a10b54d8b3a739c76fd2cacbf472d7430c4c77c9faf73051eb2eb584f5",
+      "planned_updates": 400,
+      "run_dir": "runs/matrix400_a2_seed17",
+      "eval_dir": "results/matrix400_a2_seed17_test",
+      "state": "planned"
+    },
+    {
+      "variant": "A3",
+      "seed": 17,
+      "config": "configs/matrix400_a3_seed17.yaml",
+      "config_sha256": "a86ad89160651f37c3c57a0372f8c2ce5283184beedfb0ee818440be2e97c06b",
+      "resolved_config_sha256": "ca1fa13036f29fb73d500d5efc5da31df5a58235c67ac37a8606a5b7357ec655",
+      "planned_updates": 400,
+      "run_dir": "runs/matrix400_a3_seed17",
+      "eval_dir": "results/matrix400_a3_seed17_test",
+      "state": "planned"
+    },
+    {
+      "variant": "A6",
+      "seed": 17,
+      "config": "configs/matrix400_a6_seed17.yaml",
+      "config_sha256": "4d8d921f831533fe246ad8f590537002922d98f8b94066354f87c0789e34fd4b",
+      "resolved_config_sha256": "7c36f82b38c5f2fcf96bbf46445dd3db47c73e918ab86a1aff8f3e3f3b192651",
+      "planned_updates": 400,
+      "run_dir": "runs/matrix400_a6_seed17",
+      "eval_dir": "results/matrix400_a6_seed17_test",
+      "state": "planned"
+    }
+  ],
+  "horizon": 400,
+  "seconds_per_update_conservative": 0.8727703836304136,
+  "expected_training_seconds_with20percent_reserve": 3770.3680572833864,
+  "test_cache_reserve_seconds": 442.40422459281984,
+  "remaining_gpu_seconds_before_matrix": 4396.451380368555,
+  "source_sha256": "163204175d1f1c1a1436dcffcccd9819992b0f4cb0967a6b8d7440772de0b2af",
+  "source_lock_sha256": "49d18969846c525f80a099506ad433d2134ea5e1049f301630561241d60d4c0c",
+  "ssl_cache_manifest_sha256": "6bcee76eb798f5b88ab473254c53b5d1043dbe6fe48b397903d5182fa0df0ccb",
+  "protocol_sha256": "ad979522dc6ef0c7a6ffb4e0dfc289169bd2fdba786083e7f024e6f8532b2e04",
+  "selection": "last completed fixed-budget checkpoint; no test tuning",
+  "global_budget_unchanged": true
+}

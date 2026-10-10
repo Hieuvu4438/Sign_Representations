@@ -1,0 +1,16 @@
+extends: base.yaml
+experiment:
+  name: pilot_a2
+  variant: A2
+  output_dir: runs/pilot_a2_seed17
+loss:
+  relation:
+    enabled: true
+    mode: intra
+    lags:
+    - 1
+    - 2
+    - 4
+    - 8
+paths:
+  data_root: data/video_roots

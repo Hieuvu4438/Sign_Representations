@@ -1,0 +1,11 @@
+{
+  "status": "measured",
+  "video_id": "h2s_a94ccdd22cf8c38262e5",
+  "valid_decoded_frames": 96,
+  "crops": 168,
+  "decoded_frames_per_second": 310.59080980377234,
+  "perception_frames_per_second": 16.806823511953237,
+  "teacher_crops_per_second": 624.30470620834,
+  "new_cache_bytes_per_hour": 64726203.47059444,
+  "scope": "One fixed clip, at most96 valid frames; teacher warmed separately. End-to-end extraction has its own per-video timings."
+}

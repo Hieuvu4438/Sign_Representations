@@ -1,0 +1,53 @@
+schema_version: 1
+runs:
+- variant: A1
+  seed: 17
+  run_dir: runs/matrix400_a1_seed17
+  eval_dir: results/matrix400_a1_seed17_test
+- variant: A1
+  seed: 29
+  run_dir: runs/matrix400_a1_seed29
+  eval_dir: results/matrix400_a1_seed29_test
+- variant: A1
+  seed: 43
+  run_dir: runs/matrix400_a1_seed43
+  eval_dir: results/matrix400_a1_seed43_test
+- variant: A4
+  seed: 17
+  run_dir: runs/matrix400_a4_seed17
+  eval_dir: results/matrix400_a4_seed17_test
+- variant: A4
+  seed: 29
+  run_dir: runs/matrix400_a4_seed29
+  eval_dir: results/matrix400_a4_seed29_test
+- variant: A4
+  seed: 43
+  run_dir: runs/matrix400_a4_seed43
+  eval_dir: results/matrix400_a4_seed43_test
+- variant: A2
+  seed: 17
+  run_dir: runs/matrix400_a2_seed17
+  eval_dir: results/matrix400_a2_seed17_test
+- variant: A3
+  seed: 17
+  run_dir: runs/matrix400_a3_seed17
+  eval_dir: results/matrix400_a3_seed17_test
+- variant: A6
+  seed: 17
+  run_dir: runs/matrix400_a6_seed17
+  eval_dir: results/matrix400_a6_seed17_test
+- variant: A0
+  seed: 0
+  run_dir: A0
+  eval_dir: results/matrix_a0_test
+contrasts:
+- - A1
+  - A4
+- - A2
+  - A4
+- - A3
+  - A4
+- - A6
+  - A4
+require_complete: false
+output: results/confirmatory_results.csv

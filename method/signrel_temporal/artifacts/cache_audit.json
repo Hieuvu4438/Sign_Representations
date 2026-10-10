@@ -1,0 +1,529 @@
+{
+  "status": "passed",
+  "videos": 47,
+  "cache_manifest_sha256": "6bcee76eb798f5b88ab473254c53b5d1043dbe6fe48b397903d5182fa0df0ccb",
+  "per_video": [
+    {
+      "video_id": "h2s_0324211f3312b728fe90",
+      "frames": 88,
+      "hand_coverage": [
+        1.0,
+        1.0
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_03f9d2c7b3481e19f5f9",
+      "frames": 94,
+      "hand_coverage": [
+        0.9574468085106383,
+        0.9574468085106383
+      ],
+      "body_coverage": 0.9893617021276596,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_0a6b51ab0660d11cd518",
+      "frames": 64,
+      "hand_coverage": [
+        0.984375,
+        0.984375
+      ],
+      "body_coverage": 0.984375,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_0d261230af1b1bb9ac11",
+      "frames": 109,
+      "hand_coverage": [
+        0.9908256880733946,
+        0.981651376146789
+      ],
+      "body_coverage": 0.9908256880733946,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_1e3fe59a2c408223c85e",
+      "frames": 278,
+      "hand_coverage": [
+        0.7014388489208633,
+        0.9496402877697842
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_1faefe3fb311f4042fb2",
+      "frames": 85,
+      "hand_coverage": [
+        0.9882352941176471,
+        0.9176470588235294
+      ],
+      "body_coverage": 0.9882352941176471,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_1fc104938a8d1d95d045",
+      "frames": 83,
+      "hand_coverage": [
+        0.3614457831325301,
+        0.7469879518072289
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_22b61d6596939e1dbb15",
+      "frames": 137,
+      "hand_coverage": [
+        0.9854014598540146,
+        0.9343065693430657
+      ],
+      "body_coverage": 0.9927007299270073,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_2b9e71db9c92f74d25f1",
+      "frames": 146,
+      "hand_coverage": [
+        0.7465753424657534,
+        0.958904109589041
+      ],
+      "body_coverage": 0.9931506849315068,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_2c049543706b269cc7ec",
+      "frames": 88,
+      "hand_coverage": [
+        0.9431818181818182,
+        0.7386363636363636
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_36871414d6a53b164b9b",
+      "frames": 65,
+      "hand_coverage": [
+        0.9846153846153847,
+        0.9692307692307692
+      ],
+      "body_coverage": 0.9846153846153847,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_387ed96850c91ba57909",
+      "frames": 117,
+      "hand_coverage": [
+        1.0,
+        0.9914529914529915
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_395431e1bcdc906b6142",
+      "frames": 80,
+      "hand_coverage": [
+        0.725,
+        0.7625
+      ],
+      "body_coverage": 0.9875,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_442881f4695268ce296d",
+      "frames": 163,
+      "hand_coverage": [
+        0.9202453987730062,
+        0.9325153374233128
+      ],
+      "body_coverage": 0.9938650306748467,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_5628d0fee79bb3a1ad00",
+      "frames": 288,
+      "hand_coverage": [
+        0.9131944444444444,
+        0.8645833333333334
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_5b97e2116be59e45c9ee",
+      "frames": 92,
+      "hand_coverage": [
+        0.8043478260869565,
+        0.9130434782608695
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_63c3c74f1045157b8fc9",
+      "frames": 124,
+      "hand_coverage": [
+        0.9919354838709677,
+        0.056451612903225805
+      ],
+      "body_coverage": 0.9919354838709677,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_676557e032ce84516ea5",
+      "frames": 190,
+      "hand_coverage": [
+        0.531578947368421,
+        0.9157894736842105
+      ],
+      "body_coverage": 0.9947368421052631,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_699e0cd4dfaa17ac1af6",
+      "frames": 270,
+      "hand_coverage": [
+        0.8444444444444444,
+        0.9222222222222223
+      ],
+      "body_coverage": 0.9962962962962963,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_72e0be2af16847e7dd3f",
+      "frames": 98,
+      "hand_coverage": [
+        0.41836734693877553,
+        1.0
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_78d2f31b23a60bd6146b",
+      "frames": 133,
+      "hand_coverage": [
+        0.23308270676691728,
+        0.19548872180451127
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_829dbcdd825ee0743b9a",
+      "frames": 69,
+      "hand_coverage": [
+        0.9565217391304348,
+        0.9710144927536232
+      ],
+      "body_coverage": 0.9855072463768116,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_87014aaddc13c6ff84ea",
+      "frames": 618,
+      "hand_coverage": [
+        0.7718446601941747,
+        0.8252427184466019
+      ],
+      "body_coverage": 0.9983818770226537,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_8dfef109a8793b82efaa",
+      "frames": 59,
+      "hand_coverage": [
+        0.9830508474576272,
+        0.711864406779661
+      ],
+      "body_coverage": 0.9830508474576272,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_902fb31df26c8460c204",
+      "frames": 117,
+      "hand_coverage": [
+        0.8888888888888888,
+        0.8547008547008547
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_90d67a7396a8e9b6dbb8",
+      "frames": 78,
+      "hand_coverage": [
+        0.9102564102564102,
+        0.05128205128205128
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_91b26c33894949a05760",
+      "frames": 200,
+      "hand_coverage": [
+        0.935,
+        0.88
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_a94ccdd22cf8c38262e5",
+      "frames": 365,
+      "hand_coverage": [
+        0.9095890410958904,
+        0.8301369863013699
+      ],
+      "body_coverage": 0.9972602739726028,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_af5cf344a08da5b3128b",
+      "frames": 126,
+      "hand_coverage": [
+        0.9285714285714286,
+        0.9444444444444444
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_b882b4a672e7a5514153",
+      "frames": 94,
+      "hand_coverage": [
+        0.9042553191489362,
+        1.0
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_baa92c01b987a788f40f",
+      "frames": 106,
+      "hand_coverage": [
+        0.839622641509434,
+        0.9716981132075472
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_bd49438e2da8cabd1369",
+      "frames": 86,
+      "hand_coverage": [
+        0.9883720930232558,
+        0.9883720930232558
+      ],
+      "body_coverage": 0.9883720930232558,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_c0ef23c497164645ca58",
+      "frames": 196,
+      "hand_coverage": [
+        0.8571428571428571,
+        0.9183673469387755
+      ],
+      "body_coverage": 0.9948979591836735,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_c23bb30560af8821f359",
+      "frames": 239,
+      "hand_coverage": [
+        0.40585774058577406,
+        0.6485355648535565
+      ],
+      "body_coverage": 0.99581589958159,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_c59cf00c19bcfa3cd9b5",
+      "frames": 282,
+      "hand_coverage": [
+        0.9539007092198581,
+        0.9716312056737588
+      ],
+      "body_coverage": 0.9964539007092199,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_c6b618e3c90b48f5fd44",
+      "frames": 90,
+      "hand_coverage": [
+        0.9888888888888889,
+        0.9777777777777777
+      ],
+      "body_coverage": 0.9888888888888889,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_c71801bb0d3db828555a",
+      "frames": 169,
+      "hand_coverage": [
+        0.9289940828402367,
+        0.8994082840236687
+      ],
+      "body_coverage": 0.9940828402366864,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_c946d5d4f41607a59b09",
+      "frames": 105,
+      "hand_coverage": [
+        0.6571428571428571,
+        0.8476190476190476
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_d1d8f15834bca4dad5d2",
+      "frames": 169,
+      "hand_coverage": [
+        0.9467455621301775,
+        0.9289940828402367
+      ],
+      "body_coverage": 0.9940828402366864,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_d9817a2fdf2e137e615f",
+      "frames": 220,
+      "hand_coverage": [
+        0.8590909090909091,
+        0.8590909090909091
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_d9df03952c89208f123d",
+      "frames": 72,
+      "hand_coverage": [
+        0.5833333333333334,
+        0.9583333333333334
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_ea10a85d134b952aecae",
+      "frames": 125,
+      "hand_coverage": [
+        0.944,
+        0.936
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_eeb81a6a5c2a4f81fca9",
+      "frames": 67,
+      "hand_coverage": [
+        0.8805970149253731,
+        0.8656716417910447
+      ],
+      "body_coverage": 0.9850746268656716,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_f182d44d50689b8821c4",
+      "frames": 34,
+      "hand_coverage": [
+        1.0,
+        1.0
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_f3a237f91298718ea33d",
+      "frames": 104,
+      "hand_coverage": [
+        0.7884615384615384,
+        0.6538461538461539
+      ],
+      "body_coverage": 0.9903846153846154,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_fa28a574dc663ecc2f3e",
+      "frames": 45,
+      "hand_coverage": [
+        0.9777777777777777,
+        0.9777777777777777
+      ],
+      "body_coverage": 0.9777777777777777,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "video_id": "h2s_fdfd8abfcfe60a5fb758",
+      "frames": 278,
+      "hand_coverage": [
+        1.0,
+        1.0
+      ],
+      "body_coverage": 1.0,
+      "preprocess_fingerprint": "e8b618580dd6913574e24c053128c9e2e314b78e8b95d388f74c5e23f19865e1",
+      "teacher_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    }
+  ],
+  "mean_hand_coverage": [
+    0.8470988163272776,
+    0.8545677181371774
+  ],
+  "mean_body_coverage": 0.9948431877331431
+}

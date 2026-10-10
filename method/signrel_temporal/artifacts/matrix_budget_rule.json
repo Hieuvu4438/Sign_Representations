@@ -1,0 +1,22 @@
+{
+  "status": "locked_rule_before_A4_dev_and_all_test_scores",
+  "created_at_utc": "2026-10-06T11:18:14.697101+00:00",
+  "planned_rows": 9,
+  "primary_seeds": [
+    17,
+    29,
+    43
+  ],
+  "mechanism_seed": 17,
+  "candidate_fixed_horizons_descending": [
+    400,
+    300,
+    200
+  ],
+  "selection_rule": "Choose largest horizon fitting current global GPU and wall-training remainder:9*horizon*max(pilot A1/A4 mean seconds/update, their last100-update seconds/update)*1.20 +1.20*80*measured eval extraction seconds/video +60 seconds reserve. Do not use retrieval scores in this allocation. If none fits, matrix remains incomplete.",
+  "compute_reserve_fraction": 0.2,
+  "test_cache_video_count": 80,
+  "test_score_selection": "last fixed-budget checkpoint; no dev/tuning/best-seed selection",
+  "global_budget_unchanged": true,
+  "external_baselines": "NOT_RUN separately; no substitution"
+}

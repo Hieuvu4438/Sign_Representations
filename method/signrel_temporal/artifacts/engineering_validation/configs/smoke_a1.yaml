@@ -1,0 +1,29 @@
+extends: pilot_a1.yaml
+experiment:
+  name: smoke_a1
+  synthetic: true
+  output_dir: runs/smoke_a1_seed17
+paths:
+  cache_manifest: data/synthetic/cache_manifest.jsonl
+  ssl_manifest: data/synthetic/ssl_train.jsonl
+  ssl_dev_manifest: data/synthetic/ssl_dev.jsonl
+  protocol: data/synthetic/protocol.json
+model:
+  hidden_dim: 48
+  layers: 2
+  heads: 4
+  feedforward_dim: 96
+  dropout: 0.1
+train:
+  device: cpu
+  precision: fp32
+  microbatch_size: 2
+  gradient_accumulation: 1
+  max_updates: 20
+  warmup_updates: 4
+  checkpoint_every: 10
+  log_every: 1
+  workers: 0
+budget:
+  max_wall_minutes: 5
+  max_gpu_hours: 0

@@ -1,0 +1,16 @@
+{
+  "protocol_sha256": "ad979522dc6ef0c7a6ffb4e0dfc289169bd2fdba786083e7f024e6f8532b2e04",
+  "train_configs": {
+    "configs/matrix400_a1_seed17.yaml": "c9f770dec7db6f908567296bb203f2d9d620db717295ab9cab795a8c5e89764e",
+    "configs/matrix400_a1_seed29.yaml": "5d5d3a4bab5dd168be1834e7c8e059ed23523abd47504e842caedaed3d26c55e",
+    "configs/matrix400_a1_seed43.yaml": "18dfe342044f423736f6b649db6700db4a0a3b6f49d0b20bb5fd989a12e17623",
+    "configs/matrix400_a4_seed17.yaml": "ae921b0844cab6689fa71d6eb80eea1d93c699783a2e9279d7555593ad884cd4",
+    "configs/matrix400_a4_seed29.yaml": "2e87d5716f43feb3b22a18729fcdc93e866963c80aeebf9541d56309182bcab9",
+    "configs/matrix400_a4_seed43.yaml": "33b8b52f808379d2e2287b0282326a2129a0e7bd6a22d17c2390a49e00560abb",
+    "configs/matrix400_a2_seed17.yaml": "24fee40fdee237a38ded09450dac3296fbc61f76c2b229e42698ee67aeea219d",
+    "configs/matrix400_a3_seed17.yaml": "a86ad89160651f37c3c57a0372f8c2ce5283184beedfb0ee818440be2e97c06b",
+    "configs/matrix400_a6_seed17.yaml": "4d8d921f831533fe246ad8f590537002922d98f8b94066354f87c0789e34fd4b"
+  },
+  "source_sha256": "163204175d1f1c1a1436dcffcccd9819992b0f4cb0967a6b8d7440772de0b2af",
+  "checkpoint_rule": "last completed fixed-budget checkpoint; no test tuning"
+}
