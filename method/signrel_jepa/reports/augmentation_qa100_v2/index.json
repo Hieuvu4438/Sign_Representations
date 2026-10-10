@@ -1,0 +1,3853 @@
+{
+  "manifest_sha256": "ff2aa033593c88add31d97f02a60c87e2053f5d018eda51591ffa02b4c0d7a47",
+  "script_sha256": "2ab9e913d4f9239db0dd7ac6d339be1f953e518e0a3a9633086a51687cca3659",
+  "seed": 42,
+  "clips": 100,
+  "rendered": 99,
+  "records": [
+    {
+      "index": 0,
+      "sample_id": "how2sign:-1PeVdIwiq0_17-8-rgb_front",
+      "source_frames": [
+        144,
+        146,
+        148,
+        150,
+        152,
+        154,
+        156,
+        158,
+        160,
+        162,
+        164,
+        166,
+        168,
+        170,
+        172,
+        174
+      ],
+      "crop": [
+        0.015625,
+        0.005555555555555556,
+        0.9984375,
+        0.9888888888888889
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/000.jpg"
+    },
+    {
+      "index": 1,
+      "sample_id": "how2sign:-AZVqXtWGg0_20-8-rgb_front",
+      "source_frames": [
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "crop": [
+        0.015625,
+        0.075,
+        0.93359375,
+        0.9930555555555556
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 0,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.9657118320465088,
+      "image": "reports/augmentation_qa100_v2/001.jpg"
+    },
+    {
+      "index": 2,
+      "sample_id": "how2sign:-Ajh5HDqsi4_7-8-rgb_front",
+      "source_frames": [
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        222,
+        224,
+        226,
+        228,
+        230,
+        232,
+        234
+      ],
+      "crop": [
+        0.03046875,
+        0.034722222222222224,
+        0.98828125,
+        0.9916666666666667
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 2,
+        "endpoint": 2,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9722222089767456,
+      "image": "reports/augmentation_qa100_v2/002.jpg"
+    },
+    {
+      "index": 3,
+      "sample_id": "how2sign:-BKq3iOBB9k_5-3-rgb_front",
+      "source_frames": [
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67
+      ],
+      "crop": [
+        0.1171875,
+        0.08333333333333333,
+        0.99453125,
+        0.9611111111111111
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9817708134651184,
+      "image": "reports/augmentation_qa100_v2/003.jpg"
+    },
+    {
+      "index": 4,
+      "sample_id": "how2sign:-Bz0BNwqAE4_5-5-rgb_front",
+      "source_frames": [
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        127
+      ],
+      "crop": [
+        0.00234375,
+        0.025,
+        0.9515625,
+        0.975
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/004.jpg"
+    },
+    {
+      "index": 5,
+      "sample_id": "how2sign:-aEP1MfoUSU_11-8-rgb_front",
+      "source_frames": [
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83
+      ],
+      "crop": [
+        0.00703125,
+        0.06527777777777778,
+        0.86484375,
+        0.9236111111111112
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 4,
+        "end": 8
+      },
+      "visible_fraction": 0.8812934160232544,
+      "image": "reports/augmentation_qa100_v2/005.jpg"
+    },
+    {
+      "index": 6,
+      "sample_id": "how2sign:-b4_y6LOSx0_12-8-rgb_front",
+      "source_frames": [
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38
+      ],
+      "crop": [
+        0.0140625,
+        0.018055555555555554,
+        0.93515625,
+        0.9402777777777778
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 1,
+        "endpoint": 0,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9763454794883728,
+      "image": "reports/augmentation_qa100_v2/006.jpg"
+    },
+    {
+      "index": 7,
+      "sample_id": "how2sign:0-bR2rq-qps_7-5-rgb_front",
+      "source_frames": [
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122
+      ],
+      "crop": [
+        0.0390625,
+        0.034722222222222224,
+        0.89609375,
+        0.8916666666666667
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9743923544883728,
+      "image": "reports/augmentation_qa100_v2/007.jpg"
+    },
+    {
+      "index": 8,
+      "sample_id": "how2sign:01j1UveqztE_7-3-rgb_front",
+      "source_frames": [
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82
+      ],
+      "crop": [
+        0.00390625,
+        0.022222222222222223,
+        0.94609375,
+        0.9638888888888889
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/008.jpg"
+    },
+    {
+      "index": 9,
+      "sample_id": "how2sign:01ucR6XreJw_11-5-rgb_front",
+      "source_frames": [
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52
+      ],
+      "crop": [
+        0.00078125,
+        0.0,
+        0.99921875,
+        0.9986111111111111
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 1,
+        "start": 4,
+        "end": 8
+      },
+      "visible_fraction": 0.9837239384651184,
+      "image": "reports/augmentation_qa100_v2/009.jpg"
+    },
+    {
+      "index": 10,
+      "sample_id": "how2sign:038vE9JsU9I_4-8-rgb_front",
+      "source_frames": [
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54
+      ],
+      "crop": [
+        0.0328125,
+        0.029166666666666667,
+        0.990625,
+        0.9861111111111112
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 1,
+        "endpoint": 2,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9756944179534912,
+      "image": "reports/augmentation_qa100_v2/010.jpg"
+    },
+    {
+      "index": 11,
+      "sample_id": "how2sign:04VKILduLSM_4-8-rgb_front",
+      "source_frames": [
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91
+      ],
+      "crop": [
+        0.02890625,
+        0.025,
+        0.990625,
+        0.9861111111111112
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 1,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9830729365348816,
+      "image": "reports/augmentation_qa100_v2/011.jpg"
+    },
+    {
+      "index": 12,
+      "sample_id": "how2sign:04hnjLKHh2g_9-5-rgb_front",
+      "source_frames": [
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56
+      ],
+      "crop": [
+        0.04140625,
+        0.06388888888888888,
+        0.9765625,
+        0.9986111111111111
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/012.jpg"
+    },
+    {
+      "index": 13,
+      "sample_id": "how2sign:06Yvm4X81WI_11-5-rgb_front",
+      "source_frames": [
+        124,
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144,
+        146,
+        148,
+        150,
+        152,
+        154
+      ],
+      "crop": [
+        0.02265625,
+        0.018055555555555554,
+        0.9984375,
+        0.9930555555555556
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.8771701455116272,
+      "image": "reports/augmentation_qa100_v2/013.jpg"
+    },
+    {
+      "index": 14,
+      "sample_id": "how2sign:077rQK39ycg_2-5-rgb_front",
+      "source_frames": [
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71
+      ],
+      "crop": [
+        0.00390625,
+        0.001388888888888889,
+        0.996875,
+        0.9944444444444445
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 3,
+        "endpoint": 0,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.9796006679534912,
+      "image": "reports/augmentation_qa100_v2/014.jpg"
+    },
+    {
+      "index": 15,
+      "sample_id": "how2sign:07EGkSiMsL0_20-5-rgb_front",
+      "source_frames": [
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100
+      ],
+      "crop": [
+        0.0625,
+        0.0,
+        0.96640625,
+        0.9041666666666667
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.984375,
+      "image": "reports/augmentation_qa100_v2/015.jpg"
+    },
+    {
+      "index": 16,
+      "sample_id": "how2sign:07HhpnroTXs_0-5-rgb_front",
+      "source_frames": [
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96
+      ],
+      "crop": [
+        0.028125,
+        0.04027777777777778,
+        0.9484375,
+        0.9597222222222223
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/016.jpg"
+    },
+    {
+      "index": 17,
+      "sample_id": "how2sign:09cQe0gC2-0_3_4-8-rgb_front",
+      "source_frames": [
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133
+      ],
+      "crop": [
+        0.065625,
+        0.027777777777777776,
+        0.9984375,
+        0.9597222222222223
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 2,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9756944179534912,
+      "image": "reports/augmentation_qa100_v2/017.jpg"
+    },
+    {
+      "index": 18,
+      "sample_id": "how2sign:0EXgSf1yN-0_3-8-rgb_front",
+      "source_frames": [
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89
+      ],
+      "crop": [
+        0.0453125,
+        0.125,
+        0.8984375,
+        0.9791666666666666
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 1,
+        "endpoint": 0,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9858940839767456,
+      "image": "reports/augmentation_qa100_v2/018.jpg"
+    },
+    {
+      "index": 19,
+      "sample_id": "how2sign:0ICZi26jdaQ_5-5-rgb_front",
+      "source_frames": [
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105
+      ],
+      "crop": [
+        0.109375,
+        0.059722222222222225,
+        0.96875,
+        0.9180555555555555
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.9750434160232544,
+      "image": "reports/augmentation_qa100_v2/019.jpg"
+    },
+    {
+      "index": 20,
+      "sample_id": "how2sign:0sal9F4RXeY_10-8-rgb_front",
+      "source_frames": [
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74
+      ],
+      "crop": [
+        0.04453125,
+        0.011111111111111112,
+        0.990625,
+        0.9569444444444445
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/020.jpg"
+    },
+    {
+      "index": 21,
+      "sample_id": "how2sign:0t94zPbIPTw_7-8-rgb_front",
+      "source_frames": [
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122
+      ],
+      "crop": [
+        0.01171875,
+        0.0125,
+        0.9828125,
+        0.9833333333333333
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9040798544883728,
+      "image": "reports/augmentation_qa100_v2/021.jpg"
+    },
+    {
+      "index": 22,
+      "sample_id": "how2sign:0trr2UC5l5M_10-11-rgb_front",
+      "source_frames": [
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80
+      ],
+      "crop": [
+        0.08515625,
+        0.025,
+        0.9421875,
+        0.8819444444444444
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 2,
+        "endpoint": 1,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.9696180820465088,
+      "image": "reports/augmentation_qa100_v2/022.jpg"
+    },
+    {
+      "index": 23,
+      "sample_id": "how2sign:10d1oeViKYw_8-5-rgb_front",
+      "source_frames": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29
+      ],
+      "crop": [
+        0.0015625,
+        0.0,
+        0.99765625,
+        0.9958333333333333
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9787326455116272,
+      "image": "reports/augmentation_qa100_v2/023.jpg"
+    },
+    {
+      "index": 24,
+      "sample_id": "how2sign:11oEwlBqF2M_6-8-rgb_front",
+      "source_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "crop": [
+        0.0015625,
+        0.016666666666666666,
+        0.92578125,
+        0.9416666666666667
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/024.jpg"
+    },
+    {
+      "index": 25,
+      "sample_id": "how2sign:14ZYG0hU6G8_2-8-rgb_front",
+      "source_frames": [
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54
+      ],
+      "crop": [
+        0.0140625,
+        0.03333333333333333,
+        0.975,
+        0.9944444444444445
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 2,
+        "start": 4,
+        "end": 8
+      },
+      "visible_fraction": 0.9796006679534912,
+      "image": "reports/augmentation_qa100_v2/025.jpg"
+    },
+    {
+      "index": 26,
+      "sample_id": "how2sign:14z8c3QqV0E_4-8-rgb_front",
+      "source_frames": [
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90
+      ],
+      "crop": [
+        0.04921875,
+        0.008333333333333333,
+        0.959375,
+        0.9180555555555555
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 0,
+        "endpoint": 0,
+        "start": 4,
+        "end": 8
+      },
+      "visible_fraction": 0.9809027910232544,
+      "image": "reports/augmentation_qa100_v2/026.jpg"
+    },
+    {
+      "index": 27,
+      "sample_id": "how2sign:15bYoBr7BWs_46-8-rgb_front",
+      "source_frames": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36
+      ],
+      "crop": [
+        0.01875,
+        0.002777777777777778,
+        0.99453125,
+        0.9777777777777777
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 1,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9861111044883728,
+      "image": "reports/augmentation_qa100_v2/027.jpg"
+    },
+    {
+      "index": 28,
+      "sample_id": "how2sign:163ylBUtKlI_6-8-rgb_front",
+      "source_frames": [
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123
+      ],
+      "crop": [
+        0.0296875,
+        0.027777777777777776,
+        0.9453125,
+        0.9430555555555555
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/028.jpg"
+    },
+    {
+      "index": 29,
+      "sample_id": "how2sign:16iJ0z4FUqc_8-8-rgb_front",
+      "source_frames": [
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37
+      ],
+      "crop": [
+        0.02421875,
+        0.07083333333333333,
+        0.95078125,
+        0.9972222222222222
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.8993055820465088,
+      "image": "reports/augmentation_qa100_v2/029.jpg"
+    },
+    {
+      "index": 30,
+      "sample_id": "how2sign:17ijcOW43Q8_7-8-rgb_front",
+      "source_frames": [
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43
+      ],
+      "crop": [
+        0.03671875,
+        0.018055555555555554,
+        0.93515625,
+        0.9180555555555555
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 1,
+        "endpoint": 2,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9769965410232544,
+      "image": "reports/augmentation_qa100_v2/030.jpg"
+    },
+    {
+      "index": 31,
+      "sample_id": "how2sign:18PiUlfjLEQ_7-2-rgb_front",
+      "source_frames": [
+        145,
+        147,
+        149,
+        151,
+        153,
+        155,
+        157,
+        159,
+        161,
+        163,
+        165,
+        167,
+        169,
+        171,
+        173,
+        175
+      ],
+      "crop": [
+        0.0109375,
+        0.0625,
+        0.940625,
+        0.9916666666666667
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9826388955116272,
+      "image": "reports/augmentation_qa100_v2/031.jpg"
+    },
+    {
+      "index": 32,
+      "sample_id": "how2sign:18YQlS_nliI_3-8-rgb_front",
+      "source_frames": [
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70
+      ],
+      "crop": [
+        0.0234375,
+        0.029166666666666667,
+        0.98828125,
+        0.9944444444444445
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/032.jpg"
+    },
+    {
+      "index": 33,
+      "sample_id": "how2sign:1CjA3Xzvd0k_5-5-rgb_front",
+      "source_frames": [
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132
+      ],
+      "crop": [
+        0.0171875,
+        0.04583333333333333,
+        0.9640625,
+        0.9930555555555556
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.8949652910232544,
+      "image": "reports/augmentation_qa100_v2/033.jpg"
+    },
+    {
+      "index": 34,
+      "sample_id": "how2sign:1FStJdud1lQ_21-5-rgb_front",
+      "source_frames": [
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        127,
+        129
+      ],
+      "crop": [
+        0.03828125,
+        0.041666666666666664,
+        0.97421875,
+        0.9777777777777777
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 2,
+        "endpoint": 1,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9733073115348816,
+      "image": "reports/augmentation_qa100_v2/034.jpg"
+    },
+    {
+      "index": 35,
+      "sample_id": "how2sign:1KKlZKlWdTM_0-5-rgb_front",
+      "source_frames": [
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111
+      ],
+      "crop": [
+        0.0296875,
+        0.041666666666666664,
+        0.9234375,
+        0.9361111111111111
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 1,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.9698350429534912,
+      "image": "reports/augmentation_qa100_v2/035.jpg"
+    },
+    {
+      "index": 36,
+      "sample_id": "how2sign:1LaWSGs87gA_14-5-rgb_front",
+      "source_frames": [
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128
+      ],
+      "crop": [
+        0.015625,
+        0.03194444444444444,
+        0.915625,
+        0.9319444444444445
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/036.jpg"
+    },
+    {
+      "index": 37,
+      "sample_id": "how2sign:1LaWSGs87gA_3-5-rgb_front",
+      "source_frames": [
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104
+      ],
+      "crop": [
+        0.03125,
+        0.10138888888888889,
+        0.90625,
+        0.9777777777777777
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.8400607705116272,
+      "image": "reports/augmentation_qa100_v2/037.jpg"
+    },
+    {
+      "index": 38,
+      "sample_id": "how2sign:1LgVgklOYCQ_0-5-rgb_front",
+      "source_frames": [
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133
+      ],
+      "crop": [
+        0.00546875,
+        0.002777777777777778,
+        0.946875,
+        0.9430555555555555
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 2,
+        "endpoint": 2,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.9756944179534912,
+      "image": "reports/augmentation_qa100_v2/038.jpg"
+    },
+    {
+      "index": 39,
+      "sample_id": "how2sign:1PO6_voQXoc_7-8-rgb_front",
+      "source_frames": [
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46
+      ],
+      "crop": [
+        0.00078125,
+        0.0,
+        0.99921875,
+        0.9972222222222222
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9815537929534912,
+      "image": "reports/augmentation_qa100_v2/039.jpg"
+    },
+    {
+      "index": 40,
+      "sample_id": "how2sign:1Q2BYTlbdiE_23-8-rgb_front",
+      "source_frames": [
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41
+      ],
+      "crop": [
+        0.04296875,
+        0.05138888888888889,
+        0.96171875,
+        0.9708333333333333
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/040.jpg"
+    },
+    {
+      "index": 41,
+      "sample_id": "how2sign:1Yp-xuljnDM_6-8-rgb_front",
+      "source_frames": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33
+      ],
+      "crop": [
+        0.0234375,
+        0.001388888888888889,
+        0.99375,
+        0.9708333333333333
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 2,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9791666865348816,
+      "image": "reports/augmentation_qa100_v2/041.jpg"
+    },
+    {
+      "index": 42,
+      "sample_id": "how2sign:1_N0Aq04tRA_11-8-rgb_front",
+      "source_frames": [
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77
+      ],
+      "crop": [
+        0.01171875,
+        0.025,
+        0.9796875,
+        0.9916666666666667
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 4,
+        "endpoint": 1,
+        "start": 4,
+        "end": 8
+      },
+      "visible_fraction": 0.9869791865348816,
+      "image": "reports/augmentation_qa100_v2/042.jpg"
+    },
+    {
+      "index": 43,
+      "sample_id": "how2sign:1aRNY8wFqa0_28-8-rgb_front",
+      "source_frames": [
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35
+      ],
+      "crop": [
+        0.0109375,
+        0.007407407407407408,
+        0.9833333333333333,
+        0.9796296296296296
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.978515625,
+      "image": "reports/augmentation_qa100_v2/043.jpg"
+    },
+    {
+      "index": 44,
+      "sample_id": "how2sign:1cbTN8a73zo_15-5-rgb_front",
+      "source_frames": [
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "crop": [
+        0.00390625,
+        0.0,
+        0.984375,
+        0.9791666666666666
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/044.jpg"
+    },
+    {
+      "index": 45,
+      "sample_id": "how2sign:1dFd3NYkINQ_1-8-rgb_front",
+      "source_frames": [
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79
+      ],
+      "crop": [
+        0.1328125,
+        0.06666666666666667,
+        0.98359375,
+        0.9180555555555555
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 2,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.96875,
+      "image": "reports/augmentation_qa100_v2/045.jpg"
+    },
+    {
+      "index": 46,
+      "sample_id": "how2sign:1e2wDf5R_zk_1-8-rgb_front",
+      "source_frames": [
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122
+      ],
+      "crop": [
+        0.0234375,
+        0.027777777777777776,
+        0.9890625,
+        0.9930555555555556
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 2,
+        "endpoint": 2,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9772135615348816,
+      "image": "reports/augmentation_qa100_v2/046.jpg"
+    },
+    {
+      "index": 47,
+      "sample_id": "how2sign:1ei1kVTw23A_14-8-rgb_front",
+      "source_frames": [
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35
+      ],
+      "crop": [
+        0.003125,
+        0.005555555555555556,
+        0.99140625,
+        0.9930555555555556
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9878472089767456,
+      "image": "reports/augmentation_qa100_v2/047.jpg"
+    },
+    {
+      "index": 48,
+      "sample_id": "how2sign:1fdMM1LuAsY_3-8-rgb_front",
+      "source_frames": [
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86
+      ],
+      "crop": [
+        0.0890625,
+        0.044444444444444446,
+        0.96640625,
+        0.9222222222222223
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/048.jpg"
+    },
+    {
+      "index": 49,
+      "sample_id": "how2sign:1gycdY2pcYc_2-11-rgb_front",
+      "source_frames": [
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        222,
+        224,
+        226,
+        228,
+        230,
+        232,
+        234
+      ],
+      "crop": [
+        0.0515625,
+        0.018055555555555554,
+        0.9703125,
+        0.9361111111111111
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.8758680820465088,
+      "image": "reports/augmentation_qa100_v2/049.jpg"
+    },
+    {
+      "index": 50,
+      "sample_id": "how2sign:1h3mvQDZnBw_11-8-rgb_front",
+      "source_frames": [
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52
+      ],
+      "crop": [
+        0.03125,
+        0.027777777777777776,
+        0.99921875,
+        0.9958333333333333
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 4,
+        "endpoint": 1,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9778645634651184,
+      "image": "reports/augmentation_qa100_v2/050.jpg"
+    },
+    {
+      "index": 51,
+      "sample_id": "how2sign:1h3mvQDZnBw_17-8-rgb_front",
+      "source_frames": [
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144,
+        146,
+        148,
+        150
+      ],
+      "crop": [
+        0.034375,
+        0.03611111111111111,
+        0.91875,
+        0.9208333333333333
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 1,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.984375,
+      "image": "reports/augmentation_qa100_v2/051.jpg"
+    },
+    {
+      "index": 52,
+      "sample_id": "how2sign:1ptcPCWBvBc_5-8-rgb_front",
+      "source_frames": [
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113
+      ],
+      "crop": [
+        0.0,
+        0.05555555555555555,
+        0.87421875,
+        0.9305555555555556
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/052.jpg"
+    },
+    {
+      "index": 53,
+      "sample_id": "how2sign:1qNsErmkIiU_5-3-rgb_front",
+      "source_frames": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32
+      ],
+      "crop": [
+        0.00859375,
+        0.05138888888888889,
+        0.94453125,
+        0.9875
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 0,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.982421875,
+      "image": "reports/augmentation_qa100_v2/053.jpg"
+    },
+    {
+      "index": 54,
+      "sample_id": "how2sign:1qYHdB1eWQc_12-8-rgb_front",
+      "source_frames": [
+        117,
+        119,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        141,
+        143,
+        145,
+        147
+      ],
+      "crop": [
+        0.00390625,
+        0.004166666666666667,
+        0.99765625,
+        0.9986111111111111
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 3,
+        "endpoint": 0,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9861111044883728,
+      "image": "reports/augmentation_qa100_v2/054.jpg"
+    },
+    {
+      "index": 55,
+      "sample_id": "how2sign:2-zlrJXlOGA_5-8-rgb_front",
+      "source_frames": [
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102
+      ],
+      "crop": [
+        0.03984375,
+        0.041666666666666664,
+        0.92890625,
+        0.9305555555555556
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.978515625,
+      "image": "reports/augmentation_qa100_v2/055.jpg"
+    },
+    {
+      "index": 56,
+      "sample_id": "how2sign:21BHzn_li1s_9-5-rgb_front",
+      "source_frames": [
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37
+      ],
+      "crop": [
+        0.0078125,
+        0.015277777777777777,
+        0.9265625,
+        0.9347222222222222
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/056.jpg"
+    },
+    {
+      "index": 57,
+      "sample_id": "how2sign:23GbjIU50qw_18-8-rgb_front",
+      "source_frames": [
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70
+      ],
+      "crop": [
+        0.13046875,
+        0.12638888888888888,
+        0.9953125,
+        0.9916666666666667
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.8997395634651184,
+      "image": "reports/augmentation_qa100_v2/057.jpg"
+    },
+    {
+      "index": 58,
+      "sample_id": "how2sign:3GgkyZLNZkA_10-2-rgb_front",
+      "source_frames": [
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60
+      ],
+      "crop": [
+        0.10859375,
+        0.034722222222222224,
+        0.975,
+        0.9013888888888889
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 1,
+        "endpoint": 2,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9756944179534912,
+      "image": "reports/augmentation_qa100_v2/058.jpg"
+    },
+    {
+      "index": 59,
+      "sample_id": "how2sign:40dTE31p5uA_2-5-rgb_front",
+      "source_frames": [
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59
+      ],
+      "crop": [
+        0.05390625,
+        0.009722222222222222,
+        0.93359375,
+        0.8902777777777777
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 1,
+        "start": 4,
+        "end": 8
+      },
+      "visible_fraction": 0.9720051884651184,
+      "image": "reports/augmentation_qa100_v2/059.jpg"
+    },
+    {
+      "index": 60,
+      "sample_id": "how2sign:47oJoR2BC34_6-8-rgb_front",
+      "source_frames": [
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92
+      ],
+      "crop": [
+        0.11484375,
+        0.006944444444444444,
+        0.96640625,
+        0.8583333333333333
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/060.jpg"
+    },
+    {
+      "index": 61,
+      "sample_id": "how2sign:484PoKla0ug_16-1-rgb_front",
+      "source_frames": [
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111
+      ],
+      "crop": [
+        0.01796875,
+        0.03333333333333333,
+        0.96171875,
+        0.9763888888888889
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 2,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9817708134651184,
+      "image": "reports/augmentation_qa100_v2/061.jpg"
+    },
+    {
+      "index": 62,
+      "sample_id": "how2sign:4ChFh4LdxVg_8-8-rgb_front",
+      "source_frames": [
+        212,
+        214,
+        216,
+        218,
+        220,
+        222,
+        224,
+        226,
+        228,
+        230,
+        232,
+        234,
+        236,
+        238,
+        240,
+        242
+      ],
+      "crop": [
+        0.01640625,
+        0.008333333333333333,
+        0.99609375,
+        0.9888888888888889
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 0,
+        "endpoint": 1,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.9733073115348816,
+      "image": "reports/augmentation_qa100_v2/062.jpg"
+    },
+    {
+      "index": 63,
+      "sample_id": "how2sign:4UlmDZi98fk_13-5-rgb_front",
+      "source_frames": [
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52
+      ],
+      "crop": [
+        0.00234375,
+        0.030555555555555555,
+        0.91796875,
+        0.9472222222222222
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9763454794883728,
+      "image": "reports/augmentation_qa100_v2/063.jpg"
+    },
+    {
+      "index": 64,
+      "sample_id": "how2sign:5VkXcJblh4o_3-8-rgb_front",
+      "source_frames": [
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55
+      ],
+      "crop": [
+        0.09765625,
+        0.03611111111111111,
+        0.9765625,
+        0.9152777777777777
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/064.jpg"
+    },
+    {
+      "index": 65,
+      "sample_id": "how2sign:5sdZhVCmDJ4_5-4-rgb_front",
+      "source_frames": [
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144
+      ],
+      "crop": [
+        0.03671875,
+        0.011111111111111112,
+        0.984375,
+        0.9583333333333334
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 2,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9756944179534912,
+      "image": "reports/augmentation_qa100_v2/065.jpg"
+    },
+    {
+      "index": 66,
+      "sample_id": "how2sign:5vSvXTHeD5I_2-8-rgb_front",
+      "source_frames": [
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70
+      ],
+      "crop": [
+        0.00703125,
+        0.022222222222222223,
+        0.97734375,
+        0.9930555555555556
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 2,
+        "endpoint": 2,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9748263955116272,
+      "image": "reports/augmentation_qa100_v2/066.jpg"
+    },
+    {
+      "index": 67,
+      "sample_id": "how2sign:BRBt1zOfZnc_9-3-rgb_front",
+      "source_frames": [
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39
+      ],
+      "crop": [
+        0.0453125,
+        0.05555555555555555,
+        0.97578125,
+        0.9861111111111112
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9800347089767456,
+      "image": "reports/augmentation_qa100_v2/067.jpg"
+    },
+    {
+      "index": 68,
+      "sample_id": "how2sign:BUrqXtTa46Y_5-8-rgb_front",
+      "source_frames": [
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94
+      ],
+      "crop": [
+        0.00390625,
+        0.02361111111111111,
+        0.96015625,
+        0.9805555555555555
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/068.jpg"
+    },
+    {
+      "index": 69,
+      "sample_id": "how2sign:BubKD1vPvvQ_2-11-rgb_front",
+      "source_frames": [
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99
+      ],
+      "crop": [
+        0.03828125,
+        0.011111111111111112,
+        0.99609375,
+        0.9680555555555556
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.8758680820465088,
+      "image": "reports/augmentation_qa100_v2/069.jpg"
+    },
+    {
+      "index": 70,
+      "sample_id": "how2sign:CJ8RyW9pzKU_7-8-rgb_front",
+      "source_frames": [
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76
+      ],
+      "crop": [
+        0.0203125,
+        0.13472222222222222,
+        0.87265625,
+        0.9875
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 1,
+        "endpoint": 0,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9782986044883728,
+      "image": "reports/augmentation_qa100_v2/070.jpg"
+    },
+    {
+      "index": 71,
+      "sample_id": "how2sign:CWIsQEHuVZ4_4-3-rgb_front",
+      "source_frames": [
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73
+      ],
+      "crop": [
+        0.071875,
+        0.12222222222222222,
+        0.9375,
+        0.9888888888888889
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 1,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9798176884651184,
+      "image": "reports/augmentation_qa100_v2/071.jpg"
+    },
+    {
+      "index": 72,
+      "sample_id": "how2sign:CerG8JKzDIE_15-8-rgb_front",
+      "source_frames": [
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37
+      ],
+      "crop": [
+        0.009375,
+        0.009722222222222222,
+        0.98203125,
+        0.9833333333333333
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/072.jpg"
+    },
+    {
+      "index": 73,
+      "sample_id": "how2sign:CxT4a1Gtkjo_11-1-rgb_front",
+      "source_frames": [
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80
+      ],
+      "crop": [
+        0.0765625,
+        0.10833333333333334,
+        0.95625,
+        0.9888888888888889
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 2,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9756944179534912,
+      "image": "reports/augmentation_qa100_v2/073.jpg"
+    },
+    {
+      "index": 74,
+      "sample_id": "how2sign:DE8YkWRpvYA_3-5-rgb_front",
+      "source_frames": [
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57
+      ],
+      "crop": [
+        0.09765625,
+        0.0375,
+        0.95390625,
+        0.8944444444444445
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 4,
+        "endpoint": 1,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.978515625,
+      "image": "reports/augmentation_qa100_v2/074.jpg"
+    },
+    {
+      "index": 75,
+      "sample_id": "how2sign:DcFCY1OFhCw_5-3-rgb_front",
+      "source_frames": [
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60
+      ],
+      "crop": [
+        0.01953125,
+        0.04027777777777778,
+        0.95390625,
+        0.975
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9817708134651184,
+      "image": "reports/augmentation_qa100_v2/075.jpg"
+    },
+    {
+      "index": 76,
+      "sample_id": "how2sign:EA5TtaqpJ9w_18-4-rgb_front",
+      "source_frames": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58
+      ],
+      "crop": [
+        0.02109375,
+        0.02638888888888889,
+        0.91875,
+        0.9236111111111112
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/076.jpg"
+    },
+    {
+      "index": 77,
+      "sample_id": "how2sign:EF4dlnqkJ3w_13-8-rgb_front",
+      "source_frames": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31
+      ],
+      "crop": [
+        0.1390625,
+        0.0625,
+        0.99609375,
+        0.9194444444444444
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.904296875,
+      "image": "reports/augmentation_qa100_v2/077.jpg"
+    },
+    {
+      "index": 78,
+      "sample_id": "how2sign:EMi4hyW42Fs_3-5-rgb_front",
+      "source_frames": [
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132
+      ],
+      "crop": [
+        0.03828125,
+        0.020833333333333332,
+        0.971875,
+        0.9541666666666667
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 0,
+        "endpoint": 1,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9841579794883728,
+      "image": "reports/augmentation_qa100_v2/078.jpg"
+    },
+    {
+      "index": 79,
+      "sample_id": "how2sign:Ec9KthfKXXI_4-8-rgb_front",
+      "source_frames": [
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88
+      ],
+      "crop": [
+        0.04140625,
+        0.07083333333333333,
+        0.96640625,
+        0.9958333333333333
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9765625,
+      "image": "reports/augmentation_qa100_v2/079.jpg"
+    },
+    {
+      "index": 80,
+      "sample_id": "how2sign:F0eCE9z6ENc_8-8-rgb_front",
+      "source_frames": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42
+      ],
+      "crop": [
+        0.10546875,
+        0.09166666666666666,
+        0.98359375,
+        0.9708333333333333
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/080.jpg"
+    },
+    {
+      "index": 81,
+      "sample_id": "how2sign:FGfPccy3juw_3-5-rgb_front",
+      "source_frames": [
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131
+      ],
+      "crop": [
+        0.05390625,
+        0.02638888888888889,
+        0.9484375,
+        0.9208333333333333
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 3,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.8858506679534912,
+      "image": "reports/augmentation_qa100_v2/081.jpg"
+    },
+    {
+      "index": 82,
+      "sample_id": "how2sign:FStKSCmBx00_12-4-rgb_front",
+      "source_frames": [
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93
+      ],
+      "crop": [
+        0.0796875,
+        0.10555555555555556,
+        0.95234375,
+        0.9791666666666666
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 1,
+        "endpoint": 2,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9756944179534912,
+      "image": "reports/augmentation_qa100_v2/082.jpg"
+    },
+    {
+      "index": 83,
+      "sample_id": "how2sign:FTuTLRq7014_8-8-rgb_front",
+      "source_frames": [
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98
+      ],
+      "crop": [
+        0.015625,
+        0.029166666666666667,
+        0.97421875,
+        0.9875
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 1,
+        "start": 4,
+        "end": 8
+      },
+      "visible_fraction": 0.9780815839767456,
+      "image": "reports/augmentation_qa100_v2/083.jpg"
+    },
+    {
+      "index": 84,
+      "sample_id": "how2sign:_FS9zbJi8qE_6-8-rgb_front",
+      "source_frames": [
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93
+      ],
+      "crop": [
+        0.00859375,
+        0.008333333333333333,
+        0.99765625,
+        0.9972222222222222
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/084.jpg"
+    },
+    {
+      "index": 85,
+      "sample_id": "how2sign:a6xKFGeHX4A_15-5-rgb_front",
+      "source_frames": [
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91
+      ],
+      "crop": [
+        0.0109375,
+        0.030555555555555555,
+        0.87578125,
+        0.8958333333333334
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 2,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9696180820465088,
+      "image": "reports/augmentation_qa100_v2/085.jpg"
+    },
+    {
+      "index": 86,
+      "sample_id": "how2sign:aGITFRfpMJA_6-8-rgb_front",
+      "source_frames": [
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        141,
+        143
+      ],
+      "crop": [
+        0.00703125,
+        0.006944444444444444,
+        0.9859375,
+        0.9861111111111112
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 0,
+        "endpoint": 0,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.9893662929534912,
+      "image": "reports/augmentation_qa100_v2/086.jpg"
+    },
+    {
+      "index": 87,
+      "sample_id": "how2sign:bA53FmWDNPU_14-8-rgb_front",
+      "source_frames": [
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59
+      ],
+      "crop": [
+        0.09375,
+        0.09444444444444444,
+        0.95234375,
+        0.9527777777777777
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9798176884651184,
+      "image": "reports/augmentation_qa100_v2/087.jpg"
+    },
+    {
+      "index": 88,
+      "sample_id": "how2sign:bAnA79gWZXI_8-5-rgb_front",
+      "source_frames": [
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123
+      ],
+      "crop": [
+        0.0515625,
+        0.08333333333333333,
+        0.93984375,
+        0.9722222222222222
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/088.jpg"
+    },
+    {
+      "index": 89,
+      "sample_id": "how2sign:bH1KCt78l7c_8-8-rgb_front",
+      "source_frames": [
+        195,
+        197,
+        199,
+        201,
+        203,
+        205,
+        207,
+        209,
+        211,
+        213,
+        215,
+        217,
+        219,
+        221,
+        223,
+        225
+      ],
+      "crop": [
+        0.0015625,
+        0.059722222222222225,
+        0.9171875,
+        0.975
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 1,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9730902910232544,
+      "image": "reports/augmentation_qa100_v2/089.jpg"
+    },
+    {
+      "index": 90,
+      "sample_id": "how2sign:bjQrRezhvQU_9-1-rgb_front",
+      "source_frames": [
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144,
+        146,
+        148,
+        150,
+        152,
+        154,
+        156
+      ],
+      "crop": [
+        0.00078125,
+        0.006944444444444444,
+        0.9875,
+        0.9930555555555556
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 4,
+        "endpoint": 1,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9796006679534912,
+      "image": "reports/augmentation_qa100_v2/090.jpg"
+    },
+    {
+      "index": 91,
+      "sample_id": "how2sign:btSrRQAWN6k_6-4-rgb_front",
+      "source_frames": [
+        146,
+        148,
+        150,
+        152,
+        154,
+        156,
+        158,
+        160,
+        162,
+        164,
+        166,
+        168,
+        170,
+        172,
+        174,
+        176
+      ],
+      "crop": [
+        0.078125,
+        0.016666666666666666,
+        0.9875,
+        0.9263888888888889
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 1,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.9733073115348816,
+      "image": "reports/augmentation_qa100_v2/091.jpg"
+    },
+    {
+      "index": 92,
+      "sample_id": "how2sign:c8qCeBSlaOw_12-8-rgb_front",
+      "source_frames": [
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        141,
+        143,
+        145,
+        147,
+        149,
+        151,
+        153
+      ],
+      "crop": [
+        0.03359375,
+        0.02638888888888889,
+        0.99140625,
+        0.9833333333333333
+      ],
+      "flip": true,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/092.jpg"
+    },
+    {
+      "index": 93,
+      "sample_id": "how2sign:cQBrXCcfDyc_36-5-rgb_front",
+      "source_frames": [
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74
+      ],
+      "crop": [
+        0.08046875,
+        0.09305555555555556,
+        0.975,
+        0.9875
+      ],
+      "flip": true,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 0,
+        "start": 3,
+        "end": 7
+      },
+      "visible_fraction": 0.9809027910232544,
+      "image": "reports/augmentation_qa100_v2/093.jpg"
+    },
+    {
+      "index": 94,
+      "sample_id": "how2sign:cZhGkz4jNnk_6-8-rgb_front",
+      "source_frames": [
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45
+      ],
+      "crop": [
+        0.0796875,
+        0.10833333333333334,
+        0.96328125,
+        0.9916666666666667
+      ],
+      "flip": true,
+      "mask_strategy_requested": "relation_break",
+      "status": "rendered",
+      "mask": {
+        "type": "relation_break",
+        "edge": 2,
+        "endpoint": 1,
+        "start": 0,
+        "end": 4
+      },
+      "visible_fraction": 0.9752604365348816,
+      "image": "reports/augmentation_qa100_v2/094.jpg"
+    },
+    {
+      "index": 95,
+      "sample_id": "how2sign:celb3UJ9_Ko_0-8-rgb_front",
+      "source_frames": [
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57
+      ],
+      "crop": [
+        0.03203125,
+        0.03611111111111111,
+        0.97578125,
+        0.9805555555555555
+      ],
+      "flip": true,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 0,
+        "start": 1,
+        "end": 5
+      },
+      "visible_fraction": 0.96875,
+      "image": "reports/augmentation_qa100_v2/095.jpg"
+    },
+    {
+      "index": 96,
+      "sample_id": "how2sign:clXjA4Ok8Bs_5-5-rgb_front",
+      "source_frames": [
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58
+      ],
+      "crop": [
+        0.025,
+        0.0125,
+        0.99921875,
+        0.9875
+      ],
+      "flip": false,
+      "mask_strategy_requested": "random_multiblock",
+      "status": "rendered",
+      "mask": {
+        "type": "random_multiblock"
+      },
+      "visible_fraction": 0.3500434160232544,
+      "image": "reports/augmentation_qa100_v2/096.jpg"
+    },
+    {
+      "index": 97,
+      "sample_id": "how2sign:dR5U_NeNx18_4-5-rgb_front",
+      "source_frames": [
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106
+      ],
+      "crop": [
+        0.0390625,
+        0.03888888888888889,
+        0.9921875,
+        0.9916666666666667
+      ],
+      "flip": false,
+      "mask_strategy_requested": "articulator",
+      "status": "rendered",
+      "mask": {
+        "type": "articulator",
+        "endpoint": 2,
+        "start": 2,
+        "end": 6
+      },
+      "visible_fraction": 0.98046875,
+      "image": "reports/augmentation_qa100_v2/097.jpg"
+    },
+    {
+      "index": 98,
+      "sample_id": "how2sign:dcN7W0lxTpE_27-8-rgb_front",
+      "source_frames": [
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38
+      ],
+      "crop": [
+        0.0640625,
+        0.06666666666666667,
+        0.98359375,
+        0.9861111111111112
+      ],
+      "flip": false,
+      "mask_strategy_requested": "relation_break",
+      "status": "infeasible_mask",
+      "reason": "No feasible mask: check box overlap, valid regions and minimum visible ratio",
+      "image": "reports/augmentation_qa100_v2/098.jpg"
+    },
+    {
+      "index": 99,
+      "sample_id": "how2sign:e_S9g_NKlvY_5-8-rgb_front",
+      "source_frames": [
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37
+      ],
+      "crop": [
+        0.00390625,
+        0.015277777777777777,
+        0.98125,
+        0.9930555555555556
+      ],
+      "flip": false,
+      "mask_strategy_requested": "motion_salient",
+      "status": "rendered",
+      "mask": {
+        "type": "motion_salient",
+        "endpoint": 1,
+        "start": 4,
+        "end": 8
+      },
+      "visible_fraction": 0.9869791865348816,
+      "image": "reports/augmentation_qa100_v2/099.jpg"
+    }
+  ],
+  "protocol": "alternating forced flip within each mask strategy; shared integer-rounded crop record transforms pixels, boxes and landmarks; exact frame join"
+}
