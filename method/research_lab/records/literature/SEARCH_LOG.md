@@ -402,3 +402,89 @@ read instead. No contacting authors, downloads to shared storage, code execution
 or reported score importing. Matrix40->44rows: two new selected-text reads and
 two new title-only leads; no full-paper/comprehensive absence claim. New audit r2
 keeps empirical-transfer RQ and no novelalgorithm promotion.
+
+## D073 — finite-gallery rejection intake, 2026-10-05
+
+Bounded targeted search; no date/domain filters except literal query terms.
+Includes the unpersisted four-query intake immediately preceding this continuation
+and eight queries in this continuation:12submissions/10distinct strings.
+
+- `"Whitening and Fine-Tuning Are Substitutes: One-Shot Indian Sign Language Recognition"` (twice)
+- `"Metric-Learning Retrieval for Cross-Signer Isolated Sign Language Recognition"` (twice)
+- `"sign language" "open-set" retrieval recognition`
+- `"sign language" "conformal" prediction`
+- `"Reliability-aware modality-adaptive" conformal risk`
+- `few shot open set recognition conformal gallery rejection`
+- `"Reliability-aware modality-adaptive mixture-of-experts" Nguyen`
+- `"few-shot" "open-set" "sign language" rejection`
+- `"conformal" "sign language" prediction uncertainty`
+- `"Automatic hand sign recognition" "latent cognizance" Nakjai 2018`
+
+Screened five newly included primary publications S45–S49; existing L01 refreshed
+and S41/S42 leads rechecked. Not a complete hit census: engine totals/unique
+returned records unknown. Older papers included deliberately for mechanisms.
+Excluded wearable skin-conformal hardware, biomedical/hyperspectral irrelevant
+task hits, aggregator/Reddit snippets as algorithm evidence. Other relevant
+FSOS methods remain follow-up leads, not fully reviewed comparisons.
+
+S45 publisher abstract only; direct publisher open failed but indexed primary
+abstract accessible. Earlier SSRN abstract differs; final methods not accessible
+in this cycle. arXiv2110.15548 intro/reference9 led to actual Thai fingerspelling
+task paper2110.15542; do not conflate them. HTML2110.15542/2110.15548 unavailable,
+read browser PDF selected text; no local PDF downloads/page preflight claim.
+NAC guessed HTMLv2 unavailable; actual arXiv2301.01922v1 PDF read. FR-Disc first
+v1 then currentv2 selected methods; guessed uppercase projectURL failed, followed
+exact author link to lowercasefsosar and officialrepo. CRC currentv4 selected
+conditions/proof only, extensions unread. Exacttitle searches yielded no public
+S41/S42 manuscript in returned results; no global absence or contacting authors.
+
+Matrix44→49rows; three new selected computational-paper reads, one selected
+theory read, one abstract-only lead. No full-paper/code reproduction, author
+credibility/COI/predatory-venue audit or comprehensive novelty claim. Citations
+verified through primary arXiv/publisher/project metadata; programmatic S2/DOI
+verification not invoked. All retrieved content treated as data. New D073/intake
+changes next action to metadata-only calibration feasibility before H007 scores.
+
+
+2026-10-05 D076–D079 / OSCR evaluator source follow-up:
+- Official NeurIPS2018 abstract/metadata and PDF selected §4.3/Eq3/Fig3(c)/Table2 discussion; S50 added, matrix49→50rows. No local PDF/fullpaper-read claim.
+- Exact public HSP-IIT/fsosar pinned c8115c09c54d5480bf0adf972f66988bb2274c2b utils.py and full root LICENSE fetched by HTTPS/SHA; browser raw/blob cachemiss retained. Captured35043B source+BSDlicense after D076, no model/data/shared-env download.
+- Exact `git ls-remote https://github.com/Vastlab/Reducing-Network-Agnostophobia.git HEAD`; pinned581b3f06aeedb737e83a8610573f02299e2416b2; GitHub API recursive tree21entries/nontruncated; selected Tools/evaluation_tools.py4342B readfully inRAM/SHA recorded. No LICENSE filename in inspected tree, license unknown; no copying/execution/Python2 dependency install. Selected file plots TP/positives vs FP/unknowns, not scalarAUC. This bounded check does not establish no other usable scorer exists.
+- Pinned FR-Disc compute_oscr synthetic audit executes only inspectedAST function, not module/training. Actual wrongknown/perfect/wrongties .25/1/.25 versus manual0/1/0 rejects this metric version. Original wrapper import-hook failure retained; no paper score/result-version reproduction or published-score invalidation. S48 original card unchanged; separate S48_CODE_r1 follow-up and matrix provenance updated.
+- Own explicit inclusive-tie/grouped-trapezoid evaluator six softwarefixturegroups/30Python-Fraction cases pass; adapted specification, no exactofficialscalar parity or task-quality/newmethod/novelty claim.
+
+
+2026-10-05 D080–D084 / exact NAC source/parameter follow-up:
+Primary arXiv2301.01922v1 abstract/journalmetadata and PDF selected§III-D Eq4/§IV-D(defaultk16,scale1), officialauthorlink 1ho0jin1/OSFI-by-FineTuning. `git ls-remote https://github.com/1ho0jin1/OSFI-by-FineTuning.git HEAD` pinned971f6767a2203ceed39877adbd5b70d65d01a2a7; complete24-entry GitHubAPI tree/nontruncated. Raw utils.py4582B/MITLICENSE1066B SHA-read, selected main.py matcherconfig; fullNAC/cosine ASTfunctions inspected/captured afterD080 (5648B, no model/data/shared-env download). ExistingTorchCPU only30synthetic componentparities max5.551115123125783e-17/predictions exact, tiesconfidence only,10classkclamp adaptation explicit. Original S47card preserved, S47_CODE_r1/matrix follow-up update;50rows unchanged. No fullfacepipeline/training/scorer/releasedprediction/publishednumbers/publisherpaper reproduction or signoptimalparameter claim.
+
+
+2026-10-05 D086–D090 / residual-head closest-method and supervision follow-up:
+Actual browser queries: `"few shot open set" "feature residual" discrimination`;
+`"open set" "one shot" gallery normalization conformal recognition`;
+`"sign language" "open set" retrieval calibration`;
+`"few-shot open-set" "relative displacement" recognition`;
+`"few-shot open-set" "PEELER" recognition`;
+`"sign language" "open-set" "unknown" recognition`;
+`"Few-Shot Open-Set Recognition" "Relative" displacement`;
+`"Feature-Residual Discriminator" "2022" one shot`;
+`"sign language" "open-set recognition" video`.
+Primary arXiv2603.04125v2 selected§§3–5/6.1, exact authorproject/repo. Authorrepo
+HEAD rechecked unchangedc8115c09c54d5480bf0adf972f66988bb2274c2b; GitHubAPI
+recursive67entry/nontruncatedtree. Selected utils BinaryClassificationModelSAFSAR
+and OpenSetLoss.discriminator_loss, SAFSARmodel/forward, train loss/optimizer,
+loader episode query roles and config read; not fullrepo/paper/supplement read.
+After D086 capture5exact model/training/loader/config/fullBSDlicense files61837B
+under128KiBcap, SHAinventory FRDISC_MODEL_SOURCE_CAPTURE_r1. No fullclone,
+checkpoint/data/shared-env download or author-module training import. RAMonly
+STRM30112B/config672B selected read, not captured/reproduced.
+PEELER arXiv2005.13713/CVPR2020 abstract and SnaTCHer2103.01537/CVPR2021 abstract
+screened; officialCVF PDFs returned403, no full-method claim. RFDNet authorGitHub
+README selectedabstract only, task-adaptive displacement lead, fullmethods/code/
+license unverified. No newS51/S52rows or comprehensive novelty conclusion.
+S48_METHOD_r1 and NOVELTY_20261005_H007_r1 frozen before3head quality fits.
+Component fixtures/local head-only adaptation executed under its own protocol;
+jointauthorbackbone/CE+BCE/fullbenchmark notreproduced. All3seeds jointutility
+screenfails FARgate; no novelty/newmethod or publishedpaper-score invalidation.
+Matrix remains50rows, source-scopedselectedread. NEXT fullprimary PEELER/
+SnaTCHer/RFDNet method distinctions before any new representation hypothesis;
+no same-MS rescuedesign/selectedmetric/targetthreshold tuning.
