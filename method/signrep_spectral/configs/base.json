@@ -1,0 +1,138 @@
+{
+  "schema_version": "signrep_spectral_config_v1",
+  "mode": "canonical_continuation_v1",
+  "arm_id": "",
+  "paths": {
+    "vendor_root": "third_party/SignRep",
+    "checkpoint": "checkpoints/signrep/ckpt.pt",
+    "dataset_root": null,
+    "manifest": null,
+    "scaler": null,
+    "calibration": null
+  },
+  "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "data": {
+    "dataset": "ASL_Citizen",
+    "train_split": "train",
+    "clip_length": 16,
+    "sampling": "uniform_video_then_start",
+    "short_clip_policy": "exclude",
+    "tail_policy": "drop_incomplete",
+    "clock_policy": "decoded_pts",
+    "max_relative_dt_deviation": 0.05,
+    "augmentation": "upstream_resize224_imagenet_rgb"
+  },
+  "targets": {
+    "schema": "hand_image_canonical_v1_xy_r2",
+    "hand_order": [
+      "left",
+      "right"
+    ],
+    "scale_joint_pair": [
+      0,
+      9
+    ],
+    "scale_min_observations": 4,
+    "scale_floor": 0.02,
+    "max_relative_extent": 4.0,
+    "confidence_threshold": 1.0,
+    "missing_policy": "strict_window",
+    "interpolate": false,
+    "scaler_std_floor": 0.05,
+    "scaler_seed": 1700,
+    "scaler_windows_per_video": 1
+  },
+  "model": {
+    "out_dim": 768,
+    "total_frames": 16,
+    "mask_ratio": 0.6,
+    "decoder_hidden_dim": 512,
+    "decoder_latent_dim": 384,
+    "decoder_initialization": "xavier_uniform_zero_bias_v1",
+    "decoder_seed": 1702,
+    "heads": {
+      "left_pose": 42,
+      "right_pose": 42,
+      "wrist_image_xy": 4
+    },
+    "attention_kernel": "sdpa_4d_reshape"
+  },
+  "loss": {
+    "smooth_l1_beta": 1.0,
+    "geometric_head_weights": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "var_weight": 0.0,
+    "cov_weight": 0.0,
+    "auxiliary": "spectral_logmag_l1",
+    "lambda_spec": 0.1,
+    "lambda_aux": 0.0,
+    "lambda_mode": "fixed",
+    "target_grad_ratio": 0.1,
+    "spec_warmup_updates": 100,
+    "groups": [
+      "left_hand_motion",
+      "right_hand_motion",
+      "wrist_translation"
+    ],
+    "windows": [
+      {
+        "n": 8,
+        "hop": 4
+      },
+      {
+        "n": 16,
+        "hop": 8
+      }
+    ],
+    "window": "hann_periodic",
+    "fft_norm": "backward",
+    "amplitude_normalization": "window_sum",
+    "centering": "clip_observed_mean",
+    "reduction": "fixed_group_scale_mean_v1",
+    "include_dc": true,
+    "zero_padding": false
+  },
+  "train": {
+    "seed": 1701,
+    "device": "cpu",
+    "batch_size": 2,
+    "num_workers": 0,
+    "amp": false,
+    "gradient_accumulation": 1,
+    "lr_encoder": 1e-05,
+    "lr_decoder": 0.0001,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.05,
+    "grad_clip_norm": 1.0,
+    "max_updates": 2,
+    "scheduler": "constant",
+    "lr_warmup_updates": 0,
+    "log_every_updates": 1,
+    "save_every_updates": 0,
+    "resume": null,
+    "ddp": false,
+    "calibration_batches": 8,
+    "calibration_seed": 1703
+  },
+  "evaluation": {
+    "feature_key": "features",
+    "window_length": 16,
+    "stride": 2,
+    "pooling": "uniform_window_mean_then_l2",
+    "batch_size": 64,
+    "num_workers": 8,
+    "amp": true
+  },
+  "budget": {
+    "max_wall_seconds": 900,
+    "max_output_bytes": null,
+    "max_peak_memory_bytes": null
+  }
+}

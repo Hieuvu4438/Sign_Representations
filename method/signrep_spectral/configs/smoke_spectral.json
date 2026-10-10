@@ -1,0 +1,4 @@
+{"extends": "pilot_base.json", "arm_id": "smoke_spectral",
+ "train": {"max_updates": 4, "batch_size": 2, "num_workers": 2, "log_every_updates": 1, "lr_warmup_updates": 0, "scheduler": "constant"},
+ "loss": {"auxiliary": "spectral_logmag_l1", "lambda_spec": 0.1, "lambda_aux": 0.0, "lambda_mode": "fixed", "spec_warmup_updates": 0},
+ "budget": {"max_wall_seconds": 900}}

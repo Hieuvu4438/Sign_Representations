@@ -1,0 +1,2 @@
+{"extends": "pilot_base.json", "arm_id": "B3_canonical_geom_acceleration",
+ "loss": {"auxiliary": "acceleration_l1", "lambda_spec": 0.0, "lambda_aux": 0.0, "lambda_mode": "grad_ratio_calibrated"}}

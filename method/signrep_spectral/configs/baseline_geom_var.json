@@ -1,0 +1,1 @@
+{"extends": "baseline_geom.json", "arm_id": "B1r_canonical_geom_continuation_var", "loss": {"var_weight": 1.0}}

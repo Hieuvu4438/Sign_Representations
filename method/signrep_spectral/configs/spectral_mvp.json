@@ -1,0 +1,2 @@
+{"extends": "pilot_base.json", "arm_id": "M1_canonical_geom_spectral",
+ "loss": {"auxiliary": "spectral_logmag_l1", "lambda_spec": 0.1, "lambda_aux": 0.0, "lambda_mode": "grad_ratio_calibrated"}}

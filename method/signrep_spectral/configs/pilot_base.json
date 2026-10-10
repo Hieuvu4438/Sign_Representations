@@ -1,0 +1,9 @@
+{
+  "extends": "base.json",
+  "arm_id": "pilot_base",
+  "train": {"device": "cuda:0", "batch_size": 16, "num_workers": 14, "amp": true,
+            "max_updates": 3000, "scheduler": "cosine", "lr_warmup_updates": 200,
+            "log_every_updates": 25, "calibration_batches": 8},
+  "evaluation": {"stride": 16, "batch_size": 64, "num_workers": 10, "amp": true},
+  "budget": {"max_wall_seconds": 3600}
+}

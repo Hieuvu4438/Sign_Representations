@@ -1,0 +1,1 @@
+{"extends": "spectral_mvp.json", "arm_id": "M1r_canonical_geom_spectral_var", "loss": {"var_weight": 1.0}}
