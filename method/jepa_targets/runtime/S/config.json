@@ -1,0 +1,17 @@
+{
+ "out": "runtime/S",
+ "latent": false,
+ "pixel": false,
+ "hog": false,
+ "priors": "POSE",
+ "prior_w": 1.0,
+ "vicreg": 1.0,
+ "steps": 4000,
+ "batch": 32,
+ "lr": 0.0001,
+ "wd": 0.04,
+ "ema": 0.99925,
+ "ctx_w": 0.5,
+ "workers": 2,
+ "seed": 0
+}
