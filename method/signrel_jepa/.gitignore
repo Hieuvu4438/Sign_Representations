@@ -1,0 +1,10 @@
+assets/
+runs/
+cache/
+features/
+manifests/
+third_party/vjepa2/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/

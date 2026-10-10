@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signrel-jepa"
+version = "0.1.0"
+description = "Label-free inter-articulator relational latent prediction for sign video"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.4", "numpy>=1.26", "opencv-python>=4.8", "PyYAML>=6", "timm>=1", "scikit-learn>=1.4"]
+
+[project.optional-dependencies]
+preprocess = ["mediapipe>=0.10.20", "pyarrow>=15"]
+test = ["pytest>=8"]
+diagnostics = ["matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+include = ["signrel*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
