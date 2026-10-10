@@ -1,0 +1,8 @@
+runtime/
+__pycache__/
+.pytest_cache/
+configs/local_paths.json
+*.pt
+*.npz
+*.npy
+*.log
