@@ -1,0 +1,4493 @@
+{
+  "arguments": {
+    "checkpoint": null,
+    "config": "configs/pretrain/jepa_baseline.yaml",
+    "manifest": "manifests/eval_pilot/asl_citizen_val.jsonl",
+    "gallery": "features/generic_vjepa_aslc_train.npz",
+    "clean_features": "features/generic_vjepa_aslc_val.npz",
+    "fractions": [
+      0,
+      0.05,
+      0.1,
+      0.2,
+      0.4
+    ],
+    "seed": 42,
+    "device": "cuda",
+    "out": "reports/occlusion/generic_vjepa_val.json"
+  },
+  "manifest_sha256": "33baccd1ba6724e3ff73c058bb58ea50ab61a184f5ea26d6a6e6525d2e11be17",
+  "clean_feature_sha256": "b8d9159d069a869c5ef883e522ef6bf0ccacc57233afc112e137ef59719f80cd",
+  "gallery_sha256": "ccf2df2d9cb91841db53628cbfa81c3b88382b9c7afebcafb712e14d4d046457",
+  "checkpoint_sha256": null,
+  "upstream_init": {
+    "family": "vjepa2_1",
+    "architecture": "vit_base",
+    "pretrained": true,
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+    "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+    "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+    "checkpoint_key": "ema_encoder",
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "dropped_keys": [],
+    "normalization": "ImageNet RGB mean/std",
+    "patch": 16,
+    "tubelet": 2,
+    "crop_size": 384,
+    "num_frames": 16
+  },
+  "backbone_config": {
+    "provider": "vjepa2",
+    "family": "vjepa2_1",
+    "architecture": "vit_base",
+    "crop_size": 384,
+    "num_frames": 16,
+    "patch": 16,
+    "tubelet": 2,
+    "checkpointing": true,
+    "checkpoint": "assets/vjepa2_1_vitb_dist_vitG_384.pt",
+    "expected_sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+    "checkpoint_key": "ema_encoder"
+  },
+  "script_sha256": "fb1741964ea81c6aa2ad4e970e50ee48a5ef0967fa39fc4d017c00dafc73de7e",
+  "curve": [
+    {
+      "requested_area_fraction": 0,
+      "actual_area_fraction_mean": 0.0,
+      "retrieval": {
+        "Recall@1": 0.05,
+        "Recall@5": 0.25,
+        "mAP_instance": 0.07566674927390196,
+        "DCG_class": 0.33080716416243605,
+        "class_macro_Recall@1": 0.05,
+        "queries_total": 80,
+        "queries_evaluated": 80,
+        "queries_without_positive": 0,
+        "skipped_sample_ids": [],
+        "gallery_size": 160,
+        "gallery_classes": 40,
+        "ranking": "class_max_cosine",
+        "ap_protocol": "all eligible gallery instances; no class-max aggregation",
+        "same_signer_excluded": true
+      },
+      "features": "features/occlusion/generic_vjepa_val_area0.000.npz",
+      "feature_sha256": "0cef192119035f217ab2a8522f9d9b46976a8231efb108de43cf2b2a201cc4e9"
+    },
+    {
+      "requested_area_fraction": 0.05,
+      "actual_area_fraction_mean": 0.050157335069444434,
+      "retrieval": {
+        "Recall@1": 0.075,
+        "Recall@5": 0.2375,
+        "mAP_instance": 0.07774584827976959,
+        "DCG_class": 0.3362225343762386,
+        "class_macro_Recall@1": 0.075,
+        "queries_total": 80,
+        "queries_evaluated": 80,
+        "queries_without_positive": 0,
+        "skipped_sample_ids": [],
+        "gallery_size": 160,
+        "gallery_classes": 40,
+        "ranking": "class_max_cosine",
+        "ap_protocol": "all eligible gallery instances; no class-max aggregation",
+        "same_signer_excluded": true
+      },
+      "features": "features/occlusion/generic_vjepa_val_area0.050.npz",
+      "feature_sha256": "8d2091e4027a9288e1ca9e9fa12806d3d0b3c0efb9c361be32c662833e1f7a7f"
+    },
+    {
+      "requested_area_fraction": 0.1,
+      "actual_area_fraction_mean": 0.09929063585069443,
+      "retrieval": {
+        "Recall@1": 0.075,
+        "Recall@5": 0.2125,
+        "mAP_instance": 0.07733631889836155,
+        "DCG_class": 0.3353968621366791,
+        "class_macro_Recall@1": 0.075,
+        "queries_total": 80,
+        "queries_evaluated": 80,
+        "queries_without_positive": 0,
+        "skipped_sample_ids": [],
+        "gallery_size": 160,
+        "gallery_classes": 40,
+        "ranking": "class_max_cosine",
+        "ap_protocol": "all eligible gallery instances; no class-max aggregation",
+        "same_signer_excluded": true
+      },
+      "features": "features/occlusion/generic_vjepa_val_area0.100.npz",
+      "feature_sha256": "99a819ff2e51ef5fec4d2d1b607c9814cac2ee2603c83d21847821a04d93b052"
+    },
+    {
+      "requested_area_fraction": 0.2,
+      "actual_area_fraction_mean": 0.20062934027777773,
+      "retrieval": {
+        "Recall@1": 0.075,
+        "Recall@5": 0.1875,
+        "mAP_instance": 0.0754718591014526,
+        "DCG_class": 0.3301561551005053,
+        "class_macro_Recall@1": 0.075,
+        "queries_total": 80,
+        "queries_evaluated": 80,
+        "queries_without_positive": 0,
+        "skipped_sample_ids": [],
+        "gallery_size": 160,
+        "gallery_classes": 40,
+        "ranking": "class_max_cosine",
+        "ap_protocol": "all eligible gallery instances; no class-max aggregation",
+        "same_signer_excluded": true
+      },
+      "features": "features/occlusion/generic_vjepa_val_area0.200.npz",
+      "feature_sha256": "6650f2cae835d0368630339e2c1ee22a1283bb93014793343f8329fcebf0476c"
+    },
+    {
+      "requested_area_fraction": 0.4,
+      "actual_area_fraction_mean": 0.40045166015625,
+      "retrieval": {
+        "Recall@1": 0.0125,
+        "Recall@5": 0.125,
+        "mAP_instance": 0.05668257365348053,
+        "DCG_class": 0.28548736914518047,
+        "class_macro_Recall@1": 0.0125,
+        "queries_total": 80,
+        "queries_evaluated": 80,
+        "queries_without_positive": 0,
+        "skipped_sample_ids": [],
+        "gallery_size": 160,
+        "gallery_classes": 40,
+        "ranking": "class_max_cosine",
+        "ap_protocol": "all eligible gallery instances; no class-max aggregation",
+        "same_signer_excluded": true
+      },
+      "features": "features/occlusion/generic_vjepa_val_area0.400.npz",
+      "feature_sha256": "fa0252aea5b9c0d9eb2ee20e2a7613fee8c9634e1fe0cf48f8e8a39c5541aa17"
+    }
+  ],
+  "rectangles": [
+    {
+      "sample_id": "asl_citizen:9791099879811673-ADULT",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:9791099879811673-ADULT",
+      "fraction": 0.05,
+      "rectangle": [
+        208,
+        203,
+        294,
+        289
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9791099879811673-ADULT",
+      "fraction": 0.1,
+      "rectangle": [
+        190,
+        185,
+        311,
+        306
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9791099879811673-ADULT",
+      "fraction": 0.2,
+      "rectangle": [
+        165,
+        160,
+        337,
+        332
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9791099879811673-ADULT",
+      "fraction": 0.4,
+      "rectangle": [
+        129,
+        124,
+        372,
+        367
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:12070071443609343-ADULT",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:12070071443609343-ADULT",
+      "fraction": 0.05,
+      "rectangle": [
+        106,
+        143,
+        192,
+        229
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:12070071443609343-ADULT",
+      "fraction": 0.1,
+      "rectangle": [
+        89,
+        125,
+        210,
+        246
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:12070071443609343-ADULT",
+      "fraction": 0.2,
+      "rectangle": [
+        63,
+        100,
+        235,
+        272
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:12070071443609343-ADULT",
+      "fraction": 0.4,
+      "rectangle": [
+        28,
+        64,
+        271,
+        307
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3625198257740847-AUSTRALIA",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:3625198257740847-AUSTRALIA",
+      "fraction": 0.05,
+      "rectangle": [
+        182,
+        180,
+        268,
+        266
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3625198257740847-AUSTRALIA",
+      "fraction": 0.1,
+      "rectangle": [
+        164,
+        162,
+        285,
+        283
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3625198257740847-AUSTRALIA",
+      "fraction": 0.2,
+      "rectangle": [
+        139,
+        137,
+        311,
+        309
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3625198257740847-AUSTRALIA",
+      "fraction": 0.4,
+      "rectangle": [
+        103,
+        101,
+        346,
+        344
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:1684027885829924-AUSTRALIA",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:1684027885829924-AUSTRALIA",
+      "fraction": 0.05,
+      "rectangle": [
+        214,
+        105,
+        300,
+        191
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:1684027885829924-AUSTRALIA",
+      "fraction": 0.1,
+      "rectangle": [
+        197,
+        87,
+        318,
+        208
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:1684027885829924-AUSTRALIA",
+      "fraction": 0.2,
+      "rectangle": [
+        171,
+        62,
+        343,
+        234
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:1684027885829924-AUSTRALIA",
+      "fraction": 0.4,
+      "rectangle": [
+        136,
+        26,
+        379,
+        269
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8023239580796708-AWAKE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:8023239580796708-AWAKE",
+      "fraction": 0.05,
+      "rectangle": [
+        87,
+        172,
+        173,
+        258
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8023239580796708-AWAKE",
+      "fraction": 0.1,
+      "rectangle": [
+        69,
+        154,
+        190,
+        275
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8023239580796708-AWAKE",
+      "fraction": 0.2,
+      "rectangle": [
+        44,
+        129,
+        216,
+        301
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8023239580796708-AWAKE",
+      "fraction": 0.4,
+      "rectangle": [
+        8,
+        93,
+        251,
+        336
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9102456204759168-AWAKE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:9102456204759168-AWAKE",
+      "fraction": 0.05,
+      "rectangle": [
+        85,
+        86,
+        171,
+        172
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9102456204759168-AWAKE",
+      "fraction": 0.1,
+      "rectangle": [
+        68,
+        68,
+        189,
+        189
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9102456204759168-AWAKE",
+      "fraction": 0.2,
+      "rectangle": [
+        42,
+        43,
+        214,
+        215
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9102456204759168-AWAKE",
+      "fraction": 0.4,
+      "rectangle": [
+        7,
+        7,
+        250,
+        250
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9884345664129408-BACK UP",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:9884345664129408-BACK UP",
+      "fraction": 0.05,
+      "rectangle": [
+        104,
+        146,
+        190,
+        232
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9884345664129408-BACK UP",
+      "fraction": 0.1,
+      "rectangle": [
+        86,
+        128,
+        207,
+        249
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9884345664129408-BACK UP",
+      "fraction": 0.2,
+      "rectangle": [
+        61,
+        103,
+        233,
+        275
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9884345664129408-BACK UP",
+      "fraction": 0.4,
+      "rectangle": [
+        25,
+        67,
+        268,
+        310
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6315215647781169-BACK UP",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:6315215647781169-BACK UP",
+      "fraction": 0.05,
+      "rectangle": [
+        117,
+        85,
+        203,
+        171
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6315215647781169-BACK UP",
+      "fraction": 0.1,
+      "rectangle": [
+        100,
+        68,
+        221,
+        189
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6315215647781169-BACK UP",
+      "fraction": 0.2,
+      "rectangle": [
+        74,
+        42,
+        246,
+        214
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6315215647781169-BACK UP",
+      "fraction": 0.4,
+      "rectangle": [
+        39,
+        7,
+        282,
+        250
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:13173081414974597-BAKE 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:13173081414974597-BAKE 2",
+      "fraction": 0.05,
+      "rectangle": [
+        88,
+        166,
+        174,
+        252
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:13173081414974597-BAKE 2",
+      "fraction": 0.1,
+      "rectangle": [
+        71,
+        148,
+        192,
+        269
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:13173081414974597-BAKE 2",
+      "fraction": 0.2,
+      "rectangle": [
+        45,
+        123,
+        217,
+        295
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:13173081414974597-BAKE 2",
+      "fraction": 0.4,
+      "rectangle": [
+        10,
+        87,
+        253,
+        330
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2756142269859332-BAKE 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:2756142269859332-BAKE 2",
+      "fraction": 0.05,
+      "rectangle": [
+        183,
+        218,
+        269,
+        304
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2756142269859332-BAKE 2",
+      "fraction": 0.1,
+      "rectangle": [
+        165,
+        200,
+        286,
+        321
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2756142269859332-BAKE 2",
+      "fraction": 0.2,
+      "rectangle": [
+        140,
+        175,
+        312,
+        347
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2756142269859332-BAKE 2",
+      "fraction": 0.4,
+      "rectangle": [
+        104,
+        139,
+        347,
+        382
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7019796297629999-CAPTURE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7019796297629999-CAPTURE",
+      "fraction": 0.05,
+      "rectangle": [
+        189,
+        180,
+        275,
+        266
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7019796297629999-CAPTURE",
+      "fraction": 0.1,
+      "rectangle": [
+        172,
+        162,
+        293,
+        283
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7019796297629999-CAPTURE",
+      "fraction": 0.2,
+      "rectangle": [
+        146,
+        137,
+        318,
+        309
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7019796297629999-CAPTURE",
+      "fraction": 0.4,
+      "rectangle": [
+        111,
+        101,
+        354,
+        344
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7868401196600863-CAPTURE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7868401196600863-CAPTURE",
+      "fraction": 0.05,
+      "rectangle": [
+        186,
+        184,
+        272,
+        270
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7868401196600863-CAPTURE",
+      "fraction": 0.1,
+      "rectangle": [
+        168,
+        166,
+        289,
+        287
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7868401196600863-CAPTURE",
+      "fraction": 0.2,
+      "rectangle": [
+        143,
+        141,
+        315,
+        313
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7868401196600863-CAPTURE",
+      "fraction": 0.4,
+      "rectangle": [
+        107,
+        105,
+        350,
+        348
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7024539009485742-CATCH",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7024539009485742-CATCH",
+      "fraction": 0.05,
+      "rectangle": [
+        170,
+        158,
+        256,
+        244
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7024539009485742-CATCH",
+      "fraction": 0.1,
+      "rectangle": [
+        152,
+        141,
+        273,
+        262
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7024539009485742-CATCH",
+      "fraction": 0.2,
+      "rectangle": [
+        127,
+        115,
+        299,
+        287
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7024539009485742-CATCH",
+      "fraction": 0.4,
+      "rectangle": [
+        91,
+        80,
+        334,
+        323
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:45685740809227426-CATCH",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:45685740809227426-CATCH",
+      "fraction": 0.05,
+      "rectangle": [
+        211,
+        196,
+        297,
+        282
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:45685740809227426-CATCH",
+      "fraction": 0.1,
+      "rectangle": [
+        193,
+        179,
+        314,
+        300
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:45685740809227426-CATCH",
+      "fraction": 0.2,
+      "rectangle": [
+        168,
+        153,
+        340,
+        325
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:45685740809227426-CATCH",
+      "fraction": 0.4,
+      "rectangle": [
+        132,
+        118,
+        375,
+        361
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7409605610395686-CATHOLIC",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7409605610395686-CATHOLIC",
+      "fraction": 0.05,
+      "rectangle": [
+        158,
+        213,
+        244,
+        299
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7409605610395686-CATHOLIC",
+      "fraction": 0.1,
+      "rectangle": [
+        140,
+        195,
+        261,
+        316
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7409605610395686-CATHOLIC",
+      "fraction": 0.2,
+      "rectangle": [
+        115,
+        170,
+        287,
+        342
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7409605610395686-CATHOLIC",
+      "fraction": 0.4,
+      "rectangle": [
+        79,
+        134,
+        322,
+        377
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7988509797325987-CATHOLIC",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7988509797325987-CATHOLIC",
+      "fraction": 0.05,
+      "rectangle": [
+        171,
+        129,
+        257,
+        215
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7988509797325987-CATHOLIC",
+      "fraction": 0.1,
+      "rectangle": [
+        154,
+        112,
+        275,
+        233
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7988509797325987-CATHOLIC",
+      "fraction": 0.2,
+      "rectangle": [
+        128,
+        86,
+        300,
+        258
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7988509797325987-CATHOLIC",
+      "fraction": 0.4,
+      "rectangle": [
+        93,
+        51,
+        336,
+        294
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:03330338698206403-CHERISH",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:03330338698206403-CHERISH",
+      "fraction": 0.05,
+      "rectangle": [
+        129,
+        144,
+        215,
+        230
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:03330338698206403-CHERISH",
+      "fraction": 0.1,
+      "rectangle": [
+        111,
+        127,
+        232,
+        248
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:03330338698206403-CHERISH",
+      "fraction": 0.2,
+      "rectangle": [
+        86,
+        101,
+        258,
+        273
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:03330338698206403-CHERISH",
+      "fraction": 0.4,
+      "rectangle": [
+        50,
+        66,
+        293,
+        309
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:01448138151936873-CHERISH",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:01448138151936873-CHERISH",
+      "fraction": 0.05,
+      "rectangle": [
+        217,
+        156,
+        303,
+        242
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:01448138151936873-CHERISH",
+      "fraction": 0.1,
+      "rectangle": [
+        200,
+        139,
+        321,
+        260
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:01448138151936873-CHERISH",
+      "fraction": 0.2,
+      "rectangle": [
+        174,
+        113,
+        346,
+        285
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:01448138151936873-CHERISH",
+      "fraction": 0.4,
+      "rectangle": [
+        139,
+        78,
+        382,
+        321
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:1930766038750471-CHERRY 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:1930766038750471-CHERRY 2",
+      "fraction": 0.05,
+      "rectangle": [
+        122,
+        82,
+        208,
+        168
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:1930766038750471-CHERRY 2",
+      "fraction": 0.1,
+      "rectangle": [
+        105,
+        64,
+        226,
+        185
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:1930766038750471-CHERRY 2",
+      "fraction": 0.2,
+      "rectangle": [
+        79,
+        39,
+        251,
+        211
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:1930766038750471-CHERRY 2",
+      "fraction": 0.4,
+      "rectangle": [
+        44,
+        3,
+        287,
+        246
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:663371885114223-CHERRY 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:663371885114223-CHERRY 2",
+      "fraction": 0.05,
+      "rectangle": [
+        189,
+        87,
+        275,
+        173
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:663371885114223-CHERRY 2",
+      "fraction": 0.1,
+      "rectangle": [
+        171,
+        70,
+        292,
+        191
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:663371885114223-CHERRY 2",
+      "fraction": 0.2,
+      "rectangle": [
+        146,
+        44,
+        318,
+        216
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:663371885114223-CHERRY 2",
+      "fraction": 0.4,
+      "rectangle": [
+        110,
+        9,
+        353,
+        252
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:00835130479657109-CLIMB LADDER",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:00835130479657109-CLIMB LADDER",
+      "fraction": 0.05,
+      "rectangle": [
+        195,
+        169,
+        281,
+        255
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:00835130479657109-CLIMB LADDER",
+      "fraction": 0.1,
+      "rectangle": [
+        178,
+        151,
+        299,
+        272
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:00835130479657109-CLIMB LADDER",
+      "fraction": 0.2,
+      "rectangle": [
+        152,
+        126,
+        324,
+        298
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:00835130479657109-CLIMB LADDER",
+      "fraction": 0.4,
+      "rectangle": [
+        117,
+        90,
+        360,
+        333
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7869193758009212-CLIMB LADDER",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7869193758009212-CLIMB LADDER",
+      "fraction": 0.05,
+      "rectangle": [
+        138,
+        193,
+        224,
+        279
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7869193758009212-CLIMB LADDER",
+      "fraction": 0.1,
+      "rectangle": [
+        121,
+        175,
+        242,
+        296
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7869193758009212-CLIMB LADDER",
+      "fraction": 0.2,
+      "rectangle": [
+        95,
+        150,
+        267,
+        322
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7869193758009212-CLIMB LADDER",
+      "fraction": 0.4,
+      "rectangle": [
+        60,
+        114,
+        303,
+        357
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:14173165947086708-CURTSEY 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:14173165947086708-CURTSEY 2",
+      "fraction": 0.05,
+      "rectangle": [
+        163,
+        85,
+        249,
+        171
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:14173165947086708-CURTSEY 2",
+      "fraction": 0.1,
+      "rectangle": [
+        145,
+        68,
+        266,
+        189
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:14173165947086708-CURTSEY 2",
+      "fraction": 0.2,
+      "rectangle": [
+        120,
+        42,
+        292,
+        214
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:14173165947086708-CURTSEY 2",
+      "fraction": 0.4,
+      "rectangle": [
+        84,
+        7,
+        327,
+        250
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5423305879976872-CURTSEY 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:5423305879976872-CURTSEY 2",
+      "fraction": 0.05,
+      "rectangle": [
+        151,
+        216,
+        237,
+        302
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5423305879976872-CURTSEY 2",
+      "fraction": 0.1,
+      "rectangle": [
+        134,
+        198,
+        255,
+        319
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5423305879976872-CURTSEY 2",
+      "fraction": 0.2,
+      "rectangle": [
+        108,
+        173,
+        280,
+        345
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5423305879976872-CURTSEY 2",
+      "fraction": 0.4,
+      "rectangle": [
+        73,
+        137,
+        316,
+        380
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9726947826813801-DIG UP",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:9726947826813801-DIG UP",
+      "fraction": 0.05,
+      "rectangle": [
+        82,
+        149,
+        168,
+        235
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9726947826813801-DIG UP",
+      "fraction": 0.1,
+      "rectangle": [
+        64,
+        131,
+        185,
+        252
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9726947826813801-DIG UP",
+      "fraction": 0.2,
+      "rectangle": [
+        39,
+        106,
+        211,
+        278
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9726947826813801-DIG UP",
+      "fraction": 0.4,
+      "rectangle": [
+        3,
+        70,
+        246,
+        313
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:4948350366792613-DIG UP",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:4948350366792613-DIG UP",
+      "fraction": 0.05,
+      "rectangle": [
+        130,
+        183,
+        216,
+        269
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:4948350366792613-DIG UP",
+      "fraction": 0.1,
+      "rectangle": [
+        112,
+        165,
+        233,
+        286
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:4948350366792613-DIG UP",
+      "fraction": 0.2,
+      "rectangle": [
+        87,
+        140,
+        259,
+        312
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:4948350366792613-DIG UP",
+      "fraction": 0.4,
+      "rectangle": [
+        51,
+        104,
+        294,
+        347
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7932067368641376-DISLIKE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7932067368641376-DISLIKE",
+      "fraction": 0.05,
+      "rectangle": [
+        156,
+        135,
+        242,
+        221
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7932067368641376-DISLIKE",
+      "fraction": 0.1,
+      "rectangle": [
+        139,
+        117,
+        260,
+        238
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7932067368641376-DISLIKE",
+      "fraction": 0.2,
+      "rectangle": [
+        113,
+        92,
+        285,
+        264
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7932067368641376-DISLIKE",
+      "fraction": 0.4,
+      "rectangle": [
+        78,
+        56,
+        321,
+        299
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9160200161897563-DISLIKE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:9160200161897563-DISLIKE",
+      "fraction": 0.05,
+      "rectangle": [
+        192,
+        197,
+        278,
+        283
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9160200161897563-DISLIKE",
+      "fraction": 0.1,
+      "rectangle": [
+        174,
+        179,
+        295,
+        300
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9160200161897563-DISLIKE",
+      "fraction": 0.2,
+      "rectangle": [
+        149,
+        154,
+        321,
+        326
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9160200161897563-DISLIKE",
+      "fraction": 0.4,
+      "rectangle": [
+        113,
+        118,
+        356,
+        361
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3964057717847016-EXCUSE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:3964057717847016-EXCUSE",
+      "fraction": 0.05,
+      "rectangle": [
+        129,
+        140,
+        215,
+        226
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3964057717847016-EXCUSE",
+      "fraction": 0.1,
+      "rectangle": [
+        112,
+        122,
+        233,
+        243
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3964057717847016-EXCUSE",
+      "fraction": 0.2,
+      "rectangle": [
+        86,
+        97,
+        258,
+        269
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3964057717847016-EXCUSE",
+      "fraction": 0.4,
+      "rectangle": [
+        51,
+        61,
+        294,
+        304
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8419633226295435-EXCUSE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:8419633226295435-EXCUSE",
+      "fraction": 0.05,
+      "rectangle": [
+        126,
+        150,
+        212,
+        236
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8419633226295435-EXCUSE",
+      "fraction": 0.1,
+      "rectangle": [
+        108,
+        133,
+        229,
+        254
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8419633226295435-EXCUSE",
+      "fraction": 0.2,
+      "rectangle": [
+        83,
+        107,
+        255,
+        279
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8419633226295435-EXCUSE",
+      "fraction": 0.4,
+      "rectangle": [
+        47,
+        72,
+        290,
+        315
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:4753907874787613-FINGERSPELLING",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:4753907874787613-FINGERSPELLING",
+      "fraction": 0.05,
+      "rectangle": [
+        130,
+        124,
+        216,
+        210
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:4753907874787613-FINGERSPELLING",
+      "fraction": 0.1,
+      "rectangle": [
+        112,
+        107,
+        233,
+        228
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:4753907874787613-FINGERSPELLING",
+      "fraction": 0.2,
+      "rectangle": [
+        87,
+        81,
+        259,
+        253
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:4753907874787613-FINGERSPELLING",
+      "fraction": 0.4,
+      "rectangle": [
+        51,
+        46,
+        294,
+        289
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:25191543424173113-FINGERSPELLING",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:25191543424173113-FINGERSPELLING",
+      "fraction": 0.05,
+      "rectangle": [
+        101,
+        153,
+        187,
+        239
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:25191543424173113-FINGERSPELLING",
+      "fraction": 0.1,
+      "rectangle": [
+        84,
+        136,
+        205,
+        257
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:25191543424173113-FINGERSPELLING",
+      "fraction": 0.2,
+      "rectangle": [
+        58,
+        110,
+        230,
+        282
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:25191543424173113-FINGERSPELLING",
+      "fraction": 0.4,
+      "rectangle": [
+        23,
+        75,
+        266,
+        318
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:30928139447072733-FLAG",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:30928139447072733-FLAG",
+      "fraction": 0.05,
+      "rectangle": [
+        173,
+        186,
+        259,
+        272
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:30928139447072733-FLAG",
+      "fraction": 0.1,
+      "rectangle": [
+        156,
+        169,
+        277,
+        290
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:30928139447072733-FLAG",
+      "fraction": 0.2,
+      "rectangle": [
+        130,
+        143,
+        302,
+        315
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:30928139447072733-FLAG",
+      "fraction": 0.4,
+      "rectangle": [
+        95,
+        108,
+        338,
+        351
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3109644641863969-FLAG",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:3109644641863969-FLAG",
+      "fraction": 0.05,
+      "rectangle": [
+        125,
+        170,
+        211,
+        256
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3109644641863969-FLAG",
+      "fraction": 0.1,
+      "rectangle": [
+        107,
+        152,
+        228,
+        273
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3109644641863969-FLAG",
+      "fraction": 0.2,
+      "rectangle": [
+        82,
+        127,
+        254,
+        299
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3109644641863969-FLAG",
+      "fraction": 0.4,
+      "rectangle": [
+        46,
+        91,
+        289,
+        334
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7980178270868614-FLIPFLOPS",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7980178270868614-FLIPFLOPS",
+      "fraction": 0.05,
+      "rectangle": [
+        164,
+        159,
+        250,
+        245
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7980178270868614-FLIPFLOPS",
+      "fraction": 0.1,
+      "rectangle": [
+        146,
+        142,
+        267,
+        263
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7980178270868614-FLIPFLOPS",
+      "fraction": 0.2,
+      "rectangle": [
+        121,
+        116,
+        293,
+        288
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7980178270868614-FLIPFLOPS",
+      "fraction": 0.4,
+      "rectangle": [
+        85,
+        81,
+        328,
+        324
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9692120482793813-FLIPFLOPS",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:9692120482793813-FLIPFLOPS",
+      "fraction": 0.05,
+      "rectangle": [
+        119,
+        120,
+        205,
+        206
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9692120482793813-FLIPFLOPS",
+      "fraction": 0.1,
+      "rectangle": [
+        101,
+        102,
+        222,
+        223
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9692120482793813-FLIPFLOPS",
+      "fraction": 0.2,
+      "rectangle": [
+        76,
+        77,
+        248,
+        249
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9692120482793813-FLIPFLOPS",
+      "fraction": 0.4,
+      "rectangle": [
+        40,
+        41,
+        283,
+        284
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:49318288280155964-FOLLOW 3",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:49318288280155964-FOLLOW 3",
+      "fraction": 0.05,
+      "rectangle": [
+        101,
+        126,
+        187,
+        212
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:49318288280155964-FOLLOW 3",
+      "fraction": 0.1,
+      "rectangle": [
+        83,
+        108,
+        204,
+        229
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:49318288280155964-FOLLOW 3",
+      "fraction": 0.2,
+      "rectangle": [
+        58,
+        83,
+        230,
+        255
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:49318288280155964-FOLLOW 3",
+      "fraction": 0.4,
+      "rectangle": [
+        22,
+        47,
+        265,
+        290
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8453668917526647-FOLLOW 3",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:8453668917526647-FOLLOW 3",
+      "fraction": 0.05,
+      "rectangle": [
+        114,
+        103,
+        200,
+        189
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8453668917526647-FOLLOW 3",
+      "fraction": 0.1,
+      "rectangle": [
+        97,
+        85,
+        218,
+        206
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8453668917526647-FOLLOW 3",
+      "fraction": 0.2,
+      "rectangle": [
+        71,
+        60,
+        243,
+        232
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8453668917526647-FOLLOW 3",
+      "fraction": 0.4,
+      "rectangle": [
+        36,
+        24,
+        279,
+        267
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6660882923131668-FRIDAY",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:6660882923131668-FRIDAY",
+      "fraction": 0.05,
+      "rectangle": [
+        92,
+        165,
+        178,
+        251
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6660882923131668-FRIDAY",
+      "fraction": 0.1,
+      "rectangle": [
+        74,
+        147,
+        195,
+        268
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6660882923131668-FRIDAY",
+      "fraction": 0.2,
+      "rectangle": [
+        49,
+        122,
+        221,
+        294
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6660882923131668-FRIDAY",
+      "fraction": 0.4,
+      "rectangle": [
+        13,
+        86,
+        256,
+        329
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8847853342216259-FRIDAY",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:8847853342216259-FRIDAY",
+      "fraction": 0.05,
+      "rectangle": [
+        188,
+        218,
+        274,
+        304
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8847853342216259-FRIDAY",
+      "fraction": 0.1,
+      "rectangle": [
+        170,
+        200,
+        291,
+        321
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8847853342216259-FRIDAY",
+      "fraction": 0.2,
+      "rectangle": [
+        145,
+        175,
+        317,
+        347
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8847853342216259-FRIDAY",
+      "fraction": 0.4,
+      "rectangle": [
+        109,
+        139,
+        352,
+        382
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:04969667616739759-GLOVES",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:04969667616739759-GLOVES",
+      "fraction": 0.05,
+      "rectangle": [
+        153,
+        143,
+        239,
+        229
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:04969667616739759-GLOVES",
+      "fraction": 0.1,
+      "rectangle": [
+        136,
+        126,
+        257,
+        247
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:04969667616739759-GLOVES",
+      "fraction": 0.2,
+      "rectangle": [
+        110,
+        100,
+        282,
+        272
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:04969667616739759-GLOVES",
+      "fraction": 0.4,
+      "rectangle": [
+        75,
+        65,
+        318,
+        308
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:041501185522402784-GLOVES",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:041501185522402784-GLOVES",
+      "fraction": 0.05,
+      "rectangle": [
+        193,
+        192,
+        279,
+        278
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:041501185522402784-GLOVES",
+      "fraction": 0.1,
+      "rectangle": [
+        175,
+        174,
+        296,
+        295
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:041501185522402784-GLOVES",
+      "fraction": 0.2,
+      "rectangle": [
+        150,
+        149,
+        322,
+        321
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:041501185522402784-GLOVES",
+      "fraction": 0.4,
+      "rectangle": [
+        114,
+        113,
+        357,
+        356
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7191039828839427-HEART",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7191039828839427-HEART",
+      "fraction": 0.05,
+      "rectangle": [
+        132,
+        189,
+        218,
+        275
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7191039828839427-HEART",
+      "fraction": 0.1,
+      "rectangle": [
+        115,
+        172,
+        236,
+        293
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7191039828839427-HEART",
+      "fraction": 0.2,
+      "rectangle": [
+        89,
+        146,
+        261,
+        318
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7191039828839427-HEART",
+      "fraction": 0.4,
+      "rectangle": [
+        54,
+        111,
+        297,
+        354
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8074127035059293-HEART",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:8074127035059293-HEART",
+      "fraction": 0.05,
+      "rectangle": [
+        136,
+        194,
+        222,
+        280
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8074127035059293-HEART",
+      "fraction": 0.1,
+      "rectangle": [
+        119,
+        176,
+        240,
+        297
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8074127035059293-HEART",
+      "fraction": 0.2,
+      "rectangle": [
+        93,
+        151,
+        265,
+        323
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8074127035059293-HEART",
+      "fraction": 0.4,
+      "rectangle": [
+        58,
+        115,
+        301,
+        358
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8534077485600235-HELP",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:8534077485600235-HELP",
+      "fraction": 0.05,
+      "rectangle": [
+        110,
+        201,
+        196,
+        287
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8534077485600235-HELP",
+      "fraction": 0.1,
+      "rectangle": [
+        93,
+        183,
+        214,
+        304
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8534077485600235-HELP",
+      "fraction": 0.2,
+      "rectangle": [
+        67,
+        158,
+        239,
+        330
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8534077485600235-HELP",
+      "fraction": 0.4,
+      "rectangle": [
+        32,
+        122,
+        275,
+        365
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6037747479203328-HELP",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:6037747479203328-HELP",
+      "fraction": 0.05,
+      "rectangle": [
+        204,
+        79,
+        290,
+        165
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6037747479203328-HELP",
+      "fraction": 0.1,
+      "rectangle": [
+        187,
+        61,
+        308,
+        182
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6037747479203328-HELP",
+      "fraction": 0.2,
+      "rectangle": [
+        161,
+        36,
+        333,
+        208
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6037747479203328-HELP",
+      "fraction": 0.4,
+      "rectangle": [
+        126,
+        0,
+        369,
+        243
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:10984912618507225-HEN",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:10984912618507225-HEN",
+      "fraction": 0.05,
+      "rectangle": [
+        176,
+        188,
+        262,
+        274
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:10984912618507225-HEN",
+      "fraction": 0.1,
+      "rectangle": [
+        159,
+        170,
+        280,
+        291
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:10984912618507225-HEN",
+      "fraction": 0.2,
+      "rectangle": [
+        133,
+        145,
+        305,
+        317
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:10984912618507225-HEN",
+      "fraction": 0.4,
+      "rectangle": [
+        98,
+        109,
+        341,
+        352
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3161820517584528-HEN",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:3161820517584528-HEN",
+      "fraction": 0.05,
+      "rectangle": [
+        119,
+        209,
+        205,
+        295
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3161820517584528-HEN",
+      "fraction": 0.1,
+      "rectangle": [
+        101,
+        191,
+        222,
+        312
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3161820517584528-HEN",
+      "fraction": 0.2,
+      "rectangle": [
+        76,
+        166,
+        248,
+        338
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:3161820517584528-HEN",
+      "fraction": 0.4,
+      "rectangle": [
+        40,
+        130,
+        283,
+        373
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:0993028191498797-LINE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:0993028191498797-LINE",
+      "fraction": 0.05,
+      "rectangle": [
+        181,
+        104,
+        267,
+        190
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:0993028191498797-LINE",
+      "fraction": 0.1,
+      "rectangle": [
+        164,
+        87,
+        285,
+        208
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:0993028191498797-LINE",
+      "fraction": 0.2,
+      "rectangle": [
+        138,
+        61,
+        310,
+        233
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:0993028191498797-LINE",
+      "fraction": 0.4,
+      "rectangle": [
+        103,
+        26,
+        346,
+        269
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:839124765404857-LINE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:839124765404857-LINE",
+      "fraction": 0.05,
+      "rectangle": [
+        169,
+        143,
+        255,
+        229
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:839124765404857-LINE",
+      "fraction": 0.1,
+      "rectangle": [
+        151,
+        125,
+        272,
+        246
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:839124765404857-LINE",
+      "fraction": 0.2,
+      "rectangle": [
+        126,
+        100,
+        298,
+        272
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:839124765404857-LINE",
+      "fraction": 0.4,
+      "rectangle": [
+        90,
+        64,
+        333,
+        307
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5837651918689251-LOBSTER 3",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:5837651918689251-LOBSTER 3",
+      "fraction": 0.05,
+      "rectangle": [
+        218,
+        189,
+        304,
+        275
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5837651918689251-LOBSTER 3",
+      "fraction": 0.1,
+      "rectangle": [
+        201,
+        172,
+        322,
+        293
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5837651918689251-LOBSTER 3",
+      "fraction": 0.2,
+      "rectangle": [
+        175,
+        146,
+        347,
+        318
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5837651918689251-LOBSTER 3",
+      "fraction": 0.4,
+      "rectangle": [
+        140,
+        111,
+        383,
+        354
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5768423480273424-LOBSTER 3",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:5768423480273424-LOBSTER 3",
+      "fraction": 0.05,
+      "rectangle": [
+        121,
+        110,
+        207,
+        196
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5768423480273424-LOBSTER 3",
+      "fraction": 0.1,
+      "rectangle": [
+        103,
+        93,
+        224,
+        214
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5768423480273424-LOBSTER 3",
+      "fraction": 0.2,
+      "rectangle": [
+        78,
+        67,
+        250,
+        239
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5768423480273424-LOBSTER 3",
+      "fraction": 0.4,
+      "rectangle": [
+        42,
+        32,
+        285,
+        275
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5872167698324653-NECKLACE 3",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:5872167698324653-NECKLACE 3",
+      "fraction": 0.05,
+      "rectangle": [
+        78,
+        101,
+        164,
+        187
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5872167698324653-NECKLACE 3",
+      "fraction": 0.1,
+      "rectangle": [
+        61,
+        84,
+        182,
+        205
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5872167698324653-NECKLACE 3",
+      "fraction": 0.2,
+      "rectangle": [
+        35,
+        58,
+        207,
+        230
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5872167698324653-NECKLACE 3",
+      "fraction": 0.4,
+      "rectangle": [
+        0,
+        23,
+        243,
+        266
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2926337500456493-NECKLACE 3",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:2926337500456493-NECKLACE 3",
+      "fraction": 0.05,
+      "rectangle": [
+        98,
+        159,
+        184,
+        245
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2926337500456493-NECKLACE 3",
+      "fraction": 0.1,
+      "rectangle": [
+        81,
+        142,
+        202,
+        263
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2926337500456493-NECKLACE 3",
+      "fraction": 0.2,
+      "rectangle": [
+        55,
+        116,
+        227,
+        288
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2926337500456493-NECKLACE 3",
+      "fraction": 0.4,
+      "rectangle": [
+        20,
+        81,
+        263,
+        324
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2683514121563524-PEPSI",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:2683514121563524-PEPSI",
+      "fraction": 0.05,
+      "rectangle": [
+        171,
+        214,
+        257,
+        300
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2683514121563524-PEPSI",
+      "fraction": 0.1,
+      "rectangle": [
+        154,
+        196,
+        275,
+        317
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2683514121563524-PEPSI",
+      "fraction": 0.2,
+      "rectangle": [
+        128,
+        171,
+        300,
+        343
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:2683514121563524-PEPSI",
+      "fraction": 0.4,
+      "rectangle": [
+        93,
+        135,
+        336,
+        378
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9677324029876675-PEPSI",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:9677324029876675-PEPSI",
+      "fraction": 0.05,
+      "rectangle": [
+        130,
+        115,
+        216,
+        201
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9677324029876675-PEPSI",
+      "fraction": 0.1,
+      "rectangle": [
+        112,
+        97,
+        233,
+        218
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9677324029876675-PEPSI",
+      "fraction": 0.2,
+      "rectangle": [
+        87,
+        72,
+        259,
+        244
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:9677324029876675-PEPSI",
+      "fraction": 0.4,
+      "rectangle": [
+        51,
+        36,
+        294,
+        279
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7889824439523152-PERSPECTIVE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7889824439523152-PERSPECTIVE",
+      "fraction": 0.05,
+      "rectangle": [
+        93,
+        143,
+        179,
+        229
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7889824439523152-PERSPECTIVE",
+      "fraction": 0.1,
+      "rectangle": [
+        75,
+        126,
+        196,
+        247
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7889824439523152-PERSPECTIVE",
+      "fraction": 0.2,
+      "rectangle": [
+        50,
+        100,
+        222,
+        272
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7889824439523152-PERSPECTIVE",
+      "fraction": 0.4,
+      "rectangle": [
+        14,
+        65,
+        257,
+        308
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:22270061627420823-PERSPECTIVE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:22270061627420823-PERSPECTIVE",
+      "fraction": 0.05,
+      "rectangle": [
+        215,
+        93,
+        301,
+        179
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:22270061627420823-PERSPECTIVE",
+      "fraction": 0.1,
+      "rectangle": [
+        198,
+        76,
+        319,
+        197
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:22270061627420823-PERSPECTIVE",
+      "fraction": 0.2,
+      "rectangle": [
+        172,
+        50,
+        344,
+        222
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:22270061627420823-PERSPECTIVE",
+      "fraction": 0.4,
+      "rectangle": [
+        137,
+        15,
+        380,
+        258
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6559986132065798-PET 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:6559986132065798-PET 2",
+      "fraction": 0.05,
+      "rectangle": [
+        194,
+        94,
+        280,
+        180
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6559986132065798-PET 2",
+      "fraction": 0.1,
+      "rectangle": [
+        176,
+        77,
+        297,
+        198
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6559986132065798-PET 2",
+      "fraction": 0.2,
+      "rectangle": [
+        151,
+        51,
+        323,
+        223
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6559986132065798-PET 2",
+      "fraction": 0.4,
+      "rectangle": [
+        115,
+        16,
+        358,
+        259
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:588754245721554-PET 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:588754245721554-PET 2",
+      "fraction": 0.05,
+      "rectangle": [
+        142,
+        106,
+        228,
+        192
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:588754245721554-PET 2",
+      "fraction": 0.1,
+      "rectangle": [
+        124,
+        89,
+        245,
+        210
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:588754245721554-PET 2",
+      "fraction": 0.2,
+      "rectangle": [
+        99,
+        63,
+        271,
+        235
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:588754245721554-PET 2",
+      "fraction": 0.4,
+      "rectangle": [
+        63,
+        28,
+        306,
+        271
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6044921371778602-PROBLEM 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:6044921371778602-PROBLEM 2",
+      "fraction": 0.05,
+      "rectangle": [
+        188,
+        79,
+        274,
+        165
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6044921371778602-PROBLEM 2",
+      "fraction": 0.1,
+      "rectangle": [
+        170,
+        62,
+        291,
+        183
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6044921371778602-PROBLEM 2",
+      "fraction": 0.2,
+      "rectangle": [
+        145,
+        36,
+        317,
+        208
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6044921371778602-PROBLEM 2",
+      "fraction": 0.4,
+      "rectangle": [
+        109,
+        1,
+        352,
+        244
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:204608210838098-PROBLEM 2",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:204608210838098-PROBLEM 2",
+      "fraction": 0.05,
+      "rectangle": [
+        125,
+        166,
+        211,
+        252
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:204608210838098-PROBLEM 2",
+      "fraction": 0.1,
+      "rectangle": [
+        107,
+        149,
+        228,
+        270
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:204608210838098-PROBLEM 2",
+      "fraction": 0.2,
+      "rectangle": [
+        82,
+        123,
+        254,
+        295
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:204608210838098-PROBLEM 2",
+      "fraction": 0.4,
+      "rectangle": [
+        46,
+        88,
+        289,
+        331
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8076542659276618-SHARE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:8076542659276618-SHARE",
+      "fraction": 0.05,
+      "rectangle": [
+        196,
+        201,
+        282,
+        287
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8076542659276618-SHARE",
+      "fraction": 0.1,
+      "rectangle": [
+        178,
+        183,
+        299,
+        304
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8076542659276618-SHARE",
+      "fraction": 0.2,
+      "rectangle": [
+        153,
+        158,
+        325,
+        330
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8076542659276618-SHARE",
+      "fraction": 0.4,
+      "rectangle": [
+        117,
+        122,
+        360,
+        365
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7795064131839793-SHARE",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7795064131839793-SHARE",
+      "fraction": 0.05,
+      "rectangle": [
+        84,
+        140,
+        170,
+        226
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7795064131839793-SHARE",
+      "fraction": 0.1,
+      "rectangle": [
+        66,
+        123,
+        187,
+        244
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7795064131839793-SHARE",
+      "fraction": 0.2,
+      "rectangle": [
+        41,
+        97,
+        213,
+        269
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7795064131839793-SHARE",
+      "fraction": 0.4,
+      "rectangle": [
+        5,
+        62,
+        248,
+        305
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6962757565183064-SPREAD 1",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:6962757565183064-SPREAD 1",
+      "fraction": 0.05,
+      "rectangle": [
+        193,
+        106,
+        279,
+        192
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6962757565183064-SPREAD 1",
+      "fraction": 0.1,
+      "rectangle": [
+        175,
+        88,
+        296,
+        209
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6962757565183064-SPREAD 1",
+      "fraction": 0.2,
+      "rectangle": [
+        150,
+        63,
+        322,
+        235
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6962757565183064-SPREAD 1",
+      "fraction": 0.4,
+      "rectangle": [
+        114,
+        27,
+        357,
+        270
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:941055574022831-SPREAD 1",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:941055574022831-SPREAD 1",
+      "fraction": 0.05,
+      "rectangle": [
+        179,
+        171,
+        265,
+        257
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:941055574022831-SPREAD 1",
+      "fraction": 0.1,
+      "rectangle": [
+        161,
+        153,
+        282,
+        274
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:941055574022831-SPREAD 1",
+      "fraction": 0.2,
+      "rectangle": [
+        136,
+        128,
+        308,
+        300
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:941055574022831-SPREAD 1",
+      "fraction": 0.4,
+      "rectangle": [
+        100,
+        92,
+        343,
+        335
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:04639473944145611-SPREAD 3",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:04639473944145611-SPREAD 3",
+      "fraction": 0.05,
+      "rectangle": [
+        113,
+        192,
+        199,
+        278
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:04639473944145611-SPREAD 3",
+      "fraction": 0.1,
+      "rectangle": [
+        96,
+        174,
+        217,
+        295
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:04639473944145611-SPREAD 3",
+      "fraction": 0.2,
+      "rectangle": [
+        70,
+        149,
+        242,
+        321
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:04639473944145611-SPREAD 3",
+      "fraction": 0.4,
+      "rectangle": [
+        35,
+        113,
+        278,
+        356
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5762874267150302-SPREAD 3",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:5762874267150302-SPREAD 3",
+      "fraction": 0.05,
+      "rectangle": [
+        171,
+        154,
+        257,
+        240
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5762874267150302-SPREAD 3",
+      "fraction": 0.1,
+      "rectangle": [
+        154,
+        136,
+        275,
+        257
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5762874267150302-SPREAD 3",
+      "fraction": 0.2,
+      "rectangle": [
+        128,
+        111,
+        300,
+        283
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5762874267150302-SPREAD 3",
+      "fraction": 0.4,
+      "rectangle": [
+        93,
+        75,
+        336,
+        318
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:21560525739801784-STRETCH 1",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:21560525739801784-STRETCH 1",
+      "fraction": 0.05,
+      "rectangle": [
+        91,
+        179,
+        177,
+        265
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:21560525739801784-STRETCH 1",
+      "fraction": 0.1,
+      "rectangle": [
+        74,
+        161,
+        195,
+        282
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:21560525739801784-STRETCH 1",
+      "fraction": 0.2,
+      "rectangle": [
+        48,
+        136,
+        220,
+        308
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:21560525739801784-STRETCH 1",
+      "fraction": 0.4,
+      "rectangle": [
+        13,
+        100,
+        256,
+        343
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:46660833952924263-STRETCH 1",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:46660833952924263-STRETCH 1",
+      "fraction": 0.05,
+      "rectangle": [
+        207,
+        179,
+        293,
+        265
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:46660833952924263-STRETCH 1",
+      "fraction": 0.1,
+      "rectangle": [
+        190,
+        162,
+        311,
+        283
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:46660833952924263-STRETCH 1",
+      "fraction": 0.2,
+      "rectangle": [
+        164,
+        136,
+        336,
+        308
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:46660833952924263-STRETCH 1",
+      "fraction": 0.4,
+      "rectangle": [
+        129,
+        101,
+        372,
+        344
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:022820815374388292-THIEF 1",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:022820815374388292-THIEF 1",
+      "fraction": 0.05,
+      "rectangle": [
+        98,
+        80,
+        184,
+        166
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:022820815374388292-THIEF 1",
+      "fraction": 0.1,
+      "rectangle": [
+        81,
+        63,
+        202,
+        184
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:022820815374388292-THIEF 1",
+      "fraction": 0.2,
+      "rectangle": [
+        55,
+        37,
+        227,
+        209
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:022820815374388292-THIEF 1",
+      "fraction": 0.4,
+      "rectangle": [
+        20,
+        2,
+        263,
+        245
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7848309047704134-THIEF 1",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:7848309047704134-THIEF 1",
+      "fraction": 0.05,
+      "rectangle": [
+        154,
+        94,
+        240,
+        180
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7848309047704134-THIEF 1",
+      "fraction": 0.1,
+      "rectangle": [
+        137,
+        76,
+        258,
+        197
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7848309047704134-THIEF 1",
+      "fraction": 0.2,
+      "rectangle": [
+        111,
+        51,
+        283,
+        223
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:7848309047704134-THIEF 1",
+      "fraction": 0.4,
+      "rectangle": [
+        76,
+        15,
+        319,
+        258
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8893756531299173-THINK CHIN",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:8893756531299173-THINK CHIN",
+      "fraction": 0.05,
+      "rectangle": [
+        130,
+        194,
+        216,
+        280
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8893756531299173-THINK CHIN",
+      "fraction": 0.1,
+      "rectangle": [
+        112,
+        176,
+        233,
+        297
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8893756531299173-THINK CHIN",
+      "fraction": 0.2,
+      "rectangle": [
+        87,
+        151,
+        259,
+        323
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:8893756531299173-THINK CHIN",
+      "fraction": 0.4,
+      "rectangle": [
+        51,
+        115,
+        294,
+        358
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6383619586114699-THINK CHIN",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:6383619586114699-THINK CHIN",
+      "fraction": 0.05,
+      "rectangle": [
+        169,
+        107,
+        255,
+        193
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6383619586114699-THINK CHIN",
+      "fraction": 0.1,
+      "rectangle": [
+        151,
+        89,
+        272,
+        210
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6383619586114699-THINK CHIN",
+      "fraction": 0.2,
+      "rectangle": [
+        126,
+        64,
+        298,
+        236
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6383619586114699-THINK CHIN",
+      "fraction": 0.4,
+      "rectangle": [
+        90,
+        28,
+        333,
+        271
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6120598533455035-TOP",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:6120598533455035-TOP",
+      "fraction": 0.05,
+      "rectangle": [
+        175,
+        85,
+        261,
+        171
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6120598533455035-TOP",
+      "fraction": 0.1,
+      "rectangle": [
+        157,
+        67,
+        278,
+        188
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6120598533455035-TOP",
+      "fraction": 0.2,
+      "rectangle": [
+        132,
+        42,
+        304,
+        214
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6120598533455035-TOP",
+      "fraction": 0.4,
+      "rectangle": [
+        96,
+        6,
+        339,
+        249
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6720545064268519-TOP",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:6720545064268519-TOP",
+      "fraction": 0.05,
+      "rectangle": [
+        122,
+        158,
+        208,
+        244
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6720545064268519-TOP",
+      "fraction": 0.1,
+      "rectangle": [
+        104,
+        140,
+        225,
+        261
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6720545064268519-TOP",
+      "fraction": 0.2,
+      "rectangle": [
+        79,
+        115,
+        251,
+        287
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:6720545064268519-TOP",
+      "fraction": 0.4,
+      "rectangle": [
+        43,
+        79,
+        286,
+        322
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5875758721029025-WEATHER",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:5875758721029025-WEATHER",
+      "fraction": 0.05,
+      "rectangle": [
+        108,
+        123,
+        194,
+        209
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5875758721029025-WEATHER",
+      "fraction": 0.1,
+      "rectangle": [
+        90,
+        106,
+        211,
+        227
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5875758721029025-WEATHER",
+      "fraction": 0.2,
+      "rectangle": [
+        65,
+        80,
+        237,
+        252
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:5875758721029025-WEATHER",
+      "fraction": 0.4,
+      "rectangle": [
+        29,
+        45,
+        272,
+        288
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:601843307108572-WEATHER",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:601843307108572-WEATHER",
+      "fraction": 0.05,
+      "rectangle": [
+        216,
+        85,
+        302,
+        171
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:601843307108572-WEATHER",
+      "fraction": 0.1,
+      "rectangle": [
+        199,
+        68,
+        320,
+        189
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:601843307108572-WEATHER",
+      "fraction": 0.2,
+      "rectangle": [
+        173,
+        42,
+        345,
+        214
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:601843307108572-WEATHER",
+      "fraction": 0.4,
+      "rectangle": [
+        138,
+        7,
+        381,
+        250
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:19803323845193876-WIN",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:19803323845193876-WIN",
+      "fraction": 0.05,
+      "rectangle": [
+        160,
+        157,
+        246,
+        243
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:19803323845193876-WIN",
+      "fraction": 0.1,
+      "rectangle": [
+        143,
+        139,
+        264,
+        260
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:19803323845193876-WIN",
+      "fraction": 0.2,
+      "rectangle": [
+        117,
+        114,
+        289,
+        286
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:19803323845193876-WIN",
+      "fraction": 0.4,
+      "rectangle": [
+        82,
+        78,
+        325,
+        321
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:31159133349433676-WIN",
+      "fraction": 0,
+      "rectangle": null,
+      "actual_area_fraction": 0.0
+    },
+    {
+      "sample_id": "asl_citizen:31159133349433676-WIN",
+      "fraction": 0.05,
+      "rectangle": [
+        156,
+        149,
+        242,
+        235
+      ],
+      "actual_area_fraction": 0.05015733506944445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:31159133349433676-WIN",
+      "fraction": 0.1,
+      "rectangle": [
+        139,
+        132,
+        260,
+        253
+      ],
+      "actual_area_fraction": 0.09929063585069445,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:31159133349433676-WIN",
+      "fraction": 0.2,
+      "rectangle": [
+        113,
+        106,
+        285,
+        278
+      ],
+      "actual_area_fraction": 0.2006293402777778,
+      "all_frames": true
+    },
+    {
+      "sample_id": "asl_citizen:31159133349433676-WIN",
+      "fraction": 0.4,
+      "rectangle": [
+        78,
+        71,
+        321,
+        314
+      ],
+      "actual_area_fraction": 0.40045166015625,
+      "all_frames": true
+    }
+  ],
+  "provenance_notes": [
+    "Original frozen feature report predates upstream_commit field; pinned asset provenance and all recorded backbone fields match"
+  ],
+  "protocol": "clean gallery; seeded nested square tube occluder on normalized RGB query; same center/location and exact query rows at every level",
+  "interpretation": "Descriptive robustness on a fixed small held-out pilot; no pose input at inference; no recipe selection or retraining using corrupted evaluation data"
+}

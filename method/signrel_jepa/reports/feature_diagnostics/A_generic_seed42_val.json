@@ -1,0 +1,2502 @@
+{
+  "feature_sha256": "77f964ee22b47c428a699f0dcd14642935f62e2834c6984a5ad9f855d8e07a6e",
+  "gallery_sha256": "92c69a16a1d27eee005578415c18c104d34d429ecafbdf0860178d87e8164f3b",
+  "metadata_sha256": "080ecc3de4b307a04dd9b2c2583c22bc623a5c731ab869d6e3905d4a3540fbd3",
+  "script_sha256": "efa12e0c9d7dff46063b44e0024d28bf1f708f09e582526aa538fd8c2771b8d5",
+  "diagnostics_source_sha256": "ff5c14f74abe99e15bc4414b9d648e686347afbdfcc373a0d67fd15afd20ea93",
+  "query_embedding_health": {
+    "samples": 80,
+    "dimensions": 768,
+    "mean_pairwise_cosine": 0.9983295315775539,
+    "mean_per_dimension_std": 0.0011770933276600481,
+    "centered_energy": 0.1319708114347548,
+    "effective_rank": 13.139656853389278,
+    "leading_component_energy_fraction": 0.2739854211234781,
+    "interpretation": "Descriptive geometry, not a stand-alone collapse verdict; compare frozen task quality"
+  },
+  "gallery_embedding_health": {
+    "samples": 160,
+    "dimensions": 768,
+    "mean_pairwise_cosine": 0.9973898908575016,
+    "mean_per_dimension_std": 0.0013954127059793403,
+    "centered_energy": 0.4150150335315541,
+    "effective_rank": 10.067981185217267,
+    "leading_component_energy_fraction": 0.4568283624243168,
+    "interpretation": "Descriptive geometry, not a stand-alone collapse verdict; compare frozen task quality"
+  },
+  "minimal_pair_retrieval": {
+    "status": "evaluated",
+    "queries": 66,
+    "Recall@1": 0.3333333333333333,
+    "class_macro_Recall@1": 0.3333333333333333,
+    "queries_total": 80,
+    "query_coverage": 0.825,
+    "eligible_glosses": 33,
+    "lexical_pairs": [
+      {
+        "gloss_a": "AUSTRALIA",
+        "gloss_b": "BACKUP",
+        "changed_property": "Movement.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "MajorLocation.2.0"
+        ]
+      },
+      {
+        "gloss_a": "AUSTRALIA",
+        "gloss_b": "DIGUP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "AUSTRALIA",
+        "gloss_b": "SPREAD1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "AWAKE",
+        "gloss_b": "CHERISH",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "AWAKE",
+        "gloss_b": "DISLIKE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "AWAKE",
+        "gloss_b": "THIEF1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "BAKE2",
+        "gloss_b": "CAPTURE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "BAKE2",
+        "gloss_b": "EXCUSE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "BAKE2",
+        "gloss_b": "FLAG1",
+        "changed_property": "MajorLocation.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "BAKE2",
+        "gloss_b": "FLIPFLOPS",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "BAKE2",
+        "gloss_b": "HELP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "BAKE2",
+        "gloss_b": "PET2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "BAKE2",
+        "gloss_b": "SHARE",
+        "changed_property": "Movement.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "MajorLocation.2.0"
+        ]
+      },
+      {
+        "gloss_a": "BAKE2",
+        "gloss_b": "SPREAD2",
+        "changed_property": "Movement.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "MajorLocation.2.0"
+        ]
+      },
+      {
+        "gloss_a": "BAKE2",
+        "gloss_b": "STRETCH2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CAPTURE",
+        "gloss_b": "CATCH3",
+        "changed_property": "MajorLocation.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CAPTURE",
+        "gloss_b": "CHERISH",
+        "changed_property": "MajorLocation.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CAPTURE",
+        "gloss_b": "CHERRY1",
+        "changed_property": "Movement.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "MajorLocation.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CAPTURE",
+        "gloss_b": "EXCUSE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CAPTURE",
+        "gloss_b": "FLIPFLOPS",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CAPTURE",
+        "gloss_b": "HELP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CAPTURE",
+        "gloss_b": "PET2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CAPTURE",
+        "gloss_b": "STRETCH2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CAPTURE",
+        "gloss_b": "TOP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CATCH3",
+        "gloss_b": "CHERISH",
+        "changed_property": "MajorLocation.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CATCH3",
+        "gloss_b": "CLIMBLADDER",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CATCH3",
+        "gloss_b": "FLAG1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CATCH3",
+        "gloss_b": "LINE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CATCH3",
+        "gloss_b": "PROBLEM1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CHERISH",
+        "gloss_b": "DISLIKE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CHERISH",
+        "gloss_b": "THIEF1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CHERRY1",
+        "gloss_b": "CURTSEY1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CHERRY1",
+        "gloss_b": "SHARE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CLIMBLADDER",
+        "gloss_b": "FLAG1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CLIMBLADDER",
+        "gloss_b": "LINE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CLIMBLADDER",
+        "gloss_b": "PROBLEM1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CLIMBLADDER",
+        "gloss_b": "SPREAD1",
+        "changed_property": "Movement.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "MajorLocation.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CURTSEY1",
+        "gloss_b": "LOBSTER3",
+        "changed_property": "MajorLocation.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "CURTSEY1",
+        "gloss_b": "SHARE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "DIGUP",
+        "gloss_b": "SPREAD1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "DISLIKE",
+        "gloss_b": "HELP",
+        "changed_property": "MajorLocation.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "DISLIKE",
+        "gloss_b": "THIEF1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "EXCUSE",
+        "gloss_b": "FLIPFLOPS",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "EXCUSE",
+        "gloss_b": "HELP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "EXCUSE",
+        "gloss_b": "STRETCH2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "EXCUSE",
+        "gloss_b": "TOP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "FINGERSPELLING",
+        "gloss_b": "FRIDAY",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "FLAG1",
+        "gloss_b": "LINE",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "FLAG1",
+        "gloss_b": "PROBLEM1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "FLAG1",
+        "gloss_b": "TOP",
+        "changed_property": "MajorLocation.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "FLIPFLOPS",
+        "gloss_b": "HELP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "FLIPFLOPS",
+        "gloss_b": "PET2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "FLIPFLOPS",
+        "gloss_b": "STRETCH2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "FLIPFLOPS",
+        "gloss_b": "TOP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "FOLLOW1",
+        "gloss_b": "WEATHER",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "HELP",
+        "gloss_b": "PET2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "HELP",
+        "gloss_b": "STRETCH2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "HELP",
+        "gloss_b": "TOP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "HEN",
+        "gloss_b": "LOBSTER3",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "LINE",
+        "gloss_b": "PROBLEM1",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "PERSPECTIVE",
+        "gloss_b": "WIN",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "PET2",
+        "gloss_b": "STRETCH2",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "PET2",
+        "gloss_b": "TOP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "SHARE",
+        "gloss_b": "SPREAD2",
+        "changed_property": "Movement.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "MajorLocation.2.0"
+        ]
+      },
+      {
+        "gloss_a": "SHARE",
+        "gloss_b": "TOP",
+        "changed_property": "Movement.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "MajorLocation.2.0"
+        ]
+      },
+      {
+        "gloss_a": "SPREAD1",
+        "gloss_b": "WIN",
+        "changed_property": "MajorLocation.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "Movement.2.0"
+        ]
+      },
+      {
+        "gloss_a": "SPREAD2",
+        "gloss_b": "TOP",
+        "changed_property": "Movement.2.0",
+        "matched_properties": [
+          "Handshape.2.0",
+          "MajorLocation.2.0"
+        ]
+      },
+      {
+        "gloss_a": "STRETCH2",
+        "gloss_b": "TOP",
+        "changed_property": "Handshape.2.0",
+        "matched_properties": [
+          "MajorLocation.2.0",
+          "Movement.2.0"
+        ]
+      }
+    ],
+    "properties": [
+      "Handshape.2.0",
+      "MajorLocation.2.0",
+      "Movement.2.0"
+    ],
+    "per_property": {
+      "Handshape.2.0": {
+        "queries": 62,
+        "Recall@1": 0.41935483870967744
+      },
+      "MajorLocation.2.0": {
+        "queries": 24,
+        "Recall@1": 0.5416666666666666
+      },
+      "Movement.2.0": {
+        "queries": 20,
+        "Recall@1": 0.45
+      }
+    },
+    "metadata_excluded_sample_ids": [],
+    "skipped": [
+      {
+        "sample_id": "asl_citizen:9791099879811673-ADULT",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:12070071443609343-ADULT",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:7409605610395686-CATHOLIC",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:7988509797325987-CATHOLIC",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:04969667616739759-GLOVES",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:041501185522402784-GLOVES",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:7191039828839427-HEART",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:8074127035059293-HEART",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:5872167698324653-NECKLACE 3",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:2926337500456493-NECKLACE 3",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:2683514121563524-PEPSI",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:9677324029876675-PEPSI",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:8893756531299173-THINK CHIN",
+        "reason": "no_complete_minimal_pair_metadata"
+      },
+      {
+        "sample_id": "asl_citizen:6383619586114699-THINK CHIN",
+        "reason": "no_complete_minimal_pair_metadata"
+      }
+    ],
+    "per_query": [
+      {
+        "sample_id": "asl_citizen:3625198257740847-AUSTRALIA",
+        "gloss": "AUSTRALIA",
+        "predicted_gloss": "SPREAD1",
+        "rank": 2,
+        "candidate_classes": 4,
+        "correct": false,
+        "positive_margin": -0.0002263188362121582,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 2
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:1684027885829924-AUSTRALIA",
+        "gloss": "AUSTRALIA",
+        "predicted_gloss": "SPREAD1",
+        "rank": 2,
+        "candidate_classes": 4,
+        "correct": false,
+        "positive_margin": -0.0003961920738220215,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 2
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:8023239580796708-AWAKE",
+        "gloss": "AWAKE",
+        "predicted_gloss": "CHERISH",
+        "rank": 4,
+        "candidate_classes": 4,
+        "correct": false,
+        "positive_margin": -0.00046575069427490234,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 3
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:9102456204759168-AWAKE",
+        "gloss": "AWAKE",
+        "predicted_gloss": "CHERISH",
+        "rank": 4,
+        "candidate_classes": 4,
+        "correct": false,
+        "positive_margin": -0.00043827295303344727,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 3
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:9884345664129408-BACK UP",
+        "gloss": "BACKUP",
+        "predicted_gloss": "AUSTRALIA",
+        "rank": 2,
+        "candidate_classes": 2,
+        "correct": false,
+        "positive_margin": -0.0004824399948120117,
+        "per_property": [
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:6315215647781169-BACK UP",
+        "gloss": "BACKUP",
+        "predicted_gloss": "AUSTRALIA",
+        "rank": 2,
+        "candidate_classes": 2,
+        "correct": false,
+        "positive_margin": -3.260374069213867e-05,
+        "per_property": [
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:13173081414974597-BAKE 2",
+        "gloss": "BAKE2",
+        "predicted_gloss": "SPREAD2",
+        "rank": 2,
+        "candidate_classes": 10,
+        "correct": false,
+        "positive_margin": -9.572505950927734e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 6
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:2756142269859332-BAKE 2",
+        "gloss": "BAKE2",
+        "predicted_gloss": "HELP",
+        "rank": 7,
+        "candidate_classes": 10,
+        "correct": false,
+        "positive_margin": -0.0007553696632385254,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 6
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:7019796297629999-CAPTURE",
+        "gloss": "CAPTURE",
+        "predicted_gloss": "PET2",
+        "rank": 8,
+        "candidate_classes": 11,
+        "correct": false,
+        "positive_margin": -0.0005952119827270508,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 7
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 2
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:7868401196600863-CAPTURE",
+        "gloss": "CAPTURE",
+        "predicted_gloss": "HELP",
+        "rank": 10,
+        "candidate_classes": 11,
+        "correct": false,
+        "positive_margin": -0.0010353326797485352,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 7
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 2
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:7024539009485742-CATCH",
+        "gloss": "CATCH3",
+        "predicted_gloss": "CHERISH",
+        "rank": 5,
+        "candidate_classes": 7,
+        "correct": false,
+        "positive_margin": -0.000565648078918457,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 4
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:45685740809227426-CATCH",
+        "gloss": "CATCH3",
+        "predicted_gloss": "CHERISH",
+        "rank": 2,
+        "candidate_classes": 7,
+        "correct": false,
+        "positive_margin": -4.667043685913086e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 4
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:03330338698206403-CHERISH",
+        "gloss": "CHERISH",
+        "predicted_gloss": "CAPTURE",
+        "rank": 2,
+        "candidate_classes": 6,
+        "correct": false,
+        "positive_margin": -9.119510650634766e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 3
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:01448138151936873-CHERISH",
+        "gloss": "CHERISH",
+        "predicted_gloss": "THIEF1",
+        "rank": 3,
+        "candidate_classes": 6,
+        "correct": false,
+        "positive_margin": -0.0005742907524108887,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 3
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:1930766038750471-CHERRY 2",
+        "gloss": "CHERRY1",
+        "predicted_gloss": "SHARE",
+        "rank": 2,
+        "candidate_classes": 4,
+        "correct": false,
+        "positive_margin": -0.0002256631851196289,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 2
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:663371885114223-CHERRY 2",
+        "gloss": "CHERRY1",
+        "predicted_gloss": "CAPTURE",
+        "rank": 4,
+        "candidate_classes": 4,
+        "correct": false,
+        "positive_margin": -0.0006528496742248535,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 2
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:00835130479657109-CLIMB LADDER",
+        "gloss": "CLIMBLADDER",
+        "predicted_gloss": "LINE",
+        "rank": 2,
+        "candidate_classes": 6,
+        "correct": false,
+        "positive_margin": -0.000383913516998291,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 4
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:7869193758009212-CLIMB LADDER",
+        "gloss": "CLIMBLADDER",
+        "predicted_gloss": "CATCH3",
+        "rank": 3,
+        "candidate_classes": 6,
+        "correct": false,
+        "positive_margin": -0.00038629770278930664,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 4
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:14173165947086708-CURTSEY 2",
+        "gloss": "CURTSEY1",
+        "predicted_gloss": "CURTSEY1",
+        "rank": 1,
+        "candidate_classes": 4,
+        "correct": true,
+        "positive_margin": 0.00010114908218383789,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 2
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:5423305879976872-CURTSEY 2",
+        "gloss": "CURTSEY1",
+        "predicted_gloss": "LOBSTER3",
+        "rank": 4,
+        "candidate_classes": 4,
+        "correct": false,
+        "positive_margin": -0.0002523660659790039,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 2
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:9726947826813801-DIG UP",
+        "gloss": "DIGUP",
+        "predicted_gloss": "DIGUP",
+        "rank": 1,
+        "candidate_classes": 3,
+        "correct": true,
+        "positive_margin": 5.1915645599365234e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:4948350366792613-DIG UP",
+        "gloss": "DIGUP",
+        "predicted_gloss": "AUSTRALIA",
+        "rank": 3,
+        "candidate_classes": 3,
+        "correct": false,
+        "positive_margin": -0.0008448362350463867,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:7932067368641376-DISLIKE",
+        "gloss": "DISLIKE",
+        "predicted_gloss": "HELP",
+        "rank": 4,
+        "candidate_classes": 5,
+        "correct": false,
+        "positive_margin": -0.0003769397735595703,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 3
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:9160200161897563-DISLIKE",
+        "gloss": "DISLIKE",
+        "predicted_gloss": "HELP",
+        "rank": 5,
+        "candidate_classes": 5,
+        "correct": false,
+        "positive_margin": -0.00035178661346435547,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 3
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:3964057717847016-EXCUSE",
+        "gloss": "EXCUSE",
+        "predicted_gloss": "HELP",
+        "rank": 7,
+        "candidate_classes": 7,
+        "correct": false,
+        "positive_margin": -0.000423431396484375,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 6
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:8419633226295435-EXCUSE",
+        "gloss": "EXCUSE",
+        "predicted_gloss": "TOP",
+        "rank": 2,
+        "candidate_classes": 7,
+        "correct": false,
+        "positive_margin": -2.9206275939941406e-06,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 6
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:4753907874787613-FINGERSPELLING",
+        "gloss": "FINGERSPELLING",
+        "predicted_gloss": "FRIDAY",
+        "rank": 2,
+        "candidate_classes": 2,
+        "correct": false,
+        "positive_margin": -5.7220458984375e-06,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:25191543424173113-FINGERSPELLING",
+        "gloss": "FINGERSPELLING",
+        "predicted_gloss": "FINGERSPELLING",
+        "rank": 1,
+        "candidate_classes": 2,
+        "correct": true,
+        "positive_margin": 3.916025161743164e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:30928139447072733-FLAG",
+        "gloss": "FLAG1",
+        "predicted_gloss": "PROBLEM1",
+        "rank": 5,
+        "candidate_classes": 7,
+        "correct": false,
+        "positive_margin": -0.00023818016052246094,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 4
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:3109644641863969-FLAG",
+        "gloss": "FLAG1",
+        "predicted_gloss": "FLAG1",
+        "rank": 1,
+        "candidate_classes": 7,
+        "correct": true,
+        "positive_margin": 3.039836883544922e-06,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 4
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:7980178270868614-FLIPFLOPS",
+        "gloss": "FLIPFLOPS",
+        "predicted_gloss": "HELP",
+        "rank": 2,
+        "candidate_classes": 8,
+        "correct": false,
+        "positive_margin": -0.00033986568450927734,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 7
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:9692120482793813-FLIPFLOPS",
+        "gloss": "FLIPFLOPS",
+        "predicted_gloss": "FLIPFLOPS",
+        "rank": 1,
+        "candidate_classes": 8,
+        "correct": true,
+        "positive_margin": 4.279613494873047e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 7
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:49318288280155964-FOLLOW 3",
+        "gloss": "FOLLOW1",
+        "predicted_gloss": "FOLLOW1",
+        "rank": 1,
+        "candidate_classes": 2,
+        "correct": true,
+        "positive_margin": 0.00032901763916015625,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:8453668917526647-FOLLOW 3",
+        "gloss": "FOLLOW1",
+        "predicted_gloss": "WEATHER",
+        "rank": 2,
+        "candidate_classes": 2,
+        "correct": false,
+        "positive_margin": -0.00011998414993286133,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:6660882923131668-FRIDAY",
+        "gloss": "FRIDAY",
+        "predicted_gloss": "FINGERSPELLING",
+        "rank": 2,
+        "candidate_classes": 2,
+        "correct": false,
+        "positive_margin": -0.00035321712493896484,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:8847853342216259-FRIDAY",
+        "gloss": "FRIDAY",
+        "predicted_gloss": "FINGERSPELLING",
+        "rank": 2,
+        "candidate_classes": 2,
+        "correct": false,
+        "positive_margin": -0.00033468008041381836,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:8534077485600235-HELP",
+        "gloss": "HELP",
+        "predicted_gloss": "FLIPFLOPS",
+        "rank": 2,
+        "candidate_classes": 9,
+        "correct": false,
+        "positive_margin": -0.0001888871192932129,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 7
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:6037747479203328-HELP",
+        "gloss": "HELP",
+        "predicted_gloss": "HELP",
+        "rank": 1,
+        "candidate_classes": 9,
+        "correct": true,
+        "positive_margin": 0.00019943714141845703,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 7
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:10984912618507225-HEN",
+        "gloss": "HEN",
+        "predicted_gloss": "HEN",
+        "rank": 1,
+        "candidate_classes": 2,
+        "correct": true,
+        "positive_margin": 0.0009713172912597656,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:3161820517584528-HEN",
+        "gloss": "HEN",
+        "predicted_gloss": "LOBSTER3",
+        "rank": 2,
+        "candidate_classes": 2,
+        "correct": false,
+        "positive_margin": -4.4465065002441406e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:0993028191498797-LINE",
+        "gloss": "LINE",
+        "predicted_gloss": "PROBLEM1",
+        "rank": 2,
+        "candidate_classes": 5,
+        "correct": false,
+        "positive_margin": -3.3974647521972656e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 4
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:839124765404857-LINE",
+        "gloss": "LINE",
+        "predicted_gloss": "LINE",
+        "rank": 1,
+        "candidate_classes": 5,
+        "correct": true,
+        "positive_margin": 0.00012296438217163086,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 4
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:5837651918689251-LOBSTER 3",
+        "gloss": "LOBSTER3",
+        "predicted_gloss": "LOBSTER3",
+        "rank": 1,
+        "candidate_classes": 3,
+        "correct": true,
+        "positive_margin": 6.16312026977539e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:5768423480273424-LOBSTER 3",
+        "gloss": "LOBSTER3",
+        "predicted_gloss": "LOBSTER3",
+        "rank": 1,
+        "candidate_classes": 3,
+        "correct": true,
+        "positive_margin": 0.00015616416931152344,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:7889824439523152-PERSPECTIVE",
+        "gloss": "PERSPECTIVE",
+        "predicted_gloss": "PERSPECTIVE",
+        "rank": 1,
+        "candidate_classes": 2,
+        "correct": true,
+        "positive_margin": 0.00029772520065307617,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:22270061627420823-PERSPECTIVE",
+        "gloss": "PERSPECTIVE",
+        "predicted_gloss": "PERSPECTIVE",
+        "rank": 1,
+        "candidate_classes": 2,
+        "correct": true,
+        "positive_margin": 0.00015217065811157227,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:6559986132065798-PET 2",
+        "gloss": "PET2",
+        "predicted_gloss": "PET2",
+        "rank": 1,
+        "candidate_classes": 7,
+        "correct": true,
+        "positive_margin": 0.00016248226165771484,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 6
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:588754245721554-PET 2",
+        "gloss": "PET2",
+        "predicted_gloss": "TOP",
+        "rank": 4,
+        "candidate_classes": 7,
+        "correct": false,
+        "positive_margin": -0.0005134940147399902,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 6
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:6044921371778602-PROBLEM 2",
+        "gloss": "PROBLEM1",
+        "predicted_gloss": "PROBLEM1",
+        "rank": 1,
+        "candidate_classes": 5,
+        "correct": true,
+        "positive_margin": 0.0005470514297485352,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 4
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:204608210838098-PROBLEM 2",
+        "gloss": "PROBLEM1",
+        "predicted_gloss": "LINE",
+        "rank": 3,
+        "candidate_classes": 5,
+        "correct": false,
+        "positive_margin": -0.0004100799560546875,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 4
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:8076542659276618-SHARE",
+        "gloss": "SHARE",
+        "predicted_gloss": "BAKE2",
+        "rank": 3,
+        "candidate_classes": 6,
+        "correct": false,
+        "positive_margin": -8.779764175415039e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 2
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 3
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:7795064131839793-SHARE",
+        "gloss": "SHARE",
+        "predicted_gloss": "BAKE2",
+        "rank": 4,
+        "candidate_classes": 6,
+        "correct": false,
+        "positive_margin": -0.0006150603294372559,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 2
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 3
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:6962757565183064-SPREAD 1",
+        "gloss": "SPREAD1",
+        "predicted_gloss": "SPREAD1",
+        "rank": 1,
+        "candidate_classes": 5,
+        "correct": true,
+        "positive_margin": 0.00021338462829589844,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 2
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:941055574022831-SPREAD 1",
+        "gloss": "SPREAD1",
+        "predicted_gloss": "AUSTRALIA",
+        "rank": 3,
+        "candidate_classes": 5,
+        "correct": false,
+        "positive_margin": -0.00019490718841552734,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 2
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 1
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:04639473944145611-SPREAD 3",
+        "gloss": "SPREAD2",
+        "predicted_gloss": "SPREAD2",
+        "rank": 1,
+        "candidate_classes": 4,
+        "correct": true,
+        "positive_margin": 0.0002219080924987793,
+        "per_property": [
+          {
+            "property": "Movement.2.0",
+            "correct": true,
+            "distractors": 3
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:5762874267150302-SPREAD 3",
+        "gloss": "SPREAD2",
+        "predicted_gloss": "TOP",
+        "rank": 4,
+        "candidate_classes": 4,
+        "correct": false,
+        "positive_margin": -0.00036716461181640625,
+        "per_property": [
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 3
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:21560525739801784-STRETCH 1",
+        "gloss": "STRETCH2",
+        "predicted_gloss": "PET2",
+        "rank": 5,
+        "candidate_classes": 8,
+        "correct": false,
+        "positive_margin": -0.0004279017448425293,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 7
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:46660833952924263-STRETCH 1",
+        "gloss": "STRETCH2",
+        "predicted_gloss": "HELP",
+        "rank": 8,
+        "candidate_classes": 8,
+        "correct": false,
+        "positive_margin": -0.00121992826461792,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 7
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:022820815374388292-THIEF 1",
+        "gloss": "THIEF1",
+        "predicted_gloss": "THIEF1",
+        "rank": 1,
+        "candidate_classes": 4,
+        "correct": true,
+        "positive_margin": 0.00030344724655151367,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 3
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:7848309047704134-THIEF 1",
+        "gloss": "THIEF1",
+        "predicted_gloss": "THIEF1",
+        "rank": 1,
+        "candidate_classes": 4,
+        "correct": true,
+        "positive_margin": 1.0371208190917969e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 3
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:6120598533455035-TOP",
+        "gloss": "TOP",
+        "predicted_gloss": "HELP",
+        "rank": 2,
+        "candidate_classes": 10,
+        "correct": false,
+        "positive_margin": -8.207559585571289e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 6
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": true,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:6720545064268519-TOP",
+        "gloss": "TOP",
+        "predicted_gloss": "SPREAD2",
+        "rank": 8,
+        "candidate_classes": 10,
+        "correct": false,
+        "positive_margin": -0.0005614161491394043,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": false,
+            "distractors": 6
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          },
+          {
+            "property": "Movement.2.0",
+            "correct": false,
+            "distractors": 2
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:5875758721029025-WEATHER",
+        "gloss": "WEATHER",
+        "predicted_gloss": "WEATHER",
+        "rank": 1,
+        "candidate_classes": 2,
+        "correct": true,
+        "positive_margin": 0.00011944770812988281,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:601843307108572-WEATHER",
+        "gloss": "WEATHER",
+        "predicted_gloss": "WEATHER",
+        "rank": 1,
+        "candidate_classes": 2,
+        "correct": true,
+        "positive_margin": 0.0001704096794128418,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:19803323845193876-WIN",
+        "gloss": "WIN",
+        "predicted_gloss": "WIN",
+        "rank": 1,
+        "candidate_classes": 3,
+        "correct": true,
+        "positive_margin": 6.16908073425293e-05,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": true,
+            "distractors": 1
+          }
+        ]
+      },
+      {
+        "sample_id": "asl_citizen:31159133349433676-WIN",
+        "gloss": "WIN",
+        "predicted_gloss": "SPREAD1",
+        "rank": 2,
+        "candidate_classes": 3,
+        "correct": false,
+        "positive_margin": -0.00019687414169311523,
+        "per_property": [
+          {
+            "property": "Handshape.2.0",
+            "correct": true,
+            "distractors": 1
+          },
+          {
+            "property": "MajorLocation.2.0",
+            "correct": false,
+            "distractors": 1
+          }
+        ]
+      }
+    ],
+    "same_signer_excluded": true,
+    "protocol": "max cosine per gloss; positive and exactly-one-selected-property distractors; self/source/content excluded",
+    "limitation": "Unselected phonological factors are uncontrolled; this is an exploratory matched-property diagnostic"
+  },
+  "neighbor_selection": {
+    "seed": 42,
+    "query_indices": [
+      6,
+      7,
+      15,
+      31,
+      41,
+      46,
+      52,
+      54,
+      63,
+      72,
+      74,
+      78
+    ],
+    "protocol": "random queries, instance cosine ranking, self/source/content/signer excluded"
+  },
+  "neighbors": [
+    {
+      "query_index": 0,
+      "sample_id": "asl_citizen:9884345664129408-BACK UP",
+      "neighbors": [
+        {
+          "gallery_index": 68,
+          "sample_id": "asl_citizen:3348526261587321-FLIPFLOPS",
+          "gloss": "FLIPFLOPS",
+          "cosine": 0.9991276264190674,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 151,
+          "sample_id": "asl_citizen:044700512259179925-TOP",
+          "gloss": "TOP",
+          "cosine": 0.9989193677902222,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 52,
+          "sample_id": "asl_citizen:9216383706935722-DISLIKE",
+          "gloss": "DISLIKE",
+          "cosine": 0.998814582824707,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 63,
+          "sample_id": "asl_citizen:9372196235285684-FINGERSPELLING",
+          "gloss": "FINGERSPELLING",
+          "cosine": 0.99880051612854,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 32,
+          "sample_id": "asl_citizen:6853176742534663-CHERISH",
+          "gloss": "CHERISH",
+          "cosine": 0.998791515827179,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 1,
+      "sample_id": "asl_citizen:6315215647781169-BACK UP",
+      "neighbors": [
+        {
+          "gallery_index": 134,
+          "sample_id": "asl_citizen:17255468443320088-SPREAD 3",
+          "gloss": "SPREAD2",
+          "cosine": 0.9990977048873901,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 17,
+          "sample_id": "asl_citizen:8235531544115691-BAKE 2",
+          "gloss": "BAKE2",
+          "cosine": 0.9990519881248474,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 153,
+          "sample_id": "asl_citizen:8466913035026216-WEATHER",
+          "gloss": "WEATHER",
+          "cosine": 0.9990056157112122,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 63,
+          "sample_id": "asl_citizen:9372196235285684-FINGERSPELLING",
+          "gloss": "FINGERSPELLING",
+          "cosine": 0.9989866018295288,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 98,
+          "sample_id": "asl_citizen:6821446439233798-LINE",
+          "gloss": "LINE",
+          "cosine": 0.998976469039917,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 2,
+      "sample_id": "asl_citizen:7988509797325987-CATHOLIC",
+      "neighbors": [
+        {
+          "gallery_index": 88,
+          "sample_id": "asl_citizen:6967335705063062-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9992692470550537,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 91,
+          "sample_id": "asl_citizen:5574926687456125-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9992467164993286,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 7,
+          "sample_id": "asl_citizen:8918322853558756-AUSTRALIA",
+          "gloss": "AUSTRALIA",
+          "cosine": 0.9991629719734192,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 131,
+          "sample_id": "asl_citizen:9564337508135821-SPREAD 1",
+          "gloss": "SPREAD1",
+          "cosine": 0.9991072416305542,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 144,
+          "sample_id": "asl_citizen:42227315285416833-THINK CHIN",
+          "gloss": "THINKCHIN",
+          "cosine": 0.9990836381912231,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 3,
+      "sample_id": "asl_citizen:25191543424173113-FINGERSPELLING",
+      "neighbors": [
+        {
+          "gallery_index": 72,
+          "sample_id": "asl_citizen:383707265507814-FOLLOW 3",
+          "gloss": "FOLLOW1",
+          "cosine": 0.9992971420288086,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 149,
+          "sample_id": "asl_citizen:6503968004873979-TOP",
+          "gloss": "TOP",
+          "cosine": 0.9991568922996521,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 7,
+          "sample_id": "asl_citizen:8918322853558756-AUSTRALIA",
+          "gloss": "AUSTRALIA",
+          "cosine": 0.9991514682769775,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 88,
+          "sample_id": "asl_citizen:6967335705063062-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9991450309753418,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 91,
+          "sample_id": "asl_citizen:5574926687456125-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9991239309310913,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 4,
+      "sample_id": "asl_citizen:041501185522402784-GLOVES",
+      "neighbors": [
+        {
+          "gallery_index": 2,
+          "sample_id": "asl_citizen:952467108715948-ADULT",
+          "gloss": "ADULT",
+          "cosine": 0.9993899464607239,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 34,
+          "sample_id": "asl_citizen:7821803355747314-CHERISH",
+          "gloss": "CHERISH",
+          "cosine": 0.9993590712547302,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 149,
+          "sample_id": "asl_citizen:6503968004873979-TOP",
+          "gloss": "TOP",
+          "cosine": 0.9993062019348145,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 96,
+          "sample_id": "asl_citizen:26468837300724535-LINE",
+          "gloss": "LINE",
+          "cosine": 0.9992345571517944,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 12,
+          "sample_id": "asl_citizen:7729754443435253-BACK UP",
+          "gloss": "BACKUP",
+          "cosine": 0.9992085695266724,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 5,
+      "sample_id": "asl_citizen:10984912618507225-HEN",
+      "neighbors": [
+        {
+          "gallery_index": 72,
+          "sample_id": "asl_citizen:383707265507814-FOLLOW 3",
+          "gloss": "FOLLOW1",
+          "cosine": 0.9992939233779907,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 62,
+          "sample_id": "asl_citizen:78691860985753-FINGERSPELLING",
+          "gloss": "FINGERSPELLING",
+          "cosine": 0.9992503523826599,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 88,
+          "sample_id": "asl_citizen:6967335705063062-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9991300106048584,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 79,
+          "sample_id": "asl_citizen:8666218082287052-FRIDAY",
+          "gloss": "FRIDAY",
+          "cosine": 0.9990910291671753,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 147,
+          "sample_id": "asl_citizen:2186253106319891-THINK CHIN",
+          "gloss": "THINKCHIN",
+          "cosine": 0.9990841150283813,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 6,
+      "sample_id": "asl_citizen:5872167698324653-NECKLACE 3",
+      "neighbors": [
+        {
+          "gallery_index": 68,
+          "sample_id": "asl_citizen:3348526261587321-FLIPFLOPS",
+          "gloss": "FLIPFLOPS",
+          "cosine": 0.9989162683486938,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 63,
+          "sample_id": "asl_citizen:9372196235285684-FINGERSPELLING",
+          "gloss": "FINGERSPELLING",
+          "cosine": 0.9988837838172913,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 91,
+          "sample_id": "asl_citizen:5574926687456125-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9988021850585938,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 132,
+          "sample_id": "asl_citizen:1301968821156374-SPREAD 3",
+          "gloss": "SPREAD2",
+          "cosine": 0.9987279176712036,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 28,
+          "sample_id": "asl_citizen:9740138022869984-CATHOLIC",
+          "gloss": "CATHOLIC",
+          "cosine": 0.9987219572067261,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 7,
+      "sample_id": "asl_citizen:2683514121563524-PEPSI",
+      "neighbors": [
+        {
+          "gallery_index": 91,
+          "sample_id": "asl_citizen:5574926687456125-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9994608163833618,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 153,
+          "sample_id": "asl_citizen:8466913035026216-WEATHER",
+          "gloss": "WEATHER",
+          "cosine": 0.9993351697921753,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 61,
+          "sample_id": "asl_citizen:4827066311232666-FINGERSPELLING",
+          "gloss": "FINGERSPELLING",
+          "cosine": 0.9992246627807617,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 28,
+          "sample_id": "asl_citizen:9740138022869984-CATHOLIC",
+          "gloss": "CATHOLIC",
+          "cosine": 0.9991844892501831,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 32,
+          "sample_id": "asl_citizen:6853176742534663-CHERISH",
+          "gloss": "CHERISH",
+          "cosine": 0.999098002910614,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 8,
+      "sample_id": "asl_citizen:7795064131839793-SHARE",
+      "neighbors": [
+        {
+          "gallery_index": 89,
+          "sample_id": "asl_citizen:4206186890939383-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9984925389289856,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 137,
+          "sample_id": "asl_citizen:7592851454045775-STRETCH 1",
+          "gloss": "STRETCH2",
+          "cosine": 0.9984893798828125,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 32,
+          "sample_id": "asl_citizen:6853176742534663-CHERISH",
+          "gloss": "CHERISH",
+          "cosine": 0.9984331130981445,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 17,
+          "sample_id": "asl_citizen:8235531544115691-BAKE 2",
+          "gloss": "BAKE2",
+          "cosine": 0.9983930587768555,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 61,
+          "sample_id": "asl_citizen:4827066311232666-FINGERSPELLING",
+          "gloss": "FINGERSPELLING",
+          "cosine": 0.9982675313949585,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 9,
+      "sample_id": "asl_citizen:8893756531299173-THINK CHIN",
+      "neighbors": [
+        {
+          "gallery_index": 91,
+          "sample_id": "asl_citizen:5574926687456125-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9994781613349915,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 153,
+          "sample_id": "asl_citizen:8466913035026216-WEATHER",
+          "gloss": "WEATHER",
+          "cosine": 0.9992693662643433,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 61,
+          "sample_id": "asl_citizen:4827066311232666-FINGERSPELLING",
+          "gloss": "FINGERSPELLING",
+          "cosine": 0.9992079138755798,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 72,
+          "sample_id": "asl_citizen:383707265507814-FOLLOW 3",
+          "gloss": "FOLLOW1",
+          "cosine": 0.9992067217826843,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 28,
+          "sample_id": "asl_citizen:9740138022869984-CATHOLIC",
+          "gloss": "CATHOLIC",
+          "cosine": 0.9991804361343384,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 10,
+      "sample_id": "asl_citizen:6120598533455035-TOP",
+      "neighbors": [
+        {
+          "gallery_index": 91,
+          "sample_id": "asl_citizen:5574926687456125-HELP",
+          "gloss": "HELP",
+          "cosine": 0.9992486834526062,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 155,
+          "sample_id": "asl_citizen:5795304703814874-WEATHER",
+          "gloss": "WEATHER",
+          "cosine": 0.99922114610672,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 28,
+          "sample_id": "asl_citizen:9740138022869984-CATHOLIC",
+          "gloss": "CATHOLIC",
+          "cosine": 0.9991794228553772,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 149,
+          "sample_id": "asl_citizen:6503968004873979-TOP",
+          "gloss": "TOP",
+          "cosine": 0.9991666078567505,
+          "same_gloss": true
+        },
+        {
+          "gallery_index": 111,
+          "sample_id": "asl_citizen:9887175237187003-PEPSI",
+          "gloss": "PEPSI",
+          "cosine": 0.9991623759269714,
+          "same_gloss": false
+        }
+      ]
+    },
+    {
+      "query_index": 11,
+      "sample_id": "asl_citizen:19803323845193876-WIN",
+      "neighbors": [
+        {
+          "gallery_index": 68,
+          "sample_id": "asl_citizen:3348526261587321-FLIPFLOPS",
+          "gloss": "FLIPFLOPS",
+          "cosine": 0.9989610910415649,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 151,
+          "sample_id": "asl_citizen:044700512259179925-TOP",
+          "gloss": "TOP",
+          "cosine": 0.9988600611686707,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 70,
+          "sample_id": "asl_citizen:9211388203612305-FLIPFLOPS",
+          "gloss": "FLIPFLOPS",
+          "cosine": 0.9988529086112976,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 140,
+          "sample_id": "asl_citizen:16045315673771254-THIEF 1",
+          "gloss": "THIEF1",
+          "cosine": 0.9988380074501038,
+          "same_gloss": false
+        },
+        {
+          "gallery_index": 5,
+          "sample_id": "asl_citizen:006668622704927074-AUSTRALIA",
+          "gloss": "AUSTRALIA",
+          "cosine": 0.9988141655921936,
+          "same_gloss": false
+        }
+      ]
+    }
+  ],
+  "neighbors_image": "reports/feature_diagnostics/A_generic_seed42_val.neighbors.jpg"
+}
