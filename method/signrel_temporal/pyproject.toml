@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signrel-temporal"
+version = "0.1.0"
+description = "Proposal7 cross-articulator temporal SSL research implementation"
+requires-python = ">=3.11"
+dependencies = ["torch>=2.2", "numpy>=1.26", "PyYAML>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+perception = ["av>=12", "mediapipe>=0.10.20", "Pillow>=10"]
+diagnostics = ["matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
