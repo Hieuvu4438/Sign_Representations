@@ -500,3 +500,73 @@ Update32 / D065: MSCLKTEST0014groups and0025groups pass; retainedMSCLKDIAG001 se
 
 
 Update33 / D068: MSESTTEST0016groups and MSESTCOVER001 all3425 adapted input contract pass:2674train/748val eligible,3short unchanged,100classes each;38newdecode/3387inheritance. MSESTENV00143 input hashes/counts/clock/crops exact. MSDICT0013 fixed shared galleries/all748queries,289unique supports/1037extractionclips/36424windows frozen. Four stores9307506B/capturedsum35.48027317679953s/GPU0/caps and current bindings verified; allterminal/no ownedjob. D066–D068/C081–C083/F077–F079/r28. Next registered extractioncost wrapper+fixtures on metadata-locked7clips/396windows before fullquality budget/protocol. Original rawclock/prefix failures retained.
+
+
+Update34 / D072: eightactualcompletedruns MSFEATTEST001/MSFEATCOST001/MSFULLTEST001/
+MSEVALTEST001/MSFULLFEAT001/MSEVAL001/MSEVALVERIFY001/MSREPORT001. Full1037vectors/
+42shards/36028new+396reusedwindows; first748query/100class/3gallery/6mode quality,
+all13464fullranks exactoriginalspace. PrimaryRR-TR+.0393093/all3positive passes;
+RR.657898 trails raw.679797/centered.681641 everygallery, no methodpromotion.
+All8caps/817currentbindings/reportjoins verified,26184790B/1806.0733725950122
+capturedwall/GPU1796.2334451510105s; no ownedlivejob/terminalhandlesclosed.
+S41/S42titleleads/S43/S44partialread, matrix44rows. C084–C088/F080–F084/r29;
+H006 evidence dossier completed, contribution/fulltext/novelty stillopen. No
+samevalidation rescue tuning or officialbenchmark/encoder-unseen claims.
+
+Update35/D073 is literature/intake only, no new experimentalrun. S45–S49/L01
+refresh/matrix49rows/C089-F085/H007draft/intake select metadata calibration audit
+next. Current151status census: frozen127(113completed14failed), stream22
+(19completed3failed), lab2completed; no running/pending status. No restart or GPU
+charge. Existing budgets/outputs remain D072 snapshot; no rejection scores run.
+
+Update36/D075: OSMETATEST001 five fixture groups, OSMETA001 all3389metadata rows,
+OSMETAVERIFY001 original-source counts/selections/27membershipcells pass/exit0.
+Basecalibration286/8signers and gallerypool1027/24 cover100classes; target pool
+missingclass83/calibration53missing: HOLD no reselection. MS748dev retained.
+All2499currentbindings/all3storecaps verified;3135575B/.6779758103657514s
+capturedwall/GPU0. Fresh154statuses/effectiveGPU7523.083052356145s unchanged.
+C090–C091/F086–F087/r31; no numeric features/quality/threshold/test/newencoder.
+Public current OSCR code inspection issue pending registered fixtures, not
+published-result invalidation. Next scorer fixtures, then H007 quality protocol.
+
+Update37/D079: OSCRREFTEST001 ownNumPyimport-hook technicalfailure retained,
+fresh OSCRREFTEST002 completedaudit/referenceREJECTED (.25/1/.25 vs0/1/0).
+OSCRADAPTTEST001 sixsoftwaregroups/30Python-Fraction cases PASS; explicitadapted
+jointFAR/CCR/tie/scalar semantics, no officialparity or taskquality result.
+Threeactual runtimecaps295092B/.32051733904518187s/GPU0 verified;35043B pinned
+publicsource/fullBSDlicense captured separately;41currentbindings pass. First
+partialstore/no completionmanifest retained, twocomplete manifests verified.
+Fresh157terminalstatuses/no ownedlivejob/effective program7523.083052356145s
+unchanged. S50/S48_CODE_r1/matrix50rows/C092–C093/F088–F089/r32. Nextfreeze
+existing scorecontrols/source-only calibration protocol+fixtures beforeH007
+quality. No newmethod/public-paper-score invalidation or goalcompletion claim.
+
+Update38/D085: first H007_v1/P007_v1 rejection-quality complete, fixtures
+REJECTSCORETEST001 fivegroups/30pinned NACcases and REJECTANALTEST001 fivegroups.
+REJECTEVAL001 base286cal/378dev/MS748,3galleries/3sizes/4scores/2policies;
+primarymaxcosN50 FARdelta−.1896963/all3negative/conditionalCI excludes0,
+LOWERtargetFAR plus knownacceptance91.3→74.4%, no improvedmethod claim.
+REJECTVERIFY001 ownDCGprecisionfailure retained; freshREJECTVERIFY002 exact
+12708prediction/rank rows/216metrics/108curves/2000bootstrap plus separate216row
+FP64DCGerratum(max8.49996308e−8), primary/thresholds/source unchanged.
+REJECTREPORT001216perseed/48mean/PNG+PDF/30posthocnumericalbuckets complete.
+All6caps/2652bindings/exports verified;11440051runtimeB/16.04422149597667s
+capturedwall/GPU0;5648B publicNACsource/license separate. Fresh163terminalstatuses,
+no ownedlivejob/effectiveprogram7523.083052356145s unchanged. C094–C098/
+F090–F094/r33/H007dossier. CONTINUEclosestwork/supervision/freshconfirmation
+audit before newmechanism or trainedcomparator; no targetcalibration/HPO/scaling.
+
+
+Update39/D090: FRDisc component/supervision audit and bounded61837B source+license
+capture, HEADTEST001 pass; actualHEADPOOL001 single-classP38metadata STOP beforefit
+retained; prospectivepairedHEADPAIRTEST00190pairs/pass andHEADPAIRPOOL0011027/
+100classes/24signers/16000pairs (P38included697). HEADPAIRCOST001GPU2.904s/paritypass,
+weightsdiscarded. HEADPILOT001/002/003 allcomplete1000updates/twoheads/allgalleries.
+HEADANALYSIS001 semanticPASS, jointutilityFAIL: MSCCR+3.9879pp butFAR+27.8801pp,
+conditional95%FAR[18.4749,40.6524]pp>2ppmargin. KILLscaling fixedrecipe/noMSrescue.
+HEADREPORT001540rows/108means consumed,60curves/12meanpoints/10cases exported;
+2857bindings/all10caps/9completestores+1failedpartial verified.46129167runtimeB/
+84.9264439237304capturedwall/GPU69.3861866821535s;173terminalstatuses/noownedlivejob.
+Program7592.469239038299/14400,H00769.3861866821535/420. C099–C103/F095–F099/r34/
+H007dossierr2. Fullgoalactive/DISCOVERclosestfullmethods+train-only falsifier,
+no novelmethod/freshconfirmation/PAPER_READY. Originalboundfiles immutable.
