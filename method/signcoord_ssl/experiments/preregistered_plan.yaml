@@ -1,0 +1,61 @@
+schema_version: signcoord_experiment_plan_v1
+status: prospective_no_real_frozen_results_yet
+research_questions:
+  RQ1: Does dense geometry plus velocity improve frozen transfer over matched pooled targets?
+  RQ2: Does relative phase improve over dense geometry plus velocity?
+  RQ3: Does relative phase improve over matched lag correlation?
+  RQ4: Do gains transfer across datasets/signers without hurting hold and handshape slices?
+primary_endpoint:
+  dataset: asl_citizen
+  metric: frozen_instance_retrieval_rec1
+  gallery: official_train
+  selection: official_dev
+  final_queries: official_test_after_protocol_lock
+  pooling: mean_overlapping_encoder_features_per_timestamp_then_uniform
+  practical_difference: 0.01
+secondary_endpoints: [mrr, wlasl_available_subset_frozen_transfer]
+pilot:
+  arms: [A2, A3, A6, A7]
+  seeds: [3407]
+  optimizer_updates: 10000
+  execution_status: not_started
+  prerequisite: complete_real_target_audit_and_gpu_matched_profile_and_frozen_eval
+confirmatory:
+  arms: [A3, A6, A7]
+  seeds: [3407, 2027, 42]
+  optimizer_updates: 50000
+  execution_status: not_started
+  prerequisite: viable_dev_pilot_plus_closed_data_leakage_audit
+mechanism_controls: [A1_inspired, A4_Parseval_test, A5_magnitude, A8_quality_gate_off, A9_shuffled_pairing]
+initialization_studies:
+  generic_hiera_mae:
+    status: pinned_official_MAE_checkpoint_and_T16_T32_backend_verified_A0_materialized
+    role: primary_label_free_pretraining_study
+  signrep_pretrained:
+    status: available_strict_checkpoint_load_verified
+    role: continued_adaptation_with_unknown_original_pretraining_overlap
+matched_invariants:
+  - initialization_checkpoint_and_temporal_adaptation
+  - source_manifests_and_sample_plan_and_mask_seed
+  - microbatch_and_stats_batch_and_world_size_and_accumulation
+  - RGB_resolution_and_timestamps_and_context
+  - encoder_final_tap_and_dense_decoder_capacity
+  - target_stats_and_quality_mapping_and_phase_calibration
+  - optimizer_and_precision_and_exposure_and_regularization
+  - downstream_heads_and_gallery_and_pooling_and_tuning_budget
+allowed_dev_grid:
+  velocity_weight: [0.05, 0.10, 0.20]
+  relation_weight: [0.02, 0.05, 0.10]
+  min_confidence: [0.20, 0.30, 0.40]
+selection_policy: fixed_budget_final_primary_and_dev_selected_secondary
+inference:
+  comparisons: [A7_minus_A3, A7_minus_A6]
+  uncertainty: paired_signer_or_source_bootstrap_per_seed_plus_seed_mean_and_SD
+  bootstrap_draws: 2000
+  best_seed_reporting: prohibited_as_primary_result
+stop_rules:
+  - No training while phase coverage is explained by a sampling or target bug.
+  - If A7 does not exceed A3 and A6 on dev after correct implementation, keep the negative result.
+  - If lag wins at lower compute, prefer lag and narrow the phase claim.
+  - No confirmatory test evaluation before checkpoint and protocol lock.
+  - Do not claim strict signer-disjoint pretraining while SSL signer identities remain unknown.
