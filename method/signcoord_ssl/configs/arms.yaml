@@ -1,0 +1,17 @@
+schema_version: signcoord_arms_v1
+implemented:
+  A0: generic_Hiera_frozen_zero_sign_SSL_exposure
+  A1_ref: official_SignRep_T16_fc_native_frame_protocol_with_disclosed_video_pooling
+  A1_inspired: shared_2D_geometry_sequence_from_one_pooled_vector
+  A2: dense_geometry_plus_shared_regularization
+  A3: A2_plus_velocity
+  A5: A3_plus_train_normalized_log_auto_power_without_cross_phase_gate
+  A6: A3_plus_matched_non_circular_lag
+  A7: A3_plus_quality_gated_relative_phase
+  A8: A3_plus_basic_valid_phase_without_quality_gate
+  A9: A7_plus_exact_basic_support_and_timing_compatible_target_derangement
+implemented_numerical_control:
+  A4: full_FFT_and_weighted_rFFT_Parseval_unit_tests
+pending:
+  A1_exact_reproduction: original_prior_target_and_training_recipe_not_available
+  A9_distributed: trainer_and_synchronized_shuffle_policy_not_wired

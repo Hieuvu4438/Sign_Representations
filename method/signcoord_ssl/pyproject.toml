@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signcoord-ssl"
+version = "0.1.0"
+description = "RGB sign representations with reliability-aware trajectory coordination targets"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "numpy>=1.24", "scipy>=1.10", "PyYAML>=6", "av>=12", "Pillow>=10"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+hiera = ["timm", "huggingface-hub"]
+signrep-reference = ["albumentations==2.0.8"]
+
+[project.scripts]
+signcoord = "signcoord.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"signcoord" = ["base_config.yaml"]
+"signcoord.targets" = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

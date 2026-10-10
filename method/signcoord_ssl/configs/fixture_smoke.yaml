@@ -1,0 +1,38 @@
+# Run tools/generate_synthetic_fixture.py --output data/fixture from this folder.
+# The generator also emits a resolved fixture_smoke.yaml with absolute paths.
+arm: A7
+run_dir: runs/A7_fixture
+data:
+  ssl_train_manifest: data/fixture/manifests/ssl_train.jsonl
+  ssl_dev_manifest: data/fixture/manifests/ssl_dev.jsonl
+  pose_cache_root: data/fixture/pose
+  target_stats_path: data/fixture/stats/target_stats.json
+  phase_calibration_path: data/fixture/stats/phase_calibration.json
+  sampler:
+    spatial_size: [32, 32]
+  augmentation:
+    color_jitter: 0.0
+model:
+  backbone: tiny_fixture
+  initialization_mode: random_init
+  decoder:
+    width: 32
+    blocks: 1
+    heads: 4
+  regularization_projector:
+    hidden: 32
+    out_dim: 16
+loss:
+  relation:
+    warmup_zero_updates: 1
+    ramp_end_update: 3
+train:
+  device: cpu
+  precision: fp32
+  microbatch_per_gpu: 4
+  accumulation_steps: 1
+  max_updates: 8
+  warmup_updates: 2
+  save_every_updates: 4
+  eval_every_updates: 4
+  dataloader_workers: 0

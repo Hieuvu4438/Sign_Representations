@@ -1,0 +1,14 @@
+arm: A1_ref
+model:
+  backbone: signrep_hiera_adapter
+  initialization_mode: signrep_pretrained
+  initialization_checkpoint: checkpoints/signrep/ckpt.pt
+  vendor_root: third_party/SignRep
+  input_frames: 16
+  attention_kernel: vendor_5d
+data:
+  sampler:
+    frames: 16
+train:
+  device: cpu
+  precision: fp32

@@ -1,0 +1,12 @@
+/runs/
+/data/
+/.venv/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+/build/
+*.pt
+*.npz
+*.mp4
+/vendor/hiera/
+*.pth

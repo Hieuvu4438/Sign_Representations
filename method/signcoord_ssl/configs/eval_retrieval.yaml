@@ -1,0 +1,12 @@
+train:
+  device: cpu
+  precision: fp32
+evaluation:
+  primary_dataset: asl_citizen
+  selection_split: dev
+  selection_metric: retrieval_rec1
+  pooling: uniform_timestamp_coverage
+  gallery_split: train
+  query_split: dev
+  prototype_gallery: false
+  test_evaluation: final_only

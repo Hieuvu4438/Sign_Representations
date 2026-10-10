@@ -1,0 +1,7 @@
+arm: A0
+model:
+  backbone: hiera_base_video_adapter
+  initialization_mode: generic_hiera_mae
+  initialization_checkpoint: method/signcoord_ssl/runs/assets/mae_hiera_base_16x224.pth
+  generic_vendor_root: method/signcoord_ssl/vendor/hiera
+  input_frames: 32

@@ -1,0 +1,99 @@
+schema_version: source_paths_v1
+datasets:
+  how2sign_train:
+    adapter: how2sign
+    video_root: /home/shared_data/sign_language/How2Sign/train/raw_videos
+    pose_root: /home/shared_data/sign_language/How2Sign/train/train_pose
+    available_videos: 31047
+    available_pose_files: 31047
+    paired_by_filename: 31047
+    counts_are_not_decode_verification: true
+  asl_citizen:
+    adapter: asl_citizen
+    video_root: /home/dongvk/datasets/ASL_Citizen/videos
+    pose_root: /home/dongvk/datasets/ASL_Citizen/keypoints
+    available_videos: 83399
+    available_pose_files: 83399
+    paired_by_filename: 83399
+    counts_are_not_decode_verification: true
+    train:
+      declared: 40154
+      available: 40154
+      signer_count: 35
+      csv_sha256: 87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329
+    val:
+      declared: 10304
+      available: 10304
+      signer_count: 6
+      csv_sha256: 6ac78c9d551dfcc81d225a5279d7637c2891a4490851234be6e4674666e21366
+    test:
+      declared: 32941
+      available: 32941
+      signer_count: 11
+      csv_sha256: b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e
+    split_signer_intersections:
+      train_val: []
+      train_test: []
+      val_test: []
+  wlasl2000:
+    adapter: wlasl2000
+    annotation: method/signcoord_ssl/data/source_metadata/WLASL_v0.3_ac00e6be.json
+    video_root: /home/dongvk/datasets/WLASL2000/WLASL2000
+    pose_root: /home/dongvk/datasets/WLASL2000/keypoint
+    available_videos: 21095
+    available_pose_files: 21095
+    paired_by_filename: 21095
+    counts_are_not_decode_verification: true
+  csldaily_shared:
+    video_root: /home/shared_data/sign_language/CSLDaily/videos/videos
+    exists: true
+    available_mp4: 20654
+    counts_are_not_decode_verification: true
+  csldaily_crop:
+    video_root: /home/dongvk/datasets/CSL_Daily_Sentence_Crop/videos
+    exists: true
+    available_mp4: 20654
+    counts_are_not_decode_verification: true
+  how2sign_eval:
+    video_root: /home/shared_data/sign_language/How2Sign/eval/raw_videos
+    exists: true
+    available_mp4: 1739
+    counts_are_not_decode_verification: true
+  how2sign_test:
+    video_root: /home/shared_data/sign_language/How2Sign/test/raw_videos
+    exists: true
+    available_mp4: 2343
+    counts_are_not_decode_verification: true
+  msasl_downloaded:
+    video_root: /home/dongvk/datasets/MS-ASL/video
+    exists: true
+    available_mp4: 4269
+    counts_are_not_decode_verification: true
+  msasl_processed:
+    video_root: /home/dongvk/datasets/MS-ASL/cut_processed_video
+    exists: true
+    available_mp4: 18855
+    counts_are_not_decode_verification: true
+  phoenix14t_train:
+    video_root: /home/dongvk/datasets/phoenix14T/videos_phoenix/videos/train
+    exists: true
+    available_mp4: 7096
+    counts_are_not_decode_verification: true
+  phoenix14t_dev:
+    video_root: /home/dongvk/datasets/phoenix14T/videos_phoenix/videos/dev
+    exists: true
+    available_mp4: 519
+    counts_are_not_decode_verification: true
+  phoenix14t_test:
+    video_root: /home/dongvk/datasets/phoenix14T/videos_phoenix/videos/test
+    exists: true
+    available_mp4: 642
+    counts_are_not_decode_verification: true
+  youtube_asl:
+    video_root: /home/dongvk/datasets/youtubeASL
+    exists: true
+    available_mp4: 0
+    counts_are_not_decode_verification: true
+pose_reuse_policy: legacy_image_normalized_xy_train_part_q90_quality_v1
+original_extractor: unknown
+sources_available_not_fully_decode_verified: true
