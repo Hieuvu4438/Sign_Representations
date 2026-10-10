@@ -1,0 +1,26 @@
+{
+  "summary_sha256": "e047cc1f716a9b03c5d8e51d171e6a683606db19fd4792bf590b5f3832380963",
+  "script_sha256": "edb3dc92c896516b1b3d140323f547202dbadf6703c831c57658833e6747ba16",
+  "baselines": [
+    {
+      "label": "V-JEPA frozen",
+      "report": "reports/generic_vjepa_aslc_val.json",
+      "sha256": "5ef3dcbc2aa97643b1826d7c0f94b82c9ed48877900b18822b702cb220fad645",
+      "comparison": "external frozen reference; different pretraining/protocol may confound causal comparison"
+    },
+    {
+      "label": "SignRep external",
+      "report": "reports/signrep_aslc_val.json",
+      "sha256": "46a7c771e69b890238986f7d6403ee10ab9cf500e8ec85d60052243a57d1c05a",
+      "comparison": "external frozen reference; different pretraining/protocol may confound causal comparison"
+    },
+    {
+      "label": "Random ViT-B frozen",
+      "report": "reports/random_vitb_aslc_val.json",
+      "sha256": "184ecddeb4045d642adab38b609ad585139d03e3641bc1969a877256b6fb32e5",
+      "comparison": "external frozen reference; different pretraining/protocol may confound causal comparison"
+    }
+  ],
+  "scope": "40-gloss local pilot; descriptive training-seed variation; no significance, full benchmark or SOTA claim",
+  "decision": "relation_benefit_not_supported_by_this_pilot"
+}

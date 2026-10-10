@@ -1,0 +1,1074 @@
+{
+  "split": "val",
+  "summary": {
+    "A_generic": {
+      "Recall@1": {
+        "mean": 0.037500000000000006,
+        "std": 0.0125,
+        "seeds": 3
+      },
+      "Recall@5": {
+        "mean": 0.19999999999999998,
+        "std": 0.03307189138830738,
+        "seeds": 3
+      },
+      "mAP_instance": {
+        "mean": 0.06300655843506045,
+        "std": 0.001850269393163432,
+        "seeds": 3
+      },
+      "phonology_macro_f1": {
+        "mean": 0.21344207700307316,
+        "std": 0.021179272116145603,
+        "seeds": 3
+      },
+      "signer_accuracy": {
+        "mean": 0.9682539682539683,
+        "std": 0.013746434980705392,
+        "seeds": 3
+      }
+    },
+    "B_articulator": {
+      "Recall@1": {
+        "mean": 0.041666666666666664,
+        "std": 0.007216878364870324,
+        "seeds": 3
+      },
+      "Recall@5": {
+        "mean": 0.22083333333333333,
+        "std": 0.007216878364870329,
+        "seeds": 3
+      },
+      "mAP_instance": {
+        "mean": 0.06685792227549504,
+        "std": 0.0009817109936034317,
+        "seeds": 3
+      },
+      "phonology_macro_f1": {
+        "mean": 0.2329095809022044,
+        "std": 0.05682546391918134,
+        "seeds": 3
+      },
+      "signer_accuracy": {
+        "mean": 0.9603174603174601,
+        "std": 0.013746434980705392,
+        "seeds": 3
+      }
+    },
+    "C_relation": {
+      "Recall@1": {
+        "mean": 0.025000000000000005,
+        "std": 0.012499999999999999,
+        "seeds": 3
+      },
+      "Recall@5": {
+        "mean": 0.17916666666666667,
+        "std": 0.040181878170803986,
+        "seeds": 3
+      },
+      "mAP_instance": {
+        "mean": 0.0650652564702308,
+        "std": 0.004205468887331419,
+        "seeds": 3
+      },
+      "phonology_macro_f1": {
+        "mean": 0.26669019848679726,
+        "std": 0.03967936099258611,
+        "seeds": 3
+      },
+      "signer_accuracy": {
+        "mean": 0.9523809523809522,
+        "std": 1.3597399555105182e-16,
+        "seeds": 3
+      }
+    },
+    "D_combined": {
+      "Recall@1": {
+        "mean": 0.04583333333333334,
+        "std": 0.02602082499332666,
+        "seeds": 3
+      },
+      "Recall@5": {
+        "mean": 0.1875,
+        "std": 0.012500000000000011,
+        "seeds": 3
+      },
+      "mAP_instance": {
+        "mean": 0.06816709899910668,
+        "std": 0.004244683922849228,
+        "seeds": 3
+      },
+      "phonology_macro_f1": {
+        "mean": 0.2323653846825916,
+        "std": 0.02643663429553882,
+        "seeds": 3
+      },
+      "signer_accuracy": {
+        "mean": 0.9603174603174603,
+        "std": 0.013746434980705392,
+        "seeds": 3
+      }
+    }
+  },
+  "per_seed": {
+    "A_generic": {
+      "42": {
+        "Recall@1": 0.05,
+        "Recall@5": 0.2375,
+        "mAP_instance": 0.06465468468938355,
+        "phonology_macro_f1": 0.20602142511073854,
+        "signer_accuracy": 0.9761904761904762
+      },
+      "43": {
+        "Recall@1": 0.025,
+        "Recall@5": 0.1875,
+        "mAP_instance": 0.06100510127248189,
+        "phonology_macro_f1": 0.19697166927850054,
+        "signer_accuracy": 0.9761904761904762
+      },
+      "44": {
+        "Recall@1": 0.0375,
+        "Recall@5": 0.175,
+        "mAP_instance": 0.0633598893433159,
+        "phonology_macro_f1": 0.23733313661998037,
+        "signer_accuracy": 0.9523809523809523
+      }
+    },
+    "B_articulator": {
+      "42": {
+        "Recall@1": 0.05,
+        "Recall@5": 0.225,
+        "mAP_instance": 0.06796953355929373,
+        "phonology_macro_f1": 0.2398165169174388,
+        "signer_accuracy": 0.9523809523809523
+      },
+      "43": {
+        "Recall@1": 0.0375,
+        "Recall@5": 0.2125,
+        "mAP_instance": 0.06610977126645523,
+        "phonology_macro_f1": 0.17294634359943548,
+        "signer_accuracy": 0.9761904761904762
+      },
+      "44": {
+        "Recall@1": 0.0375,
+        "Recall@5": 0.225,
+        "mAP_instance": 0.06649446200073615,
+        "phonology_macro_f1": 0.28596588218973895,
+        "signer_accuracy": 0.9523809523809523
+      }
+    },
+    "C_relation": {
+      "42": {
+        "Recall@1": 0.0125,
+        "Recall@5": 0.15,
+        "mAP_instance": 0.060398880510597865,
+        "phonology_macro_f1": 0.22111500793798983,
+        "signer_accuracy": 0.9523809523809523
+      },
+      "43": {
+        "Recall@1": 0.025,
+        "Recall@5": 0.225,
+        "mAP_instance": 0.06856234741629164,
+        "phonology_macro_f1": 0.2854000255468606,
+        "signer_accuracy": 0.9523809523809523
+      },
+      "44": {
+        "Recall@1": 0.0375,
+        "Recall@5": 0.1625,
+        "mAP_instance": 0.06623454148380288,
+        "phonology_macro_f1": 0.29355556197554133,
+        "signer_accuracy": 0.9523809523809523
+      }
+    },
+    "D_combined": {
+      "42": {
+        "Recall@1": 0.0375,
+        "Recall@5": 0.2,
+        "mAP_instance": 0.06576618199000947,
+        "phonology_macro_f1": 0.20564747765086558,
+        "signer_accuracy": 0.9523809523809523
+      },
+      "43": {
+        "Recall@1": 0.025,
+        "Recall@5": 0.175,
+        "mAP_instance": 0.06566701163291333,
+        "phonology_macro_f1": 0.23293720733343673,
+        "signer_accuracy": 0.9523809523809523
+      },
+      "44": {
+        "Recall@1": 0.075,
+        "Recall@5": 0.1875,
+        "mAP_instance": 0.07306810337439727,
+        "phonology_macro_f1": 0.2585114690634725,
+        "signer_accuracy": 0.9761904761904762
+      }
+    }
+  },
+  "decision": {
+    "status": "relation_benefit_not_supported_by_this_pilot",
+    "phase2_allowed": false,
+    "missing": [],
+    "audit_verified": true,
+    "comparisons": {
+      "C_relation_vs_A_generic": {
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "paired_seed_deltas": {
+          "Recall@1": [
+            -0.037500000000000006,
+            0.0,
+            0.0
+          ],
+          "Recall@5": [
+            -0.0875,
+            0.037500000000000006,
+            -0.012499999999999983
+          ],
+          "mAP_instance": [
+            -0.0042558041787856896,
+            0.0075572461438097455,
+            0.0028746521404869746
+          ],
+          "phonology_macro_f1": [
+            0.01509358282725129,
+            0.08842835626836007,
+            0.05622242535556096
+          ],
+          "signer_accuracy": [
+            -0.023809523809523836,
+            -0.023809523809523836,
+            0.0
+          ]
+        },
+        "mean_delta": {
+          "Recall@1": -0.012500000000000002,
+          "Recall@5": -0.020833333333333325,
+          "mAP_instance": 0.0020586980351703435,
+          "phonology_macro_f1": 0.053248121483724105,
+          "signer_accuracy": -0.01587301587301589
+        },
+        "std_delta": {
+          "Recall@1": 0.02165063509461097,
+          "Recall@5": 0.06291528696058958,
+          "mAP_instance": 0.005948644829499432,
+          "phonology_macro_f1": 0.03675774900012522,
+          "signer_accuracy": 0.01374643498070539
+        },
+        "consistent_two_metric_pilot_benefit": false
+      },
+      "D_combined_vs_A_generic": {
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "paired_seed_deltas": {
+          "Recall@1": [
+            -0.012500000000000004,
+            0.0,
+            0.0375
+          ],
+          "Recall@5": [
+            -0.03749999999999998,
+            -0.012500000000000011,
+            0.012500000000000011
+          ],
+          "mAP_instance": [
+            0.001111497300625916,
+            0.00466191036043144,
+            0.009708214031081366
+          ],
+          "phonology_macro_f1": [
+            -0.00037394745987295863,
+            0.035965538054936186,
+            0.021178332443492126
+          ],
+          "signer_accuracy": [
+            -0.023809523809523836,
+            -0.023809523809523836,
+            0.023809523809523836
+          ]
+        },
+        "mean_delta": {
+          "Recall@1": 0.008333333333333331,
+          "Recall@5": -0.012499999999999992,
+          "mAP_instance": 0.005160540564046241,
+          "phonology_macro_f1": 0.018923307679518452,
+          "signer_accuracy": -0.007936507936507945
+        },
+        "std_delta": {
+          "Recall@1": 0.02602082499332666,
+          "Recall@5": 0.024999999999999994,
+          "mAP_instance": 0.0043199952194291685,
+          "phonology_macro_f1": 0.018274392038720656,
+          "signer_accuracy": 0.02749286996141078
+        },
+        "consistent_two_metric_pilot_benefit": false
+      },
+      "C_relation_vs_B_articulator": {
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "paired_seed_deltas": {
+          "Recall@1": [
+            -0.037500000000000006,
+            -0.012499999999999997,
+            0.0
+          ],
+          "Recall@5": [
+            -0.07500000000000001,
+            0.012500000000000011,
+            -0.0625
+          ],
+          "mAP_instance": [
+            -0.00757065304869587,
+            0.002452576149836405,
+            -0.0002599205169332708
+          ],
+          "phonology_macro_f1": [
+            -0.018701508979448972,
+            0.11245368194742514,
+            0.0075896797858023834
+          ],
+          "signer_accuracy": [
+            0.0,
+            -0.023809523809523836,
+            0.0
+          ]
+        },
+        "mean_delta": {
+          "Recall@1": -0.016666666666666666,
+          "Recall@5": -0.041666666666666664,
+          "mAP_instance": -0.0017926658052642454,
+          "phonology_macro_f1": 0.03378061758459285,
+          "signer_accuracy": -0.007936507936507945
+        },
+        "std_delta": {
+          "Recall@1": 0.019094065395649337,
+          "Recall@5": 0.04732423621500229,
+          "mAP_instance": 0.005184424942146727,
+          "phonology_macro_f1": 0.06938944403762926,
+          "signer_accuracy": 0.013746434980705392
+        },
+        "consistent_two_metric_pilot_benefit": false
+      },
+      "D_combined_vs_B_articulator": {
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "paired_seed_deltas": {
+          "Recall@1": [
+            -0.012500000000000004,
+            -0.012499999999999997,
+            0.0375
+          ],
+          "Recall@5": [
+            -0.024999999999999994,
+            -0.037500000000000006,
+            -0.037500000000000006
+          ],
+          "mAP_instance": [
+            -0.002203351569284265,
+            -0.0004427596335419004,
+            0.006573641373661121
+          ],
+          "phonology_macro_f1": [
+            -0.03416903926657322,
+            0.059990863734001254,
+            -0.027454413126266453
+          ],
+          "signer_accuracy": [
+            0.0,
+            -0.023809523809523836,
+            0.023809523809523836
+          ]
+        },
+        "mean_delta": {
+          "Recall@1": 0.004166666666666666,
+          "Recall@5": -0.03333333333333333,
+          "mAP_instance": 0.001309176723611652,
+          "phonology_macro_f1": -0.0005441962196128062,
+          "signer_accuracy": 0.0
+        },
+        "std_delta": {
+          "Recall@1": 0.028867513459481287,
+          "Recall@5": 0.007216878364870329,
+          "mAP_instance": 0.004643367531196041,
+          "phonology_macro_f1": 0.05253229162849988,
+          "signer_accuracy": 0.023809523809523836
+        },
+        "consistent_two_metric_pilot_benefit": false
+      }
+    }
+  },
+  "scope": "40-gloss local pilot; descriptive training-seed variation; no significance, full benchmark or SOTA claim",
+  "phase2_rule": "Both generic and articulator controls, complete paired seeds and matching coverage must be checked. Broader validation is required before multiscale/scale-up.",
+  "artifact_audit": {
+    "verified_runs": 12,
+    "contract_equal": true,
+    "manifest_sha256": "f8debdd61ae1ff418ee7f7f372ef1e95e0e5b87eb4c76f3658a1d04bdb1a3f20",
+    "eval_protocol_sha256": "1306d77f9e210cbb0be5a28f2ac0f3cbf2b21d4ff9d7e7c155b88ea4a0d2f458",
+    "source_hash": "0fe5684ff8e302971da9584c1f4f7bd5c11f073cb3e95bd1d44ed738bb14aaf2",
+    "checks": "checkpoint step/config/hash, artifact bytes, finite feature tensors, identical sample rows, normalization, coverage and controls"
+  },
+  "health": {
+    "A_generic_seed42": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.35577088594436646,
+      "final_student_std": 0.05066172545775771,
+      "final_teacher_std": 0.048527916893363,
+      "final_between_sample_cosine": 0.9896592199802399,
+      "edge_query_totals": {}
+    },
+    "B_articulator_seed42": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.4018518477678299,
+      "final_student_std": 0.03894293447956443,
+      "final_teacher_std": 0.04136642813682556,
+      "final_between_sample_cosine": 0.9944481551647186,
+      "edge_query_totals": {}
+    },
+    "C_relation_seed42": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.3790077865123749,
+      "final_student_std": 0.03721386380493641,
+      "final_teacher_std": 0.03707956615835428,
+      "final_between_sample_cosine": 0.9941251873970032,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2899.0,
+        "edge_0_2_short_valid_queries": 3053.5,
+        "edge_1_2_short_valid_queries": 3033.5,
+        "edge_0_3_short_valid_queries": 3053.5,
+        "edge_1_3_short_valid_queries": 3033.0
+      }
+    },
+    "D_combined_seed42": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.4199410229921341,
+      "final_student_std": 0.03368762135505676,
+      "final_teacher_std": 0.03756710886955261,
+      "final_between_sample_cosine": 0.995677262544632,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2899.0,
+        "edge_0_2_short_valid_queries": 3053.5,
+        "edge_1_2_short_valid_queries": 3033.5,
+        "edge_0_3_short_valid_queries": 3053.5,
+        "edge_1_3_short_valid_queries": 3033.0
+      }
+    },
+    "A_generic_seed43": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.3498581498861313,
+      "final_student_std": 0.018558600917458534,
+      "final_teacher_std": 0.026924241334199905,
+      "final_between_sample_cosine": 0.9989119470119476,
+      "edge_query_totals": {}
+    },
+    "B_articulator_seed43": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.401121586561203,
+      "final_student_std": 0.01745923887938261,
+      "final_teacher_std": 0.02811469044536352,
+      "final_between_sample_cosine": 0.9989606738090515,
+      "edge_query_totals": {}
+    },
+    "C_relation_seed43": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.3696676790714264,
+      "final_student_std": 0.016828985884785652,
+      "final_teacher_std": 0.02497015241533518,
+      "final_between_sample_cosine": 0.9990457892417908,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2914.5,
+        "edge_0_2_short_valid_queries": 3055.5,
+        "edge_1_2_short_valid_queries": 3042.5,
+        "edge_0_3_short_valid_queries": 3055.0,
+        "edge_1_3_short_valid_queries": 3042.0
+      }
+    },
+    "D_combined_seed43": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.41753245890140533,
+      "final_student_std": 0.01345743890851736,
+      "final_teacher_std": 0.02617085538804531,
+      "final_between_sample_cosine": 0.9993698298931122,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2914.5,
+        "edge_0_2_short_valid_queries": 3055.5,
+        "edge_1_2_short_valid_queries": 3042.5,
+        "edge_0_3_short_valid_queries": 3055.0,
+        "edge_1_3_short_valid_queries": 3042.0
+      }
+    },
+    "A_generic_seed44": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.3593095541000366,
+      "final_student_std": 0.018851378932595253,
+      "final_teacher_std": 0.028225528076291084,
+      "final_between_sample_cosine": 0.9987739026546478,
+      "edge_query_totals": {}
+    },
+    "B_articulator_seed44": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.406974196434021,
+      "final_student_std": 0.02009523380547762,
+      "final_teacher_std": 0.026147359050810337,
+      "final_between_sample_cosine": 0.9988147914409637,
+      "edge_query_totals": {}
+    },
+    "C_relation_seed44": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.41569817066192627,
+      "final_student_std": 0.028378311544656754,
+      "final_teacher_std": 0.0262503232806921,
+      "final_between_sample_cosine": 0.9972528517246246,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2910.0,
+        "edge_0_2_short_valid_queries": 3049.5,
+        "edge_1_2_short_valid_queries": 3046.5,
+        "edge_0_3_short_valid_queries": 3049.0,
+        "edge_1_3_short_valid_queries": 3046.5
+      }
+    },
+    "D_combined_seed44": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.4661352187395096,
+      "final_student_std": 0.023553569801151752,
+      "final_teacher_std": 0.02587059047073126,
+      "final_between_sample_cosine": 0.998367190361023,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2910.0,
+        "edge_0_2_short_valid_queries": 3049.5,
+        "edge_1_2_short_valid_queries": 3046.5,
+        "edge_0_3_short_valid_queries": 3049.0,
+        "edge_1_3_short_valid_queries": 3046.5
+      }
+    }
+  },
+  "provenance_warnings": [
+    {
+      "path": "features/controlled_pilot/A_generic_seed42_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/A_generic_seed42_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/B_articulator_seed42_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/B_articulator_seed42_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/C_relation_seed42_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/C_relation_seed42_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/D_combined_seed42_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/D_combined_seed42_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/A_generic_seed43_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/A_generic_seed43_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/B_articulator_seed43_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/B_articulator_seed43_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/C_relation_seed43_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/C_relation_seed43_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/D_combined_seed43_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/D_combined_seed43_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/A_generic_seed44_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/A_generic_seed44_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/B_articulator_seed44_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/B_articulator_seed44_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/C_relation_seed44_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/C_relation_seed44_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/D_combined_seed44_train.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    },
+    {
+      "path": "features/controlled_pilot/D_combined_seed44_val.report.json",
+      "issue": "constructor initialization metadata differs from restored trained provenance",
+      "authoritative_upstream_init": {
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "pretrained": true,
+        "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+        "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "dropped_keys": [],
+        "normalization": "ImageNet RGB mean/std",
+        "patch": 16,
+        "tubelet": 2,
+        "crop_size": 384,
+        "num_frames": 16
+      }
+    }
+  ],
+  "summary_source_sha256": "d332a502049d1d16c9b80ee37e1953a1fc702a695c50cd6de7f9095149f49cfe"
+}

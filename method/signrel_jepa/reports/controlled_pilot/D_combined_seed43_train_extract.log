@@ -1,0 +1,13 @@
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/haipd/miniconda3/lib/python3.13/contextlib.py:109: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+{"processed": 1, "total": 160, "retained": 1, "errors": 0}
+{"processed": 20, "total": 160, "retained": 20, "errors": 0}
+{"processed": 40, "total": 160, "retained": 40, "errors": 0}
+{"processed": 60, "total": 160, "retained": 60, "errors": 0}
+{"processed": 80, "total": 160, "retained": 80, "errors": 0}
+{"processed": 100, "total": 160, "retained": 100, "errors": 0}
+{"processed": 120, "total": 160, "retained": 120, "errors": 0}
+{"processed": 140, "total": 160, "retained": 140, "errors": 0}
+{"processed": 160, "total": 160, "retained": 160, "errors": 0}

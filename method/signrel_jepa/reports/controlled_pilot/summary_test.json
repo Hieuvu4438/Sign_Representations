@@ -1,0 +1,570 @@
+{
+  "split": "test",
+  "summary": {
+    "A_generic": {
+      "Recall@1": {
+        "mean": 0.020833333333333332,
+        "std": 0.036084391824351615,
+        "seeds": 3
+      },
+      "Recall@5": {
+        "mean": 0.12083333333333335,
+        "std": 0.03818813079129867,
+        "seeds": 3
+      },
+      "mAP_instance": {
+        "mean": 0.054959717539564655,
+        "std": 0.013043930630726426,
+        "seeds": 3
+      },
+      "phonology_macro_f1": {
+        "mean": 0.2093088931180784,
+        "std": 0.03975085657713381,
+        "seeds": 3
+      },
+      "signer_accuracy": {
+        "mean": 0.9459459459459459,
+        "std": 0.0,
+        "seeds": 3
+      }
+    },
+    "B_articulator": {
+      "Recall@1": {
+        "mean": 0.02916666666666667,
+        "std": 0.019094065395649337,
+        "seeds": 3
+      },
+      "Recall@5": {
+        "mean": 0.14583333333333334,
+        "std": 0.0590726953281576,
+        "seeds": 3
+      },
+      "mAP_instance": {
+        "mean": 0.06003087905721228,
+        "std": 0.010503871951530271,
+        "seeds": 3
+      },
+      "phonology_macro_f1": {
+        "mean": 0.1819605666039271,
+        "std": 0.006177424051990128,
+        "seeds": 3
+      },
+      "signer_accuracy": {
+        "mean": 0.9459459459459459,
+        "std": 0.0,
+        "seeds": 3
+      }
+    },
+    "C_relation": {
+      "Recall@1": {
+        "mean": 0.016666666666666666,
+        "std": 0.007216878364870323,
+        "seeds": 3
+      },
+      "Recall@5": {
+        "mean": 0.19583333333333333,
+        "std": 0.02602082499332667,
+        "seeds": 3
+      },
+      "mAP_instance": {
+        "mean": 0.060104023620463444,
+        "std": 0.0022360108828568055,
+        "seeds": 3
+      },
+      "phonology_macro_f1": {
+        "mean": 0.2328598654652151,
+        "std": 0.03985218076732648,
+        "seeds": 3
+      },
+      "signer_accuracy": {
+        "mean": 0.9279279279279279,
+        "std": 0.015604061329449314,
+        "seeds": 3
+      }
+    },
+    "D_combined": {
+      "Recall@1": {
+        "mean": 0.020833333333333332,
+        "std": 0.019094065395649333,
+        "seeds": 3
+      },
+      "Recall@5": {
+        "mean": 0.17916666666666667,
+        "std": 0.03818813079129866,
+        "seeds": 3
+      },
+      "mAP_instance": {
+        "mean": 0.0610042915230071,
+        "std": 0.006811604907974484,
+        "seeds": 3
+      },
+      "phonology_macro_f1": {
+        "mean": 0.19831326542128955,
+        "std": 0.0078634346219948,
+        "seeds": 3
+      },
+      "signer_accuracy": {
+        "mean": 0.9279279279279279,
+        "std": 0.015604061329449314,
+        "seeds": 3
+      }
+    }
+  },
+  "per_seed": {
+    "A_generic": {
+      "42": {
+        "Recall@1": 0.0,
+        "Recall@5": 0.1125,
+        "mAP_instance": 0.05019138395018906,
+        "phonology_macro_f1": 0.2271854276765537,
+        "signer_accuracy": 0.9459459459459459
+      },
+      "43": {
+        "Recall@1": 0.0,
+        "Recall@5": 0.0875,
+        "mAP_instance": 0.04497087449894854,
+        "phonology_macro_f1": 0.16375843206749469,
+        "signer_accuracy": 0.9459459459459459
+      },
+      "44": {
+        "Recall@1": 0.0625,
+        "Recall@5": 0.1625,
+        "mAP_instance": 0.06971689416955637,
+        "phonology_macro_f1": 0.2369828196101868,
+        "signer_accuracy": 0.9459459459459459
+      }
+    },
+    "B_articulator": {
+      "42": {
+        "Recall@1": 0.025,
+        "Recall@5": 0.125,
+        "mAP_instance": 0.05821500069202038,
+        "phonology_macro_f1": 0.17596849994726554,
+        "signer_accuracy": 0.9459459459459459
+      },
+      "43": {
+        "Recall@1": 0.0125,
+        "Recall@5": 0.1,
+        "mAP_instance": 0.05055333484729032,
+        "phonology_macro_f1": 0.18830800572754733,
+        "signer_accuracy": 0.9459459459459459
+      },
+      "44": {
+        "Recall@1": 0.05,
+        "Recall@5": 0.2125,
+        "mAP_instance": 0.07132430163232614,
+        "phonology_macro_f1": 0.18160519413696838,
+        "signer_accuracy": 0.9459459459459459
+      }
+    },
+    "C_relation": {
+      "42": {
+        "Recall@1": 0.025,
+        "Recall@5": 0.175,
+        "mAP_instance": 0.05883183877456055,
+        "phonology_macro_f1": 0.20425722800840723,
+        "signer_accuracy": 0.918918918918919
+      },
+      "43": {
+        "Recall@1": 0.0125,
+        "Recall@5": 0.1875,
+        "mAP_instance": 0.058794376092484835,
+        "phonology_macro_f1": 0.278379979170323,
+        "signer_accuracy": 0.9459459459459459
+      },
+      "44": {
+        "Recall@1": 0.0125,
+        "Recall@5": 0.225,
+        "mAP_instance": 0.06268585599434497,
+        "phonology_macro_f1": 0.21594238921691508,
+        "signer_accuracy": 0.918918918918919
+      }
+    },
+    "D_combined": {
+      "42": {
+        "Recall@1": 0.0,
+        "Recall@5": 0.1375,
+        "mAP_instance": 0.05342812603031717,
+        "phonology_macro_f1": 0.1926646467222573,
+        "signer_accuracy": 0.918918918918919
+      },
+      "43": {
+        "Recall@1": 0.0375,
+        "Recall@5": 0.1875,
+        "mAP_instance": 0.06296227898689465,
+        "phonology_macro_f1": 0.19498099827496854,
+        "signer_accuracy": 0.918918918918919
+      },
+      "44": {
+        "Recall@1": 0.025,
+        "Recall@5": 0.2125,
+        "mAP_instance": 0.06662246955180948,
+        "phonology_macro_f1": 0.20729415126664277,
+        "signer_accuracy": 0.9459459459459459
+      }
+    }
+  },
+  "decision": {
+    "status": "relation_benefit_not_supported_by_this_pilot",
+    "phase2_allowed": false,
+    "missing": [],
+    "audit_verified": true,
+    "comparisons": {
+      "C_relation_vs_A_generic": {
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "paired_seed_deltas": {
+          "Recall@1": [
+            0.025,
+            0.0125,
+            -0.05
+          ],
+          "Recall@5": [
+            0.062499999999999986,
+            0.1,
+            0.0625
+          ],
+          "mAP_instance": [
+            0.008640454824371493,
+            0.013823501593536291,
+            -0.007031038175211404
+          ],
+          "phonology_macro_f1": [
+            -0.022928199668146465,
+            0.11462154710282829,
+            -0.02104043039327172
+          ],
+          "signer_accuracy": [
+            -0.027027027027026973,
+            0.0,
+            -0.027027027027026973
+          ]
+        },
+        "mean_delta": {
+          "Recall@1": -0.004166666666666666,
+          "Recall@5": 0.075,
+          "mAP_instance": 0.005144306080898793,
+          "phonology_macro_f1": 0.0235509723471367,
+          "signer_accuracy": -0.018018018018017983
+        },
+        "std_delta": {
+          "Recall@1": 0.040181878170803986,
+          "Recall@5": 0.021650635094610973,
+          "mAP_instance": 0.01085795787747098,
+          "phonology_macro_f1": 0.07887507913123001,
+          "signer_accuracy": 0.015604061329449314
+        },
+        "consistent_two_metric_pilot_benefit": false
+      },
+      "D_combined_vs_A_generic": {
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "paired_seed_deltas": {
+          "Recall@1": [
+            0.0,
+            0.0375,
+            -0.0375
+          ],
+          "Recall@5": [
+            0.02500000000000001,
+            0.1,
+            0.04999999999999999
+          ],
+          "mAP_instance": [
+            0.0032367420801281133,
+            0.017991404487946103,
+            -0.0030944246177468937
+          ],
+          "phonology_macro_f1": [
+            -0.03452078095429639,
+            0.03122256620747385,
+            -0.029688668343544028
+          ],
+          "signer_accuracy": [
+            -0.027027027027026973,
+            -0.027027027027026973,
+            0.0
+          ]
+        },
+        "mean_delta": {
+          "Recall@1": 0.0,
+          "Recall@5": 0.05833333333333333,
+          "mAP_instance": 0.0060445739834424405,
+          "phonology_macro_f1": -0.010995627696788857,
+          "signer_accuracy": -0.018018018018017983
+        },
+        "std_delta": {
+          "Recall@1": 0.0375,
+          "Recall@5": 0.038188130791298666,
+          "mAP_instance": 0.010819703658907429,
+          "phonology_macro_f1": 0.03664176920502327,
+          "signer_accuracy": 0.015604061329449314
+        },
+        "consistent_two_metric_pilot_benefit": false
+      },
+      "C_relation_vs_B_articulator": {
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "paired_seed_deltas": {
+          "Recall@1": [
+            0.0,
+            0.0,
+            -0.037500000000000006
+          ],
+          "Recall@5": [
+            0.04999999999999999,
+            0.0875,
+            0.012500000000000011
+          ],
+          "mAP_instance": [
+            0.0006168380825401706,
+            0.008241041245194515,
+            -0.008638445637981176
+          ],
+          "phonology_macro_f1": [
+            0.028288728061141688,
+            0.09007197344277565,
+            0.0343371950799467
+          ],
+          "signer_accuracy": [
+            -0.027027027027026973,
+            0.0,
+            -0.027027027027026973
+          ]
+        },
+        "mean_delta": {
+          "Recall@1": -0.012500000000000002,
+          "Recall@5": 0.049999999999999996,
+          "mAP_instance": 7.314456325116976e-05,
+          "phonology_macro_f1": 0.050899298861288016,
+          "signer_accuracy": -0.018018018018017983
+        },
+        "std_delta": {
+          "Recall@1": 0.02165063509461097,
+          "Recall@5": 0.03749999999999999,
+          "mAP_instance": 0.008452867640156961,
+          "phonology_macro_f1": 0.03405906360603207,
+          "signer_accuracy": 0.015604061329449314
+        },
+        "consistent_two_metric_pilot_benefit": false
+      },
+      "D_combined_vs_B_articulator": {
+        "seeds": [
+          42,
+          43,
+          44
+        ],
+        "paired_seed_deltas": {
+          "Recall@1": [
+            -0.025,
+            0.024999999999999998,
+            -0.025
+          ],
+          "Recall@5": [
+            0.012500000000000011,
+            0.0875,
+            0.0
+          ],
+          "mAP_instance": [
+            -0.00478687466170321,
+            0.012408944139604326,
+            -0.004701832080516666
+          ],
+          "phonology_macro_f1": [
+            0.01669614677499176,
+            0.006672992547421208,
+            0.025688957129674395
+          ],
+          "signer_accuracy": [
+            -0.027027027027026973,
+            -0.027027027027026973,
+            0.0
+          ]
+        },
+        "mean_delta": {
+          "Recall@1": -0.008333333333333335,
+          "Recall@5": 0.03333333333333333,
+          "mAP_instance": 0.000973412465794817,
+          "phonology_macro_f1": 0.016352698817362454,
+          "signer_accuracy": -0.018018018018017983
+        },
+        "std_delta": {
+          "Recall@1": 0.02886751345948129,
+          "Recall@5": 0.04732423621500228,
+          "mAP_instance": 0.009903552219137288,
+          "phonology_macro_f1": 0.009512633422090683,
+          "signer_accuracy": 0.015604061329449314
+        },
+        "consistent_two_metric_pilot_benefit": false
+      }
+    },
+    "use": "descriptive held-out check; test results cannot select recipes or authorize phase 2"
+  },
+  "scope": "40-gloss local pilot; descriptive training-seed variation; no significance, full benchmark or SOTA claim",
+  "phase2_rule": "Both generic and articulator controls, complete paired seeds and matching coverage must be checked. Broader validation is required before multiscale/scale-up.",
+  "artifact_audit": {
+    "verified_runs": 12,
+    "contract_equal": true,
+    "manifest_sha256": "f8debdd61ae1ff418ee7f7f372ef1e95e0e5b87eb4c76f3658a1d04bdb1a3f20",
+    "eval_protocol_sha256": "1306d77f9e210cbb0be5a28f2ac0f3cbf2b21d4ff9d7e7c155b88ea4a0d2f458",
+    "source_hash": "0fe5684ff8e302971da9584c1f4f7bd5c11f073cb3e95bd1d44ed738bb14aaf2",
+    "checks": "checkpoint step/config/hash, artifact bytes, finite feature tensors, identical sample rows, normalization, coverage and controls"
+  },
+  "health": {
+    "A_generic_seed42": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.35577088594436646,
+      "final_student_std": 0.05066172545775771,
+      "final_teacher_std": 0.048527916893363,
+      "final_between_sample_cosine": 0.9896592199802399,
+      "edge_query_totals": {}
+    },
+    "B_articulator_seed42": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.4018518477678299,
+      "final_student_std": 0.03894293447956443,
+      "final_teacher_std": 0.04136642813682556,
+      "final_between_sample_cosine": 0.9944481551647186,
+      "edge_query_totals": {}
+    },
+    "C_relation_seed42": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.3790077865123749,
+      "final_student_std": 0.03721386380493641,
+      "final_teacher_std": 0.03707956615835428,
+      "final_between_sample_cosine": 0.9941251873970032,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2899.0,
+        "edge_0_2_short_valid_queries": 3053.5,
+        "edge_1_2_short_valid_queries": 3033.5,
+        "edge_0_3_short_valid_queries": 3053.5,
+        "edge_1_3_short_valid_queries": 3033.0
+      }
+    },
+    "D_combined_seed42": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.4199410229921341,
+      "final_student_std": 0.03368762135505676,
+      "final_teacher_std": 0.03756710886955261,
+      "final_between_sample_cosine": 0.995677262544632,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2899.0,
+        "edge_0_2_short_valid_queries": 3053.5,
+        "edge_1_2_short_valid_queries": 3033.5,
+        "edge_0_3_short_valid_queries": 3053.5,
+        "edge_1_3_short_valid_queries": 3033.0
+      }
+    },
+    "A_generic_seed43": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.3498581498861313,
+      "final_student_std": 0.018558600917458534,
+      "final_teacher_std": 0.026924241334199905,
+      "final_between_sample_cosine": 0.9989119470119476,
+      "edge_query_totals": {}
+    },
+    "B_articulator_seed43": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.401121586561203,
+      "final_student_std": 0.01745923887938261,
+      "final_teacher_std": 0.02811469044536352,
+      "final_between_sample_cosine": 0.9989606738090515,
+      "edge_query_totals": {}
+    },
+    "C_relation_seed43": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.3696676790714264,
+      "final_student_std": 0.016828985884785652,
+      "final_teacher_std": 0.02497015241533518,
+      "final_between_sample_cosine": 0.9990457892417908,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2914.5,
+        "edge_0_2_short_valid_queries": 3055.5,
+        "edge_1_2_short_valid_queries": 3042.5,
+        "edge_0_3_short_valid_queries": 3055.0,
+        "edge_1_3_short_valid_queries": 3042.0
+      }
+    },
+    "D_combined_seed43": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.41753245890140533,
+      "final_student_std": 0.01345743890851736,
+      "final_teacher_std": 0.02617085538804531,
+      "final_between_sample_cosine": 0.9993698298931122,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2914.5,
+        "edge_0_2_short_valid_queries": 3055.5,
+        "edge_1_2_short_valid_queries": 3042.5,
+        "edge_0_3_short_valid_queries": 3055.0,
+        "edge_1_3_short_valid_queries": 3042.0
+      }
+    },
+    "A_generic_seed44": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.3593095541000366,
+      "final_student_std": 0.018851378932595253,
+      "final_teacher_std": 0.028225528076291084,
+      "final_between_sample_cosine": 0.9987739026546478,
+      "edge_query_totals": {}
+    },
+    "B_articulator_seed44": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.406974196434021,
+      "final_student_std": 0.02009523380547762,
+      "final_teacher_std": 0.026147359050810337,
+      "final_between_sample_cosine": 0.9988147914409637,
+      "edge_query_totals": {}
+    },
+    "C_relation_seed44": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.41569817066192627,
+      "final_student_std": 0.028378311544656754,
+      "final_teacher_std": 0.0262503232806921,
+      "final_between_sample_cosine": 0.9972528517246246,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2910.0,
+        "edge_0_2_short_valid_queries": 3049.5,
+        "edge_1_2_short_valid_queries": 3046.5,
+        "edge_0_3_short_valid_queries": 3049.0,
+        "edge_1_3_short_valid_queries": 3046.5
+      }
+    },
+    "D_combined_seed44": {
+      "steps": 200,
+      "max_collapse_alarm_count": 0,
+      "final_loss": 0.4661352187395096,
+      "final_student_std": 0.023553569801151752,
+      "final_teacher_std": 0.02587059047073126,
+      "final_between_sample_cosine": 0.998367190361023,
+      "edge_query_totals": {
+        "edge_0_1_short_valid_queries": 2910.0,
+        "edge_0_2_short_valid_queries": 3049.5,
+        "edge_1_2_short_valid_queries": 3046.5,
+        "edge_0_3_short_valid_queries": 3049.0,
+        "edge_1_3_short_valid_queries": 3046.5
+      }
+    }
+  },
+  "provenance_warnings": [],
+  "summary_source_sha256": "d332a502049d1d16c9b80ee37e1953a1fc702a695c50cd6de7f9095149f49cfe"
+}
