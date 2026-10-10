@@ -1,0 +1,1128 @@
+[
+  {
+    "index": 0,
+    "sample_id": "how2sign:-1PeVdIwiq0_17-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/000.jpg"
+  },
+  {
+    "index": 1,
+    "sample_id": "how2sign:-AZVqXtWGg0_20-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/001.jpg"
+  },
+  {
+    "index": 2,
+    "sample_id": "how2sign:-Ajh5HDqsi4_7-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/002.jpg"
+  },
+  {
+    "index": 3,
+    "sample_id": "how2sign:-BKq3iOBB9k_5-3-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 2,
+      "endpoint": 1,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/003.jpg"
+  },
+  {
+    "index": 4,
+    "sample_id": "how2sign:-Bz0BNwqAE4_5-5-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/004.jpg"
+  },
+  {
+    "index": 5,
+    "sample_id": "how2sign:-aEP1MfoUSU_11-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 4,
+      "endpoint": 1,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/005.jpg"
+  },
+  {
+    "index": 6,
+    "sample_id": "how2sign:-b4_y6LOSx0_12-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 0,
+      "endpoint": 0,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/006.jpg"
+  },
+  {
+    "index": 7,
+    "sample_id": "how2sign:0-bR2rq-qps_7-5-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/007.jpg"
+  },
+  {
+    "index": 8,
+    "sample_id": "how2sign:01j1UveqztE_7-3-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 2,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/008.jpg"
+  },
+  {
+    "index": 9,
+    "sample_id": "how2sign:01ucR6XreJw_11-5-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 2,
+      "endpoint": 2,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/009.jpg"
+  },
+  {
+    "index": 10,
+    "sample_id": "how2sign:038vE9JsU9I_4-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 0,
+      "endpoint": 0,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/010.jpg"
+  },
+  {
+    "index": 11,
+    "sample_id": "how2sign:04VKILduLSM_4-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 1,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/011.jpg"
+  },
+  {
+    "index": 12,
+    "sample_id": "how2sign:04hnjLKHh2g_9-5-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 1,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/012.jpg"
+  },
+  {
+    "index": 13,
+    "sample_id": "how2sign:06Yvm4X81WI_11-5-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 1,
+      "endpoint": 0,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/013.jpg"
+  },
+  {
+    "index": 14,
+    "sample_id": "how2sign:077rQK39ycg_2-5-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 3,
+      "endpoint": 0,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/014.jpg"
+  },
+  {
+    "index": 15,
+    "sample_id": "how2sign:07EGkSiMsL0_20-5-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 3,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/015.jpg"
+  },
+  {
+    "index": 16,
+    "sample_id": "how2sign:07HhpnroTXs_0-5-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 3,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/016.jpg"
+  },
+  {
+    "index": 17,
+    "sample_id": "how2sign:09cQe0gC2-0_3_4-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/017.jpg"
+  },
+  {
+    "index": 18,
+    "sample_id": "how2sign:0EXgSf1yN-0_3-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 1,
+      "endpoint": 0,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/018.jpg"
+  },
+  {
+    "index": 19,
+    "sample_id": "how2sign:0ICZi26jdaQ_5-5-rgb_front",
+    "mask": {
+      "type": "motion_salient",
+      "endpoint": 0,
+      "start": 2,
+      "end": 6
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/019.jpg"
+  },
+  {
+    "index": 20,
+    "sample_id": "how2sign:0sal9F4RXeY_10-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 0,
+      "endpoint": 0,
+      "start": 2,
+      "end": 6
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/020.jpg"
+  },
+  {
+    "index": 21,
+    "sample_id": "how2sign:0t94zPbIPTw_7-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 1,
+      "endpoint": 2,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/021.jpg"
+  },
+  {
+    "index": 22,
+    "sample_id": "how2sign:0trr2UC5l5M_10-11-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 3,
+      "endpoint": 0,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/022.jpg"
+  },
+  {
+    "index": 23,
+    "sample_id": "how2sign:10d1oeViKYw_8-5-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 1,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/023.jpg"
+  },
+  {
+    "index": 24,
+    "sample_id": "how2sign:11oEwlBqF2M_6-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/024.jpg"
+  },
+  {
+    "index": 25,
+    "sample_id": "how2sign:14ZYG0hU6G8_2-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 0,
+      "endpoint": 0,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/025.jpg"
+  },
+  {
+    "index": 26,
+    "sample_id": "how2sign:14z8c3QqV0E_4-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 4,
+      "endpoint": 1,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/026.jpg"
+  },
+  {
+    "index": 27,
+    "sample_id": "how2sign:15bYoBr7BWs_46-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/027.jpg"
+  },
+  {
+    "index": 28,
+    "sample_id": "how2sign:163ylBUtKlI_6-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 1,
+      "endpoint": 0,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/028.jpg"
+  },
+  {
+    "index": 29,
+    "sample_id": "how2sign:16iJ0z4FUqc_8-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 3,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/029.jpg"
+  },
+  {
+    "index": 30,
+    "sample_id": "how2sign:17ijcOW43Q8_7-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/030.jpg"
+  },
+  {
+    "index": 31,
+    "sample_id": "how2sign:18PiUlfjLEQ_7-2-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 2,
+      "endpoint": 2,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/031.jpg"
+  },
+  {
+    "index": 32,
+    "sample_id": "how2sign:18YQlS_nliI_3-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/032.jpg"
+  },
+  {
+    "index": 33,
+    "sample_id": "how2sign:1CjA3Xzvd0k_5-5-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 1,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/033.jpg"
+  },
+  {
+    "index": 34,
+    "sample_id": "how2sign:1FStJdud1lQ_21-5-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/034.jpg"
+  },
+  {
+    "index": 35,
+    "sample_id": "how2sign:1KKlZKlWdTM_0-5-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/035.jpg"
+  },
+  {
+    "index": 36,
+    "sample_id": "how2sign:1LaWSGs87gA_14-5-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 2,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/036.jpg"
+  },
+  {
+    "index": 37,
+    "sample_id": "how2sign:1LaWSGs87gA_3-5-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 1,
+      "endpoint": 0,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/037.jpg"
+  },
+  {
+    "index": 38,
+    "sample_id": "how2sign:1LgVgklOYCQ_0-5-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/038.jpg"
+  },
+  {
+    "index": 39,
+    "sample_id": "how2sign:1PO6_voQXoc_7-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/039.jpg"
+  },
+  {
+    "index": 40,
+    "sample_id": "how2sign:1Q2BYTlbdiE_23-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/040.jpg"
+  },
+  {
+    "index": 41,
+    "sample_id": "how2sign:1Yp-xuljnDM_6-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 3,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/041.jpg"
+  },
+  {
+    "index": 42,
+    "sample_id": "how2sign:1_N0Aq04tRA_11-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 0,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/042.jpg"
+  },
+  {
+    "index": 43,
+    "sample_id": "how2sign:1aRNY8wFqa0_28-8-rgb_front",
+    "mask": {
+      "type": "motion_salient",
+      "endpoint": 0,
+      "start": 2,
+      "end": 6
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/043.jpg"
+  },
+  {
+    "index": 44,
+    "sample_id": "how2sign:1cbTN8a73zo_15-5-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 4,
+      "endpoint": 3,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/044.jpg"
+  },
+  {
+    "index": 45,
+    "sample_id": "how2sign:1dFd3NYkINQ_1-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/045.jpg"
+  },
+  {
+    "index": 46,
+    "sample_id": "how2sign:1e2wDf5R_zk_1-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 4,
+      "endpoint": 1,
+      "start": 2,
+      "end": 6
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/046.jpg"
+  },
+  {
+    "index": 47,
+    "sample_id": "how2sign:1ei1kVTw23A_14-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 2,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/047.jpg"
+  },
+  {
+    "index": 48,
+    "sample_id": "how2sign:1fdMM1LuAsY_3-8-rgb_front",
+    "mask": {
+      "type": "motion_salient",
+      "endpoint": 0,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/048.jpg"
+  },
+  {
+    "index": 49,
+    "sample_id": "how2sign:1gycdY2pcYc_2-11-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/049.jpg"
+  },
+  {
+    "index": 50,
+    "sample_id": "how2sign:1h3mvQDZnBw_11-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 2,
+      "endpoint": 1,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/050.jpg"
+  },
+  {
+    "index": 51,
+    "sample_id": "how2sign:1h3mvQDZnBw_17-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 4,
+      "endpoint": 1,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/051.jpg"
+  },
+  {
+    "index": 52,
+    "sample_id": "how2sign:1ptcPCWBvBc_5-8-rgb_front",
+    "mask": {
+      "type": "motion_salient",
+      "endpoint": 0,
+      "start": 2,
+      "end": 6
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/052.jpg"
+  },
+  {
+    "index": 53,
+    "sample_id": "how2sign:1qNsErmkIiU_5-3-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 1,
+      "endpoint": 0,
+      "start": 2,
+      "end": 6
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/053.jpg"
+  },
+  {
+    "index": 54,
+    "sample_id": "how2sign:1qYHdB1eWQc_12-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/054.jpg"
+  },
+  {
+    "index": 55,
+    "sample_id": "how2sign:2-zlrJXlOGA_5-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/055.jpg"
+  },
+  {
+    "index": 56,
+    "sample_id": "how2sign:21BHzn_li1s_9-5-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 0,
+      "endpoint": 1,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/056.jpg"
+  },
+  {
+    "index": 57,
+    "sample_id": "how2sign:23GbjIU50qw_18-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 1,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/057.jpg"
+  },
+  {
+    "index": 58,
+    "sample_id": "how2sign:3GgkyZLNZkA_10-2-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 3,
+      "endpoint": 0,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/058.jpg"
+  },
+  {
+    "index": 59,
+    "sample_id": "how2sign:40dTE31p5uA_2-5-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 2,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/059.jpg"
+  },
+  {
+    "index": 60,
+    "sample_id": "how2sign:47oJoR2BC34_6-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/060.jpg"
+  },
+  {
+    "index": 61,
+    "sample_id": "how2sign:484PoKla0ug_16-1-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 0,
+      "start": 2,
+      "end": 6
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/061.jpg"
+  },
+  {
+    "index": 62,
+    "sample_id": "how2sign:4ChFh4LdxVg_8-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 0,
+      "endpoint": 0,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/062.jpg"
+  },
+  {
+    "index": 63,
+    "sample_id": "how2sign:4UlmDZi98fk_13-5-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 2,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/063.jpg"
+  },
+  {
+    "index": 64,
+    "sample_id": "how2sign:5VkXcJblh4o_3-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 0,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/064.jpg"
+  },
+  {
+    "index": 65,
+    "sample_id": "how2sign:5sdZhVCmDJ4_5-4-rgb_front",
+    "mask": {
+      "type": "motion_salient",
+      "endpoint": 1,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/065.jpg"
+  },
+  {
+    "index": 66,
+    "sample_id": "how2sign:5vSvXTHeD5I_2-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/066.jpg"
+  },
+  {
+    "index": 67,
+    "sample_id": "how2sign:BRBt1zOfZnc_9-3-rgb_front",
+    "mask": {
+      "type": "motion_salient",
+      "endpoint": 1,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/067.jpg"
+  },
+  {
+    "index": 68,
+    "sample_id": "how2sign:BUrqXtTa46Y_5-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 2,
+      "endpoint": 2,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/068.jpg"
+  },
+  {
+    "index": 69,
+    "sample_id": "how2sign:BubKD1vPvvQ_2-11-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/069.jpg"
+  },
+  {
+    "index": 70,
+    "sample_id": "how2sign:CJ8RyW9pzKU_7-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/070.jpg"
+  },
+  {
+    "index": 71,
+    "sample_id": "how2sign:CWIsQEHuVZ4_4-3-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 1,
+      "start": 2,
+      "end": 6
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/071.jpg"
+  },
+  {
+    "index": 72,
+    "sample_id": "how2sign:CerG8JKzDIE_15-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/072.jpg"
+  },
+  {
+    "index": 73,
+    "sample_id": "how2sign:CxT4a1Gtkjo_11-1-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 0,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/073.jpg"
+  },
+  {
+    "index": 74,
+    "sample_id": "how2sign:DE8YkWRpvYA_3-5-rgb_front",
+    "mask": {
+      "type": "motion_salient",
+      "endpoint": 0,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/074.jpg"
+  },
+  {
+    "index": 75,
+    "sample_id": "how2sign:DcFCY1OFhCw_5-3-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/075.jpg"
+  },
+  {
+    "index": 76,
+    "sample_id": "how2sign:EA5TtaqpJ9w_18-4-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/076.jpg"
+  },
+  {
+    "index": 77,
+    "sample_id": "how2sign:EF4dlnqkJ3w_13-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/077.jpg"
+  },
+  {
+    "index": 78,
+    "sample_id": "how2sign:EMi4hyW42Fs_3-5-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 3,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/078.jpg"
+  },
+  {
+    "index": 79,
+    "sample_id": "how2sign:Ec9KthfKXXI_4-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 3,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/079.jpg"
+  },
+  {
+    "index": 80,
+    "sample_id": "how2sign:F0eCE9z6ENc_8-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 2,
+      "endpoint": 1,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/080.jpg"
+  },
+  {
+    "index": 81,
+    "sample_id": "how2sign:FGfPccy3juw_3-5-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/081.jpg"
+  },
+  {
+    "index": 82,
+    "sample_id": "how2sign:FStKSCmBx00_12-4-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/082.jpg"
+  },
+  {
+    "index": 83,
+    "sample_id": "how2sign:FTuTLRq7014_8-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 2,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/083.jpg"
+  },
+  {
+    "index": 84,
+    "sample_id": "how2sign:_FS9zbJi8qE_6-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 1,
+      "endpoint": 0,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/084.jpg"
+  },
+  {
+    "index": 85,
+    "sample_id": "how2sign:a6xKFGeHX4A_15-5-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/085.jpg"
+  },
+  {
+    "index": 86,
+    "sample_id": "how2sign:aGITFRfpMJA_6-8-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 4,
+      "endpoint": 3,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/086.jpg"
+  },
+  {
+    "index": 87,
+    "sample_id": "how2sign:bA53FmWDNPU_14-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 0,
+      "start": 3,
+      "end": 7
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/087.jpg"
+  },
+  {
+    "index": 88,
+    "sample_id": "how2sign:bAnA79gWZXI_8-5-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/088.jpg"
+  },
+  {
+    "index": 89,
+    "sample_id": "how2sign:bH1KCt78l7c_8-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/089.jpg"
+  },
+  {
+    "index": 90,
+    "sample_id": "how2sign:bjQrRezhvQU_9-1-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/090.jpg"
+  },
+  {
+    "index": 91,
+    "sample_id": "how2sign:btSrRQAWN6k_6-4-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 3,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/091.jpg"
+  },
+  {
+    "index": 92,
+    "sample_id": "how2sign:c8qCeBSlaOw_12-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/092.jpg"
+  },
+  {
+    "index": 93,
+    "sample_id": "how2sign:cQBrXCcfDyc_36-5-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 4,
+      "endpoint": 1,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/093.jpg"
+  },
+  {
+    "index": 94,
+    "sample_id": "how2sign:cZhGkz4jNnk_6-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 3,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/094.jpg"
+  },
+  {
+    "index": 95,
+    "sample_id": "how2sign:celb3UJ9_Ko_0-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 2,
+      "start": 1,
+      "end": 5
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/095.jpg"
+  },
+  {
+    "index": 96,
+    "sample_id": "how2sign:clXjA4Ok8Bs_5-5-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 3,
+      "endpoint": 0,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/096.jpg"
+  },
+  {
+    "index": 97,
+    "sample_id": "how2sign:dR5U_NeNx18_4-5-rgb_front",
+    "mask": {
+      "type": "relation_break",
+      "edge": 1,
+      "endpoint": 2,
+      "start": 0,
+      "end": 4
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/097.jpg"
+  },
+  {
+    "index": 98,
+    "sample_id": "how2sign:dcN7W0lxTpE_27-8-rgb_front",
+    "mask": {
+      "type": "random_multiblock"
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/098.jpg"
+  },
+  {
+    "index": 99,
+    "sample_id": "how2sign:e_S9g_NKlvY_5-8-rgb_front",
+    "mask": {
+      "type": "articulator",
+      "endpoint": 1,
+      "start": 4,
+      "end": 8
+    },
+    "status": "rendered",
+    "image": "reports/geometry_qa100_v2/099.jpg"
+  }
+]
