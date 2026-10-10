@@ -1,0 +1,46 @@
+{
+  "executed_at": "2026-10-07T05:12:05.757523+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "542b3605a2a84171bb7e9ec109b39395589d25669047fbb9295c0c204f939eef",
+  "status": "passed",
+  "data_kind": "synthetic",
+  "world_size": 2,
+  "backend": "gloo",
+  "optimizer_updates": 8,
+  "stats_batch": 4,
+  "optimizer_batch": 8,
+  "accumulation_steps": 2,
+  "checkpoint_sha256": "b21c84f149d859f26aae86f0cb92f3b925df806777193fefb5f8600a3a81aa5f",
+  "checkpoint": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_ddp_recipe_bound_v8/train/checkpoints/final.pt",
+  "config_sha256": "7edd20278f79942503d221f7d42c1050fa62f6bf4f884301c9e24f11d5fc4810",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "-m",
+    "torch.distributed.run",
+    "--standalone",
+    "--nnodes=1",
+    "--nproc_per_node=2",
+    "--module",
+    "signcoord.cli",
+    "train",
+    "--config",
+    "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_ddp_recipe_bound_v8/config.yaml"
+  ],
+  "compute_ledger": {
+    "elapsed_training_seconds": 5.40952094597742,
+    "device": "cpu",
+    "world_size": 2,
+    "stats_batch": 4,
+    "optimizer_batch": 8,
+    "accumulation_contract": "mean_of_microstep_global_weighted_means",
+    "training_gpu_hours": 0.0,
+    "peak_allocated_bytes": null,
+    "peak_allocated_bytes_by_rank": [
+      null,
+      null
+    ]
+  },
+  "relation_active_supervision": true,
+  "cpu_checkpoint_cuda_rng_queries": false,
+  "scope": "actual launcher/CLI/optimizer engineering check; no scientific transfer result"
+}

@@ -1,0 +1,35 @@
+{
+  "executed_at": "2026-10-07T05:12:41.365839+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "542b3605a2a84171bb7e9ec109b39395589d25669047fbb9295c0c204f939eef",
+  "status": "passed",
+  "version": "recipe_bound_v8",
+  "wheel": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/package_recipe_bound_v8/wheels/signcoord_ssl-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "d6434d60138ebedcc67873781300260b5c9665842c646793c4689f61d0b044cf",
+  "isolated_target_install": true,
+  "shared_environment_mutated": false,
+  "source_unchanged_during_execution": true,
+  "installed_source_hash_matches": true,
+  "doctor_exit_code": 1,
+  "doctor_expected_missing_inputs": {
+    "executed_at": "2026-10-07T05:12:45.009919+00:00",
+    "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+    "implementation_hash": "542b3605a2a84171bb7e9ec109b39395589d25669047fbb9295c0c204f939eef",
+    "status": "inputs_missing",
+    "missing_inputs": [
+      "data.ssl_train_manifest",
+      "data.pose_cache_root",
+      "model.initialization_checkpoint"
+    ],
+    "backbone_implemented": true,
+    "config_hash": "e1c354fdf98a2385f52d383a04560837b31ecd05ba6774f7ea6cf3defe7284a0",
+    "environment": {
+      "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:09:02) [GCC 11.2.0]",
+      "torch": "2.11.0+cu128",
+      "numpy": "2.5.3",
+      "av": "17.1.0",
+      "cuda_available": true
+    },
+    "spectral_windows": 2
+  }
+}

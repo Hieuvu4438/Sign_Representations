@@ -1,0 +1,75 @@
+{
+  "arm": "A9",
+  "run_dir": "method/signcoord_ssl/runs/A9_how2sign_real_smoke_controls_v5",
+  "optimizer_updates": 4,
+  "manifest_hash": "036ba3c75304dede79d6154cebf8b01115aaa2b4bfe4a74ddf0946ad6d8f6861",
+  "log_sha256": "22133d03608c9525660cdbff2486cb5c165e7936bfd652933ce7e5d2028412eb",
+  "relation_denominators": [
+    0.0,
+    32.93374252319336,
+    32.769161224365234,
+    33.458431243896484
+  ],
+  "active_updates": [
+    3,
+    4
+  ],
+  "weighted_relation_contributions": [
+    0.0,
+    0.0,
+    0.028951582312583924,
+    0.06963572502136231
+  ],
+  "gradient_norms_before_clip": [
+    9.941789627075195,
+    36.59672546386719,
+    69.52896881103516,
+    47.232723236083984
+  ],
+  "shuffle": [
+    {
+      "strategy": "exact_basic_support_and_microsecond_interval_groups_nonzero_cyclic_rotation_v1",
+      "scope": "local_microbatch_single_process",
+      "eligible_samples": 0,
+      "changed_samples": 0,
+      "skipped_samples": 2,
+      "target_sample_ids": [
+        null,
+        null
+      ]
+    },
+    {
+      "strategy": "exact_basic_support_and_microsecond_interval_groups_nonzero_cyclic_rotation_v1",
+      "scope": "local_microbatch_single_process",
+      "eligible_samples": 2,
+      "changed_samples": 2,
+      "skipped_samples": 0,
+      "target_sample_ids": [
+        "how2sign:0Ft9bREx_G0_0-8-rgb_front",
+        "how2sign:aI092VEhmRU_0-8-rgb_front"
+      ]
+    },
+    {
+      "strategy": "exact_basic_support_and_microsecond_interval_groups_nonzero_cyclic_rotation_v1",
+      "scope": "local_microbatch_single_process",
+      "eligible_samples": 2,
+      "changed_samples": 2,
+      "skipped_samples": 0,
+      "target_sample_ids": [
+        "how2sign:006DXpJ9erw_1-5-rgb_front",
+        "how2sign:1iJg1Tm5Q1w_0-8-rgb_front"
+      ]
+    },
+    {
+      "strategy": "exact_basic_support_and_microsecond_interval_groups_nonzero_cyclic_rotation_v1",
+      "scope": "local_microbatch_single_process",
+      "eligible_samples": 2,
+      "changed_samples": 2,
+      "skipped_samples": 0,
+      "target_sample_ids": [
+        "how2sign:0GJk5oID0PA_0-3-rgb_front",
+        "how2sign:1b7CDv-Ssuw_0-8-rgb_front"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "executed_at": "2026-10-07T05:19:45.773211+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "542b3605a2a84171bb7e9ec109b39395589d25669047fbb9295c0c204f939eef",
+  "status": "passed",
+  "scope": "4-update real CPU gradient engineering check; not matched research pilot",
+  "run_dir": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/A7_how2sign_real_smoke_recipe_bound_v8",
+  "precision": "fp32",
+  "device": "cpu",
+  "world_size": 1,
+  "initialization": "SignRep external continued pretraining",
+  "relation_activated_updates": [
+    3,
+    4
+  ],
+  "active_bin_counts": [
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ]
+  ],
+  "grad_norm_before_clip": [
+    9.692489624023438,
+    25.260845184326172,
+    40.22764205932617,
+    45.47426223754883
+  ],
+  "weighted_phase_contributions": [
+    [
+      0.0
+    ],
+    [
+      0.0
+    ],
+    [
+      0.03416153490543366
+    ],
+    [
+      0.06568247675895691
+    ]
+  ],
+  "target_stats_sha256": "f12ac853303d4a2246daa255fb153140453cdc96f219802cda410ecf4803409c",
+  "phase_calibration_sha256": "55807ad2b05a28a5e0c376dcf98cd64f716c8af3dff632a3e2f585bb3f498e60"
+}

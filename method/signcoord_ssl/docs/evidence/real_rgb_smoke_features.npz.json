@@ -1,0 +1,21 @@
+{
+  "executed_at": "2026-10-07T04:19:46.841586+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "a3c33c6100cf3c1c6dffda33a90fc8fea64d729c842409f3bc7bea74c3808f84",
+  "status": "passed",
+  "checkpoint_sha256": "f1f27b4d294b55bd01a5d53bf8f066b1b86f6848ccbb82b6aff89f4ceb931a25",
+  "manifest_sha256": "b9df372e596c80bbba0f7333feb04658575aaeda9a4cdc0ea2046f2fbaabf7f3",
+  "sampler_hash": "94875a3ac1a1d6741caa68cb9fb3810d0a702d23619422bdd231b55ea2f29a03",
+  "pooling_hash": "2ffc259fbc985bc3c87e011e854cd0abf88956128083f5285fe2e01ec7fe09cc",
+  "pooling_protocol": {
+    "policy": "mean_overlaps_at_each_unique_native_timestamp_then_uniform_pool_v1",
+    "window_stride": 16,
+    "tail_start_policy": "round_down_even_last_start_with_padding",
+    "rgb_only": true
+  },
+  "sample_count": 1,
+  "output_sha256": "8e7039233665bcd5426b36a435e699a36a0520c135f8368f46146df5b084e704",
+  "labels_read_by_encoder": false,
+  "feature_layer": "final_pre_classifier",
+  "scope": "one_real_1.28_second_SSL_dev_RGB_interval; engineering_only_no_benchmark"
+}

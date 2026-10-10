@@ -1,0 +1,710 @@
+{
+  "executed_at": "2026-10-07T03:58:05.210793+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "c0fefbfd842732b03779f12330525864b7b117912bddb909f77bf7665713705e",
+  "status": "passed",
+  "samples": [
+    {
+      "sample_id": "how2sign:-e28snEMnO4_2_3-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:DQudsojO17s_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1YR0GF3vd4w_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:13_6CMOhVvo_0-3-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:F38nf-l4VmU_18_19_20_21-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:c_M23pD7JHc_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:-FE9cQO9pmU_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:aF2UwmXKdI4_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 0.6875,
+      "spectral_timing_coverage": 0.6875,
+      "repeat_fraction": 0.047619047619047616
+    },
+    {
+      "sample_id": "how2sign:1BYz1IhT5F0_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:0rbUEsOc434_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:DwB2ujCHykM_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:2nOClTVZ-0w_9_10-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1lGojKZsjI4_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1cj15Is-Wjs_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 0.71875,
+      "spectral_timing_coverage": 0.71875,
+      "repeat_fraction": 0.045454545454545456
+    },
+    {
+      "sample_id": "how2sign:DUARl5i9XQ8_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1zRg1-tq9Uc_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:-cSzPRipb94_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:1EwP7HtNYR4_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:-dNt6nmRfFE_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1XzuqBmJxK4_10-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:006DXpJ9erw_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:ad4_GWc5XRo_18_19_20_21_22_23_24-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1XzuqBmJxK4_1_2-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:06bQ_DxQGJU_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:1IRJXMx85Rg_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:CREPjNfswRw_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:0u83ZskRPt0_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:5pvdT18f92A_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:d7sVdYZqjQk_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:BlhCuryvt88_13_14_15-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:3MXwlCKtSPU_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1NSanqJ8AS4_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1KKlZKlWdTM_2_3_4_5-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:0t4O9jMywAo_0-11-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1JfvA3hlnJs_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:1Y3zGxJShdA_1-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1eFlDHpjPNI_2_3_4_5-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:DV9TmqoYQiU_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:0GJk5oID0PA_0-3-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:1IYEEiLMaa8_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1inaLz6I4pE_0-11-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:1Qz0SIXS3no_23_24_25-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:aLhtVMR3SNw_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1iJg1Tm5Q1w_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:0Ft9bREx_G0_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:d-wjMWfpeZc_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:blRbyoIFBss_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:Eh4cZxdMMc8_10-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:22OyLDVZI6c_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:ad4_GWc5XRo_10-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 0.34375,
+      "spectral_timing_coverage": 0.34375,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:1LaWSGs87gA_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:Fm8dQO2A6PY_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:-0sphqZT1eQ_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:07n9gNTlVdI_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 0.59375,
+      "spectral_timing_coverage": 0.59375,
+      "repeat_fraction": 0.05555555555555555
+    },
+    {
+      "sample_id": "how2sign:fGpZTRPFf9Y_2-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:12gp5ivyz5M_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:1Q2BYTlbdiE_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 0.15625,
+      "spectral_timing_coverage": 0.15625,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:CQYIOWzYywU_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:aewpNjI88kw_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:028cpYJmYAk_1-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 0.90625,
+      "spectral_timing_coverage": 0.90625,
+      "repeat_fraction": 0.03571428571428571
+    },
+    {
+      "sample_id": "how2sign:0GwSyviALiU_0-11-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:CJO5S96W7Cs_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 0.25,
+      "spectral_timing_coverage": 0.25,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:1b7CDv-Ssuw_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:0ICZi26jdaQ_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:b2k59617MJs_0_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:0Esq_TAc-1Y_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:3GKsjSStbaE_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:aI092VEhmRU_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:_FTTCZOoBHg_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:fFk8oRYSMq0_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1dCbeG4mwVk_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:3-fARE8grc0_10_11_12-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:1RgGCJ0hw6k_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1EV7AT_lBno_18_19_20_21-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1EHuon_W9C8_0-3-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:fxtkHe6zRFg_10-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:5nk3hS9UHl0_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:f9OsarAxuIQ_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:2q5qGVs_7Wo_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:1qQEz4pbQkM_0-11-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:EicYnoErTkI_0-1-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:DE8YkWRpvYA_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 0.4375,
+      "spectral_timing_coverage": 0.4375,
+      "repeat_fraction": 0.07692307692307693
+    },
+    {
+      "sample_id": "how2sign:2-2lfoZ24hE_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:c11S3-7gekg_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:0yeKUlT9LnU_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:3RzgpH5Hg3I_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:06d7cIO6KsA_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:-cv1gZaGtNk_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:1PCzfhknC_s_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:eTtHXMC1Tco_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:C7IMvM4BwI8_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:0E_ELI0D4nA_7_8-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.0
+    },
+    {
+      "sample_id": "how2sign:1DHasvQymT4_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:3WEwTZHf8kI_0-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:Dy0raZ2UbmU_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:-4Sl9mPOlfA_0-3-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.06451612903225806
+    },
+    {
+      "sample_id": "how2sign:14hq4hRjwLc_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:eDoxY9hEauM_1-5-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:CJ8RyW9pzKU_0-8-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    },
+    {
+      "sample_id": "how2sign:bQq6NvgulaY_0-3-rgb_front",
+      "normalization_valid": true,
+      "geometry_coverage": 1.0,
+      "spectral_timing_coverage": 1.0,
+      "repeat_fraction": 0.03225806451612903
+    }
+  ],
+  "config_hash": "10189cd9802ee022df790a5142822891d3e9231715b53aef153d17bda21a56f0",
+  "manifest_hash": "036ba3c75304dede79d6154cebf8b01115aaa2b4bfe4a74ddf0946ad6d8f6861"
+}

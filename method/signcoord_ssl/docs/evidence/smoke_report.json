@@ -1,0 +1,431 @@
+{
+  "executed_at": "2026-10-07T04:01:23.026369+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "86a5944b325cac5042e4b4f7ecd414099dbe99549269a71e76f4e2e0ef353f26",
+  "status": "passed",
+  "scientific_evidence": false,
+  "data_kind": "synthetic",
+  "arms": [
+    "A3",
+    "A6",
+    "A7"
+  ],
+  "optimizer_updates_per_arm": 8,
+  "steps": [
+    {
+      "step": "generate",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/tools/generate_synthetic_fixture.py",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture"
+      ],
+      "returncode": 0,
+      "log_sha256": "631230549a205cd71d0d5e1381f827be23ca746302b79bdfa0d2ae7d206634f4"
+    },
+    {
+      "step": "doctor",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "doctor",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/doctor.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "3bd08afb0c1d9f763e8b19c395cbbe85dcd6308dfda388f412c471f35fcc7eb9"
+    },
+    {
+      "step": "audit_data",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "audit-data",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/data_overlap_report.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "007893e71afd21cd74c3f34bec17659b3733cdbe934b9efe47e11692ca8c314c"
+    },
+    {
+      "step": "fit_stats",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "fit-target-stats",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/stats/target_stats.json",
+        "--phase-output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/stats/phase_calibration.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "dddaab9d9de154dbdd6f37a22b2c31e6b5cdb9881c1e5e6c7059d7bce392ac62"
+    },
+    {
+      "step": "audit_targets",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "audit-targets",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/target_audit.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "4ecd45f191609ba40e1d892d5f2bd54d6b5a4e8f3b34d756ee89342d68d58b90"
+    },
+    {
+      "step": "A3_train",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "train",
+        "--arm",
+        "A3",
+        "--set",
+        "run_dir=/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A3",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "a29e3214a5e36f9a30b5ea8df2dfa188d4203c06e2cb4be69c3372a382ac033f"
+    },
+    {
+      "step": "A3_features_ssl_train",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "extract-features",
+        "--checkpoint",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A3/checkpoints/final.pt",
+        "--manifest",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/manifests/ssl_train.jsonl",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A3/ssl_train.npz",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "20047c4f1a651c9fb90cd1b4d08d89ebeb1a626b0843825e1e52a059ec36b3e5"
+    },
+    {
+      "step": "A3_features_ssl_dev",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "extract-features",
+        "--checkpoint",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A3/checkpoints/final.pt",
+        "--manifest",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/manifests/ssl_dev.jsonl",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A3/ssl_dev.npz",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "bb882c670b525d2fe465f335e2d901098115c810f7df3c71138c22994e0b274a"
+    },
+    {
+      "step": "A3_retrieval",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "eval-retrieval",
+        "--gallery",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A3/ssl_train.npz",
+        "--queries",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A3/ssl_dev.npz",
+        "--labels",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/labels.json",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A3/retrieval.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "12e4ada987d9b9455807ccb301a730daf703ababb41716551d827f660899a465"
+    },
+    {
+      "step": "A3_profile",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "profile",
+        "--arm",
+        "A3",
+        "--warmup-steps",
+        "2",
+        "--measure-steps",
+        "5",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A3/profile.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "29a580eaad3e0f0eb72ad1543884d91df7bae817d6ed00b349b28ccf14ba672e"
+    },
+    {
+      "step": "A6_train",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "train",
+        "--arm",
+        "A6",
+        "--set",
+        "run_dir=/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A6",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "92af01dd6713fb8041a58d356a34a6e6d61d11f8e488ef092a8437c714577e27"
+    },
+    {
+      "step": "A6_features_ssl_train",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "extract-features",
+        "--checkpoint",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A6/checkpoints/final.pt",
+        "--manifest",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/manifests/ssl_train.jsonl",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A6/ssl_train.npz",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "0883c9360859951296279d68cedcca25c69748fe34ad610f805e4dfd21559233"
+    },
+    {
+      "step": "A6_features_ssl_dev",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "extract-features",
+        "--checkpoint",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A6/checkpoints/final.pt",
+        "--manifest",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/manifests/ssl_dev.jsonl",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A6/ssl_dev.npz",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "d7c261060c87aa3e0f95ffdf7395e2b65d9ab1eb3eb4ead50aac1e7cafb7bb5c"
+    },
+    {
+      "step": "A6_retrieval",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "eval-retrieval",
+        "--gallery",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A6/ssl_train.npz",
+        "--queries",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A6/ssl_dev.npz",
+        "--labels",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/labels.json",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A6/retrieval.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "e074ef2415c30792cd77bc545883459858d49e12f0d62b62535213fbedb3047b"
+    },
+    {
+      "step": "A6_profile",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "profile",
+        "--arm",
+        "A6",
+        "--warmup-steps",
+        "2",
+        "--measure-steps",
+        "5",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A6/profile.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "6a46573475bf918cc64db7bfcec7835bd9faf164f8a576c53bef59b922853fcd"
+    },
+    {
+      "step": "A7_train",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "train",
+        "--arm",
+        "A7",
+        "--set",
+        "run_dir=/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "aec8acaded9401a392de6b070d3061b2f250eac87bb792fada78896623c10854"
+    },
+    {
+      "step": "A7_features_ssl_train",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "extract-features",
+        "--checkpoint",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/checkpoints/final.pt",
+        "--manifest",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/manifests/ssl_train.jsonl",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/ssl_train.npz",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "ada119574b3a04a7b737516dd0d11bbb8ca15d4cce8fe6d3b9b1ce300ce86f51"
+    },
+    {
+      "step": "A7_features_ssl_dev",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "extract-features",
+        "--checkpoint",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/checkpoints/final.pt",
+        "--manifest",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/manifests/ssl_dev.jsonl",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/ssl_dev.npz",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "5d185abe77893cb516a05e06bccb39473a1306da684422b9174992df1b788185"
+    },
+    {
+      "step": "A7_retrieval",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "eval-retrieval",
+        "--gallery",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/ssl_train.npz",
+        "--queries",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/ssl_dev.npz",
+        "--labels",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/labels.json",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/retrieval.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "9c80882785882870e38f7709568695f5596fcbe8fdc0e1f60ad1b3dec65faa6f"
+    },
+    {
+      "step": "A7_profile",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "profile",
+        "--arm",
+        "A7",
+        "--warmup-steps",
+        "2",
+        "--measure-steps",
+        "5",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/profile.json",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "d41a053e12b378f1da6633d7256580f1757b2d92f06be1c1ac9b1436626eb8f7"
+    },
+    {
+      "step": "A7_export",
+      "command": [
+        "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+        "-m",
+        "signcoord.cli",
+        "export",
+        "--checkpoint",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/checkpoints/final.pt",
+        "--output",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/A7/export",
+        "--config",
+        "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4/fixture/fixture_smoke.yaml"
+      ],
+      "returncode": 0,
+      "log_sha256": "ad822b4ad8a87d676a8a78a99f5a45bc4c9a120ab1672ae9d00bc94499247fa7"
+    }
+  ],
+  "synthetic_metrics": {
+    "A3": {
+      "rec1": 1.0,
+      "rec5": 1.0,
+      "rec10": 1.0,
+      "rr": 1.0,
+      "macro_label_rec1": 1.0,
+      "macro_label_rr": 1.0,
+      "macro_group_rec1": 1.0,
+      "macro_group_rr": 1.0
+    },
+    "A6": {
+      "rec1": 1.0,
+      "rec5": 1.0,
+      "rec10": 1.0,
+      "rr": 1.0,
+      "macro_label_rec1": 1.0,
+      "macro_label_rr": 1.0,
+      "macro_group_rec1": 1.0,
+      "macro_group_rr": 1.0
+    },
+    "A7": {
+      "rec1": 1.0,
+      "rec5": 1.0,
+      "rec10": 1.0,
+      "rr": 1.0,
+      "macro_label_rec1": 1.0,
+      "macro_label_rr": 1.0,
+      "macro_group_rec1": 1.0,
+      "macro_group_rr": 1.0
+    }
+  },
+  "profiles_are_short_cpu_checks_not_stable_gpu_estimates": true,
+  "root": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/fixture_pipeline_bounds_v4"
+}

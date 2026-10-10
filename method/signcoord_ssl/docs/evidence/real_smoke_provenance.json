@@ -1,0 +1,58 @@
+{
+  "executed_at": "2026-10-07T04:01:55.568026+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "86a5944b325cac5042e4b4f7ecd414099dbe99549269a71e76f4e2e0ef353f26",
+  "config_hash": "b9813a3326cc65a5203adef912c2215bf5b31e2b3df09fa5bb4be752b439802a",
+  "scientific_config_hash": "fc36c344a8853fc5645428e230e8c33b86c5a8b22d77d007293a6e34742a72f9",
+  "ssl_manifest_hash": "036ba3c75304dede79d6154cebf8b01115aaa2b4bfe4a74ddf0946ad6d8f6861",
+  "target_stats_hash": "b2e84e7b5fde5249f9a8b0047959088d14b4e158d233acb51f15d8594e2d88ed",
+  "phase_calibration_hash": "09d4476dabf428392637de0840214b6fcf0386e64031a72b86507b7044599e7f",
+  "schema_hash": "4fb30a558d4f36e1d610321ecf5cf3af420d291b3d3d3ca734d8b3b0650147ec",
+  "environment": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.3",
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:09:02) [GCC 11.2.0]"
+  },
+  "data_kind": "real",
+  "checkpoint_load_report": {
+    "initialization_mode": "signrep_pretrained",
+    "adapted_keys": [
+      "pos_embed_temporal"
+    ],
+    "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "excluded_training_keys": [
+      "fc.0.weight",
+      "fc.0.bias",
+      "fc.1.weight",
+      "active_head.0.weight",
+      "active_head.0.bias",
+      "active_head.2.weight",
+      "active_head.2.bias",
+      "cls_head.latent_proj.0.weight",
+      "cls_head.latent_proj.0.bias",
+      "cls_head.latent_proj.2.weight",
+      "cls_head.latent_proj.2.bias",
+      "cls_head.dict_component_projections.body_dist.layers.0.weight",
+      "cls_head.dict_component_projections.body_dist.layers.0.bias",
+      "cls_head.dict_component_projections.body_pose.layers.0.weight",
+      "cls_head.dict_component_projections.body_pose.layers.0.bias",
+      "cls_head.dict_component_projections.full_body_angles.layers.0.weight",
+      "cls_head.dict_component_projections.full_body_angles.layers.0.bias",
+      "cls_head.dict_component_projections.full_left_angles.layers.0.weight",
+      "cls_head.dict_component_projections.full_left_angles.layers.0.bias",
+      "cls_head.dict_component_projections.full_right_angles.layers.0.weight",
+      "cls_head.dict_component_projections.full_right_angles.layers.0.bias",
+      "cls_head.dict_component_projections.left_dist.layers.0.weight",
+      "cls_head.dict_component_projections.left_dist.layers.0.bias",
+      "cls_head.dict_component_projections.left_pose.layers.0.weight",
+      "cls_head.dict_component_projections.left_pose.layers.0.bias",
+      "cls_head.dict_component_projections.right_dist.layers.0.weight",
+      "cls_head.dict_component_projections.right_dist.layers.0.bias",
+      "cls_head.dict_component_projections.right_pose.layers.0.weight",
+      "cls_head.dict_component_projections.right_pose.layers.0.bias"
+    ]
+  },
+  "checkpoint_selection": "fixed_budget_final_only; frozen-dev selection not wired yet"
+}

@@ -1,0 +1,50 @@
+{
+  "executed_at": "2026-10-07T04:03:48.916026+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "86a5944b325cac5042e4b4f7ecd414099dbe99549269a71e76f4e2e0ef353f26",
+  "status": "visually_reviewed_50_midframes",
+  "trace_report_path": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/legacy_pose_trace_v1/trace_report.json",
+  "reviewed_sheets": [
+    "overlay_sheet_00.jpg",
+    "overlay_sheet_01.jpg",
+    "overlay_sheet_02.jpg",
+    "overlay_sheet_03.jpg",
+    "overlay_sheet_04.jpg",
+    "overlay_sheet_05.jpg",
+    "overlay_sheet_06.jpg",
+    "overlay_sheet_07.jpg",
+    "overlay_sheet_08.jpg",
+    "overlay_sheet_09.jpg"
+  ],
+  "approved_coordinate_conversion": "x_times_source_width_y_times_source_height",
+  "extractor_identity": "unknown",
+  "confidence_mapping": "train_only_part_q90_quality_heuristic",
+  "frames_have_variable_person_count": true,
+  "code_references": [
+    {
+      "path": "method/signrep_spectral/data/pose_reader.py",
+      "sha256": "5b50ef415e290bf8aa861673b2b0ef3325bc5c225da39487b95a146fb829c8ce"
+    },
+    {
+      "path": "method/signrep_spectral/records/discovery.md",
+      "sha256": "ecf40fc0c4832060e8f2880f168616e263dfc466059a136896bf6c54c77b16fd"
+    },
+    {
+      "path": "method/p4_signssl/p4/cip_states.py",
+      "sha256": "0216e258ba53bede1b77e15a3e517e6beb4d8a84fcaadc16e2bd7e1ce21b536b"
+    },
+    {
+      "path": "method/p4_signssl/scripts/explore_pose_motion.py",
+      "sha256": "2d7f82633c3e5e5d454b051db9010badc81d263df89e32456e38d336a088eb02"
+    },
+    {
+      "path": "third_party/SignRep/example_usage.py",
+      "sha256": "a53aa5b1c21e34ece8b7c228751a08c15de90f25914b8fe7d80115225f34af97"
+    }
+  ],
+  "limitations": [
+    "single_midframe_per_clip",
+    "no_full_trajectory_tracking_validation",
+    "not_pose_ground_truth_accuracy"
+  ]
+}

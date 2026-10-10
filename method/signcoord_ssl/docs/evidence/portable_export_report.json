@@ -1,0 +1,71 @@
+{
+  "executed_at": "2026-10-07T05:05:20.620773+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "2019b0ddc659565dcbbbd7a653fcc16dae4c3739d9ea26473bce0c884d53935b",
+  "status": "passed",
+  "checkpoint_sha256": "1d01651c4ab6d9ed8d30efbc09d158622aa4c522092129d9a5eb791eef9550f4",
+  "bundle": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/portable_export_generic_T32_v1/relocated_bundle/encoder.pt",
+  "bundle_sha256": "f6e65883c3cf77a2b1810b58ee037178eb7bdb019468e1d1f28bf3371e390608",
+  "backbone": "hiera_base_video_adapter",
+  "context": 32,
+  "precision": "fp32",
+  "max_absolute_errors": {
+    "sequence": 0.0,
+    "sequence_times": 0.0,
+    "sequence_valid": 0.0,
+    "clip_raw": 0.0,
+    "clip": 0.0
+  },
+  "fresh_process_with_deployment_only_code": true,
+  "original_vendor_path_required": false,
+  "forbidden_import_guard_passed": true,
+  "scope": "export engineering parity; no downstream efficacy comparison",
+  "metadata": {
+    "executed_at": "2026-10-07T05:05:11.153933+00:00",
+    "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+    "implementation_hash": "2019b0ddc659565dcbbbd7a653fcc16dae4c3739d9ea26473bce0c884d53935b",
+    "source_checkpoint_sha256": "1d01651c4ab6d9ed8d30efbc09d158622aa4c522092129d9a5eb791eef9550f4",
+    "rgb_only": true,
+    "feature_layer": "final_stage_pre_classifier",
+    "pooling": "uniform_valid_native_temporal_cells",
+    "offline_context": true,
+    "rgb_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "rgb_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "pose_pseudo_targets_used_during_training": false,
+    "torchscript_onnx": "not_attempted",
+    "vendor_source_required": true,
+    "vendor_source_bundled": true,
+    "external_vendor_path_required": false,
+    "deployment_dependencies": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.5.3",
+      "timm": "1.0.20",
+      "huggingface-hub": "1.14.0"
+    },
+    "deployment_source_hashes": {
+      "code/signcoord/__init__.py": "f72e621367705e8a92d3aab5a3872647885c82f515bdb25e84feafb1111ed637",
+      "code/signcoord/export/inference.py": "2e0c09ed9aa3365051fc4a3c3cd4ce321dec74638154720b46d56d7c5d1e5c69",
+      "code/signcoord/models/attention.py": "ffc30d1502ff0941ebabb43697fb7d21e1c3f34c4f8f1aba28477d97e8a67c95",
+      "code/signcoord/models/backbone_adapter.py": "6dcd6306e98859d9311f9ccd6f5afab8c8cb25ba5a6fbc71a9601f56239b2b1a",
+      "code/signcoord/models/generic_hiera_adapter.py": "5a54f0a342b26e6618ee7bbcbfd839873dd6bb848559155e2e4ee297a529ab51",
+      "code/signcoord/models/hiera_adapter.py": "4b1e30c7c5b4bf2309ec9f8e98d953867ee1bdefd3592405fc940eefe87db9a8",
+      "code/signcoord/provenance.py": "4ab3a918e9608d67c5b8576708c9be7c71ca0180d1358408f187e6a985e79c28",
+      "vendor/hiera/LICENSE": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "vendor/hiera/LICENSE.models": "b7744242389bd90a6140236228c3696b317c6fc8862d62c607178c8ca8c5cf68",
+      "vendor/hiera/hiera/__init__.py": "3962dc942530e90aceacf19e5397fed29c4ae122ba13dc02d618f2eaaca580a7",
+      "vendor/hiera/hiera/benchmarking.py": "195efad7dd061d8fb9dc1471ef44a839662288de00af1a1aa5f97135e8f38542",
+      "vendor/hiera/hiera/hfhub.py": "df0c12bdf44a575f734e5ee27b98adb27179218cda27d519d665f5fdc14f4354",
+      "vendor/hiera/hiera/hiera.py": "44b7efc44ca86e9df3b0682450bd2d98d6fb10d8be9d89be61ca492cc87dec94",
+      "vendor/hiera/hiera/hiera_mae.py": "f262c0d5965048c7c707cbbeae84df0cd629bc806504d720721980c94104e329",
+      "vendor/hiera/hiera/hiera_utils.py": "2e256cc22b27990a2b54e6a1bde1b9560eefef8dce67cf9b3f42bcab1953f3b6"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "executed_at": "2026-10-07T04:18:09.898646+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "c021e60238e59526418b42bd99df9ad5859a6dd00f7ddfc2dcb2ea5f26063f0c",
+  "status": "passed",
+  "optimizer_updates": 4,
+  "arm": "A9",
+  "run_dir": "method/signcoord_ssl/runs/A9_how2sign_real_smoke_controls_v5",
+  "scientific_evidence": false,
+  "real_data_training": true,
+  "config_hash": "d8d81b16122be32c614df8070791c7e70d39cafd344e7e610af6a1af364756f6",
+  "manifest_hash": "036ba3c75304dede79d6154cebf8b01115aaa2b4bfe4a74ddf0946ad6d8f6861",
+  "checkpoint_sha256": "33bf3bb4bb97d064948d1e22ee4f6bf466ccda28df9834a46d798655ea8e7bbd",
+  "relation_activated": true,
+  "relation_active_supervision": true
+}

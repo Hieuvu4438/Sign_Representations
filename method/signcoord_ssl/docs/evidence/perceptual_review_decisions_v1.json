@@ -1,0 +1,38 @@
+{
+  "db788298017f294c9fd8dab9c1b4f9f3a94a0bfd798e037ecb9a397ace7dd003": {
+    "decision": "different_content",
+    "reviewer": "Codex_visual_content_review",
+    "evidence": {
+      "contact_sheet": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_00_keyframes.jpg",
+      "sha256": "ad9400618686acd559797d454125a269bee9d22695a90760823fa671df2274e1",
+      "frame_manifest": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_00_evidence.json",
+      "frame_manifest_sha256": "c6f8000d7b0c19baba0734f2be0aa650a5ec207886bc825d8bf8a71ed129b9f3"
+    },
+    "scope": "five_evenly_spaced_keyframes_per_clip; no exhaustive_partial_reuse_or_identity_claim",
+    "notes": "Studio background/color layout is similar. Reviewed keyframes show distinct hand-position sequences: the left middle frame has hands together near chest while the right middle frame has one hand at chest and one low; later right frames have a hand near temple while left frames remain lower. This is a content decision, not an identity match."
+  },
+  "89b9ab6a4db995a73a6c10b99788a568c367bf5adf5611f5d6023bd69badb87b": {
+    "decision": "different_content",
+    "reviewer": "Codex_visual_content_review",
+    "evidence": {
+      "contact_sheet": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_01_keyframes.jpg",
+      "sha256": "09b386b1e316782c4c20532a9230cec53958907a01f1d6a02a2b006026d2e767",
+      "frame_manifest": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_01_evidence.json",
+      "frame_manifest_sha256": "79810783f57a816182c155772d8d6e03e3f791f8296895dd862d1bb5a61705c5"
+    },
+    "scope": "five_evenly_spaced_keyframes_per_clip; no exhaustive_partial_reuse_or_identity_claim",
+    "notes": "Reviewed frame content has different clothing colors/patterns and distinct hand-motion sequences; lengths differ (about 5.7s vs10.9s). Similar background dominates the pHash candidate. No signer identity conclusion."
+  },
+  "40334b30946d3db748aaac637a4fae5f3cf94a38f201943b50e1be41a3f4927d": {
+    "decision": "different_content",
+    "reviewer": "Codex_visual_content_review",
+    "evidence": {
+      "contact_sheet": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_02_keyframes.jpg",
+      "sha256": "1053506cd11d1a74549603056874aaf9c88ea88c10a0491f5efc59e1ebc3ab23",
+      "frame_manifest": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_02_evidence.json",
+      "frame_manifest_sha256": "4829017b524dbe159fcbecf2a1d10e2bff6a95adece405ab2e5555f2d632ce5b"
+    },
+    "scope": "five_evenly_spaced_keyframes_per_clip; no exhaustive_partial_reuse_or_identity_claim",
+    "notes": "Reviewed hand trajectories differ across the short clip and longer clip: left middle/ending frames show chest-level/crossed hands while right later frames include a temple-level gesture and open raised hands. Similar framing/background causes the candidate. No signer identity conclusion."
+  }
+}

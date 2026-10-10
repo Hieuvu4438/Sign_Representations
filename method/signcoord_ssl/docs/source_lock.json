@@ -1,0 +1,94 @@
+{
+  "schema_version": "source_lock_v1",
+  "retrieved_at": "2026-10-07T03:31:27.110560+00:00",
+  "assets": [
+    {
+      "id": "coco_wholebody",
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmpose/2a0a2d2fb4b5bf5d8620c6bd04a70c6a940b98ba/configs/_base_/datasets/coco_wholebody.py",
+      "revision": "2a0a2d2fb4b5bf5d8620c6bd04a70c6a940b98ba",
+      "local_path": "/home/haipd/Sign_Representations/method/signcoord_ssl/docs/evidence/coco_wholebody.py",
+      "local_sha256": "8c73971296517eadef6b7df6de92eb8943119cb467b3f4d488a6e062470cf179",
+      "role": "semantic schema",
+      "license_ref": "https://github.com/open-mmlab/mmpose/blob/2a0a2d2fb4b5bf5d8620c6bd04a70c6a940b98ba/LICENSE",
+      "retrieved_at": "2026-10-07T03:31:27.110560+00:00"
+    },
+    {
+      "id": "signrep_encoder",
+      "url": "https://github.com/ryanwongsa/SignRep",
+      "revision": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+      "local_path": "/home/haipd/Sign_Representations/third_party/SignRep/models/hiera/hiera_clstoken.py",
+      "local_sha256": "a80a84701765bbc079dfaf52c41ef5e7b06c91d6bbedca05db08b1f313701d44",
+      "role": "read-only vendored Hiera compatibility",
+      "license_ref": "third_party/SignRep/LICENSE",
+      "retrieved_at": "2026-10-07T03:31:27.110560+00:00"
+    },
+    {
+      "id": "signrep_weights",
+      "url": "https://github.com/ryanwongsa/SignRep/releases/download/v0.0.1/ckpt.pt",
+      "revision": "v0.0.1",
+      "local_path": "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+      "local_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+      "role": "continued pretraining / external reference",
+      "license_ref": "artifacts/legacy/provenance/assets.json",
+      "retrieved_at": "2026-10-07T03:31:27.110560+00:00"
+    },
+    {
+      "id": "spec",
+      "url": null,
+      "revision": "1.0",
+      "local_path": "/home/haipd/Sign_Representations/docs/proposal9/SignCoord_SSL_End_to_End_Implementation_Spec_VI.md",
+      "local_sha256": "9149d25d36ba0b06d899e9f4ee6b466f3bbc992635ac2113647ab7877d65b5fc",
+      "role": "authoritative requested contract",
+      "license_ref": null,
+      "retrieved_at": "2026-10-07T03:31:27.110560+00:00"
+    },
+    {
+      "id": "hiera_generic_encoder",
+      "url": "https://github.com/facebookresearch/hiera",
+      "revision": "b12b842542ee5c757fcfec8c41f6b56fcbe89b65",
+      "local_path": "/home/haipd/Sign_Representations/method/signcoord_ssl/vendor/hiera/hiera/hiera.py",
+      "local_sha256": "44b7efc44ca86e9df3b0682450bd2d98d6fb10d8be9d89be61ca492cc87dec94",
+      "role": "upstream generic video MAE final-stage encoder",
+      "license_ref": "https://github.com/facebookresearch/hiera/blob/b12b842542ee5c757fcfec8c41f6b56fcbe89b65/LICENSE",
+      "retrieved_at": "2026-10-07T04:14:23.257047+00:00"
+    },
+    {
+      "id": "hiera_generic_weights",
+      "url": "https://dl.fbaipublicfiles.com/hiera/mae_hiera_base_16x224.pth",
+      "revision": "b12b842542ee5c757fcfec8c41f6b56fcbe89b65",
+      "local_path": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/assets/mae_hiera_base_16x224.pth",
+      "local_sha256": "dd80be81ca35a575511e7b5204cac07368c3e497c79dbe0da9fe339fb86f6dea",
+      "role": "generic frozen baseline and matched sign SSL initialization",
+      "license_ref": "https://github.com/facebookresearch/hiera/blob/b12b842542ee5c757fcfec8c41f6b56fcbe89b65/LICENSE.models",
+      "retrieved_at": "2026-10-07T04:14:23.257047+00:00"
+    },
+    {
+      "id": "wlasl_annotation",
+      "url": "https://raw.githubusercontent.com/dxli94/WLASL/ac00e6be631c1a2a486621b65f202219f3964d6b/start_kit/WLASL_v0.3.json",
+      "revision": "ac00e6be631c1a2a486621b65f202219f3964d6b",
+      "local_path": "/home/haipd/Sign_Representations/method/signcoord_ssl/data/source_metadata/WLASL_v0.3_ac00e6be.json",
+      "local_sha256": "31ba5a5c421bdbff87494ee22ca6d4e276a8dfac44f43cc9a58b76ed1c4cd684",
+      "role": "official ID/gloss/split/source annotation",
+      "license_ref": "https://github.com/dxli94/WLASL/tree/ac00e6be631c1a2a486621b65f202219f3964d6b",
+      "retrieved_at": "2026-10-07"
+    },
+    {
+      "id": "wlasl_preprocess",
+      "url": "https://raw.githubusercontent.com/dxli94/WLASL/ac00e6be631c1a2a486621b65f202219f3964d6b/start_kit/preprocess.py",
+      "revision": "ac00e6be631c1a2a486621b65f202219f3964d6b",
+      "local_path": "/home/haipd/Sign_Representations/method/signcoord_ssl/data/source_metadata/WLASL_preprocess_ac00e6be.py",
+      "local_sha256": "41237014ac51117fdd3ad125b6a9136046046caab7e21015d2ed37ad0f6bd737",
+      "role": "original 1-based trim provenance; local videos already cropped",
+      "license_ref": "https://github.com/dxli94/WLASL/tree/ac00e6be631c1a2a486621b65f202219f3964d6b",
+      "retrieved_at": "2026-10-07"
+    }
+  ],
+  "hiera_generic_source_files": {
+    "hiera/__init__.py": "3962dc942530e90aceacf19e5397fed29c4ae122ba13dc02d618f2eaaca580a7",
+    "hiera/hiera.py": "44b7efc44ca86e9df3b0682450bd2d98d6fb10d8be9d89be61ca492cc87dec94",
+    "hiera/hiera_mae.py": "f262c0d5965048c7c707cbbeae84df0cd629bc806504d720721980c94104e329",
+    "hiera/hiera_utils.py": "2e256cc22b27990a2b54e6a1bde1b9560eefef8dce67cf9b3f42bcab1953f3b6",
+    "hiera/hfhub.py": "df0c12bdf44a575f734e5ee27b98adb27179218cda27d519d665f5fdc14f4354",
+    "hiera/benchmarking.py": "195efad7dd061d8fb9dc1471ef44a839662288de00af1a1aa5f97135e8f38542"
+  }
+}

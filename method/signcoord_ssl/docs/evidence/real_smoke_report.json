@@ -1,0 +1,16 @@
+{
+  "executed_at": "2026-10-07T04:01:55.568026+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "86a5944b325cac5042e4b4f7ecd414099dbe99549269a71e76f4e2e0ef353f26",
+  "status": "passed",
+  "optimizer_updates": 4,
+  "arm": "A7",
+  "run_dir": "method/signcoord_ssl/runs/A7_how2sign_real_smoke_bounds_v4",
+  "scientific_evidence": false,
+  "real_data_training": true,
+  "config_hash": "b9813a3326cc65a5203adef912c2215bf5b31e2b3df09fa5bb4be752b439802a",
+  "manifest_hash": "036ba3c75304dede79d6154cebf8b01115aaa2b4bfe4a74ddf0946ad6d8f6861",
+  "checkpoint_sha256": "71e9d8b0a44d010b932e5afc975164ee6281df38648149230f97fd28cc8a1e78",
+  "relation_activated": true,
+  "relation_active_supervision": true
+}

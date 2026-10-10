@@ -1,0 +1,14 @@
+{
+  "executed_at": "2026-10-07T03:49:26.648260+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "484c22ca9a164b1b42e54ced2ca3e0ec06425f53e5152c0da73b0d9d4086c904",
+  "exact_source_session_signer_collisions": [],
+  "passed": true,
+  "signer_disjoint_verified": false,
+  "near_duplicate_verification": "not_run",
+  "ssl_ordered_ids_hash": "f18ea51a7583b3127fcef0b6b6990f527d9b89dec3871bd29f40af1d97213492",
+  "evaluation_ordered_ids_hash": "7a998d45b8e8c8a561c79d73c2f22667b47b87a4afa91d7ec8901b15269dd920",
+  "status": "passed_exact_audit_only",
+  "config_hash": "10189cd9802ee022df790a5142822891d3e9231715b53aef153d17bda21a56f0",
+  "manifest_hash": "036ba3c75304dede79d6154cebf8b01115aaa2b4bfe4a74ddf0946ad6d8f6861"
+}

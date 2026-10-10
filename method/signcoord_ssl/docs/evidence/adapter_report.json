@@ -1,0 +1,171 @@
+{
+  "executed_at": "2026-10-07T03:42:37.827572+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "310e08b305ed6cd67a6c3390c15643b063f971679497eccc3e36a865e99f7272",
+  "status": "passed",
+  "device": "cpu",
+  "torch": "2.11.0+cu128",
+  "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "checks": [
+    {
+      "frames": 16,
+      "load_report": {
+        "initialization_mode": "signrep_pretrained",
+        "adapted_keys": [],
+        "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "excluded_training_keys": [
+          "fc.0.weight",
+          "fc.0.bias",
+          "fc.1.weight",
+          "active_head.0.weight",
+          "active_head.0.bias",
+          "active_head.2.weight",
+          "active_head.2.bias",
+          "cls_head.latent_proj.0.weight",
+          "cls_head.latent_proj.0.bias",
+          "cls_head.latent_proj.2.weight",
+          "cls_head.latent_proj.2.bias",
+          "cls_head.dict_component_projections.body_dist.layers.0.weight",
+          "cls_head.dict_component_projections.body_dist.layers.0.bias",
+          "cls_head.dict_component_projections.body_pose.layers.0.weight",
+          "cls_head.dict_component_projections.body_pose.layers.0.bias",
+          "cls_head.dict_component_projections.full_body_angles.layers.0.weight",
+          "cls_head.dict_component_projections.full_body_angles.layers.0.bias",
+          "cls_head.dict_component_projections.full_left_angles.layers.0.weight",
+          "cls_head.dict_component_projections.full_left_angles.layers.0.bias",
+          "cls_head.dict_component_projections.full_right_angles.layers.0.weight",
+          "cls_head.dict_component_projections.full_right_angles.layers.0.bias",
+          "cls_head.dict_component_projections.left_dist.layers.0.weight",
+          "cls_head.dict_component_projections.left_dist.layers.0.bias",
+          "cls_head.dict_component_projections.left_pose.layers.0.weight",
+          "cls_head.dict_component_projections.left_pose.layers.0.bias",
+          "cls_head.dict_component_projections.right_dist.layers.0.weight",
+          "cls_head.dict_component_projections.right_dist.layers.0.bias",
+          "cls_head.dict_component_projections.right_pose.layers.0.weight",
+          "cls_head.dict_component_projections.right_pose.layers.0.bias"
+        ]
+      },
+      "native_index_error": 0.0,
+      "dense_forward_status": "passed",
+      "sequence_shape": [
+        1,
+        8,
+        768
+      ],
+      "memory_shape": [
+        1,
+        312,
+        768
+      ],
+      "full_keep_vs_dense_max_error": 0.0,
+      "mask_true_means_keep": true,
+      "elapsed_seconds": 7.790929148904979
+    },
+    {
+      "frames": 32,
+      "load_report": {
+        "initialization_mode": "signrep_pretrained",
+        "adapted_keys": [
+          "pos_embed_temporal"
+        ],
+        "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "excluded_training_keys": [
+          "fc.0.weight",
+          "fc.0.bias",
+          "fc.1.weight",
+          "active_head.0.weight",
+          "active_head.0.bias",
+          "active_head.2.weight",
+          "active_head.2.bias",
+          "cls_head.latent_proj.0.weight",
+          "cls_head.latent_proj.0.bias",
+          "cls_head.latent_proj.2.weight",
+          "cls_head.latent_proj.2.bias",
+          "cls_head.dict_component_projections.body_dist.layers.0.weight",
+          "cls_head.dict_component_projections.body_dist.layers.0.bias",
+          "cls_head.dict_component_projections.body_pose.layers.0.weight",
+          "cls_head.dict_component_projections.body_pose.layers.0.bias",
+          "cls_head.dict_component_projections.full_body_angles.layers.0.weight",
+          "cls_head.dict_component_projections.full_body_angles.layers.0.bias",
+          "cls_head.dict_component_projections.full_left_angles.layers.0.weight",
+          "cls_head.dict_component_projections.full_left_angles.layers.0.bias",
+          "cls_head.dict_component_projections.full_right_angles.layers.0.weight",
+          "cls_head.dict_component_projections.full_right_angles.layers.0.bias",
+          "cls_head.dict_component_projections.left_dist.layers.0.weight",
+          "cls_head.dict_component_projections.left_dist.layers.0.bias",
+          "cls_head.dict_component_projections.left_pose.layers.0.weight",
+          "cls_head.dict_component_projections.left_pose.layers.0.bias",
+          "cls_head.dict_component_projections.right_dist.layers.0.weight",
+          "cls_head.dict_component_projections.right_dist.layers.0.bias",
+          "cls_head.dict_component_projections.right_pose.layers.0.weight",
+          "cls_head.dict_component_projections.right_pose.layers.0.bias"
+        ]
+      },
+      "native_index_error": 0.0,
+      "dense_forward_status": "passed",
+      "sequence_shape": [
+        1,
+        16,
+        768
+      ],
+      "memory_shape": [
+        1,
+        624,
+        768
+      ],
+      "full_keep_vs_dense_max_error": 0.0,
+      "mask_true_means_keep": true,
+      "elapsed_seconds": 17.193399231880903
+    },
+    {
+      "frames": 64,
+      "load_report": {
+        "initialization_mode": "signrep_pretrained",
+        "adapted_keys": [
+          "pos_embed_temporal"
+        ],
+        "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "excluded_training_keys": [
+          "fc.0.weight",
+          "fc.0.bias",
+          "fc.1.weight",
+          "active_head.0.weight",
+          "active_head.0.bias",
+          "active_head.2.weight",
+          "active_head.2.bias",
+          "cls_head.latent_proj.0.weight",
+          "cls_head.latent_proj.0.bias",
+          "cls_head.latent_proj.2.weight",
+          "cls_head.latent_proj.2.bias",
+          "cls_head.dict_component_projections.body_dist.layers.0.weight",
+          "cls_head.dict_component_projections.body_dist.layers.0.bias",
+          "cls_head.dict_component_projections.body_pose.layers.0.weight",
+          "cls_head.dict_component_projections.body_pose.layers.0.bias",
+          "cls_head.dict_component_projections.full_body_angles.layers.0.weight",
+          "cls_head.dict_component_projections.full_body_angles.layers.0.bias",
+          "cls_head.dict_component_projections.full_left_angles.layers.0.weight",
+          "cls_head.dict_component_projections.full_left_angles.layers.0.bias",
+          "cls_head.dict_component_projections.full_right_angles.layers.0.weight",
+          "cls_head.dict_component_projections.full_right_angles.layers.0.bias",
+          "cls_head.dict_component_projections.left_dist.layers.0.weight",
+          "cls_head.dict_component_projections.left_dist.layers.0.bias",
+          "cls_head.dict_component_projections.left_pose.layers.0.weight",
+          "cls_head.dict_component_projections.left_pose.layers.0.bias",
+          "cls_head.dict_component_projections.right_dist.layers.0.weight",
+          "cls_head.dict_component_projections.right_dist.layers.0.bias",
+          "cls_head.dict_component_projections.right_pose.layers.0.weight",
+          "cls_head.dict_component_projections.right_pose.layers.0.bias"
+        ]
+      },
+      "native_index_error": 0.0,
+      "dense_forward_status": "not_run",
+      "elapsed_seconds": 0.3606154569424689
+    }
+  ]
+}

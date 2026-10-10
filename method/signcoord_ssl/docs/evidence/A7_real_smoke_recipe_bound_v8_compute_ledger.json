@@ -1,0 +1,13 @@
+{
+  "elapsed_training_seconds": 25.868847967125475,
+  "device": "cpu",
+  "world_size": 1,
+  "stats_batch": 2,
+  "optimizer_batch": 2,
+  "accumulation_contract": "mean_of_microstep_global_weighted_means",
+  "training_gpu_hours": 0.0,
+  "peak_allocated_bytes": null,
+  "peak_allocated_bytes_by_rank": [
+    null
+  ]
+}

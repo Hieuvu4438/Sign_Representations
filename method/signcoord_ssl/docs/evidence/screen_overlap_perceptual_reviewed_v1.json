@@ -1,0 +1,155 @@
+{
+  "executed_at": "2026-10-07T04:46:53.796542+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "168120e6bd205cc33918d40946ba691f0629d9d0be12d4acc1224cc6c6675872",
+  "exact_source_session_signer_collisions": [],
+  "collision_count": 0,
+  "examples_truncated": false,
+  "passed": true,
+  "signer_disjoint_verified": false,
+  "near_duplicate_verification": "candidate_screen_completed_with_explicit_review",
+  "ssl_ordered_ids_hash": "f18ea51a7583b3127fcef0b6b6990f527d9b89dec3871bd29f40af1d97213492",
+  "evaluation_ordered_ids_hash": "14921215bbe28a955648bfa6162f1c1fb96463034e87a1d11462b7bcbeec1eb8",
+  "status": "passed_exact_and_perceptual_screen",
+  "config_hash": "ba261e4ca4df6135a7178b4c6ec6016ff7dda5b2ca85e11bd9c59ba97667ed7e",
+  "manifest_hash": "036ba3c75304dede79d6154cebf8b01115aaa2b4bfe4a74ddf0946ad6d8f6861",
+  "perceptual": {
+    "policy": {
+      "schema_version": "perceptual_screen_v1",
+      "keyframes": 5,
+      "resize": 32,
+      "low_frequency": 8,
+      "dc_bit": 0,
+      "hamming_max": 6,
+      "min_matched_keyframes": 3,
+      "candidate_search": "seven_disjoint_bit_blocks_then_exact_hamming",
+      "review": "candidate_only_no_automatic_duplicate_truth"
+    },
+    "policy_hash": "3a7691cbed1a2d4671ec1fb8c6a67026c9927f6924d5e37bc5fc7f29427c03bb",
+    "candidate_count": 3,
+    "unresolved_candidates": [],
+    "duplicates": [],
+    "reviewed_candidates": [
+      {
+        "candidate_key": "db788298017f294c9fd8dab9c1b4f9f3a94a0bfd798e037ecb9a397ace7dd003",
+        "ssl_id": "how2sign:13_6CMOhVvo_0-3-rgb_front",
+        "eval_id": "how2sign:fxIoWLKHOuo_0-3-rgb_front",
+        "ssl_media": "/home/shared_data/sign_language/How2Sign/train/raw_videos/13_6CMOhVvo_0-3-rgb_front.mp4",
+        "eval_media": "/home/shared_data/sign_language/How2Sign/train/raw_videos/fxIoWLKHOuo_0-3-rgb_front.mp4",
+        "matched_keyframes": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            2,
+            1,
+            6
+          ],
+          [
+            3,
+            2,
+            6
+          ]
+        ],
+        "minimum_hamming": 6,
+        "review": {
+          "decision": "different_content",
+          "reviewer": "Codex_visual_content_review",
+          "evidence": {
+            "contact_sheet": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_00_keyframes.jpg",
+            "sha256": "ad9400618686acd559797d454125a269bee9d22695a90760823fa671df2274e1",
+            "frame_manifest": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_00_evidence.json",
+            "frame_manifest_sha256": "c6f8000d7b0c19baba0734f2be0aa650a5ec207886bc825d8bf8a71ed129b9f3"
+          },
+          "scope": "five_evenly_spaced_keyframes_per_clip; no exhaustive_partial_reuse_or_identity_claim",
+          "notes": "Studio background/color layout is similar. Reviewed keyframes show distinct hand-position sequences: the left middle frame has hands together near chest while the right middle frame has one hand at chest and one low; later right frames have a hand near temple while left frames remain lower. This is a content decision, not an identity match."
+        }
+      },
+      {
+        "candidate_key": "89b9ab6a4db995a73a6c10b99788a568c367bf5adf5611f5d6023bd69badb87b",
+        "ssl_id": "how2sign:1EwP7HtNYR4_0-5-rgb_front",
+        "eval_id": "how2sign:-0JdYlTf9Y8_0_1-5-rgb_front",
+        "ssl_media": "/home/shared_data/sign_language/How2Sign/train/raw_videos/1EwP7HtNYR4_0-5-rgb_front.mp4",
+        "eval_media": "/home/shared_data/sign_language/How2Sign/train/raw_videos/-0JdYlTf9Y8_0_1-5-rgb_front.mp4",
+        "matched_keyframes": [
+          [
+            1,
+            1,
+            6
+          ],
+          [
+            2,
+            2,
+            6
+          ],
+          [
+            4,
+            3,
+            6
+          ]
+        ],
+        "minimum_hamming": 6,
+        "review": {
+          "decision": "different_content",
+          "reviewer": "Codex_visual_content_review",
+          "evidence": {
+            "contact_sheet": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_01_keyframes.jpg",
+            "sha256": "09b386b1e316782c4c20532a9230cec53958907a01f1d6a02a2b006026d2e767",
+            "frame_manifest": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_01_evidence.json",
+            "frame_manifest_sha256": "79810783f57a816182c155772d8d6e03e3f791f8296895dd862d1bb5a61705c5"
+          },
+          "scope": "five_evenly_spaced_keyframes_per_clip; no exhaustive_partial_reuse_or_identity_claim",
+          "notes": "Reviewed frame content has different clothing colors/patterns and distinct hand-motion sequences; lengths differ (about 5.7s vs10.9s). Similar background dominates the pHash candidate. No signer identity conclusion."
+        }
+      },
+      {
+        "candidate_key": "40334b30946d3db748aaac637a4fae5f3cf94a38f201943b50e1be41a3f4927d",
+        "ssl_id": "how2sign:1EHuon_W9C8_0-3-rgb_front",
+        "eval_id": "how2sign:17a7OrcTz2k_1-3-rgb_front",
+        "ssl_media": "/home/shared_data/sign_language/How2Sign/train/raw_videos/1EHuon_W9C8_0-3-rgb_front.mp4",
+        "eval_media": "/home/shared_data/sign_language/How2Sign/train/raw_videos/17a7OrcTz2k_1-3-rgb_front.mp4",
+        "matched_keyframes": [
+          [
+            2,
+            0,
+            6
+          ],
+          [
+            3,
+            1,
+            6
+          ],
+          [
+            4,
+            2,
+            6
+          ]
+        ],
+        "minimum_hamming": 6,
+        "review": {
+          "decision": "different_content",
+          "reviewer": "Codex_visual_content_review",
+          "evidence": {
+            "contact_sheet": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_02_keyframes.jpg",
+            "sha256": "1053506cd11d1a74549603056874aaf9c88ea88c10a0491f5efc59e1ebc3ab23",
+            "frame_manifest": "/home/haipd/Sign_Representations/method/signcoord_ssl/runs/perceptual_review_v1/candidate_02_evidence.json",
+            "frame_manifest_sha256": "4829017b524dbe159fcbecf2a1d10e2bff6a95adece405ab2e5555f2d632ce5b"
+          },
+          "scope": "five_evenly_spaced_keyframes_per_clip; no exhaustive_partial_reuse_or_identity_claim",
+          "notes": "Reviewed hand trajectories differ across the short clip and longer clip: left middle/ending frames show chest-level/crossed hands while right later frames include a temple-level gesture and open raised hands. Similar framing/background causes the candidate. No signer identity conclusion."
+        }
+      }
+    ],
+    "passed": true,
+    "screen_scope": "these_frozen_manifest_intervals_only",
+    "near_duplicate_verification": "candidate_screen_completed_with_explicit_review",
+    "no_detection_is_not_proof_of_absence": true
+  },
+  "evaluation_manifest_hashes": {
+    "/home/haipd/Sign_Representations/method/signcoord_ssl/data/how2sign_pilot_v1/manifests/ssl_dev.jsonl": "18092763f901f9733311e3d46638e73b8698b3f81276c0c60b9561e641fbd15d",
+    "method/signcoord_ssl/data/asl_citizen_screen_v1/dev.jsonl": "fd0b4d42bb4e1e4254f11b02bc54d79e1645970760c24b9db6115c0a9d35c007",
+    "method/signcoord_ssl/data/wlasl_screen_v1/dev.jsonl": "97a2031d8f9b10aac7dccd1dfb91ae98332a82f23acbb48b5cd98464e7f61d08"
+  }
+}

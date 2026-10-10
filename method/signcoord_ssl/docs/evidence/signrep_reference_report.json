@@ -1,0 +1,17 @@
+{
+  "executed_at": "2026-10-07T04:17:38.732795+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "c021e60238e59526418b42bd99df9ad5859a6dd00f7ddfc2dcb2ea5f26063f0c",
+  "status": "passed",
+  "device": "cpu",
+  "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "official_wrapper_strict_load": true,
+  "official_transform_used": true,
+  "post_fc_max_error": 4.76837158203125e-07,
+  "latent_max_error": 1.9073486328125e-06,
+  "feature_shape": [
+    1,
+    768
+  ],
+  "scope": "official T16 per-window readout parity; downstream video pooling is a disclosed extension"
+}

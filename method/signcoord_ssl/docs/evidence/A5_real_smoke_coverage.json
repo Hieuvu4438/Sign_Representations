@@ -1,0 +1,29 @@
+{
+  "arm": "A5",
+  "run_dir": "method/signcoord_ssl/runs/A5_how2sign_real_smoke_controls_v5",
+  "optimizer_updates": 4,
+  "manifest_hash": "036ba3c75304dede79d6154cebf8b01115aaa2b4bfe4a74ddf0946ad6d8f6861",
+  "log_sha256": "8c287ad75e65f433652f8f311cfe69c4ade35b6eb371cdeb7ddac0c1b4be0dd1",
+  "relation_denominators": [
+    35.11921310424805,
+    35.00225067138672,
+    36.7942008972168,
+    35.10521697998047
+  ],
+  "active_updates": [
+    3,
+    4
+  ],
+  "weighted_relation_contributions": [
+    0.0,
+    0.0,
+    1.5905590057373047,
+    3.7127952575683594
+  ],
+  "gradient_norms_before_clip": [
+    9.941789627075195,
+    36.59672546386719,
+    68.85393524169922,
+    45.910579681396484
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "executed_at": "2026-10-07T04:20:00.646039+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "a3c33c6100cf3c1c6dffda33a90fc8fea64d729c842409f3bc7bea74c3808f84",
+  "status": "passed",
+  "arm": "A1_ref",
+  "sample_count": 1,
+  "protocol": {
+    "context": 16,
+    "native_frame_stride": 2,
+    "spatial": "official_direct_resize224",
+    "normalization": "official_ImageNet",
+    "feature": "official_fc_on_unmasked_latent",
+    "tail": "drop_incomplete",
+    "video_pooling_extension": "mean_post_fc_window_features_then_L2",
+    "pretraining_history": "external_reference_unknown_original_sign_overlap"
+  },
+  "pooling_hash": "4c72b2c19bfc05a84bfdc06998a33b6feb981bdc999d705165f861e1a0a6be6d",
+  "manifest_sha256": "b9df372e596c80bbba0f7333feb04658575aaeda9a4cdc0ea2046f2fbaabf7f3",
+  "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "output_sha256": "e27445f630e82d5bdef235ae0b099564d7b5cae726a5426d30dabd19d6440f16",
+  "labels_read_by_encoder": false,
+  "matched_continued_pretraining": false,
+  "scientific_evidence": false,
+  "scope": "one_real_1.28_second_SSL_dev_RGB_interval; engineering_only_no_benchmark"
+}

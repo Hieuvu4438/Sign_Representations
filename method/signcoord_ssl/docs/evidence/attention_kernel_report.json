@@ -1,0 +1,25 @@
+{
+  "executed_at": "2026-10-07T04:39:38.186287+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "a73af4a6e528384e6555f1a27db208d6bd63e16fffabd0555184ee9e39e26232",
+  "status": "passed",
+  "device": "cpu",
+  "max_absolute_errors": {
+    "dense_h": 4.291534423828125e-06,
+    "clip_raw": 3.5762786865234375e-06,
+    "masked_memory": 0.0002773702144622803
+  },
+  "matched_math_backend_errors": {
+    "dense_h": 0.0,
+    "masked_memory": 0.0
+  },
+  "fused_masked_relative_rms_error": 2.039584160229424e-06,
+  "initial_fused_absolute_3e_5_gate_failed": true,
+  "numerical_policy": "same_math_backend_proves_layout; fused_backend_float32_drift_reported_separately",
+  "pytorch_reference": "https://docs.pytorch.org/docs/2.11/generated/torch.nn.functional.scaled_dot_product_attention.html",
+  "vendor_5d_seconds": 9.422695841174573,
+  "scoped_4d_seconds": 7.743560252012685,
+  "timing_scope": "single_forward_sanity_under_shared_CPU_load_not_stable_budget",
+  "weights_and_architecture_unchanged": true,
+  "vendor_files_mutated": false
+}

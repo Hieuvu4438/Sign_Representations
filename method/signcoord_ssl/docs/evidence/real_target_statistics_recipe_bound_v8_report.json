@@ -1,0 +1,48 @@
+{
+  "executed_at": "2026-10-07T05:15:37.278608+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "542b3605a2a84171bb7e9ec109b39395589d25669047fbb9295c0c204f939eef",
+  "status": "passed",
+  "fit_split": "ssl_train",
+  "sample_count": 100,
+  "stats_path": "/home/haipd/Sign_Representations/method/signcoord_ssl/data/how2sign_pilot_v1/stats/target_stats_recipe_bound_v8.json",
+  "phase_path": "/home/haipd/Sign_Representations/method/signcoord_ssl/data/how2sign_pilot_v1/stats/phase_calibration_recipe_bound_v8.json",
+  "stats_sha256": "f12ac853303d4a2246daa255fb153140453cdc96f219802cda410ecf4803409c",
+  "phase_sha256": "55807ad2b05a28a5e0c376dcf98cd64f716c8af3dff632a3e2f585bb3f498e60",
+  "pose_artifact_hash": "faf0bde54fea563f1f2398328a7641576239b4c0693e3b618ffdb6628e3c8df0",
+  "target_recipe_hash": "a6470eb179007330e0f26262e670d6af842cfc5c536440b890137a960365ad91",
+  "source_gap_policy_hash": "0a322381caedbd860c28a67d4ce366dab90b514786b55e5ac98279e41e7fcf21",
+  "eligible_positive_counts_per_pair_bin": [
+    [
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92
+    ],
+    [
+      92,
+      92,
+      92,
+      92,
+      92,
+      92,
+      92
+    ],
+    [
+      93,
+      93,
+      93,
+      93,
+      93,
+      93,
+      93
+    ]
+  ],
+  "tracking_identity_verified": false,
+  "score_semantics": "train_only_part_q90_quality_heuristic_not_probability",
+  "full_corpus_statistics": false,
+  "scope": "same_100_clip_train_cohort_recipe/content_binding; no efficacy evidence"
+}

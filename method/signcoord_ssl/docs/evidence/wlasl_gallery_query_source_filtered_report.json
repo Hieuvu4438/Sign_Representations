@@ -1,0 +1,5725 @@
+{
+  "exact_source_session_signer_collisions": [
+    {
+      "ssl_id": "wlasl2000:31773",
+      "eval_id": "wlasl2000:10704",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56794",
+      "eval_id": "wlasl2000:55674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56794",
+      "eval_id": "wlasl2000:15478",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56794",
+      "eval_id": "wlasl2000:31777",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56794",
+      "eval_id": "wlasl2000:29618",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56794",
+      "eval_id": "wlasl2000:04902",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56794",
+      "eval_id": "wlasl2000:29617",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55671",
+      "eval_id": "wlasl2000:05471",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55671",
+      "eval_id": "wlasl2000:57803",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55671",
+      "eval_id": "wlasl2000:18242",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55671",
+      "eval_id": "wlasl2000:55672",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55671",
+      "eval_id": "wlasl2000:52798",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55671",
+      "eval_id": "wlasl2000:33767",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10637",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10637",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10637",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10637",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10637",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10637",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10637",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10637",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10637",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21022",
+      "eval_id": "wlasl2000:10624",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21022",
+      "eval_id": "wlasl2000:41643",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21022",
+      "eval_id": "wlasl2000:15153",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21022",
+      "eval_id": "wlasl2000:04866",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21022",
+      "eval_id": "wlasl2000:31832",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21022",
+      "eval_id": "wlasl2000:32806",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21022",
+      "eval_id": "wlasl2000:01472",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55678",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55678",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31838",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31838",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15811",
+      "eval_id": "wlasl2000:15477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:46434",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:46434",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:46434",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10712",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10712",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10712",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39595",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39595",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39595",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05475",
+      "eval_id": "wlasl2000:18244",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05475",
+      "eval_id": "wlasl2000:40804",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05475",
+      "eval_id": "wlasl2000:42674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:69092",
+      "eval_id": "wlasl2000:68554",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64003",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64003",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64003",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64003",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64003",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64003",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64003",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64003",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64003",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:66032",
+      "eval_id": "wlasl2000:66059",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39874",
+      "eval_id": "wlasl2000:15707",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39874",
+      "eval_id": "wlasl2000:56792",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39874",
+      "eval_id": "wlasl2000:61188",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39874",
+      "eval_id": "wlasl2000:39198",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15708",
+      "eval_id": "wlasl2000:55118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38691",
+      "eval_id": "wlasl2000:04906",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05467",
+      "eval_id": "wlasl2000:21023",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05467",
+      "eval_id": "wlasl2000:10625",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39881",
+      "eval_id": "wlasl2000:04906",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61190",
+      "eval_id": "wlasl2000:18244",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61190",
+      "eval_id": "wlasl2000:40804",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61190",
+      "eval_id": "wlasl2000:42674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31778",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31778",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31778",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31778",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31778",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31778",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31778",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31778",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31778",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35369",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35369",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:32818",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:32818",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:32818",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:68342",
+      "eval_id": "wlasl2000:68990",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19845",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19845",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19845",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19845",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19845",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19845",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19845",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19845",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19845",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55673",
+      "eval_id": "wlasl2000:46431",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55673",
+      "eval_id": "wlasl2000:33768",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55673",
+      "eval_id": "wlasl2000:55120",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55673",
+      "eval_id": "wlasl2000:32814",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55673",
+      "eval_id": "wlasl2000:42605",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55673",
+      "eval_id": "wlasl2000:42673",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:16635",
+      "eval_id": "wlasl2000:06193",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15713",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15713",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38681",
+      "eval_id": "wlasl2000:57168",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38681",
+      "eval_id": "wlasl2000:57628",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41659",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41659",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05991",
+      "eval_id": "wlasl2000:35368",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06196",
+      "eval_id": "wlasl2000:18244",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06196",
+      "eval_id": "wlasl2000:40804",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06196",
+      "eval_id": "wlasl2000:42674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57642",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57642",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57642",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01475",
+      "eval_id": "wlasl2000:55674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01475",
+      "eval_id": "wlasl2000:15478",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01475",
+      "eval_id": "wlasl2000:31777",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01475",
+      "eval_id": "wlasl2000:29618",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01475",
+      "eval_id": "wlasl2000:04902",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01475",
+      "eval_id": "wlasl2000:29617",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:32819",
+      "eval_id": "wlasl2000:36908",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67220",
+      "eval_id": "wlasl2000:67112",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67220",
+      "eval_id": "wlasl2000:67952",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67220",
+      "eval_id": "wlasl2000:68118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67220",
+      "eval_id": "wlasl2000:67956",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19847",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19847",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19847",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38682",
+      "eval_id": "wlasl2000:36399",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15710",
+      "eval_id": "wlasl2000:55674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15710",
+      "eval_id": "wlasl2000:15478",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15710",
+      "eval_id": "wlasl2000:31777",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15710",
+      "eval_id": "wlasl2000:29618",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15710",
+      "eval_id": "wlasl2000:04902",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15710",
+      "eval_id": "wlasl2000:29617",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55119",
+      "eval_id": "wlasl2000:55118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57175",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57175",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35366",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35366",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35366",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35366",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35366",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35366",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35366",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35366",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35366",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67983",
+      "eval_id": "wlasl2000:67112",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67983",
+      "eval_id": "wlasl2000:67952",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67983",
+      "eval_id": "wlasl2000:68118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67983",
+      "eval_id": "wlasl2000:67956",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:23665",
+      "eval_id": "wlasl2000:10704",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:23666",
+      "eval_id": "wlasl2000:05471",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:23666",
+      "eval_id": "wlasl2000:57803",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:23666",
+      "eval_id": "wlasl2000:18242",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:23666",
+      "eval_id": "wlasl2000:55672",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:23666",
+      "eval_id": "wlasl2000:52798",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:23666",
+      "eval_id": "wlasl2000:33767",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39593",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39593",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39593",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55670",
+      "eval_id": "wlasl2000:55118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25526",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25526",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25526",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25526",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25526",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25526",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25526",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25526",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25526",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57172",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57172",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57172",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57172",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57172",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57172",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57172",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57172",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57172",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61192",
+      "eval_id": "wlasl2000:40320",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19912",
+      "eval_id": "wlasl2000:15709",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67606",
+      "eval_id": "wlasl2000:67112",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67606",
+      "eval_id": "wlasl2000:67952",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67606",
+      "eval_id": "wlasl2000:68118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67606",
+      "eval_id": "wlasl2000:67956",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56793",
+      "eval_id": "wlasl2000:46431",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56793",
+      "eval_id": "wlasl2000:33768",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56793",
+      "eval_id": "wlasl2000:55120",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56793",
+      "eval_id": "wlasl2000:32814",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56793",
+      "eval_id": "wlasl2000:42605",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56793",
+      "eval_id": "wlasl2000:42673",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:16639",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:16639",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55101",
+      "eval_id": "wlasl2000:10624",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55101",
+      "eval_id": "wlasl2000:41643",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55101",
+      "eval_id": "wlasl2000:15153",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55101",
+      "eval_id": "wlasl2000:04866",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55101",
+      "eval_id": "wlasl2000:31832",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55101",
+      "eval_id": "wlasl2000:32806",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55101",
+      "eval_id": "wlasl2000:01472",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06085",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06085",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06085",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06085",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06085",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06085",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06085",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06085",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06085",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:23673",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:23673",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05992",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05992",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39879",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39879",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39879",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39879",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39879",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39879",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39879",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39879",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39879",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61193",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61193",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42675",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42675",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42675",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42675",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42675",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42675",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42675",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42675",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42675",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39596",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39596",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36901",
+      "eval_id": "wlasl2000:05471",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36901",
+      "eval_id": "wlasl2000:57803",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36901",
+      "eval_id": "wlasl2000:18242",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36901",
+      "eval_id": "wlasl2000:55672",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36901",
+      "eval_id": "wlasl2000:52798",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36901",
+      "eval_id": "wlasl2000:33767",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10706",
+      "eval_id": "wlasl2000:55674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10706",
+      "eval_id": "wlasl2000:15478",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10706",
+      "eval_id": "wlasl2000:31777",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10706",
+      "eval_id": "wlasl2000:29618",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10706",
+      "eval_id": "wlasl2000:04902",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10706",
+      "eval_id": "wlasl2000:29617",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67882",
+      "eval_id": "wlasl2000:67112",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67882",
+      "eval_id": "wlasl2000:67952",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67882",
+      "eval_id": "wlasl2000:68118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67882",
+      "eval_id": "wlasl2000:67956",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67838",
+      "eval_id": "wlasl2000:67112",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67838",
+      "eval_id": "wlasl2000:67952",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67838",
+      "eval_id": "wlasl2000:68118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67838",
+      "eval_id": "wlasl2000:67956",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61189",
+      "eval_id": "wlasl2000:05471",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61189",
+      "eval_id": "wlasl2000:57803",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61189",
+      "eval_id": "wlasl2000:18242",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61189",
+      "eval_id": "wlasl2000:55672",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61189",
+      "eval_id": "wlasl2000:52798",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:61189",
+      "eval_id": "wlasl2000:33767",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06202",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06202",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10705",
+      "eval_id": "wlasl2000:15477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15711",
+      "eval_id": "wlasl2000:31836",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15711",
+      "eval_id": "wlasl2000:57639",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:35361",
+      "eval_id": "wlasl2000:10704",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:46435",
+      "eval_id": "wlasl2000:40320",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10635",
+      "eval_id": "wlasl2000:31836",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10635",
+      "eval_id": "wlasl2000:57639",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:65132",
+      "eval_id": "wlasl2000:65180",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10628",
+      "eval_id": "wlasl2000:55674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10628",
+      "eval_id": "wlasl2000:15478",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10628",
+      "eval_id": "wlasl2000:31777",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10628",
+      "eval_id": "wlasl2000:29618",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10628",
+      "eval_id": "wlasl2000:04902",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:10628",
+      "eval_id": "wlasl2000:29617",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:70163",
+      "eval_id": "wlasl2000:70110",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55121",
+      "eval_id": "wlasl2000:18244",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55121",
+      "eval_id": "wlasl2000:40804",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55121",
+      "eval_id": "wlasl2000:42674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57811",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57811",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57811",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:18246",
+      "eval_id": "wlasl2000:31836",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:18246",
+      "eval_id": "wlasl2000:57639",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06199",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06199",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06199",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06199",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06199",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06199",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06199",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06199",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06199",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15161",
+      "eval_id": "wlasl2000:18244",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15161",
+      "eval_id": "wlasl2000:40804",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15161",
+      "eval_id": "wlasl2000:42674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38654",
+      "eval_id": "wlasl2000:10624",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38654",
+      "eval_id": "wlasl2000:41643",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38654",
+      "eval_id": "wlasl2000:15153",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38654",
+      "eval_id": "wlasl2000:04866",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38654",
+      "eval_id": "wlasl2000:31832",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38654",
+      "eval_id": "wlasl2000:32806",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:38654",
+      "eval_id": "wlasl2000:01472",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29619",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29619",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29619",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29619",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29619",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29619",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29619",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29619",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29619",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36910",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36910",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41654",
+      "eval_id": "wlasl2000:46431",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41654",
+      "eval_id": "wlasl2000:33768",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41654",
+      "eval_id": "wlasl2000:55120",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41654",
+      "eval_id": "wlasl2000:32814",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41654",
+      "eval_id": "wlasl2000:42605",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41654",
+      "eval_id": "wlasl2000:42673",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67969",
+      "eval_id": "wlasl2000:67112",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67969",
+      "eval_id": "wlasl2000:67952",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67969",
+      "eval_id": "wlasl2000:68118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67969",
+      "eval_id": "wlasl2000:67956",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19916",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19916",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19916",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67127",
+      "eval_id": "wlasl2000:67112",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67127",
+      "eval_id": "wlasl2000:67952",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67127",
+      "eval_id": "wlasl2000:68118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67127",
+      "eval_id": "wlasl2000:67956",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57806",
+      "eval_id": "wlasl2000:31836",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57806",
+      "eval_id": "wlasl2000:57639",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04903",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04903",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04903",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04903",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04903",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04903",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04903",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04903",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04903",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15817",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15817",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:45168",
+      "eval_id": "wlasl2000:04906",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:66605",
+      "eval_id": "wlasl2000:65680",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:66605",
+      "eval_id": "wlasl2000:65649",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40802",
+      "eval_id": "wlasl2000:15707",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40802",
+      "eval_id": "wlasl2000:56792",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40802",
+      "eval_id": "wlasl2000:61188",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40802",
+      "eval_id": "wlasl2000:39198",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15157",
+      "eval_id": "wlasl2000:21023",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15157",
+      "eval_id": "wlasl2000:10625",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:46428",
+      "eval_id": "wlasl2000:57168",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:46428",
+      "eval_id": "wlasl2000:57628",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25527",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25527",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25527",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25527",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25527",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25527",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25527",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25527",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25527",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:60362",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:60362",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:65135",
+      "eval_id": "wlasl2000:65176",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29615",
+      "eval_id": "wlasl2000:05471",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29615",
+      "eval_id": "wlasl2000:57803",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29615",
+      "eval_id": "wlasl2000:18242",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29615",
+      "eval_id": "wlasl2000:55672",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29615",
+      "eval_id": "wlasl2000:52798",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29615",
+      "eval_id": "wlasl2000:33767",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52792",
+      "eval_id": "wlasl2000:10624",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52792",
+      "eval_id": "wlasl2000:41643",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52792",
+      "eval_id": "wlasl2000:15153",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52792",
+      "eval_id": "wlasl2000:04866",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52792",
+      "eval_id": "wlasl2000:31832",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52792",
+      "eval_id": "wlasl2000:32806",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52792",
+      "eval_id": "wlasl2000:01472",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36400",
+      "eval_id": "wlasl2000:46431",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36400",
+      "eval_id": "wlasl2000:33768",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36400",
+      "eval_id": "wlasl2000:55120",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36400",
+      "eval_id": "wlasl2000:32814",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36400",
+      "eval_id": "wlasl2000:42605",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36400",
+      "eval_id": "wlasl2000:42673",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15479",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15479",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15479",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15479",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15479",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15479",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15479",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15479",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15479",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:18241",
+      "eval_id": "wlasl2000:57168",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:18241",
+      "eval_id": "wlasl2000:57628",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19915",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19915",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19915",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19915",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19915",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19915",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19915",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19915",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19915",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57635",
+      "eval_id": "wlasl2000:52799",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19911",
+      "eval_id": "wlasl2000:21023",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:19911",
+      "eval_id": "wlasl2000:10625",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29614",
+      "eval_id": "wlasl2000:15707",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29614",
+      "eval_id": "wlasl2000:56792",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29614",
+      "eval_id": "wlasl2000:61188",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:29614",
+      "eval_id": "wlasl2000:39198",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:45166",
+      "eval_id": "wlasl2000:31836",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:45166",
+      "eval_id": "wlasl2000:57639",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40806",
+      "eval_id": "wlasl2000:31836",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40806",
+      "eval_id": "wlasl2000:57639",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:27356",
+      "eval_id": "wlasl2000:55674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:27356",
+      "eval_id": "wlasl2000:15478",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:27356",
+      "eval_id": "wlasl2000:31777",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:27356",
+      "eval_id": "wlasl2000:29618",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:27356",
+      "eval_id": "wlasl2000:04902",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:27356",
+      "eval_id": "wlasl2000:29617",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:16636",
+      "eval_id": "wlasl2000:15709",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40314",
+      "eval_id": "wlasl2000:05471",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40314",
+      "eval_id": "wlasl2000:57803",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40314",
+      "eval_id": "wlasl2000:18242",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40314",
+      "eval_id": "wlasl2000:55672",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40314",
+      "eval_id": "wlasl2000:52798",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40314",
+      "eval_id": "wlasl2000:33767",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06082",
+      "eval_id": "wlasl2000:38684",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67387",
+      "eval_id": "wlasl2000:67112",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67387",
+      "eval_id": "wlasl2000:67952",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67387",
+      "eval_id": "wlasl2000:68118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67387",
+      "eval_id": "wlasl2000:67956",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57645",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57645",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57645",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55122",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55122",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55122",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55122",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55122",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55122",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55122",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55122",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:55122",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42608",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42608",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42608",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42608",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42608",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42608",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42608",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42608",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42608",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31774",
+      "eval_id": "wlasl2000:06193",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:69311",
+      "eval_id": "wlasl2000:68990",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39203",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39203",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04875",
+      "eval_id": "wlasl2000:04906",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:18245",
+      "eval_id": "wlasl2000:31836",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:18245",
+      "eval_id": "wlasl2000:57639",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15474",
+      "eval_id": "wlasl2000:15707",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15474",
+      "eval_id": "wlasl2000:56792",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15474",
+      "eval_id": "wlasl2000:61188",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15474",
+      "eval_id": "wlasl2000:39198",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06087",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06087",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21031",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21031",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21031",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57812",
+      "eval_id": "wlasl2000:35368",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36903",
+      "eval_id": "wlasl2000:46431",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36903",
+      "eval_id": "wlasl2000:33768",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36903",
+      "eval_id": "wlasl2000:55120",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36903",
+      "eval_id": "wlasl2000:32814",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36903",
+      "eval_id": "wlasl2000:42605",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36903",
+      "eval_id": "wlasl2000:42673",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:27355",
+      "eval_id": "wlasl2000:15709",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36906",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36906",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36906",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36906",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36906",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36906",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36906",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36906",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36906",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:27358",
+      "eval_id": "wlasl2000:35368",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39200",
+      "eval_id": "wlasl2000:18244",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39200",
+      "eval_id": "wlasl2000:40804",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39200",
+      "eval_id": "wlasl2000:42674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39873",
+      "eval_id": "wlasl2000:10624",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39873",
+      "eval_id": "wlasl2000:41643",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39873",
+      "eval_id": "wlasl2000:15153",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39873",
+      "eval_id": "wlasl2000:04866",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39873",
+      "eval_id": "wlasl2000:31832",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39873",
+      "eval_id": "wlasl2000:32806",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39873",
+      "eval_id": "wlasl2000:01472",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:45164",
+      "eval_id": "wlasl2000:21023",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:45164",
+      "eval_id": "wlasl2000:10625",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56795",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56795",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56795",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56795",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56795",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56795",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56795",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56795",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:56795",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25528",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25528",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25528",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25528",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25528",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25528",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25528",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25528",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:25528",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36403",
+      "eval_id": "wlasl2000:40320",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40810",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40810",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40319",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40319",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40319",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31833",
+      "eval_id": "wlasl2000:21023",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31833",
+      "eval_id": "wlasl2000:10625",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:65453",
+      "eval_id": "wlasl2000:65470",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:15166",
+      "eval_id": "wlasl2000:04906",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04867",
+      "eval_id": "wlasl2000:21023",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:04867",
+      "eval_id": "wlasl2000:10625",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01479",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01479",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67856",
+      "eval_id": "wlasl2000:67112",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67856",
+      "eval_id": "wlasl2000:67952",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67856",
+      "eval_id": "wlasl2000:68118",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:67856",
+      "eval_id": "wlasl2000:67956",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41655",
+      "eval_id": "wlasl2000:55674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41655",
+      "eval_id": "wlasl2000:15478",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41655",
+      "eval_id": "wlasl2000:31777",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41655",
+      "eval_id": "wlasl2000:29618",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41655",
+      "eval_id": "wlasl2000:04902",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:41655",
+      "eval_id": "wlasl2000:29617",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52796",
+      "eval_id": "wlasl2000:38684",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21026",
+      "eval_id": "wlasl2000:05471",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21026",
+      "eval_id": "wlasl2000:57803",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21026",
+      "eval_id": "wlasl2000:18242",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21026",
+      "eval_id": "wlasl2000:55672",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21026",
+      "eval_id": "wlasl2000:52798",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21026",
+      "eval_id": "wlasl2000:33767",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52802",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:52802",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:60361",
+      "eval_id": "wlasl2000:35368",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05989",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05989",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05989",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05989",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05989",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05989",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05989",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05989",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:05989",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01478",
+      "eval_id": "wlasl2000:36908",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57174",
+      "eval_id": "wlasl2000:35368",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39201",
+      "eval_id": "wlasl2000:31836",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:39201",
+      "eval_id": "wlasl2000:57639",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42607",
+      "eval_id": "wlasl2000:01477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42607",
+      "eval_id": "wlasl2000:04872",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42607",
+      "eval_id": "wlasl2000:27357",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42607",
+      "eval_id": "wlasl2000:06200",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42607",
+      "eval_id": "wlasl2000:15163",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42607",
+      "eval_id": "wlasl2000:15813",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42607",
+      "eval_id": "wlasl2000:39878",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42607",
+      "eval_id": "wlasl2000:39877",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42607",
+      "eval_id": "wlasl2000:41657",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64010",
+      "eval_id": "wlasl2000:64012",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:21033",
+      "eval_id": "wlasl2000:04906",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64006",
+      "eval_id": "wlasl2000:64012",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57170",
+      "eval_id": "wlasl2000:46431",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57170",
+      "eval_id": "wlasl2000:33768",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57170",
+      "eval_id": "wlasl2000:55120",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57170",
+      "eval_id": "wlasl2000:32814",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57170",
+      "eval_id": "wlasl2000:42605",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:57170",
+      "eval_id": "wlasl2000:42673",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31835",
+      "eval_id": "wlasl2000:55674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31835",
+      "eval_id": "wlasl2000:15478",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31835",
+      "eval_id": "wlasl2000:31777",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31835",
+      "eval_id": "wlasl2000:29618",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31835",
+      "eval_id": "wlasl2000:04902",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31835",
+      "eval_id": "wlasl2000:29617",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36401",
+      "eval_id": "wlasl2000:55674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36401",
+      "eval_id": "wlasl2000:15478",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36401",
+      "eval_id": "wlasl2000:31777",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36401",
+      "eval_id": "wlasl2000:29618",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36401",
+      "eval_id": "wlasl2000:04902",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36401",
+      "eval_id": "wlasl2000:29617",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36404",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:36404",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42610",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42610",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:42610",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:60359",
+      "eval_id": "wlasl2000:18244",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:60359",
+      "eval_id": "wlasl2000:40804",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:60359",
+      "eval_id": "wlasl2000:42674",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:33771",
+      "eval_id": "wlasl2000:19849",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:33771",
+      "eval_id": "wlasl2000:64013",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:31834",
+      "eval_id": "wlasl2000:15709",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:06083",
+      "eval_id": "wlasl2000:15477",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64000",
+      "eval_id": "wlasl2000:10624",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64000",
+      "eval_id": "wlasl2000:41643",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64000",
+      "eval_id": "wlasl2000:15153",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64000",
+      "eval_id": "wlasl2000:04866",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64000",
+      "eval_id": "wlasl2000:31832",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64000",
+      "eval_id": "wlasl2000:32806",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:64000",
+      "eval_id": "wlasl2000:01472",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:40321",
+      "eval_id": "wlasl2000:04906",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:60358",
+      "eval_id": "wlasl2000:15709",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:16638",
+      "eval_id": "wlasl2000:38689",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:16638",
+      "eval_id": "wlasl2000:57173",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:16638",
+      "eval_id": "wlasl2000:57809",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:66046",
+      "eval_id": "wlasl2000:66059",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01474",
+      "eval_id": "wlasl2000:46431",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01474",
+      "eval_id": "wlasl2000:33768",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01474",
+      "eval_id": "wlasl2000:55120",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01474",
+      "eval_id": "wlasl2000:32814",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01474",
+      "eval_id": "wlasl2000:42605",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    },
+    {
+      "ssl_id": "wlasl2000:01474",
+      "eval_id": "wlasl2000:42673",
+      "media_interval": false,
+      "source_interval": false,
+      "session": false,
+      "duplicate": false,
+      "signer": true
+    }
+  ],
+  "collision_count": 630,
+  "examples_truncated": false,
+  "passed": false,
+  "signer_disjoint_verified": false,
+  "near_duplicate_verification": "not_run_gallery_query",
+  "ssl_ordered_ids_hash": "b465fc72789fb078ff383578deb64802b928b6cebc068584fe315432ea54bc83",
+  "evaluation_ordered_ids_hash": "664d58bfdd728501a51ba5b227b2fd349a5c949cef3a123a75f61b856da030dd",
+  "executed_at": "2026-10-07T05:13:55.058288+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "542b3605a2a84171bb7e9ec109b39395589d25669047fbb9295c0c204f939eef",
+  "protocol": "official_split_secondary_retrieval_source_filtered_not_signer_held_out",
+  "gallery_manifest_sha256": "ff52db34cf055ae824ef70b1f512ea9b2c85bdc280fab58adf43225f15d10a4c",
+  "query_manifest_sha256": "97a2031d8f9b10aac7dccd1dfb91ae98332a82f23acbb48b5cd98464e7f61d08",
+  "forbidden_media_or_source_collisions": [],
+  "passed_media_source_gate": true,
+  "known_signer_intersection": [
+    "0",
+    "10",
+    "102",
+    "109",
+    "11",
+    "112",
+    "115",
+    "12",
+    "121",
+    "13",
+    "14",
+    "15",
+    "19",
+    "2",
+    "20",
+    "21",
+    "25",
+    "30",
+    "31",
+    "32",
+    "38",
+    "4",
+    "41",
+    "5",
+    "56",
+    "59",
+    "6",
+    "84",
+    "87",
+    "89",
+    "9",
+    "91",
+    "96",
+    "98"
+  ]
+}

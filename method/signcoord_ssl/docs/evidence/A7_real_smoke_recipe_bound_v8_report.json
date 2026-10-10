@@ -1,0 +1,17 @@
+{
+  "executed_at": "2026-10-07T05:16:32.529876+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "542b3605a2a84171bb7e9ec109b39395589d25669047fbb9295c0c204f939eef",
+  "status": "passed",
+  "optimizer_updates": 4,
+  "arm": "A7",
+  "run_dir": "method/signcoord_ssl/runs/A7_how2sign_real_smoke_recipe_bound_v8",
+  "scientific_evidence": false,
+  "real_data_training": true,
+  "config_hash": "3f97b8c511baee58916f06f63c92a9c538213adb2432a13e380d73d98cf705a7",
+  "manifest_hash": "036ba3c75304dede79d6154cebf8b01115aaa2b4bfe4a74ddf0946ad6d8f6861",
+  "checkpoint_sha256": "50f2b21117ddfd9752066bf5aaf3f5cca6b6c1e90e0a4c3a5c173578cb1949a5",
+  "relation_activated": true,
+  "relation_active_supervision": true,
+  "world_size": 1
+}

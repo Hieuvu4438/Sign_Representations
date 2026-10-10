@@ -1,0 +1,743 @@
+{
+  "executed_at": "2026-10-07T04:01:13.151546+00:00",
+  "code_revision": "2a238fb68413292384baefed5785d6f87e136061",
+  "implementation_hash": "86a5944b325cac5042e4b4f7ecd414099dbe99549269a71e76f4e2e0ef353f26",
+  "datasets": {
+    "how2sign_train": {
+      "video_root": "/home/shared_data/sign_language/How2Sign/train/raw_videos",
+      "pose_root": "/home/shared_data/sign_language/How2Sign/train/train_pose",
+      "available_videos": 31047,
+      "available_pose_files": 31047,
+      "paired_by_filename": 31047,
+      "counts_are_not_decode_verification": true
+    },
+    "asl_citizen": {
+      "video_root": "/home/dongvk/datasets/ASL_Citizen/videos",
+      "pose_root": "/home/dongvk/datasets/ASL_Citizen/keypoints",
+      "available_videos": 83399,
+      "available_pose_files": 83399,
+      "paired_by_filename": 83399,
+      "counts_are_not_decode_verification": true,
+      "train": {
+        "declared": 40154,
+        "available": 40154,
+        "signer_count": 35,
+        "csv_sha256": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329"
+      },
+      "val": {
+        "declared": 10304,
+        "available": 10304,
+        "signer_count": 6,
+        "csv_sha256": "6ac78c9d551dfcc81d225a5279d7637c2891a4490851234be6e4674666e21366"
+      },
+      "test": {
+        "declared": 32941,
+        "available": 32941,
+        "signer_count": 11,
+        "csv_sha256": "b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e"
+      },
+      "split_signer_intersections": {
+        "train_val": [],
+        "train_test": [],
+        "val_test": []
+      }
+    },
+    "wlasl2000": {
+      "video_root": "/home/dongvk/datasets/WLASL2000/WLASL2000",
+      "pose_root": "/home/dongvk/datasets/WLASL2000/keypoint",
+      "available_videos": 21095,
+      "available_pose_files": 21095,
+      "paired_by_filename": 21095,
+      "counts_are_not_decode_verification": true
+    },
+    "csldaily_shared": {
+      "video_root": "/home/shared_data/sign_language/CSLDaily/videos/videos",
+      "exists": true,
+      "available_mp4": 20654,
+      "counts_are_not_decode_verification": true
+    },
+    "csldaily_crop": {
+      "video_root": "/home/dongvk/datasets/CSL_Daily_Sentence_Crop/videos",
+      "exists": true,
+      "available_mp4": 20654,
+      "counts_are_not_decode_verification": true
+    },
+    "how2sign_eval": {
+      "video_root": "/home/shared_data/sign_language/How2Sign/eval/raw_videos",
+      "exists": true,
+      "available_mp4": 1739,
+      "counts_are_not_decode_verification": true
+    },
+    "how2sign_test": {
+      "video_root": "/home/shared_data/sign_language/How2Sign/test/raw_videos",
+      "exists": true,
+      "available_mp4": 2343,
+      "counts_are_not_decode_verification": true
+    },
+    "msasl_downloaded": {
+      "video_root": "/home/dongvk/datasets/MS-ASL/video",
+      "exists": true,
+      "available_mp4": 4269,
+      "counts_are_not_decode_verification": true
+    },
+    "msasl_processed": {
+      "video_root": "/home/dongvk/datasets/MS-ASL/cut_processed_video",
+      "exists": true,
+      "available_mp4": 18855,
+      "counts_are_not_decode_verification": true
+    },
+    "phoenix14t_train": {
+      "video_root": "/home/dongvk/datasets/phoenix14T/videos_phoenix/videos/train",
+      "exists": true,
+      "available_mp4": 7096,
+      "counts_are_not_decode_verification": true
+    },
+    "phoenix14t_dev": {
+      "video_root": "/home/dongvk/datasets/phoenix14T/videos_phoenix/videos/dev",
+      "exists": true,
+      "available_mp4": 519,
+      "counts_are_not_decode_verification": true
+    },
+    "phoenix14t_test": {
+      "video_root": "/home/dongvk/datasets/phoenix14T/videos_phoenix/videos/test",
+      "exists": true,
+      "available_mp4": 642,
+      "counts_are_not_decode_verification": true
+    },
+    "youtube_asl": {
+      "video_root": "/home/dongvk/datasets/youtubeASL",
+      "exists": true,
+      "available_mp4": 0,
+      "counts_are_not_decode_verification": true
+    }
+  },
+  "third_party": {
+    "ASL_CCG": {
+      "revision": "d68be3d6baba0127d6d6e2fbd6d414804198ebb6",
+      "path": "/home/haipd/Sign_Representations/third_party/ASL_CCG"
+    },
+    "SHuBERT": {
+      "revision": "cc1929326075bfbad7ad73159b2acf84356059bb",
+      "path": "/home/haipd/Sign_Representations/third_party/SHuBERT"
+    },
+    "SL-Models-Analysis": {
+      "revision": "55054020dfe61263360cab703d59282406031817",
+      "path": "/home/haipd/Sign_Representations/third_party/SL-Models-Analysis"
+    },
+    "SignRep": {
+      "revision": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+      "path": "/home/haipd/Sign_Representations/third_party/SignRep"
+    },
+    "asl-prosody": {
+      "revision": "8d75a9ec5d1a21ec7c95b14b16855df35a830fac",
+      "path": "/home/haipd/Sign_Representations/third_party/asl-prosody"
+    },
+    "dinov2": {
+      "revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "path": "/home/haipd/Sign_Representations/third_party/dinov2"
+    },
+    "shubert-author-demo": {
+      "revision": "2a238fb68413292384baefed5785d6f87e136061",
+      "path": "/home/haipd/Sign_Representations/third_party/shubert-author-demo"
+    }
+  },
+  "checkpoints": [
+    {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/checkpoint-11625/pytorch_model.bin",
+      "bytes": 2683976334,
+      "sha256": null
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/checkpoint_836_400000.pt",
+      "bytes": 1057496908,
+      "sha256": null
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/dinov2face.pth",
+      "bytes": 112850895,
+      "sha256": null
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/dinov2hand.pth",
+      "bytes": 112850895,
+      "sha256": null
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/face_landmarker_v2_with_blendshapes.task",
+      "bytes": 11577701,
+      "sha256": null
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/hand_landmarker.task",
+      "bytes": 7819105,
+      "sha256": null
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/checkpoints/shubert_author_hf/models/yolov8n.pt",
+      "bytes": 6549796,
+      "sha256": null
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+      "bytes": 222676746,
+      "sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b"
+    }
+  ],
+  "environment": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:09:02) [GCC 11.2.0]",
+    "executable": "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.5.3",
+    "scipy": "1.17.1",
+    "av": "17.1.0",
+    "PyYAML": "6.0.3",
+    "pytest": "9.0.3",
+    "timm": "1.0.20",
+    "huggingface-hub": "1.14.0"
+  },
+  "inspections": [
+    {
+      "dataset": "how2sign_train",
+      "pose_path": "/home/shared_data/sign_language/How2Sign/train/train_pose/--7E2sU6zP4_10-5-rgb_front.pkl",
+      "video_path": "/home/shared_data/sign_language/How2Sign/train/raw_videos/--7E2sU6zP4_10-5-rgb_front.mp4",
+      "pose_sha256": "c95152cfb90b2e9cda2f990e390e29b731f7e3b80a475ca58f88bb62cfb50432",
+      "video_sha256": "ee7211e132f2e30e3de47e5a0097fa39a843bd4a308cf8ed62632121cbecf2f0",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 365
+      },
+      "xy_quantiles": [
+        0.25370437182761996,
+        0.29058116839991677,
+        0.5166530832648277,
+        0.9774903021532076,
+        1.1687550130817626
+      ],
+      "score_quantiles": [
+        0.44989213347435,
+        0.836129195690155,
+        8.156848907470703,
+        9.93242862701416,
+        11.094011306762695
+      ],
+      "score_fraction_above_one": 0.9813369039035946,
+      "nonfinite_xy": 0,
+      "decoded_frames": 365,
+      "frame_count_matches": true,
+      "video_size": [
+        1280,
+        720
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.041708333333333236,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "how2sign_train",
+      "pose_path": "/home/shared_data/sign_language/How2Sign/train/train_pose/--7E2sU6zP4_11-5-rgb_front.pkl",
+      "video_path": "/home/shared_data/sign_language/How2Sign/train/raw_videos/--7E2sU6zP4_11-5-rgb_front.mp4",
+      "pose_sha256": "40b2af364a443af12547994f72799f999934923608fd6956023307b6eaa8f4dd",
+      "video_sha256": "4789bbd7643c4cfc44178a8ebd6a0d9fac4ac783282581a5530a24d10d68a0ca",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 565
+      },
+      "xy_quantiles": [
+        0.16733379364013673,
+        0.273633469754899,
+        0.525730328179068,
+        0.9986768678382589,
+        1.2195177007604525
+      ],
+      "score_quantiles": [
+        0.45325320959091187,
+        0.8891624927520753,
+        8.30107593536377,
+        10.046758728027344,
+        11.406811714172363
+      ],
+      "score_fraction_above_one": 0.9853084037527446,
+      "nonfinite_xy": 0,
+      "decoded_frames": 565,
+      "frame_count_matches": true,
+      "video_size": [
+        1280,
+        720
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.041708333333333236,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "how2sign_train",
+      "pose_path": "/home/shared_data/sign_language/How2Sign/train/train_pose/--7E2sU6zP4_12-5-rgb_front.pkl",
+      "video_path": "/home/shared_data/sign_language/How2Sign/train/raw_videos/--7E2sU6zP4_12-5-rgb_front.mp4",
+      "pose_sha256": "a08df1c1c4aee535ca31e8737ff4357690f12dceab9ce59ef6815f4c35f1b896",
+      "video_sha256": "ce6944322a92fb6dbf94b9fbac42da3fc3a1a91b5f30f7ed52641de91229fcb9",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 349
+      },
+      "xy_quantiles": [
+        0.27392431111247456,
+        0.30211917960754153,
+        0.5307460529936685,
+        1.002231970990146,
+        1.1958562863093833
+      ],
+      "score_quantiles": [
+        0.42898622155189514,
+        0.8435657858848572,
+        8.297801971435547,
+        10.25069801330566,
+        11.458456039428711
+      ],
+      "score_fraction_above_one": 0.9817092875455113,
+      "nonfinite_xy": 0,
+      "decoded_frames": 349,
+      "frame_count_matches": true,
+      "video_size": [
+        1280,
+        720
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.041708333333333236,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "how2sign_train",
+      "pose_path": "/home/shared_data/sign_language/How2Sign/train/train_pose/--7E2sU6zP4_13-5-rgb_front.pkl",
+      "video_path": "/home/shared_data/sign_language/How2Sign/train/raw_videos/--7E2sU6zP4_13-5-rgb_front.mp4",
+      "pose_sha256": "1aaf96b2b0def2da7c399e751086b83d887e1fd19b801960fef356c42a363d25",
+      "video_sha256": "ae116bbc597082ff62a8fd09f1f96a98e99faa9da3b718b4dcb4f693da48a19f",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 144
+      },
+      "xy_quantiles": [
+        0.2475590705871582,
+        0.3034994725827818,
+        0.5262451740602652,
+        1.0010896341204645,
+        1.2176698019107184
+      ],
+      "score_quantiles": [
+        0.522528886795044,
+        0.8727231919765472,
+        8.497477054595947,
+        9.842374448776248,
+        11.150131225585938
+      ],
+      "score_fraction_above_one": 0.9848579782790309,
+      "nonfinite_xy": 0,
+      "decoded_frames": 144,
+      "frame_count_matches": true,
+      "video_size": [
+        1280,
+        720
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.041708333333333236,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "how2sign_train",
+      "pose_path": "/home/shared_data/sign_language/How2Sign/train/train_pose/--7E2sU6zP4_5-5-rgb_front.pkl",
+      "video_path": "/home/shared_data/sign_language/How2Sign/train/raw_videos/--7E2sU6zP4_5-5-rgb_front.mp4",
+      "pose_sha256": "2da499003995e0b22243a60518a6e726a5d829f5a479c6a3dc0973c918838f7b",
+      "video_sha256": "daad57966a936cd2cb9c14d4a3d2de168d8f730a99a6f5929a12e0666681c448",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 212
+      },
+      "xy_quantiles": [
+        0.2653794010480245,
+        0.2998659296168221,
+        0.5159981968088283,
+        0.7526346076936631,
+        1.11547592304371
+      ],
+      "score_quantiles": [
+        0.4076375365257263,
+        0.7907127231359482,
+        8.239176750183105,
+        9.783965969085694,
+        11.009602546691895
+      ],
+      "score_fraction_above_one": 0.9795715704355228,
+      "nonfinite_xy": 0,
+      "decoded_frames": 212,
+      "frame_count_matches": true,
+      "video_size": [
+        1280,
+        720
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.041708333333333236,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "how2sign_train",
+      "pose_path": "/home/shared_data/sign_language/How2Sign/train/train_pose/--7E2sU6zP4_6-5-rgb_front.pkl",
+      "video_path": "/home/shared_data/sign_language/How2Sign/train/raw_videos/--7E2sU6zP4_6-5-rgb_front.mp4",
+      "pose_sha256": "a96c274b37b559a85f7e942d76e3f3abc34b439b859d98cd2664947e063cc5cc",
+      "video_sha256": "284889ebce220088ac2329612711e6f250a708c9184696b22c518124a8e35f41",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 402
+      },
+      "xy_quantiles": [
+        0.19852564334869385,
+        0.29891482282567916,
+        0.5176889465914833,
+        0.9989717734080775,
+        1.179812855190701
+      ],
+      "score_quantiles": [
+        0.4515887498855591,
+        0.854286789894104,
+        8.2266845703125,
+        10.08115882873535,
+        11.552783966064453
+      ],
+      "score_fraction_above_one": 0.9841768600605992,
+      "nonfinite_xy": 0,
+      "decoded_frames": 402,
+      "frame_count_matches": true,
+      "video_size": [
+        1280,
+        720
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.041708333333333236,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "asl_citizen",
+      "pose_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/0001523804663805528-PASSPORT.pkl",
+      "video_path": "/home/dongvk/datasets/ASL_Citizen/videos/0001523804663805528-PASSPORT.mp4",
+      "pose_sha256": "f05e91fbdc29b5078962ad28c0de584dccf5e6d25e2ac31ff0816eb30c8e6a27",
+      "video_sha256": "23cba7dfa1cc4118d3eeb49bc4814f2fd0aee5b0658266307d9be69f0ef5531c",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 66
+      },
+      "xy_quantiles": [
+        -0.0800704002380371,
+        0.04643712043762207,
+        0.5252196922898292,
+        1.0045821897188822,
+        1.485303089353773
+      ],
+      "score_quantiles": [
+        0.39089512825012207,
+        0.8380298340320587,
+        6.210306644439697,
+        8.117768688201904,
+        8.463722229003906
+      ],
+      "score_fraction_above_one": 0.9794941900205059,
+      "nonfinite_xy": 0,
+      "decoded_frames": 66,
+      "frame_count_matches": true,
+      "video_size": [
+        640,
+        480
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.03300000000000003,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "asl_citizen",
+      "pose_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/00019179295562565812-NOT INTERESTED.pkl",
+      "video_path": "/home/dongvk/datasets/ASL_Citizen/videos/00019179295562565812-NOT INTERESTED.mp4",
+      "pose_sha256": "ed60326521314d1c897dd544af8c77e306ff2ab83cce4cf65ed6fd998d704413",
+      "video_sha256": "4724759c8ccc944a66a270e39c2e40f683723926070cf091f16dd4d615c6b559",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 74
+      },
+      "xy_quantiles": [
+        0.007793426513671875,
+        0.23176221283276874,
+        0.5228264808654786,
+        1.0023965497811635,
+        1.348150811758306
+      ],
+      "score_quantiles": [
+        0.46848347783088684,
+        0.8517595893144607,
+        8.237202644348145,
+        9.587914600372315,
+        10.759346008300781
+      ],
+      "score_fraction_above_one": 0.9786628733997155,
+      "nonfinite_xy": 0,
+      "decoded_frames": 74,
+      "frame_count_matches": true,
+      "video_size": [
+        640,
+        480
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.03300000000000003,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "asl_citizen",
+      "pose_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/0002081503807414009-INHALE.pkl",
+      "video_path": "/home/dongvk/datasets/ASL_Citizen/videos/0002081503807414009-INHALE.mp4",
+      "pose_sha256": "7235b328f923e7c2a91b05e3986fa0fdea16a8d76dd59effecc237c739175e85",
+      "video_sha256": "64658fc64e19e7083bb069186c89d3e79bddd8b6fe4a24799b51fcf441e98ec8",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 139
+      },
+      "xy_quantiles": [
+        -0.04839410781860352,
+        0.17065799368752374,
+        0.4739081569843822,
+        1.002419023381339,
+        1.1059901740815903
+      ],
+      "score_quantiles": [
+        0.646173357963562,
+        1.0266287851333618,
+        8.036148071289062,
+        9.5261869430542,
+        10.240906715393066
+      ],
+      "score_fraction_above_one": 0.9919402823605777,
+      "nonfinite_xy": 0,
+      "decoded_frames": 139,
+      "frame_count_matches": true,
+      "video_size": [
+        640,
+        480
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.033115872437659455,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "asl_citizen",
+      "pose_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/0002339698736220086-seedCORN 2.pkl",
+      "video_path": "/home/dongvk/datasets/ASL_Citizen/videos/0002339698736220086-seedCORN 2.mp4",
+      "pose_sha256": "3952d793a39681d74bd2748c6f5a7dfec0cc61485cf3e1437b5673a9589e9c13",
+      "video_sha256": "ca1215e43d543eb203a0ac75eea832a855e218068aa8b75be8727bed5281a4ca",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 124
+      },
+      "xy_quantiles": [
+        0.013204860687255859,
+        0.18850363667805992,
+        0.5259424427317249,
+        1.1579898895488843,
+        1.2768768828776147
+      ],
+      "score_quantiles": [
+        0.5677711367607117,
+        0.9034472781419755,
+        8.24580717086792,
+        9.855479888916017,
+        11.333375930786133
+      ],
+      "score_fraction_above_one": 0.9850836769342711,
+      "nonfinite_xy": 0,
+      "decoded_frames": 124,
+      "frame_count_matches": true,
+      "video_size": [
+        640,
+        480
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.03300000000000014,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "asl_citizen",
+      "pose_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/0002600716749214804-VOMIT.pkl",
+      "video_path": "/home/dongvk/datasets/ASL_Citizen/videos/0002600716749214804-VOMIT.mp4",
+      "pose_sha256": "543e438770d6efb33b5bdae227672dddd80e9e2515658e80341e6e5bb1cae4ec",
+      "video_sha256": "44c997e57db5a180ecf3a3d81889d81f8e7f1814b8e43dfb36da2105a1ca25f9",
+      "xy_frame_shapes": [
+        "(1, 133, 2)",
+        "(2, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)",
+        "(2, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 120,
+        "2": 6
+      },
+      "xy_quantiles": [
+        0.026089191436767578,
+        0.059177207946777347,
+        0.4759953591558668,
+        1.2404600295755597,
+        1.4455513376328677
+      ],
+      "score_quantiles": [
+        0.5698919892311096,
+        0.966439175605774,
+        8.60784101486206,
+        9.855811405181887,
+        10.787579536437988
+      ],
+      "score_fraction_above_one": 0.983481430849852,
+      "nonfinite_xy": 0,
+      "decoded_frames": 126,
+      "frame_count_matches": true,
+      "video_size": [
+        640,
+        480
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.03195807101083381,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    },
+    {
+      "dataset": "asl_citizen",
+      "pose_path": "/home/dongvk/datasets/ASL_Citizen/keypoints/0002752583837435374-DISCUSS.pkl",
+      "video_path": "/home/dongvk/datasets/ASL_Citizen/videos/0002752583837435374-DISCUSS.mp4",
+      "pose_sha256": "2240e66822b4e420d4d85a2f8c6106c0ead025dcb26d1c306989306a6236fa24",
+      "video_sha256": "a0e642491993bdc6c16814a8b9db2213afa3c34fb80b1db7664e8024e392cfce",
+      "xy_frame_shapes": [
+        "(1, 133, 2)"
+      ],
+      "score_frame_shapes": [
+        "(1, 133)"
+      ],
+      "person_count_histogram": {
+        "1": 160
+      },
+      "xy_quantiles": [
+        -0.11414976119995117,
+        0.04851485076877804,
+        0.500547717511654,
+        1.0084493541055255,
+        1.5943650311893884
+      ],
+      "score_quantiles": [
+        0.4732155203819275,
+        0.8829314482212066,
+        7.936731338500977,
+        9.411208963394165,
+        10.021726608276367
+      ],
+      "score_fraction_above_one": 0.9762218045112782,
+      "nonfinite_xy": 0,
+      "decoded_frames": 160,
+      "frame_count_matches": true,
+      "video_size": [
+        640,
+        480
+      ],
+      "pts_strictly_increasing": true,
+      "median_pts_interval_s": 0.03300000000000014,
+      "reuse_status": "unverified_coordinate_units_score_semantics_schema_and_extractor"
+    }
+  ],
+  "gpu_snapshot": "Wed Oct  7 11:01:13 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 570.195.03             Driver Version: 570.195.03     CUDA Version: 12.8     |\n|-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA RTX 5880 Ada Gene...    Off |   00000000:02:00.0 Off |                  Off |\n| 55%   79C    P0            281W /  285W |   22616MiB /  49140MiB |    100%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n                                                                                         \n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            1151      C   .../envs/pyannote_env/bin/python       2066MiB |\n|    0   N/A  N/A            2627      C   python3                                1398MiB |\n|    0   N/A  N/A            2723      C   python3                                 474MiB |\n|    0   N/A  N/A            4076      C   /usr/bin/python3                        476MiB |\n|    0   N/A  N/A          137227      C   .../envs/pyannote_env/bin/python       2066MiB |\n|    0   N/A  N/A         4158611      C   .venv-signrep/bin/python              16100MiB |\n+-----------------------------------------------------------------------------------------+\n",
+  "method_inventory": {
+    "signrel_temporal": {
+      "path": "/home/haipd/Sign_Representations/method/signrel_temporal",
+      "python_file_count": 1098,
+      "agent_instructions": null
+    },
+    "asc_jepa": {
+      "path": "/home/haipd/Sign_Representations/method/asc_jepa",
+      "python_file_count": 7,
+      "agent_instructions": null
+    },
+    "research_lab": {
+      "path": "/home/haipd/Sign_Representations/method/research_lab",
+      "python_file_count": 3,
+      "agent_instructions": "/home/haipd/Sign_Representations/method/research_lab/AGENTS.md"
+    },
+    "signrep_spectral": {
+      "path": "/home/haipd/Sign_Representations/method/signrep_spectral",
+      "python_file_count": 34,
+      "agent_instructions": "/home/haipd/Sign_Representations/method/signrep_spectral/AGENTS.md"
+    },
+    "signrel_jepa": {
+      "path": "/home/haipd/Sign_Representations/method/signrel_jepa",
+      "python_file_count": 161,
+      "agent_instructions": null
+    },
+    "signcoord_ssl": {
+      "path": "/home/haipd/Sign_Representations/method/signcoord_ssl",
+      "python_file_count": 129,
+      "agent_instructions": null
+    },
+    "stream_reliability": {
+      "path": "/home/haipd/Sign_Representations/method/stream_reliability",
+      "python_file_count": 789,
+      "agent_instructions": "/home/haipd/Sign_Representations/method/stream_reliability/AGENTS.md"
+    },
+    "frozen_probe": {
+      "path": "/home/haipd/Sign_Representations/method/frozen_probe",
+      "python_file_count": 5368,
+      "agent_instructions": "/home/haipd/Sign_Representations/method/frozen_probe/AGENTS.md"
+    },
+    "p4_signssl": {
+      "path": "/home/haipd/Sign_Representations/method/p4_signssl",
+      "python_file_count": 59,
+      "agent_instructions": null
+    }
+  }
+}
