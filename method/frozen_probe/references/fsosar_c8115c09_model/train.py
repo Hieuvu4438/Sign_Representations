@@ -1,0 +1,495 @@
+# SPDX-FileCopyrightText: 2025 Humanoid Sensing and Perception, Istituto Italiano di Tecnologia
+# SPDX-License-Identifier: BSD-3-Clause
+
+import argparse
+from videoloader import VideoDataset
+import torch
+import wandb
+from torch.utils.data import DataLoader, DistributedSampler
+from tqdm import tqdm
+import os
+import torch.distributed as dist
+from torch.nn.parallel import DistributedDataParallel as DDP
+from datetime import datetime
+import random
+from torch.optim.lr_scheduler import MultiStepLR
+from utils import AverageMeter, setup, load_configs, DataArgs, OpenSetLoss, compute_accuracy, compute_oscr, compute_aupr
+import numpy as np
+from sklearn.metrics import roc_auc_score
+from utils import is_address_in_use
+import copy
+from models import SAFSAR, STRM
+from utils import visual_debug, set_seeds, save_confusion_matrix, save_confidence_scores
+import gc
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'  # Remove useless warnings
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Training script")
+    parser.add_argument('--model', type=str, required=True, choices=["STRM", "SAFSAR"], help='Model name')
+    parser.add_argument('--data', type=str, required=True, choices=["SSv2", "HMDB51", "UCF101", "NTURGBD120", "Diving48"], help='Data name')
+    parser.add_argument('--os_loss', type=str, required=True, choices=["softmax", "eos", "discriminator", "gc"], help='Open set loss')
+    return parser.parse_args()
+
+
+def main(rank, world_size, model_name, data_name, os_loss, port):
+    config = load_configs(model_name, data_name)
+    config["model_name"] = model_name
+    config["data_name"] = data_name
+    config["os_loss"] = os_loss
+    test_eval = False
+    
+    # We set seed two times: before loading the dataset and after loading the model
+    if config["eval_only"]:
+        set_seeds(rank)
+    
+    if config["ddp"]:  # When training more models on more GPU on a single machine, DDP is needed for performance
+        setup(rank, world_size, set_seeds=True, port=port)
+    # Create directory for saving checkpoints
+    if rank == 0:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        checkpoint_path = f"{config['shot']}_{model_name}_{os_loss}_{data_name}_{timestamp}"
+        checkpoint_dir = os.path.join(config["log_path"], "logs", checkpoint_path)
+        os.makedirs(checkpoint_dir, exist_ok=True)
+
+    # Define training parameters
+    lr = config["lr"]  # Default learning rate from config
+    log_train_after_steps = config["log_train_after_steps"]
+    eval_after_steps = config["eval_after_steps"]
+    log_wandb = config["log_wandb"]
+    
+    # Get dataset-specific eval_after_steps if specified (highest priority)
+    eval_after_steps_key = f"eval_after_steps_{data_name}"
+    if eval_after_steps_key in config:
+        eval_after_steps = config[eval_after_steps_key]
+        config["eval_after_steps"] = eval_after_steps
+    
+    # Get dataset and shot-specific learning rate and disc_weight from config
+    shot = config["shot"]
+    
+    # Try to get shot-specific learning rate first, then dataset-specific, then default
+    lr_key_shot_dataset = f"lr_{shot}_shot_{data_name}"
+    lr_key_shot = f"lr_{shot}_shot"
+    lr_key_dataset = f"lr_{data_name}"
+    
+    if lr_key_shot_dataset in config:
+        lr = config[lr_key_shot_dataset]
+    elif lr_key_shot in config:
+        lr = config[lr_key_shot]
+    elif lr_key_dataset in config:
+        lr = config[lr_key_dataset]
+        # Special case for STRM with GC loss override
+        if model_name == "STRM" and os_loss == "gc" and "lr_gc_override" in config:
+            lr = config["lr_gc_override"]
+    
+    # Get disc_weight with shot-specific fallback
+    disc_weight_key = f"disc_weight_{shot}_shot"
+    if disc_weight_key in config:
+        disc_weight = config[disc_weight_key]
+    else:
+        disc_weight = config["disc_weight"]
+
+    config["disc_weight"] = disc_weight
+    config["eval_after_steps"] = eval_after_steps
+    config["lr"] = lr
+
+    # Data
+    data_config = copy.deepcopy(config)  # Fix config, since GC may change way later and its recreated later
+    def setup_dataloader(train=not config["eval_only"]):
+        videodataset = VideoDataset(DataArgs(data_config), preprocessing=model_name)
+        videodataset.train = train
+        if config["ddp"]:
+            train_sampler = DistributedSampler(videodataset, num_replicas=world_size, rank=rank)
+            dataloader = DataLoader(videodataset, batch_size=1, sampler=train_sampler, num_workers=data_config["num_workers"])
+        else:
+            dataloader = DataLoader(videodataset, batch_size=1, num_workers=data_config["num_workers"])
+        return dataloader, videodataset
+    dataloader, videodataset = setup_dataloader()
+    config["classes_names"] = videodataset.complex_classes_descriptions
+    config["n_train_classes"] = len(set(videodataset.train_split.gt_a_list))
+    config["train_unique_classes"] = videodataset.train_split.get_unique_classes()
+
+    # Model
+    if os_loss == "gc":  # We add one class for the unknown class, dataset is already declared
+        config["way"] += 1
+    
+    if model_name == "SAFSAR":
+        model = SAFSAR(config, disc=os_loss=="discriminator", gc=os_loss=="gc", dp=config["dp"])
+    elif model_name == "STRM":
+        model = STRM(config, disc=os_loss=="discriminator", gc=os_loss=="gc", dp=config["dp"])
+    else:
+        raise ValueError(f"Unknown model: {model_name}")
+    
+    os_loss_function = OpenSetLoss(os_loss)
+
+    # Set up model
+    model.to(rank)
+    if config["ddp"]:
+        model = DDP(model, device_ids=[rank], find_unused_parameters=True)
+        model_attributes = model.module
+    else:
+        model_attributes = model
+
+    if config["eval_only"]:
+        if config["checkpoint_path"] != "":
+            import collections
+            old_weights = torch.load(config["checkpoint_path"])
+            new_weights = collections.OrderedDict()
+            old_weights_set = set()
+            model_weights_set = set()
+            for k_, v_ in old_weights.items():
+                for k, v in model.named_parameters():
+                    if k_ in k or k in k_:
+                        new_weights[k] = copy.deepcopy(v_)
+                        old_weights_set.add(k_)
+                        model_weights_set.add(k)
+            # to ensure that we used all weights of checkpoints and of the model
+            if(len(old_weights_set) != len(model_weights_set)):
+                print("Not corresponding weights:", old_weights_set.symmetric_difference(model_weights_set))
+            if model_name == "STRM":
+                model.load_state_dict(old_weights, strict=True)
+            else:
+                model.load_state_dict(new_weights, strict=True)
+        else:
+            print("Doing evaluation with a random initialized model!")
+        model_attributes.set_eval()
+        model.eval()
+    else:
+        model_attributes.set_train()
+        model.train()
+
+    # Set seeds AFTER model initialization to ensure reproducible data loading
+    # regardless of model architecture differences (softmax vs discriminator)
+    if config["eval_only"]:
+        set_seeds(rank)
+
+    # Initialize wandb
+    if log_wandb and rank==0:
+        wandb.init(project="fsosar", config=config, name=f"{config['host']}_{checkpoint_path}")
+        # wandb.watch(model, log="all")  This takes too much memory
+
+    # Define optimizer and scheduler based on config
+    model_param = filter(lambda p: p.requires_grad, model.parameters())
+    
+    # Get optimizer settings from config - fail fast if missing required values
+    optimizer_type = config["optimizer"].lower()
+    scheduler_type = config["scheduler"]
+    momentum = config["momentum"] if optimizer_type == "sgd" else None
+    weight_decay = config["weight_decay"] if optimizer_type == "sgd" else None
+    scheduler_milestones = config["scheduler_milestones"] if scheduler_type == "multistep" else None
+    scheduler_gamma = config["scheduler_gamma"] if scheduler_type == "multistep" else None
+    
+    # Create optimizer based on config
+    if optimizer_type == "adam":
+        optimizer = torch.optim.Adam(model_param, lr=lr)
+    elif optimizer_type == "sgd":
+        optimizer = torch.optim.SGD(model_param, lr=lr, momentum=momentum, weight_decay=weight_decay)
+    else:
+        raise ValueError(f"Unsupported optimizer type: {optimizer_type}")
+    
+    # Create scheduler based on config
+    if scheduler_type == "multistep":
+        scheduler = MultiStepLR(optimizer, milestones=scheduler_milestones, gamma=scheduler_gamma)
+    elif scheduler_type is None:
+        scheduler = None
+    else:
+        raise ValueError(f"Unsupported scheduler type: {scheduler_type}")
+
+    # Loop variables
+    train_meter = AverageMeter("train/")
+    test_meter = AverageMeter("test/")
+    average_meter = train_meter
+    if rank == 0:
+        progress_bar = tqdm(total=eval_after_steps, desc="Training Progress")
+    step = 0
+    total_step = 0
+    training = True
+    optimize_every = config["optimize_every"]
+    maximum_queries = config["maximum_queries"]
+    torch.set_grad_enabled(not config["eval_only"])
+    training = not config["eval_only"]
+
+    # print config before training without long lists
+    for k, v in config.items():
+        if k not in ["classes_names", "train_unique_classes"]:
+            print(k, v)
+
+    while True:
+        # assert dataloader.dataset.train == training
+        for elem in dataloader:
+
+            if total_step >= config["max_steps"]:
+                exit(0)
+
+            # Data preparation
+            support_set = elem["support_set"].squeeze(0).cuda()
+            target_set = elem["target_set"].squeeze(0)  # .cuda()
+            target_labels = elem["target_labels"].squeeze(0).long()  # .cuda()
+            support_labels = elem['support_labels'].squeeze(0).long().cuda()
+            batch_class_list = elem['batch_class_list'].squeeze(0).long().cuda()
+            # real_target_labels = elem["real_target_labels"].squeeze(0).long()
+            unknown_set = elem["unknown_set"].squeeze(0)
+            unknown_labels = elem["unknown_labels"].squeeze(0).long()
+
+            support_skeletons = elem["support_skeletons"].squeeze(0).cuda()
+            target_skeletons = elem["target_skeletons"].squeeze(0).cuda()
+            unknown_skeletons = elem["unknown_skeletons"].squeeze(0).cuda()
+                    
+            # Put together known and unknown
+            img_shape = target_set.shape[-3:]
+            if os_loss != "softmax" or (not training and os_loss == "softmax") or config["eval_only"]:  # at test time, always use unknown set
+                while True:  # Ensure that there is at least one unknown class
+                    all_images = torch.cat((target_set, unknown_set), 0).reshape(-1, config["seq_len"], *img_shape)
+                    all_labels = torch.cat((target_labels, torch.full_like(unknown_labels, -1)), 0)
+                    all_unknowns = torch.cat((torch.full_like(target_labels, 0), unknown_labels), 0)
+                    all_skeletons = torch.cat((target_skeletons, unknown_skeletons), 0).reshape(len(all_images), config["seq_len"], -1)
+                    t = list(zip(all_images, all_labels, all_unknowns, all_skeletons))
+                    random.shuffle(t)
+                    all_images, all_labels, all_unknowns, all_skeletons = zip(*t)
+                    # Get only first 5 elements for memory constraints
+                    all_images = torch.stack(all_images[:maximum_queries])
+                    all_images = all_images.reshape(-1, config["seq_len"], *img_shape)
+                    all_labels = torch.stack(all_labels[:maximum_queries])
+                    all_skeletons = torch.stack(all_skeletons[:maximum_queries])
+                    if (all_labels == -1).sum() > 0 and (all_labels != -1).sum() > 0: 
+                        break
+            else:
+                all_images = target_set.reshape(-1, config["seq_len"], *img_shape)[:maximum_queries]
+                all_labels = target_labels[:maximum_queries]
+                all_unknowns = unknown_labels[:maximum_queries]
+                all_skeletons = target_skeletons[:maximum_queries]
+            all_images = all_images.cuda()
+            all_labels = all_labels.cuda()
+            all_skeletons = all_skeletons.cuda()
+
+            # Forward passs
+            logits = model(support_set, support_labels, support_skeletons, all_images, all_skeletons, batch_class_list=batch_class_list)
+            similarity_matrix = logits['similarity_matrix']
+            # TODO STRM have 2 similarity matrices, remember to use both for open set loss
+
+            # Compute losses
+            # known
+            known_indices = all_labels != -1
+            if known_indices.sum() > 0:
+                if os_loss == "gc":  # Since GC is computed only as known loss, we do this
+                    all_labels[all_labels==-1] = config["way"]-1
+                known_losses = model_attributes.compute_known_losses(**logits, true_target_labels=None,
+                                                                        target_labels=all_labels,
+                                                                        support_labels=support_labels,
+                                                                        batch_class_list=batch_class_list)
+                unknown_losses = os_loss_function.loss(logits, all_labels, similarity_matrix)
+                if os_loss == "discriminator":
+                    if unknown_losses["os_loss"] is not None:
+                        if os_loss == "discriminator":
+                            unknown_losses["os_loss"] = unknown_losses["os_loss"]*disc_weight  # this makes safsar disc work
+            
+            # Visual debug must be called only during evaluation
+            if config["visual_debug"] and not training and rank == 0:
+                # Handle tuple conversion for all_unknowns and all_images
+                unknowns_tensor = torch.stack(all_unknowns[:maximum_queries]) if isinstance(all_unknowns, tuple) else all_unknowns
+                images_tensor = all_images if not isinstance(all_images, tuple) else torch.stack(all_images[:maximum_queries]).reshape(-1, config["seq_len"], *img_shape)
+                
+                visual_debug(
+                    similarity_matrix, support_set, images_tensor, support_labels, 
+                    all_labels, batch_class_list, unknowns_tensor, videodataset, 
+                    logits, model_attributes.debug_samples_counter, config
+                )
+                model_attributes.debug_samples_counter += 1
+
+            # Confusion matrix computation must be called only during evaluation
+            if config.get("compute_confusion_matrix", False) and not training and rank == 0:
+
+                # Handle tuple conversion for all_unknowns like in visual_debug
+                unknowns_tensor = torch.stack(all_unknowns[:maximum_queries]) if isinstance(all_unknowns, tuple) else all_unknowns
+                save_confusion_matrix(
+                    similarity_matrix, support_labels, all_labels, batch_class_list,
+                    config["classes_names"], config["model_name"], config["data_name"], config["os_loss"],
+                    logits=logits, unknown_labels=unknowns_tensor
+                )
+
+            # Confidence scores saving must be called only during evaluation
+            if config.get("save_confidence_scores", False) and not training and rank == 0:
+                save_confidence_scores(
+                    similarity_matrix, all_labels, config["model_name"], config["data_name"], config["os_loss"],
+                    logits=logits
+                )
+
+            # Optimization
+            known_losses.update(unknown_losses)
+            if training and not config["eval_only"]:
+                all_loss = sum([v if v is not None else 0 for k, v in known_losses.items()])
+                all_loss.backward()
+                if step % optimize_every == 0:
+                    optimizer.step()
+                    optimizer.zero_grad()
+            if scheduler:
+                scheduler.step()
+
+            # Compute metrics
+            if known_indices.sum() > 0:
+                if model_name == "STRM":
+                    similarity_matrix = similarity_matrix + 0.1*logits["logits_post_pat"]
+                # Here we define scaled similarity matrix, that are score normalized in [0, 1] depending on method
+                scaled_similarity_matrix = None
+                if model_name == "STRM":
+                    scaled_similarity_matrix = torch.exp(similarity_matrix)
+                    # acc_target = all_labels
+                elif model_name == "SAFSAR":
+                    scaled_similarity_matrix = (similarity_matrix + 1)/2
+                    # acc_target = true_target_labels
+                if os_loss == "gc":
+                    os_target = all_labels!=(config["way"]-1)
+                else:
+                    os_target = all_labels!=-1
+                os_target = os_target.detach().cpu().numpy()
+                if os_loss in ["softmax", "eos"]:  # implcit methods
+                    mssm = scaled_similarity_matrix.amax(dim=-1).detach().cpu().numpy()
+                    mss = torch.nn.functional.softmax(similarity_matrix, dim=-1).amax(dim=-1).detach().cpu().numpy()
+                    mls = similarity_matrix.amax(dim=-1).detach().cpu().numpy()
+                    os_sim = similarity_matrix.detach().cpu().numpy()
+                    if len(np.unique(os_target)) == 2:  # we need 2 classes to define open-set metrics, softmax train doesn't have them
+                        metrics = {"fs_acc": compute_accuracy(similarity_matrix[known_indices], all_labels[known_indices]),
+                                "os_auroc_mss": roc_auc_score(os_target, mss),
+                                "os_auroc_mls": roc_auc_score(os_target, mls),
+                                "os_auroc_mls_scaled": roc_auc_score(os_target, mssm),
+                                "os_aupr_mss": compute_aupr(os_target, mss),
+                                "os_aupr_mls": compute_aupr(os_target, mls),
+                                "os_aupr_mls_scaled": compute_aupr(os_target, mssm),
+                                "os_oscr_mss": compute_oscr(all_labels.detach().cpu().numpy(), os_sim, mss),
+                                "os_oscr_mls": compute_oscr(all_labels.detach().cpu().numpy(), os_sim, mls),
+                                "os_oscr_mls_scaled": compute_oscr(all_labels.detach().cpu().numpy(), os_sim, mssm),
+                                "os_acc_mss": ((torch.tensor(mss).cuda()>0.5) == torch.tensor(os_target).cuda()).sum().item()/len(os_target),
+                                "os_acc_mls": ((torch.tensor(mls).cuda()>0.5) == torch.tensor(os_target).cuda()).sum().item()/len(os_target),
+                                "os_acc_mls_scaled": ((torch.tensor(mssm).cuda()>0.5) == torch.tensor(os_target).cuda()).sum().item()/len(os_target)}
+                    else:
+                        metrics = {"fs_acc": compute_accuracy(similarity_matrix[known_indices], all_labels[known_indices])}
+                else:  # explicit method
+                    if os_loss == "discriminator":
+                        os_score = logits["disc_prob"].squeeze(1)
+                    elif os_loss == "gc":
+                        os_score = torch.nn.functional.softmax(similarity_matrix, dim=-1)[:, -1]
+                        similarity_matrix = similarity_matrix[:, :-1]
+                        os_score = 1-os_score  # this is unknown score, but we work with known score
+                        all_labels[all_labels==(config["way"]-1)] = -1  # replace index of unknown class with -1
+
+                    os_score = os_score.detach().cpu().numpy()
+                    metrics = {"fs_acc": compute_accuracy(similarity_matrix[known_indices],
+                                                          all_labels[known_indices]),
+                              "os_auroc": roc_auc_score(os_target, os_score),
+                              "os_aupr": compute_aupr(os_target, os_score),
+                              "os_oscr": compute_oscr(all_labels.detach().cpu().numpy(), similarity_matrix.detach().cpu().numpy(), os_score),
+                              "os_acc": ((torch.tensor(os_score).cuda()>0.5) == torch.tensor(os_target).cuda()).sum().item()/len(os_target)}
+            else:
+                metrics = {"fs_acc": None, "os_auroc": None}
+
+            additional_metrics = model_attributes.compute_additional_metrics(**logits, support_labels=support_labels,
+                                                                                   target_labels=all_labels,
+                                                                                   batch_class_list=batch_class_list)
+            metrics.update(additional_metrics)
+            average_meter.update({**known_losses, **metrics})
+        
+            # Training logging
+            if step % log_train_after_steps == 0 and step > 0 and training:
+                train_results = average_meter.average()
+                train_results.update(model_attributes.get_debug_data())
+                if rank == 0:
+                    if log_wandb:
+                        wandb.log(train_results)
+                    else:
+                        print(train_results)
+
+            # Enable evaluation
+            # wither we are training and its time for evaluation or we are in eval only mode
+            if (training and ((step % eval_after_steps == 0 and step>0)) or config["eval_only"]) or total_step==0:
+                if config["ddp"]:
+                    dist.barrier()
+                if rank == 0:
+                    progress_bar.close()
+                    progress_bar = tqdm(total=config["n_eval_steps"], desc="Evaluation Progress")
+                model_attributes.set_eval()
+                model.eval()
+                del dataloader
+                del videodataset
+                new_dataloader, new_videodataset = setup_dataloader(train=False)
+                average_meter.average()
+                average_meter = test_meter
+                training = False
+                torch.set_grad_enabled(False)
+                step = 0
+                total_step += 1
+                break  # Break out of the for loop to restart with the new dataloader
+
+            # Disable evaluation
+            if (not training and step == config["n_eval_steps"]):
+                if config["ddp"]:
+                    dist.barrier()
+                model_attributes.set_train()
+                model.train()
+                del dataloader
+                del videodataset
+                new_dataloader, new_videodataset = setup_dataloader(train=True)
+                test_results = average_meter.average()
+                if rank == 0:
+                    progress_bar.close()
+                    progress_bar = tqdm(total=eval_after_steps, desc="Training Progress")
+                    print(test_results)
+                    test_results.update(model_attributes.get_debug_data())
+                    if config["log_wandb"]:
+                        wandb.log(test_results)
+                    # Save the model with test accuracy as the name
+                    acc_vip = test_results["test/fs_acc"]
+                    if "test/os_acc" in test_results:
+                        os_vip = test_results["test/os_acc"]
+                        os_metric = "os_acc"
+                    elif "test/os_acc_mss" in test_results:
+                        os_vip = test_results["test/os_acc_mss"]
+                        os_metric = "os_acc_mss"
+                    model_path = os.path.join(checkpoint_dir, f"STEPS_{total_step}_ACC_{acc_vip:.4f}_{os_metric}_{os_vip:.4f}.pt")
+                    torch.save(model.state_dict(), model_path)
+                average_meter = train_meter
+                training = True
+                torch.set_grad_enabled(True)
+                step = 0
+                total_step += 1
+                if config["exit_after_eval"]:
+                    exit(0)
+                else:
+                    break  # Break out of the for loop to restart with the new dataloader
+
+            # Manual garbage collection (needed for some PyTorch versions)
+            del support_set, support_labels, batch_class_list
+            del target_set, target_labels, unknown_set, unknown_labels
+            del all_images, all_labels
+            del logits, similarity_matrix, known_losses, unknown_losses
+            gc.collect()
+            torch.cuda.empty_cache()
+
+            # Progress bar
+            if rank == 0:
+                progress_bar.update(1)
+            step += 1
+            total_step += 1
+
+        dataloader = new_dataloader
+        videodataset = new_videodataset
+
+
+if __name__ == "__main__":
+    args = parse_args()
+    model_name = args.model
+    data_name = args.data
+    os_loss = args.os_loss
+    world_size = torch.cuda.device_count()
+    # NOTE ddp is useful to isolate 4 models on 4 GPUs on same machine
+    config = load_configs(model_name, data_name)
+    if config["ddp"]:
+        # To deal with possibly multiple training on one machine
+        ports = [12355, 12356, 12357, 12358, 12359]
+        for port in ports:
+            if not is_address_in_use('localhost', port):
+                print("chosen", port)
+                os.environ['MASTER_PORT'] = str(port)
+                break
+        torch.multiprocessing.spawn(main, args=(world_size, model_name, data_name, os_loss, port), nprocs=world_size, join=True)
+    else:
+        main(0, world_size, model_name, data_name, os_loss, None)

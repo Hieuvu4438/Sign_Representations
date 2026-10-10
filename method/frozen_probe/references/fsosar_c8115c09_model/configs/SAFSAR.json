@@ -1,0 +1,27 @@
+
+{
+    "processor_name": "MCG-NJU/videomae-base-finetuned-kinetics",
+    "mm_model_name": "MCG-NJU/videomae-base-finetuned-kinetics",
+    "hidden_size": 768,
+    "num_layers_mm": 2,
+    "num_heads": 8,
+    "freeze_whole_backbone": false,
+    "intermediate_size": 3072,
+    "num_layers_task": 1,
+    "use_textual_embedding": true,
+    "alpha": 0.1,
+    "lr": 4e-6,
+    "optimizer": "adam",
+    "scheduler": null,
+    "disc_weight": 1000,
+    "lr_5_shot": 4e-6,
+    "disc_weight_1_shot": 100,
+    "disc_weight_5_shot": 1000,
+    "query_per_class": 1,
+    "optimize_every": 1,
+    "maximum_queries": 5,
+    "num_workers": 4,
+    "ddp": false,
+    "dp": true,
+    "shot": 5
+}
