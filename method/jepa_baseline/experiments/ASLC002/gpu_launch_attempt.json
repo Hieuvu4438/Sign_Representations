@@ -1,0 +1,16 @@
+{
+  "attempted_at_utc": "2026-10-08T03:40:06.601475+00:00",
+  "pipeline_status": {
+    "stage": "WAITING_FOR_GPU",
+    "error": "CUDA is unavailable in this execution environment",
+    "pid": 3,
+    "unix_time": 1791430786.1064718
+  },
+  "torch_cuda_available": false,
+  "torch_cuda_device_count": 0,
+  "nvidia_smi_exit_code": 9,
+  "training_started": false,
+  "checkpoint_exists": false,
+  "results_exist": false,
+  "command": ".venv-signrep/bin/python method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py pipeline --output method/jepa_baseline/runtime/ASLC002"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "Read-only historical ASLC001 numeric regression; no weights reused",
+  "historical_phase": {
+    "unweighted": {
+      "status": "PASS",
+      "independent_numpy_rank_metrics": {
+        "per_instance_top1": 1.5625,
+        "per_instance_top5": 15.625,
+        "MRR": 0.09208114966187442,
+        "DCG": 0.25702917759713784
+      },
+      "every_recorded_rank_top5_and_nearest_video_matches": true,
+      "float32_pooling_and_cosine_backend": "Torch CPU replay; ranking/metrics independently implemented in NumPy",
+      "float64_sensitivity": {
+        "metrics": {
+          "per_instance_top1": 1.5625,
+          "per_instance_top5": 15.625,
+          "MRR": 0.09208114966187442,
+          "DCG": 0.25702917759713784
+        },
+        "max_absolute_video_cosine_difference": 4.4311698144117173e-07,
+        "pairwise_score_difference_bound": 8.862349628823435e-07,
+        "different_query_ranks": 0,
+        "differences": []
+      },
+      "minimum_float64_winner_cosine_margin": 1.143819120996703e-05
+    },
+    "activity_weighted": {
+      "status": "PASS",
+      "independent_numpy_rank_metrics": {
+        "per_instance_top1": 1.5625,
+        "per_instance_top5": 7.8125,
+        "MRR": 0.07689766559906089,
+        "DCG": 0.24374523983823349
+      },
+      "every_recorded_rank_top5_and_nearest_video_matches": true,
+      "float32_pooling_and_cosine_backend": "Torch CPU replay; ranking/metrics independently implemented in NumPy",
+      "float64_sensitivity": {
+        "metrics": {
+          "per_instance_top1": 1.5625,
+          "per_instance_top5": 7.8125,
+          "MRR": 0.07689766559906089,
+          "DCG": 0.24374523983823349
+        },
+        "max_absolute_video_cosine_difference": 4.3226207191437993e-07,
+        "pairwise_score_difference_bound": 8.645251438287599e-07,
+        "different_query_ranks": 0,
+        "differences": []
+      },
+      "minimum_float64_winner_cosine_margin": 7.044417541024472e-05
+    }
+  },
+  "negative_case": {
+    "status": "PASS",
+    "corrupted_rank_rejected": "Per-query ranks disagree with independent float32 score replay/NumPy ranking"
+  }
+}

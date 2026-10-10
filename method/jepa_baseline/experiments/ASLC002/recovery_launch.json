@@ -1,0 +1,20 @@
+{
+  "pid": 4,
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py",
+    "pipeline",
+    "--output",
+    "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002",
+    "--prepare-only"
+  ],
+  "started_at_utc": "2026-10-08T01:24:22.457039+00:00",
+  "scope": "CPU corpus preparation and audit only; training/retrieval pending GPU access",
+  "detached_popen_startup": "unconfirmed; no stage status observed after launcher exited",
+  "exec_session": 72045,
+  "observed_pipeline_status": {
+    "stage": "prepare",
+    "pid": 3,
+    "unix_time": 1791422674.9461694
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "scope": "128 fixed-seed train videos, header dimensions and actual prepared signer crop only; not a measured causal retrieval ablation. Training subsequently applies a random 80-100% area crop; official retrieval uses full frame.",
+  "videos": 128,
+  "median_crop_width_fraction": 0.8671875,
+  "median_crop_height_fraction": 0.85625,
+  "median_crop_area_fraction": 0.7466080729166666,
+  "examples": [
+    {
+      "video_id": "asl_citizen:8846346334605875-PRESS",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        21,
+        75,
+        640,
+        480
+      ],
+      "crop_width_fraction": 0.9671875,
+      "crop_height_fraction": 0.84375,
+      "crop_area_fraction": 0.816064453125
+    },
+    {
+      "video_id": "asl_citizen:4555939067271757-SHORT PERSON",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        80,
+        0,
+        640,
+        480
+      ],
+      "crop_width_fraction": 0.875,
+      "crop_height_fraction": 1.0,
+      "crop_area_fraction": 0.875
+    },
+    {
+      "video_id": "asl_citizen:6482710787633592-PLIERS",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        120,
+        107,
+        640,
+        480
+      ],
+      "crop_width_fraction": 0.8125,
+      "crop_height_fraction": 0.7770833333333333,
+      "crop_area_fraction": 0.6313802083333333
+    },
+    {
+      "video_id": "asl_citizen:12123910607582156-PROXIMALIZATION",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        78,
+        78,
+        535,
+        480
+      ],
+      "crop_width_fraction": 0.7140625,
+      "crop_height_fraction": 0.8375,
+      "crop_area_fraction": 0.59802734375
+    },
+    {
+      "video_id": "asl_citizen:23965453401894954-OK",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        110,
+        137,
+        532,
+        480
+      ],
+      "crop_width_fraction": 0.659375,
+      "crop_height_fraction": 0.7145833333333333,
+      "crop_area_fraction": 0.4711783854166667
+    },
+    {
+      "video_id": "asl_citizen:2198073496236459-COCAINE",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        90,
+        34,
+        529,
+        480
+      ],
+      "crop_width_fraction": 0.6859375,
+      "crop_height_fraction": 0.9291666666666667,
+      "crop_area_fraction": 0.6373502604166666
+    },
+    {
+      "video_id": "asl_citizen:8339600699816903-BATHTUB",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        0,
+        35,
+        640,
+        480
+      ],
+      "crop_width_fraction": 1.0,
+      "crop_height_fraction": 0.9270833333333334,
+      "crop_area_fraction": 0.9270833333333334
+    },
+    {
+      "video_id": "asl_citizen:7237872207549283-MUSHROOM",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        3,
+        33,
+        598,
+        480
+      ],
+      "crop_width_fraction": 0.9296875,
+      "crop_height_fraction": 0.93125,
+      "crop_area_fraction": 0.865771484375
+    },
+    {
+      "video_id": "asl_citizen:8993126875618069-OSTRICH",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        94,
+        110,
+        552,
+        480
+      ],
+      "crop_width_fraction": 0.715625,
+      "crop_height_fraction": 0.7708333333333334,
+      "crop_area_fraction": 0.5516276041666667
+    },
+    {
+      "video_id": "asl_citizen:6140513895293755-BEFORE",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        0,
+        68,
+        640,
+        480
+      ],
+      "crop_width_fraction": 1.0,
+      "crop_height_fraction": 0.8583333333333333,
+      "crop_area_fraction": 0.8583333333333333
+    },
+    {
+      "video_id": "asl_citizen:7892179183511641-LOCK",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        25,
+        63,
+        628,
+        480
+      ],
+      "crop_width_fraction": 0.9421875,
+      "crop_height_fraction": 0.86875,
+      "crop_area_fraction": 0.818525390625
+    },
+    {
+      "video_id": "asl_citizen:8683033808318561-JAW DROP",
+      "frame_wh": [
+        640,
+        480
+      ],
+      "bbox": [
+        145,
+        89,
+        507,
+        480
+      ],
+      "crop_width_fraction": 0.565625,
+      "crop_height_fraction": 0.8145833333333333,
+      "crop_area_fraction": 0.46074869791666667
+    }
+  ]
+}

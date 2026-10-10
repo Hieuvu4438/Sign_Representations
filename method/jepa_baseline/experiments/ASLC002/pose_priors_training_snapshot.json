@@ -1,0 +1,31 @@
+{
+  "updates": 542,
+  "last_step": 542,
+  "all_losses_and_gradient_norms_finite": true,
+  "supervision_coverage": {
+    "body_pose": 0.4746045308813744,
+    "right_pose": 0.45194303505535055,
+    "left_pose": 0.3523408671586716,
+    "full_body_angles": 1.0,
+    "full_right_angles": 0.45194303505535055,
+    "full_left_angles": 0.3523408671586716,
+    "right_dist": 0.45194303505535055,
+    "left_dist": 0.3523408671586716,
+    "body_dist": 0.27716422760818515,
+    "activity": 0.0011531365313653136
+  },
+  "nonzero_reconstruction_steps": {
+    "body_pose": 542,
+    "right_pose": 529,
+    "left_pose": 486,
+    "full_body_angles": 542,
+    "full_right_angles": 529,
+    "full_left_angles": 486,
+    "right_dist": 529,
+    "left_dist": 486,
+    "body_dist": 534,
+    "activity": 2
+  },
+  "first_50_mean_recon": 8.033102812767028,
+  "last_50_mean_recon": 1.0953591956198216
+}

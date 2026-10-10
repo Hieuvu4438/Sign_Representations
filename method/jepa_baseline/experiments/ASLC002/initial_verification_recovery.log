@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "method": "Torch float32 score replay; independent NumPy ranking/metrics; NumPy float64 numerical sensitivity audit",
+  "step0": {
+    "unweighted": {
+      "status": "PASS",
+      "independent_numpy_rank_metrics": {
+        "per_instance_top1": 1.6,
+        "per_instance_top5": 6.0,
+        "MRR": 0.04847920854842928,
+        "DCG": 0.19102823364205812
+      },
+      "every_recorded_rank_top5_and_nearest_video_matches": true,
+      "float32_pooling_and_cosine_backend": "Torch CPU replay; ranking/metrics independently implemented in NumPy",
+      "float64_sensitivity": {
+        "metrics": {
+          "per_instance_top1": 1.6,
+          "per_instance_top5": 5.933333333333334,
+          "MRR": 0.04845728128508246,
+          "DCG": 0.19100809427411838
+        },
+        "max_absolute_video_cosine_difference": 6.516364008390951e-07,
+        "pairwise_score_difference_bound": 1.3032738016781903e-06,
+        "different_query_ranks": 10,
+        "differences": [
+          {
+            "query_id": "asl_citizen:11574898513671861-BEFORE",
+            "recorded_float32_rank": 175,
+            "float64_rank": 176,
+            "certified_rank_interval": [
+              175,
+              176
+            ]
+          },
+          {
+            "query_id": "asl_citizen:08822684142689163-CHILD",
+            "recorded_float32_rank": 5,
+            "float64_rank": 6,
+            "certified_rank_interval": [
+              5,
+              6
+            ]
+          },
+          {
+            "query_id": "asl_citizen:00033277435717016246-ELECTROCUTE",
+            "recorded_float32_rank": 23,
+            "float64_rank": 22,
+            "certified_rank_interval": [
+              22,
+              23
+            ]
+          },
+          {
+            "query_id": "asl_citizen:6163515082364077-FUNCTION",
+            "recorded_float32_rank": 219,
+            "float64_rank": 220,
+            "certified_rank_interval": [
+              219,
+              220
+            ]
+          },
+          {
+            "query_id": "asl_citizen:7769032700892617-HAIR 2",
+            "recorded_float32_rank": 25,
+            "float64_rank": 26,
+            "certified_rank_interval": [
+              24,
+              26
+            ]
+          },
+          {
+            "query_id": "asl_citizen:9461344995899956-HONEY 2",
+            "recorded_float32_rank": 93,
+            "float64_rank": 94,
+            "certified_rank_interval": [
+              93,
+              94
+            ]
+          },
+          {
+            "query_id": "asl_citizen:34076966817997323-ME",
+            "recorded_float32_rank": 261,
+            "float64_rank": 260,
+            "certified_rank_interval": [
+              259,
+              261
+            ]
+          },
+          {
+            "query_id": "asl_citizen:4276319587119328-SWING 2",
+            "recorded_float32_rank": 100,
+            "float64_rank": 99,
+            "certified_rank_interval": [
+              99,
+              100
+            ]
+          },
+          {
+            "query_id": "asl_citizen:8511088382237579-TOOTHBRUSH-CA",
+            "recorded_float32_rank": 70,
+            "float64_rank": 69,
+            "certified_rank_interval": [
+              69,
+              70
+            ]
+          },
+          {
+            "query_id": "asl_citizen:24346178492469872-WORRY",
+            "recorded_float32_rank": 81,
+            "float64_rank": 82,
+            "certified_rank_interval": [
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      "minimum_float64_winner_cosine_margin": 1.3754795924469931e-07
+    },
+    "activity_weighted": {
+      "status": "PASS",
+      "independent_numpy_rank_metrics": {
+        "per_instance_top1": 1.4666666666666666,
+        "per_instance_top5": 5.733333333333333,
+        "MRR": 0.047280252506470465,
+        "DCG": 0.189824506577448
+      },
+      "every_recorded_rank_top5_and_nearest_video_matches": true,
+      "float32_pooling_and_cosine_backend": "Torch CPU replay; ranking/metrics independently implemented in NumPy",
+      "float64_sensitivity": {
+        "metrics": {
+          "per_instance_top1": 1.4666666666666666,
+          "per_instance_top5": 5.733333333333333,
+          "MRR": 0.047279635093866804,
+          "DCG": 0.1898231826632455
+        },
+        "max_absolute_video_cosine_difference": 7.056318315212806e-07,
+        "pairwise_score_difference_bound": 1.4112646630425613e-06,
+        "different_query_ranks": 5,
+        "differences": [
+          {
+            "query_id": "asl_citizen:8737560580322843-DRUNK",
+            "recorded_float32_rank": 119,
+            "float64_rank": 120,
+            "certified_rank_interval": [
+              119,
+              120
+            ]
+          },
+          {
+            "query_id": "asl_citizen:8807141958250422-ERASER",
+            "recorded_float32_rank": 70,
+            "float64_rank": 71,
+            "certified_rank_interval": [
+              70,
+              72
+            ]
+          },
+          {
+            "query_id": "asl_citizen:9345146523370222-RIBBON AWARD",
+            "recorded_float32_rank": 37,
+            "float64_rank": 38,
+            "certified_rank_interval": [
+              37,
+              38
+            ]
+          },
+          {
+            "query_id": "asl_citizen:7383974494410195-SHAKESPEARE",
+            "recorded_float32_rank": 168,
+            "float64_rank": 169,
+            "certified_rank_interval": [
+              168,
+              169
+            ]
+          },
+          {
+            "query_id": "asl_citizen:1896195845377473-STRAIN 2",
+            "recorded_float32_rank": 105,
+            "float64_rank": 104,
+            "certified_rank_interval": [
+              104,
+              105
+            ]
+          }
+        ]
+      },
+      "minimum_float64_winner_cosine_margin": 1.805712462887854e-07
+    }
+  }
+}

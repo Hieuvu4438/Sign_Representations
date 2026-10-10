@@ -1,0 +1,16 @@
+{
+  "steps": 5000,
+  "scope": "Sum of valid elements / sum of total elements across the actual completed training log.",
+  "coverage": {
+    "body_pose": 0.47379057377049183,
+    "right_pose": 0.449959375,
+    "left_pose": 0.3532875,
+    "full_body_angles": 1.0,
+    "full_right_angles": 0.449959375,
+    "full_left_angles": 0.3532875,
+    "right_dist": 0.449959375,
+    "left_dist": 0.3532875,
+    "body_dist": 0.27619573863636365,
+    "activity": 0.0019
+  }
+}

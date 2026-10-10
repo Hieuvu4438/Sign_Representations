@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-08T01:24:22.457039+00:00",
+  "experiment": "ASLC002",
+  "pose_videos": 3000,
+  "decoded_frames": 268069,
+  "pose_seconds": 22783.538519462105,
+  "all_usable": true,
+  "previous_pipeline_status": {
+    "stage": "waiting_for_pose_report",
+    "pid": 1184955,
+    "unix_time": 1791392688.412504
+  },
+  "training_metrics_present": false,
+  "final_results_present": false,
+  "cuda_access_in_this_session": false,
+  "nvidia_device_files_present": []
+}

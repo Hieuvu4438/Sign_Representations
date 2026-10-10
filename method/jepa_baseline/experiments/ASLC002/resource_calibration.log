@@ -1,0 +1,12 @@
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+{
+  "status": "PASS",
+  "initialization": "kinetics_mae; no SignRep release weights",
+  "retrieval_batch_size": 4,
+  "windows": 23,
+  "feature_dtype": "float32",
+  "seconds": 2.772283008089289,
+  "cuda_peak_reserved_MiB": 1742.0,
+  "backbone_trainable_parameters": 50783424
+}

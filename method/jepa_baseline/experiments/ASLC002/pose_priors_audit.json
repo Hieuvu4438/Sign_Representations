@@ -1,0 +1,224 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "checked_at_utc": "2026-10-08T07:27:35.716730+00:00",
+  "videos": 3000,
+  "decoded_frames": 268069,
+  "all_signer_present_16frame_windows": 222933,
+  "geometry_masks_and_cache_hashes": "PASS",
+  "implementation_sha256": "05c40c26b6b312c1205936b7d11827790f056222e522a083ab1f23eda926d5fd",
+  "coverage_all_windows_weighted": {
+    "full_body_angles": 1.0,
+    "full_right_angles": 0.4211671780310676,
+    "full_left_angles": 0.33958324922734634,
+    "body_pose": 0.4652783553361949,
+    "right_pose": 0.4211671780310676,
+    "left_pose": 0.33958324922734634,
+    "body_dist": 0.26658510169994004,
+    "right_dist": 0.4211671780310676,
+    "left_dist": 0.33958324922734634,
+    "activity": 0.002776618984179103
+  },
+  "expected_uniform_video_uniform_window_coverage": {
+    "full_body_angles": 1.0,
+    "full_right_angles": 0.4517557990815597,
+    "full_left_angles": 0.35401312028797133,
+    "body_pose": 0.4740098415426428,
+    "right_pose": 0.4517557990815597,
+    "left_pose": 0.35401312028797133,
+    "body_dist": 0.27632765879850135,
+    "right_dist": 0.4517557990815597,
+    "left_dist": 0.35401312028797133,
+    "activity": 0.0015883854279351319
+  },
+  "reference_complete_windows": 2522,
+  "reference_complete_window_fraction": 0.011312815958157833,
+  "joint_visibility_fraction": [
+    0.9994926679325099,
+    0.28836978539107466,
+    0.4115321055399916,
+    0.9994926679325099,
+    0.45883709045059295,
+    0.3303664355072761,
+    0.03917648068221242,
+    0.019935165946081045,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.9994926679325099,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.36215302776523955,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227,
+    0.292051673263227
+  ],
+  "activity_by_side": {
+    "left": {
+      "hand_detected_windows": 33399,
+      "anchor_visible_windows": 54177,
+      "hand_and_anchor_windows": 26535,
+      "eligible_windows": 563,
+      "active_windows": 563,
+      "inactive_windows": 0,
+      "eligible_videos": 40
+    },
+    "right": {
+      "hand_detected_windows": 41447,
+      "anchor_visible_windows": 67487,
+      "hand_and_anchor_windows": 32378,
+      "eligible_windows": 675,
+      "active_windows": 675,
+      "inactive_windows": 0,
+      "eligible_videos": 44
+    }
+  },
+  "activity_examples": [
+    {
+      "video_id": "asl_citizen:8061962144771699-seedA-LINE BOB",
+      "cache": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/corpus/normalized/00000003.npz",
+      "start": 39,
+      "side": "left",
+      "target": 1
+    },
+    {
+      "video_id": "asl_citizen:8061962144771699-seedA-LINE BOB",
+      "cache": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/corpus/normalized/00000003.npz",
+      "start": 40,
+      "side": "left",
+      "target": 1
+    },
+    {
+      "video_id": "asl_citizen:8061962144771699-seedA-LINE BOB",
+      "cache": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/corpus/normalized/00000003.npz",
+      "start": 41,
+      "side": "left",
+      "target": 1
+    },
+    {
+      "video_id": "asl_citizen:8061962144771699-seedA-LINE BOB",
+      "cache": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/corpus/normalized/00000003.npz",
+      "start": 42,
+      "side": "left",
+      "target": 1
+    },
+    {
+      "video_id": "asl_citizen:8061962144771699-seedA-LINE BOB",
+      "cache": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/corpus/normalized/00000003.npz",
+      "start": 43,
+      "side": "left",
+      "target": 1
+    },
+    {
+      "video_id": "asl_citizen:8061962144771699-seedA-LINE BOB",
+      "cache": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/corpus/normalized/00000003.npz",
+      "start": 44,
+      "side": "left",
+      "target": 1
+    },
+    {
+      "video_id": "asl_citizen:8061962144771699-seedA-LINE BOB",
+      "cache": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/corpus/normalized/00000003.npz",
+      "start": 45,
+      "side": "left",
+      "target": 1
+    },
+    {
+      "video_id": "asl_citizen:8061962144771699-seedA-LINE BOB",
+      "cache": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/corpus/normalized/00000003.npz",
+      "start": 46,
+      "side": "left",
+      "target": 1
+    }
+  ],
+  "decoder_prediction_gradient_probe": {
+    "full_body_angles": {
+      "valid_elements": 704,
+      "prediction_gradient_l1": 5.762246608734131
+    },
+    "full_right_angles": {
+      "valid_elements": 1312,
+      "prediction_gradient_l1": 6.132421016693115
+    },
+    "full_left_angles": {
+      "valid_elements": 1312,
+      "prediction_gradient_l1": 5.922285556793213
+    },
+    "body_pose": {
+      "valid_elements": 2925,
+      "prediction_gradient_l1": 1.1659269332885742
+    },
+    "right_pose": {
+      "valid_elements": 1008,
+      "prediction_gradient_l1": 0.9828742742538452
+    },
+    "left_pose": {
+      "valid_elements": 1008,
+      "prediction_gradient_l1": 1.0608361959457397
+    },
+    "body_dist": {
+      "valid_elements": 12672,
+      "prediction_gradient_l1": 2.1933398246765137
+    },
+    "right_dist": {
+      "valid_elements": 2640,
+      "prediction_gradient_l1": 2.7050962448120117
+    },
+    "left_dist": {
+      "valid_elements": 2640,
+      "prediction_gradient_l1": 2.861910820007324
+    },
+    "activity": {
+      "valid_elements": 2,
+      "prediction_gradient_l1": 0.176853746175766
+    }
+  },
+  "latent_gradient_finite": true,
+  "limitations": [
+    "Corpus correctness and gradient probes do not establish exact equivalence with unpublished author training code.",
+    "Strict complete-hand/reference activity eligibility is an engineering choice; paper does not specify its missingness reduction.",
+    "No running training code, configuration, cache or checkpoint was modified."
+  ]
+}

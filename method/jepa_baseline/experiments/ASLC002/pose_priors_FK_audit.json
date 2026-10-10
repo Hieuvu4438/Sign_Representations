@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "Three fixed ASLC002 videos, all their decoded frames; exact pinned native teacher FK and shared corpus bones",
+  "videos": [
+    {
+      "video_id": "asl_citizen:689966437840589-A-LINE BOB",
+      "standardized_pose_FK_max_abs_error": 0.0,
+      "hand_wrist_anchors_match_body": true,
+      "bone_length_max_abs_errors": {
+        "body": 4.470348358154297e-08,
+        "right": 1.4901161193847656e-08,
+        "left": 1.4901161193847656e-08
+      }
+    },
+    {
+      "video_id": "asl_citizen:8426325091539166-LOOK BACK",
+      "standardized_pose_FK_max_abs_error": 0.0,
+      "hand_wrist_anchors_match_body": true,
+      "bone_length_max_abs_errors": {
+        "body": 4.470348358154297e-08,
+        "right": 7.450580596923828e-09,
+        "left": 1.4901161193847656e-08
+      }
+    },
+    {
+      "video_id": "asl_citizen:06863106115468454-YOYO",
+      "standardized_pose_FK_max_abs_error": 0.0,
+      "hand_wrist_anchors_match_body": true,
+      "bone_length_max_abs_errors": {
+        "body": 4.470348358154297e-08,
+        "right": 1.4901161193847656e-08,
+        "left": 7.450580596923828e-09
+      }
+    }
+  ]
+}

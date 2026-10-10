@@ -1,0 +1,232 @@
+{
+  "loss_history_bins": [
+    {
+      "loss": 590.9311471557617,
+      "reconstruction": 7.890716512203216,
+      "variance": 562.4034362792969,
+      "covariance": 5155.107772064209,
+      "adversarial": 0.00828299609495545,
+      "discriminator": 0.6931456768512726,
+      "gradient_norm": 2876.6878485107422,
+      "from_step": 1,
+      "to_step": 100,
+      "weighted_covariance": 20.620431088256836,
+      "weighted_adversarial": 0.0165659921899109,
+      "reconstruction_scalar_loss_share": 0.013353021837116546,
+      "adversarial_nonzero_updates": 87,
+      "EMA_gap_mean": 5.3285174071788785e-05
+    },
+    {
+      "loss": 436.7241502380371,
+      "reconstruction": 2.064338607490063,
+      "variance": 336.8379281616211,
+      "covariance": 24455.307297744752,
+      "adversarial": 0.0003252966941180091,
+      "discriminator": 0.6929606947302819,
+      "gradient_norm": 3664.5204135894774,
+      "from_step": 101,
+      "to_step": 500,
+      "weighted_covariance": 97.82122919097901,
+      "weighted_adversarial": 0.0006505933882360182,
+      "reconstruction_scalar_loss_share": 0.004726870740637751,
+      "adversarial_nonzero_updates": 398,
+      "EMA_gap_mean": 0.00312123067677021
+    },
+    {
+      "loss": 417.35042657470706,
+      "reconstruction": 1.0858480155318975,
+      "variance": 307.49853524780275,
+      "covariance": 27191.43738574219,
+      "adversarial": 0.00014494450107837054,
+      "discriminator": 0.6934703544378281,
+      "gradient_norm": 2354.7501217041017,
+      "from_step": 501,
+      "to_step": 1000,
+      "weighted_covariance": 108.76574954296876,
+      "weighted_adversarial": 0.0002898890021567411,
+      "reconstruction_scalar_loss_share": 0.002601765677930911,
+      "adversarial_nonzero_updates": 500,
+      "EMA_gap_mean": 0.0010054541230201722
+    },
+    {
+      "loss": 407.68948244222,
+      "reconstruction": 1.0330573229516546,
+      "variance": 287.0781720479329,
+      "covariance": 29894.480118236224,
+      "adversarial": 0.0001639312152623651,
+      "discriminator": 0.6933339476585388,
+      "gradient_norm": 2261.5491662038166,
+      "from_step": 1001,
+      "to_step": 2500,
+      "weighted_covariance": 119.5779204729449,
+      "weighted_adversarial": 0.0003278624305247302,
+      "reconstruction_scalar_loss_share": 0.0025339317481609673,
+      "adversarial_nonzero_updates": 1350,
+      "EMA_gap_mean": 0.0006299307147661845
+    },
+    {
+      "loss": 400.1149212849935,
+      "reconstruction": 1.0121898038486639,
+      "variance": 275.02231150309245,
+      "covariance": 31020.07161121877,
+      "adversarial": 6.431897592494599e-05,
+      "discriminator": 0.6932298114299774,
+      "gradient_norm": 1478.890957148234,
+      "from_step": 2501,
+      "to_step": 4000,
+      "weighted_covariance": 124.08028644487509,
+      "weighted_adversarial": 0.00012863795184989198,
+      "reconstruction_scalar_loss_share": 0.0025297477049792457,
+      "adversarial_nonzero_updates": 1123,
+      "EMA_gap_mean": 0.0005083172718683878
+    },
+    {
+      "loss": 398.6794339904785,
+      "reconstruction": 0.9989243015348911,
+      "variance": 270.76683293151854,
+      "covariance": 31728.41766612339,
+      "adversarial": 0.0,
+      "discriminator": 0.6931479432582855,
+      "gradient_norm": 1590.7275136489868,
+      "from_step": 4001,
+      "to_step": 5000,
+      "weighted_covariance": 126.91367066449357,
+      "weighted_adversarial": 0.0,
+      "reconstruction_scalar_loss_share": 0.0025055827222799456,
+      "adversarial_nonzero_updates": 0,
+      "EMA_gap_mean": 0.0
+    }
+  ],
+  "weight_updates": {
+    "backbone.patch_embed.": {
+      "tensors": 2,
+      "relative_l2_weight_change": 0.00305193314593237
+    },
+    "backbone.blocks.0.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.0018789850015187306
+    },
+    "backbone.blocks.1.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.0018075321724782217
+    },
+    "backbone.blocks.2.": {
+      "tensors": 14,
+      "relative_l2_weight_change": 0.003072914145239503
+    },
+    "backbone.blocks.3.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.003897411331486158
+    },
+    "backbone.blocks.4.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.004594338116646647
+    },
+    "backbone.blocks.5.": {
+      "tensors": 14,
+      "relative_l2_weight_change": 0.005967527082011156
+    },
+    "backbone.blocks.6.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.007376242896515383
+    },
+    "backbone.blocks.7.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.00858966876946028
+    },
+    "backbone.blocks.8.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.009834408693946457
+    },
+    "backbone.blocks.9.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.011386461337317112
+    },
+    "backbone.blocks.10.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.01363914343182202
+    },
+    "backbone.blocks.11.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.015907658062872008
+    },
+    "backbone.blocks.12.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.018305002473638168
+    },
+    "backbone.blocks.13.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.021368920122858858
+    },
+    "backbone.blocks.14.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.025354262955343175
+    },
+    "backbone.blocks.15.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.029055640087201427
+    },
+    "backbone.blocks.16.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.034250057301578575
+    },
+    "backbone.blocks.17.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.040197592652042466
+    },
+    "backbone.blocks.18.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.04611920018288202
+    },
+    "backbone.blocks.19.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.05466250436063866
+    },
+    "backbone.blocks.20.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.06467380867574618
+    },
+    "backbone.blocks.21.": {
+      "tensors": 14,
+      "relative_l2_weight_change": 0.08529018306517953
+    },
+    "backbone.blocks.22.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.09795126207910317
+    },
+    "backbone.blocks.23.": {
+      "tensors": 12,
+      "relative_l2_weight_change": 0.11948731148751765
+    },
+    "fc.": {
+      "tensors": 3,
+      "relative_l2_weight_change": 0.11092842507041897
+    },
+    "cls_head.": {
+      "tensors": 22,
+      "relative_l2_weight_change": 0.3042022154046999
+    },
+    "active_head.": {
+      "tensors": 4,
+      "relative_l2_weight_change": 0.13656636380022452
+    }
+  },
+  "all_327_tensors_changed": true,
+  "sample_budget": {
+    "updates": 5000,
+    "views_per_update": 4,
+    "distinct_videos_per_update": 2,
+    "video_selections": 10000,
+    "total_views": 20000,
+    "video_pass_equivalent": 3.3333333333333335
+  },
+  "regularization_structure": {
+    "feature_dimensions": 768,
+    "batch4_covariance_rank_upper_bound": 3,
+    "batch20_covariance_rank_upper_bound": 19,
+    "weighted_covariance_lower_bound_if_all_dimensions_sample_std_equal1_batch4": 440.64,
+    "same_bound_batch20": 109.29408,
+    "gradient_clipping_norm": 1,
+    "caution": "Loss magnitude alone does not prove gradient dominance; separate feature-gradient probes are recorded."
+  }
+}

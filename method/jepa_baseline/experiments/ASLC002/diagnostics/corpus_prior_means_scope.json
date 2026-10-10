@@ -1,0 +1,5 @@
+{
+  "videos": 3000,
+  "scope": "Selected training corpus only; mean targets weighted by the actual uniform-video/uniform-window sampling distribution. Constant-time predictor; not asserted to minimize SmoothL1.",
+  "activity": "All eligible audited training labels are active; constant prediction=1 for each hand."
+}

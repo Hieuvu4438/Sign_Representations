@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-08T06:59:55.550825+00:00",
+  "initial_verification": "PASS",
+  "initial_verification_recovery_log": "initial_verification_recovery.log",
+  "training_updates_recorded": 0,
+  "gpu_accessible_in_tool_environment": false,
+  "resume_command": ".venv-signrep/bin/python method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py pipeline --output method/jepa_baseline/runtime/ASLC002"
+}

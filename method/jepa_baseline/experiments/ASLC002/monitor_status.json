@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-08T06:52:59.348954+00:00",
+  "pipeline_stage": "FAILED",
+  "step0_completed_videos": null,
+  "recorded_training_updates": 0,
+  "training_progress_confirmed": false,
+  "all_observed_losses_and_gradients_finite": null,
+  "latest_training_status": {},
+  "pipeline_error": "Command '['/home/haipd/Sign_Representations/.venv-signrep/bin/python', '/home/haipd/Sign_Representations/method/jepa_baseline/scripts/verify_asl_citizen_baseline.py', '--output', '/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002', '--initial-only']' returned non-zero exit status 1.",
+  "monitor_pid": 3
+}

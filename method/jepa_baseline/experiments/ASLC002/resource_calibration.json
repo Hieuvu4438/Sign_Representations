@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "initialization": "kinetics_mae; no SignRep release weights",
+  "retrieval_batch_size": 4,
+  "windows": 23,
+  "feature_dtype": "float32",
+  "seconds": 2.772283008089289,
+  "cuda_peak_reserved_MiB": 1742.0,
+  "backbone_trainable_parameters": 50783424
+}

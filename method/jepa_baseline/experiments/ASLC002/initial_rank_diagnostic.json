@@ -1,0 +1,269 @@
+{
+  "unweighted": {
+    "float64_metrics": {
+      "top1_percent": 1.6,
+      "top5_percent": 5.933333333333334,
+      "MRR": 0.04845728128508246,
+      "DCG": 0.19100809427411838
+    },
+    "different_query_ranks": 10,
+    "differences": [
+      {
+        "query_id": "asl_citizen:11574898513671861-BEFORE",
+        "rank_float64": 176,
+        "rank_recorded_float32": 175,
+        "possible_rank_interval_1e-6": [
+          175,
+          176
+        ],
+        "near_classes": [
+          {
+            "label": 1928,
+            "gloss": "RESEARCH1",
+            "score_delta_vs_truth": 2.0458606919682154e-07
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:08822684142689163-CHILD",
+        "rank_float64": 6,
+        "rank_recorded_float32": 5,
+        "possible_rank_interval_1e-6": [
+          5,
+          6
+        ],
+        "near_classes": [
+          {
+            "label": 857,
+            "gloss": "FEED2",
+            "score_delta_vs_truth": 1.3116840058557955e-08
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:00033277435717016246-ELECTROCUTE",
+        "rank_float64": 22,
+        "rank_recorded_float32": 23,
+        "possible_rank_interval_1e-6": [
+          22,
+          23
+        ],
+        "near_classes": [
+          {
+            "label": 1360,
+            "gloss": "LETTER1",
+            "score_delta_vs_truth": -1.3488033756559048e-07
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:6163515082364077-FUNCTION",
+        "rank_float64": 220,
+        "rank_recorded_float32": 219,
+        "possible_rank_interval_1e-6": [
+          219,
+          220
+        ],
+        "near_classes": [
+          {
+            "label": 1996,
+            "gloss": "SALAD",
+            "score_delta_vs_truth": 5.0618006230962465e-08
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:7769032700892617-HAIR 2",
+        "rank_float64": 26,
+        "rank_recorded_float32": 25,
+        "possible_rank_interval_1e-6": [
+          24,
+          26
+        ],
+        "near_classes": [
+          {
+            "label": 2139,
+            "gloss": "SKATEBOARDING1",
+            "score_delta_vs_truth": 4.6047423651884856e-07
+          },
+          {
+            "label": 2446,
+            "gloss": "TIEUP1",
+            "score_delta_vs_truth": 3.1896992336299945e-07
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:9461344995899956-HONEY 2",
+        "rank_float64": 94,
+        "rank_recorded_float32": 93,
+        "possible_rank_interval_1e-6": [
+          93,
+          94
+        ],
+        "near_classes": [
+          {
+            "label": 2643,
+            "gloss": "WHATFOR1",
+            "score_delta_vs_truth": 1.2518949144002534e-07
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:34076966817997323-ME",
+        "rank_float64": 260,
+        "rank_recorded_float32": 261,
+        "possible_rank_interval_1e-6": [
+          260,
+          261
+        ],
+        "near_classes": [
+          {
+            "label": 1980,
+            "gloss": "ROW",
+            "score_delta_vs_truth": -9.06484913798522e-08
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:4276319587119328-SWING 2",
+        "rank_float64": 99,
+        "rank_recorded_float32": 100,
+        "possible_rank_interval_1e-6": [
+          99,
+          100
+        ],
+        "near_classes": [
+          {
+            "label": 92,
+            "gloss": "ASSIST",
+            "score_delta_vs_truth": -2.429377832235957e-08
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:8511088382237579-TOOTHBRUSH-CA",
+        "rank_float64": 69,
+        "rank_recorded_float32": 70,
+        "possible_rank_interval_1e-6": [
+          69,
+          70
+        ],
+        "near_classes": [
+          {
+            "label": 2320,
+            "gloss": "SUIT",
+            "score_delta_vs_truth": -3.132203219013974e-08
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:24346178492469872-WORRY",
+        "rank_float64": 82,
+        "rank_recorded_float32": 81,
+        "possible_rank_interval_1e-6": [
+          81,
+          82
+        ],
+        "near_classes": [
+          {
+            "label": 1893,
+            "gloss": "REACH",
+            "score_delta_vs_truth": 1.3324893843869035e-07
+          }
+        ]
+      }
+    ]
+  },
+  "activity_weighted": {
+    "float64_metrics": {
+      "top1_percent": 1.4666666666666666,
+      "top5_percent": 5.733333333333333,
+      "MRR": 0.047279635093866804,
+      "DCG": 0.1898231826632455
+    },
+    "different_query_ranks": 5,
+    "differences": [
+      {
+        "query_id": "asl_citizen:8737560580322843-DRUNK",
+        "rank_float64": 120,
+        "rank_recorded_float32": 119,
+        "possible_rank_interval_1e-6": [
+          119,
+          120
+        ],
+        "near_classes": [
+          {
+            "label": 2544,
+            "gloss": "UNIVERSE",
+            "score_delta_vs_truth": 1.3664157916259967e-08
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:8807141958250422-ERASER",
+        "rank_float64": 71,
+        "rank_recorded_float32": 70,
+        "possible_rank_interval_1e-6": [
+          70,
+          71
+        ],
+        "near_classes": [
+          {
+            "label": 151,
+            "gloss": "BASEBALLCAP",
+            "score_delta_vs_truth": 8.8246240981249e-08
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:9345146523370222-RIBBON AWARD",
+        "rank_float64": 38,
+        "rank_recorded_float32": 37,
+        "possible_rank_interval_1e-6": [
+          37,
+          38
+        ],
+        "near_classes": [
+          {
+            "label": 92,
+            "gloss": "ASSIST",
+            "score_delta_vs_truth": 3.859635122616112e-08
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:7383974494410195-SHAKESPEARE",
+        "rank_float64": 169,
+        "rank_recorded_float32": 168,
+        "possible_rank_interval_1e-6": [
+          168,
+          169
+        ],
+        "near_classes": [
+          {
+            "label": 753,
+            "gloss": "EFFECT",
+            "score_delta_vs_truth": 2.8130439533313734e-07
+          }
+        ]
+      },
+      {
+        "query_id": "asl_citizen:1896195845377473-STRAIN 2",
+        "rank_float64": 104,
+        "rank_recorded_float32": 105,
+        "possible_rank_interval_1e-6": [
+          104,
+          105
+        ],
+        "near_classes": [
+          {
+            "label": 2272,
+            "gloss": "STETHOSCOPE1",
+            "score_delta_vs_truth": -3.6574301809366716e-08
+          }
+        ]
+      }
+    ]
+  }
+}

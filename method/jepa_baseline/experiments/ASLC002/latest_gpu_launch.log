@@ -1,0 +1,78 @@
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 269, in <module>
+    main()
+    ~~~~^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 254, in main
+    raise RuntimeError('CUDA is unavailable; resume the same pipeline on a GPU-accessible environment')
+RuntimeError: CUDA is unavailable; resume the same pipeline on a GPU-accessible environment
+GPU launch by Claude 2026-10-08T11:22:30+07:00
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 269, in <module>
+    main()
+    ~~~~^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 258, in main
+    run('initial_verification', [sys.executable, str(verifier), '--output', str(folder), '--initial-only'], folder / 'INITIAL_VERIFICATION.json')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 230, in run
+    subprocess.run(command, check=True, env=env, stdout=log, stderr=subprocess.STDOUT,
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   timeout=config['stage_timeout_seconds'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/haipd/miniconda3/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/home/haipd/Sign_Representations/.venv-signrep/bin/python', '/home/haipd/Sign_Representations/method/jepa_baseline/scripts/verify_asl_citizen_baseline.py', '--output', '/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002', '--initial-only']' returned non-zero exit status 1.
+GPU relaunch (setsid) by Claude 2026-10-08T14:19:01+07:00
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 269, in <module>
+    main()
+    ~~~~^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 262, in main
+    run('train', command, folder / 'RESULTS.json')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 230, in run
+    subprocess.run(command, check=True, env=env, stdout=log, stderr=subprocess.STDOUT,
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   timeout=config['stage_timeout_seconds'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/haipd/miniconda3/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/home/haipd/Sign_Representations/.venv-signrep/bin/python', '/home/haipd/Sign_Representations/method/jepa_baseline/scripts/run_asl_citizen_baseline.py', 'train', '--output', '/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002']' returned non-zero exit status 1.
+2026-10-08T14:20:08+07:00 moved aborted 36-step train dir (SIGINT, no checkpoint) to train_aborted_sigint_20261008T1417 before detached relaunch (Claude)
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 269, in <module>
+    main()
+    ~~~~^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 262, in main
+    run('train', command, folder / 'RESULTS.json')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 230, in run
+    subprocess.run(command, check=True, env=env, stdout=log, stderr=subprocess.STDOUT,
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   timeout=config['stage_timeout_seconds'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/haipd/miniconda3/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/home/haipd/Sign_Representations/.venv-signrep/bin/python', '/home/haipd/Sign_Representations/method/jepa_baseline/scripts/run_asl_citizen_baseline.py', 'train', '--output', '/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002']' returned non-zero exit status 1.
+2026-10-08T15:41:02+07:00 relaunch after post-training retrieval OOM (2 GiB per-process cap, fragmentation): PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True, resume from train/last.pt step 5000 (Claude)
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 269, in <module>
+    main()
+    ~~~~^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 262, in main
+    run('train', command, folder / 'RESULTS.json')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/asl_citizen_baseline_pipeline.py", line 230, in run
+    subprocess.run(command, check=True, env=env, stdout=log, stderr=subprocess.STDOUT,
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   timeout=config['stage_timeout_seconds'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/haipd/miniconda3/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/home/haipd/Sign_Representations/.venv-signrep/bin/python', '/home/haipd/Sign_Representations/method/jepa_baseline/scripts/run_asl_citizen_baseline.py', 'train', '--output', '/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002', '--resume', '/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/train/last.pt']' returned non-zero exit status 1.
+2026-10-08T15:43:23+07:00 code fix by Claude: scripts/run_asl_citizen_baseline.py 'batch=None' before training loop (resume at final step raised UnboundLocalError in 'del trainer,dataset,batch'); no change to training/eval logic. Relaunch with PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+{"status": "COMPLETED", "report": "/home/haipd/Sign_Representations/method/jepa_baseline/experiments/ASLC002/REPORT.md", "final": {"unweighted": {"per_instance_top1": 1.666666753590107, "per_instance_top5": 6.599999964237213, "MRR": 0.0557243637740612, "DCG": 0.20090344548225403, "per_class_top1": 1.666666753590107, "per_class_top5": 6.599999964237213, "task": "dictionary_retrieval", "split": "val", "queries": 1500, "gallery_videos": 3000, "topk_protocol": "distinct classes ranked by best individual dictionary video", "per_instance_top5_video_hits": 6.533333659172058, "classes": 300, "correct_top1": 25, "correct_top5": 99, "median_rank": 87.0, "mean_rank": 100.64266967773438, "windows": 169818, "encoder_checkpoint_sha256": "819d9374ccd5238d2c30062f26e456296e81e8856291159a7200fbf24c7704f0", "pooling": "unweighted", "scope": "300-class fixed baseline; not full ASL-Citizen benchmark"}, "activity_weighted": {"per_instance_top1": 1.7999999225139618, "per_instance_top5": 6.133333221077919, "MRR": 0.055187422782182693, "DCG": 0.20036709308624268, "per_class_top1": 1.8000001087784767, "per_class_top5": 6.133333221077919, "task": "dictionary_retrieval", "split": "val", "queries": 1500, "gallery_videos": 3000, "topk_protocol": "distinct classes ranked by best individual dictionary video", "per_instance_top5_video_hits": 6.133333221077919, "classes": 300, "correct_top1": 27, "correct_top5": 92, "median_rank": 86.5, "mean_rank": 99.72866821289062, "windows": 169818, "encoder_checkpoint_sha256": "819d9374ccd5238d2c30062f26e456296e81e8856291159a7200fbf24c7704f0", "pooling": "activity_weighted", "scope": "300-class fixed baseline; not full ASL-Citizen benchmark"}}}
+2026-10-08T19:25+07:00 note (Claude): ASLC002 pipeline COMPLETED. Its final model will also be evaluated read-only by method/jepa_targets EX16 (ASL Citizen val LOSO protocol); no files here are modified by that evaluation.

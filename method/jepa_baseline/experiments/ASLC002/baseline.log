@@ -1,0 +1,173 @@
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+{"stage": "step0", "pid": 1422804, "unix_time": 1791432848.5746534, "completed_videos": 32, "total_videos": 4500, "total_windows": 1127}
+{"stage": "step0", "pid": 1422804, "unix_time": 1791432919.6346376, "completed_videos": 64, "total_videos": 4500, "total_windows": 2296}
+{"stage": "step0", "pid": 1422804, "unix_time": 1791432994.1704102, "completed_videos": 96, "total_videos": 4500, "total_windows": 3560}
+{"stage": "step0", "pid": 1422804, "unix_time": 1791433064.6385505, "completed_videos": 128, "total_videos": 4500, "total_windows": 4704}
+{"stage": "step0", "pid": 1422804, "unix_time": 1791433149.6285493, "completed_videos": 160, "total_videos": 4500, "total_windows": 6092}
+{"stage": "step0", "pid": 1422804, "unix_time": 1791433215.9109037, "completed_videos": 192, "total_videos": 4500, "total_windows": 7194}
+Traceback (most recent call last):
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/run_asl_citizen_baseline.py", line 257, in <module>
+    main()
+    ~~~~^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/run_asl_citizen_baseline.py", line 253, in main
+    {'baseline':baseline,'train':train,'report':report}[args.stage](args)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/run_asl_citizen_baseline.py", line 128, in baseline
+    evaluate(model,folder,'step0',sha256(initial),config['device'])
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/scripts/run_asl_citizen_baseline.py", line 61, in evaluate
+    values = extract_windows(model,row['video'],stride=config['retrieval_stride'],batch_size=config['retrieval_batch_size'],short_policy='reject')
+  File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/src/signrep_baseline/retrieval.py", line 84, in extract_windows
+    flush()
+    ~~~~~^^
+  File "/home/haipd/Sign_Representations/method/jepa_baseline/src/signrep_baseline/retrieval.py", line 60, in flush
+    outputs.append(result["features"].float().cpu())
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433355.9039352, "completed_videos": 32, "total_videos": 4500, "total_windows": 1127}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433355.932479, "completed_videos": 64, "total_videos": 4500, "total_windows": 2296}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433355.9617705, "completed_videos": 96, "total_videos": 4500, "total_windows": 3560}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433355.9889195, "completed_videos": 128, "total_videos": 4500, "total_windows": 4704}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433356.019413, "completed_videos": 160, "total_videos": 4500, "total_windows": 6092}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433356.045754, "completed_videos": 192, "total_videos": 4500, "total_windows": 7194}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433365.9312103, "completed_videos": 224, "total_videos": 4500, "total_windows": 8344}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433422.2906477, "completed_videos": 256, "total_videos": 4500, "total_windows": 9484}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433472.6375418, "completed_videos": 288, "total_videos": 4500, "total_windows": 10518}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433537.1814477, "completed_videos": 320, "total_videos": 4500, "total_windows": 11830}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433594.9063435, "completed_videos": 352, "total_videos": 4500, "total_windows": 12991}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433655.0084136, "completed_videos": 384, "total_videos": 4500, "total_windows": 14210}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433712.2166808, "completed_videos": 416, "total_videos": 4500, "total_windows": 15351}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433766.9493394, "completed_videos": 448, "total_videos": 4500, "total_windows": 16492}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433820.9236913, "completed_videos": 480, "total_videos": 4500, "total_windows": 17619}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433874.99272, "completed_videos": 512, "total_videos": 4500, "total_windows": 18710}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433932.3568938, "completed_videos": 544, "total_videos": 4500, "total_windows": 19908}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791433997.3564568, "completed_videos": 576, "total_videos": 4500, "total_windows": 21254}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434052.0045133, "completed_videos": 608, "total_videos": 4500, "total_windows": 22381}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434108.794307, "completed_videos": 640, "total_videos": 4500, "total_windows": 23568}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434159.9960206, "completed_videos": 672, "total_videos": 4500, "total_windows": 24618}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434204.4243746, "completed_videos": 704, "total_videos": 4500, "total_windows": 25637}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434249.2619476, "completed_videos": 736, "total_videos": 4500, "total_windows": 26671}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434316.3334777, "completed_videos": 768, "total_videos": 4500, "total_windows": 28062}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434383.7936563, "completed_videos": 800, "total_videos": 4500, "total_windows": 29387}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434448.5018394, "completed_videos": 832, "total_videos": 4500, "total_windows": 30607}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434505.2666073, "completed_videos": 864, "total_videos": 4500, "total_windows": 31697}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434560.8391001, "completed_videos": 896, "total_videos": 4500, "total_windows": 32709}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434640.5909133, "completed_videos": 928, "total_videos": 4500, "total_windows": 33994}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434705.8321779, "completed_videos": 960, "total_videos": 4500, "total_windows": 35168}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434778.551865, "completed_videos": 992, "total_videos": 4500, "total_windows": 36453}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434852.3977544, "completed_videos": 1024, "total_videos": 4500, "total_windows": 37814}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434912.0112023, "completed_videos": 1056, "total_videos": 4500, "total_windows": 38877}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791434974.2445748, "completed_videos": 1088, "total_videos": 4500, "total_windows": 39989}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435028.75592, "completed_videos": 1120, "total_videos": 4500, "total_windows": 41158}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435096.3616827, "completed_videos": 1152, "total_videos": 4500, "total_windows": 42474}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435181.7035363, "completed_videos": 1184, "total_videos": 4500, "total_windows": 43785}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435265.0605571, "completed_videos": 1216, "total_videos": 4500, "total_windows": 44996}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435363.2069502, "completed_videos": 1248, "total_videos": 4500, "total_windows": 46387}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435447.1271224, "completed_videos": 1280, "total_videos": 4500, "total_windows": 47592}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435504.505812, "completed_videos": 1312, "total_videos": 4500, "total_windows": 48643}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435578.213358, "completed_videos": 1344, "total_videos": 4500, "total_windows": 49963}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435651.3027613, "completed_videos": 1376, "total_videos": 4500, "total_windows": 51294}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435713.2385895, "completed_videos": 1408, "total_videos": 4500, "total_windows": 52405}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435777.0350628, "completed_videos": 1440, "total_videos": 4500, "total_windows": 53557}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435831.418246, "completed_videos": 1472, "total_videos": 4500, "total_windows": 54482}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435909.463094, "completed_videos": 1504, "total_videos": 4500, "total_windows": 55791}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791435972.5046902, "completed_videos": 1536, "total_videos": 4500, "total_windows": 56916}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436042.1956413, "completed_videos": 1568, "total_videos": 4500, "total_windows": 58169}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436099.0289085, "completed_videos": 1600, "total_videos": 4500, "total_windows": 59202}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436164.7381368, "completed_videos": 1632, "total_videos": 4500, "total_windows": 60380}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436237.6387632, "completed_videos": 1664, "total_videos": 4500, "total_windows": 61703}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436300.8380785, "completed_videos": 1696, "total_videos": 4500, "total_windows": 62856}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436365.0464385, "completed_videos": 1728, "total_videos": 4500, "total_windows": 63861}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436451.5821087, "completed_videos": 1760, "total_videos": 4500, "total_windows": 65227}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436518.1798856, "completed_videos": 1792, "total_videos": 4500, "total_windows": 66295}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436586.8633275, "completed_videos": 1824, "total_videos": 4500, "total_windows": 67396}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436659.8995893, "completed_videos": 1856, "total_videos": 4500, "total_windows": 68563}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436723.9516544, "completed_videos": 1888, "total_videos": 4500, "total_windows": 69591}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436804.618895, "completed_videos": 1920, "total_videos": 4500, "total_windows": 70879}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436895.1147351, "completed_videos": 1952, "total_videos": 4500, "total_windows": 72341}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791436968.2260468, "completed_videos": 1984, "total_videos": 4500, "total_windows": 73512}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437050.7827413, "completed_videos": 2016, "total_videos": 4500, "total_windows": 74811}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437122.255587, "completed_videos": 2048, "total_videos": 4500, "total_windows": 75954}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437201.6871793, "completed_videos": 2080, "total_videos": 4500, "total_windows": 77221}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437275.9251072, "completed_videos": 2112, "total_videos": 4500, "total_windows": 78387}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437343.9545548, "completed_videos": 2144, "total_videos": 4500, "total_windows": 79461}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437431.4074304, "completed_videos": 2176, "total_videos": 4500, "total_windows": 80856}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437496.5064564, "completed_videos": 2208, "total_videos": 4500, "total_windows": 81886}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437583.4099472, "completed_videos": 2240, "total_videos": 4500, "total_windows": 83268}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437662.139123, "completed_videos": 2272, "total_videos": 4500, "total_windows": 84513}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437733.767888, "completed_videos": 2304, "total_videos": 4500, "total_windows": 85651}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437820.392163, "completed_videos": 2336, "total_videos": 4500, "total_windows": 87036}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437896.270283, "completed_videos": 2368, "total_videos": 4500, "total_windows": 88238}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791437962.4030883, "completed_videos": 2400, "total_videos": 4500, "total_windows": 89281}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438028.4635222, "completed_videos": 2432, "total_videos": 4500, "total_windows": 90310}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438106.529151, "completed_videos": 2464, "total_videos": 4500, "total_windows": 91470}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438212.3903136, "completed_videos": 2496, "total_videos": 4500, "total_windows": 92798}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438295.0434613, "completed_videos": 2528, "total_videos": 4500, "total_windows": 94069}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438376.5574796, "completed_videos": 2560, "total_videos": 4500, "total_windows": 95339}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438453.4858334, "completed_videos": 2592, "total_videos": 4500, "total_windows": 96569}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438530.6305463, "completed_videos": 2624, "total_videos": 4500, "total_windows": 97835}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438597.0944533, "completed_videos": 2656, "total_videos": 4500, "total_windows": 99039}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438663.2450538, "completed_videos": 2688, "total_videos": 4500, "total_windows": 100239}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438725.9813359, "completed_videos": 2720, "total_videos": 4500, "total_windows": 101371}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438793.4143727, "completed_videos": 2752, "total_videos": 4500, "total_windows": 102591}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438856.7460713, "completed_videos": 2784, "total_videos": 4500, "total_windows": 103731}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438925.3048327, "completed_videos": 2816, "total_videos": 4500, "total_windows": 104967}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791438995.1577923, "completed_videos": 2848, "total_videos": 4500, "total_windows": 106231}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439070.8842697, "completed_videos": 2880, "total_videos": 4500, "total_windows": 107585}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439129.2071214, "completed_videos": 2912, "total_videos": 4500, "total_windows": 108625}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439189.9845037, "completed_videos": 2944, "total_videos": 4500, "total_windows": 109702}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439262.7310946, "completed_videos": 2976, "total_videos": 4500, "total_windows": 111001}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439352.4235976, "completed_videos": 3008, "total_videos": 4500, "total_windows": 112616}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439423.9407468, "completed_videos": 3040, "total_videos": 4500, "total_windows": 113897}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439492.1347485, "completed_videos": 3072, "total_videos": 4500, "total_windows": 115112}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439563.6458418, "completed_videos": 3104, "total_videos": 4500, "total_windows": 116412}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439635.4442832, "completed_videos": 3136, "total_videos": 4500, "total_windows": 117696}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439703.9865775, "completed_videos": 3168, "total_videos": 4500, "total_windows": 118904}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439770.2543797, "completed_videos": 3200, "total_videos": 4500, "total_windows": 120097}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439837.423972, "completed_videos": 3232, "total_videos": 4500, "total_windows": 121303}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439911.522407, "completed_videos": 3264, "total_videos": 4500, "total_windows": 122607}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791439979.6843562, "completed_videos": 3296, "total_videos": 4500, "total_windows": 123816}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440048.1836696, "completed_videos": 3328, "total_videos": 4500, "total_windows": 125022}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440112.805399, "completed_videos": 3360, "total_videos": 4500, "total_windows": 126273}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440176.156977, "completed_videos": 3392, "total_videos": 4500, "total_windows": 127490}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440238.756614, "completed_videos": 3424, "total_videos": 4500, "total_windows": 128715}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440302.7788553, "completed_videos": 3456, "total_videos": 4500, "total_windows": 129956}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440364.1287196, "completed_videos": 3488, "total_videos": 4500, "total_windows": 131134}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440428.7829983, "completed_videos": 3520, "total_videos": 4500, "total_windows": 132370}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440486.163935, "completed_videos": 3552, "total_videos": 4500, "total_windows": 133487}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440544.9746642, "completed_videos": 3584, "total_videos": 4500, "total_windows": 134644}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440605.9745803, "completed_videos": 3616, "total_videos": 4500, "total_windows": 135807}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440673.9254487, "completed_videos": 3648, "total_videos": 4500, "total_windows": 137129}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440743.7631092, "completed_videos": 3680, "total_videos": 4500, "total_windows": 138480}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440811.6876912, "completed_videos": 3712, "total_videos": 4500, "total_windows": 139784}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440866.8062565, "completed_videos": 3744, "total_videos": 4500, "total_windows": 140850}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440928.4514596, "completed_videos": 3776, "total_videos": 4500, "total_windows": 142051}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791440991.954565, "completed_videos": 3808, "total_videos": 4500, "total_windows": 143281}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441050.3564794, "completed_videos": 3840, "total_videos": 4500, "total_windows": 144419}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441112.0837739, "completed_videos": 3872, "total_videos": 4500, "total_windows": 145630}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441174.868187, "completed_videos": 3904, "total_videos": 4500, "total_windows": 146843}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441238.137168, "completed_videos": 3936, "total_videos": 4500, "total_windows": 148037}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441301.8149369, "completed_videos": 3968, "total_videos": 4500, "total_windows": 149253}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441369.4975185, "completed_videos": 4000, "total_videos": 4500, "total_windows": 150548}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441432.536735, "completed_videos": 4032, "total_videos": 4500, "total_windows": 151775}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441496.632123, "completed_videos": 4064, "total_videos": 4500, "total_windows": 153026}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441560.398897, "completed_videos": 4096, "total_videos": 4500, "total_windows": 154281}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441623.5906634, "completed_videos": 4128, "total_videos": 4500, "total_windows": 155529}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441681.6252496, "completed_videos": 4160, "total_videos": 4500, "total_windows": 156667}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441746.8691854, "completed_videos": 4192, "total_videos": 4500, "total_windows": 157933}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441805.9244905, "completed_videos": 4224, "total_videos": 4500, "total_windows": 159087}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441875.273715, "completed_videos": 4256, "total_videos": 4500, "total_windows": 160459}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441936.5090332, "completed_videos": 4288, "total_videos": 4500, "total_windows": 161664}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791441998.8205671, "completed_videos": 4320, "total_videos": 4500, "total_windows": 162878}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791442058.8303506, "completed_videos": 4352, "total_videos": 4500, "total_windows": 164060}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791442122.0460422, "completed_videos": 4384, "total_videos": 4500, "total_windows": 165296}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791442187.1670308, "completed_videos": 4416, "total_videos": 4500, "total_windows": 166560}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791442251.533384, "completed_videos": 4448, "total_videos": 4500, "total_windows": 167799}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791442314.499625, "completed_videos": 4480, "total_videos": 4500, "total_windows": 169013}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791442355.7269633, "completed_videos": 4500, "total_videos": 4500, "total_windows": 169818}
+{"stage": "step0", "pid": 1511779, "unix_time": 1791442357.1550996, "result": "PASS", "metrics": {"unweighted": {"per_instance_top1": 1.600000075995922, "per_instance_top5": 5.999999865889549, "MRR": 0.04847921058535576, "DCG": 0.19102823734283447, "per_class_top1": 1.600000075995922, "per_class_top5": 6.000000610947609, "task": "dictionary_retrieval", "split": "val", "queries": 1500, "gallery_videos": 3000, "topk_protocol": "distinct classes ranked by best individual dictionary video", "per_instance_top5_video_hits": 5.8666665107011795, "classes": 300, "correct_top1": 24, "correct_top5": 90, "median_rank": 101.5, "mean_rank": 116.11199951171875, "windows": 169818, "encoder_checkpoint_sha256": "d444723de76e5d046121911011c758a7f52f4f4a6fd5584c87ef2b9cb0b6eb30", "pooling": "unweighted", "scope": "300-class fixed baseline; not full ASL-Citizen benchmark"}, "activity_weighted": {"per_instance_top1": 1.4666666276752949, "per_instance_top5": 5.73333315551281, "MRR": 0.04728025197982788, "DCG": 0.18982450664043427, "per_class_top1": 1.4666667208075523, "per_class_top5": 5.73333278298378, "task": "dictionary_retrieval", "split": "val", "queries": 1500, "gallery_videos": 3000, "topk_protocol": "distinct classes ranked by best individual dictionary video", "per_instance_top5_video_hits": 5.73333315551281, "classes": 300, "correct_top1": 22, "correct_top5": 86, "median_rank": 102.0, "mean_rank": 116.98799896240234, "windows": 169818, "encoder_checkpoint_sha256": "d444723de76e5d046121911011c758a7f52f4f4a6fd5584c87ef2b9cb0b6eb30", "pooling": "activity_weighted", "scope": "300-class fixed baseline; not full ASL-Citizen benchmark"}}}

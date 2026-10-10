@@ -1,0 +1,49 @@
+{
+  "unweighted": {
+    "Top1_percentage_points": {
+      "delta": 0.06666666666666667,
+      "paired_query_bootstrap_95_percent_CI": [
+        -0.8666666666666667,
+        1.0
+      ]
+    },
+    "Top5_percentage_points": {
+      "delta": 0.6,
+      "paired_query_bootstrap_95_percent_CI": [
+        -1.1333333333333333,
+        2.466666666666667
+      ]
+    },
+    "MRR": {
+      "delta": 0.007245154699298191,
+      "paired_query_bootstrap_95_percent_CI": [
+        -0.003380774861301398,
+        0.018058696230072935
+      ]
+    }
+  },
+  "activity_weighted": {
+    "Top1_percentage_points": {
+      "delta": 0.3333333333333333,
+      "paired_query_bootstrap_95_percent_CI": [
+        -0.6,
+        1.2666666666666666
+      ]
+    },
+    "Top5_percentage_points": {
+      "delta": 0.4,
+      "paired_query_bootstrap_95_percent_CI": [
+        -1.3333333333333333,
+        2.1333333333333333
+      ]
+    },
+    "MRR": {
+      "delta": 0.007907170597539719,
+      "paired_query_bootstrap_95_percent_CI": [
+        -0.0026894132061049823,
+        0.0180618411213094
+      ]
+    }
+  },
+  "limitations": "Query-resampling confidence intervals conditional on this single trained checkpoint and fixed 300-class dictionary; no across-training-seed uncertainty. Exploratory descriptive analysis, no causal claim."
+}

@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-08T04:01:53.525414+00:00",
+  "status": {
+    "stage": "WAITING_FOR_GPU",
+    "error": "CUDA is unavailable in this execution environment",
+    "pid": 3,
+    "unix_time": 1791432104.3753467
+  },
+  "train_metrics_present": false,
+  "user_authorized_gpu_training": true
+}

@@ -1,0 +1,49 @@
+{
+  "unweighted": {
+    "Top1_percentage_points": {
+      "delta": 0.06666666666666667,
+      "paired_class_bootstrap_95_percent_CI": [
+        -0.8666666666666667,
+        0.935000000000006
+      ]
+    },
+    "Top5_percentage_points": {
+      "delta": 0.6,
+      "paired_class_bootstrap_95_percent_CI": [
+        -1.4,
+        2.6
+      ]
+    },
+    "MRR": {
+      "delta": 0.007245154699298189,
+      "paired_class_bootstrap_95_percent_CI": [
+        -0.003935080810636216,
+        0.018546949515471565
+      ]
+    }
+  },
+  "activity_weighted": {
+    "Top1_percentage_points": {
+      "delta": 0.3333333333333333,
+      "paired_class_bootstrap_95_percent_CI": [
+        -0.6,
+        1.2666666666666666
+      ]
+    },
+    "Top5_percentage_points": {
+      "delta": 0.4,
+      "paired_class_bootstrap_95_percent_CI": [
+        -1.5333333333333334,
+        2.2666666666666666
+      ]
+    },
+    "MRR": {
+      "delta": 0.00790717059753972,
+      "paired_class_bootstrap_95_percent_CI": [
+        -0.0032043218249590746,
+        0.019505139233925044
+      ]
+    }
+  },
+  "scope": "4000 paired class-cluster bootstrap replicates, 300 classes keeping all five queries of each class together. Conditional on one training run, observed signer cohort and dictionary; no across-training-seed or signer-generalization uncertainty."
+}

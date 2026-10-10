@@ -1,0 +1,141 @@
+{
+  "scope": "Fresh discriminator initialization replayed after the seeded model constructor; no optimizer updates. Uses final CPU training-format feature/style probes, not original early-run features. Scaling 768 explores the declared uncertain Gram normalization; it is not claimed to match unpublished author code. Adam coupled weight decay contributes gradient wd*p.",
+  "probes": [
+    {
+      "seed": 20261008,
+      "style_input_factor": 1,
+      "discriminator_loss": 0.6935100555419922,
+      "layers": {
+        "style.0.weight": {
+          "data_gradient_l2": 0.024269001558423042,
+          "coupled_weight_decay_gradient_l2": 0.016002792865037918,
+          "decay_to_data_gradient_ratio": 0.6593923044800263
+        },
+        "style.2.weight": {
+          "data_gradient_l2": 0.02459496632218361,
+          "coupled_weight_decay_gradient_l2": 0.015989210456609726,
+          "decay_to_data_gradient_ratio": 0.6501009290745864
+        }
+      }
+    },
+    {
+      "seed": 20261008,
+      "style_input_factor": 768,
+      "discriminator_loss": 0.6920375823974609,
+      "layers": {
+        "style.0.weight": {
+          "data_gradient_l2": 0.10191710293292999,
+          "coupled_weight_decay_gradient_l2": 0.016002792865037918,
+          "decay_to_data_gradient_ratio": 0.1570177370089601
+        },
+        "style.2.weight": {
+          "data_gradient_l2": 0.08561588823795319,
+          "coupled_weight_decay_gradient_l2": 0.015989210456609726,
+          "decay_to_data_gradient_ratio": 0.1867551781063199
+        }
+      }
+    },
+    {
+      "seed": 20261009,
+      "style_input_factor": 1,
+      "discriminator_loss": 0.6929376125335693,
+      "layers": {
+        "style.0.weight": {
+          "data_gradient_l2": 0.02991553023457527,
+          "coupled_weight_decay_gradient_l2": 0.016002792865037918,
+          "decay_to_data_gradient_ratio": 0.5349326165893085
+        },
+        "style.2.weight": {
+          "data_gradient_l2": 0.029779737815260887,
+          "coupled_weight_decay_gradient_l2": 0.015989210456609726,
+          "decay_to_data_gradient_ratio": 0.5369157564717012
+        }
+      }
+    },
+    {
+      "seed": 20261009,
+      "style_input_factor": 768,
+      "discriminator_loss": 0.6922020316123962,
+      "layers": {
+        "style.0.weight": {
+          "data_gradient_l2": 0.09509610384702682,
+          "coupled_weight_decay_gradient_l2": 0.016002792865037918,
+          "decay_to_data_gradient_ratio": 0.1682802156729815
+        },
+        "style.2.weight": {
+          "data_gradient_l2": 0.08395355194807053,
+          "coupled_weight_decay_gradient_l2": 0.015989210456609726,
+          "decay_to_data_gradient_ratio": 0.19045305511909552
+        }
+      }
+    },
+    {
+      "seed": 20261010,
+      "style_input_factor": 1,
+      "discriminator_loss": 0.6934496164321899,
+      "layers": {
+        "style.0.weight": {
+          "data_gradient_l2": 0.018363136798143387,
+          "coupled_weight_decay_gradient_l2": 0.016002792865037918,
+          "decay_to_data_gradient_ratio": 0.8714629227538014
+        },
+        "style.2.weight": {
+          "data_gradient_l2": 0.01918119005858898,
+          "coupled_weight_decay_gradient_l2": 0.015989210456609726,
+          "decay_to_data_gradient_ratio": 0.8335880311790171
+        }
+      }
+    },
+    {
+      "seed": 20261010,
+      "style_input_factor": 768,
+      "discriminator_loss": 0.692133367061615,
+      "layers": {
+        "style.0.weight": {
+          "data_gradient_l2": 0.09459623694419861,
+          "coupled_weight_decay_gradient_l2": 0.016002792865037918,
+          "decay_to_data_gradient_ratio": 0.16916944459934288
+        },
+        "style.2.weight": {
+          "data_gradient_l2": 0.0825917050242424,
+          "coupled_weight_decay_gradient_l2": 0.015989210456609726,
+          "decay_to_data_gradient_ratio": 0.19359341778834274
+        }
+      }
+    },
+    {
+      "seed": 20261011,
+      "style_input_factor": 1,
+      "discriminator_loss": 0.6937009692192078,
+      "layers": {
+        "style.0.weight": {
+          "data_gradient_l2": 0.031635627150535583,
+          "coupled_weight_decay_gradient_l2": 0.016002792865037918,
+          "decay_to_data_gradient_ratio": 0.505847182636523
+        },
+        "style.2.weight": {
+          "data_gradient_l2": 0.03165686875581741,
+          "coupled_weight_decay_gradient_l2": 0.015989210456609726,
+          "decay_to_data_gradient_ratio": 0.5050787107196594
+        }
+      }
+    },
+    {
+      "seed": 20261011,
+      "style_input_factor": 768,
+      "discriminator_loss": 0.6934255957603455,
+      "layers": {
+        "style.0.weight": {
+          "data_gradient_l2": 0.09956460446119308,
+          "coupled_weight_decay_gradient_l2": 0.016002792865037918,
+          "decay_to_data_gradient_ratio": 0.16072773001649662
+        },
+        "style.2.weight": {
+          "data_gradient_l2": 0.08742654323577881,
+          "coupled_weight_decay_gradient_l2": 0.015989210456609726,
+          "decay_to_data_gradient_ratio": 0.18288736881073703
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "unweighted": {
+    "rank_improved": 827,
+    "rank_worsened": 666,
+    "rank_unchanged": 7,
+    "new_top5_hits": 94,
+    "lost_top5_hits": 85
+  },
+  "activity_weighted": {
+    "rank_improved": 831,
+    "rank_worsened": 661,
+    "rank_unchanged": 8,
+    "new_top5_hits": 87,
+    "lost_top5_hits": 81
+  }
+}

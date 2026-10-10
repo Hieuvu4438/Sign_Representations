@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-08T11:33:42.043414+00:00",
+  "pipeline_completed": true,
+  "runtime_and_checkpoint_hashes_match": {
+    "runtime/ASLC002/run_config.json": true,
+    "runtime/ASLC002/train/run_contract.json": true,
+    "runtime/ASLC002/train/metrics.jsonl": true,
+    "runtime/ASLC002/train/last.pt": true,
+    "runtime/ASLC002/corpus/pretrain.jsonl": true,
+    "runtime/ASLC002/corpus/pretrain.jsonl.audit.json": true,
+    "initial.model.pt": true,
+    "final.model.pt": true
+  },
+  "reviewable_hashes_match_except_append_only_launch_log": true,
+  "launch_log_append_only_certificate": {
+    "path": "experiments/ASLC002/latest_gpu_launch.log",
+    "archived_prefix_bytes": 6912,
+    "current_bytes": 8591,
+    "appended_bytes": 1679,
+    "reason": "Pipeline appends its final COMPLETED results line after archive hashes are recorded; archived prefix hash matches exactly."
+  },
+  "training": {
+    "status": "PASS",
+    "completed_steps": 5000,
+    "all_losses_and_gradients_finite": true,
+    "changed_model_tensors": 327,
+    "strict_model_tensor_count": 327,
+    "complete_checkpoint_scheduler_steps": 5000
+  },
+  "numeric_verification": "PASS",
+  "independent_full_training_rerun": false
+}

@@ -1,0 +1,27 @@
+{
+  "style.0.weight": {
+    "elements": 589824,
+    "exact_nonzero": 589265,
+    "max_abs": 2.1005463980229008e-42,
+    "l2_norm_float64": 5.5620945456238044e-40
+  },
+  "style.0.bias": {
+    "elements": 768,
+    "exact_nonzero": 767,
+    "max_abs": 2.099145099558576e-42,
+    "l2_norm_float64": 2.93595324691162e-41
+  },
+  "style.2.weight": {
+    "elements": 589824,
+    "exact_nonzero": 589328,
+    "max_abs": 2.1005463980229008e-42,
+    "l2_norm_float64": 3.419278092801131e-40
+  },
+  "style.2.bias": {
+    "elements": 768,
+    "exact_nonzero": 768,
+    "max_abs": 2.957119271673747e-10,
+    "l2_norm_float64": 2.11011786421018e-09
+  },
+  "interpretation": "Style-input derivative in float32 is exactly zero in all actual CPU input probes; parameter values may be subnormal rather than mathematically exact zeros. The paper-specified Adam coupled weight decay is a plausible contributor; no optimizer ablation has established sole causality."
+}

@@ -1,0 +1,127 @@
+{
+  "scope": "Fixed saved final-checkpoint CPU training-format features; swap all features between the two different source videos while keeping targets/masks unchanged. No encoder retraining or dataset/model mutation; four diagnostic batches only.",
+  "probes": [
+    {
+      "seed": 20261008,
+      "actual_reconstruction": 1.0112617015838623,
+      "wrong_video_feature_reconstruction": 1.0421316623687744,
+      "relative_increase_when_wrong_features_percent": 3.0526161193847656,
+      "per_prior_actual": {
+        "full_body_angles": 0.1355365812778473,
+        "full_right_angles": 0.24563196301460266,
+        "full_left_angles": 0.17598100006580353,
+        "body_pose": 0.019283678382635117,
+        "right_pose": 0.03391532599925995,
+        "left_pose": 0.02899056114256382,
+        "body_dist": 0.0700913518667221,
+        "right_dist": 0.17643636465072632,
+        "left_dist": 0.12539488077163696,
+        "activity": 0.0
+      },
+      "per_prior_wrong": {
+        "full_body_angles": 0.1661335974931717,
+        "full_right_angles": 0.24652664363384247,
+        "full_left_angles": 0.16815714538097382,
+        "body_pose": 0.021825483068823814,
+        "right_pose": 0.03409124165773392,
+        "left_pose": 0.029320353642106056,
+        "body_dist": 0.07296976447105408,
+        "right_dist": 0.1769118756055832,
+        "left_dist": 0.12619549036026,
+        "activity": 0.0
+      }
+    },
+    {
+      "seed": 20261009,
+      "actual_reconstruction": 1.167339563369751,
+      "wrong_video_feature_reconstruction": 1.2304483652114868,
+      "relative_increase_when_wrong_features_percent": 5.40621280670166,
+      "per_prior_actual": {
+        "full_body_angles": 0.14113467931747437,
+        "full_right_angles": 0.24998539686203003,
+        "full_left_angles": 0.23477455973625183,
+        "body_pose": 0.01645769737660885,
+        "right_pose": 0.030817050486803055,
+        "left_pose": 0.03479607403278351,
+        "body_dist": 0.0642017051577568,
+        "right_dist": 0.18186143040657043,
+        "left_dist": 0.21331089735031128,
+        "activity": 0.0
+      },
+      "per_prior_wrong": {
+        "full_body_angles": 0.19548650085926056,
+        "full_right_angles": 0.24932344257831573,
+        "full_left_angles": 0.2287214696407318,
+        "body_pose": 0.018717441707849503,
+        "right_pose": 0.03068430721759796,
+        "left_pose": 0.03614648059010506,
+        "body_dist": 0.0682055652141571,
+        "right_dist": 0.18307757377624512,
+        "left_dist": 0.22008565068244934,
+        "activity": 0.0
+      }
+    },
+    {
+      "seed": 20261010,
+      "actual_reconstruction": 0.8315108418464661,
+      "wrong_video_feature_reconstruction": 0.8267763257026672,
+      "relative_increase_when_wrong_features_percent": -0.569385290145874,
+      "per_prior_actual": {
+        "full_body_angles": 0.12439100444316864,
+        "full_right_angles": 0.14291734993457794,
+        "full_left_angles": 0.17227588593959808,
+        "body_pose": 0.008685520850121975,
+        "right_pose": 0.02454807050526142,
+        "left_pose": 0.025094490498304367,
+        "body_dist": 0.0270202849060297,
+        "right_dist": 0.14934153854846954,
+        "left_dist": 0.15723668038845062,
+        "activity": 0.0
+      },
+      "per_prior_wrong": {
+        "full_body_angles": 0.12067911773920059,
+        "full_right_angles": 0.1458672434091568,
+        "full_left_angles": 0.16576911509037018,
+        "body_pose": 0.010055851191282272,
+        "right_pose": 0.02406281605362892,
+        "left_pose": 0.025469543412327766,
+        "body_dist": 0.02836417593061924,
+        "right_dist": 0.14856034517288208,
+        "left_dist": 0.15794812142848969,
+        "activity": 0.0
+      }
+    },
+    {
+      "seed": 20261011,
+      "actual_reconstruction": 1.2292778491973877,
+      "wrong_video_feature_reconstruction": 1.3265684843063354,
+      "relative_increase_when_wrong_features_percent": 7.914459705352783,
+      "per_prior_actual": {
+        "full_body_angles": 0.1414780169725418,
+        "full_right_angles": 0.2159723937511444,
+        "full_left_angles": 0.2594311535358429,
+        "body_pose": 0.030336057767271996,
+        "right_pose": 0.020267099142074585,
+        "left_pose": 0.04514192417263985,
+        "body_dist": 0.09827665984630585,
+        "right_dist": 0.19868876039981842,
+        "left_dist": 0.21968571841716766,
+        "activity": 0.0
+      },
+      "per_prior_wrong": {
+        "full_body_angles": 0.20749478042125702,
+        "full_right_angles": 0.2248717099428177,
+        "full_left_angles": 0.26896125078201294,
+        "body_pose": 0.03243013843894005,
+        "right_pose": 0.0213596411049366,
+        "left_pose": 0.045430686324834824,
+        "body_dist": 0.10011883825063705,
+        "right_dist": 0.20263545215129852,
+        "left_dist": 0.223266139626503,
+        "activity": 0.0
+      }
+    }
+  ],
+  "mean_actual": 1.0598474889993668,
+  "mean_wrong_video": 1.106481209397316
+}
