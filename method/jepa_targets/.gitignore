@@ -1,0 +1,3 @@
+# regenerable feature caches and run outputs (weights/arrays are ignored repo-wide)
+runtime/feats/
+runtime/logs/
