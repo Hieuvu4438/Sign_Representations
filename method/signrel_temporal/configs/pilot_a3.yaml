@@ -1,0 +1,13 @@
+extends: base.yaml
+experiment:
+  name: pilot_a3
+  variant: A3
+  output_dir: runs/pilot_a3_seed17
+loss:
+  relation:
+    enabled: true
+    mode: cross_zero
+    lags:
+    - 0
+paths:
+  data_root: data/video_roots

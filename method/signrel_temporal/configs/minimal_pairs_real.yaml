@@ -1,0 +1,6 @@
+schema_version: 1
+annotations: data/annotations/verified_minimal_pairs.jsonl
+embeddings: results/pilot_a4_seed17_dev/embeddings.npy
+index: results/pilot_a4_seed17_dev/index.jsonl
+synthetic: false
+output: results/minimal_pairs_real.json

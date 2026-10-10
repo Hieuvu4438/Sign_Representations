@@ -1,0 +1,4 @@
+extends: smoke_a4.yaml
+experiment:
+  name: smoke_current_a4
+  output_dir: runs/smoke_current_a4_seed17

@@ -1,0 +1,6 @@
+schema_version: 1
+annotations: data/synthetic/minimal_pairs.jsonl
+embeddings: results/smoke_a4_seed17/embeddings.npy
+index: results/smoke_a4_seed17/index.jsonl
+synthetic: true
+output: results/minimal_pairs_synthetic.json

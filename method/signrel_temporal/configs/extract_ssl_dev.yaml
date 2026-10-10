@@ -1,0 +1,4 @@
+extends: pilot_a4.yaml
+paths:
+  ssl_manifest: data/manifests/ssl_dev.jsonl
+  cache_manifest: data/cache/ssl_dev_cache_manifest.jsonl

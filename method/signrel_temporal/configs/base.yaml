@@ -1,0 +1,139 @@
+schema_version: 1
+experiment:
+  name: pilot_a4
+  variant: A4
+  seed: 17
+  output_dir: runs/pilot_a4_seed17
+  synthetic: false
+paths:
+  data_root: data
+  ssl_manifest: data/manifests/ssl_train.jsonl
+  ssl_dev_manifest: data/manifests/ssl_dev.jsonl
+  cache_manifest: data/cache/cache_manifest.jsonl
+  sources_lock: artifacts/sources.lock.json
+  protocol: artifacts/protocol.json
+data:
+  language: ASL
+  fps: 25
+  window_frames: 64
+  min_frames: 32
+  sampling: recording_uniform
+  quality_threshold: 0.5
+  split_seed: 2026
+  max_resample_attempts: 10
+  allow_caption_boundaries: false
+teacher:
+  name: dinov2_vits14
+  feature_dim: 384
+  feature_key: x_norm_clstoken
+  repo_dir: third_party/dinov2
+  checkpoint_path: weights/dinov2_vits14_pretrain.pth
+  frozen: true
+  normalization: l2
+preprocess:
+  crop_size: 224
+  hand_margin: 1.5
+  hand_min_side_px: 24
+  max_clipped_fraction: 0.5
+  shoulder_min_distance_px: 20
+  body_landmark_indices:
+  - 0
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  hand_assignment: pose_wrist_temporal
+model:
+  streams:
+  - LH
+  - RH
+  - BODY
+  hidden_dim: 256
+  layers: 4
+  heads: 8
+  feedforward_dim: 1024
+  dropout: 0.1
+  norm_first: true
+  time_embedding: sinusoidal_seconds
+  nested_tensor: false
+corruption:
+  hand_mask_ratio: 0.5
+  body_mask_ratio: 0.25
+  shared_span_probability: 0.5
+  span_min: 4
+  span_max: 12
+  minimum_visible_tokens: 4
+  whole_hand_dropout: 0.0
+  time_resample: false
+  horizontal_flip: false
+  temporal_reverse: false
+loss:
+  hand_reduction: squared_l2_sum_then_stream_mean
+  body_weight: 1.0
+  body_smooth_l1_beta: 1.0
+  relation:
+    enabled: true
+    mode: cross_signed
+    stream_pairs:
+    - - LH
+      - RH
+    lags:
+    - -8
+    - -4
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+    - 4
+    - 8
+    max_pairs_per_sample: 32
+    sampling: lag_stratified
+    require_masked_endpoint: true
+    smooth_l1_beta: 0.1
+    max_weight: 0.1
+    ramp_updates: 100
+    reject_duplicate_source_frame_for_nonzero_lag: true
+train:
+  device: auto
+  precision: bf16_if_supported_else_fp32
+  microbatch_size: 8
+  gradient_accumulation: 4
+  accumulation_reduction: mean_of_microbatch_weighted_means
+  optimizer: adamw
+  learning_rate: 0.0003
+  min_learning_rate: 3.0e-05
+  weight_decay: 0.05
+  betas:
+  - 0.9
+  - 0.95
+  warmup_updates: 100
+  max_updates: 1000
+  grad_clip_norm: 1.0
+  checkpoint_every: 100
+  log_every: 10
+  workers: 2
+  ddp: false
+eval:
+  window_frames: 64
+  stride_frames: 32
+  pooling: physical_time_pyramid_mean
+  temporal_bins:
+  - 1
+  - 2
+  normalize_each_block: true
+  gallery_seed: 2026
+  gallery_k: 1
+  gloss_aggregation: max_exemplar_cosine
+  primary_metric: macro_gloss_recall_at_1
+  bootstrap_replicates: 1000
+budget:
+  phase: pilot
+  max_wall_minutes: 120
+  max_gpu_hours: 2.0
+  max_download_gb: 5.0
+  max_new_cache_gb: 10.0
+  allow_paid_cloud: false
+  allow_full_scale: false

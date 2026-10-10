@@ -1,0 +1,21 @@
+extends: base.yaml
+experiment:
+  name: pilot_a4
+  variant: A4
+  output_dir: runs/pilot_a4_seed17
+loss:
+  relation:
+    enabled: true
+    mode: cross_signed
+    lags:
+    - -8
+    - -4
+    - -2
+    - -1
+    - 0
+    - 1
+    - 2
+    - 4
+    - 8
+paths:
+  data_root: data/video_roots
