@@ -1,0 +1,8 @@
+# Third-party provenance
+
+- DINOv2 original ViT-S/14: https://github.com/facebookresearch/dinov2 ; pinned commit and actual binary SHA256 are in artifacts/sources.lock.json. Code and original model card specify Apache-2.0. Official weights URL: https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth . No substitution with register-token or hand-adapted weights.
+- MediaPipe tasks: installed 0.10.35, official Google pose_lite and hand assets with URLs/hashes/runtime checks in source lock. Library Apache-2.0; asset provenance is recorded independently; no assertion that dataset terms follow software licenses.
+- How2Sign and ASL Citizen videos: read from user-authorized existing local roots. They are not copied or redistributed with this package. ASL Citizen's baseline code MIT license is not the dataset license. Data adapter records public project sources and local authorization. ASL Citizen local use.txt was found and read: Microsoft Research License Terms restrict use to noncommercial, non-revenue-generating research and prohibit data/modification redistribution; results publication is addressed separately. Actual terms SHA256 is in artifacts/dataset_licenses.json. No How2Sign agreement file was found in the inspected local root; user-authorized local research only, no redistribution eligibility claimed.
+- Optional SignRep/SHuBERT artifacts from the wider workspace are not loaded as our teacher or controls. They require separate exact upstream inference adapters and data/license disclosure before any external baseline result can be reported.
+
+Own SIGNREL modules implement proposal7. No source code or checkpoints from the previous proposal6 method were copied into the core package.
