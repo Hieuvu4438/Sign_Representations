@@ -1,0 +1,1158 @@
+{
+  "results": [
+    {
+      "video_id": "asl_citizen:584781022698958-ADD",
+      "index": 0,
+      "decoded_frames": 70,
+      "valid_body_windows": 55,
+      "seconds": 26.737781788920984,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000000.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:3828332832043566-ADD",
+      "index": 1,
+      "decoded_frames": 40,
+      "valid_body_windows": 25,
+      "seconds": 16.947165310848504,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000001.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:03912771554806338-seedADOPT",
+      "index": 2,
+      "decoded_frames": 97,
+      "valid_body_windows": 82,
+      "seconds": 32.82004760601558,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000002.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:13686968360481266-ADOPT",
+      "index": 3,
+      "decoded_frames": 162,
+      "valid_body_windows": 147,
+      "seconds": 53.88470524107106,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000003.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:2124959070624397-ALASKA",
+      "index": 4,
+      "decoded_frames": 58,
+      "valid_body_windows": 43,
+      "seconds": 17.91306663886644,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000004.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:4357529133284235-ALASKA",
+      "index": 5,
+      "decoded_frames": 69,
+      "valid_body_windows": 54,
+      "seconds": 21.664967842167243,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000005.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:30532600608560156-ALCOHOL",
+      "index": 6,
+      "decoded_frames": 73,
+      "valid_body_windows": 58,
+      "seconds": 22.824921774910763,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000006.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:10706631058225735-ALCOHOL",
+      "index": 7,
+      "decoded_frames": 76,
+      "valid_body_windows": 61,
+      "seconds": 24.592543426901102,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000007.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:858422935228804-AUSTRALIA",
+      "index": 8,
+      "decoded_frames": 88,
+      "valid_body_windows": 73,
+      "seconds": 28.845098587917164,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000008.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:9938086301493458-AUSTRALIA",
+      "index": 9,
+      "decoded_frames": 68,
+      "valid_body_windows": 53,
+      "seconds": 21.38348661013879,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000009.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:9564458294519342-BALL",
+      "index": 10,
+      "decoded_frames": 187,
+      "valid_body_windows": 172,
+      "seconds": 58.02584096696228,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000010.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:24715605354350778-BALL",
+      "index": 11,
+      "decoded_frames": 95,
+      "valid_body_windows": 80,
+      "seconds": 28.62423390080221,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000011.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:09495940091603239-BRAILLE",
+      "index": 12,
+      "decoded_frames": 55,
+      "valid_body_windows": 40,
+      "seconds": 17.923259145813063,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000012.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:0811260119960111-BRAILLE",
+      "index": 13,
+      "decoded_frames": 78,
+      "valid_body_windows": 63,
+      "seconds": 26.112722827820107,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000013.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5501466900614305-BRIDESMAID",
+      "index": 14,
+      "decoded_frames": 325,
+      "valid_body_windows": 310,
+      "seconds": 101.40742259495892,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000014.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:45605816328347637-BRIDESMAID",
+      "index": 15,
+      "decoded_frames": 79,
+      "valid_body_windows": 64,
+      "seconds": 24.762703942134976,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000015.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7689910275214533-BURY",
+      "index": 16,
+      "decoded_frames": 110,
+      "valid_body_windows": 95,
+      "seconds": 34.08584236516617,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000016.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:6189548099446291-BURY",
+      "index": 17,
+      "decoded_frames": 69,
+      "valid_body_windows": 54,
+      "seconds": 22.928953762166202,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000017.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:807497670016361-CAKE",
+      "index": 18,
+      "decoded_frames": 58,
+      "valid_body_windows": 43,
+      "seconds": 19.043184601003304,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000018.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:9760717795603517-CAKE",
+      "index": 19,
+      "decoded_frames": 67,
+      "valid_body_windows": 52,
+      "seconds": 22.278914908180013,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000019.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5407790441605609-CRACK",
+      "index": 20,
+      "decoded_frames": 54,
+      "valid_body_windows": 39,
+      "seconds": 17.763698069145903,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000020.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5853283460067327-CRACK",
+      "index": 21,
+      "decoded_frames": 87,
+      "valid_body_windows": 72,
+      "seconds": 28.317252499982715,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000021.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:3431288807388624-CURL 2",
+      "index": 22,
+      "decoded_frames": 94,
+      "valid_body_windows": 79,
+      "seconds": 29.497851385036483,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000022.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:2330895526212906-CURL 2",
+      "index": 23,
+      "decoded_frames": 58,
+      "valid_body_windows": 43,
+      "seconds": 17.638419022085145,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000023.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:38589921777045255-EMAIL",
+      "index": 24,
+      "decoded_frames": 96,
+      "valid_body_windows": 81,
+      "seconds": 31.320736926980317,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000024.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:984186383050119-EMAIL",
+      "index": 25,
+      "decoded_frames": 40,
+      "valid_body_windows": 25,
+      "seconds": 12.53487195703201,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000025.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7915772963155006-EYES",
+      "index": 26,
+      "decoded_frames": 47,
+      "valid_body_windows": 32,
+      "seconds": 16.11063280212693,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000026.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:06163237568266666-EYES",
+      "index": 27,
+      "decoded_frames": 70,
+      "valid_body_windows": 55,
+      "seconds": 20.916464805835858,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000027.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:07456615489176754-FRUSTRATE",
+      "index": 28,
+      "decoded_frames": 47,
+      "valid_body_windows": 32,
+      "seconds": 14.826618632068858,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000028.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:40745823285831206-FRUSTRATE",
+      "index": 29,
+      "decoded_frames": 68,
+      "valid_body_windows": 53,
+      "seconds": 19.808742001187056,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000029.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:25619594638323506-GLOVE",
+      "index": 30,
+      "decoded_frames": 77,
+      "valid_body_windows": 62,
+      "seconds": 23.439317958895117,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000030.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:4864512725078496-GLOVE",
+      "index": 31,
+      "decoded_frames": 242,
+      "valid_body_windows": 208,
+      "seconds": 60.2019037140999,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000031.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:30222333866362683-HEARING AID",
+      "index": 32,
+      "decoded_frames": 60,
+      "valid_body_windows": 45,
+      "seconds": 19.312174075981602,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000032.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:9327299725955029-HEARING AID",
+      "index": 33,
+      "decoded_frames": 83,
+      "valid_body_windows": 68,
+      "seconds": 24.385038300883025,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000033.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:2175611285857142-HEN",
+      "index": 34,
+      "decoded_frames": 61,
+      "valid_body_windows": 46,
+      "seconds": 18.568137416848913,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000034.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5122375381127064-HEN",
+      "index": 35,
+      "decoded_frames": 63,
+      "valid_body_windows": 48,
+      "seconds": 18.786034745164216,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000035.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:4691017505162802-seedHOME",
+      "index": 36,
+      "decoded_frames": 124,
+      "valid_body_windows": 109,
+      "seconds": 29.992459719069302,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000036.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:3758646722492833-HOME",
+      "index": 37,
+      "decoded_frames": 79,
+      "valid_body_windows": 64,
+      "seconds": 20.723392490996048,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000037.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:8732021189554362-seedHUMBLE",
+      "index": 38,
+      "decoded_frames": 168,
+      "valid_body_windows": 153,
+      "seconds": 40.53358876379207,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000038.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:828672071501583-HUMBLE",
+      "index": 39,
+      "decoded_frames": 71,
+      "valid_body_windows": 56,
+      "seconds": 17.809196350863203,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000039.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5226877095672029-HUNDRED",
+      "index": 40,
+      "decoded_frames": 72,
+      "valid_body_windows": 57,
+      "seconds": 17.18183056707494,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000040.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:6748983309750731-HUNDRED",
+      "index": 41,
+      "decoded_frames": 60,
+      "valid_body_windows": 45,
+      "seconds": 14.62617282802239,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000041.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5274820721640965-INDEPENDENT",
+      "index": 42,
+      "decoded_frames": 57,
+      "valid_body_windows": 42,
+      "seconds": 14.311025811824948,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000042.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:3469906613758993-INDEPENDENT",
+      "index": 43,
+      "decoded_frames": 52,
+      "valid_body_windows": 37,
+      "seconds": 13.311443221056834,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000043.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:1620197475308156-INDIAN",
+      "index": 44,
+      "decoded_frames": 88,
+      "valid_body_windows": 73,
+      "seconds": 20.928889164933935,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000044.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:20554462429668785-INDIAN",
+      "index": 45,
+      "decoded_frames": 58,
+      "valid_body_windows": 43,
+      "seconds": 15.107113988837227,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000045.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:9643372681707316-JACKET 2",
+      "index": 46,
+      "decoded_frames": 45,
+      "valid_body_windows": 30,
+      "seconds": 10.827674929983914,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000046.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:22478513842793557-JACKET 2",
+      "index": 47,
+      "decoded_frames": 79,
+      "valid_body_windows": 64,
+      "seconds": 19.934160375967622,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000047.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:42298974601594974-LESS",
+      "index": 48,
+      "decoded_frames": 93,
+      "valid_body_windows": 78,
+      "seconds": 22.777735523181036,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000048.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:025934577509988177-LESS",
+      "index": 49,
+      "decoded_frames": 46,
+      "valid_body_windows": 31,
+      "seconds": 12.136877495096996,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000049.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:044173017389826486-LICK 1",
+      "index": 50,
+      "decoded_frames": 68,
+      "valid_body_windows": 53,
+      "seconds": 16.2684430021327,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000050.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7072115784151551-LICK 1",
+      "index": 51,
+      "decoded_frames": 111,
+      "valid_body_windows": 96,
+      "seconds": 28.433479649946094,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000051.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5447975750453435-LICK ENVELOPE_2",
+      "index": 52,
+      "decoded_frames": 76,
+      "valid_body_windows": 61,
+      "seconds": 19.335698513081297,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000052.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:16361451347951128-LICK ENVELOPE_2",
+      "index": 53,
+      "decoded_frames": 261,
+      "valid_body_windows": 246,
+      "seconds": 59.55058568995446,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000053.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:6593433022498649-LIPREAD",
+      "index": 54,
+      "decoded_frames": 62,
+      "valid_body_windows": 47,
+      "seconds": 14.661239809822291,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000054.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:4553208156056434-LIPREAD",
+      "index": 55,
+      "decoded_frames": 80,
+      "valid_body_windows": 65,
+      "seconds": 19.438267598859966,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000055.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:8129256179169877-LIVING ROOM",
+      "index": 56,
+      "decoded_frames": 101,
+      "valid_body_windows": 86,
+      "seconds": 24.501989003038034,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000056.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:8581065635531102-LIVING ROOM",
+      "index": 57,
+      "decoded_frames": 110,
+      "valid_body_windows": 95,
+      "seconds": 27.66214074799791,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000057.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:03866025669387474-seedMAGNIFY 1",
+      "index": 58,
+      "decoded_frames": 120,
+      "valid_body_windows": 105,
+      "seconds": 25.66143214609474,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000058.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7864225628747883-MAGNIFY 1",
+      "index": 59,
+      "decoded_frames": 66,
+      "valid_body_windows": 51,
+      "seconds": 14.760654646903276,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000059.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:291022348898865-MEASURE",
+      "index": 60,
+      "decoded_frames": 86,
+      "valid_body_windows": 71,
+      "seconds": 20.878284347010776,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000060.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:3061401618010626-MEASURE",
+      "index": 61,
+      "decoded_frames": 100,
+      "valid_body_windows": 85,
+      "seconds": 24.436623575165868,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000061.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:652432783353404-MIX 2",
+      "index": 62,
+      "decoded_frames": 58,
+      "valid_body_windows": 43,
+      "seconds": 13.974561414215714,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000062.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:044754032976300095-MIX 2",
+      "index": 63,
+      "decoded_frames": 93,
+      "valid_body_windows": 78,
+      "seconds": 22.126019235001877,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000063.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:9632390680801999-NECK",
+      "index": 64,
+      "decoded_frames": 90,
+      "valid_body_windows": 75,
+      "seconds": 20.57163486094214,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000064.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:41528846653396556-NECK",
+      "index": 65,
+      "decoded_frames": 45,
+      "valid_body_windows": 30,
+      "seconds": 11.129876126069576,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000065.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:8023661989113013-NETWORK",
+      "index": 66,
+      "decoded_frames": 89,
+      "valid_body_windows": 74,
+      "seconds": 23.201100937090814,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000066.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5260913497910384-seedNETWORK",
+      "index": 67,
+      "decoded_frames": 125,
+      "valid_body_windows": 110,
+      "seconds": 33.05526172905229,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000067.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7804736119872511-NEWSPAPER",
+      "index": 68,
+      "decoded_frames": 46,
+      "valid_body_windows": 31,
+      "seconds": 11.39179855096154,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000068.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5395339411835125-NEWSPAPER",
+      "index": 69,
+      "decoded_frames": 60,
+      "valid_body_windows": 45,
+      "seconds": 16.577349732164294,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000069.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:1937537687856259-NEXT DOWN",
+      "index": 70,
+      "decoded_frames": 101,
+      "valid_body_windows": 86,
+      "seconds": 31.088594521861523,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000070.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:8869137716537909-NEXT DOWN",
+      "index": 71,
+      "decoded_frames": 89,
+      "valid_body_windows": 74,
+      "seconds": 26.896004311041906,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000071.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:442209401000798-OLDEST",
+      "index": 72,
+      "decoded_frames": 94,
+      "valid_body_windows": 79,
+      "seconds": 28.267403615871444,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000072.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:9960342600065406-OLDEST",
+      "index": 73,
+      "decoded_frames": 117,
+      "valid_body_windows": 102,
+      "seconds": 34.563283854862675,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000073.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:23583748655061054-ORANGE EYES",
+      "index": 74,
+      "decoded_frames": 50,
+      "valid_body_windows": 35,
+      "seconds": 16.051007576985285,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000074.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:01936795196284824-ORANGE EYES",
+      "index": 75,
+      "decoded_frames": 73,
+      "valid_body_windows": 58,
+      "seconds": 22.02914921194315,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000075.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:2116774899188949-PASS",
+      "index": 76,
+      "decoded_frames": 110,
+      "valid_body_windows": 95,
+      "seconds": 34.259275496937335,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000076.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:15253844589890608-PASS",
+      "index": 77,
+      "decoded_frames": 53,
+      "valid_body_windows": 38,
+      "seconds": 16.379705359926447,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000077.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:664388215862038-PHILOSOPHY",
+      "index": 78,
+      "decoded_frames": 63,
+      "valid_body_windows": 48,
+      "seconds": 20.05065343901515,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000078.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:10366258338908452-PHILOSOPHY",
+      "index": 79,
+      "decoded_frames": 46,
+      "valid_body_windows": 31,
+      "seconds": 15.030012293020263,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000079.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:6898518339895967-PIZZA",
+      "index": 80,
+      "decoded_frames": 114,
+      "valid_body_windows": 78,
+      "seconds": 29.040788317797706,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000080.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:08296012412640685-PIZZA",
+      "index": 81,
+      "decoded_frames": 81,
+      "valid_body_windows": 66,
+      "seconds": 24.88685465301387,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000081.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:3232462967296814-RABBIT 2",
+      "index": 82,
+      "decoded_frames": 82,
+      "valid_body_windows": 67,
+      "seconds": 25.27056367509067,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000082.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:2286393276217069-RABBIT 2",
+      "index": 83,
+      "decoded_frames": 73,
+      "valid_body_windows": 58,
+      "seconds": 22.72102332301438,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000083.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:794131762797117-RESIGN",
+      "index": 84,
+      "decoded_frames": 86,
+      "valid_body_windows": 71,
+      "seconds": 26.427058049011976,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000084.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:29774418595536734-RESIGN",
+      "index": 85,
+      "decoded_frames": 53,
+      "valid_body_windows": 38,
+      "seconds": 17.03276821714826,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000085.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5175941281598448-RIDE 2",
+      "index": 86,
+      "decoded_frames": 89,
+      "valid_body_windows": 74,
+      "seconds": 27.52981659397483,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000086.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5324440368307131-RIDE 2",
+      "index": 87,
+      "decoded_frames": 106,
+      "valid_body_windows": 91,
+      "seconds": 32.966985299950466,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000087.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:42129017851107387-RIGHT 1",
+      "index": 88,
+      "decoded_frames": 42,
+      "valid_body_windows": 27,
+      "seconds": 13.421417047968134,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000088.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:698197275475307-RIGHT 1",
+      "index": 89,
+      "decoded_frames": 137,
+      "valid_body_windows": 120,
+      "seconds": 41.827128804055974,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000089.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:0925119196078783-ROAST",
+      "index": 90,
+      "decoded_frames": 85,
+      "valid_body_windows": 70,
+      "seconds": 27.129139040131122,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000090.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:03910093211428878-ROAST",
+      "index": 91,
+      "decoded_frames": 443,
+      "valid_body_windows": 428,
+      "seconds": 127.29684278392233,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000091.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7820338047981801-ROB",
+      "index": 92,
+      "decoded_frames": 91,
+      "valid_body_windows": 76,
+      "seconds": 28.74757196009159,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000092.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:2229336134687374-ROB",
+      "index": 93,
+      "decoded_frames": 54,
+      "valid_body_windows": 39,
+      "seconds": 16.901642211945727,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000093.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:8066501862328752-ROLLERBLADING",
+      "index": 94,
+      "decoded_frames": 106,
+      "valid_body_windows": 91,
+      "seconds": 33.5319971840363,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000094.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:13166460626116527-ROLLERBLADING",
+      "index": 95,
+      "decoded_frames": 78,
+      "valid_body_windows": 63,
+      "seconds": 23.750574787845835,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000095.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7215920554003923-SIDE",
+      "index": 96,
+      "decoded_frames": 77,
+      "valid_body_windows": 62,
+      "seconds": 24.987800942035392,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000096.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:47737953692529755-SIDE",
+      "index": 97,
+      "decoded_frames": 43,
+      "valid_body_windows": 28,
+      "seconds": 14.849628695985302,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000097.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:15539343479171364-seedSMOOTH",
+      "index": 98,
+      "decoded_frames": 170,
+      "valid_body_windows": 155,
+      "seconds": 49.6653120550327,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000098.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:8801673159859185-SMOOTH",
+      "index": 99,
+      "decoded_frames": 119,
+      "valid_body_windows": 104,
+      "seconds": 37.439786033006385,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000099.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:6184733157172666-SPICY",
+      "index": 100,
+      "decoded_frames": 57,
+      "valid_body_windows": 42,
+      "seconds": 18.096985687036067,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000100.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:33389617335733135-SPICY",
+      "index": 101,
+      "decoded_frames": 140,
+      "valid_body_windows": 125,
+      "seconds": 44.14028720208444,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000101.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:3092393914709688-STAND",
+      "index": 102,
+      "decoded_frames": 59,
+      "valid_body_windows": 44,
+      "seconds": 18.603783393045887,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000102.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:2638836980586847-STAND",
+      "index": 103,
+      "decoded_frames": 49,
+      "valid_body_windows": 34,
+      "seconds": 13.976631144993007,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000103.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:9416441066401802-STORY 3",
+      "index": 104,
+      "decoded_frames": 85,
+      "valid_body_windows": 70,
+      "seconds": 24.66873220098205,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000104.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:337035307748889-STORY 3",
+      "index": 105,
+      "decoded_frames": 86,
+      "valid_body_windows": 71,
+      "seconds": 26.318009215174243,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000105.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5292339510986226-STORY 2",
+      "index": 106,
+      "decoded_frames": 49,
+      "valid_body_windows": 34,
+      "seconds": 15.886327794985846,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000106.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:2613835132198623-STORY 2",
+      "index": 107,
+      "decoded_frames": 81,
+      "valid_body_windows": 66,
+      "seconds": 25.42438275902532,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000107.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:011099163163671877-SURGERY",
+      "index": 108,
+      "decoded_frames": 145,
+      "valid_body_windows": 130,
+      "seconds": 44.08633440802805,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000108.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:12043965783730104-SURGERY",
+      "index": 109,
+      "decoded_frames": 57,
+      "valid_body_windows": 42,
+      "seconds": 18.25100483489223,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000109.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7465300995514477-SWALLOW",
+      "index": 110,
+      "decoded_frames": 88,
+      "valid_body_windows": 73,
+      "seconds": 25.732740056933835,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000110.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7445093410602142-SWALLOW",
+      "index": 111,
+      "decoded_frames": 74,
+      "valid_body_windows": 59,
+      "seconds": 22.902570593869314,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000111.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:00476822982562175-seedTEENAGER",
+      "index": 112,
+      "decoded_frames": 123,
+      "valid_body_windows": 108,
+      "seconds": 36.044277959968895,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000112.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:9497385674102281-TEENAGER",
+      "index": 113,
+      "decoded_frames": 79,
+      "valid_body_windows": 64,
+      "seconds": 24.49686797405593,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000113.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:7392892050645878-THIRD",
+      "index": 114,
+      "decoded_frames": 69,
+      "valid_body_windows": 54,
+      "seconds": 22.419159724842757,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000114.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5911775875982508-THIRD",
+      "index": 115,
+      "decoded_frames": 59,
+      "valid_body_windows": 44,
+      "seconds": 18.093996735056862,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000115.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5203009434189372-THOUGHT DISAPPEAR",
+      "index": 116,
+      "decoded_frames": 70,
+      "valid_body_windows": 55,
+      "seconds": 21.838320376118645,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000116.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5081871552891866-THOUGHT DISAPPEAR",
+      "index": 117,
+      "decoded_frames": 158,
+      "valid_body_windows": 143,
+      "seconds": 47.44589925510809,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000117.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:312522087961862-TOUCH",
+      "index": 118,
+      "decoded_frames": 78,
+      "valid_body_windows": 63,
+      "seconds": 23.026506973896176,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000118.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:5535994344728667-TOUCH",
+      "index": 119,
+      "decoded_frames": 59,
+      "valid_body_windows": 44,
+      "seconds": 17.574775096960366,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000119.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:14655394512823738-TRACTOR",
+      "index": 120,
+      "decoded_frames": 62,
+      "valid_body_windows": 47,
+      "seconds": 17.31521258596331,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000120.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:10126098141068351-TRACTOR",
+      "index": 121,
+      "decoded_frames": 114,
+      "valid_body_windows": 99,
+      "seconds": 34.95665995194577,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000121.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:801429696553021-seedWINDOW OPEN",
+      "index": 122,
+      "decoded_frames": 106,
+      "valid_body_windows": 91,
+      "seconds": 30.735963083105162,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000122.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:8638286876137251-WINDOW OPEN",
+      "index": 123,
+      "decoded_frames": 50,
+      "valid_body_windows": 35,
+      "seconds": 16.84094212995842,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000123.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:16452616343668436-WRITE",
+      "index": 124,
+      "decoded_frames": 60,
+      "valid_body_windows": 45,
+      "seconds": 19.389475268078968,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000124.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:4390289106690757-WRITE",
+      "index": 125,
+      "decoded_frames": 48,
+      "valid_body_windows": 33,
+      "seconds": 15.086051705060527,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000125.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:32941176670637984-YES",
+      "index": 126,
+      "decoded_frames": 46,
+      "valid_body_windows": 31,
+      "seconds": 13.727790136821568,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000126.npz",
+      "status": "PASS"
+    },
+    {
+      "video_id": "asl_citizen:38970444942928073-YES",
+      "index": 127,
+      "decoded_frames": 56,
+      "valid_body_windows": 41,
+      "seconds": 16.826275432948023,
+      "raw": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC001/corpus/raw/00000127.npz",
+      "status": "PASS"
+    }
+  ],
+  "seconds": 829.5070493479725,
+  "all_usable": true
+}

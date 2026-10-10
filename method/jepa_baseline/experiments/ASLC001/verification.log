@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "method": "independent NumPy float64 pooling/cosine/deduplicated-class ranking",
+  "step0": {
+    "unweighted": {
+      "status": "PASS",
+      "independent_float64_metrics": {
+        "per_instance_top1": 1.5625,
+        "per_instance_top5": 15.625,
+        "MRR": 0.09208114966187442,
+        "DCG": 0.25702917759713784
+      },
+      "minimum_winner_cosine_margin": 1.143819120996703e-05
+    },
+    "activity_weighted": {
+      "status": "PASS",
+      "independent_float64_metrics": {
+        "per_instance_top1": 1.5625,
+        "per_instance_top5": 7.8125,
+        "MRR": 0.07689766559906089,
+        "DCG": 0.24374523983823349
+      },
+      "minimum_winner_cosine_margin": 7.044417541024472e-05
+    }
+  },
+  "step1000": {
+    "unweighted": {
+      "status": "PASS",
+      "independent_float64_metrics": {
+        "per_instance_top1": 1.5625,
+        "per_instance_top5": 25.0,
+        "MRR": 0.12622354752073928,
+        "DCG": 0.2924841043662788
+      },
+      "minimum_winner_cosine_margin": 6.434660825505034e-06
+    },
+    "activity_weighted": {
+      "status": "PASS",
+      "independent_float64_metrics": {
+        "per_instance_top1": 1.5625,
+        "per_instance_top5": 28.125,
+        "MRR": 0.14481478806095452,
+        "DCG": 0.3130694442647874
+      },
+      "minimum_winner_cosine_margin": 3.041766253297773e-05
+    }
+  },
+  "training": {
+    "status": "PASS",
+    "completed_steps": 1000,
+    "all_losses_and_gradients_finite": true,
+    "changed_model_tensors": 327,
+    "strict_model_tensor_count": 327,
+    "complete_checkpoint_scheduler_steps": 1000
+  }
+}

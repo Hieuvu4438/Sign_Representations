@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "step": 500,
+  "schema": "signrep_training_v1",
+  "optimizer_states": 327,
+  "discriminator_optimizer_states": 14,
+  "amp_dtype": "bfloat16",
+  "model_tensors": 327,
+  "complete_random_state": [
+    "cuda",
+    "numpy",
+    "python",
+    "torch"
+  ],
+  "file_bytes": 710762868
+}

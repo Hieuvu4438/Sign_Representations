@@ -1,0 +1,29 @@
+{
+  "steps": 1000,
+  "first_step": 1,
+  "last_step": 1000,
+  "initial_100_mean_loss": 531.8582830810547,
+  "final_100_mean_loss": 397.57973327636716,
+  "coverage": {
+    "body_pose": 0.47423258196721313,
+    "right_pose": 0.440140625,
+    "left_pose": 0.351890625,
+    "full_body_angles": 1.0,
+    "full_right_angles": 0.440140625,
+    "full_left_angles": 0.351890625,
+    "right_dist": 0.440140625,
+    "left_dist": 0.351890625,
+    "body_dist": 0.27244673295454547,
+    "activity": 0.006125
+  },
+  "training_status": {
+    "stage": "training",
+    "pid": 2053318,
+    "unix_time": 1791379264.9937353,
+    "result": "PASS",
+    "step": 1000,
+    "total_steps": 1000,
+    "elapsed_seconds": 2127.7754053659737,
+    "final_checkpoint_sha256": "eb65b5a7450d4465408816197b0b7001703ee40b9e45af25f342116a26601e63"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "method": "independent NumPy float64 pooling/cosine/deduplicated-class ranking",
+  "step0": {
+    "unweighted": {
+      "status": "PASS",
+      "independent_float64_metrics": {
+        "per_instance_top1": 1.5625,
+        "per_instance_top5": 15.625,
+        "MRR": 0.09208114966187442,
+        "DCG": 0.25702917759713784
+      },
+      "minimum_winner_cosine_margin": 1.143819120996703e-05
+    },
+    "activity_weighted": {
+      "status": "PASS",
+      "independent_float64_metrics": {
+        "per_instance_top1": 1.5625,
+        "per_instance_top5": 7.8125,
+        "MRR": 0.07689766559906089,
+        "DCG": 0.24374523983823349
+      },
+      "minimum_winner_cosine_margin": 7.044417541024472e-05
+    }
+  }
+}

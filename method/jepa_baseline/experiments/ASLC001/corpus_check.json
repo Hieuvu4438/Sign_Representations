@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "rows": 128,
+  "decoded_training_frames": 11242,
+  "official_train_reference_and_held_out_audit": true,
+  "body_root_mode": "canonical",
+  "corpus_bones_sha256": "e0536238779a6858514573633d5e3a71c2f42fb6c8d538ee40dbedcef6a9c275",
+  "first_valid_clip_supervision_fraction": {
+    "body_pose": 0.2724369236680328,
+    "right_pose": 0.2197265625,
+    "left_pose": 0.14599609375,
+    "full_body_angles": 1.0,
+    "full_right_angles": 0.2197265625,
+    "full_left_angles": 0.14599609375,
+    "right_dist": 0.2197265625,
+    "left_dist": 0.14599609375,
+    "body_dist": 0.049127752130681816,
+    "activity": 0.0
+  }
+}

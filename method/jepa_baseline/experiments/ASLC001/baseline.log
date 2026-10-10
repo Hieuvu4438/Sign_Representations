@@ -1,0 +1,27 @@
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376259.9323983, "completed_videos": 8, "total_videos": 192, "total_windows": 265}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376311.6248918, "completed_videos": 16, "total_videos": 192, "total_windows": 694}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376341.6833358, "completed_videos": 24, "total_videos": 192, "total_windows": 935}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376376.9164681, "completed_videos": 32, "total_videos": 192, "total_windows": 1221}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376417.3328261, "completed_videos": 40, "total_videos": 192, "total_windows": 1517}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376446.4338121, "completed_videos": 48, "total_videos": 192, "total_windows": 1715}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376494.123543, "completed_videos": 56, "total_videos": 192, "total_windows": 2056}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376550.9573665, "completed_videos": 64, "total_videos": 192, "total_windows": 2366}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376585.3981488, "completed_videos": 72, "total_videos": 192, "total_windows": 2630}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376616.580676, "completed_videos": 80, "total_videos": 192, "total_windows": 2875}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376651.6508377, "completed_videos": 88, "total_videos": 192, "total_windows": 3159}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376706.0925949, "completed_videos": 96, "total_videos": 192, "total_windows": 3619}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376746.108813, "completed_videos": 104, "total_videos": 192, "total_windows": 3917}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376784.4911406, "completed_videos": 112, "total_videos": 192, "total_windows": 4191}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376821.9729874, "completed_videos": 120, "total_videos": 192, "total_windows": 4480}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376847.5109944, "completed_videos": 128, "total_videos": 192, "total_windows": 4695}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376878.2522848, "completed_videos": 136, "total_videos": 192, "total_windows": 4909}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376907.2418396, "completed_videos": 144, "total_videos": 192, "total_windows": 5151}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376932.661918, "completed_videos": 152, "total_videos": 192, "total_windows": 5348}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791376969.6411304, "completed_videos": 160, "total_videos": 192, "total_windows": 5644}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791377010.7004735, "completed_videos": 168, "total_videos": 192, "total_windows": 5994}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791377056.5081267, "completed_videos": 176, "total_videos": 192, "total_windows": 6381}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791377099.619436, "completed_videos": 184, "total_videos": 192, "total_windows": 6717}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791377131.8153248, "completed_videos": 192, "total_videos": 192, "total_windows": 6973}
+{"stage": "step0", "pid": 1783248, "unix_time": 1791377132.1541007, "result": "PASS", "metrics": {"unweighted": {"per_instance_top1": 1.5625, "per_instance_top5": 15.625, "MRR": 0.09208115190267563, "DCG": 0.2570291757583618, "per_class_top1": 1.5625, "per_class_top5": 15.625, "task": "dictionary_retrieval", "split": "val", "queries": 64, "gallery_videos": 128, "topk_protocol": "distinct classes ranked by best individual dictionary video", "per_instance_top5_video_hits": 15.625, "classes": 64, "correct_top1": 1, "correct_top5": 10, "median_rank": 30.0, "mean_rank": 30.625, "windows": 6973, "encoder_checkpoint_sha256": "fb3c4ca662ca476f32f6a51ee18916450c4658a49f7ff9c65eb3a11a962b4264", "pooling": "unweighted", "scope": "64-class fixed pilot; not full ASL-Citizen benchmark"}, "activity_weighted": {"per_instance_top1": 1.5625, "per_instance_top5": 7.8125, "MRR": 0.07689766585826874, "DCG": 0.24374523758888245, "per_class_top1": 1.5625, "per_class_top5": 7.8125, "task": "dictionary_retrieval", "split": "val", "queries": 64, "gallery_videos": 128, "topk_protocol": "distinct classes ranked by best individual dictionary video", "per_instance_top5_video_hits": 7.8125, "classes": 64, "correct_top1": 1, "correct_top5": 5, "median_rank": 27.0, "mean_rank": 30.265625, "windows": 6973, "encoder_checkpoint_sha256": "fb3c4ca662ca476f32f6a51ee18916450c4658a49f7ff9c65eb3a11a962b4264", "pooling": "activity_weighted", "scope": "64-class fixed pilot; not full ASL-Citizen benchmark"}}}

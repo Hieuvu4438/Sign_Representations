@@ -1,0 +1,36 @@
+{
+  "gpu": {
+    "scope": "resource calibration only; repeated real RGB clip, artificial pair IDs",
+    "result": "PASS",
+    "batch_views": 4,
+    "amp_dtype": "bfloat16",
+    "reserved_MiB": 2022.0,
+    "allocated_MiB": 1886.6806640625,
+    "updates": [
+      {
+        "seconds": 2.441669608000666,
+        "loss": 695.6558837890625,
+        "gradient_norm": 2996.379150390625
+      },
+      {
+        "seconds": 0.31355704786255956,
+        "loss": 620.0238037109375,
+        "gradient_norm": 4158.02734375
+      },
+      {
+        "seconds": 0.3577342531643808,
+        "loss": 553.960693359375,
+        "gradient_norm": 1839.5645751953125
+      }
+    ]
+  },
+  "inference": {
+    "result": "PASS",
+    "windows": 28,
+    "seconds": 4.517613293137401,
+    "cache_dtype": "float32",
+    "weighted_norm": 0.9999999403953552,
+    "unweighted_norm": 0.9999999403953552,
+    "reserved_MiB": 600.0
+  }
+}
