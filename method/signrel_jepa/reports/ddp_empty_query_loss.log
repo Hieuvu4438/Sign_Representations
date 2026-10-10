@@ -1,0 +1,1 @@
+{"ranks": 2, "global_query_mean_loss": 3.0, "ddp_gradient": 1.5, "analytical_expected_loss": 3.0, "analytical_expected_gradient": 1.5, "empty_local_rank_supported": true, "globally_empty_queries_rejected": true, "loss_source_sha256": "2f78bddb2a0b6530c4533680f21ab9d99cc94435d99455ad051640ea7ae11ade"}

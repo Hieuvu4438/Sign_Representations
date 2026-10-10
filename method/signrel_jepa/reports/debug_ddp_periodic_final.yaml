@@ -1,0 +1,86 @@
+articulators:
+  confidence_threshold: 0.5
+  membership: intersection
+data:
+  augment: true
+  batch_size_per_gpu: 2
+  crop_size: 96
+  heldout_manifests:
+  - manifests/wlasl_all.jsonl
+  - manifests/eval_pilot/asl_citizen_train.jsonl
+  - manifests/eval_pilot/asl_citizen_val.jsonl
+  - manifests/eval_pilot/asl_citizen_test.jsonl
+  manifest: manifests/how2sign_mvp_ready_v2.jsonl
+  num_frames: 8
+  num_workers: 0
+  require_landmarks: true
+  sampling_stride: 2
+ema:
+  end: 1.0
+  schedule: cosine
+  start: 0.996
+evaluation:
+  config: manifests/periodic_debug/retrieval.yaml
+  gallery_manifest: manifests/periodic_debug/train.jsonl
+  query_manifest: manifests/periodic_debug/val.jsonl
+  selection_metric: retrieval.Recall@1
+experiment:
+  name: debug_tiny
+  scope: engineering verification only
+loss:
+  articulator_weight: 0.25
+  generic_weight: 0.0
+  normalize: layernorm
+  regularization:
+    enabled: false
+  relation_weight: 1.0
+  type: l1
+masking:
+  hidden_ratio: 0.65
+  min_visible_ratio: 0.25
+  mixture:
+    articulator: 0.3
+    motion_salient: 0.1
+    random_multiblock: 0.3
+    relation_break: 0.3
+  span_fraction: 0.5
+model:
+  backbone:
+    depth: 2
+    dim: 96
+    heads: 4
+    patch: 16
+    provider: tiny
+    tubelet: 2
+  predictor:
+    depth: 2
+    heads: 4
+    width: 128
+  relation_dim: 128
+  temporal_scales:
+  - kernel: 1
+    name: short
+    weight: 1.0
+optimizer:
+  betas:
+  - 0.9
+  - 0.95
+  lr: 0.0001
+  weight_decay: 0.04
+scheduler:
+  warmup_fraction: 0.05
+seed: 42
+trainer:
+  accumulate_steps: 1
+  checkpoint_every: 2
+  collapse_alarm:
+    patience: 100
+    std_threshold: 1.0e-05
+  deterministic: false
+  device: cpu
+  eval_every: 2
+  grad_clip_norm: 1.0
+  log_every: 1
+  max_steps: 4
+  precision: bf16
+  run_dir: runs/debug_final_integrated_ddp_bf16

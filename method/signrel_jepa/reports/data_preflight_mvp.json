@@ -1,0 +1,754 @@
+{
+  "input_sha256": "e2acbe23c44f12726b8afdcf0cba0e27cb6bd7e530535e9349ca529148be7a81",
+  "output_sha256": "21936ed23d64a326f553b284d8ff13fb97cffb9b004c108fd8d49c4a14654b98",
+  "input_rows": 100,
+  "retained_rows": 95,
+  "draws": 4,
+  "config": {
+    "seed": 42,
+    "experiment": {
+      "name": "signrel_relation_mvp",
+      "scope": "single-scale continued SSL from V-JEPA 2.1"
+    },
+    "data": {
+      "manifest": "manifests/how2sign_pilot100_landmarks.jsonl",
+      "heldout_manifests": [
+        "manifests/wlasl_all.jsonl",
+        "manifests/eval_pilot/asl_citizen_train.jsonl",
+        "manifests/eval_pilot/asl_citizen_val.jsonl",
+        "manifests/eval_pilot/asl_citizen_test.jsonl"
+      ],
+      "num_frames": 16,
+      "sampling_stride": 2,
+      "crop_size": 384,
+      "batch_size_per_gpu": 2,
+      "num_workers": 2,
+      "augment": true,
+      "require_landmarks": true
+    },
+    "articulators": {
+      "confidence_threshold": 0.5,
+      "membership": "intersection"
+    },
+    "model": {
+      "backbone": {
+        "provider": "vjepa2",
+        "family": "vjepa2_1",
+        "architecture": "vit_base",
+        "crop_size": 384,
+        "num_frames": 16,
+        "patch": 16,
+        "tubelet": 2,
+        "checkpointing": true,
+        "checkpoint": "assets/vjepa2_1_vitb_dist_vitG_384.pt",
+        "expected_sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+        "checkpoint_key": "ema_encoder"
+      },
+      "relation_dim": 384,
+      "predictor": {
+        "width": 384,
+        "heads": 6,
+        "depth": 2
+      },
+      "temporal_scales": [
+        {
+          "name": "short",
+          "kernel": 1,
+          "weight": 1.0
+        }
+      ]
+    },
+    "masking": {
+      "mixture": {
+        "random_multiblock": 0.3,
+        "articulator": 0.3,
+        "relation_break": 0.3,
+        "motion_salient": 0.1
+      },
+      "min_visible_ratio": 0.25,
+      "hidden_ratio": 0.65,
+      "span_fraction": 0.5
+    },
+    "loss": {
+      "generic_weight": 0.0,
+      "articulator_weight": 0.25,
+      "relation_weight": 1.0,
+      "type": "l1",
+      "normalize": "layernorm",
+      "regularization": {
+        "enabled": false
+      }
+    },
+    "optimizer": {
+      "lr": 0.0001,
+      "weight_decay": 0.04,
+      "betas": [
+        0.9,
+        0.95
+      ]
+    },
+    "scheduler": {
+      "warmup_fraction": 0.05
+    },
+    "ema": {
+      "start": 0.996,
+      "end": 1.0,
+      "schedule": "cosine"
+    },
+    "trainer": {
+      "run_dir": "runs/relation_mvp",
+      "device": "cuda",
+      "max_steps": 50000,
+      "precision": "bf16",
+      "deterministic": false,
+      "accumulate_steps": 1,
+      "grad_clip_norm": 1.0,
+      "log_every": 20,
+      "checkpoint_every": 2000,
+      "collapse_alarm": {
+        "std_threshold": 1e-05,
+        "patience": 100
+      }
+    }
+  },
+  "selection_basis": "structural validity and feasible masks only; no semantic labels or frozen metrics",
+  "clips": [
+    {
+      "sample_id": "how2sign:-1PeVdIwiq0_17-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 20.0
+    },
+    {
+      "sample_id": "how2sign:-AZVqXtWGg0_20-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 22.5
+    },
+    {
+      "sample_id": "how2sign:-Ajh5HDqsi4_7-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 19.75
+    },
+    {
+      "sample_id": "how2sign:-BKq3iOBB9k_5-3-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 25.5
+    },
+    {
+      "sample_id": "how2sign:-Bz0BNwqAE4_5-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:-aEP1MfoUSU_11-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:-b4_y6LOSx0_12-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:0-bR2rq-qps_7-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:01j1UveqztE_7-3-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:01ucR6XreJw_11-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:038vE9JsU9I_4-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 25.5
+    },
+    {
+      "sample_id": "how2sign:04VKILduLSM_4-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:04hnjLKHh2g_9-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:06Yvm4X81WI_11-5-rgb_front",
+      "accepted": false,
+      "failures": [
+        {
+          "draw": 2,
+          "reason": "No feasible mask: check box overlap, valid regions and minimum visible ratio"
+        }
+      ],
+      "mean_valid_relations_per_clip": 19.5
+    },
+    {
+      "sample_id": "how2sign:077rQK39ycg_2-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:07EGkSiMsL0_20-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:07HhpnroTXs_0-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:09cQe0gC2-0_3_4-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:0EXgSf1yN-0_3-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 15.75
+    },
+    {
+      "sample_id": "how2sign:0ICZi26jdaQ_5-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:0sal9F4RXeY_10-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:0t94zPbIPTw_7-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:0trr2UC5l5M_10-11-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:10d1oeViKYw_8-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:11oEwlBqF2M_6-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:14ZYG0hU6G8_2-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:14z8c3QqV0E_4-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:15bYoBr7BWs_46-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:163ylBUtKlI_6-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:16iJ0z4FUqc_8-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 19.25
+    },
+    {
+      "sample_id": "how2sign:17ijcOW43Q8_7-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:18PiUlfjLEQ_7-2-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 19.5
+    },
+    {
+      "sample_id": "how2sign:18YQlS_nliI_3-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:1CjA3Xzvd0k_5-5-rgb_front",
+      "accepted": false,
+      "failures": [
+        {
+          "draw": 1,
+          "reason": "No valid relation endpoints in sampled clip"
+        }
+      ],
+      "mean_valid_relations_per_clip": 12.0
+    },
+    {
+      "sample_id": "how2sign:1FStJdud1lQ_21-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 22.0
+    },
+    {
+      "sample_id": "how2sign:1KKlZKlWdTM_0-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 21.5
+    },
+    {
+      "sample_id": "how2sign:1LaWSGs87gA_14-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 20.5
+    },
+    {
+      "sample_id": "how2sign:1LaWSGs87gA_3-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 21.75
+    },
+    {
+      "sample_id": "how2sign:1LgVgklOYCQ_0-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 19.0
+    },
+    {
+      "sample_id": "how2sign:1PO6_voQXoc_7-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:1Q2BYTlbdiE_23-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 22.5
+    },
+    {
+      "sample_id": "how2sign:1Yp-xuljnDM_6-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 22.0
+    },
+    {
+      "sample_id": "how2sign:1_N0Aq04tRA_11-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:1aRNY8wFqa0_28-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 12.5
+    },
+    {
+      "sample_id": "how2sign:1cbTN8a73zo_15-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:1dFd3NYkINQ_1-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 18.25
+    },
+    {
+      "sample_id": "how2sign:1e2wDf5R_zk_1-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:1ei1kVTw23A_14-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 17.5
+    },
+    {
+      "sample_id": "how2sign:1fdMM1LuAsY_3-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 16.5
+    },
+    {
+      "sample_id": "how2sign:1gycdY2pcYc_2-11-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:1h3mvQDZnBw_11-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 21.5
+    },
+    {
+      "sample_id": "how2sign:1h3mvQDZnBw_17-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 26.0
+    },
+    {
+      "sample_id": "how2sign:1ptcPCWBvBc_5-8-rgb_front",
+      "accepted": false,
+      "failures": [
+        {
+          "draw": 3,
+          "reason": "No feasible mask: check box overlap, valid regions and minimum visible ratio"
+        }
+      ],
+      "mean_valid_relations_per_clip": 22.0
+    },
+    {
+      "sample_id": "how2sign:1qNsErmkIiU_5-3-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:1qYHdB1eWQc_12-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:2-zlrJXlOGA_5-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.0
+    },
+    {
+      "sample_id": "how2sign:21BHzn_li1s_9-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:23GbjIU50qw_18-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.0
+    },
+    {
+      "sample_id": "how2sign:3GgkyZLNZkA_10-2-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:40dTE31p5uA_2-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:47oJoR2BC34_6-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 25.0
+    },
+    {
+      "sample_id": "how2sign:484PoKla0ug_16-1-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 19.5
+    },
+    {
+      "sample_id": "how2sign:4ChFh4LdxVg_8-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 21.5
+    },
+    {
+      "sample_id": "how2sign:4UlmDZi98fk_13-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:5VkXcJblh4o_3-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 29.25
+    },
+    {
+      "sample_id": "how2sign:5sdZhVCmDJ4_5-4-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:5vSvXTHeD5I_2-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 25.0
+    },
+    {
+      "sample_id": "how2sign:BRBt1zOfZnc_9-3-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 22.5
+    },
+    {
+      "sample_id": "how2sign:BUrqXtTa46Y_5-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:BubKD1vPvvQ_2-11-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:CJ8RyW9pzKU_7-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 14.0
+    },
+    {
+      "sample_id": "how2sign:CWIsQEHuVZ4_4-3-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 25.0
+    },
+    {
+      "sample_id": "how2sign:CerG8JKzDIE_15-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 18.25
+    },
+    {
+      "sample_id": "how2sign:CxT4a1Gtkjo_11-1-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 25.0
+    },
+    {
+      "sample_id": "how2sign:DE8YkWRpvYA_3-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:DcFCY1OFhCw_5-3-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:EA5TtaqpJ9w_18-4-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 22.5
+    },
+    {
+      "sample_id": "how2sign:EF4dlnqkJ3w_13-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.0
+    },
+    {
+      "sample_id": "how2sign:EMi4hyW42Fs_3-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.5
+    },
+    {
+      "sample_id": "how2sign:Ec9KthfKXXI_4-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 25.0
+    },
+    {
+      "sample_id": "how2sign:F0eCE9z6ENc_8-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 25.0
+    },
+    {
+      "sample_id": "how2sign:FGfPccy3juw_3-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 22.75
+    },
+    {
+      "sample_id": "how2sign:FStKSCmBx00_12-4-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.5
+    },
+    {
+      "sample_id": "how2sign:FTuTLRq7014_8-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.0
+    },
+    {
+      "sample_id": "how2sign:_FS9zbJi8qE_6-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 19.5
+    },
+    {
+      "sample_id": "how2sign:a6xKFGeHX4A_15-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:aGITFRfpMJA_6-8-rgb_front",
+      "accepted": false,
+      "failures": [
+        {
+          "draw": 0,
+          "reason": "No feasible mask: check box overlap, valid regions and minimum visible ratio"
+        }
+      ],
+      "mean_valid_relations_per_clip": 17.25
+    },
+    {
+      "sample_id": "how2sign:bA53FmWDNPU_14-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:bAnA79gWZXI_8-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:bH1KCt78l7c_8-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 19.75
+    },
+    {
+      "sample_id": "how2sign:bjQrRezhvQU_9-1-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 22.0
+    },
+    {
+      "sample_id": "how2sign:btSrRQAWN6k_6-4-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:c8qCeBSlaOw_12-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    },
+    {
+      "sample_id": "how2sign:cQBrXCcfDyc_36-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 23.0
+    },
+    {
+      "sample_id": "how2sign:cZhGkz4jNnk_6-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 21.5
+    },
+    {
+      "sample_id": "how2sign:celb3UJ9_Ko_0-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 18.5
+    },
+    {
+      "sample_id": "how2sign:clXjA4Ok8Bs_5-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 25.0
+    },
+    {
+      "sample_id": "how2sign:dR5U_NeNx18_4-5-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 27.0
+    },
+    {
+      "sample_id": "how2sign:dcN7W0lxTpE_27-8-rgb_front",
+      "accepted": false,
+      "failures": [
+        {
+          "draw": 0,
+          "reason": "No valid relation endpoints in sampled clip"
+        },
+        {
+          "draw": 1,
+          "reason": "No valid relation endpoints in sampled clip"
+        },
+        {
+          "draw": 2,
+          "reason": "No valid relation endpoints in sampled clip"
+        },
+        {
+          "draw": 3,
+          "reason": "No valid relation endpoints in sampled clip"
+        }
+      ],
+      "mean_valid_relations_per_clip": 0.0
+    },
+    {
+      "sample_id": "how2sign:e_S9g_NKlvY_5-8-rgb_front",
+      "accepted": true,
+      "failures": [],
+      "mean_valid_relations_per_clip": 24.0
+    }
+  ]
+}

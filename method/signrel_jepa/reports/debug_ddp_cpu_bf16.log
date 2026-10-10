@@ -1,0 +1,86 @@
+{"effective_batch": 4, "world_size": 2, "device": "cpu", "precision": "bf16", "steps": 8, "start_step": 0}
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home/haipd/Sign_Representations/method/signrel_jepa/scripts/train.py", line 25, in <module>
+[rank1]:     main()
+[rank1]:     ~~~~^^
+[rank1]:   File "/home/haipd/Sign_Representations/method/signrel_jepa/scripts/train.py", line 21, in main
+[rank1]:     train(config,args.resume,args.stop_after)
+[rank1]:     ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/haipd/Sign_Representations/method/signrel_jepa/signrel/engine/train.py", line 137, in train
+[rank1]:     scaler.scale(loss).backward()
+[rank1]:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[rank1]:   File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/_tensor.py", line 631, in backward
+[rank1]:     torch.autograd.backward(
+[rank1]:     ~~~~~~~~~~~~~~~~~~~~~~~^
+[rank1]:         self, gradient, retain_graph, create_graph, inputs=inputs
+[rank1]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:     )
+[rank1]:     ^
+[rank1]:   File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/autograd/__init__.py", line 381, in backward
+[rank1]:     _engine_run_backward(
+[rank1]:     ~~~~~~~~~~~~~~~~~~~~^
+[rank1]:         tensors,
+[rank1]:         ^^^^^^^^
+[rank1]:     ...<5 lines>...
+[rank1]:         accumulate_grad=True,
+[rank1]:         ^^^^^^^^^^^^^^^^^^^^^
+[rank1]:     )
+[rank1]:     ^
+[rank1]:   File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/autograd/graph.py", line 869, in _engine_run_backward
+[rank1]:     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[rank1]:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:         t_outputs, *args, **kwargs
+[rank1]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:     )  # Calls into the C++ engine to run the backward pass
+[rank1]:     ^
+[rank1]: RuntimeError: DNNL does not support bf16/f16 backward on the platform with avx2_vnni_2
+W1006 14:37:23.511000 3377664 site-packages/torch/distributed/elastic/multiprocessing/api.py:1012] Sending process 3377713 closing signal SIGTERM
+E1006 14:37:23.543000 3377664 site-packages/torch/distributed/elastic/multiprocessing/api.py:986] failed (exitcode: 1) local_rank: 1 (pid: 3377714) of binary: /home/haipd/Sign_Representations/method/signrel_jepa/../../.venv-signrep/bin/python
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/distributed/run.py", line 994, in <module>
+    main()
+    ~~~~^^
+  File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 362, in wrapper
+    return f(*args, **kwargs)
+  File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/distributed/run.py", line 990, in main
+    run(args)
+    ~~~^^^^^^
+  File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/distributed/run.py", line 981, in run
+    elastic_launch(
+    ~~~~~~~~~~~~~~~
+        config=config,
+        ~~~~~~~~~~~~~~
+        entrypoint=cmd,
+        ~~~~~~~~~~~~~~~
+    )(*cmd_args)
+    ~^^^^^^^^^^^
+  File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 170, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/haipd/miniconda3/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 317, in launch_agent
+    raise ChildFailedError(
+    ...<2 lines>...
+    )
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+scripts/train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-10-06_14:37:23
+  host      : ptitiec
+  rank      : 0 (local_rank: 0)
+  exitcode  : -15 (pid: 3377713)
+  error_file: <N/A>
+  traceback : Signal 15 (SIGTERM) received by PID 3377713
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-10-06_14:37:23
+  host      : ptitiec
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3377714)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
