@@ -1,0 +1,53 @@
+{
+  "protocol": "P007_v1_rejection_transfer",
+  "stage": "tests",
+  "seed": 1701,
+  "timeout_seconds": 60,
+  "GPU_allocation_seconds": 0,
+  "HPO_trials": 0,
+  "source_snapshots": {
+    "source_snapshot/bounded_artifacts.py": "method/frozen_probe/bounded_artifacts.py",
+    "source_snapshot/bounded_cpu_context.py": "method/frozen_probe/bounded_cpu_context.py",
+    "source_snapshot/cache.py": "method/frozen_probe/cache.py",
+    "source_snapshot/rejection_analysis.py": "method/frozen_probe/rejection_analysis.py",
+    "source_snapshot/scripts/register_axis_stage.py": "method/frozen_probe/scripts/register_axis_stage.py",
+    "source_snapshot/scripts/register_rejection_diagnostic.py": "method/frozen_probe/scripts/register_rejection_diagnostic.py",
+    "source_snapshot/scripts/test_rejection_analysis.py": "method/frozen_probe/scripts/test_rejection_analysis.py",
+    "source_snapshot/temporal.py": "method/frozen_probe/temporal.py",
+    "source_snapshot/tests/test_rejection_analysis.py": "method/frozen_probe/tests/test_rejection_analysis.py"
+  },
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/rejection_analysis.py": "41a19a7f27ee7be7b2ff009b67a1790eba13c2022fbb078cf73ac8b8fd3cf885",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/frozen_probe/scripts/register_rejection_diagnostic.py": "94870f504e4dc44aab0e56ab383c2128071e55a212efdf9e5f823103e989947a",
+    "method/frozen_probe/scripts/test_rejection_analysis.py": "7263051bd712ebadafd0d6dafa2b1500fb18ee5d719fedef4e7241da7e4a0099",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_rejection_analysis.py": "d4db29e30d3c903980de181d3cb3f7c38b43d301a6b55174030c16aff244fde5",
+    "method/research_lab/records/decisions/D081.md": "62f8e712fe1045cb42d2e18c4b294244b8e22f4d39359fcfa4af67f598897d07",
+    "method/research_lab/records/hypotheses/H007_v1.md": "ced5306ba7996099dfcb935834de29a190c26ed3371c4957e732b54b720fe04e",
+    "method/research_lab/records/protocols/P007_v1_rejection_transfer.md": "5f047ca597b88b11b0c2f45937b510185062cbaed77020bdd07847deb0ded1a8",
+    "method/research_lab/records/protocols/REJECTANALTEST001_manual_oracles_v1.md": "8e9973365d44fc51f07c588ca3cbf026149ee67e55f50784b8b59f125dc3c0ab"
+  },
+  "artifact_file_caps": {
+    "source_snapshot/bounded_artifacts.py": 9919,
+    "source_snapshot/bounded_cpu_context.py": 8396,
+    "source_snapshot/cache.py": 9237,
+    "source_snapshot/rejection_analysis.py": 2841,
+    "source_snapshot/scripts/register_axis_stage.py": 5925,
+    "source_snapshot/scripts/register_rejection_diagnostic.py": 6841,
+    "source_snapshot/scripts/test_rejection_analysis.py": 760,
+    "source_snapshot/temporal.py": 1192,
+    "source_snapshot/tests/test_rejection_analysis.py": 2717,
+    "config.json": 131072,
+    "environment.json": 65536,
+    "status.json": 262144,
+    "error.txt": 65536,
+    "combined_log.txt": 65536,
+    "rejection_analysis_tests.json": 65536
+  },
+  "artifact_manifest_cap": 262144,
+  "artifact_ceiling_bytes": 2097152
+}
