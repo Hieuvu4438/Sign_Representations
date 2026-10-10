@@ -1,0 +1,52 @@
+{
+  "protocol": "OSMETA001_calibration_feasibility_v1",
+  "stage": "tests",
+  "seed": 1701,
+  "timeout_seconds": 60,
+  "GPU_allocation_seconds": 0,
+  "HPO_trials": 0,
+  "source_snapshots": {
+    "source_snapshot/bounded_artifacts.py": "method/frozen_probe/bounded_artifacts.py",
+    "source_snapshot/bounded_cpu_context.py": "method/frozen_probe/bounded_cpu_context.py",
+    "source_snapshot/cache.py": "method/frozen_probe/cache.py",
+    "source_snapshot/open_set_metadata.py": "method/frozen_probe/open_set_metadata.py",
+    "source_snapshot/scripts/audit_open_set_metadata.py": "method/frozen_probe/scripts/audit_open_set_metadata.py",
+    "source_snapshot/scripts/register_axis_stage.py": "method/frozen_probe/scripts/register_axis_stage.py",
+    "source_snapshot/scripts/register_open_set_metadata.py": "method/frozen_probe/scripts/register_open_set_metadata.py",
+    "source_snapshot/temporal.py": "method/frozen_probe/temporal.py",
+    "source_snapshot/tests/test_open_set_metadata.py": "method/frozen_probe/tests/test_open_set_metadata.py"
+  },
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/open_set_metadata.py": "e25ec384ff20f26e7b074be5ced7eaae133465e89b190861f79a1a9a9ba5a0be",
+    "method/frozen_probe/scripts/audit_open_set_metadata.py": "f00f0ca76ddb761350a5d6f75fec36194de39850e32d6b7140daf3e562680b37",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/frozen_probe/scripts/register_open_set_metadata.py": "14ee4e7ac01afa82b8ed39a13d40c96baf91dd6a98c54f8b2663945340ada90c",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_open_set_metadata.py": "47390be5bf2c5eefae1b56de7f5eed3a710e0db88815c669d3eab3d95d87595a",
+    "method/research_lab/records/decisions/D074.md": "5800a9d06f1ce61da72921b01969d0b21775c83404bbfcb3b11f74d52f791f4b",
+    "method/research_lab/records/protocols/OSMETA001_calibration_feasibility_v1.md": "3ab66d0a9ef6e2c0fdd39cc633005eff43fc9f6ad5f8a7a36571e5e27d21f2d3",
+    "method/research_lab/records/hypotheses/H007_DRAFT.md": "f494575c2f8fa5c3532fbc0e1a7c995f35faa7d84f8ced773761befbc7124cb0"
+  },
+  "artifact_file_caps": {
+    "source_snapshot/bounded_artifacts.py": 9919,
+    "source_snapshot/bounded_cpu_context.py": 8396,
+    "source_snapshot/cache.py": 9237,
+    "source_snapshot/open_set_metadata.py": 7475,
+    "source_snapshot/scripts/audit_open_set_metadata.py": 7436,
+    "source_snapshot/scripts/register_axis_stage.py": 5925,
+    "source_snapshot/scripts/register_open_set_metadata.py": 6407,
+    "source_snapshot/temporal.py": 1192,
+    "source_snapshot/tests/test_open_set_metadata.py": 4872,
+    "config.json": 262144,
+    "environment.json": 65536,
+    "status.json": 262144,
+    "error.txt": 65536,
+    "combined_log.txt": 65536,
+    "metadata_tests.json": 32768
+  },
+  "artifact_manifest_cap": 131072,
+  "artifact_ceiling_bytes": 2097152
+}

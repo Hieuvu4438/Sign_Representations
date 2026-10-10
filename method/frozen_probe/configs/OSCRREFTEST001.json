@@ -1,0 +1,107 @@
+{
+  "protocol": "OSCRREFTEST001_manual_oracles_v1",
+  "seed": 1701,
+  "timeout_seconds": 60,
+  "GPU_allocation_seconds": 0,
+  "HPO_trials": 0,
+  "source_snapshots": {
+    "source_snapshot/bounded_artifacts.py": "method/frozen_probe/bounded_artifacts.py",
+    "source_snapshot/bounded_cpu_context.py": "method/frozen_probe/bounded_cpu_context.py",
+    "source_snapshot/cache.py": "method/frozen_probe/cache.py",
+    "source_snapshot/references/fsosar_c8115c09/LICENSE": "method/frozen_probe/references/fsosar_c8115c09/LICENSE",
+    "source_snapshot/references/fsosar_c8115c09/utils.py": "method/frozen_probe/references/fsosar_c8115c09/utils.py",
+    "source_snapshot/scripts/register_axis_stage.py": "method/frozen_probe/scripts/register_axis_stage.py",
+    "source_snapshot/scripts/register_public_oscr_reference.py": "method/frozen_probe/scripts/register_public_oscr_reference.py",
+    "source_snapshot/scripts/test_public_oscr_reference.py": "method/frozen_probe/scripts/test_public_oscr_reference.py",
+    "source_snapshot/temporal.py": "method/frozen_probe/temporal.py"
+  },
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/references/fsosar_c8115c09/LICENSE": "d3522fc7814fc79c74f64c68dc9cb591b062b5e90a5bddd50e444e5b3f727711",
+    "method/frozen_probe/references/fsosar_c8115c09/utils.py": "55b79e5e9ca57956b499427dec97b187b464faad7fb4d382e0c3263542738b6b",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/frozen_probe/scripts/register_public_oscr_reference.py": "8f950228e92d01c25adf958a81d1d6e32d7e5c49e1badcfc8d2b3dd0425ee175",
+    "method/frozen_probe/scripts/test_public_oscr_reference.py": "9ee23cddd21f7bcb2b7990e6839469f8b67c89091d1364fb9b0648880fc3d136",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/research_lab/records/decisions/D076.md": "40d2bce733b16f22a6ed40de2f2af3b32350f72d37c5f4b603d19141af3a0d0d",
+    "method/research_lab/records/protocols/OSCRREFTEST001_manual_oracles_v1.md": "0f8d819a6b5985195d9d30a3a7a7bdc25445a3477a4ad1c58bb8e3063ccab70a"
+  },
+  "artifact_file_caps": {
+    "source_snapshot/bounded_artifacts.py": 9919,
+    "source_snapshot/bounded_cpu_context.py": 8396,
+    "source_snapshot/cache.py": 9237,
+    "source_snapshot/references/fsosar_c8115c09/LICENSE": 1518,
+    "source_snapshot/references/fsosar_c8115c09/utils.py": 33525,
+    "source_snapshot/scripts/register_axis_stage.py": 5925,
+    "source_snapshot/scripts/register_public_oscr_reference.py": 3746,
+    "source_snapshot/scripts/test_public_oscr_reference.py": 3295,
+    "source_snapshot/temporal.py": 1192,
+    "config.json": 65536,
+    "environment.json": 32768,
+    "status.json": 65536,
+    "error.txt": 65536,
+    "combined_log.txt": 32768,
+    "reference_tests.json": 32768
+  },
+  "artifact_manifest_cap": 65536,
+  "artifact_ceiling_bytes": 2097152,
+  "reference_commit": "c8115c09c54d5480bf0adf972f66988bb2274c2b",
+  "reference_source": "method/frozen_probe/references/fsosar_c8115c09/utils.py",
+  "reference_license": "BSD-3-Clause, complete license retained",
+  "float_atol": 1e-12,
+  "fixtures": [
+    {
+      "id": "all_known_wrong",
+      "targets": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "scores": [
+        0.8,
+        0.8,
+        0.2,
+        0.2
+      ],
+      "manual_joint_area": 0.0,
+      "predicted_reference_area": 0.25
+    },
+    {
+      "id": "perfect_separated",
+      "targets": [
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "scores": [
+        0.8,
+        0.8,
+        0.2,
+        0.2
+      ],
+      "manual_joint_area": 1.0,
+      "predicted_reference_area": 1.0
+    },
+    {
+      "id": "wrong_tied_scores",
+      "targets": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "scores": [
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "manual_joint_area": 0.0,
+      "predicted_reference_area": 0.25
+    }
+  ]
+}
