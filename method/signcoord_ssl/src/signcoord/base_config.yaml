@@ -1,0 +1,140 @@
+schema_version: signcoord_config_v1
+project: signcoord_ssl
+arm: A7
+seed: 3407
+run_dir: runs/A7_seed3407
+
+data:
+  ssl_train_manifest: null
+  ssl_dev_manifest: null
+  pose_cache_root: null
+  target_stats_path: null
+  phase_calibration_path: null
+  manifest_schema: video_manifest_v1
+  pose_schema: coco_wholebody133_to_signcoord119_v1
+  strict_inductive: true
+  clips_per_source_cap: 200
+  sampler:
+    frames: 32
+    grid_fps: 25.0
+    spatial_size: [224, 224]
+    resize: letterbox
+    max_repeat_fraction_spectral: 0.10
+    short_clip: repeat_last_with_invalid_padding
+    temporal_speed_aug: false
+  augmentation:
+    color_jitter: 0.10
+    same_photometric_params_over_time: true
+    horizontal_flip: false
+    time_reverse: false
+    independent_part_time_shift: false
+    pose_guided_masking: false
+  normalization:
+    origin: clip_median_shoulder_center
+    scale: clip_median_shoulder_width
+    min_valid_shoulder_frames: 4
+    min_scale_fraction: 0.02
+    gap_interpolation_max_frames: 2
+    interpolated_reliability_factor: 0.5
+
+model:
+  backbone: hiera_base_video_adapter
+  initialization_mode: generic_hiera_mae
+  initialization_checkpoint: null
+  source_lock_path: docs/source_lock.json
+  input_frames: 32
+  temporal_position_adaptation: linear_separable
+  encoder_taps: [final]
+  mask_ratio: 0.80
+  mask_semantics: true_means_keep
+  decoder:
+    width: 384
+    blocks: 2
+    heads: 6
+    mlp_ratio: 4
+    dropout: 0.0
+    part_order: [L, R, F, B]
+    target_supervision: all_valid
+  regularization_projector:
+    hidden: 768
+    out_dim: 256
+
+loss:
+  geometry:
+    global_part_weights: {L: 0.25, R: 0.25, F: 0.25, B: 0.25}
+    local_total_weight: 0.5
+    local_hand_weights: {L: 0.5, R: 0.5}
+    huber_delta: 1.0
+  velocity_weight: 0.10
+  signed_relation_weight: 0.0
+  relation:
+    kind: phase
+    weight: 0.05
+    warmup_zero_updates: 2000
+    ramp_end_update: 5000
+    anchors_packed: {L: 115, R: 116, H: 110}
+    pairs: [[L, R], [L, H], [R, H]]
+    window: 16
+    hop: 8
+    window_tail_policy: drop_incomplete
+    min_valid_windows: 2
+    min_confidence: 0.30
+    gate: target_validity_auto_and_cross_energy
+    coherence_gate: false
+    calibration_percentile: 10
+    energy_floor: 1.0e-6
+    fft_norm: ortho
+    hann_periodic: true
+    remove_window_mean: true
+    exclude_dc: true
+    exclude_nyquist: true
+    lag_min: -4
+    lag_max: 4
+  variance_weight: 1.0
+  covariance_weight: 0.01
+  variance_target_std: 1.0
+  stats_batch: differentiable_gather_per_microstep
+  style_policy: "off"
+  masked_ddp_reduction: global_weighted_mean_per_microstep
+
+train:
+  device: cuda
+  precision: bf16_if_supported_else_fp16
+  microbatch_per_gpu: 4
+  accumulation_steps: 4
+  optimizer: adamw
+  encoder_lr: 1.0e-4
+  new_modules_lr: 3.0e-4
+  betas: [0.9, 0.95]
+  weight_decay: 0.05
+  warmup_updates: 1000
+  scheduler: cosine
+  max_updates: 20000
+  grad_clip_norm: 1.0
+  eval_every_updates: 2000
+  save_every_updates: 2000
+  save_at_optimizer_boundary: true
+  dataloader_workers: 4
+  paired_sample_plan: true
+
+evaluation:
+  selection_enabled: false
+  selection_gallery_manifest: null
+  selection_query_manifest: null
+  selection_labels_path: null
+  selection_keep_features: false
+  primary_dataset: asl_citizen
+  selection_split: dev
+  selection_metric: retrieval_rec1
+  pooling: uniform_timestamp_coverage
+  gallery_split: train
+  query_split: dev
+  prototype_gallery: false
+  test_evaluation: final_only
+
+export:
+  rgb_only: true
+  include_decoder: false
+  include_projector: false
+  include_pose_extractor: false
+  sequence_and_clip: true
