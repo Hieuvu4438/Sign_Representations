@@ -1,0 +1,253 @@
+{
+  "passed": true,
+  "verified_utc": "2026-10-05T07:39:24.079145+00:00",
+  "source_sha256": "981944f565b6e0505d78f57e537438b1b05cac8130eccdf9f9be63265bf39982",
+  "run_count": 10,
+  "current_bound_inputs_verified": 2857,
+  "runs": {
+    "HEADTEST001": {
+      "run_id": "HEADTEST001_20261005_ce5b5db8_s1701",
+      "status": "completed",
+      "pid": 839651,
+      "start_utc": "2026-10-05T04:59:11.407257+00:00",
+      "end_utc": "2026-10-05T04:59:12.466382+00:00",
+      "wall_seconds": 1.059887596173212,
+      "GPU_seconds": 0,
+      "config_sha256": "ce5b5db8b9e1f2a9d3f2f1a48d7b303cf8d8795d397dbf792f3a3bc6d472f7dc",
+      "status_sha256": "4eb06824611563c7270d97152861eb3d47c9e3b275a55ccbe35597ed8c8f819e",
+      "store": {
+        "passed": true,
+        "file_count": 18,
+        "logical_bytes": 99607,
+        "ceiling_bytes": 2097152
+      }
+    },
+    "HEADPOOL001": {
+      "run_id": "HEADPOOL001_20261005_47c2d92e_s1701",
+      "status": "failed",
+      "pid": 874892,
+      "start_utc": "2026-10-05T04:59:43.574409+00:00",
+      "end_utc": "2026-10-05T04:59:43.718650+00:00",
+      "wall_seconds": 0.2891343291848898,
+      "GPU_seconds": 0,
+      "config_sha256": "47c2d92e8ce519b7503617ce3cfbd29291cce7085808f1b842ae7766b4086ed7",
+      "status_sha256": "744ba245fcee28a5f86719f56237f0c7af330dd2c5819a49e61c483e94d03c09",
+      "store": {
+        "logical_bytes": 548125,
+        "complete_manifest": false,
+        "failed_partial_caps_passed": true
+      }
+    },
+    "HEADPAIRTEST001": {
+      "run_id": "HEADPAIRTEST001_20261005_18aac2de_s1701",
+      "status": "completed",
+      "pid": 1292149,
+      "start_utc": "2026-10-05T05:06:42.042032+00:00",
+      "end_utc": "2026-10-05T05:06:42.931952+00:00",
+      "wall_seconds": 0.891830411972478,
+      "GPU_seconds": 0,
+      "config_sha256": "18aac2de9feb6a1db0fd15f32b8fc80a7bc912ed9e608714b1ad7e99ddb83bc2",
+      "status_sha256": "143ae3a8c9f600119c29ff4c2a776ff8045e531c4edabeff7957d6705c092a1c",
+      "store": {
+        "passed": true,
+        "file_count": 17,
+        "logical_bytes": 69507,
+        "ceiling_bytes": 2097152
+      }
+    },
+    "HEADPAIRPOOL001": {
+      "run_id": "HEADPAIRPOOL001_20261005_2a7c7962_s1701",
+      "status": "completed",
+      "pid": 1326603,
+      "start_utc": "2026-10-05T05:07:17.535031+00:00",
+      "end_utc": "2026-10-05T05:07:23.421961+00:00",
+      "wall_seconds": 6.031672530109063,
+      "GPU_seconds": 0,
+      "config_sha256": "2a7c796289152b31e4a49d3813568137184c5e2d5861e0e8881943f0461905e6",
+      "status_sha256": "60e4f7b8f96ba8ad0798cf080d8d914b00734bd0d24b8d0f6fe1d700b4d64938",
+      "store": {
+        "passed": true,
+        "file_count": 21,
+        "logical_bytes": 9136703,
+        "ceiling_bytes": 20971520
+      }
+    },
+    "HEADPAIRCOST001": {
+      "run_id": "HEADPAIRCOST001_20261005_8b948a58_s1701",
+      "status": "completed",
+      "pid": 1414668,
+      "start_utc": "2026-10-05T05:08:26.456477+00:00",
+      "end_utc": "2026-10-05T05:08:29.603089+00:00",
+      "wall_seconds": 3.2877881601452827,
+      "GPU_seconds": 2.904023066861555,
+      "config_sha256": "8b948a58c3435335926b3107740f9f450423b4cd0676485843616de649f0487d",
+      "status_sha256": "a64e299a9874577365d504c9319604d0a80241ab2f4afbad57d90ebd8c841db2",
+      "store": {
+        "passed": true,
+        "file_count": 21,
+        "logical_bytes": 604974,
+        "ceiling_bytes": 4194304
+      }
+    },
+    "HEADPILOT001": {
+      "run_id": "HEADPILOT001_20261005_8ef7ee20_s1701",
+      "status": "completed",
+      "pid": 2147306,
+      "start_utc": "2026-10-05T05:19:05.452738+00:00",
+      "end_utc": "2026-10-05T05:19:11.863449+00:00",
+      "wall_seconds": 6.557271966943517,
+      "GPU_seconds": 6.198194940108806,
+      "config_sha256": "8ef7ee20244e4b47e0d8fc970cf485f10b3d87fb8b745df707dc758fdcc15098",
+      "status_sha256": "5b057b8659de7d03c9a37e2703da890e1952e975c418fc48866ddf7c640a82ff",
+      "store": {
+        "passed": true,
+        "file_count": 27,
+        "logical_bytes": 10491080,
+        "ceiling_bytes": 20971520
+      }
+    },
+    "HEADPILOT002": {
+      "run_id": "HEADPILOT002_20261005_ac6e4b37_s1702",
+      "status": "completed",
+      "pid": 2243418,
+      "start_utc": "2026-10-05T05:19:33.165237+00:00",
+      "end_utc": "2026-10-05T05:20:01.543831+00:00",
+      "wall_seconds": 28.536807367112488,
+      "GPU_seconds": 28.084394436096773,
+      "config_sha256": "ac6e4b3776893e0041ad582d68caf44d3acb7c19d2c4defdb7aa133696028c32",
+      "status_sha256": "cd00b3f433510ffc78bee4aa420d9225eb16e47b6fcdc3c06dbfa71fe041f8f4",
+      "store": {
+        "passed": true,
+        "file_count": 27,
+        "logical_bytes": 10491415,
+        "ceiling_bytes": 20971520
+      }
+    },
+    "HEADPILOT003": {
+      "run_id": "HEADPILOT003_20261005_f11c0060_s1703",
+      "status": "completed",
+      "pid": 2445398,
+      "start_utc": "2026-10-05T05:20:17.660803+00:00",
+      "end_utc": "2026-10-05T05:20:50.138155+00:00",
+      "wall_seconds": 32.62903160811402,
+      "GPU_seconds": 32.19957423908636,
+      "config_sha256": "f11c00600fa1d7db1fdee44f6c20e7801e919ea629659afbe05be8ef4a5edd88",
+      "status_sha256": "e6abd056aaccd68ef3c4e28084a0873a7d3bff9e840ea9e207f7b9730450262e",
+      "store": {
+        "passed": true,
+        "file_count": 27,
+        "logical_bytes": 10491585,
+        "ceiling_bytes": 20971520
+      }
+    },
+    "HEADANALYSIS001": {
+      "run_id": "HEADANALYSIS001_20261005_ba5a2a86_s1701",
+      "status": "completed",
+      "pid": 4047391,
+      "start_utc": "2026-10-05T05:26:23.548730+00:00",
+      "end_utc": "2026-10-05T05:26:28.237662+00:00",
+      "wall_seconds": 4.808275914983824,
+      "GPU_seconds": 0,
+      "config_sha256": "ba5a2a8679f2f823a4e89f610aa1969a1eb522e05d4e1c73d4aafd66deafd18c",
+      "status_sha256": "389da7231033f70157f838cb57c67fe93dba41a5b47cf065cbef176c73cac233",
+      "store": {
+        "passed": true,
+        "file_count": 22,
+        "logical_bytes": 3325334,
+        "ceiling_bytes": 10485760
+      }
+    },
+    "HEADREPORT001": {
+      "run_id": "HEADREPORT001_20261005_6ff0120a_s1701",
+      "status": "completed",
+      "pid": 1730808,
+      "start_utc": "2026-10-05T07:36:13.922064+00:00",
+      "end_utc": "2026-10-05T07:36:14.594847+00:00",
+      "wall_seconds": 0.8347440389916301,
+      "GPU_seconds": 0,
+      "config_sha256": "6ff0120a13e47930cb7df5d743a665abfacdd64641e0697d3ab12ab5d38768a1",
+      "status_sha256": "a81e62df78169342174392ce75882079c2d30a37c41a45a75c49fa1a120a3f33",
+      "store": {
+        "passed": true,
+        "file_count": 16,
+        "logical_bytes": 870837,
+        "ceiling_bytes": 4194304
+      }
+    }
+  },
+  "total_runtime_logical_bytes": 46129167,
+  "summed_captured_wall_seconds": 84.9264439237304,
+  "GPU_seconds": 69.3861866821535,
+  "primary": {
+    "MS_dev_CCR": {
+      "interval95": [
+        0.020218956594171205,
+        0.05956167672328396
+      ],
+      "invalid_draws": 0,
+      "mean_delta": 0.03987934707402252,
+      "replicates": 2000,
+      "training_seed_support_mean_deltas": [
+        0.038847576738963684,
+        0.04077763651216071,
+        0.04001282797094315
+      ]
+    },
+    "MS_dev_FAR": {
+      "interval95": [
+        0.18474889339308623,
+        0.40652408239419263
+      ],
+      "invalid_draws": 0,
+      "mean_delta": 0.27880095663726023,
+      "replicates": 2000,
+      "training_seed_support_mean_deltas": [
+        0.28330834818407963,
+        0.28684796722229106,
+        0.26624655450541007
+      ]
+    },
+    "base_dev_CCR": {
+      "interval95": [
+        0.002189736169660228,
+        0.015279783490046217
+      ],
+      "invalid_draws": 0,
+      "mean_delta": 0.009453104259111784,
+      "replicates": 2000,
+      "training_seed_support_mean_deltas": [
+        0.00886524822695034,
+        0.008855766678044552,
+        0.01063829787234046
+      ]
+    }
+  },
+  "gates": {
+    "MS_CCR_conditional_lower_positive": true,
+    "MS_CCR_gain_at_least_2pp": true,
+    "MS_FAR_conditional_upper_at_most_2pp": false,
+    "MS_FAR_mean_increase_at_most_2pp": false,
+    "base_CCR_loss_at_most_2pp": true,
+    "every_initialization_CCR_gain_positive": true
+  },
+  "scientific_screen_passed": false,
+  "per_seed_rows": 540,
+  "mean_rows": 108,
+  "curve_segments": 162,
+  "curve_points": 76409,
+  "figure_curves": 60,
+  "figure_operating_points": 12,
+  "numerical_case_buckets": 10,
+  "bootstrap_draws": 2000,
+  "invalid_bootstrap_draws": 0,
+  "terminal_status_count": 173,
+  "live_owned_jobs": 0,
+  "program_used_seconds": 7592.469239038299,
+  "H007_used_seconds": 69.3861866821535,
+  "program_limit_seconds": 14400,
+  "H007_limit_seconds": 420,
+  "public_capture_inventory_sha256": "2a05f0d9300e1a5d44525a385ce532747a8930b3ebb52e30f20db402a9361e31",
+  "captured_public_source_bytes": 61837,
+  "closure_wall_seconds": 0.288497107103467,
+  "scope": "Same-agent current-file/cap/hash and export recount; numerical audit separate from failed scientific screen. No new fitting, CPU/GPU full pipeline, raw-video replay, scientific external review or novelty claim."
+}

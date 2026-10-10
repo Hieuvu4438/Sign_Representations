@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "current_registered_bindings_checked": 2652,
+  "record_snapshot_sha256": {
+    "method/research_lab/records/STATE.md": "6c24d27ed8f718f0ca02adeaf2ed0af4029d6f31ab26a731b8a120e32c8a4eb7",
+    "method/research_lab/records/decisions/D085.md": "946e14bb58c475c6ead79f01c4e056dc547d4ec48321a84d007adb3ee1dc58ed",
+    "method/research_lab/records/SESSION_AUDIT_r33.md": "81f498accc6b1cb4341188193db448d6c91dd044c081c3fa77fea04eaab5df54",
+    "method/research_lab/records/paper/H007_EVIDENCE_DOSSIER_r1.md": "1a4af25a5d03545e9c474176f0fee6eccc636ad17f6b6c1c6055aaecf74755dd",
+    "method/research_lab/records/claims/LEDGER.md": "72094072125648bf4924994db001ae16a8621d5fe934712b38282effd9359383",
+    "method/research_lab/records/experiments/INDEX.md": "b0bce5f977e196e1185aa27a3865ca5d1a497261ce0533959b01c968d1b49fbb",
+    "method/research_lab/records/PROGRAM_GATES.md": "41e4eb9406b24d31b8240a7acc63d517d1fbc49e2fed3ecd73bfb2c0334c5cdc",
+    "method/research_lab/records/experiments/REJECTSCORETEST001.md": "f39277d66d199df08b8ddd4faa6299c41daa538ae02007b3112b0c46203a1e29",
+    "method/research_lab/records/experiments/REJECTANALTEST001.md": "e09bb59b10f24c6a091f1e9c27e484eb0afa024be52e94a7b81c03cb709f528a",
+    "method/research_lab/records/experiments/REJECTEVAL001.md": "76bbd7a298db1bed767813802c309747570d2b6e55d52dfaf03951852a4f61d1",
+    "method/research_lab/records/experiments/REJECTVERIFY001.md": "d88244759123830cc3e5aea7a3e39802b7b5c3aad63a0277e7b6b3e545808e21",
+    "method/research_lab/records/experiments/REJECTVERIFY002.md": "e26ace477eff39729346bf688e029cf579938fcd775089659d3f7e6bb920c0f2",
+    "method/research_lab/records/experiments/REJECTREPORT001.md": "1d320ab5eaeca9bd45b6640994dc3ec4ab306c5090713db3ee2325e23cf0cfb6"
+  },
+  "quality_closure_sha256": "5ac1ca398d323c0d39c7b761289cb7a254f83663b8471971d109e7f06e6aef6c",
+  "new_record_local_links_exist": true,
+  "scope": "Post-documentation immutable-input recheck and current records snapshot, no rerun or external review."
+}

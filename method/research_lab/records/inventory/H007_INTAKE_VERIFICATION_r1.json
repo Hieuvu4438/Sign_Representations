@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-05T03:00:26.051327+00:00",
+  "scope": "literature/intake artifact integrity only; not scientific evaluation or full-goal completion",
+  "matrix_rows": 49,
+  "new_source_ids": [
+    "S45",
+    "S46",
+    "S47",
+    "S48",
+    "S49"
+  ],
+  "new_artifact_sha256": {
+    "method/research_lab/records/literature/sources/S45.md": "d7c986098663902401748317917a97366966df7f9492eb6cf0fb04b5731d36c8",
+    "method/research_lab/records/literature/sources/S46.md": "0a9c62b7fa3f98231848fa4e7d7266d6e319ee4e778c68926981b2a0d60dadb2",
+    "method/research_lab/records/literature/sources/S47.md": "0e90385eafb2db66034b8360c78ccaa0de2a8e5d1b69a138b1c11aec0a859727",
+    "method/research_lab/records/literature/sources/S48.md": "cc1ce4bd17c43a7fa9d47b801ab5961ae94a289ce66bf6e3fea6196f6a8f1768",
+    "method/research_lab/records/literature/sources/S49.md": "d7d980c35295913d3c2befc128f0c15307be0f8149755adb699631f602916637",
+    "method/research_lab/records/literature/OPENSET_INTAKE_20261005_r1.md": "c126cd58694cf0ccb680e866a752d4220211de98e9c47c63f1681b9a4c49be18",
+    "method/research_lab/records/hypotheses/H007_DRAFT.md": "f494575c2f8fa5c3532fbc0e1a7c995f35faa7d84f8ced773761befbc7124cb0",
+    "method/research_lab/records/decisions/D073.md": "42ed18999b4aacb8456193c003f49d0532506af6c4e1d7e5b11cd2c55ef4855e",
+    "method/research_lab/records/SESSION_AUDIT_r30.md": "dfdd952fa250c0e8977b5193f0ba683afbb98dbda3fd186522d11457fe66e985"
+  },
+  "new_artifact_logical_bytes": 22870,
+  "relative_links_checked": [
+    {
+      "file": "method/research_lab/records/hypotheses/H007_DRAFT.md",
+      "target": "../literature/OPENSET_INTAKE_20261005_r1.md"
+    },
+    {
+      "file": "method/research_lab/records/hypotheses/H007_DRAFT.md",
+      "target": "../decisions/D073.md"
+    },
+    {
+      "file": "method/research_lab/records/decisions/D073.md",
+      "target": "../literature/OPENSET_INTAKE_20261005_r1.md"
+    },
+    {
+      "file": "method/research_lab/records/decisions/D073.md",
+      "target": "../hypotheses/H007_DRAFT.md"
+    },
+    {
+      "file": "method/research_lab/records/SESSION_AUDIT_r30.md",
+      "target": "decisions/D073.md"
+    },
+    {
+      "file": "method/research_lab/records/SESSION_AUDIT_r30.md",
+      "target": "inventory/H007_INTAKE_VERIFICATION_r1.json"
+    }
+  ],
+  "terminal_status_counts": {
+    "method/frozen_probe/runtime": {
+      "completed": 113,
+      "failed": 14
+    },
+    "method/stream_reliability/runtime": {
+      "completed": 19,
+      "failed": 3
+    },
+    "method/research_lab/runtime": {
+      "completed": 2
+    }
+  },
+  "terminal_status_total": 151,
+  "edited_mutable_record_bound_configs": [],
+  "new_experiments": 0,
+  "new_GPU_seconds": 0,
+  "budget_reference": "D072 verified snapshot, not a new timed run",
+  "CPU_browser_inspection_wall": "uninstrumented",
+  "decision": "D073",
+  "next": "metadata-only train calibration/source/signer feasibility before exact H007 registration"
+}

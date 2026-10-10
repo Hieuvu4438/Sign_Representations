@@ -1,0 +1,31 @@
+{
+  "captured_utc": "2026-10-05T04:48:40.364143+00:00",
+  "decision": "D086",
+  "commit": "c8115c09c54d5480bf0adf972f66988bb2274c2b",
+  "source_bytes": 61837,
+  "source_ceiling_bytes": 131072,
+  "files": {
+    "method/frozen_probe/references/fsosar_c8115c09_model/models/safsar.py": {
+      "bytes": 15509,
+      "sha256": "4e81bdd237c1c0d6c84c702c3d36dc033e1c91650adc673b5acaa3c1aeadbb62"
+    },
+    "method/frozen_probe/references/fsosar_c8115c09_model/train.py": {
+      "bytes": 25579,
+      "sha256": "5e46af5c88acf2040f2f1deb68e6a118cb35bad676889b76717455e00165f440"
+    },
+    "method/frozen_probe/references/fsosar_c8115c09_model/videoloader.py": {
+      "bytes": 18560,
+      "sha256": "006fea1349181eaf0aead6155961ff20c045840f94a802c08379144685c65613"
+    },
+    "method/frozen_probe/references/fsosar_c8115c09_model/configs/SAFSAR.json": {
+      "bytes": 671,
+      "sha256": "15a2f593bf09910c9b95d813e214fc2f3200419942c6fd161635929215b1e5bf"
+    },
+    "method/frozen_probe/references/fsosar_c8115c09_model/LICENSE": {
+      "bytes": 1518,
+      "sha256": "d3522fc7814fc79c74f64c68dc9cb591b062b5e90a5bddd50e444e5b3f727711"
+    }
+  },
+  "captured_wall_seconds": 2.1669273630250245,
+  "scope": "Exact pinned files and full BSD license; selected symbols read, not full-paper/model/training execution or benchmark reproduction."
+}
