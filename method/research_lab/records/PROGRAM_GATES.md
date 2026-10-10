@@ -5,7 +5,7 @@ REPRO005, A002, P004 dev pilot and full test input-contract diagnostic. Full obj
 [operating loop](../../../docs/proposal2/research_lab/02_RESEARCH_LOOP.md),
 [bootstrap](../../../docs/proposal2/research_lab/11_BOOTSTRAP.md),
 [paper gate](../../../docs/proposal2/research_lab/09_PAPER.md).
-Current phase: DISCOVER / DECIDE, latest D026: H005 participant-specific removal loses to generic PCA; its scaling killed, geometry transfer unregistered. D022 rejects GPU scaling of two H004 completion recipes. H002 scoped utility retained, H003 natural-error pilot held, original CPU/GPU gate still failed. **Not PAPER_READY**. D013 dev/D010 original confirmation/D011 attribution retained.
+Historical D026 phase: DISCOVER / DECIDE, latest then D026: H005 participant-specific removal loses to generic PCA; its scaling killed, geometry transfer unregistered. D022 rejects GPU scaling of two H004 completion recipes. H002 scoped utility retained, H003 natural-error pilot held, original CPU/GPU gate still failed. **Not PAPER_READY**. D013 dev/D010 original confirmation/D011 attribution retained.
 
 | Required first-cycle product | Actual evidence | Assessment |
 | --- | --- | --- |
@@ -198,3 +198,30 @@ D065 latest VALIDATE: all38 independentRGBframehash sequences exact; registeredw
 
 
 D068 latest VALIDATE: newprospective estimated-clock adapted input cohort gate passes all3425ID accounting/3422eligible/3unchangedshort, all100classes train+val. Oldrawfullgate/D065wholeprefixgate remainfailed. Inference-environment inputparity43clips passes. Shared3galleryIDs/1037extractionclips/36424windows frozen beforequality. Four actualruns/currentcaps/bindings verified, no livejob/GPU/newquality/methodpromotion; C081–C083/F077–F079/r28. Measured fullpipeline cost and actualfullquality allocation/protocol/strongcontrols stillpending; fullgoal active/notPAPER_READY.
+
+
+D072 latest ANALYZE / DISCOVER — supersedes historicalpending/live entries above.
+FullMSASL feature/cohort/firstquality/replay completed; registeredorientationgate
+passes on748queries/3galleries/100classes (+.0393093DCG), butRR trails simple raw/
+centered controls everygallery. No residualwhitening downstreammethod promotion.
+Eightcompletecaps/817currentbindings/all13464ranks/24-rowexport/seededcases verified;
+H006 eightsection evidence dossier completed. Primaryconditional19signer interval,
+extra-label/pretraining/inputprocessing/basis/physicalidentity limitations explicit.
+Novelty/contribution/sourceS41/S42fulltext and scientificgenerality remainopen;
+not PAPER_READY/fullgoalcomplete. Matrix44rows/no exhaustivefullread. Fresh151status
+program7523.083052356145/14400s/H0061799.3745139809325/5400s, no ownedlivejob.
+Next publicclosestwork comparison and freshcontribution hypothesis beforecompute;
+no outcome-driven reparameterization of thisvalidation. C084–C088/F080–F084/r29.
+
+D085 latest DECIDE — supersedes historical queues above. H007 first exploratory
+rejection-quality diagnostic and separate recount/exports completed, primary
+maxcosine FARtransfer−18.97pp screenPASS with knowncoverage/CCR loss. Existing
+margin/MSP/NAC controls narrow universaldrift claim. Source-only calibration
+does not guarantee target coverage/unknownrisk; no new method/contribution.
+SecondaryDCG originalFP32precision erratum explicit, failedverifier retained;
+primary/thresholds/source unchanged. All6caps/2652bindings/216perseed/48means/
+30casebuckets verified, PNG/PDF visually reviewed, current163statuses terminal.
+Full program active, PAPER_READY remains false; H007 eightsection exploratory
+dossier improves traceability only. C094–C098/F090–F094/r33/D085. Next dated
+closestwork/supervision/newmechanism and freshconfirmationsplit feasibility
+before training; no same-MSval tuning or currentwhitening/sparse novelty claim.

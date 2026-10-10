@@ -1,13 +1,150 @@
+# Current research state — D090
+
+Updated UTC: 2026-10-05; [D090](decisions/D090.md), [session r34](SESSION_AUDIT_r34.md).
+Full objective: proposal2 end-to-end research-to-evidence program; unchanged.
+Phase **DISCOVER** after fixed existing residual-head utility screen FAILS.
+**Not PAPER_READY; no promoted or novel method.** No owned live job.
+This D090 queue supersedes EVERY historical pending/live/next-action entry below.
+
+Current downstream: frozen SignRep isolated one-shot dictionary lookup,
+dictionary-absent rejection and source-only threshold transfer across
+signer/corpus/gallery10/25/50. Both corpora ASL. Extra1027 sourcefit labels plus
+286 calibration labels for head adaptation; source-class exposure explicit.
+No current continuous recognition, translation or cross-language protocol.
+
+Three preregistered head seeds1701/1702/1703 COMPLETE, final1000updates each;
+linear and existing FRDisc MLP, no encoder/ranking change or HPO. Separate
+HEADANALYSIS001 passes source1027/39880windows/all16000pairs/counts/76248logit
+replay/maxerror1.8393e-6/54calibration/324head+216oldrows/162curves/2000draws.
+MS50/FROZEN50 equal3trainx3support MLP-minus-raw CCR+3.9879pp,
+conditional95%[2.0219,5.9562]pp, all3init meanspositive; FAR+27.8801pp,
+[18.4749,40.6524]pp. Target CCR46.6595→50.6474%, FAR49.8289→77.7090%.
+Fails registered FARmean+CIupper<=2pp. KILL scaling this fixed P007_v3 recipe;
+no same-MS rescue tuning, selectedbestseed, longer fit or targetcalibration.
+Full joint FRDisc untested; no global-method/publishedresult invalidation.
+
+HEADREPORT001 PNG/PDF60curves/12meanpoints visually inspected,10posthoc numerical
+buckets/20examples; no human/linguistic interpretation. Full540rows/108means.
+[Head-cycle closure](inventory/H007_HEAD_CYCLE_BINDING_VERIFICATION_r1.json)
+checks2857currentbindings/10originalcaps/9completestores+oldP38metadatafailure.
+Runtime46129167B/summedcapturedwall84.9264439237304s/GPU69.3861866821535s;
+public source/license61837B separately captured. Fresh173terminalstatuses,
+program7592.469239038299/14400GPU seconds (6807.530760961701 remaining),
+H00769.3861866821535/420 (350.6138133178465 remaining); ceilings unchanged.
+Remaining allocation does not authorize re-fitting the failed fixed recipe.
+No owned live job, no terminal job repoll/restart. D086–D090/r34/C099–C103/
+F095–F099/INDEX39/[latest dossier](paper/H007_EVIDENCE_DOSSIER_r2.md) authoritative.
+Original D085 diagnostic, bound sourcecards/protocols/configs/runs immutable.
+
+NEXT: selected full-method audit of PEELER arXiv2005.13713, SnaTCHer2103.01537,
+and author RFDNet method; contrast support conditioning/unknown exposure and
+strong baseline regimes with S47/S48 and actual jointcurves. Establish a
+specific representation failure/closest-work distinction/train-only falsifier
+before any new H/P registration. No novelty from encoder/task/size substitution
+or standard score/calibration combinations. Primary URLs/403 caveats in D090.
+Fresh native confirmation planning only after useful mechanism emerges;
+MSMETA002 prior test metadata4172rows/2847rawpresent/2train-testsourceparents is
+NOT native100class coverage/physicalidentity/fresh-test quality. Testquality
+untouched; cumulative MSval exposure explicit. Targetcachedpartition HOLD.
+H002 efficiency utility backup; H006 fixedwhitening notpromoted; H003 labelsHOLD.
+Full program active, no whole-goal external impasse or completion claim.
+
+---
+
 # Research state
 
-Updated UTC: 2026-10-04T13:42:41.684483+00:00; decision [D068](decisions/D068.md).
+Updated UTC: 2026-10-05; decision [D085](decisions/D085.md).
 Objective: complete the proposal2 research program; [full gates](PROGRAM_GATES.md).
 Owner: Codex, same-agent sequential roles. No subagents or background scheduler.
-Phase: **VALIDATE / DISCOVER**, latest D068: prospective estimated-clock cohort input gate passes, inference inputs match on43clips and three shared dictionaries are frozen. Next measured full-pipeline extraction cost before H006 task quality; no new method promoted.
+Phase: **DECIDE**, latest D085: first H007_v1/P007_v1 rejection-quality diagnostic completed and separately recounted; source-only calibration transfers a joint FAR/known-coverage tradeoff. Existing score controls narrow the drift premise. No correction method promoted. D072 orientation analysis retained; no whitening scaling.
 **Not PAPER_READY**. No method currently promoted; contribution/novelty remains
 unproven. Previous goal evidence progressed via D047 native input and D053 CPU features/candidate census.
-Previous goal turn D065 made actual dual-clock/RGB progress; this continuation completed the new input contract, environment parity and fixed dictionaries.
-No owned live job or whole-goal external impasse; local feature/cost implementation next.
+Latest cycle completes score/analysis fixtures, first full quality run, separate verifier/FP64 DCG erratum and descriptive report; initial verifier precision failure retained. Current closure2652bindings/216perseed/48mean/30casebuckets passes. No owned live job.
+The D085 queue below supersedes all historical pending/live/next-action entries further down. Full program active, no whole-goal external impasse.
+
+## Current D085 queue
+
+Downstream: frozen SignRep isolated one-shot dictionary retrieval, dictionary-
+absent rejection, and source-only operating-point transfer across corpus/signer
+IDs/dictionary sizes. Both corpora ASL; no translation/continuous-recognition
+protocol. Three fixed galleries×sizes10/25/50×four existing scores×two policies;
+base286calibration/378dev and MS748val. Additional calibration labels disclosed.
+
+Primary maxcos/FROZEN50/N50 FAR MS−base−.18969634066131155 (all3negative),
+conditional2000signer-bootstrap95%CI[−.29408658204628185,−.09570589269733935],
+invalid0/registeredabsolute.05screenPASS. LOWER target FAR, coupled with mean
+knownacceptance .9129309364→.7435614027 and CCR .6625137482→.4665950687.
+No known95%-coverage transfer or unknown-risk guarantee; no new method/winner.
+Margin/MSP/NAC16 meanFARdelta≈+.01248/+.01819/+.02756 at50 narrows universaldrift
+claim, but targetFAR≈.879/.759/.794 remains high. Secondary size comparisons
+and persistent-unknown/common-known controls descriptive, no new significance.
+
+Six attempts terminal: score5groups/30authorNACcases andanalysis5groups pass;
+REJECTEVAL001 quality complete; REJECTVERIFY001 retained ownDCGprecisionfailure;
+REJECTVERIFY002 passes pooling805/predictions12708/calibration36/metrics216/
+curves108/points50940/bootstrap2000 with separate216row FP64DCGerratum; report
+216perseed/48equalmeans/PNG+PDF/30posthoc numerical buckets complete.
+Original DCG FP32 fields retained/replayed, intended FP64precision claim
+invalidated; version P007_v1.secondary_DCG_FP64_r1 maxcorrection8.499963077834849e−8.
+Original primary/predictions/thresholds/configs/source untouched; no rerun.
+
+[Current closure](inventory/H007_QUALITY_CYCLE_BINDING_VERIFICATION_r1.json)
+checks2652currentbindings/all6originalcaps/5completemanifests/1failedpartial,
+CSVmeans/erratum/caseselection. Runtime11440051B/capturedwall16.04422149597667s/
+GPU0/newencoder0; publicNACsource/license5648B separate. Fresh163terminalstatuses,
+effectiveprogram7523.083052356145/14400GPU seconds unchanged. No ownedlivejob.
+D085/r33/C094–C098/F090–F094/INDEX38/
+[H007 evidence dossier](paper/H007_EVIDENCE_DOSSIER_r1.md) authoritative.
+
+NEXT dated closest-work/supervision comparison of existing NAC/FR-Disc against
+actual joint curves; identify a gap/falsifiable mechanism before registering a
+trained comparator or new hypothesis. Audit genuinely fresh confirmation split
+feasibility. No same-MSval rescue tuning; frozen current H007 inputs immutable.
+Target cached partition HOLD; source/session/physicalsigner/pretraining/input
+confounds remain. H002 efficiency utility backup; H006 testedwhitening not
+promoted. No novelmethod/freshconfirmation/goalcompletion/PAPER_READY claim.
+
+## Historical D079 queue
+
+Metric prerequisite: OSCRREFTEST002 pinnedfunction=.25/1/.25 vs manual0/1/0,
+referenceREJECTED; OSCRREFTEST001 ownimport-hook failure retained. Public-paper
+scores/result-producingrevision unknown; no paper invalidation claim.
+OSCRADAPTTEST001 inclusive-tie/FAR/CCR/groupedtrapezoid adapted evaluator
+6groups/30rationalcases PASS, not officialscalar/tie parity or task-quality.
+Three actualstores295092B plus35043B source/licensecapture,
+capturedwall.32051733904518187s/GPU0,41currentbindings/caps pass. Fresh157terminal
+statuses/effectiveprogram7523.083052356145/14400s unchanged/no ownedlivejob.
+S50/S48codefollowup/matrix50rows/C092–C093/F088–F089/r32 are authoritative.
+NEXT source-verify existing NAC/margin/maxcosine/softmax controls, freeze exact
+source-only calibration target/threshold/score definitions, then register full
+H007_v1 baseline/pooling/uncertainty/resources and score/calibration fixtures
+before first rejection-quality measurement. Fixed D075 base286cal/1027pool/
+378dev/MS748 and3seed10/25/50 dictionaries; commonfirst10 known/persistentlast50
+absent controls. Targetcachedpool remains HOLD(no reselect/shrink/extract).
+H007localfailure/contribution/newmethod/freshconfirmation still unproven;
+MSval exposed/exploratory. Fullproposal2goal active, not PAPER_READY.
+
+## Current D075 queue
+
+Frozen SignRep isolated one-shot dictionary retrieval is the current downstream
+setting. H007 asks whether outside-dictionary rejection operating points remain
+stable as dictionary size/signer/corpus changes; no new method or rejection result.
+ASLCitizen_base calibration286clips/8train signers and gallerypool1027/24 cover
+100classes, dev378/5; MSASL748val/19official IDs with existing shared supports.
+Target cached support-union partition held: pool missingclass83/calibration
+missing53classes. Keep fixed partitions; no shrink/reselection/re-extraction.
+Three metadata stages terminal/exit0,3389rows/27membershipcells exact;
+[2499 bindings/all-store closure](inventory/H007_METADATA_CYCLE_VERIFICATION_r1.json)
+passes,3135575B/.6779758103657514s capturedwall/GPU0. Effective154-status program
+7523.083052356145/14400s unchanged, no owned live job. H007 quality remains
+exploratory on exposed MSval; fresh confirmation and contribution unresolved.
+NEXT register tiny pinned-public OSCR reference fixtures/manual wrong-known and
+perfect-separation oracles, validate FAR/CCR/endpoint/tie semantics, then freeze
+strong controls/source-only calibration/metrics/slices/H007 quality protocol.
+Current FR-Disc commit code inspection flags denominator/endpoint mismatch;
+function not run, parity not passed, no published-score invalidation claim.
+D075/r31/C090–C091/F086–F087 are authoritative. H002 sparse-efficiency backup;
+no current continuous-recognition or translation protocol. Fullgoal still active.
 
 ## Current portfolio
 
@@ -21,6 +158,8 @@ No owned live job or whole-goal external impasse; local feature/cost implementat
 | H005 | [D024](decisions/D024.md) v0:1313train cross-gloss participant association. [D026](decisions/D026.md) v1:378dev sources/three galleries, participant DCG.811012 vs raw.794169 but residual PCA.836912 | Kill scaling fixed participant-mean removal; new transfer analysis separately tested as H006, not a novel method |
 | H006 | [D028](decisions/D028.md) v0 class transfer passes. [D030](decisions/D030.md) v1:383queries/three galleries, residual LW cosine DCG.829746 vs PCA.810250/raw.766706; primary PCA-superiority gate fails | Kill fixed rank8 scaling/superiority; retain standard geometry baseline/analysis. Resource estimate exceeded20MiB, incident retained; contribution and encoder-pretraining overlap unresolved |
 | H006_v2 | [D040](decisions/D040.md): fixed matched-spectrum RR.829746/TR.769915, +.0598309112 and all3gallery gains positive; all4596original-space ranks exact | Retain computational orientation observation; no new method, reused-dev/extra-label/pretraining caveats. Next independent-corpus feasibility |
+| H006_v3 | [D072](decisions/D072.md): all748 MS-ASLval queries/3galleries/100classes, RR.657898/TR.618588, primary+.0393093/all3positive; raw.679797/centered.681641 BOTH aboveRR everygallery, all13464original-space ranks exact | Retain scoped orientation-transfer analysis; do not scale/promote residualwhitening downstream superiority; no samevalidation rescue tuning |
+| H007_v1 | [D085](decisions/D085.md): first full rejection diagnostic/recount/exports; primary maxcos N50 FAR drift−.1896963/all3negative/conditionalCI excludes0, known acceptance91.3→74.4%, CCR66.3→46.7%; margin/MSP/NAC controls retained | Continue closest-work/problem analysis; no new method/winner/scaling. Target branch HOLD, exposed MSval exploratory, fresh confirmation/novelty unresolved; secondary DCG precision erratum explicit |
 
 No broad representation, linguistic preservation, human usability, causal mechanism,
 population equivalence or unseen-pretraining claim. Same-corpus P004 dev is not
@@ -41,18 +180,18 @@ Four component/three paired mathematical fixtures pass. Prior D022 cycle CPU wal
 
 | GPU budget | Used seconds | Remaining seconds |
 | --- | ---: | ---: |
-| Program14400 | 5726.849607205135 | 8673.150392794865 |
+| Program14400 | 7523.083052356145 | 6876.916947643855 |
 | H0013600/D009 | 2487.344571038149 | tested recipe killed |
 | H0027200/D009 | 3158.847330496181 | 4041.152669503819 |
 | H0033600 | 77.516636840883 | 3522.483363159117 |
 | H004 | 0 | No GPU allocation registered |
 | H005 | 0 | No GPU allocation registered |
-| H006120/D060 | 3.1410688299220055 | 116.858931170078; four-windowGPU numerical smoke completed |
+| H0065400/D070 | 1799.3745139809325 | 3600.6254860190675; fullfeature task completed; old120s smoke allocation immutable |
 
 H002 original policy search6/6 consumed; no new test-driven recipe/head/normalization.
 H004 two formulas/one source-hash seed1701 each; no further seed/threshold sweeps.
 Persistent user GPU0 grant, physical UUIDGPU-3775c606-49da-34fe-322c-756749074f5b;
-maxone owned job/8GiB allocator cap/min8GiBfree. Preserve inherited CUDA visibility
+maxone owned job/current2GiB allocator cap/min3GiBfree/max100util (D060/D070 sizedpolicy; original8GiB registration retainedunlaunched). Preserve inherited CUDA visibility
 and other processes; recheck actual resources before launch. GPU freedom alone
 never authorizes bypassing scientific gates.
 
@@ -109,8 +248,8 @@ Simulated window counts cannot be reported as measured speedup.
 
 ## Current records and next action
 
-Latest [SESSION_AUDIT_r28](SESSION_AUDIT_r28.md), claims throughC083/F079; actual
-config/status/report/pair hashes and common copies verified. Historical artifact
+Latest [SESSION_AUDIT_r33](SESSION_AUDIT_r33.md), claims throughC098/F094; actual
+config/status/report/export hashes and current2652bindings verified. Historical artifact
 closure_r11 remains a historical D019 snapshot, not current document hashes.
 No repeat closure of unchanged science needed.
 
@@ -331,7 +470,7 @@ scorer/uncertainty/labelbudget/fulltask compute+completeartifact bounds beforequ
 Goalactive/notPAPER_READY; meaningfullocalwork available/no whole-goalblock.
 
 
-## Current D068 queue — supersedes previous adapter/clock/galleries pending entries
+## Historical D068 queue — supersedes previous adapter/clock/galleries pending entries
 
 No owned live job. Sessions31520/75835 terminal exit0 and closed. MSESTTEST001
 six manual groups pass. Prospective MSASL_ESTCLK_v1 input gate passes all3425 IDs:
@@ -366,3 +505,62 @@ Then lock fresh H006 actualquality protocol/primaryRR-TRDCG/strong frozen contro
 shared galleryIDs/paired signer uncertainty/extra labels/compute before quality.
 Old H006v3DRAFT bound/immutable; no targetfit/rank/lambda/seed reselection, padding
 or smallerquery rescue. Full objective active/notPAPER_READY; local work available.
+
+
+## Historical D072 queue — superseded by D073 below
+
+All eight D069–D072 cycle runs are terminal exit0; no owned livejob. Full extraction
+1037vectors/42shards/new36028+reused396windows passes currentbindings. MSEVAL001
+first MS-ASL scores and original-space MSEVALVERIFY001 all13464 fullranks exact.
+Primary RR-TR+.0393093349593883DCG/all3positive/conditional19signer95%
+[.02372283639217613,.06270928809353252] passes. RR.65789775 trails raw.67979722 and
+centered.68164140 EVERYgallery. Retain orientation analysis; no residualwhitening
+method scaling/promotion or samevalidation rank/lambda/layer/mean/seed rescue.
+
+MSREPORT00124-row CSV/PNG/PDF visually checked and post-outcome seededcases saved.
+Eight actualstores26184790B (eachcapverified)/capturedwall1806.0733725950122s/
+GPU1796.2334451510105s,817currentbound inputs. SESSION_AUDIT_r29/C084–C088/F080–F084
+and MSASL_QUALITY_CYCLE_BINDING_VERIFICATION authoritative. Fresh151status program
+7523.083052356145/14400s,remaining6876.916947643855; H0061799.3745139809325/5400s,
+remaining3600.6254860190675. Terminalhandles11913/57199/70801 CLOSED, no restart.
+
+Literature44rows: S41/S42 WSLP2026 acceptedtitles only/fulltextunknown; S43/S44
+selectedprimaryfewshot-transfer/retrieval-whitening precedents. No newmath novelty
+or exhaustiveabsence claim; r2audit plus D072 outcome review. Eightsection H006
+evidence dossier paper/H006_EVIDENCE_DOSSIER_r1.md completed, not PAPER_READY.
+
+NEXT compare public S41/S42 manuscripts/author releases if obtainable and audit
+new contribution leads before a fresh hypothesis/compute registration. Existing
+MS-ASLval results cannot select another H006 method. Cachedfailure diagnostics
+explicitly posthoc/descriptive, no targetfit or linguistic causalstory. Original
+clock/short/pretraining/resource incidents preserved; no officialbenchmark/test/
+newlexeme/encoder-unseen/crosslanguage/continuousrecognition/translation claim.
+PersistentGPUgrant/onejob/2GiBallocator/min3GiBfree remain; rootbulkreservefail
+permits boundedlightweight stores only. Fullgoalactive/no whole-goal impasse.
+
+## Current D073 queue — supersedes all historical pending/priority entries
+
+Literature49rows/S45–S49 and L01§4.1 refresh complete. Three new selected
+computational-paper reads, one selected theoretical read, one publisher-abstract
+lead; no full-paper/code audit or novelty clearance. S41/S42 remain title-only.
+C089/F085/intake/H007draft/D073/r30 are authoritative for the new discovery queue.
+H0072.65/5 priority is metadata failure feasibility only; no method promoted,
+no new task quality/threshold fitting or GPU charge. Whole objective active.
+
+Current151status census: frozen113completed14failed, stream19completed3failed,
+lab2completed; no running/pending status or ownedlivejob. Existing budgets
+remain D072 verified snapshot; incrementGPU0. Browser/inspection wall not
+instrumented. Rootfree64,724,185,088B failsbulkreserve; bounded text writes only.
+
+NEXT metadata-only audit of completed feature-store/config/manifest layouts:
+identify train-only non-gallery calibration query IDs, exact class/signer/source
+joins and split coverage without reading test features or new quality scores.
+Start from current CACHE005/AXISTRANSFER001/PARTPROBE001 and MSFULLFEAT001
+registration/input manifests, all terminal; audit versioned source/count/cost
+plan before launching OSMETA001 (not implemented/registered yet).
+Then lock separate exact H007 protocol/seeds/estimands/baselines/search/storage
+caps and CPU evaluator fixtures before any rejection diagnostic.
+MS-ASLval outcomes reused after D072 must be exploratory; fresh confirmation
+unresolved. No H006 rescue/new rank/lambda/layer/mean/seed tuning, no discard/pad
+of original short sources, no task name alone as novelty. H002 backup utility,
+H003 annotationhold and original pretraining/clock/protocol incidents unchanged.

@@ -33,3 +33,24 @@ final records, raw scorer download7.081bytes. Source-browser traffic unmetered.
 Decision continue CPU work; next read S13/S17 then resolve preprocessing/feature
 parity and exact data/registration gates. GPU permission already persistent.
 Storage gate independent of GPU; no large writes or new environment installation.
+
+
+Latest2026-10-05: [SESSION_AUDIT_r29](SESSION_AUDIT_r29.md), [D072](decisions/D072.md), C084–C088/F080–F084. FullMS-ASL firstquality/original-space replay/report complete; primaryorientation passes butRR trails raw/centered everygallery. No newmethod/PAPER_READY/ownedlivejob. See currentSTATE/D072/eightsection H006 evidence dossier for authoritative queue, bounds and limitations.
+
+Latest discovery2026-10-05: [SESSION_AUDIT_r30](SESSION_AUDIT_r30.md),[D073](decisions/D073.md),C089/F085. S45–S49/L01 protocol refresh/matrix49rows/intake/H007draft select train-only calibration metadata feasibility next. No new task quality/GPU/run or method promotion; original D072 results/budgets intact. Current STATE end overrides historic queues.
+
+Latest metadata2026-10-05: [SESSION_AUDIT_r31](SESSION_AUDIT_r31.md),
+[D075](decisions/D075.md),C090–C091/F086–F087. Three terminal metadata stages,
+3389rows/27membershipcells/2499currentbindings/allcaps pass. Base calibration
+feasible; target fixedpartition held. GPU0, fullgoalactive/notPAPER_READY.
+Current STATE D075 queue supersedes historical queues. Evaluator fixtures next,
+no rejection-quality measurement/method promotion or published-score claim.
+
+Latest evaluator2026-10-05: [SESSION_AUDIT_r32](SESSION_AUDIT_r32.md),
+[D079](decisions/D079.md),C092–C093/F088–F089. Publicpinnedreference REJECTED
+by zero-CCR syntheticoracles; ownwrapperfailure retained; adaptedFAR/CCR six
+groups/30rationalcases PASS. Threeattempts295092runtimeB/.32051733904518187s/
+GPU0 and35043B source/fullBSDcapture,41bindings/allcaps verified. Matrix50rows,
+no ownedlivejob/wholegoalimpasse. STATE D079 queue supersedeshistoricalqueues.
+Taskquality/contribution/freshconfirmation stillpending; fullgoalactive/not
+PAPER_READY. Nextexactscorecontrols/sourcecalibrationprotocol+fixtures.
