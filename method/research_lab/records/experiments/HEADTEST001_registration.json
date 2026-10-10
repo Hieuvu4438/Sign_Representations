@@ -1,0 +1,39 @@
+{
+  "registered_utc": "2026-10-05T04:59:01.202301+00:00",
+  "run_id": "HEADTEST001_20261005_ce5b5db8_s1701",
+  "config": "method/frozen_probe/configs/HEADTEST001.json",
+  "config_sha256": "ce5b5db8b9e1f2a9d3f2f1a48d7b303cf8d8795d397dbf792f3a3bc6d472f7dc",
+  "output_dir": "method/frozen_probe/runtime/HEADTEST001_20261005_ce5b5db8_s1701",
+  "CPU_limit_seconds": 60,
+  "GPU_seconds": 0,
+  "durable_bytes_ceiling": 2097152,
+  "maximum_planned_logical_bytes": 1267437,
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/rejection_heads.py": "e5b4bd744451e5500e157450d6624565f16169ee2ee605aa29d3f3cd47a7a4d6",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/frozen_probe/scripts/register_rejection_head_prerequisites.py": "8f3f87d902e51845cc1148179cbc96fa0975d3c286464a0a4c8dff234f94c3a5",
+    "method/frozen_probe/scripts/test_rejection_heads.py": "61fb56aa55a0e77b35de865f32771f3c64d0c946066d19c953b1225d25444ad6",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_rejection_heads.py": "67c1a60448d366621c7dcc58b6cebd9c3965a3fd12bf8c14142aa8289212b5f0",
+    "method/research_lab/records/decisions/D086.md": "adb73e2bfdae844be9b7177518ffe04d16e7f9a97c23570421fbe1ead5f696ca",
+    "method/research_lab/records/hypotheses/H007_v2.md": "6d075a5af345ef547d46c44e45da1b6110c917d2d13a2278b36cd35eaeda522f",
+    "method/research_lab/records/protocols/P007_v2_supervised_rejection_controls.md": "5a4cae5b4dabb6a882a80153ed6d2822c802e3c0f8c7741d0cac2de5d7e04933",
+    "method/frozen_probe/references/fsosar_c8115c09/utils.py": "55b79e5e9ca57956b499427dec97b187b464faad7fb4d382e0c3263542738b6b",
+    "method/frozen_probe/references/fsosar_c8115c09/LICENSE": "d3522fc7814fc79c74f64c68dc9cb591b062b5e90a5bddd50e444e5b3f727711"
+  },
+  "command": [
+    "/home/haipd/miniconda3/bin/python",
+    "method/frozen_probe/scripts/test_rejection_heads.py",
+    "--config",
+    "method/frozen_probe/configs/HEADTEST001.json",
+    "--run-id",
+    "HEADTEST001_20261005_ce5b5db8_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/HEADTEST001_20261005_ce5b5db8_s1701",
+    "--seed",
+    "1701"
+  ]
+}
