@@ -1,0 +1,10 @@
+{
+ "arm": "sr3d",
+ "out": "runtime/SR3D",
+ "steps": 4000,
+ "videos": 16,
+ "jepa_w": 1.0,
+ "ema": 0.99925,
+ "workers": 2,
+ "seed": 20261008
+}
