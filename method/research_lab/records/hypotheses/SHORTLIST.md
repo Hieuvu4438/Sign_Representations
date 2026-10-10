@@ -52,3 +52,15 @@ the strongest scoped utility evidence but contribution/novelty unproven; H003
 natural-error labels missing. Queue moves to source-supported failure/closest-
 method discovery before any new proposal; no test or threshold/seed sweeps.
 Matrix29 rows/27 distinct papers/21 selected-text reads/six leads, bounded scope.
+
+2026-10-05/D073 supersedes historical priority above. H006 orientation analysis
+retained/D072, whitening method scaling rejected against raw/centered controls.
+New [H007 draft](H007_DRAFT.md) prioritizes metadata feasibility of finite-gallery
+rejection operating-point stability. Three RQs screened in
+[intake](../literature/OPENSET_INTAKE_20261005_r1.md): A baseline failure diagnostic,
+B known FR-Disc module rejected as novel lead, C known-only conformal OOD
+guarantee presently unsupported. No promoted or newly registered hypothesis;
+H0072.65/5, scientific failure/novelty unknown. Strong standard controls precede
+mechanism design; next census train-only calibration/source/signer availability.
+S45–S49 new source cards/matrix49rows. H002 backup utility/H003 annotationhold;
+old policy searches/test stop unchanged. No new GPU allocation/quality outcome.
