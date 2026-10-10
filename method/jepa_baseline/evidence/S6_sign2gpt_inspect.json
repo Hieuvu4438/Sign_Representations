@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "scope": "technical configuration/import inspection; no LLM benchmark training",
+  "original_trainer": "trainer.complete_translation_trainer",
+  "no_pseudo_gloss_stage": true,
+  "frozen_feature_dataloader": "signrep_baseline.translation_sign2gpt",
+  "visual_augmentation": null,
+  "batch_size": 8,
+  "max_epochs": 100,
+  "lr": 0.0003,
+  "lang_model": "facebook/xglm-1.7B",
+  "logging": [
+    "text"
+  ]
+}

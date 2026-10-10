@@ -1,0 +1,55 @@
+{
+  "signrep": {
+    "url": "https://github.com/ryanwongsa/SignRep",
+    "commit": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+    "files": {
+      "LICENSE": "9e502ba75fd0fd30cea5497b438a4bc12f07f02bc932a7a6041fd6a18b8f46a0",
+      "README.md": "2b73bf6ecbbbffe43189ef3032509aa9987223af980dd378d06081554dbd2020",
+      "augmentation/video/base_video_aug.py": "59e1eb7e836aaaf4efc69533af87f80630d9601ec7efe642f5bc514f080d1b9f",
+      "example_usage.py": "a53aa5b1c21e34ece8b7c228751a08c15de90f25914b8fe7d80115225f34af97",
+      "models/final_models/FINAL_hiera_latent_model_head_v25_active.py": "70ac165c22a40450005d5dceae283d7095b037d6173dcea1872f3341b8a432fe",
+      "models/head_models/dict_head_v6_FINAL_thoughtful.py": "615c87f77aff2380874dcb1433d60b89af68890e94da8ba9cf9b4983471b07dd",
+      "models/hiera/hfhub.py": "12efb9ab1838536d5a9971440ea09efbabcd48b7a758e5fb87f417b0c33a15b7",
+      "models/hiera/hiera.py": "e8e9cab4d662ebb3ceaa6ce85d31bd0efb79325d68c192e93ff9b0bf9cc66c91",
+      "models/hiera/hiera_clstoken.py": "a80a84701765bbc079dfaf52c41ef5e7b06c91d6bbedca05db08b1f313701d44",
+      "models/hiera/hiera_nodec_mae.py": "385d4e3fbc2e2b3b8636c22712fabb9b664a464a86d8ead818725fa08389fd52",
+      "models/hiera/hiera_utils.py": "2af7cc75eb7a90e4eb16dcb08e229807b93c5efc74765eff3f3ee7ac017eb354",
+      "requirements.txt": "0c7a8e99c06697abbfb96df49742d94c009200d5e857e4ac9dddb1be3dc81c91"
+    }
+  },
+  "skeleton_3d_uplift": {
+    "url": "https://github.com/ivashmak/skeleton_3d_uplift",
+    "commit": "6885e4865bc8993ae41a4d88287a5b03281d7d91",
+    "files": {
+      ".gitignore": "f746f812a0cca0b778ada3f2ea452008123b1246c0b07474288d408a3d1b720d",
+      "LICENSE.md": "d1b536a4e61f3c1f6ccc2db283186a70f4ce94083bc65c0a5f3f00a42ff21f30",
+      "README.md": "f1d9bade3d402f9f882492466dfa5c4280aee73bcbe1231565cf8c5869e76534",
+      "camera_demo.py": "6ed61b7fb02ae9a699e21a9151bb063e456505d909991e8d1d36a69ab28ddbd3",
+      "config.py": "9daf195ba353b7571cc06ee646c7e1adb5f121908429192d84c64165334b898b",
+      "drawer.py": "7972d494d3a76e4c6be98fd8553618328fab3fb3669fe4080d0e2362664fd6fa",
+      "evaluation/losses.py": "6bd472e81d5109d38b1f135a1f1d6587cf2f667ad829a9ddbe7675560ecef061",
+      "forward_kinematics.py": "f5854f6d4b470db0df93851789986ad9d87ebf09674befa3a226f4d6d4041763",
+      "maths_utils.py": "645376e57e6393b059fe3a8de42f6d6875abc71bcd529d5359a40e5d8339cfda",
+      "media_pipe/skeleton_mediapipe.py": "e3b99f3a206906181a69e3e72bf54b8fd2da01c7212816d4f90adf29183b6d42",
+      "mlp_config.py": "a3816ae8d09e3b2d506325ccd96ba1bf1f31a923963105a721f7da51221b75a8",
+      "mlp_model.py": "3050b525e1d493f4c9cd33bb6fcd3ced26a2e1bf925bc6e90c103e829044a147",
+      "net_utils.py": "98bc52dab2363ae45f56cecd2d0a878ad88f4a93ea99fd86b3b1f99de21f48ed",
+      "normalization.py": "364669069c0997bde349bc962343e80ec02ada5cfc9deba6cb5a714f00bf9074",
+      "process_mediapipe.py": "f190900b94b22f65863adde79b3d33b7afc45cce2a4477c7ffb41d30d5fe3597",
+      "requirements.txt": "9b0533bc5c895808664059cbb99e0d52d7b7f06b53a6b6cfdd7f76dda103b634",
+      "skeleton.py": "aba91f62c8a27123fce5ee156365651af1d13f1e45913ca4b21796d274ef3da8",
+      "skeleton_human36.py": "119dafaaca3fd37c9b1bd3603de00009d784a207dc679eda1b06fc27d09ce944",
+      "uplift_release.py": "d9414e340388db4aa122cc05fa6642aabfed43b1fbfedf3f316119c0592b32d0",
+      "utils.py": "cf8637f2114aa11e9541d707512c9428d15ac8eb8cccc20e4deb890fbc7072a5",
+      "video.py": "865948f2187d5cc00b95c70ea19a0e97ab8e356db1d14baf62832e3f89aefb71"
+    }
+  },
+  "paper": {
+    "local_path": "/home/haipd/Sign_Representations/artifacts/legacy/evidence/papers/P01.pdf",
+    "sha256": "249bfe15eb77d754de780c24bf97c328a7d171a59655baa16b37765389e8a15c"
+  },
+  "supplement": {
+    "local_path": "/home/haipd/Sign_Representations/artifacts/legacy/evidence/papers/P02.pdf",
+    "sha256": "3dfd69a9f70b592f360037fe3abce5d99210a1a8305edc6dd64579f8b5d7eaec"
+  }
+}

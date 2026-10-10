@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "scope": "technical only; synthetic 3-class table, real RGB clip",
+  "frozen_windows": 11,
+  "stride": 2,
+  "inference_rng_preserved": true,
+  "pooled_feature_l2_norm": 1.0,
+  "recognition_frames": 64,
+  "prior_decoders_removed": true,
+  "recognition_update": {
+    "loss": 0.8994062542915344,
+    "cross_entropy": 0.8975809812545776,
+    "class_distribution": 0.0018252772279083729,
+    "step": 1,
+    "gradient_norm": 106.21202087402344,
+    "lr": 0.0001
+  },
+  "recognition_checkpoint_restore": true
+}

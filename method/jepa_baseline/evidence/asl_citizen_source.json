@@ -1,0 +1,8 @@
+{
+  "url": "https://github.com/microsoft/ASL-citizen-code",
+  "commit": "17f0148b00ef87a5957ec103da8d10bd8eb1fa23",
+  "files": {
+    "I3D/aslcitizen_testing.py": "79ccd4ecdf626b994dd2a185bac49eec9eccc9a73cebb4c6a9bfacfa8f3cc664",
+    "LICENSE": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+  }
+}

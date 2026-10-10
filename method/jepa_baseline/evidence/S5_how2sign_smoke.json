@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "scope": "technical integration with random translation weights; no BLEU reproduction",
+  "original_Fairseq_feature_loader": true,
+  "feature_shape": [
+    11,
+    768
+  ],
+  "original_encoder_layers": 6,
+  "original_decoder_layers": 3,
+  "original_hidden_dim": 256,
+  "only_architecture_change": "input projection width 1024->768",
+  "original_generation": true,
+  "generated_tokens": 9,
+  "cross_entropy": 6.103813648223877,
+  "versions": {
+    "torch": "2.1.1",
+    "omegaconf": "2.0.6",
+    "hydra-core": "1.0.7",
+    "pose-format": "0.1.0"
+  }
+}

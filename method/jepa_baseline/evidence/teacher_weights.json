@@ -1,0 +1,18 @@
+{
+  "source": "https://drive.google.com/file/d/1mUiO8kNgAYnzWcPKywVz8U89bYy2w2_S/view",
+  "archive_sha256": "157ec7243e650e06bd0a7790d10c2155264b31741a3ff2c4178ede7cbcc4c628",
+  "weights": {
+    "models/mlp_hand.ckpt": {
+      "sha256": "9cf1e16ae97a8306a26c82d846a8c29517e863ead9be1794623dad14190499f7",
+      "bytes": 10016383
+    },
+    "models/mlp_body.ckpt": {
+      "sha256": "1019380a3dd00bb59482a3b098f048d2153c3ed42f9bc817ab9e30647afe883d",
+      "bytes": 9900997
+    },
+    "models/img_hand.ckpt": {
+      "sha256": "fe00fd6a6b37d704dda1da5b425257c7f80b695c16e9c10428d2b7af689d267c",
+      "bytes": 349107811
+    }
+  }
+}

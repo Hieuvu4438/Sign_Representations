@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "scope": "technical integration; random tiny XGLM, no BLEU reproduction",
+  "feature_shape": [
+    11,
+    768
+  ],
+  "original_temporal_hidden_dim": 512,
+  "original_XGLM_adapter_forward_backward": true,
+  "original_generation": true,
+  "generated_shape": [
+    2,
+    3
+  ],
+  "cross_entropy": 3.4673540592193604,
+  "pseudo_gloss_stage_omitted": true,
+  "frozen_input_features": true,
+  "versions": {
+    "torch": "2.1.1",
+    "transformers": "4.31.0",
+    "xformers": "0.0.23"
+  }
+}

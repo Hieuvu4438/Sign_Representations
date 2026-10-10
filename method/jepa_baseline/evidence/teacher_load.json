@@ -1,0 +1,17 @@
+{
+  "teacher_commit": "6885e4865bc8993ae41a4d88287a5b03281d7d91",
+  "body_angles": 22,
+  "hand_angles": 41,
+  "pose_points": 61,
+  "weights": {
+    "mlp_hand.ckpt": "9cf1e16ae97a8306a26c82d846a8c29517e863ead9be1794623dad14190499f7",
+    "mlp_body.ckpt": "1019380a3dd00bb59482a3b098f048d2153c3ed42f9bc817ab9e30647afe883d",
+    "img_hand.ckpt": "fe00fd6a6b37d704dda1da5b425257c7f80b695c16e9c10428d2b7af689d267c"
+  },
+  "body_root_mode": "canonical",
+  "body_root_camera_rotation": "native/canonical matches public demo; camera mode explicit U01 alternative",
+  "confidence": "body MediaPipe visibility; hand source detector observation indicator",
+  "hand_localization_confidence": "not supplied by MediaPipe; indicator is not a calibrated score",
+  "missing_frames": "retained, zero confidence, no interpolation",
+  "missing_hand_image_fallback": "not used for observed targets; masked missing hands"
+}

@@ -1,0 +1,78 @@
+{
+  "result": "PASS",
+  "scope": "technical only; small ASL-Citizen clips, synthetic eval labels, not paper scores",
+  "commands": [
+    [
+      "prepare-corpus",
+      "--manifest",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/source.jsonl",
+      "--wlasl",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/wlasl_synthetic_annotation.json",
+      "--output",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/corpus",
+      "--pose-python",
+      "/home/haipd/Sign_Representations/.venv-shubert-native/bin/python",
+      "--weights",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/teacher/models"
+    ],
+    [
+      "pretrain",
+      "--config",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/pretrain.yaml",
+      "--stop-after",
+      "1"
+    ],
+    [
+      "pretrain",
+      "--config",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/pretrain.yaml",
+      "--resume",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/train/last.pt",
+      "--stop-after",
+      "2"
+    ],
+    [
+      "features",
+      "--manifest",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/gallery.jsonl",
+      "--checkpoint",
+      "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+      "--output",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/gallery_features"
+    ],
+    [
+      "features",
+      "--manifest",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/queries.jsonl",
+      "--checkpoint",
+      "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+      "--output",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/query_features"
+    ],
+    [
+      "retrieval",
+      "--gallery",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/gallery_features/features.jsonl",
+      "--queries",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/query_features/features.jsonl",
+      "--split",
+      "val",
+      "--output",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/retrieval.json"
+    ],
+    [
+      "how2sign-export",
+      "--manifest",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/translation.jsonl",
+      "--output-tsv",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/translation.tsv",
+      "--feature-directory",
+      "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/cli_smoke/translation_npy"
+    ]
+  ],
+  "held_out_video_sources_distinct": true,
+  "audit_excludes_blocked_held_out_id": true,
+  "cli_checkpoint_resume": true,
+  "scheduled_validation_and_best_model_export": true,
+  "frozen_feature_retrieval_and_translation_export": true
+}

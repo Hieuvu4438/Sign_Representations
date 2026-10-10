@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "scope": "technical RGB and synthetic labels; not benchmark accuracy",
+  "cli_checkpoint_load_and_evaluation": true,
+  "queries": 2,
+  "split": "val"
+}

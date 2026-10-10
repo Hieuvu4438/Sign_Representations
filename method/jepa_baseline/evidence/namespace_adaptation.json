@@ -1,0 +1,47 @@
+{
+  "augmentation/video/base_video_aug.py": {
+    "original_sha256": "59e1eb7e836aaaf4efc69533af87f80630d9601ec7efe642f5bc514f080d1b9f",
+    "adapted_sha256": "59e1eb7e836aaaf4efc69533af87f80630d9601ec7efe642f5bc514f080d1b9f",
+    "changes": "import namespace only"
+  },
+  "example_usage.py": {
+    "original_sha256": "a53aa5b1c21e34ece8b7c228751a08c15de90f25914b8fe7d80115225f34af97",
+    "adapted_sha256": "4ddf5c3e92822f43cd05f53588b0b0427c38585758204ddd9e80530efdbb72a2",
+    "changes": "import namespace only"
+  },
+  "models/final_models/FINAL_hiera_latent_model_head_v25_active.py": {
+    "original_sha256": "70ac165c22a40450005d5dceae283d7095b037d6173dcea1872f3341b8a432fe",
+    "adapted_sha256": "4a02188957a310e3248883fe1bf84cc131eb2021d96ee657bd6d04a3ce78d443",
+    "changes": "import namespace only"
+  },
+  "models/head_models/dict_head_v6_FINAL_thoughtful.py": {
+    "original_sha256": "615c87f77aff2380874dcb1433d60b89af68890e94da8ba9cf9b4983471b07dd",
+    "adapted_sha256": "615c87f77aff2380874dcb1433d60b89af68890e94da8ba9cf9b4983471b07dd",
+    "changes": "import namespace only"
+  },
+  "models/hiera/hfhub.py": {
+    "original_sha256": "12efb9ab1838536d5a9971440ea09efbabcd48b7a758e5fb87f417b0c33a15b7",
+    "adapted_sha256": "12efb9ab1838536d5a9971440ea09efbabcd48b7a758e5fb87f417b0c33a15b7",
+    "changes": "import namespace only"
+  },
+  "models/hiera/hiera.py": {
+    "original_sha256": "e8e9cab4d662ebb3ceaa6ce85d31bd0efb79325d68c192e93ff9b0bf9cc66c91",
+    "adapted_sha256": "dfb5ddff961c7203e3e79cc57fa98b2056973767178e1ef6b16adc84f8043d97",
+    "changes": "import namespace only"
+  },
+  "models/hiera/hiera_clstoken.py": {
+    "original_sha256": "a80a84701765bbc079dfaf52c41ef5e7b06c91d6bbedca05db08b1f313701d44",
+    "adapted_sha256": "e8934220416dfe406ee91824e4fa55ff1717b46a798c6fd7f64dcb407ecff874",
+    "changes": "import namespace only"
+  },
+  "models/hiera/hiera_nodec_mae.py": {
+    "original_sha256": "385d4e3fbc2e2b3b8636c22712fabb9b664a464a86d8ead818725fa08389fd52",
+    "adapted_sha256": "39fc8bc97093418027cc9eb55c0a734b5ee8d8049696ca52a3c95c310e1c3f04",
+    "changes": "import namespace only"
+  },
+  "models/hiera/hiera_utils.py": {
+    "original_sha256": "2af7cc75eb7a90e4eb16dcb08e229807b93c5efc74765eff3f3ee7ac017eb354",
+    "adapted_sha256": "2af7cc75eb7a90e4eb16dcb08e229807b93c5efc74765eff3f3ee7ac017eb354",
+    "changes": "import namespace only"
+  }
+}

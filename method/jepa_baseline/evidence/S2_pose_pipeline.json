@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "decoded_frames": 36,
+  "appended_blank_frames_retained": 4,
+  "detected_frames": {
+    "body": 32,
+    "right": 30,
+    "left": 32
+  },
+  "teacher_FK_max_abs_error": {
+    "body": 0.0,
+    "right": 8.940696716308594e-08
+  },
+  "bone_lengths_invariant_under_changed_angles": true,
+  "target_valid_elements": {
+    "body_pose": 2748,
+    "right_pose": 945,
+    "left_pose": 1008,
+    "full_body_angles": 704,
+    "full_right_angles": 1230,
+    "full_left_angles": 1312,
+    "right_dist": 2475,
+    "left_dist": 2640,
+    "body_dist": 11052,
+    "activity": 0
+  },
+  "all_missing_clip_has_no_supervision": true,
+  "statistics_scope": "technical smoke only, not YT-SL corpus",
+  "video_sha256": "a63dbb5b3ba29b436765113523d1338d77357cca92a38df38a92c03b572f1833",
+  "bones_sha256": "d965d96d0252c66ba2702658238d7eb3a757b22b981b23fb31838115510c8933",
+  "body_root_mode": "canonical"
+}

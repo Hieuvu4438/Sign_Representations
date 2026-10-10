@@ -1,0 +1,88 @@
+{
+  "full_body_angles": {
+    "interleaved_unit_norm_abs_error": 0.014678547158837318,
+    "concatenated_unit_norm_abs_error": 0.7410581707954407,
+    "first_six_predictions_mean": [
+      -0.015281716361641884,
+      1.006780743598938,
+      0.013609586283564568,
+      1.0001049041748047,
+      0.2709716856479645,
+      0.948344349861145
+    ]
+  },
+  "full_right_angles": {
+    "interleaved_unit_norm_abs_error": 0.03539513796567917,
+    "concatenated_unit_norm_abs_error": 0.3034497797489166,
+    "first_six_predictions_mean": [
+      -0.09847050160169601,
+      -0.9894154667854309,
+      -0.23212437331676483,
+      0.9499856233596802,
+      -0.3145686388015747,
+      -0.959122896194458
+    ]
+  },
+  "full_left_angles": {
+    "interleaved_unit_norm_abs_error": 0.02803352102637291,
+    "concatenated_unit_norm_abs_error": 0.11461564153432846,
+    "first_six_predictions_mean": [
+      0.03156488388776779,
+      -1.0322648286819458,
+      -0.07776017487049103,
+      0.9860779047012329,
+      0.5926260948181152,
+      -0.8778407573699951
+    ]
+  },
+  "body_dist": {
+    "negative_fraction": 0.5058396458625793,
+    "positive_fraction": 0.4452335834503174,
+    "min": -0.5483212471008301,
+    "max": 0.319711297750473,
+    "mae_prediction_vs_destination_minus_source": 0.213327556848526,
+    "mae_prediction_vs_source_minus_destination": 0.0032538603991270065,
+    "mae_prediction_vs_absolute_xyz": 0.13253061473369598
+  },
+  "right_dist": {
+    "negative_fraction": 0.40795454382896423,
+    "positive_fraction": 0.49810606241226196,
+    "min": -0.4264349341392517,
+    "max": 0.33448368310928345,
+    "mae_prediction_vs_destination_minus_source": 0.1954871267080307,
+    "mae_prediction_vs_source_minus_destination": 0.08829087018966675,
+    "mae_prediction_vs_absolute_xyz": 0.1356390118598938
+  },
+  "left_dist": {
+    "negative_fraction": 0.5689393877983093,
+    "positive_fraction": 0.34734848141670227,
+    "min": -0.642444908618927,
+    "max": 0.3536277115345001,
+    "mae_prediction_vs_destination_minus_source": 0.2782886028289795,
+    "mae_prediction_vs_source_minus_destination": 0.12982764840126038,
+    "mae_prediction_vs_absolute_xyz": 0.2534973919391632
+  },
+  "_context": {
+    "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+    "video_sha256": "a63dbb5b3ba29b436765113523d1338d77357cca92a38df38a92c03b572f1833",
+    "frame_indices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "interpretation": "empirical head-consistency diagnostic, not original target implementation proof"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "scope": "Module reconstruction and technical verification only",
+  "tests_passed": 28,
+  "pinned_upstream_files_checked": 1595,
+  "implementation_sha256": "6f9b0c2efa64a3be08657abf03f59ade58767e26df2098d17ecadcc94a21453f",
+  "default_body_root": "canonical; native body angles, camera-oriented hand angles",
+  "default_distance": "signed_xyz_source_minus_destination",
+  "requirements": {
+    "S0": {
+      "module_status": "PASS",
+      "evidence": [
+        "source_verification.json"
+      ],
+      "pre_review": "docs/reviews/S0_pre.md",
+      "post_review": "docs/reviews/S0_post.md"
+    },
+    "S1": {
+      "module_status": "PASS",
+      "evidence": [
+        "all_pytest.txt",
+        "S1_kinetics_init.json"
+      ],
+      "pre_review": "docs/reviews/S1_pre.md",
+      "post_review": "docs/reviews/S1_post.md"
+    },
+    "S2": {
+      "module_status": "PASS",
+      "evidence": [
+        "all_pytest.txt",
+        "S2_pose_pipeline.json",
+        "checkpoint_target_diagnostic.json"
+      ],
+      "pre_review": "docs/reviews/S2_pre.md",
+      "post_review": "docs/reviews/S2_post.md"
+    },
+    "S3": {
+      "module_status": "PASS",
+      "evidence": [
+        "all_pytest.txt"
+      ],
+      "pre_review": "docs/reviews/S3_pre.md",
+      "post_review": "docs/reviews/S3_post.md"
+    },
+    "S4": {
+      "module_status": "PASS",
+      "evidence": [
+        "all_pytest.txt",
+        "S4_training_smoke.json",
+        "S6_cli_smoke.json"
+      ],
+      "pre_review": "docs/reviews/S4_pre.md",
+      "post_review": "docs/reviews/S4_post.md"
+    },
+    "S5": {
+      "module_status": "PASS",
+      "evidence": [
+        "all_pytest.txt",
+        "S5_rgb_smoke.json",
+        "S5_sign2gpt_smoke.json",
+        "S5_how2sign_smoke.json",
+        "S6_recognition_eval.json",
+        "S6_sign2gpt_inspect.json"
+      ],
+      "pre_review": "docs/reviews/S5_pre.md",
+      "post_review": "docs/reviews/S5_post.md"
+    },
+    "S6": {
+      "module_status": "PASS",
+      "evidence": [
+        "all_pytest.txt",
+        "S6_cli_smoke.json"
+      ],
+      "pre_review": "docs/reviews/S6_pre.md",
+      "post_review": "docs/reviews/S6_post.md"
+    }
+  },
+  "code_sha256": {
+    "configs/pretrain.yaml": "041b4f8c478d8bdb0d6edc22e113454efe45b41b78dd850f40b8fedba7b523fa",
+    "configs/recognition.yaml": "7ad8520eed75daf04465bba7946e1d756f6ed56c2e6e940b6e6d74bbdac7c62f",
+    "integrations/environment_variables.py": "5d21ee6e3e4f4759d69acbdb64b2882344e51cd21e4ff8eea3b7c101c1765576",
+    "integrations/how2sign_user/__init__.py": "1342474f944bfd239f27fba108982bb9d5128866861bfa6c0c3f0116d28abb8f",
+    "integrations/sign2gpt_config.py": "d0e824a8d675d168a242f508d473a2ae43c66ef3e391157820dc97aa5544ed7a",
+    "pyproject.toml": "c3b6d0517a9d683aac270368146734c2e94a76f2ff7b43382cd8be627a9621d6",
+    "scripts/final_audit.py": "32d83d44fb6dad2eec56014bfeee81cc0dd7e1b841c56ac97b8299cb2291ebc4",
+    "scripts/pose_worker.py": "ae68e0ecf741fa2c84fb3ef5aaa23031ef97f51d3b91ec0c9664d8dd13424fb4",
+    "scripts/run_sign2gpt.py": "0cf2e4fedee78ed9b3ee29c6900d1c0e0f8a951ad575fe414b247903c8720e86",
+    "scripts/smoke_cli.py": "7f3d4426e4d74aac4b9ca8eef5077cb6b4d677964a7dc021d9722787b352f2a6",
+    "scripts/smoke_downstream.py": "4a7f827489756ff45c4dabb97ca3de6f0f81bfa1e7e4563a42c183ce6def192f",
+    "scripts/smoke_how2sign.py": "3e02c4520cbc2b5dc7b6843fa636080f11590d2b4afc09f3a201fd5a7d9d156a",
+    "scripts/smoke_pretrain.py": "267e5361b0182c9be8b832592f286e405c743a3625cc17356029f76c4b54c398",
+    "scripts/smoke_sign2gpt.py": "e8fff34e969e1795b47fe21c90e42305d142bf9836ac8190dfd5c10439854510",
+    "scripts/verify_pose_pipeline.py": "def9e9719563d358ba52e81841980500fd5bfc1037fc08313ff21aab3f6b1732",
+    "scripts/verify_sources.py": "07f3152644fb7fa415ff8faddcdce56981604e204113389c2f126be1eb8e4fa2",
+    "src/signrep_baseline/__init__.py": "6d771c8f68ce838c107c5777a0f84c756e4f2361082d46c24f508e86cb36bfb1",
+    "src/signrep_baseline/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "src/signrep_baseline/assets.py": "56b4e0a6e1b420e1c38a7004da1e78024c58c658ac628f87b09f7d0316e38039",
+    "src/signrep_baseline/augmentation.py": "b00e87882f0ef85ba9c9516fdddedc59cea19668298132230dd2b7f82adb2ae9",
+    "src/signrep_baseline/bones.py": "0a84e2700903ff6dd31611786d96a42786917e86d5031e81d77aca3638f38fea",
+    "src/signrep_baseline/cache.py": "98b1a7d206299dc4a1d34423c33f439ae8a6925d769ada2b6433495e896762a7",
+    "src/signrep_baseline/cli.py": "c04463b1cbf98ea4c8038b1961d28f3957f7de2c51bf417c480b6655bb8f9ff9",
+    "src/signrep_baseline/data.py": "5b2577de7ec65b6b90fa018b1100a81d45cf8437a99979f56d0881d756ff3676",
+    "src/signrep_baseline/discriminator.py": "2a422291de91fe11a12671edb7fd0d98fad16d60e6037f71a045f8e1b6d00f3e",
+    "src/signrep_baseline/losses.py": "582857b318402c09d1dc8f08755d0012bd899c92d266699c558d88426b5b2538",
+    "src/signrep_baseline/model.py": "b8ad1d682bf10ef9337178dc64c91a33e80f1fefc3399d93cc7d1a7798d2564d",
+    "src/signrep_baseline/optim.py": "91b41979e19819abe5fc9e10ddc6af910e9ab7ff3d29f3e58ade349f9e633733",
+    "src/signrep_baseline/preparation.py": "51cb15d4a6cb3871cd241696718b165d8330e6575e2d56f984129dcf84493be5",
+    "src/signrep_baseline/priors.py": "8cbaee85a63bfe3d43f4238a1d4a3317b196a463a22ae5b4c493f4b8024ad2b1",
+    "src/signrep_baseline/recognition.py": "884d35468d1ef3791470cee2dc354938c06092a5a3d2fb383bab5e29e4df9d2c",
+    "src/signrep_baseline/recognition_training.py": "426d35bc262dd6ceeaf171818fe58fef841b2cb5172000d7d280efff20c605a7",
+    "src/signrep_baseline/retrieval.py": "07bb39f8868157c00b07159dad3e4025a28d3bbe7a14e2c222ed3c1b923a1c20",
+    "src/signrep_baseline/schema.py": "7c42cbf656e7a2eb5888214a363f015e8914d02e33876fc7afbe214a5b61a67e",
+    "src/signrep_baseline/training.py": "5e85f20d8435e158c9f4834b65c7f789d55d7c1cca5c715699cafb035f21e67c",
+    "src/signrep_baseline/translation.py": "028a16324f64f201c2f2fa1dd68a003cc3a15fb904d400b270dda11ae0960b97",
+    "src/signrep_baseline/translation_sign2gpt.py": "a5279514372dc4458a8268da19125dfcf3cc8e82a46ea8d3453e0c3dcc78bb0f",
+    "src/signrep_baseline/upstream_planckian/LICENSE.txt": "7f7d1bc25554ceff524ce626c9ee9de47163f0cf0720d902eda1520070d9bacf",
+    "src/signrep_baseline/upstream_planckian/__init__.py": "2b1078b3d67f2b02f1eb6e63951449438e7c35b7b3b296f92b54c610837d04a0",
+    "src/signrep_baseline/upstream_planckian/planckianTransforms.py": "156b6a0447b59cf5fa71a529d155bfcfdef1bf3eda32c88c9edd2c53fb4203ee",
+    "src/signrep_baseline/upstream_signrep/LICENSE": "9e502ba75fd0fd30cea5497b438a4bc12f07f02bc932a7a6041fd6a18b8f46a0",
+    "src/signrep_baseline/upstream_signrep/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrep_baseline/upstream_signrep/augmentation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrep_baseline/upstream_signrep/augmentation/video/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrep_baseline/upstream_signrep/augmentation/video/base_video_aug.py": "59e1eb7e836aaaf4efc69533af87f80630d9601ec7efe642f5bc514f080d1b9f",
+    "src/signrep_baseline/upstream_signrep/example_usage.py": "4ddf5c3e92822f43cd05f53588b0b0427c38585758204ddd9e80530efdbb72a2",
+    "src/signrep_baseline/upstream_signrep/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrep_baseline/upstream_signrep/models/final_models/FINAL_hiera_latent_model_head_v25_active.py": "4a02188957a310e3248883fe1bf84cc131eb2021d96ee657bd6d04a3ce78d443",
+    "src/signrep_baseline/upstream_signrep/models/final_models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrep_baseline/upstream_signrep/models/head_models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrep_baseline/upstream_signrep/models/head_models/dict_head_v6_FINAL_thoughtful.py": "615c87f77aff2380874dcb1433d60b89af68890e94da8ba9cf9b4983471b07dd",
+    "src/signrep_baseline/upstream_signrep/models/hiera/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrep_baseline/upstream_signrep/models/hiera/hfhub.py": "12efb9ab1838536d5a9971440ea09efbabcd48b7a758e5fb87f417b0c33a15b7",
+    "src/signrep_baseline/upstream_signrep/models/hiera/hiera.py": "dfb5ddff961c7203e3e79cc57fa98b2056973767178e1ef6b16adc84f8043d97",
+    "src/signrep_baseline/upstream_signrep/models/hiera/hiera_clstoken.py": "e8934220416dfe406ee91824e4fa55ff1717b46a798c6fd7f64dcb407ecff874",
+    "src/signrep_baseline/upstream_signrep/models/hiera/hiera_nodec_mae.py": "39fc8bc97093418027cc9eb55c0a734b5ee8d8049696ca52a3c95c310e1c3f04",
+    "src/signrep_baseline/upstream_signrep/models/hiera/hiera_utils.py": "2af7cc75eb7a90e4eb16dcb08e229807b93c5efc74765eff3f3ee7ac017eb354",
+    "tests/test_bones_cache.py": "7a423ed07578eb157c92788ed93eaaf66c24cacd653172861a0ea70707d192be",
+    "tests/test_data_optim.py": "c5e4ad60f26a358210ee1ff90e463e3d3116bbc8334e3604067e2cd1797f139e",
+    "tests/test_downstream.py": "b63215039da755ec5d928070688d699912cb2673aeca0a20e75b25507d99bc8a",
+    "tests/test_losses.py": "740bf05b058f6642266cee3cdbe30f93999261c4192be3297e2f854ee2031ee2",
+    "tests/test_model.py": "c8784eb1820f75a9f0ccd416b3d67e76c537bb0d7b53f51bd6e21830356e79b0",
+    "tests/test_priors.py": "cab67b7e21609af879a6c8c44bd44a6fc45dd62f39cdc5565b121bff8ca1c67b",
+    "tests/test_provenance.py": "93a441d0c19ca2d42b5ac8f4c25c933dfb1c368b1648dbc3ec5fc4c8d6793499"
+  },
+  "artifact_sha256": {
+    "README.md": "675d1d9c6b2cf7c12786ce21397f34ef4bc0c4059ecea8922a7d81989e3e02e1",
+    "docs/REPRODUCTION_SPEC.md": "f7b775b48525168a7d3573354b54f1bbd94bef4779f0e49a5f381d1469b35872",
+    "docs/TRANSLATION.md": "4f336071d2d42f302b5c5750e40e7b06e72bc5cd0edcac3b48301208baaefc21",
+    "docs/reviews/S0_post.md": "f8decab0090b2a99a13e329954da31f0c8f4526d41754e2ab2ea8baf2117ca33",
+    "docs/reviews/S0_pre.md": "c70442ced794db8d35d1ceb5e922e75f3787dec76efacb998971bba02181e863",
+    "docs/reviews/S1_post.md": "8d5048f35f96843aff33a6155a0d136c50a8457051a6a5bd0cc7669055429db8",
+    "docs/reviews/S1_pre.md": "450ee82a062815cf5e3ca87fb7d89c174377be8666da0a3b7943ef14f8293660",
+    "docs/reviews/S2_distance_amendment_post.md": "8b9645a0bcd6b0f6b51acf77f6e8df6d1011203199965215efc9dc817b86718e",
+    "docs/reviews/S2_distance_amendment_pre.md": "1934d85f5dc85d5980de231986dab2c82583790399cf29f53224982cabc3911f",
+    "docs/reviews/S2_mask_amendment.md": "22447c2b93bb193fee9a54abdbeee5f483d82a73f987f31ecd378af5457b19db",
+    "docs/reviews/S2_post.md": "eff0956873838628624daf5d49dd3cdd212369aa76c600e2b01a1e095d787bb5",
+    "docs/reviews/S2_pre.md": "9dc623cc29ae242a6a734ef7efb1ffa2ca591fe86f16ab835e3e961ac86b34e3",
+    "docs/reviews/S2_root_amendment_post.md": "1d735a2ad884e1cf030d2a401d1ca99e5cb171d110ea7984a88e85393f228db4",
+    "docs/reviews/S2_root_amendment_pre.md": "390fc081e801b4e83dc2ae8b5be9bff189395801a064744e58de997fc6d7d127",
+    "docs/reviews/S3_post.md": "68e988afc3eb9f24fc1debd3396615abb794a3ff1f3a8818afeb517ecccf5389",
+    "docs/reviews/S3_pre.md": "ff91c79909987609701543fa699909e207ebf368195fc6abd50b74a1bf278606",
+    "docs/reviews/S4_post.md": "c261007ddf90685a90c519782efff0ab6c1eb1e57178e4f9f362b5d556434162",
+    "docs/reviews/S4_pre.md": "647417d3a0b0b93304ae194c827b661e36719f91959475cb135f79ee59dedf65",
+    "docs/reviews/S5_post.md": "8d316b75950d2fd110471c692dd691d92567a6c86562246541325b830456b2a1",
+    "docs/reviews/S5_pre.md": "7eb9a0d6a282cdf95471405c4804962b323af3db4f99f044063117b18315bf62",
+    "docs/reviews/S6_post.md": "0f0281610a9dc1777ce90c633fffb7151ebf4c65ead6592fb0bfff9c0358f8db",
+    "docs/reviews/S6_pre.md": "54d96d7613175705d7ed0a6fa350e45e3b3e20c03ff0e8397be1256908282586",
+    "evidence/S1_kinetics_init.json": "3c7ed1df29093ba5f51f85aa9ff6e3150ec0b8b5a88dda8c38a0890dec184032",
+    "evidence/S2_pose_pipeline.json": "ffad068976c28c48153bc3ed3499a1ecc7170a1fe0339bedc27a6f72dde3c1a5",
+    "evidence/S4_training_smoke.json": "37b6d96dc69d2fc461034a9d7b9144910c30f9cb22cb4bf826b41f8efe15ab66",
+    "evidence/S5_how2sign_smoke.json": "d7b628ae97d87e3f99397edd0c58f2c4bd094ab665218db479f0c4d8c647acd9",
+    "evidence/S5_rgb_smoke.json": "f9ae5852e42dd298b4f084ca4d20772f5aa16219ea33729a520061c3e28aad68",
+    "evidence/S5_sign2gpt_smoke.json": "b5ff2e5da1955708ca5f8e8a5482d47e69959235e0796c3ad078c4cd69efbdd2",
+    "evidence/S6_cli_smoke.json": "7a9a36175d0755212834ef64657213cf60696ff0d661f62d11dabe2a34f1c536",
+    "evidence/S6_recognition_eval.json": "f185e6acb5f8e55450f1434a36fce9fdb85a04d8de96c5ec369b600d0d34f7e0",
+    "evidence/S6_sign2gpt_inspect.json": "23be0b56debfc223ead59e2dbe2825b88ba9737a17e43b1bf45d82ce874d8438",
+    "evidence/all_pytest.txt": "3796ca74e42395c1851d5309bce4779d0e0faac92082bf453309288aa95af119",
+    "evidence/checkpoint_target_diagnostic.json": "8445b66683535e330260524c2866fb43319fbac85f77fdfc42c6b52d2d36d410",
+    "evidence/source_verification.json": "50fdd1540234dc8caf938ef6d71c854f17ae9bd5d9ae54953eb1157658df3760",
+    "runtime/cli_smoke/train/run_contract.json": "ab28f6525215b7c5639f74d17b0210725347fefb8ff0ef1d2ea452eaca11051c"
+  },
+  "full_500000_step_YT_SL_run": "NOT_RUN",
+  "paper_benchmark_scores": "NOT_REPRODUCED",
+  "historical_equivalence": "UNVERIFIED: U01-U10 remain explicitly documented",
+  "technical_data": "Small real ASL-Citizen clips; synthetic evaluation labels and translation text"
+}
