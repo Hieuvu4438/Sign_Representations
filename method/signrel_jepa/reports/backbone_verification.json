@@ -1,0 +1,33 @@
+{
+  "family": "vjepa2_1",
+  "architecture": "vit_base",
+  "pretrained": true,
+  "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+  "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+  "checkpoint_key": "ema_encoder",
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "dropped_keys": [],
+  "normalization": "ImageNet RGB mean/std",
+  "patch": 16,
+  "tubelet": 2,
+  "crop_size": 384,
+  "num_frames": 16,
+  "full_shape": [
+    1,
+    4608,
+    768
+  ],
+  "grid": [
+    8,
+    24,
+    24
+  ],
+  "masked_shape": [
+    1,
+    2304,
+    768
+  ],
+  "finite": true,
+  "peak_gpu_mb": 648.87109375
+}

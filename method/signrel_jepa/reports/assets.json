@@ -1,0 +1,35 @@
+{
+  "vjepa2_commit": "204698b45b3712590f06245fbfba32d3be539812",
+  "assets": {
+    "backbone": {
+      "url": "https://dl.fbaipublicfiles.com/vjepa2/vjepa2_1_vitb_dist_vitG_384.pt",
+      "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/vjepa2_1_vitb_dist_vitG_384.pt",
+      "sha256": "848a77c33cc9e6649ed2119c9bea1e2c569bcdab9539ff3e7c02ccc2959ddf4d",
+      "bytes": 1664223428
+    },
+    "pose": {
+      "url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task",
+      "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/pose_landmarker_lite.task",
+      "sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a",
+      "bytes": 5777746
+    },
+    "hand": {
+      "url": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+      "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/hand_landmarker.task",
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "bytes": 7819105
+    },
+    "face": {
+      "url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+      "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/face_landmarker.task",
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+      "bytes": 3758596
+    },
+    "wlasl": {
+      "url": "https://raw.githubusercontent.com/dxli94/WLASL/ac00e6be631c1a2a486621b65f202219f3964d6b/start_kit/WLASL_v0.3.json",
+      "path": "/home/haipd/Sign_Representations/method/signrel_jepa/assets/WLASL_v0.3.json",
+      "sha256": "31ba5a5c421bdbff87494ee22ca6d4e276a8dfac44f43cc9a58b76ed1c4cd684",
+      "bytes": 11932637
+    }
+  }
+}

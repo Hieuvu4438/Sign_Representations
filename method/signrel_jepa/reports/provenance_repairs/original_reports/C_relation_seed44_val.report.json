@@ -1,0 +1,35 @@
+{
+  "arguments": {
+    "checkpoint": "runs/controlled_pilot/C_relation_seed44/checkpoints/latest.pt",
+    "config": null,
+    "manifest": "manifests/eval_pilot/asl_citizen_val.jsonl",
+    "out": "features/controlled_pilot/C_relation_seed44_val.npz",
+    "device": "cuda",
+    "precision": "bf16",
+    "windows": 1,
+    "limit": null,
+    "baseline": "signrel",
+    "signrep_repo": "../../third_party/SignRep",
+    "signrep_checkpoint": "../../checkpoints/signrep/ckpt.pt"
+  },
+  "manifest_sha256": "33baccd1ba6724e3ff73c058bb58ea50ab61a184f5ea26d6a6e6525d2e11be17",
+  "checkpoint_sha256": "23ec45015eba953ad7071847702a1d98436cea4f9dae69a7713c7ae50bae589c",
+  "upstream_init": {
+    "family": "vjepa2_1",
+    "architecture": "vit_base",
+    "pretrained": false,
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812"
+  },
+  "total_rows": 80,
+  "retained_rows": 80,
+  "errors": [],
+  "shape": [
+    80,
+    768
+  ],
+  "rgb_only": true,
+  "pooling": "mean tokens, LayerNorm, L2; mean normalized window embeddings, L2",
+  "num_frames": 16,
+  "crop_size": 384,
+  "seed": 44
+}

@@ -1,0 +1,9 @@
+{
+  "steps": 8,
+  "split_step": 4,
+  "max_tensor_error": 0.0,
+  "tensors_compared": 221,
+  "real_video": true,
+  "seeded_augmentation": true,
+  "checkpoint_contract_match": true
+}

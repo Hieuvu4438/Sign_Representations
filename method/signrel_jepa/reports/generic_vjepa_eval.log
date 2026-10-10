@@ -1,0 +1,7 @@
+/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+{"Recall@1": 0.05, "Recall@5": 0.25, "mAP_instance": 0.07566674927390196, "DCG_class": 0.33080716416243605, "class_macro_Recall@1": 0.05, "queries_total": 80, "queries_evaluated": 80, "queries_without_positive": 0, "skipped_sample_ids": [], "gallery_size": 160, "gallery_classes": 40, "ranking": "class_max_cosine", "ap_protocol": "all eligible gallery instances; no class-max aggregation", "same_signer_excluded": true}

@@ -1,0 +1,9 @@
+{
+  "steps": 8,
+  "split_step": 4,
+  "max_tensor_error": 0.0,
+  "tensors_compared": 221,
+  "source_hash": "0fe5684ff8e302971da9584c1f4f7bd5c11f073cb3e95bd1d44ed738bb14aaf2",
+  "seeded_augmentation": true,
+  "real_video": true
+}

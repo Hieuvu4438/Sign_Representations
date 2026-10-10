@@ -1,0 +1,75 @@
+{
+  "arguments": {
+    "checkpoint": "runs/controlled_pilot/C_relation_seed42/checkpoints/latest.pt",
+    "manifest": "manifests/how2sign_mvp_ready_v2.jsonl",
+    "limit": 95,
+    "device": "cuda",
+    "out": "reports/target_diagnostics/C_relation_seed42_teacher.json"
+  },
+  "manifest_sha256": "f8debdd61ae1ff418ee7f7f372ef1e95e0e5b87eb4c76f3658a1d04bdb1a3f20",
+  "checkpoint_sha256": "f18a68939b3fb53c7c4d60cf65d9ba2800d567a320d9be0df788b4b48d96cea6",
+  "source_sha256": "58b678b3a0696df7f35dce4ca590fc394b6d8c807a1ed26aabbb47e29fed21d3",
+  "cache": "features/target_diagnostics/C_relation_seed42_teacher.npz",
+  "cache_sha256": "53a19af38ee14f90ed2f77dab34a7fcf6728e607b91383418a44b6b39a24bf8d",
+  "clips": 95,
+  "per_edge": {
+    "0_1": {
+      "status": "evaluated",
+      "valid_queries": 702,
+      "mean_per_dimension_std": 0.07577168941497803,
+      "centered_energy_fraction": 0.006603622429890019,
+      "leave_one_clip_out_constant_L1": 0.059661779552698135,
+      "leave_one_clip_out_constant_cosine_loss": 0.0033445595763623714,
+      "mismatched_endpoint_queries": 684,
+      "mismatched_endpoint_cosine": 0.9978343844413757,
+      "mismatched_endpoint_centered_cosine": 0.5918412804603577
+    },
+    "0_2": {
+      "status": "evaluated",
+      "valid_queries": 720,
+      "mean_per_dimension_std": 0.05902167782187462,
+      "centered_energy_fraction": 0.003936060566183565,
+      "leave_one_clip_out_constant_L1": 0.04661277309060097,
+      "leave_one_clip_out_constant_cosine_loss": 0.001992087345570326,
+      "mismatched_endpoint_queries": 720,
+      "mismatched_endpoint_cosine": 0.9989188313484192,
+      "mismatched_endpoint_centered_cosine": 0.6769738793373108
+    },
+    "1_2": {
+      "status": "evaluated",
+      "valid_queries": 738,
+      "mean_per_dimension_std": 0.058917317539453506,
+      "centered_energy_fraction": 0.003930036096836352,
+      "leave_one_clip_out_constant_L1": 0.046459656208753586,
+      "leave_one_clip_out_constant_cosine_loss": 0.001987287774682045,
+      "mismatched_endpoint_queries": 738,
+      "mismatched_endpoint_cosine": 0.9988919496536255,
+      "mismatched_endpoint_centered_cosine": 0.6676614284515381
+    },
+    "0_3": {
+      "status": "evaluated",
+      "valid_queries": 720,
+      "mean_per_dimension_std": 0.060727447271347046,
+      "centered_energy_fraction": 0.004245065156101225,
+      "leave_one_clip_out_constant_L1": 0.04821949079632759,
+      "leave_one_clip_out_constant_cosine_loss": 0.002150566317141056,
+      "mismatched_endpoint_queries": 720,
+      "mismatched_endpoint_cosine": 0.9990872144699097,
+      "mismatched_endpoint_centered_cosine": 0.7390944361686707
+    },
+    "1_3": {
+      "status": "evaluated",
+      "valid_queries": 738,
+      "mean_per_dimension_std": 0.05973254516720772,
+      "centered_energy_fraction": 0.0041016681633385356,
+      "leave_one_clip_out_constant_L1": 0.047133173793554306,
+      "leave_one_clip_out_constant_cosine_loss": 0.002076663076877594,
+      "mismatched_endpoint_queries": 738,
+      "mismatched_endpoint_cosine": 0.9990575313568115,
+      "mismatched_endpoint_centered_cosine": 0.7244814038276672
+    }
+  },
+  "target_normalization": "LayerNorm per vector, matching latent objective",
+  "protocol": "Fixed center RGB clips and restored EMA teacher/projector; leave-one-clip-out constant by edge; cyclic cross-clip second-endpoint donor",
+  "interpretation": "High raw cosine can reflect a shared mean. Centered cosine and residual energy measure sensitivity beyond that mean. Diagnostic losses are not directly comparable to masked, augmented training batches."
+}

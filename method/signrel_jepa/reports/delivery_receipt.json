@@ -1,0 +1,53 @@
+{
+  "time_utc": "2026-10-06T09:19:41.629570+00:00",
+  "delivery": "engineering MVP and specification section 45 controlled scientific comparison complete",
+  "method_root": "/home/haipd/Sign_Representations/method/signrel_jepa",
+  "final_source_hash": "8a29bcb631ac9f73b08ef3bc128790498d57a35df02e253d4a547191a0a71734",
+  "pilot_source_hash": "0fe5684ff8e302971da9584c1f4f7bd5c11f073cb3e95bd1d44ed738bb14aaf2",
+  "controlled_runs": 12,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "steps_per_run": 200,
+  "scientific_conclusion": "relation_benefit_not_supported_by_this_pilot",
+  "phase2_training_started": false,
+  "optional_follow_on_scope": [
+    "serious-paper ablations",
+    "full-corpus training after a validated gate",
+    "licensed Sem-Lex/NMFs-CSL access",
+    "fair SHuBERT stream protocol"
+  ],
+  "checks": [
+    "source matches authoritative final-source evidence",
+    "12 complete runs and both split audits",
+    "zero resume tensor error",
+    "actual pretrained hidden-pixel invariance",
+    "41 production pytest cases",
+    "documentation links exist"
+  ],
+  "proof_sha256": {
+    "README.md": "6235f238b5d0f346f122b9ead404c8607d7e3a81aa11443cbbafbe8fbc976e9e",
+    "REPORT.md": "3402faf23c5e11ef32e8c598d28c575780c4d7272f6c9dc7f0d1ecea283666f4",
+    "IMPLEMENTATION_STATUS.md": "c89c8dac69dc71d416be2a704408e2fdd1b430b34810fb953d57faac29a1df4a",
+    "ABLATIONS.md": "dcfdcf4efae1eaa99b64bfcd1f477aecc62605d577cc0e55c1dfa6e6c772c401",
+    "DATASETS.md": "278955feb6f740ff427263eca3d32ac10cd110dff52883758f139b53f9e5b679",
+    "requirements.lock.txt": "3dec73eda09c571ecb376fa816f10861b20275cd3f23af98065c550db4ae65b7",
+    "reports/pytest_final.log": "a251c68f17f37eee0b351630b91cffa70ab04fec3103cf99c9f02d88414eb80a",
+    "reports/final_source_resume.json": "70631da6927f8537b48f30d5695bde85915733bee89ea1a363192b463976cb66",
+    "reports/final_source_ddp_verified.json": "f8bffc669f7e93dc6a976cf2f7b671421725130c9c96193270b5c5c9d5776e4a",
+    "reports/pretrained_mask_invariance.json": "93998fbb14ba4f47c37453d8586f79074862a43a8bb9226264b87b2d8d79859e",
+    "reports/ddp_empty_query_loss.json": "46bb0727492a11eab18907971a0e2f910d86f4e70b0b472fca5c0f041da7e047",
+    "reports/controlled_pilot/status.json": "6913c6fd363eecf1cddfc0a46c5c3e399ff9147d39250121ce1b3f63b8357a6b",
+    "reports/controlled_pilot/summary_val.json": "e047cc1f716a9b03c5d8e51d171e6a683606db19fd4792bf590b5f3832380963",
+    "reports/controlled_pilot/summary_test.json": "72f7a8ee7ef6a01cda3f50172c8bc5ee70bb3b58ffc2b227c129d2bdaf9bf62e",
+    "reports/provenance_repairs/summary.json": "69c4d9804ab36c6e603dcbc4fd6faee408791c483099ff88ef8e0531457526a4",
+    "reports/post_suite_integration.json": "01bada63436b0514164effa3254b1e463be4fde515f4a89aec298e1b05bec2ec"
+  },
+  "write_scope": "new method folder; existing datasets and external tracked source used as inputs; existing unrelated root Git changes preserved",
+  "upstream_tracked_status": {
+    "SignRep": "clean",
+    "vjepa2": "clean"
+  }
+}

@@ -1,0 +1,34 @@
+{"command": ["scripts/extract_features.py", "--config", "configs/pretrain/jepa_baseline.yaml", "--manifest", "manifests/eval_pilot/asl_citizen_test.jsonl", "--out", "features/generic_vjepa_aslc_test.npz"]}
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/haipd/miniconda3/lib/python3.13/contextlib.py:109: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+{"processed": 1, "total": 80, "retained": 1, "errors": 0}
+{"processed": 20, "total": 80, "retained": 20, "errors": 0}
+{"processed": 40, "total": 80, "retained": 40, "errors": 0}
+{"processed": 60, "total": 80, "retained": 60, "errors": 0}
+{"processed": 80, "total": 80, "retained": 80, "errors": 0}
+{"command": ["scripts/evaluate_all.py", "--features", "features/generic_vjepa_aslc_test.npz", "--gallery", "features/generic_vjepa_aslc_train.npz", "--config", "configs/eval/retrieval_asl_citizen.yaml", "--out", "reports/generic_vjepa_aslc_test.json"]}
+/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+{"Recall@1": 0.0625, "Recall@5": 0.2, "mAP_instance": 0.07093154970706092, "DCG_class": 0.33322362483254586, "class_macro_Recall@1": 0.0625, "queries_total": 80, "queries_evaluated": 80, "queries_without_positive": 0, "skipped_sample_ids": [], "gallery_size": 160, "gallery_classes": 40, "ranking": "class_max_cosine", "ap_protocol": "all eligible gallery instances; no class-max aggregation", "same_signer_excluded": true}
+{"command": ["scripts/extract_features.py", "--baseline", "signrep", "--manifest", "manifests/eval_pilot/asl_citizen_test.jsonl", "--out", "features/signrep_aslc_test.npz"]}
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+{"processed": 1, "total": 80, "retained": 1, "errors": 0}
+{"processed": 20, "total": 80, "retained": 20, "errors": 0}
+{"processed": 40, "total": 80, "retained": 40, "errors": 0}
+{"processed": 60, "total": 80, "retained": 60, "errors": 0}
+{"processed": 80, "total": 80, "retained": 80, "errors": 0}
+{"command": ["scripts/evaluate_all.py", "--features", "features/signrep_aslc_test.npz", "--gallery", "features/signrep_aslc_train.npz", "--config", "configs/eval/retrieval_asl_citizen.yaml", "--out", "reports/signrep_aslc_test.json"]}
+/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/haipd/miniconda3/lib/python3.13/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+{"Recall@1": 0.5875, "Recall@5": 0.8125, "mAP_instance": 0.46880356684377605, "DCG_class": 0.7626974761657649, "class_macro_Recall@1": 0.5875, "queries_total": 80, "queries_evaluated": 80, "queries_without_positive": 0, "skipped_sample_ids": [], "gallery_size": 160, "gallery_classes": 40, "ranking": "class_max_cosine", "ap_protocol": "all eligible gallery instances; no class-max aggregation", "same_signer_excluded": true}

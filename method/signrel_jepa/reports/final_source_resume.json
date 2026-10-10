@@ -1,0 +1,18 @@
+{
+  "source_hash": "8a29bcb631ac9f73b08ef3bc128790498d57a35df02e253d4a547191a0a71734",
+  "global_steps": 8,
+  "split_step": 4,
+  "model_tensors": 221,
+  "maximum_resume_error": 0.0,
+  "best_step": 4,
+  "best_evaluation": {
+    "global_step": 4,
+    "selection_metric": "retrieval.Recall@1",
+    "selection_value": 0.25,
+    "report": "runs/debug_final_source_full/evaluation/step_00000004/report.json",
+    "report_sha256": "b662e9742028c45cb26798920b31b3520ced72067f43b7262865197aaa5a0dcc",
+    "encoder_tensor_sha256": "604f46b8c3813895e10b0b58c014037557a2ddc9134619bfd0dce560ad592264"
+  },
+  "evaluation_events": 2,
+  "scope": "Final source after study-artifact isolation fix; real RGB and periodic frozen validation"
+}

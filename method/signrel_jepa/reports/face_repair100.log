@@ -1,0 +1,111 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791272840.468067 3441475 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791272841.180291 3441475 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1791272842.011903 3441552 face_landmarker_graph.cc:174] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+I0000 00:00:1791272842.042949 3441552 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791272842.080518 3441578 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791272842.105895 3441563 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791272842.114356 3441565 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+{"completed": 1, "total": 100, "sample_id": "how2sign:-1PeVdIwiq0_17-8-rgb_front", "valid_fraction": [0.925, 0.9875, 1.0, 1.0]}
+{"completed": 2, "total": 100, "sample_id": "how2sign:-AZVqXtWGg0_20-8-rgb_front", "valid_fraction": [0.9333333333333333, 0.85, 1.0, 1.0]}
+{"completed": 3, "total": 100, "sample_id": "how2sign:-Ajh5HDqsi4_7-8-rgb_front", "valid_fraction": [0.9179954441913439, 0.9043280182232346, 1.0, 1.0]}
+{"completed": 4, "total": 100, "sample_id": "how2sign:-BKq3iOBB9k_5-3-rgb_front", "valid_fraction": [0.9811320754716981, 1.0, 1.0, 1.0]}
+{"completed": 5, "total": 100, "sample_id": "how2sign:-Bz0BNwqAE4_5-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 6, "total": 100, "sample_id": "how2sign:-aEP1MfoUSU_11-8-rgb_front", "valid_fraction": [0.9420289855072463, 0.9637681159420289, 1.0, 1.0]}
+{"completed": 7, "total": 100, "sample_id": "how2sign:-b4_y6LOSx0_12-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 8, "total": 100, "sample_id": "how2sign:0-bR2rq-qps_7-5-rgb_front", "valid_fraction": [0.9488372093023256, 0.9534883720930233, 1.0, 1.0]}
+{"completed": 9, "total": 100, "sample_id": "how2sign:01j1UveqztE_7-3-rgb_front", "valid_fraction": [0.9925925925925926, 1.0, 1.0, 1.0]}
+{"completed": 10, "total": 100, "sample_id": "how2sign:01ucR6XreJw_11-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 11, "total": 100, "sample_id": "how2sign:038vE9JsU9I_4-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 12, "total": 100, "sample_id": "how2sign:04VKILduLSM_4-8-rgb_front", "valid_fraction": [1.0, 0.9415584415584416, 1.0, 1.0]}
+{"completed": 13, "total": 100, "sample_id": "how2sign:04hnjLKHh2g_9-5-rgb_front", "valid_fraction": [0.9523809523809523, 1.0, 1.0, 1.0]}
+{"completed": 14, "total": 100, "sample_id": "how2sign:06Yvm4X81WI_11-5-rgb_front", "valid_fraction": [0.7892857142857143, 0.7571428571428571, 1.0, 1.0]}
+{"completed": 15, "total": 100, "sample_id": "how2sign:077rQK39ycg_2-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 16, "total": 100, "sample_id": "how2sign:07EGkSiMsL0_20-5-rgb_front", "valid_fraction": [1.0, 0.9532163742690059, 1.0, 1.0]}
+{"completed": 17, "total": 100, "sample_id": "how2sign:07HhpnroTXs_0-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 18, "total": 100, "sample_id": "how2sign:09cQe0gC2-0_3_4-8-rgb_front", "valid_fraction": [0.9662447257383966, 0.9704641350210971, 1.0, 1.0]}
+{"completed": 19, "total": 100, "sample_id": "how2sign:0EXgSf1yN-0_3-8-rgb_front", "valid_fraction": [0.72, 0.6133333333333333, 1.0, 1.0]}
+{"completed": 20, "total": 100, "sample_id": "how2sign:0ICZi26jdaQ_5-5-rgb_front", "valid_fraction": [1.0, 0.978021978021978, 1.0, 1.0]}
+{"completed": 21, "total": 100, "sample_id": "how2sign:0sal9F4RXeY_10-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 22, "total": 100, "sample_id": "how2sign:0t94zPbIPTw_7-8-rgb_front", "valid_fraction": [0.9767441860465116, 0.9813953488372092, 1.0, 1.0]}
+{"completed": 23, "total": 100, "sample_id": "how2sign:0trr2UC5l5M_10-11-rgb_front", "valid_fraction": [1.0, 0.9696969696969697, 1.0, 1.0]}
+{"completed": 24, "total": 100, "sample_id": "how2sign:10d1oeViKYw_8-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 25, "total": 100, "sample_id": "how2sign:11oEwlBqF2M_6-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 26, "total": 100, "sample_id": "how2sign:14ZYG0hU6G8_2-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 27, "total": 100, "sample_id": "how2sign:14z8c3QqV0E_4-8-rgb_front", "valid_fraction": [0.9271523178807947, 0.9403973509933775, 1.0, 1.0]}
+{"completed": 28, "total": 100, "sample_id": "how2sign:15bYoBr7BWs_46-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 29, "total": 100, "sample_id": "how2sign:163ylBUtKlI_6-8-rgb_front", "valid_fraction": [0.9953917050691244, 1.0, 1.0, 1.0]}
+{"completed": 30, "total": 100, "sample_id": "how2sign:16iJ0z4FUqc_8-8-rgb_front", "valid_fraction": [0.7391304347826086, 0.8043478260869565, 1.0, 1.0]}
+{"completed": 31, "total": 100, "sample_id": "how2sign:17ijcOW43Q8_7-8-rgb_front", "valid_fraction": [0.9649122807017544, 0.9824561403508771, 1.0, 1.0]}
+{"completed": 32, "total": 100, "sample_id": "how2sign:18PiUlfjLEQ_7-2-rgb_front", "valid_fraction": [0.9161490683229814, 0.9627329192546584, 1.0, 1.0]}
+{"completed": 33, "total": 100, "sample_id": "how2sign:18YQlS_nliI_3-8-rgb_front", "valid_fraction": [0.9910714285714286, 0.9642857142857143, 1.0, 1.0]}
+{"completed": 34, "total": 100, "sample_id": "how2sign:1CjA3Xzvd0k_5-5-rgb_front", "valid_fraction": [0.5550847457627118, 0.7288135593220338, 1.0, 0.8940677966101694]}
+{"completed": 35, "total": 100, "sample_id": "how2sign:1FStJdud1lQ_21-5-rgb_front", "valid_fraction": [0.8826086956521739, 0.9565217391304348, 1.0, 1.0]}
+{"completed": 36, "total": 100, "sample_id": "how2sign:1KKlZKlWdTM_0-5-rgb_front", "valid_fraction": [0.9948453608247423, 0.8402061855670103, 1.0, 1.0]}
+{"completed": 37, "total": 100, "sample_id": "how2sign:1LaWSGs87gA_14-5-rgb_front", "valid_fraction": [0.8722466960352423, 0.7709251101321586, 1.0, 1.0]}
+{"completed": 38, "total": 100, "sample_id": "how2sign:1LaWSGs87gA_3-5-rgb_front", "valid_fraction": [0.8166666666666667, 0.9388888888888889, 1.0, 1.0]}
+{"completed": 39, "total": 100, "sample_id": "how2sign:1LgVgklOYCQ_0-5-rgb_front", "valid_fraction": [0.620253164556962, 0.8776371308016878, 1.0, 1.0]}
+{"completed": 40, "total": 100, "sample_id": "how2sign:1PO6_voQXoc_7-8-rgb_front", "valid_fraction": [0.9523809523809523, 1.0, 1.0, 1.0]}
+{"completed": 41, "total": 100, "sample_id": "how2sign:1Q2BYTlbdiE_23-8-rgb_front", "valid_fraction": [0.9811320754716981, 0.8301886792452831, 1.0, 1.0]}
+{"completed": 42, "total": 100, "sample_id": "how2sign:1Yp-xuljnDM_6-8-rgb_front", "valid_fraction": [0.8421052631578947, 0.7894736842105263, 1.0, 1.0]}
+{"completed": 43, "total": 100, "sample_id": "how2sign:1_N0Aq04tRA_11-8-rgb_front", "valid_fraction": [0.9841269841269841, 0.8492063492063492, 1.0, 1.0]}
+{"completed": 44, "total": 100, "sample_id": "how2sign:1aRNY8wFqa0_28-8-rgb_front", "valid_fraction": [1.0, 0.2682926829268293, 1.0, 1.0]}
+{"completed": 45, "total": 100, "sample_id": "how2sign:1cbTN8a73zo_15-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 46, "total": 100, "sample_id": "how2sign:1dFd3NYkINQ_1-8-rgb_front", "valid_fraction": [0.8, 0.7846153846153846, 1.0, 1.0]}
+{"completed": 47, "total": 100, "sample_id": "how2sign:1e2wDf5R_zk_1-8-rgb_front", "valid_fraction": [0.9675925925925926, 0.9583333333333334, 1.0, 1.0]}
+{"completed": 48, "total": 100, "sample_id": "how2sign:1ei1kVTw23A_14-8-rgb_front", "valid_fraction": [0.5121951219512195, 0.926829268292683, 1.0, 1.0]}
+{"completed": 49, "total": 100, "sample_id": "how2sign:1fdMM1LuAsY_3-8-rgb_front", "valid_fraction": [0.7412587412587412, 1.0, 1.0, 1.0]}
+{"completed": 50, "total": 100, "sample_id": "how2sign:1gycdY2pcYc_2-11-rgb_front", "valid_fraction": [0.979498861047836, 1.0, 1.0, 1.0]}
+{"completed": 51, "total": 100, "sample_id": "how2sign:1h3mvQDZnBw_11-8-rgb_front", "valid_fraction": [0.881578947368421, 1.0, 1.0, 1.0]}
+{"completed": 52, "total": 100, "sample_id": "how2sign:1h3mvQDZnBw_17-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 53, "total": 100, "sample_id": "how2sign:1ptcPCWBvBc_5-8-rgb_front", "valid_fraction": [0.9090909090909091, 0.8838383838383839, 1.0, 1.0]}
+{"completed": 54, "total": 100, "sample_id": "how2sign:1qNsErmkIiU_5-3-rgb_front", "valid_fraction": [0.9428571428571428, 1.0, 1.0, 1.0]}
+{"completed": 55, "total": 100, "sample_id": "how2sign:1qYHdB1eWQc_12-8-rgb_front", "valid_fraction": [1.0, 0.720754716981132, 1.0, 1.0]}
+{"completed": 56, "total": 100, "sample_id": "how2sign:2-zlrJXlOGA_5-8-rgb_front", "valid_fraction": [0.9257142857142857, 0.9085714285714286, 1.0, 1.0]}
+{"completed": 57, "total": 100, "sample_id": "how2sign:21BHzn_li1s_9-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 58, "total": 100, "sample_id": "how2sign:23GbjIU50qw_18-8-rgb_front", "valid_fraction": [0.7767857142857143, 0.9017857142857143, 1.0, 1.0]}
+{"completed": 59, "total": 100, "sample_id": "how2sign:3GgkyZLNZkA_10-2-rgb_front", "valid_fraction": [0.9891304347826086, 0.8478260869565217, 1.0, 1.0]}
+{"completed": 60, "total": 100, "sample_id": "how2sign:40dTE31p5uA_2-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 61, "total": 100, "sample_id": "how2sign:47oJoR2BC34_6-8-rgb_front", "valid_fraction": [1.0, 0.9483870967741935, 1.0, 1.0]}
+{"completed": 62, "total": 100, "sample_id": "how2sign:484PoKla0ug_16-1-rgb_front", "valid_fraction": [0.9226804123711341, 0.9587628865979382, 1.0, 1.0]}
+{"completed": 63, "total": 100, "sample_id": "how2sign:4ChFh4LdxVg_8-8-rgb_front", "valid_fraction": [0.9428571428571428, 1.0, 1.0, 1.0]}
+{"completed": 64, "total": 100, "sample_id": "how2sign:4UlmDZi98fk_13-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 65, "total": 100, "sample_id": "how2sign:5VkXcJblh4o_3-8-rgb_front", "valid_fraction": [0.9382716049382716, 1.0, 1.0, 1.0]}
+{"completed": 66, "total": 100, "sample_id": "how2sign:5sdZhVCmDJ4_5-4-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 67, "total": 100, "sample_id": "how2sign:5vSvXTHeD5I_2-8-rgb_front", "valid_fraction": [0.9369369369369369, 1.0, 1.0, 1.0]}
+{"completed": 68, "total": 100, "sample_id": "how2sign:BRBt1zOfZnc_9-3-rgb_front", "valid_fraction": [1.0, 0.88, 1.0, 1.0]}
+{"completed": 69, "total": 100, "sample_id": "how2sign:BUrqXtTa46Y_5-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 70, "total": 100, "sample_id": "how2sign:BubKD1vPvvQ_2-11-rgb_front", "valid_fraction": [0.9230769230769231, 0.9585798816568047, 1.0, 1.0]}
+{"completed": 71, "total": 100, "sample_id": "how2sign:CJ8RyW9pzKU_7-8-rgb_front", "valid_fraction": [0.4634146341463415, 1.0, 1.0, 1.0]}
+{"completed": 72, "total": 100, "sample_id": "how2sign:CWIsQEHuVZ4_4-3-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 73, "total": 100, "sample_id": "how2sign:CerG8JKzDIE_15-8-rgb_front", "valid_fraction": [0.5333333333333333, 1.0, 1.0, 1.0]}
+{"completed": 74, "total": 100, "sample_id": "how2sign:CxT4a1Gtkjo_11-1-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 75, "total": 100, "sample_id": "how2sign:DE8YkWRpvYA_3-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 76, "total": 100, "sample_id": "how2sign:DcFCY1OFhCw_5-3-rgb_front", "valid_fraction": [0.9560439560439561, 0.989010989010989, 1.0, 1.0]}
+{"completed": 77, "total": 100, "sample_id": "how2sign:EA5TtaqpJ9w_18-4-rgb_front", "valid_fraction": [0.9310344827586207, 1.0, 1.0, 1.0]}
+{"completed": 78, "total": 100, "sample_id": "how2sign:EF4dlnqkJ3w_13-8-rgb_front", "valid_fraction": [0.8787878787878788, 1.0, 1.0, 1.0]}
+{"completed": 79, "total": 100, "sample_id": "how2sign:EMi4hyW42Fs_3-5-rgb_front", "valid_fraction": [0.8978723404255319, 1.0, 1.0, 1.0]}
+{"completed": 80, "total": 100, "sample_id": "how2sign:Ec9KthfKXXI_4-8-rgb_front", "valid_fraction": [1.0, 0.9727891156462585, 1.0, 1.0]}
+{"completed": 81, "total": 100, "sample_id": "how2sign:F0eCE9z6ENc_8-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 82, "total": 100, "sample_id": "how2sign:FGfPccy3juw_3-5-rgb_front", "valid_fraction": [0.7692307692307693, 0.7649572649572649, 1.0, 1.0]}
+{"completed": 83, "total": 100, "sample_id": "how2sign:FStKSCmBx00_12-4-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 84, "total": 100, "sample_id": "how2sign:FTuTLRq7014_8-8-rgb_front", "valid_fraction": [0.9700598802395209, 0.9520958083832335, 1.0, 1.0]}
+{"completed": 85, "total": 100, "sample_id": "how2sign:_FS9zbJi8qE_6-8-rgb_front", "valid_fraction": [0.5949367088607594, 1.0, 1.0, 0.9746835443037974]}
+{"completed": 86, "total": 100, "sample_id": "how2sign:a6xKFGeHX4A_15-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 87, "total": 100, "sample_id": "how2sign:aGITFRfpMJA_6-8-rgb_front", "valid_fraction": [0.7587548638132295, 0.6186770428015564, 1.0, 1.0]}
+{"completed": 88, "total": 100, "sample_id": "how2sign:bA53FmWDNPU_14-8-rgb_front", "valid_fraction": [1.0, 0.9325842696629213, 1.0, 1.0]}
+{"completed": 89, "total": 100, "sample_id": "how2sign:bAnA79gWZXI_8-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 90, "total": 100, "sample_id": "how2sign:bH1KCt78l7c_8-8-rgb_front", "valid_fraction": [0.8127962085308057, 0.9004739336492891, 1.0, 1.0]}
+{"completed": 91, "total": 100, "sample_id": "how2sign:bjQrRezhvQU_9-1-rgb_front", "valid_fraction": [0.9222614840989399, 1.0, 1.0, 1.0]}
+{"completed": 92, "total": 100, "sample_id": "how2sign:btSrRQAWN6k_6-4-rgb_front", "valid_fraction": [1.0, 0.9814814814814815, 1.0, 1.0]}
+{"completed": 93, "total": 100, "sample_id": "how2sign:c8qCeBSlaOw_12-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 94, "total": 100, "sample_id": "how2sign:cQBrXCcfDyc_36-5-rgb_front", "valid_fraction": [1.0, 0.9327731092436975, 1.0, 1.0]}
+{"completed": 95, "total": 100, "sample_id": "how2sign:cZhGkz4jNnk_6-8-rgb_front", "valid_fraction": [0.8709677419354839, 1.0, 1.0, 1.0]}
+{"completed": 96, "total": 100, "sample_id": "how2sign:celb3UJ9_Ko_0-8-rgb_front", "valid_fraction": [0.7529411764705882, 1.0, 1.0, 1.0]}
+{"completed": 97, "total": 100, "sample_id": "how2sign:clXjA4Ok8Bs_5-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 98, "total": 100, "sample_id": "how2sign:dR5U_NeNx18_4-5-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}
+{"completed": 99, "total": 100, "sample_id": "how2sign:dcN7W0lxTpE_27-8-rgb_front", "valid_fraction": [0.0, 0.02127659574468085, 1.0, 1.0]}
+{"completed": 100, "total": 100, "sample_id": "how2sign:e_S9g_NKlvY_5-8-rgb_front", "valid_fraction": [1.0, 1.0, 1.0, 1.0]}

@@ -1,0 +1,19 @@
+{
+  "implementation_stage": "pending source, isolated test process; not a controlled research run",
+  "trainer_candidate_sha256": "6932c4c3f88efe53188e678ccb3ad452a3918550fc8a87495dbac990484f1304",
+  "evaluator_candidate_sha256": "8fd7152da37c97f794d6d788f395ce22adbb67c33601881122e213de5cf625c2",
+  "full_latest_step": 4,
+  "resume_latest_step": 4,
+  "model_tensors": 221,
+  "maximum_resume_error": 0.0,
+  "best_step": 2,
+  "best_evaluation": {
+    "global_step": 2,
+    "selection_metric": "retrieval.Recall@1",
+    "selection_value": 0.25,
+    "report": "runs/debug_periodic_candidate_full/evaluation/step_00000002/report.json",
+    "report_sha256": "e70bc65cc4746fd4b374e32e4a0e0179478a987e441ae096471d39eff4f0fbf5",
+    "encoder_tensor_sha256": "c1d11272d627cc51a208f812c9ce2bbc4c6260e631ac2859e901830b2b75ccae"
+  },
+  "eval_events_full": 2
+}

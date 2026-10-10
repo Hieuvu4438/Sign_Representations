@@ -1,0 +1,168 @@
+{
+  "recipes": {
+    "graph_lh_rh": {
+      "family": "graph_face",
+      "path": "configs/ablations/graph_lh_rh.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "graph_hand_face": {
+      "family": "graph_face",
+      "path": "configs/ablations/graph_hand_face.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "graph_full": {
+      "family": "graph_face",
+      "path": "configs/ablations/graph_full.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "face_off": {
+      "family": "graph_face",
+      "path": "configs/ablations/face_off.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "projector_concat": {
+      "family": "projector",
+      "path": "configs/ablations/projector_concat.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "projector_concat_diff_product": {
+      "family": "projector",
+      "path": "configs/ablations/projector_concat_diff_product.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "loss_l1": {
+      "family": "loss",
+      "path": "configs/ablations/loss_l1.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "loss_smooth_l1": {
+      "family": "loss",
+      "path": "configs/ablations/loss_smooth_l1.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "loss_cosine": {
+      "family": "loss",
+      "path": "configs/ablations/loss_cosine.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "mask_random_multiblock": {
+      "family": "mask",
+      "path": "configs/ablations/mask_random_multiblock.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "mask_articulator": {
+      "family": "mask",
+      "path": "configs/ablations/mask_articulator.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "mask_relation_break": {
+      "family": "mask",
+      "path": "configs/ablations/mask_relation_break.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "mask_mixture": {
+      "family": "mask",
+      "path": "configs/ablations/mask_mixture.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "resolution_224": {
+      "family": "resolution",
+      "path": "configs/ablations/resolution_224.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "resolution_256": {
+      "family": "resolution",
+      "path": "configs/ablations/resolution_256.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "resolution_384": {
+      "family": "resolution",
+      "path": "configs/ablations/resolution_384.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "frames_16": {
+      "family": "frames",
+      "path": "configs/ablations/frames_16.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "frames_32": {
+      "family": "frames",
+      "path": "configs/ablations/frames_32.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "temporal_short": {
+      "family": "temporal",
+      "path": "configs/ablations/temporal_short.yaml",
+      "gate": "phase 2 only after reproducible single-scale frozen benefit and broader confirmation",
+      "status": "recipe_only"
+    },
+    "temporal_short_medium": {
+      "family": "temporal",
+      "path": "configs/ablations/temporal_short_medium.yaml",
+      "gate": "phase 2 only after reproducible single-scale frozen benefit and broader confirmation",
+      "status": "recipe_only"
+    },
+    "temporal_short_medium_long": {
+      "family": "temporal",
+      "path": "configs/ablations/temporal_short_medium_long.yaml",
+      "gate": "phase 2 only after reproducible single-scale frozen benefit and broader confirmation",
+      "status": "recipe_only"
+    },
+    "regularization_false": {
+      "family": "regularization",
+      "path": "configs/ablations/regularization_false.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "regularization_true": {
+      "family": "regularization",
+      "path": "configs/ablations/regularization_true.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "rgb_without_landmarks": {
+      "family": "pose_dependency",
+      "path": "configs/ablations/rgb_without_landmarks.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "random_vitb": {
+      "family": "initialization",
+      "path": "configs/ablations/random_vitb.yaml",
+      "gate": "single-scale diagnostic after fixed MVP audit",
+      "status": "recipe_only"
+    },
+    "both_endpoints_node": {
+      "family": "stronger_relation_masks",
+      "path": "configs/ablations/both_endpoints_node.yaml",
+      "gate": "failure-mode diagnostic after fixed MVP audit",
+      "status": "recipe_only; structural feasibility verified, no training result"
+    },
+    "both_endpoints_combined": {
+      "family": "stronger_relation_masks",
+      "path": "configs/ablations/both_endpoints_combined.yaml",
+      "gate": "failure-mode diagnostic after fixed MVP audit",
+      "status": "recipe_only; structural feasibility verified, no training result"
+    }
+  },
+  "count": 27,
+  "scientific_status": "Recipes only. No result, recipe tuning, multi-scale or scale-up is authorized by this inventory."
+}

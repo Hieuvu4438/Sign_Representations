@@ -1,0 +1,104 @@
+{
+  "original_suite_source_hash": "0fe5684ff8e302971da9584c1f4f7bd5c11f073cb3e95bd1d44ed738bb14aaf2",
+  "changes": [
+    {
+      "path": "scripts/diagnose_features.py",
+      "before_sha256": null,
+      "after_sha256": "efa12e0c9d7dff46063b44e0024d28bf1f708f09e582526aa538fd8c2771b8d5"
+    },
+    {
+      "path": "scripts/diagnose_localization.py",
+      "before_sha256": null,
+      "after_sha256": "f2277471b04ca498b40c986348f455b5bd34f53904afba1c429e25a90c0f7725"
+    },
+    {
+      "path": "scripts/diagnose_relation_targets.py",
+      "before_sha256": null,
+      "after_sha256": "58b678b3a0696df7f35dce4ca590fc394b6d8c807a1ed26aabbb47e29fed21d3"
+    },
+    {
+      "path": "scripts/evaluate_occlusion.py",
+      "before_sha256": null,
+      "after_sha256": "fb1741964ea81c6aa2ad4e970e50ee48a5ef0967fa39fc4d017c00dafc73de7e"
+    },
+    {
+      "path": "scripts/extract_features.py",
+      "before_sha256": "fa9a61b5fec495162f06af3bc52b648c34f760b1d67781c135ec66639b115b23",
+      "after_sha256": "b8173e3759a97d0a66ecd6749d9b7de246f385ca4ab08a8a0da76d8435d8b920"
+    },
+    {
+      "path": "scripts/plot_pilot.py",
+      "before_sha256": null,
+      "after_sha256": "edb3dc92c896516b1b3d140323f547202dbadf6703c831c57658833e6747ba16"
+    },
+    {
+      "path": "scripts/repair_feature_provenance.py",
+      "before_sha256": null,
+      "after_sha256": "096a1eb77cc4a0b68885a08b129dcfa5522830f0446d7be29d3b70b428f2b11a"
+    },
+    {
+      "path": "scripts/summarize_controlled_pilot.py",
+      "before_sha256": "13ef01484ec2d393b619b0fd99e827e12b3f9c3caf1de8559270c3501f479ee3",
+      "after_sha256": "d332a502049d1d16c9b80ee37e1953a1fc702a695c50cd6de7f9095149f49cfe"
+    },
+    {
+      "path": "scripts/visualize_augmentation.py",
+      "before_sha256": null,
+      "after_sha256": "2ab9e913d4f9239db0dd7ac6d339be1f953e518e0a3a9633086a51687cca3659"
+    },
+    {
+      "path": "signrel/engine/train.py",
+      "before_sha256": "94c18abf748ea446ed5128b485888a3b66455f63b34a57ad17c7973cef640baf",
+      "after_sha256": "6932c4c3f88efe53188e678ccb3ad452a3918550fc8a87495dbac990484f1304"
+    },
+    {
+      "path": "signrel/eval/diagnostics.py",
+      "before_sha256": null,
+      "after_sha256": "ff5c14f74abe99e15bc4414b9d648e686347afbdfcc373a0d67fd15afd20ea93"
+    },
+    {
+      "path": "signrel/eval/extract.py",
+      "before_sha256": "33d5b507effc10a87c6871e72fa360a1a1da35b5c1bb5d17071f17ed72037efd",
+      "after_sha256": "c8b1ef710b8458b3a4c868dfb6aa5efd25caf45b98f039098c33f1eb685ceb06"
+    },
+    {
+      "path": "signrel/eval/frozen.py",
+      "before_sha256": null,
+      "after_sha256": "864a0a438ea71b03eb70cba37e4ce03ddd7d3e15b41c24736050ff5438341d48"
+    },
+    {
+      "path": "signrel/eval/localization.py",
+      "before_sha256": null,
+      "after_sha256": "b76e2af5c137531cbbb90e2c66ea111299de44d1a30e5afc7bcc3096b593cbf1"
+    },
+    {
+      "path": "signrel/eval/occlusion.py",
+      "before_sha256": null,
+      "after_sha256": "9ac4168ff522c828706ae56e780a56ef43e769c2ae7c772ec0b744f39c512e1b"
+    },
+    {
+      "path": "signrel/eval/pilot_summary.py",
+      "before_sha256": null,
+      "after_sha256": "34f3e70b369a322c787eb5e1c5a7515ea01afbad3b2dcec6c54740619108cea6"
+    },
+    {
+      "path": "signrel/masks/base.py",
+      "before_sha256": "55ee6e13dd8ae00ce8f0a958a13289695a949e5691655ad5c1bbc522be0077f0",
+      "after_sha256": "05a6e95dac0bbe8d059a858e276e4864d0aef86060b699a6fa5c25df6f5f6264"
+    }
+  ],
+  "suite_terminal_observation": {
+    "session_exit_code": 143,
+    "driver_process_absent": true,
+    "atomic_status": "complete",
+    "audited_runs": 12
+  },
+  "note": "Original training source is preserved in every run source.tar.gz; post-suite implementation changes do not alter trained artifacts",
+  "integration_source_hash": "08733b7d3af3d0b9ce3150e6b365770fc84594b30b37930c819be91a589be5ed",
+  "final_source_hash": "8a29bcb631ac9f73b08ef3bc128790498d57a35df02e253d4a547191a0a71734",
+  "post_integration_fixes": [
+    "global query reduction supports a rank with zero local queries",
+    "fresh studies derive distinct feature roots and refuse overwriting another study",
+    "training CLI seed override"
+  ]
+}

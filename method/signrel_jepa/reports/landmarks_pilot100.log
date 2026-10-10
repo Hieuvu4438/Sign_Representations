@@ -1,0 +1,120 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791271696.959192 3333983 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791271698.182638 3333983 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791271699.251106 3334107 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791271699.424748 3334133 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791271699.477362 3334112 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791271699.490021 3334124 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791271699.495724 3334136 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791271699.555701 3334162 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791271699.567163 3334142 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791271699.574316 3334147 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791271699.575390 3334163 face_landmarker_graph.cc:174] Sets FaceBlendshapesGraph acceleration to xnnpack by default.
+I0000 00:00:1791271699.578887 3334163 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+I0000 00:00:1791271699.614970 3334189 gl_context.cc:385] GL version: 3.2 (OpenGL ES 3.2 NVIDIA 570.195.03), renderer: NVIDIA RTX 5880 Ada Generation/PCIe/SSE2
+W0000 00:00:1791271699.616962 3334165 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791271699.626163 3334176 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791271699.695315 3334112 landmark_projection_calculator.cc:78] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+{"completed": 1, "total": 100, "sample_id": "how2sign:-1PeVdIwiq0_17-8-rgb_front"}
+{"completed": 2, "total": 100, "sample_id": "how2sign:-AZVqXtWGg0_20-8-rgb_front"}
+{"completed": 3, "total": 100, "sample_id": "how2sign:-Ajh5HDqsi4_7-8-rgb_front"}
+{"completed": 4, "total": 100, "sample_id": "how2sign:-BKq3iOBB9k_5-3-rgb_front"}
+{"completed": 5, "total": 100, "sample_id": "how2sign:-Bz0BNwqAE4_5-5-rgb_front"}
+{"completed": 6, "total": 100, "sample_id": "how2sign:-aEP1MfoUSU_11-8-rgb_front"}
+{"completed": 7, "total": 100, "sample_id": "how2sign:-b4_y6LOSx0_12-8-rgb_front"}
+{"completed": 8, "total": 100, "sample_id": "how2sign:0-bR2rq-qps_7-5-rgb_front"}
+{"completed": 9, "total": 100, "sample_id": "how2sign:01j1UveqztE_7-3-rgb_front"}
+{"completed": 10, "total": 100, "sample_id": "how2sign:01ucR6XreJw_11-5-rgb_front"}
+{"completed": 11, "total": 100, "sample_id": "how2sign:038vE9JsU9I_4-8-rgb_front"}
+{"completed": 12, "total": 100, "sample_id": "how2sign:04VKILduLSM_4-8-rgb_front"}
+{"completed": 13, "total": 100, "sample_id": "how2sign:04hnjLKHh2g_9-5-rgb_front"}
+{"completed": 14, "total": 100, "sample_id": "how2sign:06Yvm4X81WI_11-5-rgb_front"}
+{"completed": 15, "total": 100, "sample_id": "how2sign:077rQK39ycg_2-5-rgb_front"}
+{"completed": 16, "total": 100, "sample_id": "how2sign:07EGkSiMsL0_20-5-rgb_front"}
+{"completed": 17, "total": 100, "sample_id": "how2sign:07HhpnroTXs_0-5-rgb_front"}
+{"completed": 18, "total": 100, "sample_id": "how2sign:09cQe0gC2-0_3_4-8-rgb_front"}
+{"completed": 19, "total": 100, "sample_id": "how2sign:0EXgSf1yN-0_3-8-rgb_front"}
+{"completed": 20, "total": 100, "sample_id": "how2sign:0ICZi26jdaQ_5-5-rgb_front"}
+{"completed": 21, "total": 100, "sample_id": "how2sign:0sal9F4RXeY_10-8-rgb_front"}
+{"completed": 22, "total": 100, "sample_id": "how2sign:0t94zPbIPTw_7-8-rgb_front"}
+{"completed": 23, "total": 100, "sample_id": "how2sign:0trr2UC5l5M_10-11-rgb_front"}
+{"completed": 24, "total": 100, "sample_id": "how2sign:10d1oeViKYw_8-5-rgb_front"}
+{"completed": 25, "total": 100, "sample_id": "how2sign:11oEwlBqF2M_6-8-rgb_front"}
+{"completed": 26, "total": 100, "sample_id": "how2sign:14ZYG0hU6G8_2-8-rgb_front"}
+{"completed": 27, "total": 100, "sample_id": "how2sign:14z8c3QqV0E_4-8-rgb_front"}
+{"completed": 28, "total": 100, "sample_id": "how2sign:15bYoBr7BWs_46-8-rgb_front"}
+{"completed": 29, "total": 100, "sample_id": "how2sign:163ylBUtKlI_6-8-rgb_front"}
+{"completed": 30, "total": 100, "sample_id": "how2sign:16iJ0z4FUqc_8-8-rgb_front"}
+{"completed": 31, "total": 100, "sample_id": "how2sign:17ijcOW43Q8_7-8-rgb_front"}
+{"completed": 32, "total": 100, "sample_id": "how2sign:18PiUlfjLEQ_7-2-rgb_front"}
+{"completed": 33, "total": 100, "sample_id": "how2sign:18YQlS_nliI_3-8-rgb_front"}
+{"completed": 34, "total": 100, "sample_id": "how2sign:1CjA3Xzvd0k_5-5-rgb_front"}
+{"completed": 35, "total": 100, "sample_id": "how2sign:1FStJdud1lQ_21-5-rgb_front"}
+{"completed": 36, "total": 100, "sample_id": "how2sign:1KKlZKlWdTM_0-5-rgb_front"}
+{"completed": 37, "total": 100, "sample_id": "how2sign:1LaWSGs87gA_14-5-rgb_front"}
+{"completed": 38, "total": 100, "sample_id": "how2sign:1LaWSGs87gA_3-5-rgb_front"}
+{"completed": 39, "total": 100, "sample_id": "how2sign:1LgVgklOYCQ_0-5-rgb_front"}
+{"completed": 40, "total": 100, "sample_id": "how2sign:1PO6_voQXoc_7-8-rgb_front"}
+{"completed": 41, "total": 100, "sample_id": "how2sign:1Q2BYTlbdiE_23-8-rgb_front"}
+{"completed": 42, "total": 100, "sample_id": "how2sign:1Yp-xuljnDM_6-8-rgb_front"}
+{"completed": 43, "total": 100, "sample_id": "how2sign:1_N0Aq04tRA_11-8-rgb_front"}
+{"completed": 44, "total": 100, "sample_id": "how2sign:1aRNY8wFqa0_28-8-rgb_front"}
+{"completed": 45, "total": 100, "sample_id": "how2sign:1cbTN8a73zo_15-5-rgb_front"}
+{"completed": 46, "total": 100, "sample_id": "how2sign:1dFd3NYkINQ_1-8-rgb_front"}
+{"completed": 47, "total": 100, "sample_id": "how2sign:1e2wDf5R_zk_1-8-rgb_front"}
+{"completed": 48, "total": 100, "sample_id": "how2sign:1ei1kVTw23A_14-8-rgb_front"}
+{"completed": 49, "total": 100, "sample_id": "how2sign:1fdMM1LuAsY_3-8-rgb_front"}
+{"completed": 50, "total": 100, "sample_id": "how2sign:1gycdY2pcYc_2-11-rgb_front"}
+{"completed": 51, "total": 100, "sample_id": "how2sign:1h3mvQDZnBw_11-8-rgb_front"}
+{"completed": 52, "total": 100, "sample_id": "how2sign:1h3mvQDZnBw_17-8-rgb_front"}
+{"completed": 53, "total": 100, "sample_id": "how2sign:1ptcPCWBvBc_5-8-rgb_front"}
+{"completed": 54, "total": 100, "sample_id": "how2sign:1qNsErmkIiU_5-3-rgb_front"}
+{"completed": 55, "total": 100, "sample_id": "how2sign:1qYHdB1eWQc_12-8-rgb_front"}
+{"completed": 56, "total": 100, "sample_id": "how2sign:2-zlrJXlOGA_5-8-rgb_front"}
+{"completed": 57, "total": 100, "sample_id": "how2sign:21BHzn_li1s_9-5-rgb_front"}
+{"completed": 58, "total": 100, "sample_id": "how2sign:23GbjIU50qw_18-8-rgb_front"}
+{"completed": 59, "total": 100, "sample_id": "how2sign:3GgkyZLNZkA_10-2-rgb_front"}
+{"completed": 60, "total": 100, "sample_id": "how2sign:40dTE31p5uA_2-5-rgb_front"}
+{"completed": 61, "total": 100, "sample_id": "how2sign:47oJoR2BC34_6-8-rgb_front"}
+{"completed": 62, "total": 100, "sample_id": "how2sign:484PoKla0ug_16-1-rgb_front"}
+{"completed": 63, "total": 100, "sample_id": "how2sign:4ChFh4LdxVg_8-8-rgb_front"}
+{"completed": 64, "total": 100, "sample_id": "how2sign:4UlmDZi98fk_13-5-rgb_front"}
+{"completed": 65, "total": 100, "sample_id": "how2sign:5VkXcJblh4o_3-8-rgb_front"}
+{"completed": 66, "total": 100, "sample_id": "how2sign:5sdZhVCmDJ4_5-4-rgb_front"}
+{"completed": 67, "total": 100, "sample_id": "how2sign:5vSvXTHeD5I_2-8-rgb_front"}
+{"completed": 68, "total": 100, "sample_id": "how2sign:BRBt1zOfZnc_9-3-rgb_front"}
+{"completed": 69, "total": 100, "sample_id": "how2sign:BUrqXtTa46Y_5-8-rgb_front"}
+{"completed": 70, "total": 100, "sample_id": "how2sign:BubKD1vPvvQ_2-11-rgb_front"}
+{"completed": 71, "total": 100, "sample_id": "how2sign:CJ8RyW9pzKU_7-8-rgb_front"}
+{"completed": 72, "total": 100, "sample_id": "how2sign:CWIsQEHuVZ4_4-3-rgb_front"}
+{"completed": 73, "total": 100, "sample_id": "how2sign:CerG8JKzDIE_15-8-rgb_front"}
+{"completed": 74, "total": 100, "sample_id": "how2sign:CxT4a1Gtkjo_11-1-rgb_front"}
+{"completed": 75, "total": 100, "sample_id": "how2sign:DE8YkWRpvYA_3-5-rgb_front"}
+{"completed": 76, "total": 100, "sample_id": "how2sign:DcFCY1OFhCw_5-3-rgb_front"}
+{"completed": 77, "total": 100, "sample_id": "how2sign:EA5TtaqpJ9w_18-4-rgb_front"}
+{"completed": 78, "total": 100, "sample_id": "how2sign:EF4dlnqkJ3w_13-8-rgb_front"}
+{"completed": 79, "total": 100, "sample_id": "how2sign:EMi4hyW42Fs_3-5-rgb_front"}
+{"completed": 80, "total": 100, "sample_id": "how2sign:Ec9KthfKXXI_4-8-rgb_front"}
+{"completed": 81, "total": 100, "sample_id": "how2sign:F0eCE9z6ENc_8-8-rgb_front"}
+{"completed": 82, "total": 100, "sample_id": "how2sign:FGfPccy3juw_3-5-rgb_front"}
+{"completed": 83, "total": 100, "sample_id": "how2sign:FStKSCmBx00_12-4-rgb_front"}
+{"completed": 84, "total": 100, "sample_id": "how2sign:FTuTLRq7014_8-8-rgb_front"}
+{"completed": 85, "total": 100, "sample_id": "how2sign:_FS9zbJi8qE_6-8-rgb_front"}
+{"completed": 86, "total": 100, "sample_id": "how2sign:a6xKFGeHX4A_15-5-rgb_front"}
+{"completed": 87, "total": 100, "sample_id": "how2sign:aGITFRfpMJA_6-8-rgb_front"}
+{"completed": 88, "total": 100, "sample_id": "how2sign:bA53FmWDNPU_14-8-rgb_front"}
+{"completed": 89, "total": 100, "sample_id": "how2sign:bAnA79gWZXI_8-5-rgb_front"}
+{"completed": 90, "total": 100, "sample_id": "how2sign:bH1KCt78l7c_8-8-rgb_front"}
+{"completed": 91, "total": 100, "sample_id": "how2sign:bjQrRezhvQU_9-1-rgb_front"}
+{"completed": 92, "total": 100, "sample_id": "how2sign:btSrRQAWN6k_6-4-rgb_front"}
+{"completed": 93, "total": 100, "sample_id": "how2sign:c8qCeBSlaOw_12-8-rgb_front"}
+{"completed": 94, "total": 100, "sample_id": "how2sign:cQBrXCcfDyc_36-5-rgb_front"}
+{"completed": 95, "total": 100, "sample_id": "how2sign:cZhGkz4jNnk_6-8-rgb_front"}
+{"completed": 96, "total": 100, "sample_id": "how2sign:celb3UJ9_Ko_0-8-rgb_front"}
+{"completed": 97, "total": 100, "sample_id": "how2sign:clXjA4Ok8Bs_5-5-rgb_front"}
+{"completed": 98, "total": 100, "sample_id": "how2sign:dR5U_NeNx18_4-5-rgb_front"}
+{"completed": 99, "total": 100, "sample_id": "how2sign:dcN7W0lxTpE_27-8-rgb_front"}
+{"completed": 100, "total": 100, "sample_id": "how2sign:e_S9g_NKlvY_5-8-rgb_front"}

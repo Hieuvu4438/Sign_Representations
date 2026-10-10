@@ -1,0 +1,15 @@
+{
+  "clean": true,
+  "pretrain_rows": 100,
+  "heldout_rows": 21203,
+  "overlaps": [],
+  "removed_sources": [],
+  "retained_rows": 100,
+  "hash_files": false,
+  "perceptual_duplicates_checked": false,
+  "pretrain_sha256": "5a6e846a63be0ed736b1ac3d5341567913bd0ebd440add3f5aea6e64cfd4972a",
+  "eval_sha256": {
+    "manifests/wlasl_all.jsonl": "332e5527c91d638fc02484898dfc77344e399a81aef562be3d59e7d3fc0fe454",
+    "manifests/asl_citizen_val120.jsonl": "48cf9d7eff52a8c0ac6be7639c58ba1e499d944dcc09a634ab16d5f50be31bb7"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source_hash": "8a29bcb631ac9f73b08ef3bc128790498d57a35df02e253d4a547191a0a71734",
+  "world_size": 2,
+  "backend": "gloo",
+  "device": "cpu",
+  "precision": "bf16",
+  "optimizer_steps": 4,
+  "periodic_evaluation_events": 2,
+  "best_step": 2,
+  "finite_all_model_tensors": true,
+  "teacher_no_gradient": "trainer asserts both teacher components every optimizer step",
+  "checkpoint_sha256": "6484ada05a8951dc00f14fba1f3a914268ff4cc20b8c3c92c3d1f23ad3905249"
+}

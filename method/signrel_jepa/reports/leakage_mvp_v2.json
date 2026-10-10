@@ -1,0 +1,17 @@
+{
+  "clean": true,
+  "pretrain_rows": 95,
+  "heldout_rows": 21403,
+  "overlaps": [],
+  "removed_sources": [],
+  "retained_rows": 95,
+  "hash_files": false,
+  "perceptual_duplicates_checked": false,
+  "pretrain_sha256": "f8debdd61ae1ff418ee7f7f372ef1e95e0e5b87eb4c76f3658a1d04bdb1a3f20",
+  "eval_sha256": {
+    "manifests/wlasl_all.jsonl": "332e5527c91d638fc02484898dfc77344e399a81aef562be3d59e7d3fc0fe454",
+    "manifests/eval_pilot/asl_citizen_train.jsonl": "3f255ed7801452c8aff342269dbe8495fd885b47b8d7b9f064dee3c438b6eb49",
+    "manifests/eval_pilot/asl_citizen_val.jsonl": "33baccd1ba6724e3ff73c058bb58ea50ab61a184f5ea26d6a6e6525d2e11be17",
+    "manifests/eval_pilot/asl_citizen_test.jsonl": "3a45c1669989e53a8f7ace1f78d2fa3363ef8a9a2b21fac0dc4037ae511ca06b"
+  }
+}
