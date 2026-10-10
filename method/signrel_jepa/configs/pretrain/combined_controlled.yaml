@@ -1,0 +1,4 @@
+extends: jepa_baseline.yaml
+experiment: {name: jepa_plus_articulator_relation, scope: controlled target family D}
+loss: {generic_weight: 1.0, articulator_weight: 0.25, relation_weight: 1.0}
+trainer: {run_dir: runs/combined_controlled}

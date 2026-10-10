@@ -1,0 +1,6 @@
+extends: debug_local.yaml
+trainer:
+  device: cuda
+  precision: bf16
+  deterministic: false
+  run_dir: runs/debug_bf16

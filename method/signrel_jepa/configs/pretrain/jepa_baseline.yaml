@@ -1,0 +1,6 @@
+extends: relation_mvp.yaml
+experiment: {name: generic_jepa, scope: controlled target family A}
+masking:
+  mixture: {random_multiblock: 1.0, articulator: 0.0, relation_break: 0.0, motion_salient: 0.0}
+loss: {generic_weight: 1.0, articulator_weight: 0.0, relation_weight: 0.0}
+trainer: {run_dir: runs/jepa_baseline}

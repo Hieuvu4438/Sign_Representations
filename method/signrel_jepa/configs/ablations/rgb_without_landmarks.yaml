@@ -1,0 +1,23 @@
+extends: ../pretrain/jepa_baseline.yaml
+experiment:
+  name: rgb_without_landmarks
+  scope: unrun recipe; no experimental result
+  ablation_family: pose_dependency
+  gate: single-scale diagnostic after fixed MVP audit
+trainer:
+  max_steps: 200
+  accumulate_steps: 2
+  checkpoint_every: 200
+  run_dir: runs/ablations/rgb_without_landmarks
+data:
+  require_landmarks: false
+loss:
+  generic_weight: 1.0
+  articulator_weight: 0.0
+  relation_weight: 0.0
+masking:
+  mixture:
+    random_multiblock: 1.0
+    articulator: 0.0
+    relation_break: 0.0
+    motion_salient: 0.0

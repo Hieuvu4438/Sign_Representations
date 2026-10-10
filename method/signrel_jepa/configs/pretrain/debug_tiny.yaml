@@ -1,0 +1,62 @@
+seed: 42
+experiment:
+  name: debug_tiny
+  scope: engineering verification only
+data:
+  manifest: manifests/how2sign_pilot100_landmarks.jsonl
+  heldout_manifests:
+    - manifests/wlasl_all.jsonl
+    - manifests/eval_pilot/asl_citizen_train.jsonl
+    - manifests/eval_pilot/asl_citizen_val.jsonl
+    - manifests/eval_pilot/asl_citizen_test.jsonl
+  num_frames: 8
+  sampling_stride: 2
+  crop_size: 96
+  batch_size_per_gpu: 2
+  num_workers: 0
+  augment: true
+  require_landmarks: true
+articulators:
+  confidence_threshold: 0.5
+  membership: intersection
+model:
+  backbone:
+    provider: tiny
+    dim: 96
+    depth: 2
+    heads: 4
+    patch: 16
+    tubelet: 2
+  relation_dim: 128
+  predictor: {width: 128, heads: 4, depth: 2}
+  temporal_scales:
+    - {name: short, kernel: 1, weight: 1.0}
+masking:
+  mixture: {random_multiblock: 0.3, articulator: 0.3, relation_break: 0.3, motion_salient: 0.1}
+  min_visible_ratio: 0.25
+  hidden_ratio: 0.65
+  span_fraction: 0.5
+loss:
+  generic_weight: 0.0
+  articulator_weight: 0.25
+  relation_weight: 1.0
+  type: l1
+  normalize: layernorm
+  regularization: {enabled: false}
+optimizer:
+  lr: 0.0001
+  weight_decay: 0.04
+  betas: [0.9, 0.95]
+scheduler: {warmup_fraction: 0.05}
+ema: {start: 0.996, end: 1.0, schedule: cosine}
+trainer:
+  run_dir: runs/debug_tiny
+  device: cpu
+  max_steps: 8
+  precision: fp32
+  deterministic: true
+  accumulate_steps: 1
+  grad_clip_norm: 1.0
+  log_every: 1
+  checkpoint_every: 4
+  collapse_alarm: {std_threshold: 0.00001, patience: 100}

@@ -1,0 +1,25 @@
+extends: ../pretrain/relation_mvp.yaml
+experiment:
+  name: graph_hand_face
+  scope: unrun recipe; no experimental result
+  ablation_family: graph_face
+  gate: single-scale diagnostic after fixed MVP audit
+trainer:
+  max_steps: 200
+  accumulate_steps: 2
+  checkpoint_every: 200
+  run_dir: runs/ablations/graph_hand_face
+model:
+  relation_edges:
+  - - left_hand
+    - face
+  - - right_hand
+    - face
+loss:
+  articulator_weight: 0.0
+masking:
+  mixture:
+    random_multiblock: 1.0
+    articulator: 0.0
+    relation_break: 0.0
+    motion_salient: 0.0

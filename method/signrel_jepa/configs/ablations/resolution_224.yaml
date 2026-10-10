@@ -1,0 +1,16 @@
+extends: ../pretrain/relation_mvp.yaml
+experiment:
+  name: resolution_224
+  scope: unrun recipe; no experimental result
+  ablation_family: resolution
+  gate: single-scale diagnostic after fixed MVP audit
+trainer:
+  max_steps: 200
+  accumulate_steps: 2
+  checkpoint_every: 200
+  run_dir: runs/ablations/resolution_224
+data:
+  crop_size: 224
+model:
+  backbone:
+    crop_size: 224

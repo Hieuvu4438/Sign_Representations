@@ -1,0 +1,4 @@
+extends: articulator_mvp.yaml
+experiment: {name: articulator_only, scope: standalone node-target ablation}
+loss: {generic_weight: 0.0, articulator_weight: 1.0, relation_weight: 0.0}
+trainer: {run_dir: runs/articulator_only}

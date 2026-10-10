@@ -1,0 +1,7 @@
+extends: jepa_baseline.yaml
+experiment: {name: random_vitb, scope: same ViT-B architecture without pretrained weights}
+model:
+  backbone:
+    checkpoint: null
+    expected_sha256: null
+trainer: {run_dir: runs/random_vitb}

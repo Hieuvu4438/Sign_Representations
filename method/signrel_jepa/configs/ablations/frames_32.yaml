@@ -1,0 +1,16 @@
+extends: ../pretrain/relation_mvp.yaml
+experiment:
+  name: frames_32
+  scope: unrun recipe; no experimental result
+  ablation_family: frames
+  gate: single-scale diagnostic after fixed MVP audit
+trainer:
+  max_steps: 200
+  accumulate_steps: 2
+  checkpoint_every: 200
+  run_dir: runs/ablations/frames_32
+data:
+  num_frames: 32
+model:
+  backbone:
+    num_frames: 32

@@ -1,0 +1,8 @@
+class_max: true
+exclude_same_signer: true
+linear_probe: true
+signer_probe: true
+seeds: [42, 43, 44]
+phonology_metadata: ../../method/p4_signssl/runtime/external/asllex/signdata.csv
+phonology_encoding: latin-1
+properties: [Handshape.2.0, MajorLocation.2.0, MinorLocation.2.0, Movement.2.0, SignType.2.0]

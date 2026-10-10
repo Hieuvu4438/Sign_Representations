@@ -1,0 +1,20 @@
+extends: ../pretrain/relation_mvp.yaml
+experiment:
+  name: temporal_short
+  scope: unrun recipe; no experimental result
+  ablation_family: temporal
+  gate: phase 2 only after reproducible single-scale frozen benefit and broader confirmation
+trainer:
+  max_steps: 200
+  accumulate_steps: 2
+  checkpoint_every: 200
+  run_dir: runs/ablations/temporal_short
+data:
+  num_frames: 32
+model:
+  backbone:
+    num_frames: 32
+  temporal_scales:
+  - name: '1'
+    kernel: 1
+    weight: 1.0

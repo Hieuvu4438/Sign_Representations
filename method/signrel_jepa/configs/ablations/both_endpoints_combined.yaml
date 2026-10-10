@@ -1,0 +1,16 @@
+extends: ../pretrain/combined_controlled.yaml
+experiment:
+  name: both_endpoints_combined
+  scope: unrun failure-mode recipe; stronger masks do not imply a representation improvement
+masking:
+  mixture:
+    random_multiblock: 0.0
+    articulator: 0.0
+    relation_break: 1.0
+    motion_salient: 0.0
+  relation_hide_both: true
+trainer:
+  max_steps: 200
+  accumulate_steps: 2
+  checkpoint_every: 200
+  run_dir: runs/ablations/both_endpoints_combined

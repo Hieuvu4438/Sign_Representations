@@ -1,0 +1,3 @@
+extends: debug_tiny.yaml
+data: {manifest: manifests/how2sign_mvp_ready_v2.jsonl}
+trainer: {run_dir: runs/debug_local}

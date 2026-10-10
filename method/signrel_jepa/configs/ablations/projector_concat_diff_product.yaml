@@ -1,0 +1,13 @@
+extends: ../pretrain/relation_mvp.yaml
+experiment:
+  name: projector_concat_diff_product
+  scope: unrun recipe; no experimental result
+  ablation_family: projector
+  gate: single-scale diagnostic after fixed MVP audit
+trainer:
+  max_steps: 200
+  accumulate_steps: 2
+  checkpoint_every: 200
+  run_dir: runs/ablations/projector_concat_diff_product
+model:
+  projector: concat_diff_product

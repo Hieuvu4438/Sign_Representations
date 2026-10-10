@@ -1,0 +1,9 @@
+extends: relation_mvp.yaml
+data:
+  manifest: manifests/how2sign_mvp_ready_v2.jsonl
+  num_workers: 0
+trainer:
+  max_steps: 4
+  log_every: 1
+  checkpoint_every: 4
+  run_dir: runs/research_smoke
