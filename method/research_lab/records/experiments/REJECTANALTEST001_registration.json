@@ -1,0 +1,38 @@
+{
+  "registered_utc": "2026-10-05T04:03:53.870612+00:00",
+  "run_id": "REJECTANALTEST001_20261005_1ea53d58_s1701",
+  "config": "method/frozen_probe/configs/REJECTANALTEST001.json",
+  "config_sha256": "1ea53d58673098b6a4d18165e99aba8099f9636eca327b526cbc0efb42b228c4",
+  "output_dir": "method/frozen_probe/runtime/REJECTANALTEST001_20261005_1ea53d58_s1701",
+  "CPU_limit_seconds": 60,
+  "GPU_seconds": 0,
+  "durable_bytes_ceiling": 2097152,
+  "maximum_planned_logical_bytes": 1227476,
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/rejection_analysis.py": "41a19a7f27ee7be7b2ff009b67a1790eba13c2022fbb078cf73ac8b8fd3cf885",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/frozen_probe/scripts/register_rejection_diagnostic.py": "94870f504e4dc44aab0e56ab383c2128071e55a212efdf9e5f823103e989947a",
+    "method/frozen_probe/scripts/test_rejection_analysis.py": "7263051bd712ebadafd0d6dafa2b1500fb18ee5d719fedef4e7241da7e4a0099",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_rejection_analysis.py": "d4db29e30d3c903980de181d3cb3f7c38b43d301a6b55174030c16aff244fde5",
+    "method/research_lab/records/decisions/D081.md": "62f8e712fe1045cb42d2e18c4b294244b8e22f4d39359fcfa4af67f598897d07",
+    "method/research_lab/records/hypotheses/H007_v1.md": "ced5306ba7996099dfcb935834de29a190c26ed3371c4957e732b54b720fe04e",
+    "method/research_lab/records/protocols/P007_v1_rejection_transfer.md": "5f047ca597b88b11b0c2f45937b510185062cbaed77020bdd07847deb0ded1a8",
+    "method/research_lab/records/protocols/REJECTANALTEST001_manual_oracles_v1.md": "8e9973365d44fc51f07c588ca3cbf026149ee67e55f50784b8b59f125dc3c0ab"
+  },
+  "command": [
+    "/home/haipd/miniconda3/bin/python",
+    "method/frozen_probe/scripts/test_rejection_analysis.py",
+    "--config",
+    "method/frozen_probe/configs/REJECTANALTEST001.json",
+    "--run-id",
+    "REJECTANALTEST001_20261005_1ea53d58_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/REJECTANALTEST001_20261005_1ea53d58_s1701",
+    "--seed",
+    "1701"
+  ]
+}

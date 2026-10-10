@@ -1,0 +1,40 @@
+{
+  "registered_utc": "2026-10-05T03:55:36.293208+00:00",
+  "run_id": "REJECTSCORETEST001_20261005_9bcdbce3_s1701",
+  "config": "method/frozen_probe/configs/REJECTSCORETEST001.json",
+  "config_sha256": "9bcdbce35dca111cd3b0ce874b61028d85da71db97e346ccaa371fabc462b11d",
+  "output_dir": "method/frozen_probe/runtime/REJECTSCORETEST001_20261005_9bcdbce3_s1701",
+  "CPU_limit_seconds": 60,
+  "GPU_seconds": 0,
+  "durable_bytes_ceiling": 2097152,
+  "maximum_planned_logical_bytes": 511338,
+  "input_hashes": {
+    "method/frozen_probe/bounded_artifacts.py": "6a065c75b1aa92fcf1b0166f48090cd790d617f3a13987dd9adeab38e1b2af45",
+    "method/frozen_probe/bounded_cpu_context.py": "c266f054f63842795ab0c444ef064b2481553ad1361bad3789a0d7c3e7fa0de5",
+    "method/frozen_probe/cache.py": "255ee2f2f1b50491f90435dd537868b8aa833da8dbafb888e67e63b836e2f809",
+    "method/frozen_probe/frozen_rejection.py": "837459973e7d1ac6a4f78b6535da0001544223d9f1344785dc7763b74ea56964",
+    "method/frozen_probe/references/nac_971f6767/LICENSE": "97a39b95ccf0e0a78daf426c240233eff04ca3b01bc4a9f8fa438019c58a5d0c",
+    "method/frozen_probe/references/nac_971f6767/utils.py": "57ec4b2077012b548a18a6084430f6f867032fc42098d04799938372d40d288e",
+    "method/frozen_probe/scripts/register_axis_stage.py": "18187b17f8f529e31f878d4f575b3de75d39485474de5be7db3a5589a6683dd9",
+    "method/frozen_probe/scripts/register_rejection_score_tests.py": "04187ad0763fdd0d4fffcb3048d0c9181fdbbef71f4aaddd7d7497f0baab9fe8",
+    "method/frozen_probe/scripts/test_frozen_rejection_scores.py": "618c8b99bb76134e25babb5ead13c9c228315a785f67d4fca2f9c6a6ea2afb45",
+    "method/frozen_probe/temporal.py": "d64350cefec2c56d0b0edc34ec074e41405b66f882f79ca3f88f8e711d622daf",
+    "method/frozen_probe/tests/test_frozen_rejection.py": "75c80a2fbe3bf175d364edace63b5d4e89ce1d83e30b61ed29251970a583b513",
+    "method/research_lab/records/decisions/D080.md": "c98268e6396f145245ca07952f08655689d5499157250400ab70568c6873a141",
+    "method/research_lab/records/protocols/REJECTSCORETEST001_manual_oracles_v1.md": "4872bcca1e61c44e749c08f77f9912d9af2c3cc816aa4b19569424c1fbd9a5dd",
+    "method/frozen_probe/runtime/OSCRADAPTTEST001_20261005_dba4e6f9_s1701/status.json": "f1b34331de3d2199104547ac28101591df09c0dfae2997cfa4ffc73a21d08b9b",
+    "method/frozen_probe/runtime/OSCRADAPTTEST001_20261005_dba4e6f9_s1701/adapted_tests.json": "379a7ccc5f30cf61d7fbd6868650aa60e2a2edfc90d369db740025bed3ed85c3"
+  },
+  "command": [
+    "/home/haipd/miniconda3/bin/python",
+    "method/frozen_probe/scripts/test_frozen_rejection_scores.py",
+    "--config",
+    "method/frozen_probe/configs/REJECTSCORETEST001.json",
+    "--run-id",
+    "REJECTSCORETEST001_20261005_9bcdbce3_s1701",
+    "--output-dir",
+    "method/frozen_probe/runtime/REJECTSCORETEST001_20261005_9bcdbce3_s1701",
+    "--seed",
+    "1701"
+  ]
+}
