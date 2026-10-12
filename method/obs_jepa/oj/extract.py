@@ -59,8 +59,8 @@ def native_frames(path):
 
 
 class Extractor:
-    def __init__(self, kind, ckpt, weights, size):
-        self.kind, self.size, self.dev = kind, size, "cuda"
+    def __init__(self, kind, ckpt, weights, size, device="cuda"):
+        self.kind, self.size, self.dev = kind, size, device
         if kind == "rgb":
             from oj.models.rgb import build_encoder
             if ckpt == "vjepa":

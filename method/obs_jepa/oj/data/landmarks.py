@@ -74,8 +74,8 @@ class Landmarks:
     height: int
 
 
-def load_landmarks(sample_id: str, width: int, height: int) -> Landmarks:
-    d = pickle.load(open(ASLC_KP / f"{sample_id}.pkl", "rb"))
+def load_landmarks(sample_id: str, width: int, height: int, root=None) -> Landmarks:
+    d = pickle.load(open((ASLC_KP if root is None else root) / f"{sample_id}.pkl", "rb"))
     F = len(d["keypoints"])
     xy = np.full((F, J, 2), np.nan, np.float32); sc = np.zeros((F, J), np.float32)
     for t, (k, s) in enumerate(zip(d["keypoints"], d["scores"])):
