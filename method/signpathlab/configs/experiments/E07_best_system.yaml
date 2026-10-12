@@ -1,0 +1,6 @@
+# Optional paired/best-system stage; not a sign-only reproduction or an available trainer.
+extends: ../base.yaml
+experiment:
+  id: E07_best_system
+  output_dir: artifacts/E07_best_system/seed17
+  supervision_regime: paired

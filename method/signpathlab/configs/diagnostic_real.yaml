@@ -1,0 +1,11 @@
+extends: smoke.yaml
+experiment:
+  id: real_minibatch_correctness
+  output_dir: artifacts/real_minibatch_correctness
+cache:
+  kind: per_frame_dino
+training:
+  max_successful_steps: 20
+runtime:
+  deterministic_smoke: false
+  allow_missing_provenance: false

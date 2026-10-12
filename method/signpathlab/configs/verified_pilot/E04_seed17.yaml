@@ -1,0 +1,6 @@
+# Final locked-environment confirmation; same registered pool and budgets.
+extends: ../pilot/E04_seed17.yaml
+experiment:
+  output_dir: artifacts/verified_pilot/E04/seed17
+downstream:
+  output_dir: artifacts/verified_pilot/heads/E04/seed17

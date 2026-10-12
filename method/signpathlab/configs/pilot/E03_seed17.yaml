@@ -1,0 +1,12 @@
+extends: base.yaml
+experiment:
+  id: E03
+  seed: 17
+  output_dir: artifacts/pilot8/E03/seed17
+downstream:
+  output_dir: artifacts/pilot8/heads/E03/seed17
+geometry:
+  descriptor: ordinary_motion_anchor_timing
+  projection:
+    statistics_path: data/pilot8/targets/motion_stats.npz
+    matrices_path: data/pilot8/targets/motion_matrices.npz

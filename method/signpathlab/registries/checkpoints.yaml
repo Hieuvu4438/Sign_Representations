@@ -1,0 +1,31 @@
+schema_version: 1
+models:
+  dinov2_vits14:
+    code_repository: https://github.com/facebookresearch/dinov2
+    code_commit: 7764ea0f912e53c92e82eb78a2a1631e92725fc8
+    hub_entry: dinov2_vits14
+    weights_url: https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth
+    local_path: checkpoints/dinov2_vits14_pretrain.pth
+    sha256: null
+    output_dim: 384
+    pretrained_domain: generic_images
+    sign_text_supervision: false
+  signrep_v001:
+    code_repository: https://github.com/ryanwongsa/SignRep
+    code_commit: 06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2
+    release_tag: v0.0.1
+    weights_url: https://github.com/ryanwongsa/SignRep/releases/download/v0.0.1/ckpt.pt
+    local_path: checkpoints/signrep_v001.pt
+    expected_size_bytes: 222676746
+    sha256: null
+    input_frames: 16
+    input_resolution: 224
+  vjepa21_vitb:
+    code_repository: https://github.com/facebookresearch/vjepa2
+    code_commit: 204698b45b3712590f06245fbfba32d3be539812
+    hub_entry: vjepa2_1_vit_base_384
+    weights_url: https://dl.fbaipublicfiles.com/vjepa2/vjepa2_1_vitb_dist_vitG_384.pt
+    local_path: checkpoints/vjepa21_vitb.pt
+    sha256: null
+    input_resolution: 384
+    encoder_state_key: target_encoder

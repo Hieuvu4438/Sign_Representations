@@ -1,0 +1,7 @@
+extends: ../base.yaml
+experiment:
+  id: slt_fixed_decoder_interface
+  supervision_regime: supervised_downstream
+downstream:
+  task: slt
+  output_dir: artifacts/continuous/slt_fixed_decoder

@@ -1,0 +1,31 @@
+extends: base.yaml
+experiment:
+  id: smoke
+  output_dir: artifacts/smoke
+cache:
+  kind: synthetic_fixture
+data:
+  num_workers: 0
+  pin_memory: false
+  persistent_workers: false
+model:
+  embed_dim: 48
+  projection_hidden_dim: 48
+  encoder:
+    layers: 2
+    heads: 4
+    return_layers: [1, 2]
+  predictor:
+    layers: 1
+    heads: 4
+    embed_dim: 48
+training:
+  max_successful_steps: 10
+  microbatch_per_gpu: 2
+  gradient_accumulation: 1
+  precision: fp32
+  validation_interval: 10
+  checkpoint_interval: 10
+runtime:
+  deterministic_smoke: true
+  allow_missing_provenance: true

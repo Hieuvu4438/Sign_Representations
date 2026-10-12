@@ -1,0 +1,7 @@
+extends: ../base.yaml
+experiment:
+  id: cslr_ctc_interface
+  supervision_regime: supervised_downstream
+downstream:
+  task: cslr
+  output_dir: artifacts/continuous/cslr_ctc

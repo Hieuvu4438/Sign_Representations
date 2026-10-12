@@ -1,0 +1,7 @@
+# Optional M10 recipe; the runtime rejects input_enabled until implemented/validated.
+extends: E04_logsig_target.yaml
+experiment:
+  id: E05_logsig_input
+  output_dir: artifacts/E05_logsig_input/seed17
+geometry:
+  role: input_enabled

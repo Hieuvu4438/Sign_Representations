@@ -1,0 +1,11 @@
+extends: base.yaml
+experiment:
+  id: E02
+  seed: 43
+  output_dir: artifacts/pilot8/E02/seed43
+downstream:
+  output_dir: artifacts/pilot8/heads/E02/seed43
+geometry:
+  enabled: false
+loss:
+  geometry_weight: 0.0

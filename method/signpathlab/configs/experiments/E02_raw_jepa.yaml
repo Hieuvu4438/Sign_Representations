@@ -1,0 +1,8 @@
+extends: ../base.yaml
+experiment:
+  id: E02_raw_jepa
+  output_dir: artifacts/E02_raw_jepa/seed17
+geometry:
+  enabled: false
+loss:
+  geometry_weight: 0.0

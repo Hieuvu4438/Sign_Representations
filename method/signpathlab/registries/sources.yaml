@@ -1,0 +1,35 @@
+schema_version: 1
+sources:
+  dinov2:
+    repository: https://github.com/facebookresearch/dinov2
+    commit: 7764ea0f912e53c92e82eb78a2a1631e92725fc8
+    audited_files:
+      - dinov2/hub/backbones.py
+      - dinov2/models/vision_transformer.py
+      - hubconf.py
+    usage: Local torch.hub architecture, pretrained=False, followed by explicit strict weight load
+    license: Apache-2.0; retain upstream code and model notices
+  mediapipe:
+    version: 0.10.35
+    usage: Official Python Tasks API in IMAGE mode, CPU delegates
+    documentation:
+      - https://developers.google.com/edge/mediapipe/solutions/vision/hand_landmarker/python
+      - https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker/python
+      - https://developers.google.com/edge/mediapipe/solutions/vision/face_landmarker/python
+    license: Apache-2.0; review individual model cards for redistribution
+  pyav:
+    version: 17.1.0
+    usage: RGB24 decode with frame PTS multiplied by frame time_base
+    documentation: https://pyav.basswood.io/docs/stable/api/time.html
+  signrep:
+    repository: https://github.com/ryanwongsa/SignRep
+    commit: 06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2
+    status: not_yet_adapted
+  shubert:
+    repository: https://github.com/ShesterG/SHuBERT
+    commit: cc1929326075bfbad7ad73159b2acf84356059bb
+    status: optional_legacy_environment_not_yet_adapted
+  vjepa21:
+    repository: https://github.com/facebookresearch/vjepa2
+    commit: 204698b45b3712590f06245fbfba32d3be539812
+    status: optional_not_yet_adapted

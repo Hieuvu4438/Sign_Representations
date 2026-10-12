@@ -1,0 +1,41 @@
+extends: ../base.yaml
+experiment:
+  id: pilot8
+  evaluation_protocol: asl_citizen_official_signer_disjoint_pilot8_v1
+data:
+  train_manifest: data/pilot8/manifests/train.jsonl
+  val_manifest: data/pilot8/manifests/val.jsonl
+  test_manifest: data/pilot8/manifests/test.jsonl
+  num_workers: 4
+cache:
+  root: data/pilot8/cache
+geometry:
+  projection:
+    statistics_path: data/pilot8/targets/logsig_stats.npz
+    matrices_path: data/pilot8/targets/logsig_matrices.npz
+model:
+  embed_dim: 96
+  projection_hidden_dim: 96
+  encoder:
+    layers: 2
+    heads: 4
+    return_layers:
+    - 1
+    - 2
+  predictor:
+    embed_dim: 96
+    heads: 4
+    layers: 1
+training:
+  max_successful_steps: 100
+  microbatch_per_gpu: 4
+  gradient_accumulation: 1
+  validation_interval: 100
+  checkpoint_interval: 50
+  diagnostic_interval: 50
+downstream:
+  max_epochs: 40
+  patience: 10
+  batch_size: 32
+runtime:
+  max_runtime_hours: 1.0

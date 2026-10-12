@@ -1,0 +1,4 @@
+extends: ../base.yaml
+downstream:
+  head: attentive
+  output_dir: artifacts/downstream/islr_attentive

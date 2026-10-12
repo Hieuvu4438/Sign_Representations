@@ -1,0 +1,8 @@
+extends: smoke.yaml
+experiment:
+  id: smoke_ddp
+  output_dir: artifacts/smoke_ddp
+training:
+  max_successful_steps: 3
+  gradient_accumulation: 2
+  checkpoint_interval: 3

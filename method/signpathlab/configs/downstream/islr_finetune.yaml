@@ -1,0 +1,4 @@
+extends: ../base.yaml
+downstream:
+  head: finetune
+  output_dir: artifacts/downstream/islr_finetune

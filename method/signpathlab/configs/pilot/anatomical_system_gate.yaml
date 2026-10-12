@@ -1,0 +1,7 @@
+extends: system_gate.yaml
+experiment:
+  id: phase4_anatomical_system_gate
+  output_dir: artifacts/phase4_anatomical_system_gate
+masking:
+  strategy: anatomical_pose
+  regime: cross_modal

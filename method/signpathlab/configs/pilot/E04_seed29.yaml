@@ -1,0 +1,7 @@
+extends: base.yaml
+experiment:
+  id: E04
+  seed: 29
+  output_dir: artifacts/pilot8/E04/seed29
+downstream:
+  output_dir: artifacts/pilot8/heads/E04/seed29

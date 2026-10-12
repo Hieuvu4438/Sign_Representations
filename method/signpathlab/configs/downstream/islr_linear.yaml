@@ -1,0 +1,4 @@
+extends: ../base.yaml
+downstream:
+  head: linear
+  output_dir: artifacts/downstream/islr_linear

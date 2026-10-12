@@ -1,0 +1,13 @@
+extends: E02_seed17.yaml
+experiment:
+  id: phase4_system_gate
+  output_dir: artifacts/phase4_system_gate
+training:
+  max_successful_steps: 3
+  diagnostic_interval: 1
+  validation_interval: 3
+  checkpoint_interval: 3
+downstream:
+  max_epochs: 2
+  patience: 2
+  learning_rates: [0.003]

@@ -1,0 +1,12 @@
+extends: base.yaml
+experiment:
+  id: E00
+  seed: 29
+  output_dir: artifacts/pilot8/E00/seed29
+downstream:
+  output_dir: artifacts/pilot8/heads/E00/seed29
+  representation: frozen_visual
+geometry:
+  enabled: false
+loss:
+  geometry_weight: 0.0

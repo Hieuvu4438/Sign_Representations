@@ -1,0 +1,8 @@
+schema_version: 1
+models:
+  face_landmarker:
+    weights_url: https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task
+    local_path: checkpoints/face_landmarker.task
+    sha256: 64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff
+    documentation: https://developers.google.com/edge/mediapipe/solutions/vision/face_landmarker
+    initialization: official_pretrained

@@ -1,0 +1,7 @@
+extends: E02_raw_jepa.yaml
+experiment:
+  id: E02_anatomical_cross_modal
+  output_dir: artifacts/E02_anatomical_cross_modal/seed17
+masking:
+  strategy: anatomical_pose
+  regime: cross_modal

@@ -1,0 +1,4 @@
+extends: ../base.yaml
+experiment:
+  id: E04_logsig_target
+  output_dir: artifacts/E04_logsig_target/seed17

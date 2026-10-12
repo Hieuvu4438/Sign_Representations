@@ -1,0 +1,9 @@
+extends: ../base.yaml
+experiment:
+  id: E03_motion_target
+  output_dir: artifacts/E03_motion_target/seed17
+geometry:
+  descriptor: ordinary_motion_anchor_timing
+  projection:
+    statistics_path: data/targets/motion_train_stats.npz
+    matrices_path: data/targets/motion_projection.npz

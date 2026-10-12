@@ -1,0 +1,7 @@
+# Optional M10 recipe; visible_dense is explicitly unavailable in the current runtime.
+extends: E04_logsig_target.yaml
+experiment:
+  id: E06_dense_deep
+  output_dir: artifacts/E06_dense_deep/seed17
+loss:
+  visible_dense_weight: 0.1

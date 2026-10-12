@@ -1,0 +1,10 @@
+extends: ../base.yaml
+experiment:
+  id: E01_cluster
+  output_dir: artifacts/E01_cluster/seed17
+geometry:
+  enabled: false
+loss:
+  semantic_weight: 0.0
+  geometry_weight: 0.0
+  cluster_weight: 1.0
