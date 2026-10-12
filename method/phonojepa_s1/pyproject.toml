@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phonojepa-s1"
+version = "0.1.0"
+description = "S1 torso and geometry targets for PhonoJEPA, ASLC002 matched protocol"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "numpy>=1.26", "scipy>=1.11", "scikit-learn>=1.4", "opencv-python>=4.8", "threadpoolctl>=3.1"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["s1*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
