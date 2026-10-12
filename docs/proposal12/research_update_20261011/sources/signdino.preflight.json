@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/home/haipd/Sign_Representations/docs/proposal12/research_update_20261011/sources/signdino.pdf",
+  "sha256": "78c8ee978e0b073929cc97938a26427fe7209ac81793bba986defe82094a553d",
+  "declared_page_count": 24,
+  "enumerated_page_count": 24,
+  "reader_page_count": 24,
+  "warnings": [],
+  "generated_at": "2026-10-11T14:13:04.645488+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

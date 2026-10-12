@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/home/haipd/Sign_Representations/docs/proposal12/research_update_20261011/sources/masa.pdf",
+  "sha256": "51293b1ea7a4a27b16aa61e6b0dc860f820dc9f65515687c338c83c06f6eacf5",
+  "declared_page_count": 12,
+  "enumerated_page_count": 12,
+  "reader_page_count": 12,
+  "warnings": [],
+  "generated_at": "2026-10-11T14:13:00.168536+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/home/haipd/Sign_Representations/docs/proposal12/research_update_20261011/sources/signbertplus.pdf",
+  "sha256": "743500fed17f5662fba4309b83dfc175296a5ab728ef8568b6bc234bc8351314",
+  "declared_page_count": 19,
+  "enumerated_page_count": 19,
+  "reader_page_count": 19,
+  "warnings": [],
+  "generated_at": "2026-10-11T14:13:06.336769+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

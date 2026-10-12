@@ -1,0 +1,207 @@
+[
+  {
+    "id": "sjepa",
+    "requested_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04755.pdf",
+    "retrieved_at": "2026-10-11T14:12:50.961494+00:00",
+    "resolved_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04755.pdf",
+    "sha256": "2bd188ec3eee9180b1a1874665ea3c1c7db901b437d98fc86fec4562f86e848d",
+    "bytes": 736645,
+    "preflight": "PASS",
+    "pages": 18,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "signrep",
+    "requested_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wong_SignRep_Enhancing_Self-Supervised_Sign_Representations_ICCV_2025_paper.pdf",
+    "retrieved_at": "2026-10-11T14:12:50.961975+00:00",
+    "resolved_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wong_SignRep_Enhancing_Self-Supervised_Sign_Representations_ICCV_2025_paper.pdf",
+    "sha256": "249bfe15eb77d754de780c24bf97c328a7d171a59655baa16b37765389e8a15c",
+    "bytes": 2281530,
+    "preflight": "PASS",
+    "pages": 11,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "signseek",
+    "requested_url": "https://arxiv.org/pdf/2609.03695v1",
+    "retrieved_at": "2026-10-11T14:12:50.962212+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2609.03695v1",
+    "sha256": "cbdb1782f3aa6380442b3dcc99e695fa72f57e0772670f86e4b2f275e64ee6e8",
+    "bytes": 3931656,
+    "preflight": "PASS",
+    "pages": 11,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "slim",
+    "requested_url": "https://arxiv.org/pdf/2603.10648v3",
+    "retrieved_at": "2026-10-11T14:12:50.962501+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2603.10648v3",
+    "sha256": "d829733648fef1cca76038d4e21a7ed4cceef842ed6398c337ba6494849e62fa",
+    "bytes": 1563917,
+    "preflight": "PASS",
+    "pages": 21,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "skeleton2vec",
+    "requested_url": "https://arxiv.org/pdf/2401.00921v1",
+    "retrieved_at": "2026-10-11T14:12:52.701286+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2401.00921v1",
+    "sha256": "e0471dc1953d20195376ee20917f35d5f2a6d91ce806775b6360173943f90358",
+    "bytes": 1366218,
+    "preflight": "PASS",
+    "pages": 10,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "mamp",
+    "requested_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Mao_Masked_Motion_Predictors_are_Strong_3D_Action_Representation_Learners_ICCV_2023_paper.pdf",
+    "retrieved_at": "2026-10-11T14:12:54.249388+00:00",
+    "resolved_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Mao_Masked_Motion_Predictors_are_Strong_3D_Action_Representation_Learners_ICCV_2023_paper.pdf",
+    "sha256": "3ecaed6cad7eeeee6872d344e6792b1fe73be328d3d1d83581d97627d57e29f3",
+    "bytes": 630922,
+    "preflight": "PASS",
+    "pages": 11,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "gfp",
+    "requested_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_Towards_Efficient_General_Feature_Prediction_in_Masked_Skeleton_Modeling_ICCV_2025_paper.pdf",
+    "retrieved_at": "2026-10-11T14:12:55.437827+00:00",
+    "resolved_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Sun_Towards_Efficient_General_Feature_Prediction_in_Masked_Skeleton_Modeling_ICCV_2025_paper.pdf",
+    "sha256": "30d7d377bd65173238a5f301930fba9fe9e9cad889cdd5510fec8c0cf09b5df5",
+    "bytes": 474006,
+    "preflight": "PASS",
+    "pages": 10,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "amr",
+    "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_Exploring_Adaptive_Masked_Reconstruction_for_Self-Supervised_Skeleton-Based_Action_Recognition_CVPR_2026_paper.pdf",
+    "retrieved_at": "2026-10-11T14:12:56.594624+00:00",
+    "resolved_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_Exploring_Adaptive_Masked_Reconstruction_for_Self-Supervised_Skeleton-Based_Action_Recognition_CVPR_2026_paper.pdf",
+    "sha256": "ae30e0849e75388b71e21ba6a4f8595e1ddc943fd86b87920233691cf6bc3042",
+    "bytes": 593912,
+    "preflight": "PASS",
+    "pages": 10,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "best",
+    "requested_url": "https://ojs.aaai.org/index.php/AAAI/article/download/25470/25242",
+    "retrieved_at": "2026-10-11T14:12:57.212835+00:00",
+    "status": "unavailable",
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "id": "masa",
+    "requested_url": "https://arxiv.org/pdf/2405.20666v1",
+    "retrieved_at": "2026-10-11T14:12:58.028539+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2405.20666v1",
+    "sha256": "51293b1ea7a4a27b16aa61e6b0dc860f820dc9f65515687c338c83c06f6eacf5",
+    "bytes": 2015702,
+    "preflight": "PASS",
+    "pages": 12,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "stc",
+    "requested_url": "https://arxiv.org/pdf/2406.10501v1",
+    "retrieved_at": "2026-10-11T14:12:58.156233+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2406.10501v1",
+    "sha256": "5a5529607bd3090506cddb86122924e1370d26f340073d256310a643cdb9b021",
+    "bytes": 2292151,
+    "preflight": "PASS",
+    "pages": 14,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "signbert",
+    "requested_url": "https://arxiv.org/pdf/2110.05382",
+    "retrieved_at": "2026-10-11T14:12:58.626270+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2110.05382",
+    "sha256": "25258f6a292917acb973e428cb9c8c3e746900df698d21da46015ae86ee2d813",
+    "bytes": 1666479,
+    "preflight": "UNAVAILABLE",
+    "pages": 10,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "signbertplus",
+    "requested_url": "https://arxiv.org/pdf/2305.04868",
+    "retrieved_at": "2026-10-11T14:12:59.672042+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2305.04868",
+    "sha256": "743500fed17f5662fba4309b83dfc175296a5ab728ef8568b6bc234bc8351314",
+    "bytes": 6025851,
+    "preflight": "PASS",
+    "pages": 19,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "motionbert",
+    "requested_url": "https://arxiv.org/pdf/2210.06551",
+    "retrieved_at": "2026-10-11T14:13:00.400403+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2210.06551",
+    "sha256": "0008637e4a6ea69e6c5e92e57743458b3c78378c429f3405db8c9cf96c7fde7e",
+    "bytes": 7080825,
+    "preflight": "PASS",
+    "pages": 18,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "shubert",
+    "requested_url": "https://aclanthology.org/2025.acl-long.1397.pdf",
+    "retrieved_at": "2026-10-11T14:13:00.714538+00:00",
+    "resolved_url": "https://aclanthology.org/2025.acl-long.1397.pdf",
+    "sha256": "d41f80ab7fa38fd908a56ea9479d54274f0d8900d7e86db0a0477744d966f3c1",
+    "bytes": 2554476,
+    "preflight": "PASS",
+    "pages": 19,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "signdino",
+    "requested_url": "https://arxiv.org/pdf/2609.06296v1",
+    "retrieved_at": "2026-10-11T14:13:03.600927+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2609.06296v1",
+    "sha256": "78c8ee978e0b073929cc97938a26427fe7209ac81793bba986defe82094a553d",
+    "bytes": 6215233,
+    "preflight": "PASS",
+    "pages": 24,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "ijepa",
+    "requested_url": "https://arxiv.org/pdf/2301.08243",
+    "retrieved_at": "2026-10-11T14:13:05.247388+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2301.08243",
+    "sha256": "eddbdc093eb4d48662bcf4fbd1c6735ccd606205cc9070977ce317d68aff3941",
+    "bytes": 3571832,
+    "preflight": "PASS",
+    "pages": 17,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "lejepa",
+    "requested_url": "https://arxiv.org/pdf/2511.08544",
+    "retrieved_at": "2026-10-11T14:13:05.775643+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2511.08544",
+    "sha256": "fe06b5488907f56aa9682e2e2febc552d85fe761fda43f2727e65d60fbeb6485",
+    "bytes": 8758154,
+    "preflight": "PASS",
+    "pages": 50,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "vjepa21",
+    "requested_url": "https://arxiv.org/pdf/2603.14482",
+    "retrieved_at": "2026-10-11T14:13:06.558921+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2603.14482",
+    "sha256": "b40580916242ade00e2ac177cb01473d511f021d5a25f7552fd17512b3a72bbb",
+    "bytes": 37389706,
+    "preflight": "PASS",
+    "pages": 37,
+    "status": "downloaded_and_extracted"
+  }
+]

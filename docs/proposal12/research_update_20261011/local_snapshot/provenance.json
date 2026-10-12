@@ -1,0 +1,93 @@
+{
+  "captured_at": "2026-10-11T21:21:32.065102+07:00",
+  "git_head": "407833eff58fb67a1080f98d01c121b6266cebdb",
+  "eval_jsons": [
+    "P1.json"
+  ],
+  "files": [
+    {
+      "path": "method/phonojepa/runtime/eval/P1.json",
+      "sha256": "5a31b525c0e921338e77163a298a4341eeb705a3f1a8492b80dc99d27f3b29ac"
+    },
+    {
+      "path": "method/phonojepa/runtime/schedule_state.json",
+      "sha256": "96abed291f5bcf619811034fee62c5cf3d5aac97380a4ca17c9eba988a3f35bb"
+    },
+    {
+      "path": "method/phonojepa/runtime/runs/PJ_PLctx_16k/manifest.json",
+      "sha256": "fa1bd48b5f8f0ade84cae95c234765bc002323e89701d2c20a4112da6a7fa87c"
+    },
+    {
+      "path": "method/phonojepa/runtime/runs/PJ_PLint_16k/manifest.json",
+      "sha256": "3014c5a56a4cd5b96bf491f90145e7d1fa6a3d3b890f54c8ade27efb37d08f6a"
+    },
+    {
+      "path": "method/phonojepa/pj/features.py",
+      "sha256": "df7fe8a874bbf345c00548dda109067c8e5f8340e8186fa8e78857fa9a4dc7c0"
+    },
+    {
+      "path": "method/phonojepa/pj/joints.py",
+      "sha256": "cb57872a5113d76407588d257e4da240213fc5ededabd7bcf3bc88e7b863c338"
+    },
+    {
+      "path": "method/phonojepa/pj/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "method/phonojepa/pj/losses.py",
+      "sha256": "e62880666d35ce17bca6f8e6f42172476a2e60eb0ce98b9d19632dcddfd492e0"
+    },
+    {
+      "path": "method/phonojepa/pj/model.py",
+      "sha256": "6260155147a35101eb4fd6f979975b1447fd684c4c2b3062c685078223aab907"
+    },
+    {
+      "path": "method/phonojepa/pj/paths.py",
+      "sha256": "bb51b755e4f27f538aa98f64b9b06fe0ffe6fe18d3154e0fdc7e814c8830bce7"
+    },
+    {
+      "path": "method/phonojepa/pj/train.py",
+      "sha256": "2cf578cac5b541ab4371fc25eee7ed77b1c832bd5a71a8956c9e49a4be322935"
+    },
+    {
+      "path": "method/phonojepa/pj/extract.py",
+      "sha256": "27752b5f22ca6e6b1110f921a970ffa82d1720805e14f3d3f451e9a32e73115d"
+    },
+    {
+      "path": "method/phonojepa/pj/evaluate.py",
+      "sha256": "5b4f16f04781042ab201997ac5730d0358b935ba288300d6ad220d04376773aa"
+    },
+    {
+      "path": "method/phonojepa/pj/masks.py",
+      "sha256": "0b7c6f986b55243acfa59a720580849e17b7d7efd1b35208ba2453b24584020e"
+    },
+    {
+      "path": "method/phonojepa/pj/data/dataset.py",
+      "sha256": "f5bf8a9a38dbc7f67fb71d33d9f33656cd06a8e8217ae8a7fd4d5250d9ca7c48"
+    },
+    {
+      "path": "method/phonojepa/pj/data/window.py",
+      "sha256": "c668d1cc4c9bc4bb609b924de0bb0027fd18a8dd467a1923a34d07aaa1c64ffa"
+    },
+    {
+      "path": "method/phonojepa/pj/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "method/phonojepa/pj/data/cache.py",
+      "sha256": "278c572475525508b691753a8b0bd3b00b2b413d07f03a63448dd2aa4d86fc2c"
+    },
+    {
+      "path": "method/obs_jepa/oj/evaluate.py",
+      "sha256": "77d14bf94a7fb906a884f72d4cea7fc2b26ac4ef2739f6dd0b8f860d7d74ef22"
+    },
+    {
+      "path": "method/jepa_targets/jt/evaluate.py",
+      "sha256": "1b26dd6451cf24a03d8a2b5d489ed432711002e875fccb931901672d9f64470c"
+    },
+    {
+      "path": "method/jepa_targets/jt/priors.py",
+      "sha256": "200c02def11c3b5a85a640857ea94ca454bd55611657880848972af20430c912"
+    }
+  ]
+}

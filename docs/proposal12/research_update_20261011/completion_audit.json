@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-11T21:39:16.878175+07:00",
+  "unchanged_source_and_eval_hashes": [
+    "method/phonojepa/runtime/eval/P1.json",
+    "method/phonojepa/runtime/runs/PJ_PLctx_16k/manifest.json",
+    "method/phonojepa/runtime/runs/PJ_PLint_16k/manifest.json",
+    "method/phonojepa/pj/features.py",
+    "method/phonojepa/pj/joints.py",
+    "method/phonojepa/pj/__init__.py",
+    "method/phonojepa/pj/losses.py",
+    "method/phonojepa/pj/model.py",
+    "method/phonojepa/pj/paths.py",
+    "method/phonojepa/pj/train.py",
+    "method/phonojepa/pj/extract.py",
+    "method/phonojepa/pj/evaluate.py",
+    "method/phonojepa/pj/masks.py",
+    "method/phonojepa/pj/data/dataset.py",
+    "method/phonojepa/pj/data/window.py",
+    "method/phonojepa/pj/data/__init__.py",
+    "method/phonojepa/pj/data/cache.py",
+    "method/obs_jepa/oj/evaluate.py",
+    "method/jepa_targets/jt/evaluate.py",
+    "method/jepa_targets/jt/priors.py"
+  ],
+  "local_links": "PASS",
+  "sources": 21,
+  "strategies": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "training_modified": false,
+  "new_training_launched": false
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/home/haipd/Sign_Representations/docs/proposal12/research_update_20261011/sources/eccv5207.pdf",
+  "sha256": "929075abb9d48231e4351e082c6ebc2c845f05df014cf75370728e506c02bad5",
+  "declared_page_count": 18,
+  "enumerated_page_count": 18,
+  "reader_page_count": 18,
+  "warnings": [],
+  "generated_at": "2026-10-11T14:20:47.435584+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

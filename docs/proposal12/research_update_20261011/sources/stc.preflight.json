@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/home/haipd/Sign_Representations/docs/proposal12/research_update_20261011/sources/stc.pdf",
+  "sha256": "5a5529607bd3090506cddb86122924e1370d26f340073d256310a643cdb9b021",
+  "declared_page_count": 14,
+  "enumerated_page_count": 14,
+  "reader_page_count": 14,
+  "warnings": [],
+  "generated_at": "2026-10-11T14:13:00.034573+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

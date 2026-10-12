@@ -1,0 +1,42 @@
+[
+  {
+    "id": "best",
+    "requested_url": "https://arxiv.org/pdf/2302.05075v1",
+    "retrieved_at": "2026-10-11T14:19:03.387738+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2302.05075v1",
+    "sha256": "b4cbacbb25e3630c4978c3d00e5ef2ffa8e9f49fc978c90ce20a3dc789efd9c9",
+    "bytes": 897763,
+    "preflight": "PASS",
+    "pages": 9,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "eccv5207",
+    "requested_url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/5207.pdf",
+    "retrieved_at": "2026-10-11T14:20:41.746976+00:00",
+    "resolved_url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/5207.pdf",
+    "sha256": "929075abb9d48231e4351e082c6ebc2c845f05df014cf75370728e506c02bad5",
+    "bytes": 827231,
+    "preflight": "PASS",
+    "pages": 18,
+    "status": "downloaded_and_extracted"
+  },
+  {
+    "id": "asma",
+    "requested_url": "https://openreview.net/pdf?id=kIFo1q3VMS",
+    "retrieved_at": "2026-10-11T14:20:41.748510+00:00",
+    "status": "unavailable",
+    "error": "403 Client Error: Forbidden for url: https://openreview.net/pdf?id=kIFo1q3VMS"
+  },
+  {
+    "id": "asma",
+    "requested_url": "https://arxiv.org/pdf/2602.06251v1",
+    "retrieved_at": "2026-10-11T14:22:01.507913+00:00",
+    "resolved_url": "https://arxiv.org/pdf/2602.06251v1",
+    "sha256": "faa156c5dc56e7ebe7ee0087bb7ca46ca1fa43ed3603001e25efc7e3bcdd67a6",
+    "bytes": 6918835,
+    "preflight": "PASS",
+    "pages": 21,
+    "status": "downloaded_and_extracted"
+  }
+]

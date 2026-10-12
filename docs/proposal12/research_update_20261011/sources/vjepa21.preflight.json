@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/home/haipd/Sign_Representations/docs/proposal12/research_update_20261011/sources/vjepa21.pdf",
+  "sha256": "b40580916242ade00e2ac177cb01473d511f021d5a25f7552fd17512b3a72bbb",
+  "declared_page_count": 37,
+  "enumerated_page_count": 37,
+  "reader_page_count": 37,
+  "warnings": [],
+  "generated_at": "2026-10-11T14:13:38.962162+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

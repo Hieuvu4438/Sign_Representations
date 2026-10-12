@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/home/haipd/Sign_Representations/docs/proposal12/research_update_20261011/sources/slim.pdf",
+  "sha256": "d829733648fef1cca76038d4e21a7ed4cceef842ed6398c337ba6494849e62fa",
+  "declared_page_count": 21,
+  "enumerated_page_count": 21,
+  "reader_page_count": 21,
+  "warnings": [],
+  "generated_at": "2026-10-11T14:12:58.043079+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

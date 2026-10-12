@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/home/haipd/Sign_Representations/docs/proposal12/research_update_20261011/sources/mamp.pdf",
+  "sha256": "3ecaed6cad7eeeee6872d344e6792b1fe73be328d3d1d83581d97627d57e29f3",
+  "declared_page_count": 11,
+  "enumerated_page_count": 11,
+  "reader_page_count": 11,
+  "warnings": [],
+  "generated_at": "2026-10-11T14:12:56.538313+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

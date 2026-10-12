@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-10-11T21:39:16.878175+07:00",
+  "eval_jsons": [
+    "P1.json"
+  ],
+  "schedule_state": {
+    "extract_B0_val": "done",
+    "extract_B0_aslc300": "done",
+    "train_PJ_PLboth": "done",
+    "extract_PJ_PLboth_val": "done",
+    "extract_PJ_PLboth_aslc300": "done",
+    "train_PJ_PLboth_proto": "done",
+    "extract_PJ_PLboth_proto_val": "done",
+    "extract_PJ_PLboth_proto_aslc300": "done",
+    "train_PJ_PLboth_l1sig": "done",
+    "extract_PJ_PLboth_l1sig_val": "done",
+    "extract_PJ_PLboth_l1sig_aslc300": "done",
+    "train_PJ_PLboth_l1sig_noema": "done",
+    "extract_PJ_PLboth_l1sig_noema_val": "done",
+    "extract_PJ_PLboth_l1sig_noema_aslc300": "done",
+    "train_PJ_PLctx_16k": "done",
+    "extract_PJ_PLctx_16k_val": "done",
+    "extract_PJ_PLctx_16k_aslc300": "done",
+    "train_PJ_PLint_16k": "done",
+    "extract_PJ_PLint_16k_val": "done",
+    "extract_PJ_PLint_16k_aslc300": "done",
+    "eval_P1": "done",
+    "train_PJ_PLctx": "done",
+    "extract_PJ_PLctx_val": "done",
+    "extract_PJ_PLctx_aslc300": "done",
+    "train_PJ_PLint": "done",
+    "extract_PJ_PLint_val": "done",
+    "extract_PJ_PLint_aslc300": "done",
+    "train_PJ_R4ctx": "done",
+    "extract_PJ_R4ctx_val": "done",
+    "extract_PJ_R4ctx_aslc300": "done",
+    "train_PJ_R4int": "done",
+    "extract_PJ_R4int_val": "done",
+    "extract_PJ_R4int_aslc300": "done",
+    "train_PJ_R4both": "done"
+  },
+  "processes": [
+    {
+      "pid": 108344,
+      "command": "/home/haipd/Sign_Representations/.venv-signrep/bin/python scripts/schedule.py"
+    },
+    {
+      "pid": 1028038,
+      "command": "/home/haipd/Sign_Representations/.venv-signrep/bin/python pj/extract.py --kind model --ckpt /home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_R4both/final.pt --weights teacher --name PJ_R4both --set val"
+    },
+    {
+      "pid": 1028633,
+      "command": "/home/haipd/Sign_Representations/.venv-signrep/bin/python pj/extract.py --kind model --ckpt /home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_R4both/final.pt --weights teacher --name PJ_R4both --set val"
+    },
+    {
+      "pid": 1028634,
+      "command": "/home/haipd/Sign_Representations/.venv-signrep/bin/python pj/extract.py --kind model --ckpt /home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_R4both/final.pt --weights teacher --name PJ_R4both --set val"
+    },
+    {
+      "pid": 1028635,
+      "command": "/home/haipd/Sign_Representations/.venv-signrep/bin/python pj/extract.py --kind model --ckpt /home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_R4both/final.pt --weights teacher --name PJ_R4both --set val"
+    },
+    {
+      "pid": 1028636,
+      "command": "/home/haipd/Sign_Representations/.venv-signrep/bin/python pj/extract.py --kind model --ckpt /home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_R4both/final.pt --weights teacher --name PJ_R4both --set val"
+    },
+    {
+      "pid": 1028637,
+      "command": "/home/haipd/Sign_Representations/.venv-signrep/bin/python pj/extract.py --kind model --ckpt /home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_R4both/final.pt --weights teacher --name PJ_R4both --set val"
+    },
+    {
+      "pid": 1028638,
+      "command": "/home/haipd/Sign_Representations/.venv-signrep/bin/python pj/extract.py --kind model --ckpt /home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_R4both/final.pt --weights teacher --name PJ_R4both --set val"
+    }
+  ]
+}

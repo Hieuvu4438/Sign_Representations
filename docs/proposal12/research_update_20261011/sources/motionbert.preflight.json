@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/home/haipd/Sign_Representations/docs/proposal12/research_update_20261011/sources/motionbert.pdf",
+  "sha256": "0008637e4a6ea69e6c5e92e57743458b3c78378c429f3405db8c9cf96c7fde7e",
+  "declared_page_count": 18,
+  "enumerated_page_count": 18,
+  "reader_page_count": 18,
+  "warnings": [],
+  "generated_at": "2026-10-11T14:13:06.589536+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}
