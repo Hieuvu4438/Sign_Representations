@@ -1,0 +1,33 @@
+*.swp
+__pycache__/**
+__pycache__/
+
+# Downloaded checkpoints and training outputs
+pretrained_weight/
+out/*
+!out/cosign_pose_islr_seed42/
+!out/**/*.txt
+!out/**/*.log
+core*
+*.ipynb
+*.bin
+docker/.env
+wandb
+backup
+*.pth
+log/
+tools/*.jpg
+tools/*.mp4
+pre_training.py
+
+# Raw dataset video files, zip archives, and extracted pose binary files
+data/CoSign/*.zip
+data/CoSign/pose_format/
+data/CoSign/*/*.mp4
+data/CoSign/*/*.avi
+data/CoSign/*/*.mov
+data/CoSign/*/*.mkv
+data/CoSign/*/*.webm
+data/CoSign/*/*.MOV
+data/CoSign/*/*.MP4
+data/CoSign/*/*.AVI
