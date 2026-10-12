@@ -1,0 +1,10 @@
+.venv/
+.venv-locked/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+/artifacts/
+/checkpoints/
+/third_party/
+/data/
+

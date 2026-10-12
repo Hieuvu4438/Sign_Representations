@@ -1,0 +1,193 @@
+schema_version: 1
+experiment:
+  id: E04_logsig_target
+  seed: 17
+  supervision_regime: sign_only_ssl
+  output_dir: artifacts/E04_logsig_target/seed17
+  primary_validation_metric: islr_per_class_top1
+  evaluation_protocol: asl_citizen_official_signer_disjoint_v1
+
+data:
+  adapter: asl_citizen
+  root: data/asl_citizen
+  train_manifest: data/manifests/asl_citizen.train.jsonl
+  val_manifest: data/manifests/asl_citizen.val.jsonl
+  test_manifest: data/manifests/asl_citizen.test.jsonl
+  pretrain_split: train
+  expose_labels_to_pretrain: false
+  sampler: uniform_source_then_segment
+  segment_samples: 48
+  target_fps: 25.0
+  short_clip_policy: pad_invalid
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: true
+
+cache:
+  kind: per_frame_dino
+  root: data/cache
+  extractor_registry_key: dinov2_vits14
+  validate_hashes: true
+  reader_lru_samples: 64
+  visual_dim: 384
+  visual_streams: [global, left_hand, right_hand, face]
+  detector_mode: IMAGE
+  temporal_dependency_policy: same_frame
+  roi_policy: per_frame_letterbox
+  tensor_dtype_on_disk: float16
+  timestamps_dtype: float64
+
+pose:
+  topology: upper7_hands42_v1
+  coordinate_system: per_frame_body_isotropic
+  rotation_canonicalization: false
+  include_hand_local: false
+  quality_policy: observed_binary_hand_visibility_body
+  min_body_visibility: 0.5
+  geometry_requires_all_joints_observed: true
+  interpolation: none
+  smoothing: none
+
+geometry:
+  enabled: true
+  role: target_only
+  descriptor: logsig2_anchor_timing
+  degree: 2
+  basis: level1_then_upper_lie2
+  include_level0: false
+  path_groups: default_11_groups_v1
+  window_seconds: [0.16, 0.32, 0.64]
+  center_stride_samples: 4
+  incomplete_boundary_window: invalid
+  min_distinct_observations: 2
+  lift: none
+  append_time_channel: false
+  compute_dtype: float32
+  projection:
+    kind: fixed_gaussian
+    output_dim: 32
+    seed: 991
+    fit_statistics_split: train
+    statistics_path: data/targets/logsig2_train_stats.npz
+    matrices_path: data/targets/logsig2_projection.npz
+
+masking:
+  strategy: synchronized_temporal
+  regime: strict_temporal
+  requested_frame_ratio: 0.5
+  span_seconds: [0.16, 0.96]
+  map_resampled_aliases: true
+  closure: full_declared_support
+  geometry_target_eligibility: fully_hidden
+  min_visible_raw_tokens: 32
+  short_clip_min_context: quarter_of_valid_tokens
+  retries: 8
+  empty_semantic_policy: resample_then_global_skip
+  empty_geometry_policy: zero_term_with_count
+
+model:
+  raw_streams: [global, left_hand, right_hand, face, body, left_pose, right_pose]
+  raw_dimensions: [384, 384, 384, 384, 28, 84, 84]
+  embed_dim: 384
+  projection_hidden_dim: 384
+  time_encoding: physical_seconds_sinusoidal
+  type_embeddings: true
+  encoder:
+    layers: 6
+    heads: 6
+    mlp_ratio: 4
+    norm_first: true
+    dropout: 0.0
+    stochastic_depth: 0.0
+    causal: false
+    return_layers: [2, 4, 6]
+  predictor:
+    layers: 2
+    heads: 6
+    embed_dim: 384
+    geometry_output_dim: 32
+    query_values: metadata_only
+  teacher:
+    kind: ema
+    initialization: exact_online_copy
+    tau_start: 0.996
+    tau_end: 1.0
+    tau_schedule: cosine_successful_steps
+    eval_mode: true
+  pooling:
+    dense: valid_stream_mean
+    clip: valid_frame_mean
+
+loss:
+  semantic: normalized_l1
+  semantic_weight: 1.0
+  semantic_normalization: global_active_type_mean
+  geometry: smooth_l1
+  geometry_beta: 1.0
+  geometry_weight: 0.1
+  geometry_normalization: global_active_group_scale_mean
+  cluster_weight: 0.0
+  variance_weight: 0.0
+  covariance_weight: 0.0
+  pose_prior_weight: 0.0
+  temporal_contrast_weight: 0.0
+  visible_dense_weight: 0.0
+  accumulation_normalization: microbatch_global_means
+
+training:
+  max_successful_steps: 10000
+  microbatch_per_gpu: 8
+  gradient_accumulation: 4
+  precision: bf16_if_supported_else_fp32
+  optimizer: adamw
+  learning_rate: 0.0003
+  final_learning_rate: 0.000003
+  betas: [0.9, 0.95]
+  weight_decay: 0.05
+  decay_bias_norm: false
+  warmup_fraction: 0.05
+  grad_clip_norm: 1.0
+  ddp_find_unused_parameters: true
+  finite_policy: globally_skip_and_record
+  log_interval: 50
+  diagnostic_interval: 500
+  checkpoint_interval: 1000
+  validation_interval: 2000
+  keep_last: 3
+  resume: null
+
+evaluation:
+  split_during_development: val
+  probe_protocol: fixed_linear_train_labels
+  probe_config: configs/downstream/islr_linear.yaml
+  checkpoint_selection: registered_validation_probe
+  test_access_during_sweep: false
+  report_metrics: [per_instance_top1, per_class_top1, top5]
+  prediction_export: true
+
+runtime:
+  deterministic_smoke: false
+  allow_random_pretrained_fallback: false
+  allow_missing_provenance: false
+  max_runtime_hours: 8.0
+
+downstream:
+  task: islr
+  head: linear
+  representation: temporal
+  output_dir: artifacts/downstream
+  learning_rates:
+  - 0.001
+  - 0.003
+  - 0.01
+  max_epochs: 100
+  patience: 10
+  weight_decay: 0.0
+  l2_normalize: true
+  window_samples: 48
+  overlap_samples: 16
+  batch_size: 64
+  encoder_learning_rate: 0.0001
+  layer_policy: last
+  attentive_heads: 6
+  bootstrap_samples: 1000

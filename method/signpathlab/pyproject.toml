@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signpathlab"
+version = "0.1.0"
+description = "Auditable sign representation learning with explicit motion supports"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "PyYAML>=6", "torch>=2.5", "scikit-learn>=1.4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+extraction = ["av>=12", "opencv-contrib-python>=4.13", "mediapipe>=0.10.35", "torchvision>=0.20"]
+continuous = ["sacrebleu>=2.4", "jiwer>=3"]
+
+[project.scripts]
+signpath = "signpath.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+signpath = ["config_schema.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
