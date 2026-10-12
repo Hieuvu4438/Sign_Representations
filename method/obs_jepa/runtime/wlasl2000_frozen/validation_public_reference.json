@@ -1,0 +1,14 @@
+{
+  "reference": "method/p4_signssl/runtime/eval/EX05_wlasl_R0",
+  "same_per_query_top1": true,
+  "same_per_query_top5": true,
+  "dcg_abs_delta": 3.5157626491200134e-06,
+  "different_rank_queries": 1,
+  "old_new_rank_pairs": [
+    [
+      11,
+      10
+    ]
+  ],
+  "note": "CPU NumPy versus previous GPU Torch cosine reduction; tiny rank differences outside Top-5, DCG agrees at reported 2 decimals."
+}

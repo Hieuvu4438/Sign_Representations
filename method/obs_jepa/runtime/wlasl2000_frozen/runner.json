@@ -1,0 +1,11 @@
+{
+  "pid": 2705311,
+  "status": "complete",
+  "selected": [
+    "JH3D",
+    "JV3D",
+    "SR3D"
+  ],
+  "updated_at": "2026-10-11T22:29:03+07:00",
+  "allow_shared_gpu": true
+}

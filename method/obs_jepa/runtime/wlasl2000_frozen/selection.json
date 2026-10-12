@@ -1,0 +1,11 @@
+{
+  "updated_at": "2026-10-11T20:00:13+07:00",
+  "selected_models": [
+    "JH3D",
+    "JV3D",
+    "SR3D"
+  ],
+  "protocol_unchanged": true,
+  "cached_public_reference_retained": true,
+  "allow_shared_gpu": true
+}

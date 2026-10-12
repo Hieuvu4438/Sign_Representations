@@ -1,0 +1,52 @@
+{
+  "method": "JH3D",
+  "evaluated_at": "2026-10-11T20:49:36+07:00",
+  "frozen": true,
+  "downstream_training": false,
+  "checkpoint_sha256": "81c5fad83b12b4ff187fba4698a873bbe2c0ffa00f60bb3addc536eaded79685",
+  "variants": {
+    "avg": {
+      "DCG": 0.32040420841454664,
+      "Rec1": 0.08370962139631817,
+      "Rec5": 0.2549496352900313,
+      "queries": 2879,
+      "true_score_ties": 103
+    },
+    "weighted": {
+      "DCG": 0.3194689828593747,
+      "Rec1": 0.08336227856894755,
+      "Rec5": 0.25321292115317817,
+      "queries": 2879,
+      "true_score_ties": 103
+    }
+  },
+  "extraction": {
+    "inference": {
+      "torch_version": "2.11.0+cu128",
+      "numpy_version": "2.5.3",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA RTX 5880 Ada Generation",
+      "batch_windows": 8,
+      "decoder_workers": 4,
+      "fast_zero_cls_hiera_attention": true,
+      "parameters_frozen": true,
+      "optimizer_created": false
+    },
+    "train": {
+      "total_windows": 332717,
+      "zero_activity_fallback": 0,
+      "zero_vectors": {
+        "avg": 0,
+        "weighted": 0
+      }
+    },
+    "test": {
+      "total_windows": 64278,
+      "zero_activity_fallback": 0,
+      "zero_vectors": {
+        "avg": 0,
+        "weighted": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "device": "cpu",
+  "passed_models": [
+    "A11_AD",
+    "JH3D",
+    "SR3D",
+    "ASLC002",
+    "JV3D",
+    "SRVJ",
+    "A00",
+    "A10_AR",
+    "A10_AD",
+    "A12_AD",
+    "A13_AD",
+    "A10c_AD",
+    "B11",
+    "B12",
+    "B13",
+    "B10"
+  ],
+  "normal_and_short_clip": true,
+  "parameter_and_buffer_unchanged": true,
+  "results_written": false
+}

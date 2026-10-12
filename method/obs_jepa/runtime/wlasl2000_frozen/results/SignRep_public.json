@@ -1,0 +1,69 @@
+{
+  "method": "SignRep_public",
+  "evaluated_at": "2026-10-11T16:42:12+07:00",
+  "frozen": true,
+  "downstream_training": false,
+  "checkpoint_sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+  "variants": {
+    "avg": {
+      "DCG": 0.5389402461884055,
+      "Rec1": 0.2650225772837791,
+      "Rec5": 0.6075026050712052,
+      "queries": 2879,
+      "true_score_ties": 119
+    },
+    "weighted": {
+      "DCG": 0.5712593264778558,
+      "Rec1": 0.29419937478291075,
+      "Rec5": 0.6547412295936089,
+      "queries": 2879,
+      "true_score_ties": 113
+    }
+  },
+  "extraction": {
+    "train": {
+      "cache": "/home/haipd/Sign_Representations/method/p4_signssl/runtime/feats/wlasl_train_s2",
+      "original_meta": {
+        "checkpoint": "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+        "sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+        "missing": [],
+        "unexpected": [],
+        "fast_attention": true,
+        "split": "train",
+        "stride": 2,
+        "n_clips": 14296,
+        "n_windows": 332717,
+        "manifest_sha256": "aefb9f5aa59c128bee6f9adf28ecd8cdf93c57be3d949754552792f379454e21",
+        "seconds": 2448.1980154514313,
+        "precision": "bf16 autocast, fp16 storage",
+        "short_clip_policy": "pad-last-frame",
+        "perturb": "none",
+        "subset": "",
+        "dataset": "wlasl"
+      },
+      "zero_activity_fallback": 0
+    },
+    "test": {
+      "cache": "/home/haipd/Sign_Representations/method/p4_signssl/runtime/feats/wlasl_test_s2",
+      "original_meta": {
+        "checkpoint": "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+        "sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+        "missing": [],
+        "unexpected": [],
+        "fast_attention": true,
+        "split": "test",
+        "stride": 2,
+        "n_clips": 2879,
+        "n_windows": 64278,
+        "manifest_sha256": "bb2ce8bbc5c50b77dd54556bb6a40e58739f96d28421f624cad3ed1abcd5d0d4",
+        "seconds": 516.1713500022888,
+        "precision": "bf16 autocast, fp16 storage",
+        "short_clip_policy": "pad-last-frame",
+        "perturb": "none",
+        "subset": "",
+        "dataset": "wlasl"
+      },
+      "zero_activity_fallback": 0
+    }
+  }
+}
