@@ -2,3 +2,8 @@
 runtime/feats/
 runtime/logs/
 runtime/schedule_state.json
+# Frozen retrieval embeddings and full split inventories are regenerated.
+runtime/wlasl2000_frozen/embeddings/
+runtime/wlasl2000_frozen/train.jsonl
+runtime/wlasl2000_frozen/test.jsonl
+runtime/wlasl2000_frozen/progress.json

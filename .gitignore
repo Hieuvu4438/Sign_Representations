@@ -3,6 +3,9 @@ __pycache__/
 .venv*/
 # Vendor upstream source, but keep nested repository metadata local.
 /third_party/**/.git
+/docs/proposal12/research_update_20261011/code/**/.git
+.DS_Store
+*.egg-info/
 /artifacts/legacy/third_party
 artifacts/runtime/
 /artifacts/legacy/checkpoints/
@@ -71,3 +74,6 @@ artifacts/legacy/reports/ncslgr_annotation_audit/utterances.jsonl
 /data/manifests/csl_daily.jsonl
 /data/manifests/wlasl2000.jsonl
 /data/manifests/phoenix14t.jsonl
+
+# Uni-Sign is vendored as source; local inference outputs stay on this machine.
+/third_party/Uni-Sign/out/

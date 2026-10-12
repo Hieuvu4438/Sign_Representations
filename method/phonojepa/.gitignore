@@ -1,0 +1,10 @@
+# Regenerable tensors, feature inventories, dataset caches and process logs.
+# Keep experiment configurations, training traces and evaluation reports in Git.
+runtime/cache/
+runtime/feats/
+runtime/logs/
+runtime/schedule_state.json
+runtime/launch/*.log
+runtime/eval/**/train.jsonl
+runtime/eval/**/test.jsonl
+runtime/eval/**/progress.json
