@@ -1,0 +1,18 @@
+method,DCG_x100,Rec@1_pct,Rec@5_pct,training_dataset,initialization,input
+SignRep_public,84.55523722817455,72.2,90.8,YouTube-SL-25 (tác giả); không train thêm trên ASLC002,Hiera-B MAE-Kinetics,RGB
+JH3D,68.9289819688602,45.93333333333333,78.60000000000001,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",Hiera-B MAE-Kinetics,RGB
+JV3D,56.6475464448796,29.799999999999997,62.8,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",V-JEPA 2.1 ViT-B distilled từ ViT-G,RGB
+B11,32.49785681365423,10.066666666666666,24.066666666666666,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",Ngẫu nhiên,Landmark 2D
+B13,31.10222902174774,9.466666666666667,22.666666666666664,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",Ngẫu nhiên,Landmark 2D
+B12,31.53333414225431,8.933333333333334,24.0,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",Ngẫu nhiên,Landmark 2D
+B10,26.13921722125311,5.533333333333333,15.733333333333333,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",Ngẫu nhiên,Landmark 2D
+SR3D,25.172167757529056,5.0,14.133333333333335,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",Hiera-B MAE-Kinetics,RGB
+SRVJ,21.83449335675347,2.666666666666667,8.933333333333334,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",V-JEPA 2.1 ViT-B distilled từ ViT-G,RGB
+A11_AD,21.843475458796586,2.533333333333333,8.933333333333334,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",V-JEPA 2.1 ViT-B distilled từ ViT-G,RGB
+A10_AD,20.003463184981783,1.7999999999999998,6.333333333333334,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",V-JEPA 2.1 ViT-B distilled từ ViT-G,RGB
+ASLC002,18.98701430374866,1.7333333333333332,4.866666666666666,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",Hiera-B MAE-Kinetics,RGB
+A00,19.483297878300384,1.7333333333333332,5.866666666666666,Không train thêm trên ASLC002; dùng V-JEPA 2.1 public,V-JEPA 2.1 ViT-B distilled từ ViT-G,RGB
+A10_AR,19.624684920537728,1.4666666666666666,5.333333333333334,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",V-JEPA 2.1 ViT-B distilled từ ViT-G,RGB
+A12_AD,17.7910013293273,0.8666666666666666,3.1333333333333333,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",V-JEPA 2.1 ViT-B distilled từ ViT-G,RGB
+A13_AD,18.239005483674685,0.8,3.8666666666666667,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",V-JEPA 2.1 ViT-B distilled từ ViT-G,RGB
+A10c_AD,17.717699717854344,0.7333333333333333,3.4666666666666663,"ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",V-JEPA 2.1 ViT-B distilled từ ViT-G,RGB

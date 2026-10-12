@@ -1,0 +1,523 @@
+{
+  "generated_at": "2026-10-11T16:09:12+07:00",
+  "protocol": {
+    "dataset": "ASLC300 subset of official ASL Citizen splits",
+    "gallery": "3,000 train videos; 300 glosses x 10 videos",
+    "query": "1,500 validation videos; 300 glosses x 5 videos; 5 signers",
+    "gallery_signers": 26,
+    "query_signers": 5,
+    "signer_disjoint": true,
+    "test_used": false,
+    "pooling": "mean of raw window features, then clip-level L2",
+    "similarity": "cosine; class score = max over gallery videos of that class",
+    "rank": "one plus number of other classes with score >= true-class score",
+    "DCG": "mean(1/log2(1+true_class_rank))",
+    "Rec@K": "mean(true_class_rank <= K)",
+    "whitening": false,
+    "activity_weighting": false,
+    "manifest_sha256": "1e41ab7e0a64f46ee5d9ed9070cc581c41fdc6ad162d6edb17052fe7dc818a65"
+  },
+  "models": {
+    "SR3D": {
+      "metrics": {
+        "DCG": 0.25172167757529057,
+        "Rec@1": 0.05,
+        "Rec@5": 0.14133333333333334,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "Hiera-B MAE-Kinetics",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/SR3D/aslc300",
+      "feature_meta": {
+        "kind": "hiera",
+        "ckpt": "/home/haipd/Sign_Representations/method/jepa_targets/runtime/SR3D/last.pt",
+        "weights": "model",
+        "name": "SR3D",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 1805.3442392349243
+      },
+      "window_count": 44134,
+      "zero_feature_clips": []
+    },
+    "SRVJ": {
+      "metrics": {
+        "DCG": 0.2183449335675347,
+        "Rec@1": 0.02666666666666667,
+        "Rec@5": 0.08933333333333333,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/SRVJ/aslc300",
+      "feature_meta": {
+        "kind": "vjepa_fc",
+        "ckpt": "/home/haipd/Sign_Representations/method/jepa_targets/runtime/SRVJ/last.pt",
+        "weights": "encoder",
+        "name": "SRVJ",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 694.7314791679382
+      },
+      "window_count": 44134,
+      "zero_feature_clips": []
+    },
+    "ASLC002": {
+      "metrics": {
+        "DCG": 0.1898701430374866,
+        "Rec@1": 0.017333333333333333,
+        "Rec@5": 0.048666666666666664,
+        "queries": 1500,
+        "true_class_tied_queries": 2
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "Hiera-B MAE-Kinetics",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/ASLC002/aslc300",
+      "feature_meta": {
+        "kind": "hiera",
+        "ckpt": "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/train/last.model.pt",
+        "weights": "model",
+        "name": "ASLC002",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 1023.7405986785889
+      },
+      "window_count": 44134,
+      "zero_feature_clips": []
+    },
+    "JV3D": {
+      "metrics": {
+        "DCG": 0.566475464448796,
+        "Rec@1": 0.298,
+        "Rec@5": 0.628,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/JV3D/aslc300",
+      "feature_meta": {
+        "kind": "vjepa_fc",
+        "ckpt": "/home/haipd/Sign_Representations/method/jepa_targets/runtime/JV3D/last.pt",
+        "weights": "encoder",
+        "name": "JV3D",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 339.4099678993225
+      },
+      "window_count": 44134,
+      "zero_feature_clips": []
+    },
+    "JH3D": {
+      "metrics": {
+        "DCG": 0.689289819688602,
+        "Rec@1": 0.4593333333333333,
+        "Rec@5": 0.786,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "Hiera-B MAE-Kinetics",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/JH3D/aslc300",
+      "feature_meta": {
+        "kind": "hiera",
+        "ckpt": "/home/haipd/Sign_Representations/method/jepa_targets/runtime/JH3D/last.pt",
+        "weights": "model",
+        "name": "JH3D",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 1334.7743327617645
+      },
+      "window_count": 44134,
+      "zero_feature_clips": []
+    },
+    "A00": {
+      "metrics": {
+        "DCG": 0.19483297878300385,
+        "Rec@1": 0.017333333333333333,
+        "Rec@5": 0.058666666666666666,
+        "queries": 1500,
+        "true_class_tied_queries": 5
+      },
+      "training_dataset": "Không train thêm trên ASLC002; dùng V-JEPA 2.1 public",
+      "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/A00/aslc300",
+      "feature_meta": {
+        "kind": "rgb",
+        "ckpt": "vjepa",
+        "weights": "student",
+        "name": "A00",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 236.79419541358948
+      },
+      "window_count": 35037,
+      "zero_feature_clips": []
+    },
+    "A10_AR": {
+      "metrics": {
+        "DCG": 0.19624684920537727,
+        "Rec@1": 0.014666666666666666,
+        "Rec@5": 0.05333333333333334,
+        "queries": 1500,
+        "true_class_tied_queries": 2
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/A10_AR/aslc300",
+      "feature_meta": {
+        "kind": "rgb",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/A10_AR/final.pt",
+        "weights": "student",
+        "name": "A10_AR",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 364.0011200904846
+      },
+      "window_count": 35037,
+      "zero_feature_clips": []
+    },
+    "A10_AD": {
+      "metrics": {
+        "DCG": 0.20003463184981782,
+        "Rec@1": 0.018,
+        "Rec@5": 0.06333333333333334,
+        "queries": 1500,
+        "true_class_tied_queries": 2
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/A10_AD/aslc300",
+      "feature_meta": {
+        "kind": "rgb",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/A10_AD/final.pt",
+        "weights": "student",
+        "name": "A10_AD",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 272.2889792919159
+      },
+      "window_count": 35037,
+      "zero_feature_clips": []
+    },
+    "A11_AD": {
+      "metrics": {
+        "DCG": 0.21843475458796588,
+        "Rec@1": 0.025333333333333333,
+        "Rec@5": 0.08933333333333333,
+        "queries": 1500,
+        "true_class_tied_queries": 1
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/A11_AD/aslc300",
+      "feature_meta": {
+        "kind": "rgb",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/A11_AD/final.pt",
+        "weights": "student",
+        "name": "A11_AD",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 271.0174570083618
+      },
+      "window_count": 35037,
+      "zero_feature_clips": []
+    },
+    "A12_AD": {
+      "metrics": {
+        "DCG": 0.17791001329327302,
+        "Rec@1": 0.008666666666666666,
+        "Rec@5": 0.03133333333333333,
+        "queries": 1500,
+        "true_class_tied_queries": 1
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/A12_AD/aslc300",
+      "feature_meta": {
+        "kind": "rgb",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/A12_AD/final.pt",
+        "weights": "student",
+        "name": "A12_AD",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 268.10999393463135
+      },
+      "window_count": 35037,
+      "zero_feature_clips": []
+    },
+    "A13_AD": {
+      "metrics": {
+        "DCG": 0.18239005483674683,
+        "Rec@1": 0.008,
+        "Rec@5": 0.03866666666666667,
+        "queries": 1500,
+        "true_class_tied_queries": 1
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/A13_AD/aslc300",
+      "feature_meta": {
+        "kind": "rgb",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/A13_AD/final.pt",
+        "weights": "student",
+        "name": "A13_AD",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 278.58165073394775
+      },
+      "window_count": 35037,
+      "zero_feature_clips": []
+    },
+    "A10c_AD": {
+      "metrics": {
+        "DCG": 0.17717699717854346,
+        "Rec@1": 0.007333333333333333,
+        "Rec@5": 0.034666666666666665,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G",
+      "input": "RGB",
+      "source": "method/obs_jepa/runtime/feats/A10c_AD/aslc300",
+      "feature_meta": {
+        "kind": "rgb",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/A10c_AD/final.pt",
+        "weights": "student",
+        "name": "A10c_AD",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 264.14635729789734
+      },
+      "window_count": 35037,
+      "zero_feature_clips": []
+    },
+    "B10": {
+      "metrics": {
+        "DCG": 0.2613921722125311,
+        "Rec@1": 0.05533333333333333,
+        "Rec@5": 0.15733333333333333,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "Ngẫu nhiên",
+      "input": "Landmark 2D",
+      "source": "method/obs_jepa/runtime/feats/B10/aslc300",
+      "feature_meta": {
+        "kind": "graph",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/B10/final.pt",
+        "weights": "teacher",
+        "name": "B10",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 188.31570768356323
+      },
+      "window_count": 6056,
+      "zero_feature_clips": [
+        {
+          "sample_id": "24556461660088957-DRAWER",
+          "role": "gallery"
+        },
+        {
+          "sample_id": "7250079610510665-HOMEWORK",
+          "role": "gallery"
+        },
+        {
+          "sample_id": "20517851955250377-SALAD",
+          "role": "gallery"
+        }
+      ]
+    },
+    "B11": {
+      "metrics": {
+        "DCG": 0.3249785681365423,
+        "Rec@1": 0.10066666666666667,
+        "Rec@5": 0.24066666666666667,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "Ngẫu nhiên",
+      "input": "Landmark 2D",
+      "source": "method/obs_jepa/runtime/feats/B11/aslc300",
+      "feature_meta": {
+        "kind": "graph",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/B11/final.pt",
+        "weights": "teacher",
+        "name": "B11",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 289.54674243927
+      },
+      "window_count": 6056,
+      "zero_feature_clips": [
+        {
+          "sample_id": "24556461660088957-DRAWER",
+          "role": "gallery"
+        },
+        {
+          "sample_id": "7250079610510665-HOMEWORK",
+          "role": "gallery"
+        },
+        {
+          "sample_id": "20517851955250377-SALAD",
+          "role": "gallery"
+        }
+      ]
+    },
+    "B12": {
+      "metrics": {
+        "DCG": 0.3153333414225431,
+        "Rec@1": 0.08933333333333333,
+        "Rec@5": 0.24,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "Ngẫu nhiên",
+      "input": "Landmark 2D",
+      "source": "method/obs_jepa/runtime/feats/B12/aslc300",
+      "feature_meta": {
+        "kind": "graph",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/B12/final.pt",
+        "weights": "teacher",
+        "name": "B12",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 146.69233918190002
+      },
+      "window_count": 6056,
+      "zero_feature_clips": [
+        {
+          "sample_id": "24556461660088957-DRAWER",
+          "role": "gallery"
+        },
+        {
+          "sample_id": "7250079610510665-HOMEWORK",
+          "role": "gallery"
+        },
+        {
+          "sample_id": "20517851955250377-SALAD",
+          "role": "gallery"
+        }
+      ]
+    },
+    "B13": {
+      "metrics": {
+        "DCG": 0.3110222902174774,
+        "Rec@1": 0.09466666666666666,
+        "Rec@5": 0.22666666666666666,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "ASLC002: 3.000 video ASL Citizen train, không nhãn gloss",
+      "initialization": "Ngẫu nhiên",
+      "input": "Landmark 2D",
+      "source": "method/obs_jepa/runtime/feats/B13/aslc300",
+      "feature_meta": {
+        "kind": "graph",
+        "ckpt": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/B13/final.pt",
+        "weights": "teacher",
+        "name": "B13",
+        "set": "aslc300",
+        "size": 224,
+        "limit": 0,
+        "seconds": 168.09271335601807
+      },
+      "window_count": 6056,
+      "zero_feature_clips": [
+        {
+          "sample_id": "24556461660088957-DRAWER",
+          "role": "gallery"
+        },
+        {
+          "sample_id": "7250079610510665-HOMEWORK",
+          "role": "gallery"
+        },
+        {
+          "sample_id": "20517851955250377-SALAD",
+          "role": "gallery"
+        }
+      ]
+    },
+    "SignRep_public": {
+      "metrics": {
+        "DCG": 0.8455523722817455,
+        "Rec@1": 0.722,
+        "Rec@5": 0.908,
+        "queries": 1500,
+        "true_class_tied_queries": 0
+      },
+      "training_dataset": "YouTube-SL-25 (tác giả); không train thêm trên ASLC002",
+      "initialization": "Hiera-B MAE-Kinetics",
+      "input": "RGB",
+      "feature_meta": {
+        "train": {
+          "checkpoint": "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+          "sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+          "missing": [],
+          "unexpected": [],
+          "fast_attention": true,
+          "split": "train",
+          "stride": 2,
+          "n_clips": 40154,
+          "n_windows": 1440323,
+          "manifest_sha256": "765922a9e50fb57b30a0215b2073ec3a0fa19521ff83f378ae127317ba82d7b2",
+          "seconds": 18499.51128411293,
+          "precision": "bf16 autocast, fp16 storage",
+          "short_clip_policy": "pad-last-frame",
+          "perturb": "none",
+          "subset": ""
+        },
+        "val": {
+          "checkpoint": "/home/haipd/Sign_Representations/checkpoints/signrep/ckpt.pt",
+          "sha256": "f8be8ca44aec4d7066175dccc681338f376ec86de6ba72bc79223a6bbd3c766b",
+          "missing": [],
+          "unexpected": [],
+          "fast_attention": true,
+          "split": "val",
+          "stride": 2,
+          "n_clips": 10304,
+          "n_windows": 374136,
+          "manifest_sha256": "e975383c1a0f7f5c652cf992b6396f686868fbc19c2fd0924d269ff60a2a08cd",
+          "seconds": 4200.2979390621185,
+          "precision": "bf16 autocast, fp16 storage",
+          "short_clip_policy": "pad-last-frame"
+        }
+      },
+      "selected_stride": 8,
+      "window_count": 44134,
+      "zero_feature_clips": []
+    }
+  }
+}
