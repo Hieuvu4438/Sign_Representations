@@ -1,0 +1,14 @@
+# Design and implementation provenance
+
+The local [proposal](../../docs/proposal12/PhonoJEPA_Strategies_Deep_Research_VI.md), §6.1 and §7 S2, is the implementation specification. Primary papers and official repository snapshots already audited in [the research bundle](../../docs/proposal12/research_update_20261011/LITERATURE_AND_CODE.md) distinguish source evidence from our proposed adaptations.
+
+| Source | Reused idea | Boundary |
+|---|---|---|
+| [MAMP, ICCV2023](https://openaccess.thecvf.com/content/ICCV2023/html/Mao_Masked_Motion_Predictors_are_Strong_3D_Action_Representation_Learners_ICCV_2023_paper.html), [official code](https://github.com/maoyunyao/MAMP), audited commit `09e6252a5c7d061c226395d25e6aa47a69e7e58d` | Masked motion differences and MSE reconstruction control | Local `model_mamp/transformer.py:426–454` inspected: future-minus-current at a stride, masked mean MSE. Our interval paths, dt, robust normalization, masks and JEPA backbone differ. No source code copied from this repo. |
+| [MASA, arXiv2405.20666v1](https://arxiv.org/abs/2405.20666v1) | Motion as an explicit skeleton SSL signal | Does not prescribe our exact lags, interval lengths, heads, normalization or weights. |
+| [Path-JEPA, ECCV2026 paper](https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/5207.pdf), [poster](https://eccv.ecva.net/virtual/2026/poster/4270) | Multiscale path targets and signature dependency masking | Audited repository commit `e2e5d3450befe4bdd7a27cdacd973b3cf97f3b10` contains project material, no runnable implementation. Ours is an adaptation. We explicitly use standard degree-two free Lie dimensions3/10, not the paper's unexplained6D dimension22 convention. |
+| Local PhonoJEPA S1 | Eight-channel preprocessing, raw-support masking/duplicates, Transformer/EMA, deterministic training and shared evaluation wrapper | Fork provenance is pinned in `UPSTREAM.json`; S1 files are not edited. |
+
+`s2/intervals.py` and `s2/interval_heads.py` are newly written. Degree-two math uses Chen's product for piecewise-linear increments: `S1=Σdx`, `log(S)2 = S2 − S1⊗S1/2`; a free Lie coefficient for i<j is half the cumulative signed cross product. Tests use an independently written NumPy full-tensor Chen product, known square/line paths, reversal, translation, affine area scaling and segment subdivision. No third-party signature implementation or dependency is required.
+
+Explicit local design choices:15 weighted2D paths, scales8/16/32, half stride, lags1/4/8, 12 motion dimensions, selected index-to-wrist dynamic shape proxy, strict all-sample support, metadata-conditioned pooling of masked base queries, train median/IQR stats, group-balanced Huber objectives, start/end weight.25, padded27 optional input, static+quarter-temporal readout, loss weights. These are testable hypotheses and are not attributed as exact paper methods.
