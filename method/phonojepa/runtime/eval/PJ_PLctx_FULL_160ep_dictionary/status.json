@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "pid": 3307297,
+  "started": "2026-10-12T06:06:17+07:00",
+  "checkpoint": "runtime/runs/PJ_PLctx_FULL_160ep/final.pt",
+  "checkpoint_sha256": "8f8a10687f2df869fd0d7f4703edfeb467c59977d7baaacb2d567c15789e41f9",
+  "datasets": [
+    "wlasl",
+    "aslc"
+  ],
+  "material_passport": {
+    "experiment_id": "PLctx-full160-frozen-SignRep-retrieval",
+    "mode": "run",
+    "inputs": "Frozen final checkpoint, official ASL Citizen and local WLASL2000 train/test",
+    "outputs": "Compact pooled embeddings, per-query ranks, DCG/Rec@1/Rec@5",
+    "external_data_upload": false,
+    "test_selection": false
+  },
+  "current_dataset": "aslc",
+  "current_stage": "aslc_test",
+  "finished": "2026-10-12T06:24:52+07:00"
+}

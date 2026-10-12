@@ -1,0 +1,51 @@
+{
+  "source": "https://arxiv.org/html/2503.08529v1#S7.SS2",
+  "paper_table": 4,
+  "checkpoint_sha256": "8f8a10687f2df869fd0d7f4703edfeb467c59977d7baaacb2d567c15789e41f9",
+  "weights": "teacher",
+  "pretraining": "ASL Citizen official train only, 40154 clips, 160 epochs, seed 0",
+  "gallery": {
+    "split": "train",
+    "n": 40154
+  },
+  "query": {
+    "split": "test",
+    "n": 32941
+  },
+  "n_classes": 2731,
+  "frozen": true,
+  "downstream_training": false,
+  "pca_whitening": false,
+  "window_frames": 64,
+  "stride": 2,
+  "effective_fps": "min(source fps,25)",
+  "primary_readout": "_grp",
+  "secondary_readouts": [
+    "_cls",
+    "_mean"
+  ],
+  "pooling": "uniform mean of raw window embeddings, then L2 video normalization",
+  "similarity": "cosine; class score = maximum over gallery clips of that class",
+  "rank": "pessimistic class ties: 1 + number of other classes scoring >= correct class",
+  "metrics": {
+    "DCG": "mean(1/log2(1+rank))",
+    "Rec@1": "mean(rank<=1)",
+    "Rec@5": "mean(rank<=5)"
+  },
+  "adaptations_from_RGB_SignRep": [
+    "Native 64-frame skeleton encoder versus 16-frame RGB encoder",
+    "No trained activity head: avg pooling only",
+    "Native missing-frame validity mask for short clips"
+  ],
+  "source_hashes": {
+    "train_csv_sha256": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329",
+    "test_csv_sha256": "b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e"
+  },
+  "manifest_sha256": {
+    "train": "0437ebbb99ff05874750abbb4afb2de6d7678778662dcbddd9faf44f954b1c60",
+    "test": "4266d0d23e1a4b7aa567b2e441d5c94e53bc3d53d429170900d931a7c5d53b1c"
+  },
+  "extractor_sha256": "6ed65f65167a98e0a6e200503693d17f50e77b24d81c9a7cdae5aa7c59c114c3",
+  "native_encoder_sha256": "6260155147a35101eb4fd6f979975b1447fd684c4c2b3062c685078223aab907",
+  "scorer_sha256": "2ee598338a49a2baddc0c2e85e6c225cecadc5d30832e4815d11570be0caa102"
+}

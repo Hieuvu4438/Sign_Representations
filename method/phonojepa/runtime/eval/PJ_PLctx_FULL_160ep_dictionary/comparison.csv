@@ -1,0 +1,19 @@
+﻿dataset,method,source,pooling,primary,pretraining,gallery,queries,window,stride,DCG,Rec1,Rec5
+ASL Citizen,PLctx_FULL_160ep_grp,measured,avg,True,"ASL Citizen train, 40154 clips, 160 epochs, 1 seed",40154,32941,64,2,39.61825796186131,16.678303633769467,36.89626908715582
+ASL Citizen,PLctx_FULL_160ep_cls,measured,avg,False,"ASL Citizen train, 40154 clips, 160 epochs, 1 seed",40154,32941,64,2,11.386202372860758,0.25500136607874685,0.8317901703044839
+ASL Citizen,PLctx_FULL_160ep_mean,measured,avg,False,"ASL Citizen train, 40154 clips, 160 epochs, 1 seed",40154,32941,64,2,36.889896982324295,14.23150481163292,32.93767645183813
+ASL Citizen,SignRep_public,existing local measurement,weighted,False,YouTube-SL-25,40154,32941,16,2,70.42131428519173,49.02401262863908,79.29328192829604
+ASL Citizen,SignRep (paper Table 4),published reference,avg,False,YouTube-SL-25,40154,32941,16,2,61.4,37.47,68.77
+ASL Citizen,SignRep (paper Table 4),published reference,weighted,False,YouTube-SL-25,40154,32941,16,2,71.21,49.95,80.09
+WLASL2000,PLctx_FULL_160ep_grp,measured,avg,True,"ASL Citizen train, 40154 clips, 160 epochs, 1 seed",14296,2879,64,2,30.550459944813248,9.62139631816603,24.41820076415422
+WLASL2000,PLctx_FULL_160ep_cls,measured,avg,False,"ASL Citizen train, 40154 clips, 160 epochs, 1 seed",14296,2879,64,2,14.624935441849013,2.188259812434873,4.5154567558179926
+WLASL2000,PLctx_FULL_160ep_mean,measured,avg,False,"ASL Citizen train, 40154 clips, 160 epochs, 1 seed",14296,2879,64,2,30.484883163477594,9.62139631816603,23.862452240361236
+WLASL2000,SignRep_public,existing local measurement,avg,False,YouTube-SL-25,14296,2879,16,2,53.894024618840554,26.50225772837791,60.75026050712052
+WLASL2000,SignRep_public,existing local measurement,weighted,False,YouTube-SL-25,14296,2879,16,2,57.12593264778558,29.419937478291075,65.4741229593609
+WLASL2000,JH3D,existing local measurement,avg,False,ASL Citizen 3000-clip corpus,14296,2879,16,2,32.04042084145466,8.370962139631818,25.49496352900313
+WLASL2000,JH3D,existing local measurement,weighted,False,ASL Citizen 3000-clip corpus,14296,2879,16,2,31.94689828593747,8.336227856894755,25.321292115317817
+WLASL2000,JV3D,existing local measurement,avg,False,ASL Citizen 3000-clip corpus,14296,2879,16,2,25.308382517305724,4.376519624869746,14.379993053143453
+WLASL2000,SR3D,existing local measurement,avg,False,ASL Citizen 3000-clip corpus,14296,2879,16,2,15.886152280788895,2.327196943383119,4.480722473080931
+WLASL2000,SR3D,existing local measurement,weighted,False,ASL Citizen 3000-clip corpus,14296,2879,16,2,16.340735159994686,2.4313997915943037,4.967002431399791
+WLASL2000,SignRep (paper Table 4),published reference,avg,False,YouTube-SL-25,14296,2879,16,2,53.57,26.16,60.98
+WLASL2000,SignRep (paper Table 4),published reference,weighted,False,YouTube-SL-25,14296,2879,16,2,57.93,29.92,67.41

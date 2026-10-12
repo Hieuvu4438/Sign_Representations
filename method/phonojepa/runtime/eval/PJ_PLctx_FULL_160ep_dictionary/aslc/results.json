@@ -1,0 +1,40 @@
+{
+  "dataset": "aslc",
+  "protocol": "runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/protocol.json",
+  "checkpoint_sha256": "8f8a10687f2df869fd0d7f4703edfeb467c59977d7baaacb2d567c15789e41f9",
+  "extraction": {
+    "train": {
+      "n_clips": 40154,
+      "n_windows": 333667,
+      "seconds": 478.58
+    },
+    "test": {
+      "n_clips": 32941,
+      "n_windows": 199852,
+      "seconds": 319.52
+    }
+  },
+  "readouts": {
+    "_grp": {
+      "DCG": 0.3961825796186131,
+      "Rec1": 0.16678303633769467,
+      "Rec5": 0.36896269087155825,
+      "queries": 32941,
+      "true_score_ties": 14
+    },
+    "_cls": {
+      "DCG": 0.11386202372860758,
+      "Rec1": 0.0025500136607874684,
+      "Rec5": 0.008317901703044838,
+      "queries": 32941,
+      "true_score_ties": 30
+    },
+    "_mean": {
+      "DCG": 0.36889896982324294,
+      "Rec1": 0.1423150481163292,
+      "Rec5": 0.3293767645183813,
+      "queries": 32941,
+      "true_score_ties": 13
+    }
+  }
+}

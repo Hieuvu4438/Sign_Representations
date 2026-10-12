@@ -1,0 +1,16 @@
+{
+  "rank_to_metric_check": "PASS",
+  "query_count": 2879,
+  "zero_embeddings_retained": {
+    "train": {
+      "_grp": 0,
+      "_cls": 0,
+      "_mean": 0
+    },
+    "test": {
+      "_grp": 0,
+      "_cls": 0,
+      "_mean": 0
+    }
+  }
+}

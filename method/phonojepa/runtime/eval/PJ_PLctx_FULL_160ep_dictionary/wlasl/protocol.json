@@ -1,0 +1,52 @@
+{
+  "source": "https://arxiv.org/html/2503.08529v1#S7.SS2",
+  "paper_table": 4,
+  "checkpoint_sha256": "8f8a10687f2df869fd0d7f4703edfeb467c59977d7baaacb2d567c15789e41f9",
+  "weights": "teacher",
+  "pretraining": "ASL Citizen official train only, 40154 clips, 160 epochs, seed 0",
+  "gallery": {
+    "split": "train",
+    "n": 14296
+  },
+  "query": {
+    "split": "test",
+    "n": 2879
+  },
+  "n_classes": 2000,
+  "frozen": true,
+  "downstream_training": false,
+  "pca_whitening": false,
+  "window_frames": 64,
+  "stride": 2,
+  "effective_fps": "min(source fps,25)",
+  "primary_readout": "_grp",
+  "secondary_readouts": [
+    "_cls",
+    "_mean"
+  ],
+  "pooling": "uniform mean of raw window embeddings, then L2 video normalization",
+  "similarity": "cosine; class score = maximum over gallery clips of that class",
+  "rank": "pessimistic class ties: 1 + number of other classes scoring >= correct class",
+  "metrics": {
+    "DCG": "mean(1/log2(1+rank))",
+    "Rec@1": "mean(rank<=1)",
+    "Rec@5": "mean(rank<=5)"
+  },
+  "adaptations_from_RGB_SignRep": [
+    "Native 64-frame skeleton encoder versus 16-frame RGB encoder",
+    "No trained activity head: avg pooling only",
+    "Native missing-frame validity mask for short clips"
+  ],
+  "source_hashes": {
+    "annotation_sha256": "f2043012675733940694b367646a63b3d7673a621768831678547a6b39500c78",
+    "classlist_sha256": "2c131fb7f052340aa7ae8579c8cae9746028740b8e62efeb957a7790dbefcf4a",
+    "existing_locked_protocol": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/wlasl2000_frozen/protocol.json"
+  },
+  "manifest_sha256": {
+    "train": "7d723be6b9d10e631ac41aa0904299e51fa420eae9e3fc153bafe39b7035e095",
+    "test": "afd21d582bf9ad20e109180be13349227c90f9c23e3a9956cb41c0589198c838"
+  },
+  "extractor_sha256": "6ed65f65167a98e0a6e200503693d17f50e77b24d81c9a7cdae5aa7c59c114c3",
+  "native_encoder_sha256": "6260155147a35101eb4fd6f979975b1447fd684c4c2b3062c685078223aab907",
+  "scorer_sha256": "2ee598338a49a2baddc0c2e85e6c225cecadc5d30832e4815d11570be0caa102"
+}

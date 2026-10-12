@@ -1,0 +1,40 @@
+{
+  "dataset": "wlasl",
+  "protocol": "runtime/eval/PJ_PLctx_FULL_160ep_dictionary/wlasl/protocol.json",
+  "checkpoint_sha256": "8f8a10687f2df869fd0d7f4703edfeb467c59977d7baaacb2d567c15789e41f9",
+  "extraction": {
+    "train": {
+      "n_clips": 14296,
+      "n_windows": 67838,
+      "seconds": 208.92
+    },
+    "test": {
+      "n_clips": 2879,
+      "n_windows": 12227,
+      "seconds": 44.51
+    }
+  },
+  "readouts": {
+    "_grp": {
+      "DCG": 0.30550459944813246,
+      "Rec1": 0.0962139631816603,
+      "Rec5": 0.24418200764154221,
+      "queries": 2879,
+      "true_score_ties": 88
+    },
+    "_cls": {
+      "DCG": 0.14624935441849013,
+      "Rec1": 0.021882598124348732,
+      "Rec5": 0.045154567558179926,
+      "queries": 2879,
+      "true_score_ties": 90
+    },
+    "_mean": {
+      "DCG": 0.30484883163477594,
+      "Rec1": 0.0962139631816603,
+      "Rec5": 0.23862452240361237,
+      "queries": 2879,
+      "true_score_ties": 91
+    }
+  }
+}
