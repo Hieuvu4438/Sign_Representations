@@ -1,0 +1,29 @@
+{
+  "atol": 1e-06,
+  "backbone": {
+    "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "code_repository": "https://github.com/facebookresearch/dinov2",
+    "initialization": "official_pretrained",
+    "missing_keys": [],
+    "registry_key": "dinov2_vits14",
+    "source_files_sha256": {
+      "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+      "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+      "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+    },
+    "unexpected_keys": [],
+    "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+  },
+  "device": "cuda:0",
+  "hidden_detector_validity": "allowed_to_change; not used to select a different query schedule",
+  "mask_and_public_query_schedule": "held_fixed",
+  "max_visible_absolute_error": 0.0,
+  "research_claim": null,
+  "retained_geometry_tokens_compared": 22,
+  "retained_raw_tokens_compared": 137,
+  "rtol": 1e-06,
+  "scope": "real_raw_video_pretrained_strict_temporal_counterfactual",
+  "source_frames_edited": 32,
+  "source_sha256": "4352c559d4e2eb20f38a679d379661673df2d718682c72b18e9a7e471a16304d",
+  "status": "passed"
+}

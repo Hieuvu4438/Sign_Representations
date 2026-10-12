@@ -1,0 +1,50 @@
+{
+  "artifact_sha256": "978c46ff28f358a88db8b91222488a0a76a16748a4acafdc81b6c74430a0bf2b",
+  "asset_cost_included": "decode/IMAGE pose-hand-face/DINO/temporal/head",
+  "class_ids": [
+    296,
+    743,
+    788,
+    945,
+    1333,
+    1428,
+    1679,
+    2000
+  ],
+  "dense_shape": [
+    59,
+    96
+  ],
+  "feature_identity": {
+    "detector_mode": "IMAGE",
+    "extractor_hash": "06e30ca2e4fc27744db4ad2b879bc4f86c5d65cd2aa4e0b8014242ec60a32ca7",
+    "feature_dim": 384,
+    "normalization": "per_frame_shoulder_center_isotropic_scale",
+    "temporal_dependency_policy": "same_frame",
+    "topology_hash": "000cc43a27cc7d3ae4c01d44a7794bd7971168d9cc304050676d821c4b6c8da0",
+    "visual_stream_order": [
+      "global",
+      "left_hand",
+      "right_hand",
+      "face"
+    ],
+    "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+  },
+  "model_hash": "f86c670986d7cd8ccd4e9bc45f1b24f902e58f603d642ffe269391ba879b1ecb",
+  "output": "artifacts/phase4_final_demo_embeddings.npz",
+  "predicted_label_id": 945,
+  "preprocessing_hash": "ccd1ca33912eefdb78070058ab0a6b8acd453f5c1ce541d9ca49b8a2e8972f38",
+  "runtime_seconds": 6.123343399987789,
+  "schema_version": 1,
+  "scope": "offline_multimodal_full_clip_inference",
+  "source_sha256": "07fead430dbfd38bb1ad386b2fa6437819045108513823e0b849a4ea4b1b15a3",
+  "status": "completed",
+  "timestamps": "original selected PTS seconds",
+  "valid_frames": 59,
+  "visual_valid_counts": [
+    59,
+    0,
+    15,
+    59
+  ]
+}

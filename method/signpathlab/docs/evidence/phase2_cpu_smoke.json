@@ -1,0 +1,35 @@
+{
+  "attempted_batches": 10,
+  "attempted_updates": 10,
+  "config_hash": "2ea39023cd559af4976d5fa9637332f20be395818727a14b09eaebc134864e0e",
+  "diagnostics": {
+    "clip_count": 6,
+    "effective_rank": 3.640899896621704,
+    "embedding_norm_mean": 3.868609666824341,
+    "feature_std_mean": 0.09175942093133926,
+    "off_diagonal_cosine_mean": 0.9698594808578491,
+    "singular_values": [
+      1.115925669670105,
+      0.6572256088256836,
+      0.5650278329849243,
+      0.41434425115585327,
+      0.3922336995601654,
+      4.641386226467148e-07
+    ],
+    "status": "measured"
+  },
+  "final_loss_this_session": 0.9582457482814789,
+  "geometry_target_count_this_session": 1244.0,
+  "initial_loss_this_session": 1.0923831820487977,
+  "precision": "fp32",
+  "precision_reason": null,
+  "research_claim": null,
+  "run_dir": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/smoke/20e1330f1f98",
+  "runtime_seconds_this_session": 2.0624597599962726,
+  "scope": "synthetic_correctness_only",
+  "status": "completed_correctness_smoke",
+  "successful_steps": 10,
+  "test_used_for_selection": false,
+  "training_runtime_seconds_total": 2.0208118219743483,
+  "world_size": 1
+}

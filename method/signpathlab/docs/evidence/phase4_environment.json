@@ -1,0 +1,28 @@
+{
+  "bf16_available": true,
+  "cuda_available": true,
+  "cuda_runtime": "12.8",
+  "cuda_toolkit": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2021 NVIDIA Corporation\nBuilt on Thu_Nov_18_09:45:30_PST_2021\nCuda compilation tools, release 11.5, V11.5.119\nBuild cuda_11.5.r11.5/compiler.30672275_0",
+  "driver": "570.195.03",
+  "git_commit": "407833eff58fb67a1080f98d01c121b6266cebdb",
+  "gpus": [
+    "NVIDIA RTX 5880 Ada Generation"
+  ],
+  "os": "Linux-5.15.0-187-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "PyYAML": "6.0.3",
+    "av": "17.1.0",
+    "jiwer": "4.0.0",
+    "mediapipe": "0.10.35",
+    "numpy": "2.5.3",
+    "opencv-contrib-python": "4.13.0.92",
+    "opencv-python": null,
+    "pytest": "9.0.3",
+    "sacrebleu": "2.6.0",
+    "scikit-learn": "1.8.0",
+    "signpathlab": "0.1.0",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128"
+  },
+  "python": "3.13.5"
+}

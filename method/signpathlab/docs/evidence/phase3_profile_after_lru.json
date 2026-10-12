@@ -1,0 +1,156 @@
+{
+  "config_hash": "da4815786b617faac6671fc9ccdb75448f84db822ee9663b3fa337366fc5ffce",
+  "counts": [
+    {
+      "geometry_targets": 120.0,
+      "success": true,
+      "targets": 471.0
+    },
+    {
+      "geometry_targets": 206.0,
+      "success": true,
+      "targets": 514.0
+    },
+    {
+      "geometry_targets": 178.0,
+      "success": true,
+      "targets": 448.0
+    },
+    {
+      "geometry_targets": 142.0,
+      "success": true,
+      "targets": 419.0
+    },
+    {
+      "geometry_targets": 175.0,
+      "success": true,
+      "targets": 472.0
+    },
+    {
+      "geometry_targets": 122.0,
+      "success": true,
+      "targets": 478.0
+    },
+    {
+      "geometry_targets": 88.0,
+      "success": true,
+      "targets": 426.0
+    },
+    {
+      "geometry_targets": 120.0,
+      "success": true,
+      "targets": 460.0
+    },
+    {
+      "geometry_targets": 48.0,
+      "success": true,
+      "targets": 365.0
+    },
+    {
+      "geometry_targets": 194.0,
+      "success": true,
+      "targets": 534.0
+    },
+    {
+      "geometry_targets": 248.0,
+      "success": true,
+      "targets": 547.0
+    },
+    {
+      "geometry_targets": 48.0,
+      "success": true,
+      "targets": 342.0
+    },
+    {
+      "geometry_targets": 133.0,
+      "success": true,
+      "targets": 446.0
+    },
+    {
+      "geometry_targets": 193.0,
+      "success": true,
+      "targets": 508.0
+    },
+    {
+      "geometry_targets": 53.0,
+      "success": true,
+      "targets": 405.0
+    },
+    {
+      "geometry_targets": 127.0,
+      "success": true,
+      "targets": 497.0
+    },
+    {
+      "geometry_targets": 153.0,
+      "success": true,
+      "targets": 462.0
+    },
+    {
+      "geometry_targets": 252.0,
+      "success": true,
+      "targets": 541.0
+    },
+    {
+      "geometry_targets": 191.0,
+      "success": true,
+      "targets": 514.0
+    },
+    {
+      "geometry_targets": 84.0,
+      "success": true,
+      "targets": 440.0
+    }
+  ],
+  "loader_seconds": [
+    2.150420377991395,
+    1.7707604149763938,
+    1.4165091989852954,
+    0.61633634797181,
+    1.3147015490103513,
+    1.7759037939831614,
+    1.728631673991913,
+    0.9130860480072442,
+    0.4841634710028302,
+    0.7125599120045081,
+    1.6385598190245219,
+    0.43066037498647347,
+    0.5528053150046617,
+    0.6841808009776287,
+    0.4947294229932595,
+    0.5060153329977766,
+    0.49527155098621733,
+    0.5298249750048853,
+    0.5252398639859166,
+    0.505163742986042
+  ],
+  "peak_cuda_bytes": 50299392,
+  "scope": "cached loading + student/teacher/predictor/backward/optimizer/EMA; excludes decode/detector/DINO costs",
+  "status": "completed_profile_only",
+  "steps_attempted": 20,
+  "successful_steps": 20,
+  "teacher_included": true,
+  "train_manifest_sha256": "55b7301800d8253eb79a6d6e80baf5e663baf76ec0c5487871c1407dfc646a83",
+  "update_seconds": [
+    0.33354589602095075,
+    0.030957153998315334,
+    0.033482553000794724,
+    0.035192865994758904,
+    0.034283663000678644,
+    0.03381294698920101,
+    0.03422183601651341,
+    0.042443082988029346,
+    0.03438554398599081,
+    0.02677967501222156,
+    0.025844117015367374,
+    0.025823209987720475,
+    0.026820283994311467,
+    0.026138135988730937,
+    0.025921617983840406,
+    0.02593236099346541,
+    0.025939362996723503,
+    0.026557861972833052,
+    0.02596029100823216,
+    0.02588736399775371
+  ]
+}

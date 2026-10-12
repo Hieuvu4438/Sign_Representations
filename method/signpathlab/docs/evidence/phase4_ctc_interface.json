@@ -1,0 +1,39 @@
+{
+  "losses": [
+    9.272211074829102,
+    8.677391052246094,
+    8.096843719482422,
+    7.531399726867676,
+    6.981957912445068
+  ],
+  "metrics": {
+    "deletions": 0,
+    "insertions": 5,
+    "reference_tokens": 5,
+    "substitutions": 0,
+    "wer": 1.0
+  },
+  "predictions": [
+    [
+      3,
+      6,
+      2,
+      3,
+      7,
+      5,
+      2
+    ],
+    [
+      6,
+      7,
+      7
+    ]
+  ],
+  "real_experiment": {
+    "reason": "No authorized How2Sign/OpenASL/continuous gloss manifest configured",
+    "status": "not_run"
+  },
+  "status": "completed_correctness_only",
+  "synthetic_correctness_only": true,
+  "task": "cslr"
+}

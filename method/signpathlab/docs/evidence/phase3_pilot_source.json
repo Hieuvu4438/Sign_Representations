@@ -1,0 +1,6 @@
+{
+  "archive_path": "method/signpathlab/artifacts/source_snapshots/942a9dbcda2ba47b168761339d463b107b2ad6c671309ad7d5e53384da3d6bd5.tar.gz",
+  "archive_sha256": "6f0040dea67e9911657a88680adf4a7ae684acd602e8f07baa667f82f6fb695f",
+  "runtime_implementation_hash": "942a9dbcda2ba47b168761339d463b107b2ad6c671309ad7d5e53384da3d6bd5",
+  "scope": "Frozen implementation used by all 15 completed pilot runs before additional config/evaluation input validation fixes."
+}

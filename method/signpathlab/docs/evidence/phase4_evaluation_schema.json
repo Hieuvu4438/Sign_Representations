@@ -1,0 +1,144 @@
+{
+  "confidence_intervals": {
+    "absent_class_policy": "mean over sampled supported classes in fixed taxonomy",
+    "group_count": 5,
+    "per_class_top1_ci95": [
+      0.05555555555555555,
+      0.42857142857142855
+    ],
+    "per_instance_top1_ci95": [
+      0.1111111111111111,
+      0.5
+    ],
+    "resampling_unit": "official_signer_id",
+    "samples": 1000,
+    "scope": "percentile sampling intervals conditional on fitted model/pool; separate from seed dispersion",
+    "seed": 17,
+    "status": "measured"
+  },
+  "evaluation_implementation_hash": "18794cff27053ae216af9d9ebf1685306b43f659e9643010f3dfa725ed8756e6",
+  "head_sha256": "f86c670986d7cd8ccd4e9bc45f1b24f902e58f603d642ffe269391ba879b1ecb",
+  "manifest_sha256": "048dd3ee1afdbf4eeafac38043bdfc03a67b0bf6d553d4a849db9598492e9d5d",
+  "metrics": {
+    "absent_classes": [],
+    "class_counts": {
+      "1333": 2,
+      "1428": 2,
+      "1679": 2,
+      "2000": 2,
+      "296": 2,
+      "743": 2,
+      "788": 2,
+      "945": 2
+    },
+    "per_class_accuracy": {
+      "1333": 0.0,
+      "1428": 0.5,
+      "1679": 0.0,
+      "2000": 0.0,
+      "296": 1.0,
+      "743": 0.5,
+      "788": 0.0,
+      "945": 0.5
+    },
+    "per_class_top1": 0.3125,
+    "per_instance_top1": 0.3125,
+    "top5": 0.75
+  },
+  "protocol_signature": "99b6da3f41ba6c2eaad8af31131547cfddc56b8659299fefa7e0d74453e9e651",
+  "quality_buckets": {
+    "high": {
+      "count": 0,
+      "metrics": null,
+      "reason": "no_samples"
+    },
+    "low": {
+      "absent_classes": [
+        1679
+      ],
+      "class_counts": {
+        "1333": 1,
+        "1428": 2,
+        "1679": 0,
+        "2000": 2,
+        "296": 1,
+        "743": 2,
+        "788": 2,
+        "945": 2
+      },
+      "count": 12,
+      "per_class_accuracy": {
+        "1333": 0.0,
+        "1428": 0.5,
+        "2000": 0.0,
+        "296": 1.0,
+        "743": 0.5,
+        "788": 0.0,
+        "945": 0.5
+      },
+      "per_class_top1": 0.35714285714285715,
+      "per_instance_top1": 0.3333333333333333,
+      "top5": 0.75
+    },
+    "medium": {
+      "absent_classes": [
+        743,
+        788,
+        945,
+        1428,
+        2000
+      ],
+      "class_counts": {
+        "1333": 1,
+        "1428": 0,
+        "1679": 2,
+        "2000": 0,
+        "296": 1,
+        "743": 0,
+        "788": 0,
+        "945": 0
+      },
+      "count": 4,
+      "per_class_accuracy": {
+        "1333": 0.0,
+        "1679": 0.0,
+        "296": 1.0
+      },
+      "per_class_top1": 0.3333333333333333,
+      "per_instance_top1": 0.25,
+      "top5": 0.75
+    }
+  },
+  "retrieval": {
+    "mrr": 0.37222328745498084,
+    "queries_without_relevant_gallery": 0,
+    "query_count": 16,
+    "ranks": [
+      1,
+      4,
+      1,
+      1,
+      14,
+      23,
+      4,
+      2,
+      10,
+      3,
+      9,
+      13,
+      3,
+      3,
+      19,
+      2
+    ],
+    "recall_at_1": 0.1875,
+    "recall_at_10": 0.75,
+    "recall_at_5": 0.625,
+    "same_source_exclusions": 0,
+    "tie_policy": "stable_gallery_order"
+  },
+  "scope": "asl_citizen_official_signer_disjoint_pilot8_v1",
+  "split": "val",
+  "status": "completed",
+  "test_used_for_selection": false
+}

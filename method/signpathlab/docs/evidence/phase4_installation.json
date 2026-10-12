@@ -1,0 +1,8 @@
+{
+  "venv_config": "home = /home/haipd/miniconda3/bin\ninclude-system-site-packages = false\nversion = 3.13.5\nexecutable = /home/haipd/miniconda3/bin/python3.13\ncommand = /home/haipd/miniconda3/bin/python -m venv /home/haipd/Sign_Representations/method/signpathlab/.venv-locked\n",
+  "editable_install_command": "PIP_CONSTRAINT=\"$PWD/requirements-main-extraction.lock.txt\" .venv-locked/bin/python -m pip install -e '.[dev]'",
+  "editable_install_log_sha256": "b7646e030faeb175ba471b339f9c413eae2f0104cbeac9adaf4fb0cbbf786ff7",
+  "lock_sha256": "ca6085fa79b98834cf6d49f8667055dd6dac3d9f5bccd6d41af5637d920b4ffe",
+  "pip_check": "No broken requirements found.",
+  "profile": "Linux x86_64; Python3.13.5; clean combined main/extraction/continuous; historical venv retained separately"
+}

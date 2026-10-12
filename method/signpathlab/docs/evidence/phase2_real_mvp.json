@@ -1,0 +1,57 @@
+{
+  "attempted_updates": 20,
+  "checkpoint_reload_exact": true,
+  "clip_lengths": [
+    59,
+    63
+  ],
+  "config_hash": "1b19d7a35bcbba454a34ff901378d9a1f35dd052ac6d22347c9540fd2ef134cf",
+  "dense_shape": [
+    2,
+    63,
+    48
+  ],
+  "diagnostics": {
+    "clip_count": 2,
+    "effective_rank": 1.0,
+    "embedding_norm_mean": 4.975568771362305,
+    "feature_std_mean": 0.1057639941573143,
+    "off_diagonal_cosine_mean": 0.9695754051208496,
+    "singular_values": [
+      0.9005323648452759,
+      2.287704887748987e-07
+    ],
+    "status": "measured"
+  },
+  "feature_identity": {
+    "detector_mode": "IMAGE",
+    "extractor_hash": "a6152058666bcde04f5d83b44d6428492ffe1af54b4ca3c1e226735962111028",
+    "feature_dim": 384,
+    "normalization": "per_frame_shoulder_center_isotropic_scale",
+    "temporal_dependency_policy": "same_frame",
+    "topology_hash": "000cc43a27cc7d3ae4c01d44a7794bd7971168d9cc304050676d821c4b6c8da0",
+    "visual_stream_order": [
+      "global",
+      "left_hand",
+      "right_hand",
+      "face"
+    ],
+    "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+  },
+  "final_loss": 0.8957892298698426,
+  "geometry_targets_total": 233.0,
+  "head_loss_on_train_minibatch": 0.06751936674118042,
+  "initial_loss": 1.0959173023700715,
+  "precision": "fp32",
+  "research_claim": null,
+  "run_dir": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/real_minibatch_correctness/25cea4e858a2",
+  "runtime_seconds": 7.674278088990832,
+  "scope": "real_train_minibatch_correctness_only",
+  "source_hashes": [
+    "07fead430dbfd38bb1ad386b2fa6437819045108513823e0b849a4ea4b1b15a3",
+    "4352c559d4e2eb20f38a679d379661673df2d718682c72b18e9a7e471a16304d"
+  ],
+  "status": "passed",
+  "successful_steps": 20,
+  "test_used_for_selection": false
+}

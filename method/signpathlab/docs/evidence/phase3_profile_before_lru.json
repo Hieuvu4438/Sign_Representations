@@ -1,0 +1,51 @@
+{
+  "config_hash": "36ac120ea58a04864397aaf5c68f5c4ed8d4e0821c18d5764a53fcc2c758d720",
+  "counts": [
+    {
+      "geometry_targets": 120.0,
+      "success": true,
+      "targets": 471.0
+    },
+    {
+      "geometry_targets": 206.0,
+      "success": true,
+      "targets": 514.0
+    },
+    {
+      "geometry_targets": 178.0,
+      "success": true,
+      "targets": 448.0
+    },
+    {
+      "geometry_targets": 142.0,
+      "success": true,
+      "targets": 419.0
+    },
+    {
+      "geometry_targets": 175.0,
+      "success": true,
+      "targets": 472.0
+    }
+  ],
+  "loader_seconds": [
+    2.261174839019077,
+    1.525364231027197,
+    1.534577975020511,
+    1.8381669590016827,
+    1.4052248699881602
+  ],
+  "peak_cuda_bytes": 49250816,
+  "scope": "cached loading + student/teacher/predictor/backward/optimizer/EMA; excludes decode/detector/DINO costs",
+  "status": "completed_profile_only",
+  "steps_attempted": 5,
+  "successful_steps": 5,
+  "teacher_included": true,
+  "train_manifest_sha256": "55b7301800d8253eb79a6d6e80baf5e663baf76ec0c5487871c1407dfc646a83",
+  "update_seconds": [
+    0.4079913449822925,
+    0.028292890987358987,
+    0.026338452997151762,
+    0.026511817006394267,
+    0.025668346002930775
+  ]
+}

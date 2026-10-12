@@ -1,0 +1,44 @@
+{
+  "losses": [
+    2.957808494567871,
+    2.534994602203369,
+    2.15197491645813,
+    1.804482102394104,
+    1.4911084175109863
+  ],
+  "metrics": {
+    "bleu": 51.697315395717055,
+    "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "rouge_l_f1": 0.7142857142857142,
+    "rouge_recipe": "mean sentence LCS F1; whitespace word tokens; declared case",
+    "sacrebleu_version": "2.6.0",
+    "wer": {
+      "deletions": 1,
+      "insertions": 1,
+      "reference_tokens": 7,
+      "substitutions": 1,
+      "wer": 0.42857142857142855
+    },
+    "word_preprocessing": "case_preserving_whitespace"
+  },
+  "predictions": [
+    [
+      3,
+      4,
+      4
+    ],
+    [
+      3,
+      7,
+      8,
+      9
+    ]
+  ],
+  "real_experiment": {
+    "reason": "No authorized How2Sign/OpenASL/continuous gloss manifest configured",
+    "status": "not_run"
+  },
+  "status": "completed_correctness_only",
+  "synthetic_correctness_only": true,
+  "task": "slt"
+}

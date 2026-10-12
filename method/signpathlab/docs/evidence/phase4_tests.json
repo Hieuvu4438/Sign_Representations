@@ -1,0 +1,18 @@
+{
+  "suite": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "128",
+    "time": "26.505",
+    "timestamp": "2026-10-12T14:21:26.379872+07:00",
+    "hostname": "ptitiec"
+  },
+  "log_sha256": "ff1670ad1589215630a3d513bb25825f463b7c8e8a456017ec140e4a4eff4ec8",
+  "junit_sha256": "0082c46b0f8e836e1562c4a85abc5b40e5896bae99be0913ef8c1bc7332c6453",
+  "environment": "phase4_environment.json",
+  "command": ".venv-locked/bin/python -m pytest -q --junitxml=artifacts/phase4_tests.xml",
+  "scope": "all unit/integration tests; includes real CUDA AMP and two-process CPU Gloo normalization/resume; optional real continuous data absent",
+  "runtime_implementation_hash": "18794cff27053ae216af9d9ebf1685306b43f659e9643010f3dfa725ed8756e6"
+}

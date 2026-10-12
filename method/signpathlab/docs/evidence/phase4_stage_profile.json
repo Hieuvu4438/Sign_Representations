@@ -1,0 +1,90 @@
+{
+  "cache_bytes_on_disk": 203333271,
+  "config_hash": "127fd98de8b989d2d90944c2973ee33a9435cce52b854ac8bae92a9241847b36",
+  "disk_throughput_bytes_per_second": null,
+  "disk_throughput_reason": "OS page cache and bounded verified in-process cache; no physical disk benchmark was performed",
+  "loading_fraction": 0.9411849393503197,
+  "module_parameters": {
+    "online": 458016,
+    "predictor": 163808,
+    "teacher": 458016
+  },
+  "peak_cuda_allocated_bytes": 49558016,
+  "preprocessing_gpu_hours": null,
+  "preprocessing_gpu_hours_reason": "historical extraction not instrumented for utilization; raw embed records actual whole-pipeline wall seconds",
+  "records": [
+    {
+      "batch_preparation_seconds": 2.141139915009262,
+      "eligible_geometry_targets": 120,
+      "forward_seconds": {
+        "online": 0.21995779901044443,
+        "predictor": 0.007036556024104357,
+        "teacher": 0.0030250280105974525
+      },
+      "loss_backward_optimizer_ema_and_transfer_seconds": 0.11865944394958206,
+      "successful": true,
+      "teacher_raw_tokens": 925,
+      "update_seconds": 0.3486788269947283,
+      "visible_raw_tokens": 454
+    },
+    {
+      "batch_preparation_seconds": 1.7807132609887049,
+      "eligible_geometry_targets": 206,
+      "forward_seconds": {
+        "online": 0.0035026739933528006,
+        "predictor": 0.0022845049970783293,
+        "teacher": 0.0029705579800065607
+      },
+      "loss_backward_optimizer_ema_and_transfer_seconds": 0.018832825036952272,
+      "successful": true,
+      "teacher_raw_tokens": 940,
+      "update_seconds": 0.027590562007389963,
+      "visible_raw_tokens": 426
+    },
+    {
+      "batch_preparation_seconds": 1.409277808998013,
+      "eligible_geometry_targets": 178,
+      "forward_seconds": {
+        "online": 0.003453526005614549,
+        "predictor": 0.0020733549899887294,
+        "teacher": 0.002576683007646352
+      },
+      "loss_backward_optimizer_ema_and_transfer_seconds": 0.01855256498674862,
+      "successful": true,
+      "teacher_raw_tokens": 873,
+      "update_seconds": 0.02665612898999825,
+      "visible_raw_tokens": 425
+    },
+    {
+      "batch_preparation_seconds": 0.6175999749975745,
+      "eligible_geometry_targets": 142,
+      "forward_seconds": {
+        "online": 0.0034062429913319647,
+        "predictor": 0.0021459489944390953,
+        "teacher": 0.0025324269954580814
+      },
+      "loss_backward_optimizer_ema_and_transfer_seconds": 0.01813267101533711,
+      "successful": true,
+      "teacher_raw_tokens": 830,
+      "update_seconds": 0.02621728999656625,
+      "visible_raw_tokens": 411
+    },
+    {
+      "batch_preparation_seconds": 1.3433110479963943,
+      "eligible_geometry_targets": 175,
+      "forward_seconds": {
+        "online": 0.0034843399771489203,
+        "predictor": 0.0020869100117124617,
+        "teacher": 0.002517765009542927
+      },
+      "loss_backward_optimizer_ema_and_transfer_seconds": 0.018451088020810857,
+      "successful": true,
+      "teacher_raw_tokens": 854,
+      "update_seconds": 0.026540103019215167,
+      "visible_raw_tokens": 382
+    }
+  ],
+  "scope": "instrumented cached updates including hooks/synchronization; not exclusive utilization or production latency",
+  "status": "completed_profile_only",
+  "total_profile_cuda_device_hours": 0.002152145810832735
+}

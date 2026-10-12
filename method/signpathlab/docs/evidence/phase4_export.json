@@ -1,0 +1,167 @@
+{
+  "artifact_contract_hash": "390eefb681f9c4038e48ecb355fbe3e031edddb4d64e66e38439ba1724aa0a82",
+  "attentive_heads": 6,
+  "class_ids": [
+    296,
+    743,
+    788,
+    945,
+    1333,
+    1428,
+    1679,
+    2000
+  ],
+  "dynamic_limits": {
+    "batch": [
+      1,
+      16
+    ],
+    "frames": [
+      1,
+      512
+    ]
+  },
+  "encoder_pt2_sha256": "b3ae28bd1d9875b458d493f2faa7a45da23f4453425ae86f0366c641ad81ede0",
+  "format": "torch_export",
+  "head_dimension": 96,
+  "head_kind": "linear",
+  "inference_mode": "offline_bidirectional_unmasked",
+  "input_identity": {
+    "detector_mode": "IMAGE",
+    "extractor_hash": "06e30ca2e4fc27744db4ad2b879bc4f86c5d65cd2aa4e0b8014242ec60a32ca7",
+    "feature_dim": 384,
+    "normalization": "per_frame_shoulder_center_isotropic_scale",
+    "temporal_dependency_policy": "same_frame",
+    "topology_hash": "000cc43a27cc7d3ae4c01d44a7794bd7971168d9cc304050676d821c4b6c8da0",
+    "visual_stream_order": [
+      "global",
+      "left_hand",
+      "right_hand",
+      "face"
+    ],
+    "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+  },
+  "inputs": [
+    "streams: tuple7 float32[B,T,F_stream]",
+    "valid: bool[B,T,7]",
+    "timestamps: float64[B,T] original seconds",
+    "source_frame_index: int64[B,T], -1 only padding"
+  ],
+  "l2_normalize": true,
+  "model_hash": "f86c670986d7cd8ccd4e9bc45f1b24f902e58f603d642ffe269391ba879b1ecb",
+  "outputs": [
+    "dense[B,T,D]",
+    "timestamps[B,T]",
+    "valid[B,T]",
+    "clip[B,D]",
+    "logits[B,C] or [B,0] without head"
+  ],
+  "parity": [
+    {
+      "batch": 1,
+      "frames": 1,
+      "max_absolute_error": 0.0,
+      "missing_streams": true
+    },
+    {
+      "batch": 2,
+      "frames": 1,
+      "max_absolute_error": 0.0,
+      "missing_streams": true
+    },
+    {
+      "batch": 1,
+      "frames": 5,
+      "max_absolute_error": 0.0,
+      "missing_streams": true
+    },
+    {
+      "batch": 2,
+      "frames": 5,
+      "max_absolute_error": 0.0,
+      "missing_streams": true
+    },
+    {
+      "batch": 1,
+      "frames": 48,
+      "max_absolute_error": 0.0,
+      "missing_streams": true
+    },
+    {
+      "batch": 2,
+      "frames": 48,
+      "max_absolute_error": 0.0,
+      "missing_streams": true
+    },
+    {
+      "batch": 1,
+      "frames": 71,
+      "max_absolute_error": 0.0,
+      "missing_streams": true
+    },
+    {
+      "batch": 2,
+      "frames": 71,
+      "max_absolute_error": 0.0,
+      "missing_streams": true
+    },
+    {
+      "all_invalid": true,
+      "batch": 2,
+      "finite_zero_outputs": true,
+      "frames": 9
+    }
+  ],
+  "pose_and_dino_outside_graph": true,
+  "preprocessing_config": {
+    "cache": {
+      "detector_mode": "IMAGE",
+      "extractor_registry_key": "dinov2_vits14",
+      "kind": "per_frame_dino",
+      "reader_lru_samples": 64,
+      "roi_policy": "per_frame_letterbox",
+      "root": "data/pilot8/cache",
+      "temporal_dependency_policy": "same_frame",
+      "tensor_dtype_on_disk": "float16",
+      "timestamps_dtype": "float64",
+      "validate_hashes": true,
+      "visual_dim": 384,
+      "visual_streams": [
+        "global",
+        "left_hand",
+        "right_hand",
+        "face"
+      ]
+    },
+    "pose": {
+      "coordinate_system": "per_frame_body_isotropic",
+      "geometry_requires_all_joints_observed": true,
+      "include_hand_local": false,
+      "interpolation": "none",
+      "min_body_visibility": 0.5,
+      "quality_policy": "observed_binary_hand_visibility_body",
+      "rotation_canonicalization": false,
+      "smoothing": "none",
+      "topology": "upper7_hands42_v1"
+    },
+    "target_fps": 25.0
+  },
+  "raw_dimensions": [
+    384,
+    384,
+    384,
+    384,
+    28,
+    84,
+    84
+  ],
+  "schema_version": 1,
+  "teacher_predictor_included": false,
+  "tiling": {
+    "overlap_samples": 16,
+    "window_samples": 48
+  },
+  "topology_hash": "000cc43a27cc7d3ae4c01d44a7794bd7971168d9cc304050676d821c4b6c8da0",
+  "torch_version": "2.11.0+cu128",
+  "weights_sha256": "f55b663a93a8a52d4754c080c1c39496727b78d737b1f6c1547f994333f641df"
+}

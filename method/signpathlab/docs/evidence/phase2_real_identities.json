@@ -1,0 +1,23 @@
+{
+  "annotation_sha256": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329",
+  "feature_identity": {
+    "detector_mode": "IMAGE",
+    "extractor_hash": "a6152058666bcde04f5d83b44d6428492ffe1af54b4ca3c1e226735962111028",
+    "feature_dim": 384,
+    "normalization": "per_frame_shoulder_center_isotropic_scale",
+    "temporal_dependency_policy": "same_frame",
+    "topology_hash": "000cc43a27cc7d3ae4c01d44a7794bd7971168d9cc304050676d821c4b6c8da0",
+    "visual_stream_order": [
+      "global",
+      "left_hand",
+      "right_hand",
+      "face"
+    ],
+    "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+  },
+  "manifest_sha256": "4336b0028d0f68e6779a217d432ff4adfd9e962629d887f33edebf8006e24da7",
+  "runtime_implementation_hash": "692ec14c856de8abdbd5f668f38860e42206bcfd1c6db72f5a249665f346c17c",
+  "scope": "real_minibatch_correctness_only",
+  "script_sha256": "93dc37f114f9f9f67a2b14e45edadbf28e4cb2d5e606f8483ac2c2e0776dca51",
+  "targets_metadata_sha256": "cb62af572d70831a339af988d9fd60666a250ed63b85679bbd95832a94b48eb5"
+}

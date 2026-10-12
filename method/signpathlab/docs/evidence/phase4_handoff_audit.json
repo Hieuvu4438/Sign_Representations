@@ -1,0 +1,339 @@
+{
+  "checks": {
+    "aggregate": {
+      "E00:06e1b431": {
+        "pc_top1_mean": 0.25,
+        "pc_top1_seed_std": 0.0,
+        "seed_std_is_not_confidence_interval": true,
+        "seeds": [
+          17,
+          29,
+          43
+        ]
+      },
+      "E01:f770fc18": {
+        "pc_top1_mean": 0.20833333333333334,
+        "pc_top1_seed_std": 0.09547032697824667,
+        "seed_std_is_not_confidence_interval": true,
+        "seeds": [
+          17,
+          29,
+          43
+        ]
+      },
+      "E02:f770fc18": {
+        "pc_top1_mean": 0.2708333333333333,
+        "pc_top1_seed_std": 0.03608439182435161,
+        "seed_std_is_not_confidence_interval": true,
+        "seeds": [
+          17,
+          29,
+          43
+        ]
+      },
+      "E03:f770fc18": {
+        "pc_top1_mean": 0.2708333333333333,
+        "pc_top1_seed_std": 0.03608439182435161,
+        "seed_std_is_not_confidence_interval": true,
+        "seeds": [
+          17,
+          29,
+          43
+        ]
+      },
+      "E04:f770fc18": {
+        "pc_top1_mean": 0.2708333333333333,
+        "pc_top1_seed_std": 0.03608439182435161,
+        "seed_std_is_not_confidence_interval": true,
+        "seeds": [
+          17,
+          29,
+          43
+        ]
+      }
+    },
+    "completed_trials": [
+      {
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E00/seed17/eac3d6596f5e",
+        "head_sha256": "50caada12fda3852603c425d8e737a05ec473efa8c0baf21604da02311ab6481",
+        "prediction_count": 16
+      },
+      {
+        "distinct_source_frame_exposure": 18727,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E01/seed17/6a66fc8b03be",
+        "head_sha256": "6fab6bf8a24ef0567aeef82ac80556a84d334c75a43729aa540d31d58ed245fd",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E01/seed17/013b86210a20"
+      },
+      {
+        "distinct_source_frame_exposure": 18727,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E02/seed17/9a184850c755",
+        "head_sha256": "f86c670986d7cd8ccd4e9bc45f1b24f902e58f603d642ffe269391ba879b1ecb",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E02/seed17/cb6dc9d8d757"
+      },
+      {
+        "distinct_source_frame_exposure": 18727,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E03/seed17/e3a67b2b2a6e",
+        "head_sha256": "fb4453feca9a110b180e25c1a102738ade9af4e547c876bd1dbff40d2355b836",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E03/seed17/223b2674033f"
+      },
+      {
+        "distinct_source_frame_exposure": 18727,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E04/seed17/19ec397e5ab6",
+        "head_sha256": "9d247d664222b7183f1ecd6b5d4cb5da5c48d34ad6fec6628e67bf323f6c0c87",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E04/seed17/c28af6125c54"
+      },
+      {
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E00/seed29/811ce9ae5b63",
+        "head_sha256": "98f5ac9dde16a132206f863a6a753bcd62ff547f653af4da68bde319c5a937a9",
+        "prediction_count": 16
+      },
+      {
+        "distinct_source_frame_exposure": 18668,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E01/seed29/f964f6f8cd19",
+        "head_sha256": "869363a9653c8de951db036eb0de9efeef8ee3219305adaa8717017f09957306",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E01/seed29/811123f49f91"
+      },
+      {
+        "distinct_source_frame_exposure": 18668,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E02/seed29/43493b24cfb8",
+        "head_sha256": "7b2b31021ea38b5ea9c33990bf3b1b1644c9cc43177310cd8d03b6a2779e270e",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E02/seed29/adda04872f8d"
+      },
+      {
+        "distinct_source_frame_exposure": 18668,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E03/seed29/666ca8348ec4",
+        "head_sha256": "08f2e94c39c3c883256a4109a0b36885d6d0b957614103e0145579938549b71d",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E03/seed29/e6fadf33d374"
+      },
+      {
+        "distinct_source_frame_exposure": 18668,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E04/seed29/489a994a6e98",
+        "head_sha256": "748392d1e03b13287bc827fe331f5158cc35625d056e5a08d5f62bd7aa0e4c3d",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E04/seed29/b73c8cfbf394"
+      },
+      {
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E00/seed43/741031879900",
+        "head_sha256": "035f1024830defbde4a44febdc84abc214e59b9fe3d37fa78bbdd5a41d0890fa",
+        "prediction_count": 16
+      },
+      {
+        "distinct_source_frame_exposure": 18705,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E01/seed43/f2ee9d5f84b2",
+        "head_sha256": "27f569b76851803cfc2bd2c32cc788553ad0e6625754c14c31776cecdbe2915b",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E01/seed43/5ffce29b7be8"
+      },
+      {
+        "distinct_source_frame_exposure": 18705,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E02/seed43/12ca855dff38",
+        "head_sha256": "34ffd3e387861d9eb643bcc9943b8dbd6e77221fcf4c9eed7f9835775fda090e",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E02/seed43/cd4355e891eb"
+      },
+      {
+        "distinct_source_frame_exposure": 18705,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E03/seed43/1fd5802f7113",
+        "head_sha256": "a4a16f09d3c52f148802812c4c34418607ccbeeeff0612a4489dffd71f08d2c3",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E03/seed43/85264aa5dc98"
+      },
+      {
+        "distinct_source_frame_exposure": 18705,
+        "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/heads/E04/seed43/88207a29720e",
+        "head_sha256": "18bd0948394c44705ecc83feb8b2d4cb0bfe5ddbc00c224bec4853b08e9df79c",
+        "prediction_count": 16,
+        "successful_steps": 100,
+        "training_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/verified_pilot/E04/seed43/d1a014f2221d"
+      }
+    ],
+    "continuous": "functional toy heads/metrics; real continuous corpus not configured",
+    "geometry_train_only": {
+      "source_count": 32,
+      "source_ids_hash": "5b30e9e2e065a90c7e822ffb5076df53b54bb2b1dda2cbbed58b5abc422d59f0"
+    },
+    "paired_comparison": [
+      {
+        "distinct_source_frame_exposure": 18727,
+        "eligible_geometry_targets": [
+          13477.0,
+          13477.0
+        ],
+        "matched_successful_steps_and_masks": true,
+        "online_weight_l2_difference": 0.15097293077435778,
+        "paired_sampling_intervals": {
+          "absent_class_policy": "mean over sampled supported classes in fixed taxonomy",
+          "group_count": 5,
+          "per_class_difference": 0.0,
+          "per_class_difference_ci95": [
+            -0.10714285714285714,
+            0.08333333333333334
+          ],
+          "per_instance_difference": 0.0,
+          "per_instance_difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "resampling_unit": "signer_id",
+          "sample_count": 16,
+          "samples": 1000,
+          "scope": "sampling uncertainty conditional on fitted paired models and evaluation pool; separate from seed dispersion",
+          "seed": 17,
+          "status": "measured"
+        },
+        "pc_top1_difference_E04_minus_E03": 0.0,
+        "seed": 17
+      },
+      {
+        "distinct_source_frame_exposure": 18668,
+        "eligible_geometry_targets": [
+          12239.0,
+          12239.0
+        ],
+        "matched_successful_steps_and_masks": true,
+        "online_weight_l2_difference": 0.15266378958291218,
+        "paired_sampling_intervals": {
+          "absent_class_policy": "mean over sampled supported classes in fixed taxonomy",
+          "group_count": 5,
+          "per_class_difference": 0.0,
+          "per_class_difference_ci95": [
+            -0.27777777777777773,
+            0.2
+          ],
+          "per_instance_difference": 0.0,
+          "per_instance_difference_ci95": [
+            -0.26666666666666666,
+            0.26666666666666666
+          ],
+          "resampling_unit": "signer_id",
+          "sample_count": 16,
+          "samples": 1000,
+          "scope": "sampling uncertainty conditional on fitted paired models and evaluation pool; separate from seed dispersion",
+          "seed": 17,
+          "status": "measured"
+        },
+        "pc_top1_difference_E04_minus_E03": 0.0,
+        "seed": 29
+      },
+      {
+        "distinct_source_frame_exposure": 18705,
+        "eligible_geometry_targets": [
+          12500.0,
+          12500.0
+        ],
+        "matched_successful_steps_and_masks": true,
+        "online_weight_l2_difference": 0.1513740231997881,
+        "paired_sampling_intervals": {
+          "absent_class_policy": "mean over sampled supported classes in fixed taxonomy",
+          "group_count": 5,
+          "per_class_difference": 0.0,
+          "per_class_difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "per_instance_difference": 0.0,
+          "per_instance_difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "resampling_unit": "signer_id",
+          "sample_count": 16,
+          "samples": 1000,
+          "scope": "sampling uncertainty conditional on fitted paired models and evaluation pool; separate from seed dispersion",
+          "seed": 17,
+          "status": "measured"
+        },
+        "pc_top1_difference_E04_minus_E03": 0.0,
+        "seed": 43
+      }
+    ],
+    "pip_check": "No broken requirements found.",
+    "raw_video_embed": {
+      "artifact_sha256": "978c46ff28f358a88db8b91222488a0a76a16748a4acafdc81b6c74430a0bf2b",
+      "asset_cost_included": "decode/IMAGE pose-hand-face/DINO/temporal/head",
+      "class_ids": [
+        296,
+        743,
+        788,
+        945,
+        1333,
+        1428,
+        1679,
+        2000
+      ],
+      "dense_shape": [
+        59,
+        96
+      ],
+      "feature_identity": {
+        "detector_mode": "IMAGE",
+        "extractor_hash": "06e30ca2e4fc27744db4ad2b879bc4f86c5d65cd2aa4e0b8014242ec60a32ca7",
+        "feature_dim": 384,
+        "normalization": "per_frame_shoulder_center_isotropic_scale",
+        "temporal_dependency_policy": "same_frame",
+        "topology_hash": "000cc43a27cc7d3ae4c01d44a7794bd7971168d9cc304050676d821c4b6c8da0",
+        "visual_stream_order": [
+          "global",
+          "left_hand",
+          "right_hand",
+          "face"
+        ],
+        "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      "model_hash": "f86c670986d7cd8ccd4e9bc45f1b24f902e58f603d642ffe269391ba879b1ecb",
+      "output": "artifacts/phase4_final_demo_embeddings.npz",
+      "predicted_label_id": 945,
+      "preprocessing_hash": "ccd1ca33912eefdb78070058ab0a6b8acd453f5c1ce541d9ca49b8a2e8972f38",
+      "runtime_seconds": 6.123343399987789,
+      "schema_version": 1,
+      "scope": "offline_multimodal_full_clip_inference",
+      "source_sha256": "07fead430dbfd38bb1ad386b2fa6437819045108513823e0b849a4ea4b1b15a3",
+      "status": "completed",
+      "timestamps": "original selected PTS seconds",
+      "valid_frames": 59,
+      "visual_valid_counts": [
+        59,
+        0,
+        15,
+        59
+      ]
+    },
+    "real_full_clip_export_parity": {
+      "atol": 2e-05,
+      "frames": 60,
+      "rtol": 0.0001,
+      "sample_id": "asl_citizen:04031913397182718-BUBBLES"
+    },
+    "tests": {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "ptitiec",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "128",
+      "time": "26.505",
+      "timestamp": "2026-10-12T14:21:26.379872+07:00"
+    }
+  },
+  "runtime_implementation_hash": "18794cff27053ae216af9d9ebf1685306b43f659e9643010f3dfa725ed8756e6",
+  "scope": "mandatory implemented pipeline, final locked-environment pilot and artifact consistency; optional unrun backends remain documented",
+  "status": "passed"
+}

@@ -1,0 +1,81 @@
+{
+  "completed": 15,
+  "runs": [
+    {
+      "config": "method/signpathlab/configs/pilot/E00_seed17.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E00/seed17/d220ed28d9d6",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E01_seed17.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E01/seed17/eecf1f0b27ee",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E02_seed17.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E02/seed17/ee8739af27a4",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E03_seed17.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E03/seed17/ffd3029f5e11",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E04_seed17.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E04/seed17/ef6a8f0644c0",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E00_seed29.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E00/seed29/737dc77fbd89",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E01_seed29.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E01/seed29/56012c1a9878",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E02_seed29.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E02/seed29/f04cab8dcb6b",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E03_seed29.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E03/seed29/4b0e5e3454ef",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E04_seed29.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E04/seed29/6ef1489f3942",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E00_seed43.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E00/seed43/19f98144f48d",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E01_seed43.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E01/seed43/34b59ceb8ed1",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E02_seed43.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E02/seed43/9184fcf59e65",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E03_seed43.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E03/seed43/613e8c730263",
+      "status": "completed"
+    },
+    {
+      "config": "method/signpathlab/configs/pilot/E04_seed43.yaml",
+      "head_run": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/pilot8/heads/E04/seed43/2613eb2e5e8f",
+      "status": "completed"
+    }
+  ],
+  "test_accessed": false
+}
