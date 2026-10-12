@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/Hieuvu4438/Uni-Sign.git",
+  "upstream_commit": "28794107e6bbf47e352d2554eb3dd0c8d022840b",
+  "integration": "Vendored source and upstream annotations; nested Git metadata, downloaded weights, media, feature caches and generated inference outputs remain local.",
+  "local_changes": [
+    " M README.md",
+    "?? docs/ASL_CITIZEN_FEATURE_JOB.md",
+    "?? docs/POSE_INFERENCE_SETUP.md",
+    "?? requirements-inference-cu121.txt",
+    "?? script/asl_citizen_features_job.sh",
+    "?? script/batch_pose_features.py",
+    "?? script/extract_pose_features.py",
+    "?? script/launch_asl_citizen_features.sh",
+    "?? script/run_asl_citizen_features.sh",
+    "?? script/run_pose_inference.sh"
+  ]
+}

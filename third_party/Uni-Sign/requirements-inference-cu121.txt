@@ -1,0 +1,16 @@
+# Python 3.10, Linux x86_64. Run pip from the repository root.
+# Use Microsoft's CUDA 12/cuDNN 8 build: PyPI's 1.18.0 build uses CUDA 11.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.1.1+cu121
+torchvision==0.16.1+cu121
+numpy==1.26.3
+opencv-python==4.11.0.86
+onnxruntime-gpu @ https://aiinfra.pkgs.visualstudio.com/2692857e-05ef-43b4-ba9c-ccf1c22c437c/_packaging/9387c3aa-d9ad-4513-968c-383f6f7f53b8/pypi/download/onnxruntime-gpu/1.18/onnxruntime_gpu-1.18.0-cp310-cp310-manylinux_2_28_x86_64.whl
+transformers==4.40.0
+tokenizers==0.19.1
+sentencepiece==0.1.97
+einops==0.6.1
+huggingface-hub==0.36.2
+protobuf==4.25.9
+tqdm==4.66.1
+./demo/rtmlib-main
