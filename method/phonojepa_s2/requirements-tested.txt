@@ -1,0 +1,8 @@
+# Tested environment; use existing .venv-signrep. CUDA torch requires the cu128 index.
+torch==2.11.0+cu128
+numpy==2.5.3
+scipy==1.17.1
+scikit-learn==1.8.0
+opencv-python==4.12.0.88
+pytest==9.0.3
+threadpoolctl==3.6.0
