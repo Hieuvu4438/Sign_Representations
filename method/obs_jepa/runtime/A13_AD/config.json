@@ -1,0 +1,18 @@
+{
+ "out": "/home/haipd/Sign_Representations/method/obs_jepa/runtime/A13_AD",
+ "recipe": "AD",
+ "policy": "partial",
+ "weighting": "balanced",
+ "size": 224,
+ "steps": 4000,
+ "batch": 32,
+ "micro": 16,
+ "lambda_ctx": 0.05,
+ "b_teacher": "",
+ "lambda_geo": 0.1,
+ "c_reserve": false,
+ "workers": 6,
+ "seed": 17,
+ "save_every": 500,
+ "resume": false
+}
