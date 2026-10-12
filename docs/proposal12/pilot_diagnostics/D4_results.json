@@ -1,0 +1,34 @@
+{
+ "c_dloc": {
+  "signer_bal_acc": 0.4035,
+  "gloss_1nn": 0.012
+ },
+ "c_dloc_vel": {
+  "signer_bal_acc": 0.2973,
+  "gloss_1nn": 0.0088
+ },
+ "c_dori": {
+  "signer_bal_acc": 0.3813,
+  "gloss_1nn": 0.0124
+ },
+ "c_dshape": {
+  "signer_bal_acc": 0.4465,
+  "gloss_1nn": 0.0417
+ },
+ "c_nloc": {
+  "signer_bal_acc": 0.3134,
+  "gloss_1nn": 0.0079
+ },
+ "c_nori": {
+  "signer_bal_acc": 0.3212,
+  "gloss_1nn": 0.0078
+ },
+ "c_nshape": {
+  "signer_bal_acc": 0.4074,
+  "gloss_1nn": 0.0195
+ },
+ "c_mouth": {
+  "signer_bal_acc": 0.8264,
+  "gloss_1nn": 0.0024
+ }
+}

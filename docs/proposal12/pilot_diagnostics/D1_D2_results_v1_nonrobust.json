@@ -1,0 +1,48 @@
+{
+ "n_train": 13996,
+ "n_val": 10303,
+ "D1": {
+  "morph": {
+   "signer_bal_acc": 0.821,
+   "gloss_1nn_cross_signer": [
+    0.014003695419624623,
+    10283
+   ]
+  },
+  "raw": {
+   "signer_bal_acc": 0.8701,
+   "gloss_1nn_cross_signer": [
+    0.03802392297967519,
+    10283
+   ]
+  },
+  "fact": {
+   "signer_bal_acc": 0.7306,
+   "gloss_1nn_cross_signer": [
+    0.0539725760964699,
+    10283
+   ]
+  },
+  "fact_bn": {
+   "signer_bal_acc": 0.7332,
+   "gloss_1nn_cross_signer": [
+    0.06719828843722649,
+    10283
+   ]
+  }
+ },
+ "D2": {
+  "knn20:dloc": 0.0072,
+  "knn20:dloc+dori": 0.1544,
+  "knn20:dloc+dori+nondom": 0.1564,
+  "knn20:dloc+dori+nondom+mouth": 0.1114,
+  "oracle_same_gloss_other_signers": -0.1026,
+  "signer_prior_loo": 0.0045,
+  "frame_interp_gap1": -0.0344,
+  "frame_interp_gap2": -0.1094,
+  "frame_interp_gap4": -0.1953,
+  "frame_interp_gap8": -0.3114,
+  "frame_intrahand_ridge": 0.2584,
+  "frame_intrahand_knn20": 0.2996
+ }
+}

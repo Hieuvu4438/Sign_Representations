@@ -1,0 +1,60 @@
+{
+ "n_train": 13993,
+ "n_val": 10303,
+ "D1": {
+  "morph": {
+   "signer_bal_acc": 0.8192,
+   "gloss_1nn_cross_signer": [
+    0.01701837985023826,
+    10283
+   ]
+  },
+  "raw": {
+   "signer_bal_acc": 0.7956,
+   "gloss_1nn_cross_signer": [
+    0.07332490518331226,
+    10283
+   ]
+  },
+  "fact": {
+   "signer_bal_acc": 0.641,
+   "gloss_1nn_cross_signer": [
+    0.09676164543421181,
+    10283
+   ]
+  },
+  "fact_bn": {
+   "signer_bal_acc": 0.6114,
+   "gloss_1nn_cross_signer": [
+    0.123407565885442,
+    10283
+   ]
+  }
+ },
+ "D2": {
+  "knn20:dloc": 0.0516,
+  "knn20:dloc+dori": 0.3057,
+  "knn20:dloc+dori+nondom": 0.2627,
+  "knn20:dloc+dori+nondom+mouth": 0.2098,
+  "oracle_same_gloss_other_signers": 0.2549,
+  "signer_prior_loo": 0.0046,
+  "frames_shape_interp_gap1": 0.6929,
+  "frames_shape_interp_gap1_n": 484709,
+  "frames_shape_interp_gap2": 0.5978,
+  "frames_shape_interp_gap2_n": 459571,
+  "frames_shape_interp_gap4": 0.4666,
+  "frames_shape_interp_gap4_n": 418252,
+  "frames_shape_interp_gap8": 0.3031,
+  "frames_shape_interp_gap8_n": 345380,
+  "frames_raw_interp_gap1": 0.8711,
+  "frames_raw_interp_gap1_n": 484709,
+  "frames_raw_interp_gap2": 0.8163,
+  "frames_raw_interp_gap2_n": 459571,
+  "frames_raw_interp_gap4": 0.709,
+  "frames_raw_interp_gap4_n": 418252,
+  "frames_raw_interp_gap8": 0.5475,
+  "frames_raw_interp_gap8_n": 345380,
+  "frame_intrahand_ridge": 0.3982,
+  "frame_intrahand_knn20": 0.5617
+ }
+}

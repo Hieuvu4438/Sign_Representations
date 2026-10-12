@@ -1,0 +1,46 @@
+{
+ "frame|hands": {
+  "signer5": [
+   0.8161,
+   10299
+  ],
+  "signer3_balanced": [
+   0.9053,
+   8931
+  ],
+  "offval_R1": 0.1265
+ },
+ "frame|LOC": {
+  "signer5": [
+   0.6948,
+   10299
+  ],
+  "signer3_balanced": [
+   0.8576,
+   8931
+  ],
+  "offval_R1": 0.0162
+ },
+ "clip|hands": {
+  "signer5": [
+   0.8108,
+   10299
+  ],
+  "signer3_balanced": [
+   0.8924,
+   8931
+  ],
+  "offval_R1": 0.1283
+ },
+ "clip|LOC": {
+  "signer5": [
+   0.6897,
+   10299
+  ],
+  "signer3_balanced": [
+   0.8471,
+   8931
+  ],
+  "offval_R1": 0.0164
+ }
+}

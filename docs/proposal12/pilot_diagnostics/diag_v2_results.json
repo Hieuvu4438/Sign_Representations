@@ -1,0 +1,389 @@
+{
+ "D1_D5": {
+  "v2_fact_plain|hands": {
+   "signer5": [
+    0.8004,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9019,
+    8931
+   ],
+   "offval_R1": 0.1213
+  },
+  "v2_fact_plain|hands+face": {
+   "signer5": [
+    0.9949,
+    10299
+   ],
+   "signer3_balanced": [
+    0.997,
+    8931
+   ],
+   "offval_R1": 0.0518
+  },
+  "v2_fact_bn|hands": {
+   "signer5": [
+    0.8033,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9065,
+    8931
+   ],
+   "offval_R1": 0.1206
+  },
+  "v2_fact_bn|hands+face": {
+   "signer5": [
+    0.9952,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9972,
+    8931
+   ],
+   "offval_R1": 0.0618
+  },
+  "v2_fact_bn_rel|hands": {
+   "signer5": [
+    0.8028,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9018,
+    8931
+   ],
+   "offval_R1": 0.1185
+  },
+  "v2_fact_bn_rel|hands+face": {
+   "signer5": [
+    0.996,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9971,
+    8931
+   ],
+   "offval_R1": 0.0624
+  },
+  "v2_full_default|hands": {
+   "signer5": [
+    0.8028,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9018,
+    8931
+   ],
+   "offval_R1": 0.1185
+  },
+  "v2_full_default|hands+face": {
+   "signer5": [
+    0.974,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9843,
+    8931
+   ],
+   "offval_R1": 0.1016
+  }
+ },
+ "D4": {
+  "D_CONF": {
+   "signer5": [
+    0.6113,
+    10299
+   ],
+   "signer3_balanced": [
+    0.743,
+    8931
+   ],
+   "offval_R1": 0.0433
+  },
+  "D_LOC": {
+   "signer5": [
+    0.599,
+    10299
+   ],
+   "signer3_balanced": [
+    0.817,
+    8931
+   ],
+   "offval_R1": 0.0099
+  },
+  "N_CONF": {
+   "signer5": [
+    0.5819,
+    10299
+   ],
+   "signer3_balanced": [
+    0.7358,
+    8931
+   ],
+   "offval_R1": 0.0377
+  },
+  "N_LOC": {
+   "signer5": [
+    0.561,
+    10299
+   ],
+   "signer3_balanced": [
+    0.786,
+    8931
+   ],
+   "offval_R1": 0.0099
+  },
+  "F_UP": {
+   "signer5": [
+    0.669,
+    10299
+   ],
+   "signer3_balanced": [
+    0.8528,
+    8931
+   ],
+   "offval_R1": 0.0012
+  },
+  "F_MO": {
+   "signer5": [
+    0.6451,
+    10299
+   ],
+   "signer3_balanced": [
+    0.8465,
+    8931
+   ],
+   "offval_R1": 0.0033
+  },
+  "F_HD": {
+   "signer5": [
+    0.8944,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9399,
+    8931
+   ],
+   "offval_R1": 0.0029
+  },
+  "F_UP_raw": {
+   "signer5": [
+    0.9803,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9869,
+    8931
+   ],
+   "offval_R1": 0.0009
+  },
+  "F_MO_raw": {
+   "signer5": [
+    0.9231,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9588,
+    8931
+   ],
+   "offval_R1": 0.0024
+  },
+  "F_HD_raw": {
+   "signer5": [
+    0.8899,
+    10299
+   ],
+   "signer3_balanced": [
+    0.9408,
+    8931
+   ],
+   "offval_R1": 0.0026
+  }
+ },
+ "D2": {
+  "interp_gap1": 0.2451,
+  "interp_gap2": 0.128,
+  "interp_gap4": 0.0138,
+  "interp_gap8": -0.113,
+  "intrahand_ridge": 0.2703,
+  "intrahand_knn20": 0.3416,
+  "clip_CONF<-D_LOC": 0.0368,
+  "clip_CONF<-D_LOC+N": 0.1465,
+  "clip_CONF<-D_LOC+N+face": 0.1307,
+  "clip_CONF<-N_CONF": 0.0921,
+  "clip_CONF<-face": -0.0743,
+  "clip_CONF<-lexical_oracle": 0.2736,
+  "clip_CONF<-signer_offset_loo": 0.0066
+ },
+ "D6": {
+  "D_LOC->D_CONF": [
+   0.015,
+   -0.016
+  ],
+  "N_CONF->D_CONF": [
+   0.063,
+   0.051
+  ],
+  "N_LOC->D_CONF": [
+   -0.005,
+   -0.068
+  ],
+  "F_UP->D_CONF": [
+   -0.019,
+   -0.091
+  ],
+  "F_MO->D_CONF": [
+   -0.021,
+   -0.099
+  ],
+  "F_HD->D_CONF": [
+   -0.017,
+   -0.103
+  ],
+  "D_CONF->D_LOC": [
+   0.041,
+   0.062
+  ],
+  "N_CONF->D_LOC": [
+   0.0,
+   -0.032
+  ],
+  "N_LOC->D_LOC": [
+   0.129,
+   0.156
+  ],
+  "F_UP->D_LOC": [
+   -0.075,
+   -0.092
+  ],
+  "F_MO->D_LOC": [
+   -0.064,
+   -0.089
+  ],
+  "F_HD->D_LOC": [
+   -0.066,
+   -0.09
+  ],
+  "D_CONF->N_CONF": [
+   0.064,
+   0.087
+  ],
+  "D_LOC->N_CONF": [
+   -0.01,
+   -0.059
+  ],
+  "N_LOC->N_CONF": [
+   0.018,
+   -0.028
+  ],
+  "F_UP->N_CONF": [
+   -0.026,
+   -0.104
+  ],
+  "F_MO->N_CONF": [
+   -0.028,
+   -0.115
+  ],
+  "F_HD->N_CONF": [
+   -0.021,
+   -0.105
+  ],
+  "D_CONF->N_LOC": [
+   -0.014,
+   -0.026
+  ],
+  "D_LOC->N_LOC": [
+   0.126,
+   0.161
+  ],
+  "N_CONF->N_LOC": [
+   0.051,
+   0.076
+  ],
+  "F_UP->N_LOC": [
+   -0.062,
+   -0.119
+  ],
+  "F_MO->N_LOC": [
+   -0.054,
+   -0.105
+  ],
+  "F_HD->N_LOC": [
+   -0.063,
+   -0.107
+  ],
+  "D_CONF->F_UP": [
+   0.004,
+   -0.036
+  ],
+  "D_LOC->F_UP": [
+   0.006,
+   -0.032
+  ],
+  "N_CONF->F_UP": [
+   0.007,
+   -0.039
+  ],
+  "N_LOC->F_UP": [
+   0.009,
+   -0.025
+  ],
+  "F_MO->F_UP": [
+   0.23,
+   0.161
+  ],
+  "F_HD->F_UP": [
+   0.1,
+   0.064
+  ],
+  "D_CONF->F_MO": [
+   0.012,
+   -0.026
+  ],
+  "D_LOC->F_MO": [
+   0.023,
+   -0.02
+  ],
+  "N_CONF->F_MO": [
+   0.015,
+   -0.028
+  ],
+  "N_LOC->F_MO": [
+   0.022,
+   -0.013
+  ],
+  "F_UP->F_MO": [
+   0.482,
+   0.413
+  ],
+  "F_HD->F_MO": [
+   0.315,
+   0.291
+  ],
+  "D_CONF->F_HD": [
+   -0.185,
+   -0.253
+  ],
+  "D_LOC->F_HD": [
+   -0.125,
+   -0.167
+  ],
+  "N_CONF->F_HD": [
+   -0.173,
+   -0.267
+  ],
+  "N_LOC->F_HD": [
+   -0.142,
+   -0.161
+  ],
+  "F_UP->F_HD": [
+   -0.003,
+   0.084
+  ],
+  "F_MO->F_HD": [
+   0.069,
+   0.122
+  ]
+ }
+}

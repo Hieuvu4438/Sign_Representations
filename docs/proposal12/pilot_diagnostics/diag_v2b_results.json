@@ -1,0 +1,142 @@
+{
+ "palm|bn=False|hands": {
+  "signer5": [
+   0.7986,
+   10299
+  ],
+  "signer3_balanced": [
+   0.8992,
+   8931
+  ],
+  "offval_R1": 0.1198
+ },
+ "palm|bn=False|hands+UP+MO": {
+  "signer5": [
+   0.8975,
+   10299
+  ],
+  "signer3_balanced": [
+   0.9607,
+   8931
+  ],
+  "offval_R1": 0.0904
+ },
+ "palm|bn=False|D_CONF": {
+  "signer5": [
+   0.6035,
+   10299
+  ],
+  "signer3_balanced": [
+   0.7534,
+   8931
+  ],
+  "offval_R1": 0.0459
+ },
+ "palm|bn=False|interp_gap1": 0.1888,
+ "palm|bn=False|interp_gap4": -0.0458,
+ "palm|bn=True|hands": {
+  "signer5": [
+   0.8028,
+   10299
+  ],
+  "signer3_balanced": [
+   0.9018,
+   8931
+  ],
+  "offval_R1": 0.1185
+ },
+ "palm|bn=True|hands+UP+MO": {
+  "signer5": [
+   0.9019,
+   10299
+  ],
+  "signer3_balanced": [
+   0.9622,
+   8931
+  ],
+  "offval_R1": 0.1067
+ },
+ "palm|bn=True|D_CONF": {
+  "signer5": [
+   0.6113,
+   10299
+  ],
+  "signer3_balanced": [
+   0.743,
+   8931
+  ],
+  "offval_R1": 0.0433
+ },
+ "palm|bn=True|interp_gap1": 0.2451,
+ "palm|bn=True|interp_gap4": 0.0138,
+ "image|bn=False|hands": {
+  "signer5": [
+   0.8173,
+   10299
+  ],
+  "signer3_balanced": [
+   0.9069,
+   8931
+  ],
+  "offval_R1": 0.1196
+ },
+ "image|bn=False|hands+UP+MO": {
+  "signer5": [
+   0.9064,
+   10299
+  ],
+  "signer3_balanced": [
+   0.9636,
+   8931
+  ],
+  "offval_R1": 0.1033
+ },
+ "image|bn=False|D_CONF": {
+  "signer5": [
+   0.6597,
+   10299
+  ],
+  "signer3_balanced": [
+   0.7862,
+   8931
+  ],
+  "offval_R1": 0.0494
+ },
+ "image|bn=False|interp_gap1": 0.3652,
+ "image|bn=False|interp_gap4": 0.1296,
+ "image|bn=True|hands": {
+  "signer5": [
+   0.8161,
+   10299
+  ],
+  "signer3_balanced": [
+   0.9053,
+   8931
+  ],
+  "offval_R1": 0.1265
+ },
+ "image|bn=True|hands+UP+MO": {
+  "signer5": [
+   0.9053,
+   10299
+  ],
+  "signer3_balanced": [
+   0.9647,
+   8931
+  ],
+  "offval_R1": 0.1168
+ },
+ "image|bn=True|D_CONF": {
+  "signer5": [
+   0.6509,
+   10299
+  ],
+  "signer3_balanced": [
+   0.7802,
+   8931
+  ],
+  "offval_R1": 0.0449
+ },
+ "image|bn=True|interp_gap1": 0.4094,
+ "image|bn=True|interp_gap4": 0.1703
+}

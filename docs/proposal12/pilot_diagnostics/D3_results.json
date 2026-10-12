@@ -1,0 +1,38 @@
+{
+ "template": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   -0.028,
+   0.34
+  ],
+  [
+   0.01,
+   1.035
+  ],
+  [
+   0.0,
+   1.0
+  ],
+  [
+   -0.017,
+   0.894
+  ],
+  [
+   -0.054,
+   0.734
+  ]
+ ],
+ "v1_similarity": {
+  "leak_shape_from_ori_ridge": 0.1107,
+  "leak_shape_from_ori_knn20": 0.2054,
+  "handonly_gloss_1nn": 0.0358
+ },
+ "v2_affine": {
+  "leak_shape_from_ori_ridge": 0.0663,
+  "leak_shape_from_ori_knn20": 0.1541,
+  "handonly_gloss_1nn": 0.0116
+ }
+}
