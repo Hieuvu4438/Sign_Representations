@@ -1,0 +1,62 @@
+[
+  {
+    "step": 10000,
+    "cached_video_identity_checked": true,
+    "recomputed_metrics_match_saved": true,
+    "gallery_other_nearest_same_signer_fraction_sample1024": 0.7802734375,
+    "nearest_distinct_classes_chosen": 1126,
+    "queries": 2731,
+    "primary_metrics": {
+      "per_instance_top1": 1.8674477934837341,
+      "per_instance_top5": 4.723544418811798,
+      "MRR": 0.037758395075798035,
+      "DCG": 0.15364164113998413,
+      "per_class_top1": 1.8674477934837341,
+      "per_class_top5": 4.723544418811798,
+      "task": "dictionary_retrieval",
+      "queries": 2731,
+      "gallery_videos": 5462,
+      "topk_protocol": "distinct classes ranked by best individual dictionary video"
+    }
+  },
+  {
+    "step": 20000,
+    "cached_video_identity_checked": true,
+    "recomputed_metrics_match_saved": true,
+    "gallery_other_nearest_same_signer_fraction_sample1024": 0.5908203125,
+    "nearest_distinct_classes_chosen": 1232,
+    "queries": 2731,
+    "primary_metrics": {
+      "per_instance_top1": 0.10984987020492554,
+      "per_instance_top5": 0.43939948081970215,
+      "MRR": 0.004973085131496191,
+      "DCG": 0.10698875039815903,
+      "per_class_top1": 0.10984987020492554,
+      "per_class_top5": 0.43939948081970215,
+      "task": "dictionary_retrieval",
+      "queries": 2731,
+      "gallery_videos": 5462,
+      "topk_protocol": "distinct classes ranked by best individual dictionary video"
+    }
+  },
+  {
+    "step": 30000,
+    "cached_video_identity_checked": true,
+    "recomputed_metrics_match_saved": true,
+    "gallery_other_nearest_same_signer_fraction_sample1024": 0.40234375,
+    "nearest_distinct_classes_chosen": 1215,
+    "queries": 2731,
+    "primary_metrics": {
+      "per_instance_top1": 0.07323324680328369,
+      "per_instance_top5": 0.21969974040985107,
+      "MRR": 0.0038920757360756397,
+      "DCG": 0.10513077676296234,
+      "per_class_top1": 0.07323324680328369,
+      "per_class_top5": 0.21969974040985107,
+      "task": "dictionary_retrieval",
+      "queries": 2731,
+      "gallery_videos": 5462,
+      "topk_protocol": "distinct classes ranked by best individual dictionary video"
+    }
+  }
+]

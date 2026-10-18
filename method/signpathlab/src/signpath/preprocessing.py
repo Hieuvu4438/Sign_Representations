@@ -152,7 +152,7 @@ def _init_detector(plan, min_visibility):
     _DETECTOR = LandmarkExtractor(*(plan["detectors"][k]["path"] for k in ("pose", "hand", "face")), min_body_visibility=min_visibility)
 
 
-def _preprocess_one(resolved, record, identity):
+def _preprocess_one(resolved, record, identity, *, detector=None):
     started = time.monotonic()
     check_source(record)
     destination = raw_directory(resolved, record, identity)
@@ -161,7 +161,7 @@ def _preprocess_one(resolved, record, identity):
         ensure_raw_coordinates(destination, record, resolved)
         return {"sample_id": record.sample_id, "status": "verified_reuse", "frames": len(times), "seconds": time.monotonic() - started}
     video = decode_video(record.video_path, record.start_s, record.end_s)
-    raw = _DETECTOR.extract(video.frames)
+    raw = (detector if detector is not None else _DETECTOR).extract(video.frames)
     destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = Path(tempfile.mkdtemp(prefix=".raw-", dir=destination.parent))
     try:

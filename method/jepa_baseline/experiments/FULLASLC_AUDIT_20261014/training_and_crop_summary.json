@@ -1,0 +1,109 @@
+{
+  "last_logged_step": 38153,
+  "actual_training_supervision_coverage": {
+    "body_pose": 0.4813556480207173,
+    "right_pose": 0.4606386620973449,
+    "left_pose": 0.35187501638141166,
+    "full_body_angles": 1.0,
+    "full_right_angles": 0.4606386620973449,
+    "full_left_angles": 0.35187501638141166,
+    "right_dist": 0.4606386620973449,
+    "left_dist": 0.35187501638141166,
+    "body_dist": 0.28324684196167105,
+    "activity": 0.0026478913846879667
+  },
+  "gallery_expected_same_signer_for_uniform_other_video": 0.059244504036511755,
+  "crop_sample": {
+    "videos": 128,
+    "seed": 1014,
+    "median_bbox_frame_area_ratio": 0.7749446614583333,
+    "min_ratio": 0.45026041666666666,
+    "max_ratio": 1.0
+  },
+  "windows": [
+    {
+      "end_step": 1000,
+      "updates": 1000,
+      "reconstruction": 6.451667599916458,
+      "variance": 333.7861010284424,
+      "weighted_covariance": 65.32451149375916,
+      "weighted_adversarial": 0.001004159653102306,
+      "total_loss": 405.56328398132325,
+      "adversarial_nonzero_updates": 861,
+      "mean_discriminator_loss": 0.6930650491118431,
+      "mean_ema_matched_minus_unmatched": 0.0001082461066544056
+    },
+    {
+      "end_step": 5000,
+      "updates": 1000,
+      "reconstruction": 1.0361265335083008,
+      "variance": 77.384536693573,
+      "weighted_covariance": 108.4467732890625,
+      "weighted_adversarial": 0.1744839066080749,
+      "total_loss": 187.04192597961426,
+      "adversarial_nonzero_updates": 1000,
+      "mean_discriminator_loss": 0.61130516949296,
+      "mean_ema_matched_minus_unmatched": 0.1561848477423191
+    },
+    {
+      "end_step": 10000,
+      "updates": 1000,
+      "reconstruction": 1.019345657646656,
+      "variance": 70.54184747695923,
+      "weighted_covariance": 108.3836861875,
+      "weighted_adversarial": 0.02464315807633102,
+      "total_loss": 179.96952764892578,
+      "adversarial_nonzero_updates": 1000,
+      "mean_discriminator_loss": 0.6782969211339951,
+      "mean_ema_matched_minus_unmatched": 0.043496942669153216
+    },
+    {
+      "end_step": 15000,
+      "updates": 1000,
+      "reconstruction": 1.0380761871933937,
+      "variance": 66.16481349182129,
+      "weighted_covariance": 110.490458078125,
+      "weighted_adversarial": 0.0022242539928120095,
+      "total_loss": 177.69557688903808,
+      "adversarial_nonzero_updates": 1000,
+      "mean_discriminator_loss": 0.6910510047078132,
+      "mean_ema_matched_minus_unmatched": 0.008198800951242447
+    },
+    {
+      "end_step": 20000,
+      "updates": 1000,
+      "reconstruction": 1.071845657646656,
+      "variance": 61.64677257537842,
+      "weighted_covariance": 112.84865994531249,
+      "weighted_adversarial": 0.0,
+      "total_loss": 175.56728364562989,
+      "adversarial_nonzero_updates": 0,
+      "mean_discriminator_loss": 0.6931600442528725,
+      "mean_ema_matched_minus_unmatched": 0.0
+    },
+    {
+      "end_step": 30000,
+      "updates": 1000,
+      "reconstruction": 1.0936813200712203,
+      "variance": 49.90013964271545,
+      "weighted_covariance": 121.668796703125,
+      "weighted_adversarial": 0.0,
+      "total_loss": 172.66262362670898,
+      "adversarial_nonzero_updates": 0,
+      "mean_discriminator_loss": 0.6931534085869789,
+      "mean_ema_matched_minus_unmatched": 0.0
+    },
+    {
+      "end_step": 35000,
+      "updates": 1000,
+      "reconstruction": 1.094576036453247,
+      "variance": 42.20869305038452,
+      "weighted_covariance": 125.90746072656249,
+      "weighted_adversarial": 0.0,
+      "total_loss": 169.21073573303224,
+      "adversarial_nonzero_updates": 0,
+      "mean_discriminator_loss": 0.6931535132527351,
+      "mean_ema_matched_minus_unmatched": 0.0
+    }
+  ]
+}

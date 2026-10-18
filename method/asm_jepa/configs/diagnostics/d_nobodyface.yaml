@@ -1,0 +1,4 @@
+# 5k-step diagnostic variant of final.yaml (see scripts/diagnostics/run_queue.sh)
+inherits: [../pretrain/final.yaml]
+experiment: diag_nobodyface
+loss: {group_weights: [0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0]}

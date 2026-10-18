@@ -1,0 +1,6 @@
+raw 22.719332298136646 hamming 3.7116138000758245 vs base 5.25748
+{'SignType': 2.46, 'Movement': 1.18, 'Repeated': 1.13, 'MajorLoc': 2.16, 'Contact': 1.24, 'FlexChange': 1.12, 'WristTwist': 1.04, 'SelFingers': 1.98, 'Flexion': 1.65, 'Handshape(full)': 4.95, 'MinorLoc': 2.37}
+whitened 29.435170807453414 hamming 3.6306156405990015 vs base 5.25748
+{'SignType': 2.49, 'Movement': 1.26, 'Repeated': 1.13, 'MajorLoc': 2.2, 'Contact': 1.26, 'FlexChange': 1.13, 'WristTwist': 1.07, 'SelFingers': 1.95, 'Flexion': 1.69, 'Handshape(full)': 5.2, 'MinorLoc': 2.41}
+lda 47.56405279503105 hamming 3.1267027430490764 vs base 5.25748
+{'SignType': 2.66, 'Movement': 1.4, 'Repeated': 1.17, 'MajorLoc': 2.52, 'Contact': 1.36, 'FlexChange': 1.19, 'WristTwist': 1.1, 'SelFingers': 2.32, 'Flexion': 2.03, 'Handshape(full)': 7.31, 'MinorLoc': 2.88}

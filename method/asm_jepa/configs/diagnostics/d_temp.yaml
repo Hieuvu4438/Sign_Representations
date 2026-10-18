@@ -1,0 +1,4 @@
+# 5k-step diagnostic variant of final.yaml (see scripts/diagnostics/run_queue.sh)
+inherits: [../pretrain/final.yaml]
+experiment: diag_teacher_temp
+loss: {teacher_temperature_start: 0.2, teacher_temperature_final: 0.1}

@@ -1,0 +1,11 @@
+[Unit]
+Description=Update E04 ASLC3000 TXT log every minute
+
+[Timer]
+OnBootSec=15
+OnUnitActiveSec=60
+AccuracySec=5
+Unit=signpath-e04-aslc3000-log.service
+
+[Install]
+WantedBy=timers.target

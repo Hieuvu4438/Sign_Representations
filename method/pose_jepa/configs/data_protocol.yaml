@@ -1,0 +1,5 @@
+manifest: ../runtime/aslc_sanity/all.jsonl
+protocol: in_domain_ssl
+model_selection_scope: target_validation
+target_corpora: [asl_citizen]
+near_duplicate_exclusions: []

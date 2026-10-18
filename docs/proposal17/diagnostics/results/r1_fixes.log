@@ -1,0 +1,273 @@
+=== retention 13:34:33
+random {'n': 20060, 'participation_ratio': 7.493, 'eta2_signer_raw': 0.272, 'eta2_gloss_raw': 0.248, 'eta2_gloss_raw_null_shuffled': 0.139, 'eta2_signer_whitened': 0.055, 'eta2_gloss_whitened': 0.21, 'eta2_gloss_whitened_null': 0.136, 'signer_decode_linear_standardised': 89.066, 'nn_same_signer': 71.933, 'nn_same_gloss': 1.467}
+student {'n': 20060, 'participation_ratio': 83.43, 'eta2_signer_raw': 0.138, 'eta2_gloss_raw': 0.299, 'eta2_gloss_raw_null_shuffled': 0.136, 'eta2_signer_whitened': 0.031, 'eta2_gloss_whitened': 0.217, 'eta2_gloss_whitened_null': 0.136, 'signer_decode_linear_standardised': 94.384, 'nn_same_signer': 84.367, 'nn_same_gloss': 4.083}
+teacher {'n': 20060, 'participation_ratio': 83.516, 'eta2_signer_raw': 0.138, 'eta2_gloss_raw': 0.299, 'eta2_gloss_raw_null_shuffled': 0.136, 'eta2_signer_whitened': 0.031, 'eta2_gloss_whitened': 0.216, 'eta2_gloss_whitened_null': 0.136, 'signer_decode_linear_standardised': 94.633, 'nn_same_signer': 84.433, 'nn_same_gloss': 4.033}
+=== ladder_extra 13:34:48
+full {'raw': 22.72, 'whiten': 29.44, 'CMN+whiten': 31.66, 'CMN': 28.45, 'CORAL+whiten': 38.53, 'CORAL': 29.98, 'per-signer-whiten+whiten': 41.51, 'per-signer-whiten': 42.71}
+heavy {'raw': 21.05, 'whiten': 27.96, 'CMN+whiten': 30.18, 'CMN': 26.62, 'CORAL+whiten': 36.24, 'CORAL': 28.27, 'per-signer-whiten+whiten': 39.57, 'per-signer-whiten': 40.85}
+heldout {'raw': 35.9, 'whiten_fit_on_other_glosses': 44.36, 'lda_fit_on_disjoint_glosses_k32': 64.29, 'lda_insample_k32': 66.43, 'lda_fit_on_disjoint_glosses_k48': 64.71, 'lda_insample_k48': 66.72, 'lda_fit_on_disjoint_glosses_k64': 66.01, 'lda_insample_k64': 67.3, 'lda_fit_on_disjoint_glosses_k96': 65.39, 'lda_insample_k96': 67.98, 'lda_fit_on_disjoint_glosses_k128': 65.29, 'lda_insample_k128': 68.54}
+full-val LDA k grid {32: 48.61218944099379, 48: 50.0388198757764, 64: 50.34937888198758, 96: 50.88315217391305}
+=== nn_fullpool 13:35:42
+full raw {'top1_precision': 14.294964387109626, 'mutual_fraction': 18.957015490362107, 'mutual_precision': 25.853914871255913}
+full whiten {'top1_precision': 22.919260845743885, 'mutual_fraction': 25.188026099516858, 'mutual_precision': 33.43879770614989}
+full CMN+whiten {'top1_precision': 24.06734073815809, 'mutual_fraction': 26.22901827962345, 'mutual_precision': 34.789213824534755}
+full CORAL+whiten {'top1_precision': 32.35045076455646, 'mutual_fraction': 28.933605618369278, 'mutual_precision': 44.77534859700465}
+full LEACE+whiten {'top1_precision': 24.577875180554866, 'mutual_fraction': 26.1841908651691, 'mutual_precision': 35.40041848963287}
+full LDA96 (train-fit, optimistic) {'top1_precision': 52.82910793445236, 'mutual_fraction': 25.282661752253823, 'mutual_precision': 71.11899133175729}
+half raw {'top1_precision': 8.743768693918245, 'mutual_fraction': 23.98803589232303, 'mutual_precision': 14.630091438071489} {'top1_precision': 11.979062811565305, 'mutual_fraction': 20.538384845463607, 'mutual_precision': 22.66990291262136}
+half whiten {'top1_precision': 14.69591226321037, 'mutual_fraction': 29.132602193419743, 'mutual_precision': 21.800136892539356} {'top1_precision': 19.511465603190427, 'mutual_fraction': 28.564307078763708, 'mutual_precision': 29.94764397905759}
+half CORAL(CLS48)+whiten {'top1_precision': 26.35593220338983, 'mutual_fraction': 32.62213359920239, 'mutual_precision': 36.552567237163814} {'top1_precision': 28.220338983050848, 'mutual_fraction': 31.016949152542374, 'mutual_precision': 41.3371906139505}
+half CORAL(true signer)+whiten {'top1_precision': 26.445663010967095, 'mutual_fraction': 33.45962113659023, 'mutual_precision': 36.20381406436234} {'top1_precision': 27.108673978065802, 'mutual_fraction': 32.35294117647059, 'mutual_precision': 39.10631741140216}
+positives_from_CORAL+whiten {'mined_precision': 32.35045076455646, 'kept': 100.0, 'val_R1': 31.968167701863354}
+positives_from_CORAL+whiten_mutual {'mined_precision': 44.77534859700465, 'kept': 28.933605618369278, 'val_R1': 32.40489130434783}
+positives_from_whiten {'mined_precision': 22.919260845743885, 'kept': 100.0, 'val_R1': 25.17468944099379}
+positives_from_whiten_mutual {'mined_precision': 33.43879770614989, 'kept': 25.188026099516858, 'val_R1': 26.06754658385093}
+=== kfree 13:39:15
+A {'raw': 22.72, 'whiten': 29.44, 'chosen_Kq': 24, 'chosen_Kg': 70, 'R1_at_chosen_K': 29.45, 'mean_over_Kq_4..16_and_all_Kg': 33.41, 'min_max_over_same': [29.26048136645963, 36.23835403726708]}
+C {'raw': 18.28, 'whiten': 24.94, 'chosen_Kq': 2, 'chosen_Kg': 50, 'R1_at_chosen_K': 29.44, 'mean_over_Kq_4..16_and_all_Kg': 31.56, 'min_max_over_same': [30.240683229813666, 32.589285714285715]}
+B0 {'raw': 16.15, 'whiten': 18.22, 'chosen_Kq': 8, 'chosen_Kg': 70, 'R1_at_chosen_K': 25.92, 'mean_over_Kq_4..16_and_all_Kg': 26.95, 'min_max_over_same': [24.21075085324232, 28.41296928327645]}
+B1 {'raw': 17.28, 'whiten': 16.33, 'chosen_Kq': 24, 'chosen_Kg': 50, 'R1_at_chosen_K': 27.18, 'mean_over_Kq_4..16_and_all_Kg': 25.36, 'min_max_over_same': [21.366666666666667, 27.516666666666666]}
+B2 {'raw': 15.48, 'whiten': 18.55, 'chosen_Kq': 8, 'chosen_Kg': 70, 'R1_at_chosen_K': 23.88, 'mean_over_Kq_4..16_and_all_Kg': 24.15, 'min_max_over_same': [22.683333333333334, 25.966666666666665]}
+B3 {'raw': 11.63, 'whiten': 12.25, 'chosen_Kq': 16, 'chosen_Kg': 50, 'R1_at_chosen_K': 19.98, 'mean_over_Kq_4..16_and_all_Kg': 18.88, 'min_max_over_same': [16.066666666666666, 21.2]}
+B4 {'raw': 20.68, 'whiten': 22.92, 'chosen_Kq': 24, 'chosen_Kg': 70, 'R1_at_chosen_K': 29.8, 'mean_over_Kq_4..16_and_all_Kg': 28.12, 'min_max_over_same': [25.706845238095237, 30.208333333333332]}
+CV summary {'raw': 16.2464269462051, 'whiten': 17.653344709897613, 'R1_at_chosen_K': 25.353268527547538, 'mean_over_Kq_4..16_and_all_Kg': 24.69233445067447}
+=== coral_mb 13:47:16
+{'whiten_init': 24.941770186335404}
+/home/haipd/Sign_Representations/docs/proposal17/diagnostics/coral_head_mb.py:100: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  log.append({"step": step, "L_align": float(L_align), "L_iso": float(loss_R), "clusters_used": len(used),
+CLS48_B32_random_default(0.25,1,0.25) val R@1 17.78 log [(0, 0.0, 0), (250, 34.9548, 23), (500, 12.2375, 22), (750, 9.2228, 24)] ... {'step': 2999, 'L_align': 0.6875724792480469, 'L_iso': 0.21424153447151184, 'clusters_used': 24, 'clusters_present': 24, 'grad_norm_W': 0.7587342858314514}
+CLS48_B32_clusterbalanced4x8_default val R@1 20.01 log [(0, 0.0, 0), (250, 35.6695, 4), (500, 22.4028, 4), (750, 12.3621, 4)] ... {'step': 2999, 'L_align': 0.5288816690444946, 'L_iso': 0.19311201572418213, 'clusters_used': 4, 'clusters_present': 4, 'grad_norm_W': 0.4267796277999878}
+CLS48_B256_random_default val R@1 12.27 log [(0, 0.0, 0), (250, 2.7048, 46), (500, 0.9242, 46), (750, 0.5211, 46)] ... {'step': 2999, 'L_align': 0.0279550664126873, 'L_iso': 0.24081318080425262, 'clusters_used': 47, 'clusters_present': 47, 'grad_norm_W': 0.05488131195306778}
+CLS48_B32_random_headstyle(1,1,1) val R@1 15.55 log [(0, 0.0, 0), (250, 61.4671, 23), (500, 18.0035, 22), (750, 13.8071, 24)] ... {'step': 2999, 'L_align': 1.238713026046753, 'L_iso': 0.906804084777832, 'clusters_used': 24, 'clusters_present': 24, 'grad_norm_W': 1.6010226011276245}
+CLS48_B32_clusterbalanced4x8_headstyle val R@1 21.2 log [(0, 0.0, 0), (250, 63.8692, 4), (500, 35.9313, 4), (750, 17.9164, 4)] ... {'step': 2999, 'L_align': 1.2363134622573853, 'L_iso': 0.7086257338523865, 'clusters_used': 4, 'clusters_present': 4, 'grad_norm_W': 1.866153359413147}
+shuffled val R@1 19.41 log [(0, 0.0, 0), (250, 28.2854, 4), (500, 16.714, 4), (750, 11.597, 4)] ... {'step': 2999, 'L_align': 0.5155562162399292, 'L_iso': 0.20777584612369537, 'clusters_used': 4, 'clusters_present': 4, 'grad_norm_W': 0.21353372931480408}
+=== style_vars 13:51:21
+train 20056
+val 10304
+{
+ "n_clips": 20046,
+ "signer_id_acc_from_style_vars": {
+  "MORPH": 72.64715663451945,
+  "POSTURE": 48.73628200864649,
+  "BEHAV": 44.41303624875291,
+  "CAM": 19.953441968739607,
+  "ALL": 90.35583638177586,
+  "ALL minus MORPH": 68.73960758230795,
+  "ALL minus POSTURE": 84.253408713003,
+  "ALL minus BEHAV": 87.7618889258397,
+  "ALL minus CAM": 87.72863318922514
+ },
+ "signer_id_chance": 7.497755163124813,
+ "signer_id_acc_from_embedding": 90.72164948453609,
+ "signer_id_acc_from_embedding_standardised": 94.2301296973728,
+ "signer_component_R2_from_style_vars": {
+  "MORPH": {
+   "R2_heldout_clips": 23.55757018782375,
+   "R2_heldout_signers": -13.65924202376112
+  },
+  "POSTURE": {
+   "R2_heldout_clips": 15.40282930143727,
+   "R2_heldout_signers": -6.7794820030495195
+  },
+  "BEHAV": {
+   "R2_heldout_clips": 16.052938889905054,
+   "R2_heldout_signers": -5.613231047745715
+  },
+  "CAM": {
+   "R2_heldout_clips": 3.2914152458593304,
+   "R2_heldout_signers": -4.341414309547997
+  },
+  "ALL": {
+   "R2_heldout_clips": 41.53375865671656,
+   "R2_heldout_signers": -17.91693003298187
+  }
+ },
+ "between_signer_variance_share_per_variable": {
+  "res_w": 0.9999999999999998,
+  "nose_y": 0.7996225923355562,
+  "duration_s": 0.7341473416079558,
+  "rest_height_D": 0.7084576384782577,
+  "eye_dist": 0.6848623212535442,
+  "nose_chin_proxy": 0.6329560324795207,
+  "mouth_width": 0.6172371175266593,
+  "brow_width": 0.6119649585688739,
+  "upper_arm_D": 0.5827401091285953,
+  "fps": 0.2323991978972734,
+  "arm_ratio_D": 0.20841132431129478,
+  "wrist_speed_med": 0.2075991337581728,
+  "forearm_D": 0.20269655838417358,
+  "obs_frac_face": 0.17440590293365005,
+  "obs_frac_Nhand": 0.14481448381068757,
+  "wrist_mean_y": 0.1377139916117464,
+  "active_frac": 0.13353586715865806,
+  "obs_frac_Dhand": 0.13031887373430778,
+  "palm_D": 0.12322519158979427,
+  "wrist_speed_p90": 0.117262649495565,
+  "middle_len_D": 0.1137199029886373,
+  "right_dom": 0.10908705173723783,
+  "handspan_D": 0.10729966308558274,
+  "amp_range_y": 0.10383788053073588,
+  "amp_y_std": 0.09445678670900048,
+  "wrist_mean_x": 0.0734349206222008,
+  "nose_x": 0.06424951783962347,
+  "shoulder_tilt": 0.06046050365111892,
+  "amp_x_std": 0.039899094141001935,
+  "amp_range_x": 0.03790958515402094
+ }
+}
+=== morph_clean 13:51:40
+val_bal300 0 1500 0s
+val_bal300 200 1500 4s
+val_bal300 400 1500 7s
+val_bal300 600 1500 11s
+val_bal300 800 1500 15s
+val_bal300 1000 1500 20s
+val_bal300 1200 1500 28s
+val_bal300 1400 1500 31s
+saved val_bal300 1500 33s
+=== morph_1.15 13:52:19
+val_bal300_morph-arm-s1.15 0 1500 0s
+val_bal300_morph-arm-s1.15 200 1500 4s
+val_bal300_morph-arm-s1.15 400 1500 8s
+val_bal300_morph-arm-s1.15 600 1500 11s
+val_bal300_morph-arm-s1.15 800 1500 16s
+val_bal300_morph-arm-s1.15 1000 1500 20s
+val_bal300_morph-arm-s1.15 1200 1500 27s
+val_bal300_morph-arm-s1.15 1400 1500 31s
+saved val_bal300_morph-arm-s1.15 1500 33s
+=== morph_1.3 13:53:00
+val_bal300_morph-arm-s1.3 0 1500 0s
+val_bal300_morph-arm-s1.3 200 1500 4s
+val_bal300_morph-arm-s1.3 400 1500 8s
+val_bal300_morph-arm-s1.3 600 1500 13s
+val_bal300_morph-arm-s1.3 800 1500 17s
+val_bal300_morph-arm-s1.3 1000 1500 21s
+val_bal300_morph-arm-s1.3 1200 1500 29s
+val_bal300_morph-arm-s1.3 1400 1500 33s
+saved val_bal300_morph-arm-s1.3 1500 35s
+=== morph_1.5 13:53:42
+val_bal300_morph-arm-s1.5 0 1500 0s
+val_bal300_morph-arm-s1.5 200 1500 4s
+val_bal300_morph-arm-s1.5 400 1500 8s
+val_bal300_morph-arm-s1.5 600 1500 12s
+val_bal300_morph-arm-s1.5 800 1500 17s
+val_bal300_morph-arm-s1.5 1000 1500 22s
+val_bal300_morph-arm-s1.5 1200 1500 30s
+val_bal300_morph-arm-s1.5 1400 1500 33s
+saved val_bal300_morph-arm-s1.5 1500 35s
+=== morph_1.15 13:54:25
+val_bal300_morph-hand-s1.15 0 1500 0s
+val_bal300_morph-hand-s1.15 200 1500 4s
+val_bal300_morph-hand-s1.15 400 1500 8s
+val_bal300_morph-hand-s1.15 600 1500 13s
+val_bal300_morph-hand-s1.15 800 1500 17s
+val_bal300_morph-hand-s1.15 1000 1500 21s
+val_bal300_morph-hand-s1.15 1200 1500 29s
+val_bal300_morph-hand-s1.15 1400 1500 33s
+saved val_bal300_morph-hand-s1.15 1500 34s
+=== morph_1.3 13:55:07
+val_bal300_morph-hand-s1.3 0 1500 0s
+val_bal300_morph-hand-s1.3 200 1500 4s
+val_bal300_morph-hand-s1.3 400 1500 8s
+val_bal300_morph-hand-s1.3 600 1500 12s
+val_bal300_morph-hand-s1.3 800 1500 17s
+val_bal300_morph-hand-s1.3 1000 1500 21s
+val_bal300_morph-hand-s1.3 1200 1500 28s
+val_bal300_morph-hand-s1.3 1400 1500 32s
+saved val_bal300_morph-hand-s1.3 1500 34s
+=== morph_1.5 13:55:48
+val_bal300_morph-hand-s1.5 0 1500 0s
+val_bal300_morph-hand-s1.5 200 1500 4s
+val_bal300_morph-hand-s1.5 400 1500 8s
+val_bal300_morph-hand-s1.5 600 1500 12s
+val_bal300_morph-hand-s1.5 800 1500 17s
+val_bal300_morph-hand-s1.5 1000 1500 22s
+val_bal300_morph-hand-s1.5 1200 1500 30s
+val_bal300_morph-hand-s1.5 1400 1500 34s
+saved val_bal300_morph-hand-s1.5 1500 36s
+=== morph_1.15 13:56:31
+val_bal300_morph-all-s1.15 0 1500 0s
+val_bal300_morph-all-s1.15 200 1500 4s
+val_bal300_morph-all-s1.15 400 1500 8s
+val_bal300_morph-all-s1.15 600 1500 13s
+val_bal300_morph-all-s1.15 800 1500 18s
+val_bal300_morph-all-s1.15 1000 1500 22s
+val_bal300_morph-all-s1.15 1200 1500 30s
+val_bal300_morph-all-s1.15 1400 1500 34s
+saved val_bal300_morph-all-s1.15 1500 35s
+=== morph_1.3 13:57:14
+val_bal300_morph-all-s1.3 0 1500 0s
+val_bal300_morph-all-s1.3 200 1500 4s
+val_bal300_morph-all-s1.3 400 1500 8s
+val_bal300_morph-all-s1.3 600 1500 13s
+val_bal300_morph-all-s1.3 800 1500 17s
+val_bal300_morph-all-s1.3 1000 1500 22s
+val_bal300_morph-all-s1.3 1200 1500 30s
+val_bal300_morph-all-s1.3 1400 1500 34s
+saved val_bal300_morph-all-s1.3 1500 35s
+=== morph_1.5 13:57:57
+val_bal300_morph-all-s1.5 0 1500 0s
+val_bal300_morph-all-s1.5 200 1500 4s
+val_bal300_morph-all-s1.5 400 1500 8s
+val_bal300_morph-all-s1.5 600 1500 13s
+val_bal300_morph-all-s1.5 800 1500 17s
+val_bal300_morph-all-s1.5 1000 1500 21s
+val_bal300_morph-all-s1.5 1200 1500 29s
+val_bal300_morph-all-s1.5 1400 1500 32s
+saved val_bal300_morph-all-s1.5 1500 34s
+=== morph_1.15 13:58:38
+val_bal300_morph-nonuni-s1.15 0 1500 0s
+val_bal300_morph-nonuni-s1.15 200 1500 4s
+val_bal300_morph-nonuni-s1.15 400 1500 8s
+val_bal300_morph-nonuni-s1.15 600 1500 13s
+val_bal300_morph-nonuni-s1.15 800 1500 17s
+val_bal300_morph-nonuni-s1.15 1000 1500 21s
+val_bal300_morph-nonuni-s1.15 1200 1500 29s
+val_bal300_morph-nonuni-s1.15 1400 1500 33s
+saved val_bal300_morph-nonuni-s1.15 1500 35s
+=== morph_1.3 13:59:20
+val_bal300_morph-nonuni-s1.3 0 1500 0s
+val_bal300_morph-nonuni-s1.3 200 1500 4s
+val_bal300_morph-nonuni-s1.3 400 1500 8s
+val_bal300_morph-nonuni-s1.3 600 1500 13s
+val_bal300_morph-nonuni-s1.3 800 1500 18s
+val_bal300_morph-nonuni-s1.3 1000 1500 22s
+val_bal300_morph-nonuni-s1.3 1200 1500 30s
+val_bal300_morph-nonuni-s1.3 1400 1500 33s
+saved val_bal300_morph-nonuni-s1.3 1500 35s
+=== morph_1.5 14:00:03
+val_bal300_morph-nonuni-s1.5 0 1500 0s
+val_bal300_morph-nonuni-s1.5 200 1500 4s
+val_bal300_morph-nonuni-s1.5 400 1500 8s
+val_bal300_morph-nonuni-s1.5 600 1500 13s
+val_bal300_morph-nonuni-s1.5 800 1500 17s
+val_bal300_morph-nonuni-s1.5 1000 1500 21s
+val_bal300_morph-nonuni-s1.5 1200 1500 29s
+val_bal300_morph-nonuni-s1.5 1400 1500 32s
+saved val_bal300_morph-nonuni-s1.5 1500 34s
+=== morph_dose 14:00:44
+all-s1.15 {'cos_to_clean': 0.928, 'shift_norm': 0.289, 'R1': 14.6, 'R1_delta_vs_clean': 0.4, 'shift_energy_in_signer_subspace34': 0.262, 'shift_energy_random_subspace34': 0.041}
+all-s1.3 {'cos_to_clean': 0.924, 'shift_norm': 0.312, 'R1': 13.933, 'R1_delta_vs_clean': -0.267, 'shift_energy_in_signer_subspace34': 0.269, 'shift_energy_random_subspace34': 0.041}
+all-s1.5 {'cos_to_clean': 0.917, 'shift_norm': 0.342, 'R1': 13.8, 'R1_delta_vs_clean': -0.4, 'shift_energy_in_signer_subspace34': 0.275, 'shift_energy_random_subspace34': 0.041}
+arm-s1.15 {'cos_to_clean': 0.928, 'shift_norm': 0.288, 'R1': 14.0, 'R1_delta_vs_clean': -0.2, 'shift_energy_in_signer_subspace34': 0.27, 'shift_energy_random_subspace34': 0.041}
+arm-s1.3 {'cos_to_clean': 0.924, 'shift_norm': 0.309, 'R1': 13.533, 'R1_delta_vs_clean': -0.667, 'shift_energy_in_signer_subspace34': 0.278, 'shift_energy_random_subspace34': 0.041}
+arm-s1.5 {'cos_to_clean': 0.918, 'shift_norm': 0.337, 'R1': 13.6, 'R1_delta_vs_clean': -0.6, 'shift_energy_in_signer_subspace34': 0.285, 'shift_energy_random_subspace34': 0.04}
+hand-s1.15 {'cos_to_clean': 0.929, 'shift_norm': 0.275, 'R1': 14.333, 'R1_delta_vs_clean': 0.133, 'shift_energy_in_signer_subspace34': 0.232, 'shift_energy_random_subspace34': 0.043}
+hand-s1.3 {'cos_to_clean': 0.929, 'shift_norm': 0.281, 'R1': 14.4, 'R1_delta_vs_clean': 0.2, 'shift_energy_in_signer_subspace34': 0.234, 'shift_energy_random_subspace34': 0.043}
+hand-s1.5 {'cos_to_clean': 0.928, 'shift_norm': 0.288, 'R1': 14.4, 'R1_delta_vs_clean': 0.2, 'shift_energy_in_signer_subspace34': 0.236, 'shift_energy_random_subspace34': 0.043}
+nonuni-s1.15 {'cos_to_clean': 0.912, 'shift_norm': 0.321, 'R1': 13.733, 'R1_delta_vs_clean': -0.467, 'shift_energy_in_signer_subspace34': 0.239, 'shift_energy_random_subspace34': 0.042}
+nonuni-s1.3 {'cos_to_clean': 0.897, 'shift_norm': 0.368, 'R1': 13.2, 'R1_delta_vs_clean': -1.0, 'shift_energy_in_signer_subspace34': 0.24, 'shift_energy_random_subspace34': 0.042}
+nonuni-s1.5 {'cos_to_clean': 0.877, 'shift_norm': 0.42, 'R1': 13.4, 'R1_delta_vs_clean': -0.8, 'shift_energy_in_signer_subspace34': 0.239, 'shift_energy_random_subspace34': 0.043}
+=== morph_effect_rerun 14:00:49
+face {'cos_clean_vs_morph_mean': 1.0, 'R1_morph_queries': 12.2, 'R1_drop': 0.0667, 'shift_energy_in_signer_subspace34': 0.114, 'shift_energy_in_within_gloss_top34': 0.1348, 'shift_energy_random_subspace34': 0.0455, 'mean_shift_cos_with_signer_subspace': 0.4266, 'shift_norm_mean': 0.0007}
+arm {'cos_clean_vs_morph_mean': 0.9288, 'R1_morph_queries': 13.4, 'R1_drop': -1.1333, 'shift_energy_in_signer_subspace34': 0.2695, 'shift_energy_in_within_gloss_top34': 0.316, 'shift_energy_random_subspace34': 0.044, 'mean_shift_cos_with_signer_subspace': 0.7084, 'shift_norm_mean': 0.2904}
+hand {'cos_clean_vs_morph_mean': 0.9302, 'R1_morph_queries': 13.3333, 'R1_drop': -1.0667, 'shift_energy_in_signer_subspace34': 0.234, 'shift_energy_in_within_gloss_top34': 0.2993, 'shift_energy_random_subspace34': 0.0456, 'mean_shift_cos_with_signer_subspace': 0.7079, 'shift_norm_mean': 0.2764}
+all {'cos_clean_vs_morph_mean': 0.9278, 'R1_morph_queries': 13.4667, 'R1_drop': -1.2, 'shift_energy_in_signer_subspace34': 0.2608, 'shift_energy_in_within_gloss_top34': 0.314, 'shift_energy_random_subspace34': 0.0443, 'mean_shift_cos_with_signer_subspace': 0.7073, 'shift_norm_mean': 0.2928}
+{"same_gloss_diff_signer": 0.6010963916778564, "same_signer_diff_gloss": 0.4713888466358185, "random_pair": 0.4396264851093292} 0.8829366564750671
+=== cls_early 14:00:52
+pilot_4k {'clips_train': 10039, 'clips_val': 2576, 'AMI_signer_train_K35': 0.45, 'AMI_signer_val_K6': 0.313, 'AMI_gloss_train_K35': 0.009, 'ARI_even_vs_odd_windows_train': 0.919, 'ARI_even_vs_odd_windows_val': 0.829, 'CLS_eta2_signer': 0.369, 'CLS_signer_decode_linear_standardised': 85.857, 'CLS_same_signer_NN': 75.65, 'grp_raw_R1_val_vs_train_subset': 8.385, 'seconds': 229.008}
+pilot_16k {'clips_train': 10039, 'clips_val': 2576, 'AMI_signer_train_K35': 0.58, 'AMI_signer_val_K6': 0.474, 'AMI_gloss_train_K35': -0.006, 'ARI_even_vs_odd_windows_train': 0.921, 'ARI_even_vs_odd_windows_val': 0.793, 'CLS_eta2_signer': 0.385, 'CLS_signer_decode_linear_standardised': 88.712, 'CLS_same_signer_NN': 87.225, 'grp_raw_R1_val_vs_train_subset': 13.393, 'seconds': 238.88}
+final_160ep {'clips_train': 10039, 'clips_val': 2576, 'AMI_signer_train_K35': 0.715, 'AMI_signer_val_K6': 0.489, 'AMI_gloss_train_K35': -0.013, 'ARI_even_vs_odd_windows_train': 0.974, 'ARI_even_vs_odd_windows_val': 0.802, 'CLS_eta2_signer': 0.437, 'CLS_signer_decode_linear_standardised': 94.588, 'CLS_same_signer_NN': 95.625, 'grp_raw_R1_val_vs_train_subset': 13.781, 'seconds': 233.068}
+{'CLS_clusters': {'NMI_gloss': 0.3317018656291244, 'AMI_gloss': -0.016306279728352014, 'NMI_signer': 0.7084379869679032, 'AMI_signer': 0.7041355811996954}, 'random_clusters': {'NMI_gloss': 0.35813315991708056, 'AMI_gloss': -0.00045396103284963134}}
+R1FIXDONE

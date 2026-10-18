@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "steps": 6,
+  "prior_heads_and_fc_unchanged": true,
+  "backbone_updated": true,
+  "total_loss_equals_latent_loss": true
+}

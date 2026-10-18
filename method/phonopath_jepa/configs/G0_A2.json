@@ -1,0 +1,6 @@
+{
+  "arm": "A2",
+  "cache": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+  "stats": "runtime/stats/A2.pt",
+  "depth": 4
+}

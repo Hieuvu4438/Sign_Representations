@@ -1,0 +1,79 @@
+{
+  "status": "verified_service_running",
+  "observed_local": "2026-10-12T19:51:28+07:00",
+  "origin_skill": "academic-research-suite / experiment-agent",
+  "unit": "signpath-e04-full-aslc.service",
+  "main_pid": 2464615,
+  "enabled": true,
+  "active": true,
+  "existing_small_unit": "signpath-e04-aslc3000.service",
+  "existing_small_pid": 68224,
+  "experiment_python_process_count": 2,
+  "standalone_python_logger_enabled": false,
+  "linger": true,
+  "config": "configs/full_aslc/E04_seed17.yaml",
+  "config_hash": "c7e7186db272cf0ce2dd027fdbaa9bd113949ba6e607d2434212a22705453f41",
+  "runtime_implementation_hash": "0623c9ee11db3bdc18e7802c640c880e527302e972ebb2880d06d517a66e1dc5",
+  "source_snapshot_sha256": "23d772322b2652b39b25e577b08272e1f05437513c5c8efba08e036c528bb8c0",
+  "execution": {
+    "cpu_threads": 2,
+    "dino_batch_size": 16,
+    "python_processes": 1,
+    "gpu_training_dependency": "artifacts/aslc3000/job_seed17",
+    "txt_reporting": "same-process thread, both jobs, 60 seconds"
+  },
+  "manifest_audit_passed": true,
+  "corpus_counts": {
+    "train": 40154,
+    "val": 10304,
+    "test": 32941,
+    "glosses": 2731
+  },
+  "reuse": {
+    "previous_full_indexed_samples": 640,
+    "restored_unindexed_samples": 60,
+    "hardlinked_small_train_samples": 2432,
+    "reused_bytes_without_copy": 934757497
+  },
+  "cache_progress": {
+    "stage": "cache_train",
+    "completed": 3190,
+    "total": 40154,
+    "new_samples": 58,
+    "elapsed_seconds": 199.36580031501944,
+    "free_gib": 72.29043197631836
+  },
+  "validation": {
+    "focused_operational_and_recovery_tests_passed": 12,
+    "systemd_unit_verification_passed": true,
+    "new_cache_created_after_reuse": true,
+    "txt_snapshots_observed_for_both_jobs": true,
+    "actual_reboot_performed": false,
+    "full_job_interrupt_resume_performed": false,
+    "model_checkpoint_resume": "previous real-video operational preflight verified; see aslc3000_service_preflight.json"
+  },
+  "successful_updates_planned": 10000,
+  "final_metrics_available": false,
+  "estimates": {
+    "train_plus_val_days": [
+      3,
+      5
+    ],
+    "all_including_test_days": [
+      5,
+      7
+    ],
+    "storage_planning_gib": [
+      43,
+      48
+    ]
+  },
+  "current_on_disk_operational_script_sha256": {
+    "scripts/run_full_aslc.py": "f323b0aa3fbdceea234d604ee0cc9b8fadbeb97cc941093e806451ad9505a54a",
+    "scripts/full_job_service_support.py": "652dbdcc18e0cc8d2e2988fc8af7217626afb988fa62a15c4941878e52161bde",
+    "scripts/write_progress_txt.py": "d8f4eb7d0af165e938cebaf2398d47c8dad69cc7f6d20c5ad7846586eed6a3b3",
+    "deploy/signpath-e04-full-aslc.service": "03e7ad49709bd08e9cdd96e168fb21074d0ed9bb5ca002e1778a951560d5a0a7"
+  },
+  "operational_note": "Logging opt-in adjusted after initial launch to prevent duplicate reporters when the existing small unit restarts; model source/config unchanged. Initial source snapshot remains preserved.",
+  "monitoring": "Startup verified; agent stops polling as requested."
+}

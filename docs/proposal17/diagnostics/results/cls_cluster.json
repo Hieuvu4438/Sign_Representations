@@ -1,0 +1,23 @@
+{
+ "raw": 18.28416149068323,
+ "whiten": 24.941770186335404,
+ "true_signers_CORAL+whiten": 31.715838509316768,
+ "CLS_K35_train_AMI": 0.708945737139029,
+ "CLS_K35_train_purity": 0.7907057827364646,
+ "CLS_Kq6_val_AMI": 0.4404970316898355,
+ "CLS_Kq6_val_purity": 0.7302018633540373,
+ "CLS_clusters_g35_q6_CORAL+whiten": 31.618788819875775,
+ "CLS_Kq12_val_AMI": 0.4550247956754079,
+ "CLS_Kq12_val_purity": 0.797748447204969,
+ "CLS_clusters_g35_q12_CORAL+whiten": 32.298136645962735,
+ "CLS_K70_train_AMI": 0.6951732896537361,
+ "CLS_K70_train_purity": 0.8466902425661205,
+ "CLS_clusters_g70_q6_CORAL+whiten": 30.39596273291926,
+ "CLS_clusters_g70_q12_CORAL+whiten": 31.715838509316768,
+ "CLS_K140_train_AMI": 0.6583814477067509,
+ "CLS_K140_train_purity": 0.87986252926234,
+ "CLS_clusters_g140_q6_CORAL+whiten": 28.454968944099377,
+ "CLS_clusters_g140_q12_CORAL+whiten": 29.425465838509318,
+ "gallery CLS70 + queries true signers": 31.288819875776397,
+ "gallery true signers + queries CLS6": 30.82298136645963
+}

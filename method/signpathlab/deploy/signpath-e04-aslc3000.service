@@ -1,0 +1,24 @@
+[Unit]
+Description=SignPathLab E04 ASLC3000 seed17 representation training and frozen retrieval
+StartLimitIntervalSec=1800
+StartLimitBurst=3
+
+[Service]
+Type=simple
+WorkingDirectory=/home/haipd/Sign_Representations/method/signpathlab
+Environment=PYTHONUNBUFFERED=1
+Environment=OMP_NUM_THREADS=1
+Environment=OPENBLAS_NUM_THREADS=1
+Environment=MKL_NUM_THREADS=1
+ExecStart=/home/haipd/Sign_Representations/method/signpathlab/.venv-locked/bin/python /home/haipd/Sign_Representations/method/signpathlab/scripts/run_full_aslc.py --config configs/aslc3000/E04_seed17.yaml --device cuda:0 --workers 2 --dino-batch-size 16 --evaluation-split val --job-dir artifacts/aslc3000/job_seed17 --auto-resume
+Restart=on-abnormal
+RestartForceExitStatus=75
+RestartPreventExitStatus=2
+RestartSec=30
+TimeoutStopSec=180
+KillMode=control-group
+StandardOutput=append:/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/job_seed17/output.log
+StandardError=inherit
+
+[Install]
+WantedBy=default.target

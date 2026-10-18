@@ -1,0 +1,105 @@
+{
+ "pool": 40154,
+ "full_pool_true_signer_exclusion": {
+  "raw": {
+   "top1_precision": 14.294964387109626,
+   "mutual_fraction": 18.957015490362107,
+   "mutual_precision": 25.853914871255913
+  },
+  "whiten": {
+   "top1_precision": 22.919260845743885,
+   "mutual_fraction": 25.188026099516858,
+   "mutual_precision": 33.43879770614989
+  },
+  "CMN+whiten": {
+   "top1_precision": 24.06734073815809,
+   "mutual_fraction": 26.22901827962345,
+   "mutual_precision": 34.789213824534755
+  },
+  "CORAL+whiten": {
+   "top1_precision": 32.35045076455646,
+   "mutual_fraction": 28.933605618369278,
+   "mutual_precision": 44.77534859700465
+  },
+  "LEACE+whiten": {
+   "top1_precision": 24.577875180554866,
+   "mutual_fraction": 26.1841908651691,
+   "mutual_precision": 35.40041848963287
+  },
+  "LDA96 (train-fit, optimistic)": {
+   "top1_precision": 52.82910793445236,
+   "mutual_fraction": 25.282661752253823,
+   "mutual_precision": 71.11899133175729
+  }
+ },
+ "half_pool": {
+  "pool": 20060,
+  "exclusion_by_CLS48_cluster": {
+   "raw": {
+    "top1_precision": 8.743768693918245,
+    "mutual_fraction": 23.98803589232303,
+    "mutual_precision": 14.630091438071489
+   },
+   "whiten": {
+    "top1_precision": 14.69591226321037,
+    "mutual_fraction": 29.132602193419743,
+    "mutual_precision": 21.800136892539356
+   },
+   "CORAL(CLS48)+whiten": {
+    "top1_precision": 26.35593220338983,
+    "mutual_fraction": 32.62213359920239,
+    "mutual_precision": 36.552567237163814
+   },
+   "CORAL(true signer)+whiten": {
+    "top1_precision": 26.445663010967095,
+    "mutual_fraction": 33.45962113659023,
+    "mutual_precision": 36.20381406436234
+   }
+  },
+  "exclusion_by_true_signer": {
+   "raw": {
+    "top1_precision": 11.979062811565305,
+    "mutual_fraction": 20.538384845463607,
+    "mutual_precision": 22.66990291262136
+   },
+   "whiten": {
+    "top1_precision": 19.511465603190427,
+    "mutual_fraction": 28.564307078763708,
+    "mutual_precision": 29.94764397905759
+   },
+   "CORAL(CLS48)+whiten": {
+    "top1_precision": 28.220338983050848,
+    "mutual_fraction": 31.016949152542374,
+    "mutual_precision": 41.3371906139505
+   },
+   "CORAL(true signer)+whiten": {
+    "top1_precision": 27.108673978065802,
+    "mutual_fraction": 32.35294117647059,
+    "mutual_precision": 39.10631741140216
+   }
+  }
+ },
+ "head": {
+  "whiten_reference": 29.435170807453414,
+  "positives_from_CORAL+whiten": {
+   "mined_precision": 32.35045076455646,
+   "kept": 100.0,
+   "val_R1": 31.968167701863354
+  },
+  "positives_from_CORAL+whiten_mutual": {
+   "mined_precision": 44.77534859700465,
+   "kept": 28.933605618369278,
+   "val_R1": 32.40489130434783
+  },
+  "positives_from_whiten": {
+   "mined_precision": 22.919260845743885,
+   "kept": 100.0,
+   "val_R1": 25.17468944099379
+  },
+  "positives_from_whiten_mutual": {
+   "mined_precision": 33.43879770614989,
+   "kept": 25.188026099516858,
+   "val_R1": 26.06754658385093
+  }
+ }
+}

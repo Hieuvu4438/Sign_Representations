@@ -1,0 +1,11 @@
+{
+  "automatic_systemd_restart": true,
+  "old_supervisor": 1385907,
+  "new_supervisor": 1391460,
+  "checkpoint_step": 125,
+  "recovered_step": 126,
+  "resumed_from": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/latest.pt",
+  "trainer_pid": 1391515,
+  "service_restarts": 1,
+  "passed": true
+}

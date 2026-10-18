@@ -1,0 +1,24 @@
+[Unit]
+Description=Pose-JEPA full ASL-Citizen training and held-out evaluation
+StartLimitIntervalSec=3600
+StartLimitBurst=5
+
+[Service]
+Type=simple
+WorkingDirectory=/home/haipd/Sign_Representations
+ExecStart=/home/haipd/Sign_Representations/method/pose_jepa/runtime/venv/bin/python /home/haipd/Sign_Representations/method/pose_jepa/runtime/full_aslc_job/ops/full_aslc_job.py supervise --job-root /home/haipd/Sign_Representations/method/pose_jepa/runtime/full_aslc_job
+Restart=on-failure
+RestartSec=30
+KillMode=mixed
+TimeoutStopSec=300
+Nice=5
+CPUQuota=800%
+MemoryHigh=12G
+MemoryMax=16G
+Environment=PYTHONPATH=/home/haipd/Sign_Representations/method/pose_jepa/runtime/full_aslc_job/code
+Environment=PYTHONUNBUFFERED=1
+StandardOutput=append:/home/haipd/Sign_Representations/method/pose_jepa/runtime/full_aslc_job/service.log
+StandardError=append:/home/haipd/Sign_Representations/method/pose_jepa/runtime/full_aslc_job/service.log
+
+[Install]
+WantedBy=default.target

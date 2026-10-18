@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED",
+  "removed_paths": [
+    "/home/haipd/Sign_Representations/method/jepa_baseline/runtime",
+    "/home/haipd/Sign_Representations/method/jepa_baseline/experiments/FULLASLC_AUDIT_20261014/latest_training_snapshot.pt",
+    "/home/haipd/Sign_Representations/method/jepa_baseline/experiments/FULLASLC_AUDIT_20261014/best_step10000.model.pt",
+    "/home/haipd/.config/systemd/user/signrep-full-aslc-kinetics.service"
+  ],
+  "remaining_reproduction_bytes": 169160704,
+  "archive_bytes_allocated": 352313344,
+  "reproduction_bytes_before": 27224625152,
+  "net_reclaimed_bytes_after_archive": 26703151104,
+  "free_disk_bytes_now": 149157961728,
+  "dataset_preserved": true,
+  "external_venvs_preserved": true,
+  "author_checkpoint_outside_reproduction_preserved": true,
+  "service_removed": true,
+  "best_model_retained": "/home/haipd/Sign_Representations/artifacts/signrep_reproduction_results_20261015/best_step10000.model.pt",
+  "full_40k_resume_possible": false,
+  "timestamp": "2026-10-15T16:14:17.754522"
+}

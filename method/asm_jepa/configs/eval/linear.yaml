@@ -1,0 +1,19 @@
+mode: linear_probe
+seed: 0
+feature_key: state_part_concat1024_l2
+feature_dim: 1024
+num_classes_from_vocab: true
+head: linear
+data:
+  processed_root: data/processed/aslc
+train:
+  optimizer: adamw
+  lr: 1.0e-3
+  weight_decay: 0.0
+  batch_size: 256
+  epochs: 100
+  warmup_epochs: 5
+  min_lr: 1.0e-5
+  label_smoothing: 0.0
+selection_metric: val/cls/top1_instance
+test_during_training: false

@@ -1,0 +1,6 @@
+# local data (ASL-Citizen license forbids redistribution), model downloads and run outputs
+/data/
+/runs/
+__pycache__/
+*.pyc
+.pytest_cache/

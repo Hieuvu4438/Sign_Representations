@@ -1,0 +1,102 @@
+[
+  {
+    "seed": 20261014,
+    "checkpoint_step": 37876,
+    "video_indices": [
+      8563,
+      11882,
+      38245,
+      34596,
+      9186,
+      8696,
+      35544,
+      19202,
+      23037,
+      8866
+    ],
+    "views": 20,
+    "scope": "CPU float32 probes at features; actual data format and 80% mask, not GPU BF16 replay or whole-backbone causal test",
+    "losses": {
+      "reconstruction": 1.1134586334228516,
+      "variance": 28.244163513183594,
+      "weighted_covariance": 150.26808166503906
+    },
+    "gradients_at_features": {
+      "reconstruction_l2": 0.0009215870522893965,
+      "regularization_l2": 4.448078632354736,
+      "regularizer_to_recon_ratio": 4826.5419921875,
+      "recon_vs_total_cosine": 0.01226800587028265
+    },
+    "video_shuffled_reconstruction": 1.1122533082962036,
+    "shuffle_relative_change": -0.001082505565136671,
+    "style_gradient_l2": 9.929351347485061e-15,
+    "style_norm_mean": 0.0056754788383841515,
+    "style_matched_distance_mean": 0.008752758614718914,
+    "style_unmatched_distance_mean": 0.008179630152881145,
+    "matched_probability_mean": 0.5003056526184082,
+    "unmatched_probability_mean": 0.5003056526184082,
+    "valid_fraction": {
+      "body_pose": 0.4740266501903534,
+      "right_pose": 0.46875,
+      "left_pose": 0.3375000059604645,
+      "full_body_angles": 1.0,
+      "full_right_angles": 0.46875,
+      "full_left_angles": 0.3375000059604645,
+      "right_dist": 0.46875,
+      "left_dist": 0.3375000059604645,
+      "body_dist": 0.2901988625526428,
+      "activity": 0.0
+    },
+    "seconds": 9.814227874972858
+  },
+  {
+    "seed": 20261015,
+    "checkpoint_step": 37876,
+    "video_indices": [
+      31282,
+      29737,
+      8868,
+      23118,
+      38661,
+      21976,
+      16740,
+      22526,
+      26077,
+      9697
+    ],
+    "views": 20,
+    "scope": "CPU float32 probes at features; actual data format and 80% mask, not GPU BF16 replay or whole-backbone causal test",
+    "losses": {
+      "reconstruction": 1.200239896774292,
+      "variance": 27.316162109375,
+      "weighted_covariance": 131.41563415527344
+    },
+    "gradients_at_features": {
+      "reconstruction_l2": 0.0010589532321318984,
+      "regularization_l2": 3.902864456176758,
+      "regularizer_to_recon_ratio": 3685.587158203125,
+      "recon_vs_total_cosine": -0.004939479287713766
+    },
+    "video_shuffled_reconstruction": 1.1997931003570557,
+    "shuffle_relative_change": -0.0003722559195011854,
+    "style_gradient_l2": 1.025597318117695e-14,
+    "style_norm_mean": 0.004285709001123905,
+    "style_matched_distance_mean": 0.007785186171531677,
+    "style_unmatched_distance_mean": 0.008352501317858696,
+    "matched_probability_mean": 0.5002398490905762,
+    "unmatched_probability_mean": 0.5002398490905762,
+    "valid_fraction": {
+      "body_pose": 0.5616291165351868,
+      "right_pose": 0.559374988079071,
+      "left_pose": 0.5,
+      "full_body_angles": 1.0,
+      "full_right_angles": 0.559374988079071,
+      "full_left_angles": 0.5,
+      "right_dist": 0.559374988079071,
+      "left_dist": 0.5,
+      "body_dist": 0.377059668302536,
+      "activity": 0.0
+    },
+    "seconds": 9.095691803959198
+  }
+]

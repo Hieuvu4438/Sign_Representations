@@ -1,0 +1,130 @@
+{
+  "before": {
+    "phase": "train",
+    "status": "running",
+    "pid": 3159395,
+    "step": 60,
+    "max_steps": 30000,
+    "last_checkpoint_step": 1,
+    "best_validation_R1": null,
+    "stale_validations": 0,
+    "active_training_seconds": 33.87312828388531,
+    "updated_unix": 1791942644.8425906,
+    "run_started_unix": 1791942610.135995,
+    "recovery": null,
+    "last_update": {
+      "successful": true,
+      "step": 60,
+      "raw_losses": {
+        "latent": 5.615070819854736,
+        "geometry": 0.18579475581645966,
+        "motion": 0.04794706404209137
+      },
+      "weighted_losses": {
+        "latent": 5.615070819854736,
+        "geometry": 0.046448688954114914,
+        "motion": 0.004794706404209138
+      },
+      "denominators": {
+        "latent": 2588.189697265625,
+        "geometry": 81783.6171875,
+        "motion": 68222.6796875
+      },
+      "lr": 1.7999999999999997e-05,
+      "ema_momentum": 0.9990000095433288,
+      "grad_norm": 18.729177474975586,
+      "target_entropy_per_part": [
+        0.33995217084884644,
+        0.4921545684337616,
+        0.5449257493019104,
+        0.2504650354385376
+      ],
+      "update_duration_sec": 0.38090253999689594,
+      "peak_allocated_vram_bytes": 2379293696,
+      "mask_ratio_local": 0.5999257564544678
+    }
+  },
+  "started_unix": 1791942645.2800586,
+  "paused_checkpoint_step": 64,
+  "pause_progress": {
+    "phase": "train",
+    "status": "paused",
+    "pid": 3159395,
+    "step": 64,
+    "max_steps": 30000,
+    "last_checkpoint_step": 64,
+    "best_validation_R1": null,
+    "stale_validations": 0,
+    "active_training_seconds": 35.81963304983219,
+    "updated_unix": 1791942647.0922658,
+    "run_started_unix": 1791942610.135995,
+    "recovery": null,
+    "stop_signal": 15
+  },
+  "checkpoint_components": [
+    "config",
+    "criterion",
+    "metadata",
+    "optimizer",
+    "rank_states",
+    "scaler",
+    "scheduler",
+    "schema_version",
+    "step",
+    "system",
+    "teacher",
+    "world_size"
+  ],
+  "saved_source_matches_snapshot": true,
+  "after_resume": {
+    "phase": "train",
+    "status": "running",
+    "pid": 3161700,
+    "step": 572,
+    "max_steps": 30000,
+    "last_checkpoint_step": 500,
+    "best_validation_R1": null,
+    "stale_validations": 0,
+    "active_training_seconds": 330.7175493739778,
+    "updated_unix": 1791942959.2997098,
+    "run_started_unix": 1791942659.2372284,
+    "recovery": {
+      "checkpoint": "/home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc3000_job/train/last.pt",
+      "step": 64,
+      "fallback_errors": []
+    },
+    "last_update": {
+      "successful": true,
+      "step": 572,
+      "raw_losses": {
+        "latent": 1.7087783813476562,
+        "geometry": 0.12853741645812988,
+        "motion": 0.04273422062397003
+      },
+      "weighted_losses": {
+        "latent": 1.7087783813476562,
+        "geometry": 0.03213435411453247,
+        "motion": 0.004273422062397003
+      },
+      "denominators": {
+        "latent": 2420.740966796875,
+        "geometry": 76549.578125,
+        "motion": 63768.6328125
+      },
+      "lr": 0.00017159999999999997,
+      "ema_momentum": 0.9990008935936167,
+      "grad_norm": 7.156722068786621,
+      "target_entropy_per_part": [
+        0.4965873062610626,
+        0.3662812411785126,
+        0.420242041349411,
+        0.41829878091812134
+      ],
+      "update_duration_sec": 0.9427774290088564,
+      "peak_allocated_vram_bytes": 2381243392,
+      "mask_ratio_local": 0.600202202796936
+    }
+  },
+  "verified": true,
+  "verified_unix": 1791942959.628396
+}

@@ -1,0 +1,126 @@
+# R2: JEPA base (state tokens only; anchor/global off). Proposed starting defaults, not official hyperparameters.
+experiment: aslc_jepa_base
+seed: 0
+run_dir: runs/aslc_jepa_base_s0
+
+data:
+  processed_root: data/processed/aslc
+  ssl_manifest: ssl_train.jsonl
+  gallery_split: train
+  val_split: val
+  schema: coco133_to_aslc114_v1
+  input_channels: 7
+  max_frames: 64
+  patch_frames: 4
+  sampling: full_clip_bins
+  temporal_jitter_fraction: 0.15
+  confidence_threshold: 0.20
+  confidence_scale: 10.0      # raw RTMW SimCC scores reach ~10; confidence channel = clip(score / scale, 0, 1)
+  part_coverage_threshold: 0.20
+  stats_path: stats/train_v1.npz
+  num_workers: 8
+  pin_memory: true
+  persistent_workers: true
+  coordinate_saturation: 4.0
+
+features:
+  relations: false
+  geometry_paths: false
+  timing_paths: false
+  path_families: [left_wrist, right_wrist, left_minus_right_wrist]
+  interval_widths_sec: [0.32, 0.64, 1.28]
+  centers_per_clip: 4
+  logsignature_level: 2
+  path_min_points: 3
+  path_gap_policy: strict_all_observed
+
+model:
+  dim: 256
+  depth: 6
+  heads: 8
+  ffn_dim: 1024
+  dropout: 0.0
+  attention_dropout: 0.0
+  drop_path: 0.10
+  share_hand_tokenizer: true
+  predictor_dim: 128
+  predictor_depth: 2
+  predictor_heads: 4
+  predictor_ffn_dim: 512
+  feature_key: state_part_concat1024_l2
+
+mask:
+  ratio: 0.50
+  mixture_random: 0.50
+  mixture_part_blocks: 0.30
+  mixture_temporal_blocks: 0.20
+  block_min_patches: 2
+  block_max_patches: 4
+  temporal_block_min_patches: 2
+  temporal_block_max_patches: 3
+  hand_visible_fraction_min: 0.25
+  min_visible_state_tokens: 8
+  max_resample_attempts: 20
+  ratio_fallback_factor: 0.8
+  max_ratio_fallbacks: 6
+  dependency_closure: true
+  shoulders_public: true
+
+augment:
+  rotation_degrees: 5.0
+  scale_range: [0.9, 1.1]
+  student_jitter_sigma: 0.003
+  mirror_probability: 0.0
+  time_reverse_probability: 0.0
+
+loss:
+  latent: centered_ce
+  student_temperature: 0.10
+  teacher_temperature_start: 0.08
+  teacher_temperature_final: 0.06
+  teacher_temperature_warmup_steps: 3000
+  center_momentum: 0.90
+  family_weights: {state: 1.0, relation: 0.5, geometry: 0.25, timing: 0.25}
+  lambda_anchor: 0.0
+  anchor_huber_beta: 0.10
+  anchor_target: shared_clean_view
+  lambda_global: 0.0
+  global_std_target: 1.0
+  global_cov_weight: 0.04
+  global_min_statistical_batch: 16
+
+train:
+  objective: jepa
+  max_steps: 60000
+  batch_size_per_gpu: 32
+  accum_steps: 4
+  optimizer: adamw
+  lr: 3.0e-4
+  min_lr: 1.0e-6
+  betas: [0.9, 0.95]
+  eps: 1.0e-8
+  weight_decay: 0.05
+  warmup_steps: 3000
+  grad_clip_norm: 1.0
+  precision: bf16
+  ema_start: 0.996
+  ema_end: 0.9999
+  ema_schedule: cosine
+  compile: false
+  deterministic: false
+  checkpoint_every_steps: 1000
+  keep_step_checkpoints: 3
+  log_every_steps: 100
+  profile_warmup_steps: 100
+
+eval:
+  frozen_every_steps: 5000
+  selection_metric: val/frozen_gloss_max/r1
+  selection_uses_val_labels: true
+  encoder: teacher
+  query_chunk: 256
+  gallery_chunk: 8192
+  tie_break: class_id_ascending
+  test_during_training: false
+  extract_batch_size: 128
+  diagnostic_batch_size: 256

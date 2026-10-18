@@ -1,0 +1,9 @@
+{'whiten_init': 29.435170807453414}
+/home/haipd/Sign_Representations/docs/proposal17/diagnostics/coral_head.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  print(f"  it {it} loss {loss.item():.4f} tot {((Ct - I) ** 2).sum().item() / d:.4f} mu {float(lm):.4f} cov {float(lc):.4f}", flush=True)
+  it 0 loss 15.8554 tot 0.0173 mu 13.7512 cov 2.0868
+  it 100 loss 0.7455 tot 0.2274 mu 0.0037 cov 0.5144
+  it 200 loss 0.6276 tot 0.3080 mu 0.0010 cov 0.3186
+true_signers_mu1.0_cov1.0 35.51048136645963
+  it 0 loss 13.7686 tot 0.0173 mu 13.7512 cov 2.0868

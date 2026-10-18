@@ -1,0 +1,95 @@
+{
+  "status": "VERIFIED",
+  "verified_unix": 1792075117.3165312,
+  "method": "PLctx full160epochs",
+  "training_iterations": 200640,
+  "iteration_definition": "one successful optimizer update on32source clips; near/far views combined in that update",
+  "batch_source_clips": 32,
+  "epoch_budget": 160,
+  "steps_per_epoch": 1254,
+  "drop_last": true,
+  "dropped_remainder_per_shuffled_epoch": 26,
+  "clip_draws": 6420480,
+  "average_draws_per_source": 159.89639886437217,
+  "full_official_training_split": true,
+  "combined_train_val_test_used_for_training": false,
+  "official_counts": {
+    "train": 40154,
+    "val": 10304,
+    "test": 32941
+  },
+  "train_classes": 2731,
+  "train_signers": 35,
+  "cache": {
+    "clips": 40154,
+    "unique_clips": 40154,
+    "frames": 3462848,
+    "IDs_match_official_train_in_order": true,
+    "all_clips_have_frames": true,
+    "npz_keys": [
+      "xy",
+      "conf",
+      "offsets",
+      "fps",
+      "wh",
+      "ids"
+    ],
+    "validation_overlap": 0,
+    "test_overlap": 0
+  },
+  "cache_hash_matches_recorded": true,
+  "initialization": "scratch, resume=false in original run",
+  "seed": 0,
+  "checkpoints": {
+    "final.pt": {
+      "step": 200640,
+      "config_steps": 200640,
+      "optimizer_steps": [
+        200640
+      ],
+      "optimizer_parameter_states": 163,
+      "sha256": "8f8a10687f2df869fd0d7f4703edfeb467c59977d7baaacb2d567c15789e41f9"
+    },
+    "ckpt.pt": {
+      "step": 200640,
+      "config_steps": 200640,
+      "optimizer_steps": [
+        200640
+      ],
+      "optimizer_parameter_states": 163,
+      "sha256": "0591ef4a2fcf0c1cf0cfb043c6af0bd81ec9b59054d9f783163b1132f0d55217"
+    }
+  },
+  "recorded_source_hashes_match_current": {
+    "pj/__init__.py": true,
+    "pj/data/__init__.py": true,
+    "pj/data/cache.py": true,
+    "pj/data/dataset.py": true,
+    "pj/data/window.py": true,
+    "pj/evaluate.py": true,
+    "pj/extract.py": true,
+    "pj/features.py": true,
+    "pj/joints.py": true,
+    "pj/losses.py": true,
+    "pj/masks.py": true,
+    "pj/model.py": true,
+    "pj/paths.py": true,
+    "pj/train.py": true
+  },
+  "manifest_steps_done": 200640,
+  "log_done_marker": "DONE 200640 14580",
+  "last_periodic_metric_step": 200600,
+  "nonfinite_skip_log_count": 0,
+  "seconds": 14580.2,
+  "training_started": "2026-10-12 01:36:03",
+  "training_finished": "2026-10-12 05:39:03",
+  "source_hashes": {
+    "method/phonojepa/scripts/launch_plctx_full160.py": "8e28b338c156e2839dbb5ab3fc95231b61fb847cf020928df5a9af462b1f5782",
+    "method/phonojepa/scripts/build_full_train_cache.py": "6c2ddb4a97c8a13b8d3fba74765a361ff27f8bf202d01c15564d99e968832a29",
+    "method/phonojepa/pj/train.py": "2cf578cac5b541ab4371fc25eee7ed77b1c832bd5a71a8956c9e49a4be322935",
+    "method/phonojepa/pj/data/cache.py": "278c572475525508b691753a8b0bd3b00b2b413d07f03a63448dd2aa4d86fc2c",
+    "method/phonojepa/runtime/runs/PJ_PLctx_FULL_160ep/manifest.json": "0c3aca82b2bde40daebd3e17a6085ea8f0814a51c5b588b356a4b032e0636069",
+    "method/phonojepa/runtime/cache/aslc_train_full.manifest.json": "17517a403ed6b0ff597b4c20619029c50afb30428c33fc7146bd93747734d9c6",
+    "method/phonojepa/runtime/launch/PJ_PLctx_FULL_160ep.train.log": "33dfafa1bef392523a58d8ad54fc8046ed07edcb0424b091516c386a6b96b3f4"
+  }
+}

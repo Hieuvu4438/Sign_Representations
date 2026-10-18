@@ -1,0 +1,10 @@
+{
+ "raw": 18.28416149068323,
+ "whiten_init": 24.941770186335404,
+ "true_signers_mu1_cov1": 28.1444099378882,
+ "CLS_kmeans35_mu1_cov1": 28.513198757763973,
+ "CLS_kmeans70_mu1_cov1": 28.183229813664596,
+ "grp_kmeans70_mu1_cov1": 25.97049689440994,
+ "true_signers_mu1_cov0": 25.79580745341615,
+ "true_signers_mu0_cov1": 29.270186335403725
+}

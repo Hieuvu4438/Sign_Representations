@@ -1,0 +1,9 @@
+# A/B control for final.yaml: identical run settings, original observation rule (score threshold only) and the
+# original train statistics. The job runner pilots both and keeps the variant with the better val R@1.
+inherits: [final.yaml]
+experiment: aslc_asm_final_nofilter
+run_dir: runs/aslc_asm_final_nofilter_s0
+data:
+  in_image_only: false
+  hand_wrist_max_dist: 0.0
+  stats_path: stats/train_v1.npz

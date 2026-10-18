@@ -1,0 +1,25 @@
+{
+  "metrics": {
+    "top1": 12.5,
+    "top5": 37.5,
+    "macro": 10.0,
+    "n": 8
+  },
+  "split": "val",
+  "checkpoint_sha256": "dbc1c3f7a2fe51a4c266cc0ba2b70e672ffb5e5cea25a90286242808e746bc00",
+  "source_sha256": "2d4e1829159020da50b9e079837d9e813271e198336c2126c071f437c2478757",
+  "selected_glosses": [
+    "APPLE",
+    "HUG",
+    "IMPOSSIBLE",
+    "PARK",
+    "ROSE",
+    "SOCCER2",
+    "STINK",
+    "TUBE"
+  ],
+  "n_source": 8,
+  "n_scored": 8,
+  "readout": "grp+P",
+  "stride": 2
+}

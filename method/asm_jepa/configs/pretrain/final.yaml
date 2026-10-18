@@ -1,0 +1,25 @@
+# FINAL full method for the ASL-Citizen job: ASM-v2 full (R6 = full.yaml: anchor + relations + geometry/timing
+# log-signature motion tokens + global consistency) plus the audit-driven observation filters and run settings.
+# Changes vs full.yaml and why (IMPLEMENTATION_STATUS.md §6):
+#  - in_image_only / hand_wrist_max_dist: raw SimCC scores do not separate invalid hands (threshold 0.20 marks
+#    ~100 % observed); joints outside the image and hands placed on the wrong physical hand are now unobserved.
+#  - own statistics file (normalisation must be refitted on train with the same filters).
+#  - physical batch 128 x accum 1 (same effective batch 128; VRAM 0.8 GB at 32): fewer launches, and the global
+#    consistency statistics see 128 clips instead of 32.
+#  - validation every 2500 steps (finer best_val selection, ~35 s each) and milestone checkpoints every 10k steps
+#    for stage-wise evaluation.
+inherits: [full.yaml]
+experiment: aslc_asm_final
+run_dir: runs/aslc_asm_final_s0
+data:
+  in_image_only: true
+  in_image_margin: 0.0
+  hand_wrist_max_dist: 0.30
+  stats_path: stats/train_v2_obsfilter.npz
+  num_workers: 12
+train:
+  batch_size_per_gpu: 128
+  accum_steps: 1
+  milestone_every_steps: 10000
+eval:
+  frozen_every_steps: 2500

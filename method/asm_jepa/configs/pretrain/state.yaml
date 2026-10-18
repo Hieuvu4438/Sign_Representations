@@ -1,0 +1,8 @@
+# R4 / ASM-v1 pilot: EMA latent prediction + state anchor + relations (global off).
+inherits: [base.yaml]
+experiment: aslc_asm_state
+run_dir: runs/aslc_asm_state_s0
+features:
+  relations: true
+loss:
+  lambda_anchor: 1.0

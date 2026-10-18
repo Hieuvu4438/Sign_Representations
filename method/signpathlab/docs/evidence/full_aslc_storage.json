@@ -1,0 +1,100 @@
+{
+  "bytes_by_component_mean": {
+    "features.npz": 171894.41857142857,
+    "meta.json": 101065.82857142857,
+    "raw_supports.npz": 163596.67714285714
+  },
+  "checkpoint_bytes_measured": 256822481,
+  "excluded": "original ASL Citizen videos and pre-existing shared weights; venv listed separately; temporary raw queue bounded",
+  "existing_locked_venv_gib": 7.340998181141913,
+  "free_disk_gib": 43.3669319152832,
+  "limitations": "prefix estimate; clip length/availability affect size; full-corpus exact totals unmeasured; free space shared with other tasks",
+  "mean_cache_allocated_bytes_per_video": 443046.7657142857,
+  "mean_cache_bytes_per_video": 436556.9242857143,
+  "mean_selected_samples": 81.75714285714285,
+  "measured_cache_sample_gib": 0.28460272308439016,
+  "projected": {
+    "ASLC3000_train_val": {
+      "cache_allocated_gib": 1.856787545340402,
+      "cache_logical_gib": 1.8295889341139366,
+      "planning_gib_including_20_to_30_percent_cache_margin_and_2_to_3_gib_artifacts": [
+        4.228145054408483,
+        5.413823808942523
+      ],
+      "uncompressed_cache_payload_gib": 20.319225146834338,
+      "videos": 4500
+    },
+    "all": {
+      "cache_allocated_gib": 34.41204988752093,
+      "cache_logical_gib": 33.90797500359294,
+      "planning_gib_including_20_to_30_percent_cache_margin_and_2_to_3_gib_artifacts": [
+        43.29445986502511,
+        47.73566485377721
+      ],
+      "uncompressed_cache_payload_gib": 376.57845733796375,
+      "videos": 83399
+    },
+    "test": {
+      "cache_allocated_gib": 13.59209745134626,
+      "cache_logical_gib": 13.392997573032709,
+      "planning_gib_including_20_to_30_percent_cache_margin_and_2_to_3_gib_artifacts": [
+        18.31051694161551,
+        20.66972668675014
+      ],
+      "uncompressed_cache_payload_gib": 148.7412434581933,
+      "videos": 32941
+    },
+    "train": {
+      "cache_allocated_gib": 16.568321576799665,
+      "cache_logical_gib": 16.325625346758002,
+      "planning_gib_including_20_to_30_percent_cache_margin_and_2_to_3_gib_artifacts": [
+        21.881985892159598,
+        24.538818049839566
+      ],
+      "uncompressed_cache_payload_gib": 181.3107036768858,
+      "videos": 40154
+    },
+    "train_val": {
+      "cache_allocated_gib": 20.819952436174667,
+      "cache_logical_gib": 20.514977430560226,
+      "planning_gib_including_20_to_30_percent_cache_margin_and_2_to_3_gib_artifacts": [
+        26.9839429234096,
+        30.065938167027067
+      ],
+      "uncompressed_cache_payload_gib": 227.83721387977045,
+      "videos": 50458
+    },
+    "val": {
+      "cache_allocated_gib": 4.251630859375,
+      "cache_logical_gib": 4.189352083802223,
+      "planning_gib_including_20_to_30_percent_cache_margin_and_2_to_3_gib_artifacts": [
+        7.1019570312499996,
+        8.5271201171875
+      ],
+      "uncompressed_cache_payload_gib": 46.52651020288467,
+      "videos": 10304
+    }
+  },
+  "sample_selection": "completed prefix of official train; not randomly representative of full corpus",
+  "sample_videos": 700,
+  "status": "measured_sample_extrapolation",
+  "original_video_sizes_measured": {
+    "train": {
+      "videos": 40154,
+      "bytes": 24586538826,
+      "gib": 22.897998640313745
+    },
+    "val": {
+      "videos": 10304,
+      "bytes": 6257698267,
+      "gib": 5.827935661189258
+    },
+    "test": {
+      "videos": 32941,
+      "bytes": 18755986675,
+      "gib": 17.46787379961461
+    }
+  },
+  "original_all_video_gib": 46.19380810111761,
+  "from_empty_machine_estimate_gib_all_splits": 101.27047113603673
+}

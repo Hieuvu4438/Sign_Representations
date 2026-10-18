@@ -1,0 +1,9 @@
+{
+  "encoder_checkpoint_sha256": "f92e5cd3fae3f0c951b442f3fc41403fc258f7cab00afaeaa39b6e7531570240",
+  "input_profile": "viewport_normalized",
+  "train_manifest_sha256": "3be0e1bd20a3283a7cf93f38aa85bdf5797210bccf282732e31bb093365d9ee2",
+  "validation_manifest_sha256": "bfd57b217e05eb58650eccd0953d4f4108067575a9a2abb94a20890fe7b8a6e3",
+  "window_frames": 128,
+  "stride_frames": 64,
+  "stitch_version": "aligned_unique_segment_mean_v1"
+}

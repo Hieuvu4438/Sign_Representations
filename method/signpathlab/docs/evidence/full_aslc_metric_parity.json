@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "synthetic_correctness_only": true,
+  "reference_file": "../obs_jepa/oj/compare_retrieval_avg.py",
+  "reference_sha256": "f254fc37cce5591ac5ef4459d6f5f2005b0552662896823eeb5c447974785074",
+  "glosses": 300,
+  "gallery": 600,
+  "query": 31,
+  "includes_zero_embedding_ties": true,
+  "rank_equality": true,
+  "DCG_Rec1_Rec5_absolute_tolerance": 1e-12
+}

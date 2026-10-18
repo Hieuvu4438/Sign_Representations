@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "step": 125482,
+  "best_validation_R1": 0.09850543478260869,
+  "checkpoint_sha256": "c32b529fb95d757cd57ef96e605b3b7c63c2985e2edeb08b11d96871de86612d",
+  "finished_unix": 1792063930.3131025
+}

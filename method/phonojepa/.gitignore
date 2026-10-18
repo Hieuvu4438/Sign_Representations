@@ -8,3 +8,8 @@ runtime/launch/*.log
 runtime/eval/**/train.jsonl
 runtime/eval/**/test.jsonl
 runtime/eval/**/progress.json
+
+# Continuation feature shards and supervisor output are regenerated locally.
+# Preserve pinned inputs, source snapshots, training traces and final reports.
+runtime/plctx160_continuation/**/feature_cache/
+runtime/plctx160_continuation/service.log

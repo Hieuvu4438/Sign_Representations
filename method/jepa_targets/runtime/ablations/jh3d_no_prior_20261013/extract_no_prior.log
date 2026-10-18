@@ -1,0 +1,14 @@
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+0 10304 0s
+1000 10304 222s
+2000 10304 493s
+3000 10304 667s
+4000 10304 893s
+5000 10304 1165s
+6000 10304 1558s
+7000 10304 1963s
+8000 10304 2244s
+9000 10304 2482s
+10000 10304 2657s
+DONE 97388 windows 2732s

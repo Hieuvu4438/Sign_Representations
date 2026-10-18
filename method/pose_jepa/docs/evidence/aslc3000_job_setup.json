@@ -1,0 +1,39 @@
+{
+  "verified_unix": 1791942983.9302628,
+  "job_root": "/home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc3000_job",
+  "split_counts": {
+    "train": 3000,
+    "queries": 1500,
+    "val_all": 10304,
+    "selection_val": 8804
+  },
+  "source_snapshot": {
+    "code_sha256": "7e9a650c76f9ecc358fd7b4523ceafbe9cee9899d0b0fff4214825f481b86a92",
+    "reason": "final checkpoint-backup recovery fix, deployed before any optimizer update",
+    "ops_sha256": {
+      "evaluate_aslc3000_job.py": "887268b06cca39b095d66b0d78ac4475f5cde1d13ec03de1b592192a2b62ac86",
+      "aslc3000_job.py": "f899b667c2694e6bc9a8bd0a38b8d6ad5f829238023cd1d200ac452901f30070"
+    },
+    "evaluation_adapter_note": "Failure-aware historical evaluator adapter deployed before evaluation, training snapshot/config unchanged."
+  },
+  "unit": "MainPID=3161637\nNRestarts=0\nActiveState=active\nSubState=running\nUnitFileState=enabled\n",
+  "linger": "Linger=yes\n",
+  "real_preparation_stop_resume": "verified: first attempt paused after3591 cached clips; next PID reused receipts and continued to12388+",
+  "tests": 58,
+  "evaluation_preflight": {
+    "legacy_evaluator_import": "ok",
+    "evaluator": "/home/haipd/Sign_Representations/method/obs_jepa/oj/evaluate.py",
+    "sha256": "77d14bf94a7fb906a884f72d4cea7fc2b26ac4ef2739f6dd0b8f860d7d74ef22",
+    "gallery_projection": "sklearn PCA available",
+    "threadpool_limits": "available"
+  },
+  "actual_training_resume": "verified: graceful stop at64, restored64 and advanced past572",
+  "evaluation_adapter": {
+    "historical_evaluator_integration": "passed",
+    "query_denominator": 32,
+    "loso_denominator": 160,
+    "invalid_query_rank": "infinity",
+    "invalid_query_linear_probe": "incorrect",
+    "adapter_sha256": "887268b06cca39b095d66b0d78ac4475f5cde1d13ec03de1b592192a2b62ac86"
+  }
+}

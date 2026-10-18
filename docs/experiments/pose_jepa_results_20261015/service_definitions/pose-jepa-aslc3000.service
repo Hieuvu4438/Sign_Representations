@@ -1,0 +1,20 @@
+[Unit]
+Description=Pose-JEPA ASLC3000 durable training and evaluation
+StartLimitIntervalSec=3600
+StartLimitBurst=5
+
+[Service]
+Type=simple
+WorkingDirectory=/home/haipd/Sign_Representations
+ExecStart=/home/haipd/Sign_Representations/method/pose_jepa/runtime/venv/bin/python /home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc3000_job/ops/aslc3000_job.py supervise --job-root /home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc3000_job
+Restart=on-failure
+RestartSec=30
+KillMode=mixed
+TimeoutStopSec=300
+Environment=PYTHONPATH=/home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc3000_job/code
+Environment=PYTHONUNBUFFERED=1
+StandardOutput=append:/home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc3000_job/service.log
+StandardError=append:/home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc3000_job/service.log
+
+[Install]
+WantedBy=default.target

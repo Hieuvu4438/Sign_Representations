@@ -1,0 +1,42 @@
+{
+  "BEFORE_CLEANUP.json": {
+    "sha256": "ac66cc7d39b38c6961aa044d427af6d54a149820f1b2a706408ee6ce0f87c912",
+    "bytes": 182
+  },
+  "RESULTS.json": {
+    "sha256": "1b8748770a19850f0d4999e6428d0d4fbbc83c701815a35c0d01c6b5fe2358c3",
+    "bytes": 4842
+  },
+  "records.tar.gz": {
+    "sha256": "6d41a622755ba8e5bb248b67ab6809cd7a653a3b21c992c00e639f4f8ec0e133",
+    "bytes": 70527211
+  },
+  "README_VI.md": {
+    "sha256": "adf2e0432af2262dea28890cf2df1b547620c1e99c342222a083843087d02201",
+    "bytes": 2539
+  },
+  "best_step10000.model.pt": {
+    "sha256": "c8a023311d107d6715eb2fcf76094d9ce5bcc820158f06490ae7cc9ddeb12eca",
+    "bytes": 222706737
+  },
+  "CLEANUP_REPORT.json": {
+    "sha256": "d142e4bbf89b3f7c8144a73fdd3c6a76d04d2bc7a3c47c48283fbf6ea971e77a",
+    "bytes": 1030
+  },
+  "RECORD_FILES.json": {
+    "sha256": "b54e12331cad4e68ebe9fda466486f94e1a6296952eb2ad6a3bec99624951c91",
+    "bytes": 355751
+  },
+  "best_proxy_features.tar.gz": {
+    "sha256": "5bc945c8b2866efe84b537adbf478f2d44baed3741ef8531953fa6e399479785",
+    "bytes": 53569242
+  },
+  "run_logs.tar.gz": {
+    "sha256": "960ad2d34d5cd28ad47984f8eb987279ab6d823834d2854dcd8302e292fa8e05",
+    "bytes": 5105943
+  },
+  "signrep-full-aslc-kinetics.service": {
+    "sha256": "f73323ee9f270d42301129e2c59b7a37275bc5c1a783cac4f5cd7220f20de53f",
+    "bytes": 1011
+  }
+}

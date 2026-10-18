@@ -1,0 +1,28 @@
+{
+  "snapshot_source_sha256": "bc7ebd0ad352616451e1278d3e83c021fb3eaf900d5db9e9f474066e05744f82",
+  "current_source_sha256": "7126767b27b8ce3b8bd02631d622c3ef3e92988e7119384f331e8de1346b8996",
+  "scope": "one full-backbone effective update on two actual ASL-Citizen clips, default 0.2-second motion gap",
+  "changes": "stricter config/cache validation, configurable gap wiring, export metadata fallback and inactive-latent/EMA logging corrections; applied default updates preserved",
+  "records": [
+    {
+      "objective": "geometry",
+      "FP32_update_state_parity": "bitwise",
+      "loss_center_EMA_report_parity": true
+    },
+    {
+      "objective": "motion",
+      "FP32_update_state_parity": "bitwise",
+      "loss_center_EMA_report_parity": true
+    },
+    {
+      "objective": "jepa",
+      "FP32_update_state_parity": "bitwise",
+      "loss_center_EMA_report_parity": true
+    },
+    {
+      "objective": "hybrid",
+      "FP32_update_state_parity": "bitwise",
+      "loss_center_EMA_report_parity": true
+    }
+  ]
+}

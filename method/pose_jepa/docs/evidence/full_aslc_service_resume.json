@@ -1,0 +1,48 @@
+{
+  "before_stop": {
+    "phase": "prepare_train_val",
+    "status": "running",
+    "pid": 4033816,
+    "completed": 4293,
+    "total": 50458,
+    "reused_existing": 262,
+    "normalization_failed": 0,
+    "elapsed_seconds": 187.2347629070282,
+    "updated_unix": 1791967479.212845
+  },
+  "receipt_count_before_stop": 4293,
+  "sample_receipts_before": {
+    "runtime/full_aslc_job/data/receipts/d15f49e37a86cb93d6344d442ad046d2339d900dda6f6e6c63a36b4a102528e6.json": 1791967366504911902,
+    "runtime/full_aslc_job/data/receipts/e735fd209b207319dadf6cd9591715e694c80435552693e62bd4ab9ecc58fd66.json": 1791967421364743079,
+    "runtime/full_aslc_job/data/receipts/5248063c80894e249f15ab77e6f313651b2875c399e87daeb82a52cde2cef9c4.json": 1791967315101074991,
+    "runtime/full_aslc_job/data/receipts/05e0cc75dc6d8fc28c69a4b12f604ba686187b738804ddcab00233c5f189dbcb.json": 1791967415784760022,
+    "runtime/full_aslc_job/data/receipts/0fbeffd39fbb3c9c5d5d3ea51a095f42cf589da63aa26c7de2ee291508bdb45e.json": 1791967347756970809,
+    "runtime/full_aslc_job/data/receipts/d157abb7fcb98739ad68d9a10b8c88ee54c48ff3a1e3bd90b0dc970dc7cd10fd.json": 1791967296137136456,
+    "runtime/full_aslc_job/data/receipts/c5bae33072be6c4c844efce830236693f88d2ddca7a44a6022b703a8e6417842.json": 1791967308397096637,
+    "runtime/full_aslc_job/data/receipts/8131b9032068d34811d50f93c1073426dff876b3fad50b6d5100ee2f69c05888.json": 1791967297881130773,
+    "runtime/full_aslc_job/data/receipts/4fd6d09e193cf89e84892538e8c54369f8eb5d69fabec7612ffd5083d236218b.json": 1791967386156850834,
+    "runtime/full_aslc_job/data/receipts/6d6b0b8e8a7badaf993ecf53c0a4abc8a364a904dd290a2a5c9d12bce4142556.json": 1791967469956597625
+  },
+  "started_unix": 1791967479.258023,
+  "paused_supervisor": {
+    "status": "paused",
+    "phase": "prepare_train_val",
+    "exit_code": 0
+  },
+  "receipt_count_paused": 4324,
+  "cached_files_unchanged_while_paused": true,
+  "after_resume": {
+    "phase": "prepare_train_val",
+    "status": "running",
+    "pid": 4075997,
+    "completed": 6263,
+    "total": 50458,
+    "reused_existing": 420,
+    "normalization_failed": 0,
+    "elapsed_seconds": 76.5762403011322,
+    "updated_unix": 1791967609.8115075
+  },
+  "cache_receipts_preserved": true,
+  "verified": true,
+  "verified_unix": 1791967609.8426337
+}

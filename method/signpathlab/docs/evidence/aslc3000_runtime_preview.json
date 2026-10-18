@@ -1,0 +1,17 @@
+{
+  "status": "prepared_not_started",
+  "reused_cache_counts": {
+    "train": 0,
+    "val": 0
+  },
+  "reuse_policy": "hardlinks to verified immutable existing cache files; separate subset index",
+  "process_limit": 2,
+  "configured_python_processes": 1,
+  "extraction_threads": 1,
+  "runtime_implementation_hash": "f32c00fa44acac32a651cd616a2afad8c422f186b395c278439898d1e2394e52",
+  "config_hash": "2893108ee374cf818493af02af038b5a688038b1905fbf153bf1633572df2682",
+  "tests_passed": 127,
+  "tests_scope": "unit suite + single-process executor tests; no multi-process DDP test launched under user limit",
+  "test_log_sha256": "14b9f33695059cb6ced5d8844a39b1c377d5fea4d7d30dac976fc5fd23aecc76",
+  "new_training_started": false
+}

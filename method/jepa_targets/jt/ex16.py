@@ -202,10 +202,16 @@ def main():
     ap.add_argument("--steps", type=int, default=4000)
     ap.add_argument("--videos", type=int, default=16)
     ap.add_argument("--jepa-w", type=float, default=1.0)
+    ap.add_argument("--prior-w", type=float, default=1.0,
+                    help="JH3D prior loss weight; 0 disables prior supervision (latent-only ablation)")
     ap.add_argument("--ema", type=float, default=0.99925)
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--seed", type=int, default=20261008)
     a = ap.parse_args()
+    if not math.isfinite(a.prior_w) or a.prior_w < 0:
+        ap.error("--prior-w must be finite and nonnegative")
+    if a.arm != "jh3d" and a.prior_w != 1.0:
+        ap.error("--prior-w is only supported for --arm jh3d")
     out = Path(a.out); out.mkdir(parents=True, exist_ok=False)
     json.dump(vars(a), open(out / "config.json", "w"), indent=1)
     torch.manual_seed(a.seed); np.random.seed(a.seed); torch.set_num_threads(4)
@@ -268,9 +274,14 @@ def main():
                 tgt_hid = torch.gather(tgt, 1, (hid_units[..., None] * 4 + torch.arange(4, device=dev)).reshape(len(x), -1)[..., None].expand(-1, -1, 768))
                 p = pred(vis_tok, unit_token_index(vis_units), hid_tok_idx)
                 l_lat = (p.float() - tgt_hid).abs().mean()
-                pr = prior_predictions(model.cls_head, model.active_head, o["features"])
-                l_rec, comps = reconstruction_loss(pr, tg, mk)
-                loss = l_rec + a.jepa_w * l_lat
+                if a.prior_w > 0:
+                    pr = prior_predictions(model.cls_head, model.active_head, o["features"])
+                    l_rec, _ = reconstruction_loss(pr, tg, mk)
+                    loss = a.prior_w * l_rec + a.jepa_w * l_lat
+                else:
+                    # Do not connect prior heads/fc to autograd: this arm learns only through JEPA.
+                    l_rec = l_lat.new_zeros(())
+                    loss = a.jepa_w * l_lat
             opt.zero_grad(set_to_none=True); loss.backward()
             torch.nn.utils.clip_grad_norm_(params, 1.0); opt.step(); sched.after_update()
             with torch.no_grad():

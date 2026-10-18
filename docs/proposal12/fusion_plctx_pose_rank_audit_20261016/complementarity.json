@@ -1,0 +1,37 @@
+{
+  "protocol": "ASLC300 white512; same 3000 gallery and 1500 query IDs/order/labels/signers",
+  "status": "ARCHIVED_RANK_COMPLEMENTARITY_ANALYZED; fusion not executed",
+  "counts": {
+    "both_correct": 276,
+    "PL_only_correct": 458,
+    "Pose_only_correct": 127,
+    "both_wrong": 639
+  },
+  "PL": {
+    "Rec1": 0.48933333333333334,
+    "Rec5": 0.7406666666666667,
+    "DCG": 0.6862200369325897
+  },
+  "Pose": {
+    "Rec1": 0.26866666666666666,
+    "Rec5": 0.5393333333333333,
+    "DCG": 0.5139998244687769
+  },
+  "oracle_selects_model_with_true_label": {
+    "Rec1": 0.574,
+    "Rec5": 0.832
+  },
+  "per_signer_pose_rescues": {
+    "1ea34f8f2b334329": 7,
+    "411509240a4fb07e": 43,
+    "57742f9f544f8bd3": 28,
+    "9567c431352d05de": 3,
+    "b706cc4b82fd6da6": 46
+  },
+  "limitations": [
+    "Oracle knows the correct answer; not an operational method or prediction of fusion score.",
+    "Top1 union only bounds a selector choosing one model prediction; score/feature fusion can yield a class neither model ranked top1.",
+    "No scores/features/weights for Pose-JEPA remain in the archive, so 50/50 score fusion is not measurable from ranks.",
+    "Different per-window/whole-clip readout, seeds and training budgets; historical validation subset, not a new independent test."
+  ]
+}

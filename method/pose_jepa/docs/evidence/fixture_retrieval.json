@@ -1,0 +1,245 @@
+{
+  "protocol": "gloss_max_single_relevant",
+  "unit": "fraction",
+  "metrics": {
+    "R@1": 0.0,
+    "R@5": 1.0,
+    "R@10": 1.0,
+    "MRR": 0.3125,
+    "DCG_single_relevant": 0.4817044982331288,
+    "num_queries": 8,
+    "num_ranked_queries": 8
+  },
+  "queries": [
+    {
+      "sample_id": "synthetic/test/0000",
+      "rank": 3,
+      "failure": null,
+      "ranking": [
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "2"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "3"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "0"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "1"
+        ]
+      ]
+    },
+    {
+      "sample_id": "synthetic/test/0001",
+      "rank": 4,
+      "failure": null,
+      "ranking": [
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "2"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "0"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "3"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "1"
+        ]
+      ]
+    },
+    {
+      "sample_id": "synthetic/test/0002",
+      "rank": 3,
+      "failure": null,
+      "ranking": [
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "0"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "1"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "2"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "3"
+        ]
+      ]
+    },
+    {
+      "sample_id": "synthetic/test/0003",
+      "rank": 4,
+      "failure": null,
+      "ranking": [
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "0"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "2"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "1"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "3"
+        ]
+      ]
+    },
+    {
+      "sample_id": "synthetic/test/0004",
+      "rank": 2,
+      "failure": null,
+      "ranking": [
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "2"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "0"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "3"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "1"
+        ]
+      ]
+    },
+    {
+      "sample_id": "synthetic/test/0005",
+      "rank": 4,
+      "failure": null,
+      "ranking": [
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "0"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "2"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "3"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "1"
+        ]
+      ]
+    },
+    {
+      "sample_id": "synthetic/test/0006",
+      "rank": 3,
+      "failure": null,
+      "ranking": [
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "1"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "0"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "2"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "3"
+        ]
+      ]
+    },
+    {
+      "sample_id": "synthetic/test/0007",
+      "rank": 4,
+      "failure": null,
+      "ranking": [
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "2"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "0"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "1"
+        ],
+        [
+          "synthetic",
+          "synthetic:synthetic",
+          "3"
+        ]
+      ]
+    }
+  ],
+  "gallery_coverage": {
+    "total": 16,
+    "valid": 16,
+    "valid_glosses": 4
+  },
+  "covered_gallery_subset": {
+    "R@1": 0.0,
+    "R@5": 1.0,
+    "R@10": 1.0,
+    "MRR": 0.3125,
+    "DCG_single_relevant": 0.4817044982331288,
+    "num_queries": 8,
+    "num_ranked_queries": 8
+  }
+}

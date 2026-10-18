@@ -1,0 +1,49 @@
+{
+  "verified_unix": 1792165600.4115512,
+  "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160",
+  "service": "MainPID=1391460\nNRestarts=1\nActiveState=active\nSubState=running\n",
+  "progress": {
+    "status": "running",
+    "pid": 1391515,
+    "updated_unix": 1792165599.9283648,
+    "step": 195,
+    "total_steps": 200640,
+    "epoch": 0.15550239234449761,
+    "percent": 0.097188995215311,
+    "checkpoint_step": 182,
+    "steps_per_second": 0.4745204484776828,
+    "eta_seconds": 422415.93727530824,
+    "elapsed_seconds": 395.4368146599736,
+    "resumed_from": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/latest.pt",
+    "recovery_errors": [],
+    "loss": 52.173824310302734,
+    "grad_norm": 90.31818389892578
+  },
+  "source_clips": 40154,
+  "batch": 32,
+  "epochs": 160,
+  "steps": 200640,
+  "stats_clips": 640,
+  "automatic_recovery": {
+    "automatic_systemd_restart": true,
+    "old_supervisor": 1385907,
+    "new_supervisor": 1391460,
+    "checkpoint_step": 125,
+    "recovered_step": 126,
+    "resumed_from": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/latest.pt",
+    "trainer_pid": 1391515,
+    "service_restarts": 1,
+    "passed": true
+  },
+  "signal_and_corruption_test": {
+    "sigusr1_checkpoint": true,
+    "sigterm_saved": true,
+    "interrupted_step": 3,
+    "corrupt_latest_fallback": true,
+    "resumed_from": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/recovery_cli_test/train/previous.pt",
+    "final_step": 80,
+    "epoch_cursor_consistent": true,
+    "passed": true
+  },
+  "test_evaluation": false
+}

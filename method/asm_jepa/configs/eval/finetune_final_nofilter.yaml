@@ -1,0 +1,3 @@
+# Fine-tuning / scratch counterpart of configs/pretrain/final_nofilter.yaml (used if the A/B pilot selects it).
+inherits: [finetune_final.yaml]
+model_config: ../pretrain/final_nofilter.yaml

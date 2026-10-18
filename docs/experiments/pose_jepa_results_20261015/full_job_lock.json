@@ -1,0 +1,14 @@
+{
+  "code_sha256": "90bc239a06688ba3b73af17a471aca85ebad61bbf47fc7e2d3a1d2b2c11d75a9",
+  "ops_sha256": {
+    "full_aslc_job.py": "f1ed19a5f1efd9e342b1fbc8a7dafff5bad921df870bdb4c4df9e7f63ec8680d",
+    "aslc3000_job.py": "f899b667c2694e6bc9a8bd0a38b8d6ad5f829238023cd1d200ac452901f30070",
+    "evaluate_full_aslc.py": "b88b7a251c7c45b8b80c5745599b24bccf09ae574063d61c939aa74afafc0e1b"
+  },
+  "files_sha256": {
+    "job.json": "7e0cde19f0d85c4faf49509d431e54de744a96d71fcce60157274e5c1cc97588",
+    "inputs.json": "8493bb5521578828584e79fe1142dd2e95a426da70d7f1fd2dcc83da3f288f90",
+    "train.yaml": "7308c67daa6ae02a4ef54811abc46aa7661128ef3478001a2a6a9b37ec8795cc"
+  },
+  "setup_correction": "Verified cached hashed signer aliases -> authoritative official Participant IDs, before any job stage was launched."
+}

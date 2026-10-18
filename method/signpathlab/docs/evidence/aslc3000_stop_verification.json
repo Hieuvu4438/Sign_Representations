@@ -1,0 +1,18 @@
+{
+  "status": "stopped_by_user_verified",
+  "old_main_pid": 1411678,
+  "remaining_live_job_processes": [],
+  "last_cache_progress": {
+    "completed": 700,
+    "elapsed_seconds": 1161.9428349490045,
+    "free_gib": 43.36750793457031,
+    "new_samples": 700,
+    "split": "train",
+    "status": "stopped_by_user",
+    "total": 40154,
+    "observed_at_stop": true,
+    "stop_unix": 1791797819.6921542
+  },
+  "main_SSL_training_started": false,
+  "new_ASLC3000_training_started": false
+}

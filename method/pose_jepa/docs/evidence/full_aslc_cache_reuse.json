@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "verified_unix": 1791967281.1786957,
+  "verified_signer_aliases": {
+    "P5": "P5",
+    "bb14a73f55e76c81": "P30",
+    "P21": "P21",
+    "P39": "P39",
+    "1ea34f8f2b334329": "P5",
+    "P26": "P26",
+    "1ba9a5c6355eee2d": "P11",
+    "57742f9f544f8bd3": "P26",
+    "1b4b1c3c9b21804a": "P52",
+    "aa0e996496eec576": "P16",
+    "812c9e8ebfce77e1": "P27",
+    "4e0b56917e0f9a45": "P33",
+    "c81e4ad0be6098c2": "P29",
+    "49eae79d1b9a750e": "P7",
+    "b706cc4b82fd6da6": "P39",
+    "fee921250be5c91a": "P51",
+    "P12": "P12",
+    "cec7b19a085970b6": "P28",
+    "411509240a4fb07e": "P21",
+    "790f3a1f2936ae6b": "P34",
+    "48e155f7d425ca9e": "P50",
+    "c775414c5a5b1b42": "P14",
+    "0467bc7baaa868c0": "P43",
+    "730a88b0f7e4c47c": "P4",
+    "90c57e356ab31c73": "P37",
+    "6fad5b63d355759e": "P31",
+    "9567c431352d05de": "P12",
+    "db8b2137893f925b": "P32",
+    "5d3c093f84694f04": "P24",
+    "bebeacf94a0ded8f": "P40",
+    "0b31e723763c0098": "P38",
+    "71025ad7cbe1fd69": "P23",
+    "94e27025bcec7218": "P46",
+    "35fcf11d247cb74f": "P36",
+    "a2c202f6b503e118": "P20",
+    "P13": "P13",
+    "1456e4eebbcfe5a9": "P10"
+  },
+  "actual_cache_reuse": [
+    {
+      "sample_id": "4929421496977151-EDIT",
+      "split": "val",
+      "official_signer": "P5",
+      "normalization_status": "ok"
+    },
+    {
+      "sample_id": "8725367783128046-GONE",
+      "split": "train",
+      "official_signer": "P30",
+      "normalization_status": "ok"
+    },
+    {
+      "sample_id": "5229930257026636-SHARPEN 1",
+      "split": "val",
+      "official_signer": "P21",
+      "normalization_status": "ok"
+    },
+    {
+      "sample_id": "8667504162692192-SENTENCE 2",
+      "split": "train",
+      "official_signer": "P11",
+      "normalization_status": "ok"
+    }
+  ]
+}

@@ -37,7 +37,8 @@ def pool_windows(features, activity=None, activity_mode="raw"):
 
 
 @torch.inference_mode()
-def extract_windows(model, video, stride=2, batch_size=2, bbox=None, short_policy="reject"):
+def extract_windows(model, video, stride=2, batch_size=2, bbox=None, short_policy="reject",
+                    preprocess_once=True):
     if model.frames != 16 or stride < 1 or batch_size < 1 or short_policy not in {"reject", "repeat_last"}:
         raise ValueError("Extraction requires 16-frame encoder and explicit valid window policy")
     device = next(model.parameters()).device
@@ -75,10 +76,13 @@ def extract_windows(model, video, stride=2, batch_size=2, bbox=None, short_polic
                 if not 0 <= x0 < x1 <= frame.shape[1] or not 0 <= y0 < y1 <= frame.shape[0]:
                     raise ValueError("Invalid inference signer crop")
                 frame = frame[y0:y1, x0:x1]
-            buffer.append(frame)
+            # Inference transforms are deterministic and frame-local. Reuse them
+            # across overlapping windows instead of resizing each frame eight times.
+            buffer.append(transform(frame[None])[:, 0] if preprocess_once else frame)
             frames += 1
             if frames >= 16 and (frames - 16) % stride == 0:
-                pending.append(transform(np.stack(buffer)))
+                pending.append(torch.stack(list(buffer), dim=1) if preprocess_once
+                               else transform(np.stack(buffer)))
                 pending_starts.append(frames - 16)
                 if len(pending) == batch_size:
                     flush()
@@ -87,7 +91,8 @@ def extract_windows(model, video, stride=2, batch_size=2, bbox=None, short_polic
                 raise ValueError("Video shorter than 16 frames; set explicit short policy (U06)")
             clip = list(buffer)
             clip.extend([clip[-1]] * (16 - len(clip)))
-            pending.append(transform(np.stack(clip)))
+            pending.append(torch.stack(clip, dim=1) if preprocess_once
+                           else transform(np.stack(clip)))
             pending_starts.append(0)
         flush()
     finally:

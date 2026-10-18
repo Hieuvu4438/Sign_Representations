@@ -1,0 +1,4 @@
+# 5k-step diagnostic variant of final.yaml (see scripts/diagnostics/run_queue.sh)
+inherits: [../pretrain/final.yaml]
+experiment: diag_lr1e4
+train: {lr: 1.0e-4}

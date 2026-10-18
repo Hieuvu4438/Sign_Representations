@@ -1,0 +1,32 @@
+{
+  "id": "jh3d-no-prior-20261013",
+  "baseline_config": {
+    "arm": "jh3d",
+    "out": "runtime/JH3D",
+    "steps": 4000,
+    "videos": 16,
+    "jepa_w": 1.0,
+    "ema": 0.99925,
+    "workers": 6,
+    "seed": 20261008
+  },
+  "intervention": "prior_w=0; no prior/activity gradient",
+  "primary": "val LOSO white512 mean R@1",
+  "secondary_control": "mean backbone tokens before fc, both arms",
+  "test_access": false,
+  "seeds": [
+    20261008
+  ],
+  "per_stage_timeout_s": 14400,
+  "input_sha256": {
+    "/home/haipd/Sign_Representations/method/jepa_targets/jt/ex16.py": "f74776098038299907d7b0a6eb6a6c2eee439e31438a2dbb49ac6792f0d0be1c",
+    "/home/haipd/Sign_Representations/method/jepa_targets/jt/extract.py": "d96c2f11321d8bd3aa5d5c2fc6df5197df9f4d8e28d35064798d81a1425c4515",
+    "/home/haipd/Sign_Representations/method/jepa_targets/jt/evaluate.py": "1b26dd6451cf24a03d8a2b5d489ed432711002e875fccb931901672d9f64470c",
+    "/home/haipd/Sign_Representations/method/jepa_targets/jt/jh3d_no_prior.py": "037eaddabc5e692538ad97339f310e8fed77fef48d8e5b2d4c3159b09b6590ef",
+    "/home/haipd/Sign_Representations/method/jepa_targets/runtime/JH3D/last.pt": "81c5fad83b12b4ff187fba4698a873bbe2c0ffa00f60bb3addc536eaded79685",
+    "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/initial.model.pt": "d444723de76e5d046121911011c758a7f52f4f4a6fd5584c87ef2b9cb0b6eb30",
+    "/home/haipd/Sign_Representations/method/jepa_baseline/runtime/ASLC002/corpus/pretrain.jsonl": "6fd191b395029bdc90aeb62263ffba532098517493deb41b3fb6b27dd3561323"
+  },
+  "torch_version": "2.11.0+cu128",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:09:02) [GCC 11.2.0]"
+}

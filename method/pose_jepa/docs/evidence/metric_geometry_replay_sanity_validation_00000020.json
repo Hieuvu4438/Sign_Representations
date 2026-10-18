@@ -1,0 +1,252 @@
+{
+  "protocol": "gloss_max_single_relevant",
+  "unit": "fraction",
+  "metrics": {
+    "R@1": 0.375,
+    "R@5": 1.0,
+    "R@10": 1.0,
+    "MRR": 0.6875,
+    "DCG_single_relevant": 0.769331095982161,
+    "num_queries": 8,
+    "num_ranked_queries": 8
+  },
+  "queries": [
+    {
+      "sample_id": "asl_citizen/val/288632544575927-APRIL",
+      "rank": 2,
+      "failure": null,
+      "ranking": [
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "FOREST"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "APRIL"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "PERCENT"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "SLIDE1"
+        ]
+      ]
+    },
+    {
+      "sample_id": "asl_citizen/val/7399220938025828-APRIL",
+      "rank": 1,
+      "failure": null,
+      "ranking": [
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "APRIL"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "FOREST"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "PERCENT"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "SLIDE1"
+        ]
+      ]
+    },
+    {
+      "sample_id": "asl_citizen/val/8357843889007757-FOREST",
+      "rank": 1,
+      "failure": null,
+      "ranking": [
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "FOREST"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "PERCENT"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "APRIL"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "SLIDE1"
+        ]
+      ]
+    },
+    {
+      "sample_id": "asl_citizen/val/2597890978149069-FOREST",
+      "rank": 1,
+      "failure": null,
+      "ranking": [
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "FOREST"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "PERCENT"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "SLIDE1"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "APRIL"
+        ]
+      ]
+    },
+    {
+      "sample_id": "asl_citizen/val/9708960080464999-PERCENT",
+      "rank": 2,
+      "failure": null,
+      "ranking": [
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "FOREST"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "PERCENT"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "SLIDE1"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "APRIL"
+        ]
+      ]
+    },
+    {
+      "sample_id": "asl_citizen/val/026888102793646063-PERCENT",
+      "rank": 2,
+      "failure": null,
+      "ranking": [
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "FOREST"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "PERCENT"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "SLIDE1"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "APRIL"
+        ]
+      ]
+    },
+    {
+      "sample_id": "asl_citizen/val/9670225410087576-SLIDE",
+      "rank": 2,
+      "failure": null,
+      "ranking": [
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "PERCENT"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "SLIDE1"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "FOREST"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "APRIL"
+        ]
+      ]
+    },
+    {
+      "sample_id": "asl_citizen/val/31018424970164493-SLIDE",
+      "rank": 2,
+      "failure": null,
+      "ranking": [
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "FOREST"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "SLIDE1"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "PERCENT"
+        ],
+        [
+          "ASL",
+          "ASL:asl_citizen",
+          "APRIL"
+        ]
+      ]
+    }
+  ],
+  "gallery_coverage": {
+    "total": 16,
+    "valid": 16,
+    "valid_glosses": 4
+  },
+  "covered_gallery_subset": {
+    "R@1": 0.375,
+    "R@5": 1.0,
+    "R@10": 1.0,
+    "MRR": 0.6875,
+    "DCG_single_relevant": 0.769331095982161,
+    "num_queries": 8,
+    "num_ranked_queries": 8
+  },
+  "representation_diagnostics": {
+    "valid_clips": 8,
+    "feature_std_mean": 0.008044951297290805,
+    "effective_rank": 3.656732976936944,
+    "maximum_empirical_rank": 7,
+    "mean_interclip_cosine": 0.9806949346867574
+  }
+}

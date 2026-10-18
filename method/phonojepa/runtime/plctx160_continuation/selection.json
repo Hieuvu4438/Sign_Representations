@@ -1,0 +1,29 @@
+{
+  "selected": "lr1e5",
+  "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation/arms/lr1e5/best.pt",
+  "checkpoint_sha256": "3e7a7b5c024450c078736eed19e15abe91559334fd34c11035786d27344e6627",
+  "global_step": 210640,
+  "validation_Rec1": 0.2295225155279503,
+  "candidates": [
+    {
+      "name": "baseline",
+      "score": 0.22719332298136646,
+      "step": 200640,
+      "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_PLctx_FULL_160ep/final.pt"
+    },
+    {
+      "name": "lr1e5",
+      "score": 0.2295225155279503,
+      "step": 210640,
+      "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation/arms/lr1e5/best.pt"
+    },
+    {
+      "name": "lr3e5",
+      "score": 0.2295225155279503,
+      "step": 205640,
+      "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation/arms/lr3e5/best.pt"
+    }
+  ],
+  "criterion": "highest raw full-validation Rec@1; ties retain baseline/earlier candidate",
+  "test_used_for_selection": false
+}

@@ -1,0 +1,16 @@
+{
+ "whiten_only": 29.435170807453414,
+ "true_signers_both_CORAL+whiten": 38.52872670807454,
+ "Kq6_AMI_val": 0.25845874201467633,
+ "Kq6_gallery-true_CORAL+whiten": 37.5194099378882,
+ "Kq6_gallery-cluster70_CORAL+whiten": 34.578804347826086,
+ "Kq12_AMI_val": 0.1603780772316227,
+ "Kq12_gallery-true_CORAL+whiten": 34.3652950310559,
+ "Kq12_gallery-cluster70_CORAL+whiten": 32.61840062111801,
+ "Kq24_AMI_val": 0.1552260104880139,
+ "Kq24_gallery-true_CORAL+whiten": 31.25,
+ "Kq24_gallery-cluster70_CORAL+whiten": 29.454580745341612,
+ "Kq48_AMI_val": 0.17545285775528913,
+ "Kq48_gallery-true_CORAL+whiten": 32.307841614906835,
+ "Kq48_gallery-cluster70_CORAL+whiten": 30.036878881987576
+}

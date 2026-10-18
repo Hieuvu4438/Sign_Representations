@@ -4,7 +4,15 @@ PhonoJEPA is skeleton SSL for sign language. It masks **phonological channels** 
 
 Implementation notes and deviations are in [IMPLEMENTATION.md](IMPLEMENTATION.md).
 
-**Status:** implemented and tested (`pytest tests`, 40 tests), with a 60-step GPU smoke run. **No full training run yet.** Runs start only on the user's go.
+Full160 completed200,640updates on all40,154official train clips. A separate
+sequential continuation service now compares two LR branches from that checkpoint,
+selects on full validation and queues the selected official test. See
+[CONTINUATION_JOB_VI.md](CONTINUATION_JOB_VI.md) for configuration and status/stop/resume.
+The status/comparison defaults below describe the original3k pilot implementation.
+
+**Status:** full160 completed and continuation service launched with user authorization.
+47tests pass, including the native core tests and continuation recovery tests;
+GPU batch32/BF16 replay and parity with original gallery features also pass.
 
 ## Comparison protocol
 

@@ -1,0 +1,2570 @@
+[
+  {
+    "name": "A0_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A0_s0.json",
+      "--out",
+      "runtime/runs/A0_s0"
+    ]
+  },
+  {
+    "name": "A0_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A0_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A0_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A0_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A0_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A0_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A0_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A0_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A0_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A0_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A0_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A0_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A0_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A0_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A0_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A0_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s1",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A0_s1.json",
+      "--out",
+      "runtime/runs/A0_s1"
+    ]
+  },
+  {
+    "name": "A0_s1_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s1/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A0_s1/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s1_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s1/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A0_s1/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s1_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A0_s1/e10_train.npz",
+      "--query",
+      "runtime/eval/A0_s1/e10_val.npz",
+      "--out",
+      "runtime/eval/A0_s1/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s1_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s1/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A0_s1/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s1_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s1/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A0_s1/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s1_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A0_s1/e20_train.npz",
+      "--query",
+      "runtime/eval/A0_s1/e20_val.npz",
+      "--out",
+      "runtime/eval/A0_s1/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s1_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s1/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A0_s1/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s1_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s1/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A0_s1/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s1_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A0_s1/e40_train.npz",
+      "--query",
+      "runtime/eval/A0_s1/e40_val.npz",
+      "--out",
+      "runtime/eval/A0_s1/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s2",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A0_s2.json",
+      "--out",
+      "runtime/runs/A0_s2"
+    ]
+  },
+  {
+    "name": "A0_s2_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s2/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A0_s2/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s2_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s2/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A0_s2/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s2_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A0_s2/e10_train.npz",
+      "--query",
+      "runtime/eval/A0_s2/e10_val.npz",
+      "--out",
+      "runtime/eval/A0_s2/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s2_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s2/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A0_s2/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s2_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s2/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A0_s2/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s2_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A0_s2/e20_train.npz",
+      "--query",
+      "runtime/eval/A0_s2/e20_val.npz",
+      "--out",
+      "runtime/eval/A0_s2/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s2_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s2/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A0_s2/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s2_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A0_s2/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A0_s2/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A0_s2_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A0_s2/e40_train.npz",
+      "--query",
+      "runtime/eval/A0_s2/e40_val.npz",
+      "--out",
+      "runtime/eval/A0_s2/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A1_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A1_s0.json",
+      "--out",
+      "runtime/stats/A1.pt"
+    ]
+  },
+  {
+    "name": "A1_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A1_s0.json",
+      "--out",
+      "runtime/runs/A1_s0"
+    ]
+  },
+  {
+    "name": "A1_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A1_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A1_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A1_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A1_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A1_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A1_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A1_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A1_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A1_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A1_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A1_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A1_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A1_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A1_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A1_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A1_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A1_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A1_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A1_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A1_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A1_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A1_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A1_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A1_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A1_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A1_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A1_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A1_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A1_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A2_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A2_s0.json",
+      "--out",
+      "runtime/stats/A2.pt"
+    ]
+  },
+  {
+    "name": "A2_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A2_s0.json",
+      "--out",
+      "runtime/runs/A2_s0"
+    ]
+  },
+  {
+    "name": "A2_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A2_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A2_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A2_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A2_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A2_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A2_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A2_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A2_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A2_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A2_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A2_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A2_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A2_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A2_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A2_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A2_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A2_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A2_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A2_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A2_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A2_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A2_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A2_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A2_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A2_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A2_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A2_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A2_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A2_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A5_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A5_s0.json",
+      "--out",
+      "runtime/stats/A5.pt"
+    ]
+  },
+  {
+    "name": "A5_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A5_s0.json",
+      "--out",
+      "runtime/runs/A5_s0"
+    ]
+  },
+  {
+    "name": "A5_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A5_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A5_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A5_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A5_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A5_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A5_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A5_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A5_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A5_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A5_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A5_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A5_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A5_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A5_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A5_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A5_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A5_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A5_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A5_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A5_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A5_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A5_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A5_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A5_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A5_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A5_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A5_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A5_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A5_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A6_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A6_s0.json",
+      "--out",
+      "runtime/stats/A6.pt"
+    ]
+  },
+  {
+    "name": "A6_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A6_s0.json",
+      "--out",
+      "runtime/runs/A6_s0"
+    ]
+  },
+  {
+    "name": "A6_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A6_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A6_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A6_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A6_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A6_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A6_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A6_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A6_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A6_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A6_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A6_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A6_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A6_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A6_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A6_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A6_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A6_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A6_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A6_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A6_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A6_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A6_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A6_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A6_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A6_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A6_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A6_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A6_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A6_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A4_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A4_s0.json",
+      "--out",
+      "runtime/stats/A4.pt"
+    ]
+  },
+  {
+    "name": "A4_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A4_s0.json",
+      "--out",
+      "runtime/runs/A4_s0"
+    ]
+  },
+  {
+    "name": "A4_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A4_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A4_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A4_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A4_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A4_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A4_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A4_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A4_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A4_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A4_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A4_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A4_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A4_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A4_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A4_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A4_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A4_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A4_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A4_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A4_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A4_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A4_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A4_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A4_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A4_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A4_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A4_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A4_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A4_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A9_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A9_s0.json",
+      "--out",
+      "runtime/stats/A9.pt"
+    ]
+  },
+  {
+    "name": "A9_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A9_s0.json",
+      "--out",
+      "runtime/runs/A9_s0"
+    ]
+  },
+  {
+    "name": "A9_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A9_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A9_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A9_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A9_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A9_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A9_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A9_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A9_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A9_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A9_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A9_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A9_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A9_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A9_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A9_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A9_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A9_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A9_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A9_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A9_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A9_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A9_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A9_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A9_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A9_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A9_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A9_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A9_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A9_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A3_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A3_s0.json",
+      "--out",
+      "runtime/stats/A3.pt"
+    ]
+  },
+  {
+    "name": "A3_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A3_s0.json",
+      "--out",
+      "runtime/runs/A3_s0"
+    ]
+  },
+  {
+    "name": "A3_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A3_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A3_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A3_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A3_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A3_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A3_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A3_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A3_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A3_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A3_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A3_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A3_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A3_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A3_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A3_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A3_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A3_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A3_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A3_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A3_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A3_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A3_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A3_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A3_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A3_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A3_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A3_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A3_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A3_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A7_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A7_s0.json",
+      "--out",
+      "runtime/stats/A7.pt"
+    ]
+  },
+  {
+    "name": "A7_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A7_s0.json",
+      "--out",
+      "runtime/runs/A7_s0"
+    ]
+  },
+  {
+    "name": "A7_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A7_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A7_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A7_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A7_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A7_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A7_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A7_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A7_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A7_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A7_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A7_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A7_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A7_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A7_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A7_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A7_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A7_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A7_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A7_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A7_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A7_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A7_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A7_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A7_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A7_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A7_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A7_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A7_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A7_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8a_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A8a_s0.json",
+      "--out",
+      "runtime/stats/A8a.pt"
+    ]
+  },
+  {
+    "name": "A8a_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A8a_s0.json",
+      "--out",
+      "runtime/runs/A8a_s0"
+    ]
+  },
+  {
+    "name": "A8a_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8a_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A8a_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8a_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8a_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A8a_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8a_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A8a_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A8a_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A8a_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8a_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8a_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A8a_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8a_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8a_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A8a_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8a_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A8a_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A8a_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A8a_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8a_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8a_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A8a_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8a_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8a_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A8a_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8a_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A8a_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A8a_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A8a_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8b_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A8b_s0.json",
+      "--out",
+      "runtime/stats/A8b.pt"
+    ]
+  },
+  {
+    "name": "A8b_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A8b_s0.json",
+      "--out",
+      "runtime/runs/A8b_s0"
+    ]
+  },
+  {
+    "name": "A8b_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8b_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A8b_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8b_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8b_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A8b_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8b_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A8b_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A8b_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A8b_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8b_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8b_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A8b_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8b_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8b_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A8b_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8b_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A8b_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A8b_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A8b_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8b_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8b_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A8b_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8b_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A8b_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A8b_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A8b_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A8b_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A8b_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A8b_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A10_s0_stats",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.fit_stats",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A10_s0.json",
+      "--out",
+      "runtime/stats/A10.pt"
+    ]
+  },
+  {
+    "name": "A10_s0",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.train",
+      "--config",
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/plan_configs/A10_s0.json",
+      "--out",
+      "runtime/runs/A10_s0"
+    ]
+  },
+  {
+    "name": "A10_s0_10_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A10_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A10_s0/e10_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A10_s0_10_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A10_s0/epoch_010.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A10_s0/e10_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A10_s0_10_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A10_s0/e10_train.npz",
+      "--query",
+      "runtime/eval/A10_s0/e10_val.npz",
+      "--out",
+      "runtime/eval/A10_s0/e10_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A10_s0_20_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A10_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A10_s0/e20_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A10_s0_20_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A10_s0/epoch_020.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A10_s0/e20_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A10_s0_20_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A10_s0/e20_train.npz",
+      "--query",
+      "runtime/eval/A10_s0/e20_val.npz",
+      "--out",
+      "runtime/eval/A10_s0/e20_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A10_s0_40_train",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A10_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "--split",
+      "train",
+      "--out",
+      "runtime/eval/A10_s0/e40_train.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A10_s0_40_val",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.extract",
+      "--ckpt",
+      "runtime/runs/A10_s0/epoch_040.pt",
+      "--source",
+      "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "--split",
+      "val",
+      "--out",
+      "runtime/eval/A10_s0/e40_val.npz",
+      "--device",
+      "cuda"
+    ]
+  },
+  {
+    "name": "A10_s0_40_valdict",
+    "argv": [
+      "/home/haipd/Sign_Representations/method/phonopath_jepa/../../.venv-signrep/bin/python",
+      "-m",
+      "pp.evaluate",
+      "--gallery",
+      "runtime/eval/A10_s0/e40_train.npz",
+      "--query",
+      "runtime/eval/A10_s0/e40_val.npz",
+      "--out",
+      "runtime/eval/A10_s0/e40_grp.json",
+      "--readout",
+      "grp",
+      "--device",
+      "cuda"
+    ]
+  }
+]

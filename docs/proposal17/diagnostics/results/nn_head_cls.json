@@ -1,0 +1,36 @@
+{
+ "whiten_reference": 24.9805900621118,
+ "whiten_geometry_excl_CLS48": {
+  "mined_precision": 14.69591226321037,
+  "kept": 100.0,
+  "val_R1": 16.847826086956523
+ },
+ "whiten_geometry_excl_CLS48_mutual": {
+  "mined_precision": 21.800136892539356,
+  "kept": 29.132602193419743,
+  "val_R1": 17.60481366459627
+ },
+ "CLSCORAL_geometry_excl_CLS48": {
+  "mined_precision": 26.35593220338983,
+  "kept": 100.0,
+  "val_R1": 25.737577639751553
+ },
+ "CLSCORAL_geometry_excl_CLS48_mutual": {
+  "mined_precision": 36.552567237163814,
+  "kept": 32.62213359920239,
+  "val_R1": 24.883540372670808
+ },
+ "CLSCORAL_geometry_excl_true_signer": {
+  "mined_precision": 28.220338983050848,
+  "kept": 100.0,
+  "val_R1": 26.805124223602483
+ },
+ "CLSCORAL_geometry_excl_true_signer_mutual": {
+  "mined_precision": 41.3371906139505,
+  "kept": 31.016949152542374,
+  "val_R1": 26.009316770186334
+ },
+ "gloss_oracle": {
+  "val_R1": 34.04503105590062
+ }
+}

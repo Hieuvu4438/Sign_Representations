@@ -1,0 +1,13 @@
+{
+  "status": "early_stopped",
+  "branch_step": 35000,
+  "global_step": 235640,
+  "best_validation_Rec1": 0.2295225155279503,
+  "best_global_step": 210640,
+  "last_validation_branch_step": 35000,
+  "stale_validations": 5,
+  "active_training_seconds": 5664.339139662508,
+  "initialization": "full native checkpoint, retained optimizer/teacher/centers; new deterministic post-fork sampler",
+  "best_checkpoint_sha256": "3e7a7b5c024450c078736eed19e15abe91559334fd34c11035786d27344e6627",
+  "finished_unix": 1792092658.073941
+}

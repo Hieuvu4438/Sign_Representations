@@ -1,0 +1,16 @@
+{
+  "audit_time": "2026-10-14T18:07:23.151219",
+  "training_job_modified": false,
+  "training_stopped": false,
+  "read_only_model_probes": true,
+  "files": {
+    "discriminator.json": "aff1ee4565a475f27ffc0892efce279f1ba9b5a92cd61817803e6a74f0b1f49b",
+    "retrieval_identity_and_signer_audit.json": "f51fdf694d3da448b6dcebb17eb099a05ec769e4f3dca7976304dbcc8a8959e4",
+    "pooled_embedding_geometry.json": "3ba3077882f3b2692056d0c8e2d2b81de14d070ce66e3914821658c9132f9a74",
+    "REPORT_VI.md": "4d67282b87dd4f944bd200c38fbf987e1817ec2e7608d90ce3d9554d88598358",
+    "training_gradient_probes.json": "5db3175966552bfe30a63d0346c3f6e9cc8bc6f829397af7d6cf832c7b539ace",
+    "training_and_crop_summary.json": "092822a06c492128a4bbff88548a3d2ce7e4989c398a7e9f50af1144a5d6d18e"
+  },
+  "snapshot_step": 37876,
+  "snapshot_sha256": "0a094f388c1ae824fe03e28a5b8700c4fd16c7c042e54d17cfbdf36469ff68ae"
+}

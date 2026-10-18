@@ -1,0 +1,111 @@
+{
+  "cache_bytes": 8463250,
+  "cache_bytes_per_video": 352635.4166666667,
+  "scope": "24-real-video correctness/calibration only, not final E04 retrieval result",
+  "selected_train": 16,
+  "selected_val": 8,
+  "status": "passed",
+  "timings_seconds": {
+    "cache_train": 30.29483429499669,
+    "cache_val": 15.323921420989791,
+    "gate": 3.840739865001524,
+    "targets": 5.823758537997492,
+    "training_and_val": 14.146133550995728
+  },
+  "training": {
+    "attempted_batches": 12,
+    "attempted_updates": 3,
+    "best_step": 3,
+    "best_validation_dcg": 0.6224274762997154,
+    "best_validation_per_class_top1": null,
+    "cache_reader_workers": 4,
+    "config_hash": "1c31269a1fc79c0ebe2de9a1f8000874fddfcafbc8fb7a99f84d34a0d1b6565e",
+    "identities": {
+      "cache_identity": {
+        "detector_mode": "IMAGE",
+        "extractor_hash": "06e30ca2e4fc27744db4ad2b879bc4f86c5d65cd2aa4e0b8014242ec60a32ca7",
+        "feature_dim": 384,
+        "normalization": "per_frame_shoulder_center_isotropic_scale",
+        "temporal_dependency_policy": "same_frame",
+        "topology_hash": "000cc43a27cc7d3ae4c01d44a7794bd7971168d9cc304050676d821c4b6c8da0",
+        "visual_stream_order": [
+          "global",
+          "left_hand",
+          "right_hand",
+          "face"
+        ],
+        "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      "cluster_hash": null,
+      "pipeline_gate_sha256": "a80434b800a56467b5423b935729daf3d8091b2cf62b7693c29c03eb3864312a",
+      "protocol": "asl_citizen_official_signer_disjoint_full_retrieval_v1",
+      "runtime_implementation_hash": "3b58b893d2ad39dd89395eed5ebee1a7cf5fe6a4535e883a7c8ce0752f9fb346",
+      "target_hash": "ee02e1aece0be6b465d9e1e5a0440c3ab9de616d64a053c8df3112debaf77572",
+      "train_corpus": "c1f6b5d65577640ab8e79a446e1cb58efa103dadce6fe8f39e59e4ebc51e7d8b",
+      "val_corpus": "02c02da4688f2978bdf1f6c2ef836a0110c35d0807ea9abfbb6fc2411aacae8c",
+      "world_size": 1
+    },
+    "loader_kind": "threaded_cache_readers_main_owned_sampling_rng",
+    "pinned_memory_active": true,
+    "precision": "bf16",
+    "precision_reason": null,
+    "run_dir": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/full_aslc/preflight/training/09b8cbbc1a24",
+    "selection_metric": "retrieval_dcg",
+    "session_seconds": 13.431690135999816,
+    "status": "completed",
+    "successful_steps": 3,
+    "temporal_total_params_including_teacher": 29618336,
+    "temporal_trainable_params": 17260064,
+    "test_used_for_selection": false,
+    "total_training_seconds": 12.855915560969152,
+    "validations": [
+      {
+        "classifier_trained": false,
+        "metrics": {
+          "DCG": 0.6224274762997154,
+          "MRR": 0.5,
+          "Rec@1": 0.25,
+          "Rec@5": 0.875,
+          "gallery_count": 16,
+          "gloss_count": 8,
+          "metric_scale": "0..1; multiply by100 only for presentation",
+          "pooling": "timestamp-aligned tiled dense mean, distinct source frames, L2 once per clip",
+          "query_count": 8,
+          "ranking": "gloss_max_exemplar_cosine_float64",
+          "ranks": [
+            1,
+            4,
+            3,
+            2,
+            6,
+            1,
+            2,
+            4
+          ],
+          "tie_policy": "pessimistic_other_gloss_score_greater_or_equal",
+          "zero_gallery_embeddings": 0,
+          "zero_query_embeddings": 0
+        },
+        "score": 0.6224274762997154,
+        "selection_metric": "retrieval_dcg",
+        "step": 3,
+        "trials": []
+      }
+    ],
+    "world_size": 1
+  },
+  "updates": [
+    {
+      "succeeded": true,
+      "successful_step": 1
+    },
+    {
+      "succeeded": true,
+      "successful_step": 2
+    },
+    {
+      "succeeded": true,
+      "successful_step": 3
+    }
+  ]
+}

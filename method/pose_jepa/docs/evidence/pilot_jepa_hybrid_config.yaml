@@ -1,0 +1,133 @@
+data:
+  canonicalization_scope: sample_before_windowing
+  confidence_threshold: 0.3
+  coordinate_profile: viewport_normalized
+  downstream_validation_protocol: /home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc_sanity/protocol.json
+  joint_layout: coco_wholebody_133
+  max_frames: 16
+  max_motion_gap_sec: 0.2
+  min_part_valid_fraction: 0.5
+  motion_requires_known_timing: true
+  normalization: clip_median_shoulders
+  num_workers: 0
+  part_order:
+  - body
+  - left_hand
+  - right_hand
+  - face
+  persistent_workers: true
+  pin_memory: true
+  segment_length: 2
+  target_fps: null
+  time_mode: timestamps_if_known_else_frame_index
+  train_manifest: /home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc_sanity/train.jsonl
+  validation_manifest: /home/haipd/Sign_Representations/method/pose_jepa/runtime/aslc_sanity/val.jsonl
+ema:
+  export_encoder: ema
+  final_momentum: 1.0
+  initial_momentum: 0.999
+  schedule: cosine_per_successful_optimizer_step
+  teacher_eval: true
+evaluation:
+  checkpoint_interval_steps: 1000
+  frozen_validation_interval_steps: 1000
+  recall_k:
+  - 1
+  - 5
+  - 10
+  report_per_part_quality: true
+  report_units: fractions_and_percent_display
+  retrieval_protocol: gloss_max_single_relevant
+  window_frames: 128
+  window_stride_frames: 64
+extensions:
+  depth_lifting: false
+  multi_layer_targets: false
+  rgb_support: false
+  sigreg: false
+loss:
+  center_momentum: 0.9
+  center_quality_weighted: true
+  covariance_weight: 0.0
+  dense_context_weight: 0.0
+  geometry_exclude_local_roots: true
+  geometry_huber_beta: 0.05
+  geometry_weight: 0.25
+  latent_weight: 1
+  motion_huber_beta: 0.02
+  motion_reference_fps: 25.0
+  motion_weight: 0.1
+  physical_part_weights:
+  - 0.25
+  - 1.0
+  - 1.0
+  - 1.0
+  student_temperature: 0.1
+  teacher_temperature: 0.06
+  variance_weight: 0.0
+mask:
+  keep_one_visible_part_per_segment: true
+  learned_saliency: false
+  max_span_segments: 8
+  min_span_segments: 2
+  min_visible_fraction: 0.2
+  min_visible_segments_per_hand: 2
+  min_visible_tokens: 4
+  motion_aware: false
+  part_weights:
+  - 0.15
+  - 0.3
+  - 0.3
+  - 0.25
+  ratio: 0.6
+  span_budget_fraction: 0.5
+model:
+  anchor_dim: 64
+  dropout: 0.0
+  encoder_dim: 256
+  encoder_ffn_dim: 1024
+  encoder_heads: 8
+  encoder_layers: 2
+  encoder_pre_norm: true
+  graph_partitions:
+  - self
+  - undirected_neighbor
+  hand_canonical_flip: false
+  init_checkpoint: null
+  input_channels: 3
+  joint_aggregation: flatten_project
+  latent_dim: 256
+  predictor_dim: 128
+  predictor_ffn_dim: 512
+  predictor_heads: 4
+  predictor_layers: 1
+  sequence_dim: 1024
+  share_hand_frontend: true
+  spatial_channels:
+  - 64
+  - 64
+  - 128
+  - 256
+  spatial_normalization: per_joint_channel_layernorm
+optim:
+  betas:
+  - 0.9
+  - 0.95
+  gradient_accumulation_steps: 1
+  gradient_clip_norm: 1.0
+  learning_rate: 0.0003
+  max_steps: 20
+  min_learning_rate: 1.0e-05
+  optimizer: adamw
+  per_rank_batch: 2
+  precision: fp32
+  warmup_steps: 2
+  weight_decay: 0.05
+run:
+  model_selection_scope: target_validation
+  name: aslc_sanity_jepa_hybrid
+  output_dir: /home/haipd/Sign_Representations/method/pose_jepa/runtime/pilot_jepa_hybrid
+  protocol: in_domain_ssl
+  seed: 42
+  stage: ssl
+  supervision: pose_only_self_supervised

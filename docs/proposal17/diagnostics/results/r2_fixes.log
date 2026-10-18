@@ -1,0 +1,195 @@
+=== morph_arm_1.15 16:44:09
+val_bal300_morph-arm-s1.15 0 1500 0s
+val_bal300_morph-arm-s1.15 200 1500 4s
+val_bal300_morph-arm-s1.15 400 1500 8s
+val_bal300_morph-arm-s1.15 600 1500 13s
+val_bal300_morph-arm-s1.15 800 1500 18s
+val_bal300_morph-arm-s1.15 1000 1500 23s
+val_bal300_morph-arm-s1.15 1200 1500 31s
+val_bal300_morph-arm-s1.15 1400 1500 35s
+saved val_bal300_morph-arm-s1.15 1500 37s
+=== morph_arm_1.3 16:44:54
+val_bal300_morph-arm-s1.3 0 1500 0s
+val_bal300_morph-arm-s1.3 200 1500 4s
+val_bal300_morph-arm-s1.3 400 1500 8s
+val_bal300_morph-arm-s1.3 600 1500 12s
+val_bal300_morph-arm-s1.3 800 1500 17s
+val_bal300_morph-arm-s1.3 1000 1500 22s
+val_bal300_morph-arm-s1.3 1200 1500 30s
+val_bal300_morph-arm-s1.3 1400 1500 33s
+saved val_bal300_morph-arm-s1.3 1500 35s
+=== morph_arm_1.5 16:45:37
+val_bal300_morph-arm-s1.5 0 1500 0s
+val_bal300_morph-arm-s1.5 200 1500 4s
+val_bal300_morph-arm-s1.5 400 1500 8s
+val_bal300_morph-arm-s1.5 600 1500 13s
+val_bal300_morph-arm-s1.5 800 1500 18s
+val_bal300_morph-arm-s1.5 1000 1500 22s
+val_bal300_morph-arm-s1.5 1200 1500 31s
+val_bal300_morph-arm-s1.5 1400 1500 35s
+saved val_bal300_morph-arm-s1.5 1500 36s
+=== morph_hand_1.15 16:46:21
+val_bal300_morph-hand-s1.15 0 1500 0s
+val_bal300_morph-hand-s1.15 200 1500 4s
+val_bal300_morph-hand-s1.15 400 1500 8s
+val_bal300_morph-hand-s1.15 600 1500 13s
+val_bal300_morph-hand-s1.15 800 1500 17s
+val_bal300_morph-hand-s1.15 1000 1500 22s
+val_bal300_morph-hand-s1.15 1200 1500 30s
+val_bal300_morph-hand-s1.15 1400 1500 33s
+saved val_bal300_morph-hand-s1.15 1500 35s
+=== morph_hand_1.3 16:47:03
+val_bal300_morph-hand-s1.3 0 1500 0s
+val_bal300_morph-hand-s1.3 200 1500 4s
+val_bal300_morph-hand-s1.3 400 1500 8s
+val_bal300_morph-hand-s1.3 600 1500 13s
+val_bal300_morph-hand-s1.3 800 1500 17s
+val_bal300_morph-hand-s1.3 1000 1500 22s
+val_bal300_morph-hand-s1.3 1200 1500 29s
+val_bal300_morph-hand-s1.3 1400 1500 33s
+saved val_bal300_morph-hand-s1.3 1500 35s
+=== morph_hand_1.5 16:47:46
+val_bal300_morph-hand-s1.5 0 1500 0s
+val_bal300_morph-hand-s1.5 200 1500 4s
+val_bal300_morph-hand-s1.5 400 1500 8s
+val_bal300_morph-hand-s1.5 600 1500 13s
+val_bal300_morph-hand-s1.5 800 1500 17s
+val_bal300_morph-hand-s1.5 1000 1500 22s
+val_bal300_morph-hand-s1.5 1200 1500 30s
+val_bal300_morph-hand-s1.5 1400 1500 34s
+saved val_bal300_morph-hand-s1.5 1500 36s
+=== morph_all_1.15 16:48:29
+val_bal300_morph-all-s1.15 0 1500 0s
+val_bal300_morph-all-s1.15 200 1500 4s
+val_bal300_morph-all-s1.15 400 1500 8s
+val_bal300_morph-all-s1.15 600 1500 13s
+val_bal300_morph-all-s1.15 800 1500 18s
+val_bal300_morph-all-s1.15 1000 1500 21s
+val_bal300_morph-all-s1.15 1200 1500 29s
+val_bal300_morph-all-s1.15 1400 1500 33s
+saved val_bal300_morph-all-s1.15 1500 35s
+=== morph_all_1.3 16:49:12
+val_bal300_morph-all-s1.3 0 1500 0s
+val_bal300_morph-all-s1.3 200 1500 4s
+val_bal300_morph-all-s1.3 400 1500 7s
+val_bal300_morph-all-s1.3 600 1500 11s
+val_bal300_morph-all-s1.3 800 1500 15s
+val_bal300_morph-all-s1.3 1000 1500 19s
+val_bal300_morph-all-s1.3 1200 1500 27s
+val_bal300_morph-all-s1.3 1400 1500 30s
+saved val_bal300_morph-all-s1.3 1500 32s
+=== morph_all_1.5 16:49:50
+val_bal300_morph-all-s1.5 0 1500 0s
+val_bal300_morph-all-s1.5 200 1500 4s
+val_bal300_morph-all-s1.5 400 1500 8s
+val_bal300_morph-all-s1.5 600 1500 13s
+val_bal300_morph-all-s1.5 800 1500 18s
+val_bal300_morph-all-s1.5 1000 1500 22s
+val_bal300_morph-all-s1.5 1200 1500 29s
+val_bal300_morph-all-s1.5 1400 1500 33s
+saved val_bal300_morph-all-s1.5 1500 35s
+=== morph_nonuni_1.15 16:50:32
+val_bal300_morph-nonuni-s1.15 0 1500 0s
+val_bal300_morph-nonuni-s1.15 200 1500 4s
+val_bal300_morph-nonuni-s1.15 400 1500 8s
+val_bal300_morph-nonuni-s1.15 600 1500 12s
+val_bal300_morph-nonuni-s1.15 800 1500 17s
+val_bal300_morph-nonuni-s1.15 1000 1500 21s
+val_bal300_morph-nonuni-s1.15 1200 1500 29s
+val_bal300_morph-nonuni-s1.15 1400 1500 33s
+saved val_bal300_morph-nonuni-s1.15 1500 34s
+=== morph_nonuni_1.3 16:51:14
+val_bal300_morph-nonuni-s1.3 0 1500 0s
+val_bal300_morph-nonuni-s1.3 200 1500 4s
+val_bal300_morph-nonuni-s1.3 400 1500 8s
+val_bal300_morph-nonuni-s1.3 600 1500 13s
+val_bal300_morph-nonuni-s1.3 800 1500 18s
+val_bal300_morph-nonuni-s1.3 1000 1500 22s
+val_bal300_morph-nonuni-s1.3 1200 1500 30s
+val_bal300_morph-nonuni-s1.3 1400 1500 33s
+saved val_bal300_morph-nonuni-s1.3 1500 35s
+=== morph_nonuni_1.5 16:51:57
+val_bal300_morph-nonuni-s1.5 0 1500 0s
+val_bal300_morph-nonuni-s1.5 200 1500 4s
+val_bal300_morph-nonuni-s1.5 400 1500 8s
+val_bal300_morph-nonuni-s1.5 600 1500 13s
+val_bal300_morph-nonuni-s1.5 800 1500 17s
+val_bal300_morph-nonuni-s1.5 1000 1500 22s
+val_bal300_morph-nonuni-s1.5 1200 1500 30s
+val_bal300_morph-nonuni-s1.5 1400 1500 33s
+saved val_bal300_morph-nonuni-s1.5 1500 35s
+=== morph1500_face 16:52:40
+val_morph-face-s1.15 0 1500 0s
+val_morph-face-s1.15 200 1500 4s
+val_morph-face-s1.15 400 1500 8s
+val_morph-face-s1.15 600 1500 12s
+val_morph-face-s1.15 800 1500 17s
+val_morph-face-s1.15 1000 1500 21s
+val_morph-face-s1.15 1200 1500 24s
+val_morph-face-s1.15 1400 1500 27s
+saved val_morph-face-s1.15 1500 30s
+=== morph1500_arm 16:53:17
+val_morph-arm-s1.15 0 1500 0s
+val_morph-arm-s1.15 200 1500 4s
+val_morph-arm-s1.15 400 1500 8s
+val_morph-arm-s1.15 600 1500 12s
+val_morph-arm-s1.15 800 1500 17s
+val_morph-arm-s1.15 1000 1500 21s
+val_morph-arm-s1.15 1200 1500 24s
+val_morph-arm-s1.15 1400 1500 27s
+saved val_morph-arm-s1.15 1500 29s
+=== morph1500_hand 16:53:53
+val_morph-hand-s1.15 0 1500 0s
+val_morph-hand-s1.15 200 1500 4s
+val_morph-hand-s1.15 400 1500 8s
+val_morph-hand-s1.15 600 1500 13s
+val_morph-hand-s1.15 800 1500 18s
+val_morph-hand-s1.15 1000 1500 21s
+val_morph-hand-s1.15 1200 1500 25s
+val_morph-hand-s1.15 1400 1500 29s
+saved val_morph-hand-s1.15 1500 31s
+=== morph1500_all 16:54:31
+val_morph-all-s1.15 0 1500 0s
+val_morph-all-s1.15 200 1500 4s
+val_morph-all-s1.15 400 1500 8s
+val_morph-all-s1.15 600 1500 13s
+val_morph-all-s1.15 800 1500 17s
+val_morph-all-s1.15 1000 1500 21s
+val_morph-all-s1.15 1200 1500 25s
+val_morph-all-s1.15 1400 1500 29s
+saved val_morph-all-s1.15 1500 30s
+=== morph_dose 16:55:09
+all-s1.15 {'cos_to_clean': 0.984, 'shift_norm': 0.084, 'R1': 13.733, 'R1_delta_vs_clean': -0.467, 'shift_energy_in_signer_subspace34': 0.218, 'shift_energy_random_subspace34': 0.042}
+all-s1.3 {'cos_to_clean': 0.966, 'shift_norm': 0.158, 'R1': 14.0, 'R1_delta_vs_clean': -0.2, 'shift_energy_in_signer_subspace34': 0.221, 'shift_energy_random_subspace34': 0.042}
+all-s1.5 {'cos_to_clean': 0.945, 'shift_norm': 0.232, 'R1': 14.0, 'R1_delta_vs_clean': -0.2, 'shift_energy_in_signer_subspace34': 0.222, 'shift_energy_random_subspace34': 0.042}
+arm-s1.15 {'cos_to_clean': 0.982, 'shift_norm': 0.085, 'R1': 13.667, 'R1_delta_vs_clean': -0.533, 'shift_energy_in_signer_subspace34': 0.225, 'shift_energy_random_subspace34': 0.041}
+arm-s1.3 {'cos_to_clean': 0.966, 'shift_norm': 0.15, 'R1': 13.0, 'R1_delta_vs_clean': -1.2, 'shift_energy_in_signer_subspace34': 0.227, 'shift_energy_random_subspace34': 0.041}
+arm-s1.5 {'cos_to_clean': 0.95, 'shift_norm': 0.213, 'R1': 13.067, 'R1_delta_vs_clean': -1.133, 'shift_energy_in_signer_subspace34': 0.228, 'shift_energy_random_subspace34': 0.042}
+hand-s1.15 {'cos_to_clean': 1.0, 'shift_norm': 0.016, 'R1': 14.2, 'R1_delta_vs_clean': 0.0, 'shift_energy_in_signer_subspace34': 0.183, 'shift_energy_random_subspace34': 0.044}
+hand-s1.3 {'cos_to_clean': 0.999, 'shift_norm': 0.029, 'R1': 14.4, 'R1_delta_vs_clean': 0.2, 'shift_energy_in_signer_subspace34': 0.187, 'shift_energy_random_subspace34': 0.043}
+hand-s1.5 {'cos_to_clean': 0.998, 'shift_norm': 0.044, 'R1': 14.733, 'R1_delta_vs_clean': 0.533, 'shift_energy_in_signer_subspace34': 0.191, 'shift_energy_random_subspace34': 0.043}
+nonuni-s1.15 {'cos_to_clean': 0.981, 'shift_norm': 0.09, 'R1': 14.067, 'R1_delta_vs_clean': -0.133, 'shift_energy_in_signer_subspace34': 0.222, 'shift_energy_random_subspace34': 0.042}
+nonuni-s1.3 {'cos_to_clean': 0.965, 'shift_norm': 0.16, 'R1': 13.667, 'R1_delta_vs_clean': -0.533, 'shift_energy_in_signer_subspace34': 0.225, 'shift_energy_random_subspace34': 0.042}
+nonuni-s1.5 {'cos_to_clean': 0.944, 'shift_norm': 0.234, 'R1': 14.2, 'R1_delta_vs_clean': 0.0, 'shift_energy_in_signer_subspace34': 0.228, 'shift_energy_random_subspace34': 0.042}
+=== morph_effect 16:55:13
+face {'cos_clean_vs_morph_mean': 1.0, 'R1_morph_queries': 12.2, 'R1_drop': 0.0667, 'shift_energy_in_signer_subspace34': 0.113, 'shift_energy_in_within_gloss_top34': 0.1334, 'shift_energy_random_subspace34': 0.0453, 'mean_shift_cos_with_signer_subspace': 0.3913, 'shift_norm_mean': 0.0007}
+arm {'cos_clean_vs_morph_mean': 0.9803, 'R1_morph_queries': 12.5333, 'R1_drop': -0.2667, 'shift_energy_in_signer_subspace34': 0.2249, 'shift_energy_in_within_gloss_top34': 0.2691, 'shift_energy_random_subspace34': 0.0421, 'mean_shift_cos_with_signer_subspace': 0.4261, 'shift_norm_mean': 0.0887}
+hand {'cos_clean_vs_morph_mean': 0.9998, 'R1_morph_queries': 12.5333, 'R1_drop': -0.2667, 'shift_energy_in_signer_subspace34': 0.196, 'shift_energy_in_within_gloss_top34': 0.254, 'shift_energy_random_subspace34': 0.0464, 'mean_shift_cos_with_signer_subspace': 0.4781, 'shift_norm_mean': 0.0167}
+all {'cos_clean_vs_morph_mean': 0.9825, 'R1_morph_queries': 12.5333, 'R1_drop': -0.2667, 'shift_energy_in_signer_subspace34': 0.2213, 'shift_energy_in_within_gloss_top34': 0.2701, 'shift_energy_random_subspace34': 0.043, 'mean_shift_cos_with_signer_subspace': 0.3959, 'shift_norm_mean': 0.0889}
+{"same_gloss_diff_signer": 0.6010963916778564, "same_signer_diff_gloss": 0.4713888466358185, "random_pair": 0.4396264851093292} 0.8829366564750671
+=== routed_controls 16:55:16
+16 27.93090062111801 {'values': [28.610248447204967, 28.97903726708074, 29.11490683229814], 'mean': 28.901397515527947, 'sd': 0.21321502398142067}
+35 24.20419254658385 {'values': [28.31909937888199, 28.649068322981368, 28.396739130434785], 'mean': 28.45496894409938, 'sd': 0.14086141988274548}
+48 23.466614906832298 {'values': [27.98913043478261, 28.649068322981368, 28.377329192546586], 'mean': 28.338509316770185, 'sd': 0.27081327039928016}
+{'whiten': 24.941770186335404, 'K1_global': 24.767080745341616, 'K16_grp_clusters_routing': 27.93090062111801, 'K16_CLS_seeds': {'values': [28.610248447204967, 28.97903726708074, 29.11490683229814], 'mean': 28.901397515527947, 'sd': 0.21321502398142067}, 'K35_grp_clusters_routing': 24.20419254658385, 'K35_CLS_seeds': {'values': [28.31909937888199, 28.649068322981368, 28.396739130434785], 'mean': 28.45496894409938, 'sd': 0.14086141988274548}, 'K48_grp_clusters_routing': 23.466614906832298, 'K48_CLS_seeds': {'values': [27.98913043478261, 28.649068322981368, 28.377329192546586], 'mean': 28.338509316770185, 'sd': 0.27081327039928016}}
+cv 0 {'whiten': 15.401115401115401, 'routed_K35': 19.13341913341913, 'delta': 3.7323037323037305, 'n_queries': 2331}
+cv 1 {'whiten': 15.10015408320493, 'routed_K35': 16.461222393425786, 'delta': 1.3610683102208547, 'n_queries': 3894}
+cv 2 {'whiten': 12.280701754385964, 'routed_K35': 12.781954887218044, 'delta': 0.5012531328320797, 'n_queries': 1995}
+cv 3 {'whiten': 10.304375396322131, 'routed_K35': 12.048192771084338, 'delta': 1.743817374762207, 'n_queries': 3154}
+cv 4 {'whiten': 15.362165030512074, 'routed_K35': 19.660387370655346, 'delta': 4.298222340143273, 'n_queries': 3769}
+=== cls_early 16:56:12
+pilot_4k {'clips_train': 10039, 'clips_val': 2576, 'AMI_signer_train_K35': 0.45, 'AMI_signer_val_K6': 0.313, 'AMI_gloss_train_K35': 0.009, 'ARI_even_vs_odd_windows_train_ge4win': 0.83, 'n_clips_ge4win_train': 1164, 'n_clips_ge4win_val': 283, 'ARI_even_vs_odd_windows_val_ge4win': 0.549, 'CLS_eta2_signer': 0.369, 'CLS_signer_decode_linear_standardised': 85.857, 'CLS_same_signer_NN': 75.65, 'grp_raw_R1_val_vs_train_subset': 8.385, 'seconds': 234.208}
+pilot_16k {'clips_train': 10039, 'clips_val': 2576, 'AMI_signer_train_K35': 0.58, 'AMI_signer_val_K6': 0.474, 'AMI_gloss_train_K35': -0.006, 'ARI_even_vs_odd_windows_train_ge4win': 0.86, 'n_clips_ge4win_train': 1164, 'n_clips_ge4win_val': 283, 'ARI_even_vs_odd_windows_val_ge4win': 0.411, 'CLS_eta2_signer': 0.385, 'CLS_signer_decode_linear_standardised': 88.712, 'CLS_same_signer_NN': 87.225, 'grp_raw_R1_val_vs_train_subset': 13.393, 'seconds': 234.375}
+final_160ep {'clips_train': 10039, 'clips_val': 2576, 'AMI_signer_train_K35': 0.715, 'AMI_signer_val_K6': 0.489, 'AMI_gloss_train_K35': -0.013, 'ARI_even_vs_odd_windows_train_ge4win': 0.941, 'n_clips_ge4win_train': 1164, 'n_clips_ge4win_val': 283, 'ARI_even_vs_odd_windows_val_ge4win': 0.634, 'CLS_eta2_signer': 0.437, 'CLS_signer_decode_linear_standardised': 94.588, 'CLS_same_signer_NN': 95.625, 'grp_raw_R1_val_vs_train_subset': 13.781, 'seconds': 235.563}
+{'CLS_clusters': {'NMI_gloss': 0.3317018656291244, 'AMI_gloss': -0.016306279728352014, 'NMI_signer': 0.7084379869679032, 'AMI_signer': 0.7041355811996954}, 'random_clusters': {'NMI_gloss': 0.35813315991708056, 'AMI_gloss': -0.00045396103284963134}}
+R2FIXDONE

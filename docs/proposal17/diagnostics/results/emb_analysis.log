@@ -1,0 +1,20 @@
+teacher grp_L1 {'dim': 768, 'R1_raw': 14.58, 'R1_whiten': 22.46, 'R1_lda_ceiling': 34.2, 'eta2_gloss': 0.32, 'eta2_signer': 0.18, 'nn_same_signer': 76.2, 'nn_same_gloss': 5.0}
+teacher grp_L2 {'dim': 768, 'R1_raw': 17.47, 'R1_whiten': 25.29, 'R1_lda_ceiling': 36.61, 'eta2_gloss': 0.29, 'eta2_signer': 0.18, 'nn_same_signer': 77.3, 'nn_same_gloss': 5.38}
+teacher grp_L3 {'dim': 768, 'R1_raw': 12.09, 'R1_whiten': 21.27, 'R1_lda_ceiling': 32.92, 'eta2_gloss': 0.25, 'eta2_signer': 0.17, 'nn_same_signer': 83.92, 'nn_same_gloss': 2.73}
+teacher grp_L4 {'dim': 768, 'R1_raw': 14.97, 'R1_whiten': 23.56, 'R1_lda_ceiling': 36.32, 'eta2_gloss': 0.26, 'eta2_signer': 0.17, 'nn_same_signer': 82.83, 'nn_same_gloss': 3.47}
+teacher grp_L5 {'dim': 768, 'R1_raw': 14.98, 'R1_whiten': 24.09, 'R1_lda_ceiling': 36.08, 'eta2_gloss': 0.26, 'eta2_signer': 0.17, 'nn_same_signer': 82.83, 'nn_same_gloss': 3.22}
+teacher grp_L6 {'dim': 768, 'R1_raw': 13.45, 'R1_whiten': 23.97, 'R1_lda_ceiling': 35.89, 'eta2_gloss': 0.25, 'eta2_signer': 0.17, 'nn_same_signer': 83.73, 'nn_same_gloss': 2.85}
+teacher grp_fin {'dim': 768, 'R1_raw': 18.28, 'R1_whiten': 24.94, 'R1_lda_ceiling': 36.06, 'eta2_gloss': 0.3, 'eta2_signer': 0.14, 'nn_same_signer': 83.95, 'nn_same_gloss': 4.25}
+teacher ord2 {'dim': 1536, 'R1_raw': 12.75, 'R1_whiten': 18.94, 'R1_lda_ceiling': 29.89, 'eta2_gloss': 0.25, 'eta2_signer': 0.14, 'nn_same_signer': 87.53, 'nn_same_gloss': 2.58}
+teacher ord4 {'dim': 3072, 'R1_raw': 11.12, 'R1_whiten': 15.94, 'R1_lda_ceiling': 30.63, 'eta2_gloss': 0.24, 'eta2_signer': 0.13, 'nn_same_signer': 89.08, 'nn_same_gloss': 1.77}
+teacher ord4_L4 {'dim': 3072, 'R1_raw': 6.58, 'R1_whiten': 14.48, 'R1_lda_ceiling': 30.22, 'eta2_gloss': 0.2, 'eta2_signer': 0.19, 'nn_same_signer': 85.62, 'nn_same_gloss': 1.02}
+teacher ch_fin {'dim': 1792, 'R1_raw': 17.9, 'R1_whiten': 23.14, 'R1_lda_ceiling': 37.64, 'eta2_gloss': 0.29, 'eta2_signer': 0.14, 'nn_same_signer': 84.93, 'nn_same_gloss': 3.65}
+teacher cls_fin {'dim': 256, 'R1_raw': 0.25, 'R1_whiten': 0.5, 'R1_lda_ceiling': 0.82, 'eta2_gloss': 0.13, 'eta2_signer': 0.44, 'nn_same_signer': 96.63, 'nn_same_gloss': 0.03}
+student grp_L4 {'dim': 768, 'R1_raw': 14.98, 'R1_whiten': 23.64, 'R1_lda_ceiling': 35.97, 'eta2_gloss': 0.26, 'eta2_signer': 0.17, 'nn_same_signer': 82.82, 'nn_same_gloss': 3.4}
+student grp_fin {'dim': 768, 'R1_raw': 18.44, 'R1_whiten': 24.88, 'R1_lda_ceiling': 36.2, 'eta2_gloss': 0.3, 'eta2_signer': 0.14, 'nn_same_signer': 83.93, 'nn_same_gloss': 4.27}
+student ord4 {'dim': 3072, 'R1_raw': 11.18, 'R1_whiten': 15.94, 'R1_lda_ceiling': 30.8, 'eta2_gloss': 0.24, 'eta2_signer': 0.13, 'nn_same_signer': 89.15, 'nn_same_gloss': 1.78}
+student cls_fin {'dim': 256, 'R1_raw': 0.23, 'R1_whiten': 0.49, 'R1_lda_ceiling': 0.78, 'eta2_gloss': 0.13, 'eta2_signer': 0.44, 'nn_same_signer': 96.72, 'nn_same_gloss': 0.03}
+random grp_L4 {'dim': 768, 'R1_raw': 5.03, 'R1_whiten': 11.32, 'eta2_gloss': 0.26, 'eta2_signer': 0.25, 'nn_same_signer': 72.57, 'nn_same_gloss': 1.48}
+random grp_fin {'dim': 768, 'R1_raw': 4.21, 'R1_whiten': 10.99, 'R1_lda_ceiling': 17.37, 'eta2_gloss': 0.25, 'eta2_signer': 0.27, 'nn_same_signer': 72.35, 'nn_same_gloss': 1.38}
+random ord4 {'dim': 3072, 'R1_raw': 1.92, 'R1_whiten': 4.23, 'R1_lda_ceiling': 9.65, 'eta2_gloss': 0.19, 'eta2_signer': 0.24, 'nn_same_signer': 75.8, 'nn_same_gloss': 0.63}
+random cls_fin {'dim': 256, 'R1_raw': 1.55, 'R1_whiten': 4.77, 'eta2_gloss': 0.2, 'eta2_signer': 0.36, 'nn_same_signer': 64.58, 'nn_same_gloss': 0.52}

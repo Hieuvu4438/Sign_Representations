@@ -1,0 +1,376 @@
+{
+  "protocol": "in_domain_ssl",
+  "model_selection_scope": "target_validation",
+  "gallery_manifest": "train.jsonl",
+  "query_manifest": "val.jsonl",
+  "classes": [
+    "APRIL",
+    "FOREST",
+    "PERCENT",
+    "SLIDE1"
+  ],
+  "seed": 42,
+  "counts": {
+    "train": 16,
+    "val": 8,
+    "test": 8
+  },
+  "scope": "small stratified official-split sanity subset, not full ASL-Citizen benchmark",
+  "timing_policy": "verified monotonic source PTS with matching native cache frame count",
+  "extractor_limitation": "Existing detector profile/weight hash unavailable; no claim of exact RTMPose-x/RTMW reproduction",
+  "score_profile": "Explicit legacy input adaptation: q=s/(1+s), raw SimCC scores preserved for audit; not calibrated probabilities",
+  "tracking_audit": [
+    {
+      "sample_id": "asl_citizen/train/32407822480085513-seedAPRIL",
+      "tracking": {
+        "frames": 139,
+        "multiple_person_frames": 6,
+        "missing_frames": 0,
+        "ambiguous_frames": 4,
+        "track_switches": 0
+      },
+      "frame_pts_count": 139
+    },
+    {
+      "sample_id": "asl_citizen/train/16135350953831118-APRIL",
+      "tracking": {
+        "frames": 53,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 53
+    },
+    {
+      "sample_id": "asl_citizen/train/22276891088783168-APRIL",
+      "tracking": {
+        "frames": 156,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 156
+    },
+    {
+      "sample_id": "asl_citizen/train/09522058265314803-APRIL",
+      "tracking": {
+        "frames": 64,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 64
+    },
+    {
+      "sample_id": "asl_citizen/train/869108760353988-seedFOREST",
+      "tracking": {
+        "frames": 153,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 153
+    },
+    {
+      "sample_id": "asl_citizen/train/03851538519892728-FOREST",
+      "tracking": {
+        "frames": 69,
+        "multiple_person_frames": 5,
+        "missing_frames": 0,
+        "ambiguous_frames": 2,
+        "track_switches": 0
+      },
+      "frame_pts_count": 69
+    },
+    {
+      "sample_id": "asl_citizen/train/49715791083486915-FOREST",
+      "tracking": {
+        "frames": 48,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 48
+    },
+    {
+      "sample_id": "asl_citizen/train/38183850285701504-FOREST",
+      "tracking": {
+        "frames": 55,
+        "multiple_person_frames": 2,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 55
+    },
+    {
+      "sample_id": "asl_citizen/train/3732230150996132-PERCENT",
+      "tracking": {
+        "frames": 96,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 96
+    },
+    {
+      "sample_id": "asl_citizen/train/2098131457374235-PERCENT",
+      "tracking": {
+        "frames": 80,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 80
+    },
+    {
+      "sample_id": "asl_citizen/train/9484871392428424-PERCENT",
+      "tracking": {
+        "frames": 160,
+        "multiple_person_frames": 12,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 160
+    },
+    {
+      "sample_id": "asl_citizen/train/003969044566749069-PERCENT",
+      "tracking": {
+        "frames": 64,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 64
+    },
+    {
+      "sample_id": "asl_citizen/train/08330156429535229-SLIDE",
+      "tracking": {
+        "frames": 71,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 71
+    },
+    {
+      "sample_id": "asl_citizen/train/6720510014981054-SLIDE",
+      "tracking": {
+        "frames": 58,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 58
+    },
+    {
+      "sample_id": "asl_citizen/train/7279901420631356-SLIDE",
+      "tracking": {
+        "frames": 76,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 76
+    },
+    {
+      "sample_id": "asl_citizen/train/4899986249081101-SLIDE",
+      "tracking": {
+        "frames": 49,
+        "multiple_person_frames": 6,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 49
+    },
+    {
+      "sample_id": "asl_citizen/val/288632544575927-APRIL",
+      "tracking": {
+        "frames": 102,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 102
+    },
+    {
+      "sample_id": "asl_citizen/val/7399220938025828-APRIL",
+      "tracking": {
+        "frames": 85,
+        "multiple_person_frames": 1,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 85
+    },
+    {
+      "sample_id": "asl_citizen/val/8357843889007757-FOREST",
+      "tracking": {
+        "frames": 173,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 173
+    },
+    {
+      "sample_id": "asl_citizen/val/2597890978149069-FOREST",
+      "tracking": {
+        "frames": 65,
+        "multiple_person_frames": 1,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 65
+    },
+    {
+      "sample_id": "asl_citizen/val/9708960080464999-PERCENT",
+      "tracking": {
+        "frames": 161,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 161
+    },
+    {
+      "sample_id": "asl_citizen/val/026888102793646063-PERCENT",
+      "tracking": {
+        "frames": 36,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 36
+    },
+    {
+      "sample_id": "asl_citizen/val/9670225410087576-SLIDE",
+      "tracking": {
+        "frames": 96,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 96
+    },
+    {
+      "sample_id": "asl_citizen/val/31018424970164493-SLIDE",
+      "tracking": {
+        "frames": 60,
+        "multiple_person_frames": 6,
+        "missing_frames": 0,
+        "ambiguous_frames": 1,
+        "track_switches": 0
+      },
+      "frame_pts_count": 60
+    },
+    {
+      "sample_id": "asl_citizen/test/48699657059171453-APRIL",
+      "tracking": {
+        "frames": 106,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 106
+    },
+    {
+      "sample_id": "asl_citizen/test/6119197197708666-APRIL",
+      "tracking": {
+        "frames": 108,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 108
+    },
+    {
+      "sample_id": "asl_citizen/test/10015750786305833-FOREST",
+      "tracking": {
+        "frames": 5,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 5
+    },
+    {
+      "sample_id": "asl_citizen/test/7094032538211896-FOREST",
+      "tracking": {
+        "frames": 65,
+        "multiple_person_frames": 1,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 65
+    },
+    {
+      "sample_id": "asl_citizen/test/09791984619468663-PERCENT",
+      "tracking": {
+        "frames": 47,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 47
+    },
+    {
+      "sample_id": "asl_citizen/test/23484282174595572-PERCENT",
+      "tracking": {
+        "frames": 71,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 71
+    },
+    {
+      "sample_id": "asl_citizen/test/9940752109168005-SLIDE",
+      "tracking": {
+        "frames": 83,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 83
+    },
+    {
+      "sample_id": "asl_citizen/test/5951736418206235-SLIDE",
+      "tracking": {
+        "frames": 65,
+        "multiple_person_frames": 0,
+        "missing_frames": 0,
+        "ambiguous_frames": 0,
+        "track_switches": 0
+      },
+      "frame_pts_count": 65
+    }
+  ]
+}

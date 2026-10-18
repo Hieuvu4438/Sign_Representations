@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "3-real-video operational correctness, no ASLC3000 final score",
+  "unit_tests": 131,
+  "interruption": {
+    "status": "interruption_saved_checkpoint",
+    "checkpoint_successful_step": 1,
+    "checkpoint_attempted_batches": 1,
+    "interruption_exit_code": 75
+  },
+  "restart_final_successful_step": 2,
+  "training_log_steps": [
+    1,
+    2
+  ],
+  "final_exit_code": 0,
+  "classifier_trained": false,
+  "checkpoint_sha256": "7b4b7272a543111ab5af4ec76fc3f7c91b32c08cf6197d1c95f64e5e22663f8b",
+  "runtime_implementation_hash": "4357b1e14f62d8d7dae316377a2b90d610a1b893b07af532729c2a757631b1e7",
+  "actual_reboot_performed": false,
+  "interruption_and_restart_exercised": true,
+  "systemd_service_file_sha256": "aae4513dcc71c3deb5a768a010256f34df978c300aba9e9d95c3c16ed594db8e",
+  "test_log_sha256": "4d0115c05bbc55937db7680bb08c216eef4bebc7f5a29ae88e87e4dfef2d19b8"
+}

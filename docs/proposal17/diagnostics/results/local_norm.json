@@ -1,0 +1,22 @@
+{
+ "raw": 22.719332298136646,
+ "whiten": 29.435170807453414,
+ "local-mean k10 b0.5": 24.301242236024844,
+ "local-mean k10 b0.5 +whiten": 27.562111801242235,
+ "local-mean k10 b1.0": 12.956133540372672,
+ "local-mean k10 b1.0 +whiten": 16.624611801242235,
+ "csls k10 on raw": 23.27251552795031,
+ "csls k10 on whiten": 29.7069099378882,
+ "local-mean k50 b0.5": 27.61063664596273,
+ "local-mean k50 b0.5 +whiten": 30.221273291925467,
+ "local-mean k50 b1.0": 27.494177018633543,
+ "local-mean k50 b1.0 +whiten": 27.36801242236025,
+ "csls k50 on raw": 23.4472049689441,
+ "csls k50 on whiten": 29.6195652173913,
+ "local-mean k200 b0.5": 26.970108695652172,
+ "local-mean k200 b0.5 +whiten": 30.20186335403727,
+ "local-mean k200 b1.0": 30.405667701863354,
+ "local-mean k200 b1.0 +whiten": 29.86218944099379,
+ "csls k200 on raw": 23.515139751552795,
+ "csls k200 on whiten": 29.47399068322981
+}

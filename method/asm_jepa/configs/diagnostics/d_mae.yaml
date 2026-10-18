@@ -1,0 +1,7 @@
+# 5k-step diagnostic variant of final.yaml (see scripts/diagnostics/run_queue.sh)
+inherits: [../pretrain/final.yaml]
+experiment: diag_mae_r1
+features: {relations: true, geometry_paths: false, timing_paths: false}
+train: {objective: mae}
+loss: {lambda_anchor: 0.0, lambda_global: 0.0}
+eval: {encoder: online}

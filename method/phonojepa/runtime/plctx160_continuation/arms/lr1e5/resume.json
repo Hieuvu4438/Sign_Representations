@@ -1,0 +1,6 @@
+{
+  "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation/arms/lr1e5/last.pt",
+  "step": 201574,
+  "branch_step": 934,
+  "fallback_errors": []
+}

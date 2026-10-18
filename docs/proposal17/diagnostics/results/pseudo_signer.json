@@ -1,0 +1,19 @@
+{
+ "n_train_with_style": 20046,
+ "n_val_with_style": 10302,
+ "subset_raw": 18.190642593671132,
+ "subset_whiten": 24.509803921568626,
+ "subset_true_signer_CORAL+whiten": 32.061735585323234,
+ "K35_AMI_train": 0.48236707312284777,
+ "K35_AMI_val": 0.1484350663950418,
+ "K35_pseudoCORAL_transductive+whiten": 25.538730343622596,
+ "K35_pseudoCORAL_inductive+whiten": 23.65560085420307,
+ "K70_AMI_train": 0.4897326981750377,
+ "K70_AMI_val": 0.14768000930095804,
+ "K70_pseudoCORAL_transductive+whiten": 25.86876334692293,
+ "K70_pseudoCORAL_inductive+whiten": 22.927586876334693,
+ "K140_AMI_train": 0.4900755516561565,
+ "K140_AMI_val": 0.15761594966950465,
+ "K140_pseudoCORAL_transductive+whiten": 25.383420695010678,
+ "K140_pseudoCORAL_inductive+whiten": 23.461463793438167
+}

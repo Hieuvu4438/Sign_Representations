@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "errors": [],
+  "near_duplicate_candidates": [],
+  "near_duplicate_policy": "review or exclude training candidates before real runs",
+  "coverage": {
+    "samples": 32,
+    "known_timing": 32,
+    "normalization_failed": 0,
+    "body_observed_frames": 2719,
+    "left_hand_observed_frames": 2719,
+    "right_hand_observed_frames": 2719,
+    "face_observed_frames": 2719,
+    "frames": 2719
+  },
+  "manifest_sha256": "0a6b33cd23cc9d777712e50d738545d774dfc6106d9a84a692a0ab1c9a3336e7"
+}

@@ -1,0 +1,378 @@
+{
+ "static(all)": {
+  "SignType": {
+   "bal_acc": 57.91481153441668,
+   "chance": 25.0,
+   "n_val": 9982
+  },
+  "Movement": {
+   "bal_acc": 31.091840856719,
+   "chance": 20.0,
+   "n_val": 8469
+  },
+  "Repeated": {
+   "bal_acc": 58.78140429607183,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "MajorLoc": {
+   "bal_acc": 52.65271146363709,
+   "chance": 20.0,
+   "n_val": 10276
+  },
+  "Contact": {
+   "bal_acc": 65.98597683128648,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "FlexChange": {
+   "bal_acc": 57.86549593769021,
+   "chance": 50.0,
+   "n_val": 9585
+  },
+  "WristTwist": {
+   "bal_acc": 54.39738015247863,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "SelFingers": {
+   "bal_acc": 50.258306669548936,
+   "chance": 16.666666666666668,
+   "n_val": 10131
+  },
+  "Flexion": {
+   "bal_acc": 37.216441479207354,
+   "chance": 20.0,
+   "n_val": 9310
+  }
+ },
+ "bins8(all)": {
+  "SignType": {
+   "bal_acc": 57.62172212685779,
+   "chance": 25.0,
+   "n_val": 9982
+  },
+  "Movement": {
+   "bal_acc": 29.18498652876259,
+   "chance": 20.0,
+   "n_val": 8469
+  },
+  "Repeated": {
+   "bal_acc": 55.550932710698234,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "MajorLoc": {
+   "bal_acc": 52.671475234982815,
+   "chance": 20.0,
+   "n_val": 10276
+  },
+  "Contact": {
+   "bal_acc": 66.43193101646199,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "FlexChange": {
+   "bal_acc": 56.03655633693621,
+   "chance": 50.0,
+   "n_val": 9585
+  },
+  "WristTwist": {
+   "bal_acc": 54.305723274711895,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "SelFingers": {
+   "bal_acc": 50.125261506441454,
+   "chance": 16.666666666666668,
+   "n_val": 10131
+  },
+  "Flexion": {
+   "bal_acc": 38.87167009185733,
+   "chance": 20.0,
+   "n_val": 9310
+  }
+ },
+ "vel8(all)": {
+  "SignType": {
+   "bal_acc": 51.481645902425896,
+   "chance": 25.0,
+   "n_val": 9982
+  },
+  "Movement": {
+   "bal_acc": 28.422845686226676,
+   "chance": 20.0,
+   "n_val": 8469
+  },
+  "Repeated": {
+   "bal_acc": 57.4713107628108,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "MajorLoc": {
+   "bal_acc": 46.56291128372761,
+   "chance": 20.0,
+   "n_val": 10276
+  },
+  "Contact": {
+   "bal_acc": 62.96896321458642,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "FlexChange": {
+   "bal_acc": 54.38789514461404,
+   "chance": 50.0,
+   "n_val": 9585
+  },
+  "WristTwist": {
+   "bal_acc": 55.820768701595405,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "SelFingers": {
+   "bal_acc": 33.14783287688923,
+   "chance": 16.666666666666668,
+   "n_val": 10131
+  },
+  "Flexion": {
+   "bal_acc": 28.68047059644161,
+   "chance": 20.0,
+   "n_val": 9310
+  }
+ },
+ "sig glob+loc4 (man)": {
+  "SignType": {
+   "bal_acc": 43.2156422279115,
+   "chance": 25.0,
+   "n_val": 9982
+  },
+  "Movement": {
+   "bal_acc": 26.30342675208309,
+   "chance": 20.0,
+   "n_val": 8469
+  },
+  "Repeated": {
+   "bal_acc": 53.26842031181434,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "MajorLoc": {
+   "bal_acc": 40.45536619245713,
+   "chance": 20.0,
+   "n_val": 10276
+  },
+  "Contact": {
+   "bal_acc": 58.65074180530152,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "FlexChange": {
+   "bal_acc": 53.935803985497465,
+   "chance": 50.0,
+   "n_val": 9585
+  },
+  "WristTwist": {
+   "bal_acc": 52.69235433815582,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "SelFingers": {
+   "bal_acc": 28.128368825744506,
+   "chance": 16.666666666666668,
+   "n_val": 10131
+  },
+  "Flexion": {
+   "bal_acc": 27.85725254927252,
+   "chance": 20.0,
+   "n_val": 9310
+  }
+ },
+ "sig glob+loc4+base (man)": {
+  "SignType": {
+   "bal_acc": 51.07544038391288,
+   "chance": 25.0,
+   "n_val": 9982
+  },
+  "Movement": {
+   "bal_acc": 25.556679148004175,
+   "chance": 20.0,
+   "n_val": 8469
+  },
+  "Repeated": {
+   "bal_acc": 53.78786937910364,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "MajorLoc": {
+   "bal_acc": 46.75273428645763,
+   "chance": 20.0,
+   "n_val": 10276
+  },
+  "Contact": {
+   "bal_acc": 62.90577911331765,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "FlexChange": {
+   "bal_acc": 54.09096326574975,
+   "chance": 50.0,
+   "n_val": 9585
+  },
+  "WristTwist": {
+   "bal_acc": 52.79895950432491,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "SelFingers": {
+   "bal_acc": 31.017382373102592,
+   "chance": 16.666666666666668,
+   "n_val": 10131
+  },
+  "Flexion": {
+   "bal_acc": 29.028686060187397,
+   "chance": 20.0,
+   "n_val": 9310
+  }
+ },
+ "sig glob+loc4+base+LL2 (man)": {
+  "SignType": {
+   "bal_acc": 51.286755919528396,
+   "chance": 25.0,
+   "n_val": 9982
+  },
+  "Movement": {
+   "bal_acc": 28.337646860615738,
+   "chance": 20.0,
+   "n_val": 8469
+  },
+  "Repeated": {
+   "bal_acc": 56.543981883967966,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "MajorLoc": {
+   "bal_acc": 48.434798656927455,
+   "chance": 20.0,
+   "n_val": 10276
+  },
+  "Contact": {
+   "bal_acc": 63.612526493046474,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "FlexChange": {
+   "bal_acc": 54.2793766576399,
+   "chance": 50.0,
+   "n_val": 9585
+  },
+  "WristTwist": {
+   "bal_acc": 53.336942140203504,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "SelFingers": {
+   "bal_acc": 31.01909440924016,
+   "chance": 16.666666666666668,
+   "n_val": 10131
+  },
+  "Flexion": {
+   "bal_acc": 29.058364596651074,
+   "chance": 20.0,
+   "n_val": 9310
+  }
+ },
+ "sig glob+loc4+base smooth5 (man)": {
+  "SignType": {
+   "bal_acc": 52.40594624984064,
+   "chance": 25.0,
+   "n_val": 9982
+  },
+  "Movement": {
+   "bal_acc": 26.060909587478108,
+   "chance": 20.0,
+   "n_val": 8469
+  },
+  "Repeated": {
+   "bal_acc": 54.45000565781013,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "MajorLoc": {
+   "bal_acc": 47.47326205830262,
+   "chance": 20.0,
+   "n_val": 10276
+  },
+  "Contact": {
+   "bal_acc": 63.850492117411385,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "FlexChange": {
+   "bal_acc": 54.6402257891399,
+   "chance": 50.0,
+   "n_val": 9585
+  },
+  "WristTwist": {
+   "bal_acc": 53.0466947963095,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "SelFingers": {
+   "bal_acc": 33.517302221773846,
+   "chance": 16.666666666666668,
+   "n_val": 10131
+  },
+  "Flexion": {
+   "bal_acc": 29.781030592608417,
+   "chance": 20.0,
+   "n_val": 9310
+  }
+ },
+ "bins8+sigLL2": {
+  "SignType": {
+   "bal_acc": 55.80081110608036,
+   "chance": 25.0,
+   "n_val": 9982
+  },
+  "Movement": {
+   "bal_acc": 28.59009675847962,
+   "chance": 20.0,
+   "n_val": 8469
+  },
+  "Repeated": {
+   "bal_acc": 57.21022352489851,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "MajorLoc": {
+   "bal_acc": 52.420492869471694,
+   "chance": 20.0,
+   "n_val": 10276
+  },
+  "Contact": {
+   "bal_acc": 65.84509189095027,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "FlexChange": {
+   "bal_acc": 54.47081617036736,
+   "chance": 50.0,
+   "n_val": 9585
+  },
+  "WristTwist": {
+   "bal_acc": 53.62422014119175,
+   "chance": 50.0,
+   "n_val": 10278
+  },
+  "SelFingers": {
+   "bal_acc": 39.65362723711902,
+   "chance": 16.666666666666668,
+   "n_val": 10131
+  },
+  "Flexion": {
+   "bal_acc": 33.24382603430607,
+   "chance": 20.0,
+   "n_val": 9310
+  }
+ }
+}

@@ -1,0 +1,168 @@
+{
+  "method": "pose_jepa_hybrid_v1",
+  "reference_files": [
+    {
+      "source": "Uni-Sign",
+      "repository": "https://github.com/ZechengLi19/Uni-Sign",
+      "revision": "eed438bcb49e30405cd6ccdfcccca330c134e830",
+      "file": "datasets.py",
+      "url": "https://raw.githubusercontent.com/ZechengLi19/Uni-Sign/eed438bcb49e30405cd6ccdfcccca330c134e830/datasets.py",
+      "status": "downloaded_reference_only",
+      "bytes": 24429,
+      "sha256": "5c34433202f313e1d06f30533bd8d5c0919274c91e2d89115571bd0d58552ed3"
+    },
+    {
+      "source": "Uni-Sign",
+      "repository": "https://github.com/ZechengLi19/Uni-Sign",
+      "revision": "eed438bcb49e30405cd6ccdfcccca330c134e830",
+      "file": "models.py",
+      "url": "https://raw.githubusercontent.com/ZechengLi19/Uni-Sign/eed438bcb49e30405cd6ccdfcccca330c134e830/models.py",
+      "status": "downloaded_reference_only",
+      "bytes": 15138,
+      "sha256": "e4ce146e084e7edce20d244024f97db6404311529be31161ff23df040dbbd8ac"
+    },
+    {
+      "source": "Uni-Sign",
+      "repository": "https://github.com/ZechengLi19/Uni-Sign",
+      "revision": "eed438bcb49e30405cd6ccdfcccca330c134e830",
+      "file": "demo/pose_extraction.py",
+      "url": "https://raw.githubusercontent.com/ZechengLi19/Uni-Sign/eed438bcb49e30405cd6ccdfcccca330c134e830/demo/pose_extraction.py",
+      "status": "downloaded_reference_only",
+      "bytes": 3056,
+      "sha256": "f304e07dfa92a8df7f61917d16accf77411f4ca88e25ff91ee0b35eac90b25d8"
+    },
+    {
+      "source": "SignRep",
+      "repository": "https://github.com/ryanwongsa/SignRep",
+      "revision": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+      "file": "example_usage.py",
+      "url": "https://raw.githubusercontent.com/ryanwongsa/SignRep/06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2/example_usage.py",
+      "status": "downloaded_reference_only",
+      "bytes": 3169,
+      "sha256": "a53aa5b1c21e34ece8b7c228751a08c15de90f25914b8fe7d80115225f34af97"
+    },
+    {
+      "source": "SignRep",
+      "repository": "https://github.com/ryanwongsa/SignRep",
+      "revision": "06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2",
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/ryanwongsa/SignRep/06f40b5d287867b24e0dd2dc380b40b3f2ae8ac2/README.md",
+      "status": "downloaded_reference_only",
+      "bytes": 2295,
+      "sha256": "2b73bf6ecbbbffe43189ef3032509aa9987223af980dd378d06081554dbd2020"
+    },
+    {
+      "source": "MASA",
+      "repository": "https://github.com/sakura2233565548/MASA",
+      "revision": "53bbb3b77bab7e98d33d7fcbd230e3e98c832ed1",
+      "file": "moco/GCN_Transformer_mask.py",
+      "url": "https://raw.githubusercontent.com/sakura2233565548/MASA/53bbb3b77bab7e98d33d7fcbd230e3e98c832ed1/moco/GCN_Transformer_mask.py",
+      "status": "downloaded_reference_only",
+      "bytes": 8603,
+      "sha256": "30af2781dc4f58bdce79a33691970a44197e42f01886554d3f8df1ed58c0f144"
+    },
+    {
+      "source": "MASA",
+      "repository": "https://github.com/sakura2233565548/MASA",
+      "revision": "53bbb3b77bab7e98d33d7fcbd230e3e98c832ed1",
+      "file": "moco/st_gcn_encoder/st_gcn_single_frame.py",
+      "url": "https://raw.githubusercontent.com/sakura2233565548/MASA/53bbb3b77bab7e98d33d7fcbd230e3e98c832ed1/moco/st_gcn_encoder/st_gcn_single_frame.py",
+      "status": "downloaded_reference_only",
+      "bytes": 11768,
+      "sha256": "2b840d3426abe88e6f3259b6925c370473ae6515e125e433f669c4e91865638b"
+    },
+    {
+      "source": "MAMP",
+      "repository": "https://github.com/maoyunyao/MAMP",
+      "revision": "09e6252a5c7d061c226395d25e6aa47a69e7e58d",
+      "file": "model_mamp/transformer.py",
+      "url": "https://raw.githubusercontent.com/maoyunyao/MAMP/09e6252a5c7d061c226395d25e6aa47a69e7e58d/model_mamp/transformer.py",
+      "status": "downloaded_reference_only",
+      "bytes": 17661,
+      "sha256": "9c29a96ff475c92908baef74a0cfbf820a8a74e6462866adf4feca2c96950431"
+    },
+    {
+      "source": "MAMP",
+      "repository": "https://github.com/maoyunyao/MAMP",
+      "revision": "09e6252a5c7d061c226395d25e6aa47a69e7e58d",
+      "file": "engine_pretrain.py",
+      "url": "https://raw.githubusercontent.com/maoyunyao/MAMP/09e6252a5c7d061c226395d25e6aa47a69e7e58d/engine_pretrain.py",
+      "status": "downloaded_reference_only",
+      "bytes": 3202,
+      "sha256": "4f37f23998b364d9ed5924c8233c62c5dad1205bfd8f4127e45226ddf24d0dc4"
+    },
+    {
+      "source": "V-JEPA",
+      "repository": "https://github.com/facebookresearch/jepa",
+      "revision": "51c59d518fc63c08464af6de585f78ac0c7ed4d5",
+      "file": "app/vjepa/train.py",
+      "url": "https://raw.githubusercontent.com/facebookresearch/jepa/51c59d518fc63c08464af6de585f78ac0c7ed4d5/app/vjepa/train.py",
+      "status": "downloaded_reference_only",
+      "bytes": 22371,
+      "sha256": "8ea5d5da27497784aab95a98ed64d683de2e60008c74b7f88096d6f198c98dbe"
+    },
+    {
+      "source": "V-JEPA",
+      "repository": "https://github.com/facebookresearch/jepa",
+      "revision": "51c59d518fc63c08464af6de585f78ac0c7ed4d5",
+      "file": "src/models/predictor.py",
+      "url": "https://raw.githubusercontent.com/facebookresearch/jepa/51c59d518fc63c08464af6de585f78ac0c7ed4d5/src/models/predictor.py",
+      "status": "downloaded_reference_only",
+      "bytes": 8562,
+      "sha256": "2a2d6febea26d5a670445f97bc9bc4c726617ee3d02a38f9aeff3b4b6db5a816"
+    },
+    {
+      "source": "V-JEPA-2.1",
+      "repository": "https://github.com/facebookresearch/vjepa2",
+      "revision": "204698b45b3712590f06245fbfba32d3be539812",
+      "file": "app/vjepa_2_1/train.py",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vjepa2/204698b45b3712590f06245fbfba32d3be539812/app/vjepa_2_1/train.py",
+      "status": "downloaded_reference_only",
+      "bytes": 32478,
+      "sha256": "6057c8968c90dc96935680e8f617bbe8db836fc30698a053b0aceaa985f39b93"
+    },
+    {
+      "source": "V-JEPA-2.1",
+      "repository": "https://github.com/facebookresearch/vjepa2",
+      "revision": "204698b45b3712590f06245fbfba32d3be539812",
+      "file": "app/vjepa_2_1/models/predictor.py",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vjepa2/204698b45b3712590f06245fbfba32d3be539812/app/vjepa_2_1/models/predictor.py",
+      "status": "downloaded_reference_only",
+      "bytes": 10679,
+      "sha256": "30111720eb90c6dcdde44521cea53cc736020f984e5573150fd3dc7b4acc05d8"
+    }
+  ],
+  "S-JEPA": {
+    "source": "https://sjepa.github.io/",
+    "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04755.pdf",
+    "implementation": "independent implementation from proposal14; no official source/checkpoint loaded"
+  },
+  "SignSeek": {
+    "source": "https://arxiv.org/abs/2609.03695",
+    "status": "guide_reference_only; browser retrieval failed; no code/weights loaded"
+  },
+  "external_weights": [
+    {
+      "source": "ZechengLi19/Uni-Sign",
+      "revision": "eab251b7fe7e8521afc0e67be98add670ea40a0d",
+      "status": "not_loaded_into_pose_jepa"
+    },
+    {
+      "source": "SignRep v0.0.1 ckpt.pt",
+      "status": "not_loaded_into_pose_jepa; RGB baseline is a separate existing package"
+    },
+    {
+      "source": "MAMP/MASA author share links",
+      "status": "linked_by_author_not_loaded"
+    },
+    {
+      "source": "google/mt5-base",
+      "status": "model_config_loaded_weights_not_downloaded",
+      "revision": "2eb15465c5dd7f72a8f7984306ad05ebc3dd1e1f",
+      "config_url": "https://huggingface.co/google/mt5-base/resolve/2eb15465c5dd7f72a8f7984306ad05ebc3dd1e1f/config.json",
+      "config_sha256": "7ce360bdccf5b665dbb8c32f6912f1d8fd394aa553c133863283a16503d6d550",
+      "d_model": 768
+    }
+  ],
+  "copied_implementation_code": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "00336",
+  "source": "WLASL2000 official train",
+  "shape": [
+    56,
+    103,
+    2
+  ],
+  "fps": 25.0,
+  "readout_shapes": {
+    "grp": [
+      768
+    ],
+    "grp+P": [
+      1536
+    ],
+    "mw": [
+      1536
+    ],
+    "ord2": [
+      3072
+    ]
+  },
+  "official_test_used": false
+}

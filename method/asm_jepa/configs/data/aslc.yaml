@@ -1,0 +1,14 @@
+# Official ASL-Citizen v1.0 layout. raw_root is relative to method/asm_jepa (data/raw/ASL_Citizen may be a
+# local symlink to the extracted archive); override with --raw-root instead of editing source code.
+dataset: asl_citizen
+expected_version: v1.0
+raw_root: data/raw/ASL_Citizen
+processed_root: data/processed/aslc
+splits_dir: splits
+videos_dir: videos
+split_files: {train: train.csv, val: val.csv, test: test.csv}
+csv_positions: {signer: 0, filename: 1, gloss: 2}
+csv_headers: {signer: Participant ID, filename: Video file, gloss: Gloss}
+expected_counts: {train: 40154, val: 10304, test: 32941, glosses: 2731,
+                  train_signers: 35, val_signers: 6, test_signers: 11}
+probe_workers: 8

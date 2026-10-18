@@ -1,0 +1,11 @@
+{
+ "arm": "jh3d",
+ "out": "runtime/JH3D_NOPRIOR_20261013",
+ "steps": 4000,
+ "videos": 16,
+ "jepa_w": 1.0,
+ "prior_w": 0.0,
+ "ema": 0.99925,
+ "workers": 6,
+ "seed": 20261008
+}

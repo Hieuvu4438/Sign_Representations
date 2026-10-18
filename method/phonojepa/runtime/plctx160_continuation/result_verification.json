@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "finished_local": "2026-10-16T06:11:03.147630+07:00",
+  "checkpoint_sha256_matches_selection": true,
+  "query_count": 32941,
+  "rank_metrics_recomputed_match_report": true,
+  "baseline_metrics": {
+    "DCG": 0.3961825796186131,
+    "MRR": 0.26646363127001454,
+    "Rec@1": 0.16678303633769467,
+    "Rec@5": 0.36896269087155825,
+    "Rec@10": 0.46941501472329317,
+    "macro_Rec@1": 0.16792211191402392
+  },
+  "continuation_metrics": {
+    "DCG": 0.3957777517855792,
+    "MRR": 0.2660343039059418,
+    "Rec@1": 0.16632767675541119,
+    "Rec@5": 0.36783947056859234,
+    "Rec@10": 0.46844358094775507,
+    "macro_Rec@1": 0.16747974334642654
+  },
+  "difference": {
+    "DCG": -0.0004048278330338606,
+    "MRR": -0.0004293273640727513,
+    "Rec@1": -0.0004553595822834877,
+    "Rec@5": -0.0011232203029659105,
+    "Rec@10": -0.0009714337755380997,
+    "macro_Rec@1": -0.0004423685675973843
+  },
+  "baseline_top1_correct": 5494,
+  "continuation_top1_correct": 5479,
+  "job_elapsed_hours": 8.136503333118227,
+  "test_evaluated_only_for_validation_selected_lr1e5": true,
+  "statistical_significance_tested": false
+}

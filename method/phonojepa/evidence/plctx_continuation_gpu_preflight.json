@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "technical GPU correctness; not validation-quality result",
+  "gpu": "NVIDIA RTX 5880 Ada Generation",
+  "batch": 32,
+  "precision": "native BF16",
+  "base_step": 200640,
+  "resume_step": 200641,
+  "next_batch_bitwise_equal": true,
+  "student_predictor_heads_teacher_bitwise_equal": true,
+  "center_bitwise_equal": true,
+  "losses_equal": true,
+  "loss1": 3.2674460411071777,
+  "loss2": 3.423556327819824,
+  "original_gallery_feature_max_abs_difference": 0.0,
+  "peak_allocated_MiB": 1860.609375,
+  "seconds": 9.454277276992798
+}

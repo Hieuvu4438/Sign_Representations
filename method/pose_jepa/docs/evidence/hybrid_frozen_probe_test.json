@@ -1,0 +1,63 @@
+{
+  "metrics": {
+    "Top1_micro": 0.375,
+    "Top5_micro": 1.0,
+    "Top1_macro": 0.375,
+    "Top5_macro": 1.0,
+    "num_samples": 8,
+    "valid_samples": 8,
+    "unit": "fraction"
+  },
+  "predictions": [
+    {
+      "sample_id": "asl_citizen/test/48699657059171453-APRIL",
+      "valid": true,
+      "label_index": 0,
+      "prediction_index": 3
+    },
+    {
+      "sample_id": "asl_citizen/test/6119197197708666-APRIL",
+      "valid": true,
+      "label_index": 0,
+      "prediction_index": 3
+    },
+    {
+      "sample_id": "asl_citizen/test/10015750786305833-FOREST",
+      "valid": true,
+      "label_index": 1,
+      "prediction_index": 2
+    },
+    {
+      "sample_id": "asl_citizen/test/7094032538211896-FOREST",
+      "valid": true,
+      "label_index": 1,
+      "prediction_index": 1
+    },
+    {
+      "sample_id": "asl_citizen/test/09791984619468663-PERCENT",
+      "valid": true,
+      "label_index": 2,
+      "prediction_index": 2
+    },
+    {
+      "sample_id": "asl_citizen/test/23484282174595572-PERCENT",
+      "valid": true,
+      "label_index": 2,
+      "prediction_index": 0
+    },
+    {
+      "sample_id": "asl_citizen/test/9940752109168005-SLIDE",
+      "valid": true,
+      "label_index": 3,
+      "prediction_index": 2
+    },
+    {
+      "sample_id": "asl_citizen/test/5951736418206235-SLIDE",
+      "valid": true,
+      "label_index": 3,
+      "prediction_index": 3
+    }
+  ],
+  "checkpoint_sha256": "07faf1b43ef84d4bd473a3a918fdd392cadca9ff77572b6152feffb253e79f6b",
+  "manifest_sha256": "0e7fd5073ed9562cb996c77e1abf841b851b8a918a75cbdf9fff530515121c6c"
+}

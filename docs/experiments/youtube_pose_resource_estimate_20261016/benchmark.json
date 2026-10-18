@@ -1,0 +1,40 @@
+{
+  "configuration": "YOLOX-m640 + RTMW-x384x288 /133keypoints /ONNX CUDA /batch1",
+  "scope": "15s steady-state predecoded ASL-Citizen frames, includes detector+pose+CPU pre/postprocessing; excludes video decode/tracking/cache writes; GPU shared with existing jobs",
+  "VRAM_measurement": "nvidia-smi per-PID sampled ~0.2s; sampled peaks, not guaranteed allocator maxima",
+  "results": [
+    {
+      "workers": 1,
+      "aggregate_fps": 9.790622785126589,
+      "per_worker_fps": [
+        9.790622785126589
+      ],
+      "peak_per_process_MiB": {
+        "2115844": 10986
+      },
+      "sum_process_peak_MiB": 10986,
+      "average_detected_people": [
+        1.0
+      ],
+      "speedup_vs_one_worker": 1.0
+    },
+    {
+      "workers": 2,
+      "aggregate_fps": 15.220800966732074,
+      "per_worker_fps": [
+        7.643633673249732,
+        7.582530590271484
+      ],
+      "peak_per_process_MiB": {
+        "2116781": 6322,
+        "2116782": 10974
+      },
+      "sum_process_peak_MiB": 17296,
+      "average_detected_people": [
+        1.0,
+        1.0
+      ],
+      "speedup_vs_one_worker": 1.554630517463581
+    }
+  ]
+}

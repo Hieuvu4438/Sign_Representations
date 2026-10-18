@@ -1,0 +1,29 @@
+[Unit]
+Description=SignRep full ASL-Citizen Kinetics initialization; 50k review and resumable training
+StartLimitIntervalSec=1800
+StartLimitBurst=3
+
+[Service]
+Type=simple
+WorkingDirectory=/home/haipd/Sign_Representations
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=OMP_NUM_THREADS=2
+Environment=MKL_NUM_THREADS=2
+Environment=OPENBLAS_NUM_THREADS=1
+Environment=TF_CPP_MIN_LOG_LEVEL=2
+ExecStart=/home/haipd/Sign_Representations/.venv-signrep/bin/python -u /home/haipd/Sign_Representations/method/jepa_baseline/runtime/full_aslc_kinetics/code/scripts/full_aslc_job.py run --job /home/haipd/Sign_Representations/method/jepa_baseline/runtime/full_aslc_kinetics
+Restart=on-failure
+RestartPreventExitStatus=78
+RestartSec=45
+TimeoutStopSec=240
+KillMode=mixed
+Nice=5
+CPUQuota=1000%
+MemoryHigh=22G
+MemoryMax=26G
+StandardOutput=append:/home/haipd/Sign_Representations/method/jepa_baseline/runtime/full_aslc_kinetics/console.log
+StandardError=inherit
+
+[Install]
+WantedBy=default.target

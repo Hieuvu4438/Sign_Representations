@@ -1,0 +1,6 @@
+# R3: JEPA base + state anchor, relations off.
+inherits: [base.yaml]
+experiment: aslc_anchor_only
+run_dir: runs/aslc_anchor_only_s0
+loss:
+  lambda_anchor: 1.0

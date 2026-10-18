@@ -1,0 +1,17 @@
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/haipd/Sign_Representations/method/jepa_targets/jt/ex16.py:144: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.blocks = nn.TransformerEncoder(el, depth); self.norm = nn.LayerNorm(d)
+/home/haipd/Sign_Representations/method/jepa_targets/jt/ex16.py:291: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  st = {"step": step, "loss": float(loss), "reconstruction": float(l_rec), "latent": float(l_lat), "lr": sched.rate(step), "sec": time.time() - t0}
+{"step": 1, "loss": 0.7834821939468384, "reconstruction": 0.0, "latent": 0.7834821939468384, "lr": 2.5e-07, "sec": 5.198954820632935}
+{"step": 500, "loss": 0.39032140374183655, "reconstruction": 0.0, "latent": 0.39032140374183655, "lr": 9.980973490458728e-05, "sec": 523.8548789024353}
+{"step": 1000, "loss": 0.29489946365356445, "reconstruction": 0.0, "latent": 0.29489946365356445, "lr": 9.330127018922194e-05, "sec": 1003.253799200058}
+{"step": 1500, "loss": 0.2628733217716217, "reconstruction": 0.0, "latent": 0.2628733217716217, "lr": 7.86788218175523e-05, "sec": 1483.1659178733826}
+{"step": 2000, "loss": 0.25139525532722473, "reconstruction": 0.0, "latent": 0.25139525532722473, "lr": 5.868240888334653e-05, "sec": 1962.6387746334076}
+{"step": 2500, "loss": 0.25058111548423767, "reconstruction": 0.0, "latent": 0.25058111548423767, "lr": 3.705904774487396e-05, "sec": 2675.1095118522644}
+{"step": 3000, "loss": 0.2562396824359894, "reconstruction": 0.0, "latent": 0.2562396824359894, "lr": 1.7860619515673033e-05, "sec": 3366.5008220672607}
+{"step": 3500, "loss": 0.2695558965206146, "reconstruction": 0.0, "latent": 0.2695558965206146, "lr": 4.684610648167503e-06, "sec": 4027.9972059726715}
+{"step": 4000, "loss": 0.2541542053222656, "reconstruction": 0.0, "latent": 0.2541542053222656, "lr": 0.0, "sec": 4717.614071846008}
+DONE 4000 4717.920443534851

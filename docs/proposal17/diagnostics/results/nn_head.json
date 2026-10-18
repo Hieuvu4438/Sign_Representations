@@ -1,0 +1,82 @@
+{
+ "whiten_reference": 29.435170807453414,
+ "none_round1": {
+  "mined_precision": 6.758977934950441,
+  "kept_fraction": 100.0,
+  "val_R1": 13.276397515527949
+ },
+ "none_round2": {
+  "mined_precision": 6.731583403895004,
+  "kept_fraction": 100.0,
+  "val_R1": 12.451475155279503
+ },
+ "none_round3": {
+  "mined_precision": 6.71664093241022,
+  "kept_fraction": 100.0,
+  "val_R1": 12.480590062111801
+ },
+ "cluster70_round1": {
+  "mined_precision": 9.294217263535389,
+  "kept_fraction": 100.0,
+  "val_R1": 13.14052795031056
+ },
+ "cluster70_round2": {
+  "mined_precision": 9.344025501818,
+  "kept_fraction": 100.0,
+  "val_R1": 11.995341614906833
+ },
+ "cluster70_round3": {
+  "mined_precision": 9.403795387757135,
+  "kept_fraction": 100.0,
+  "val_R1": 11.849767080745343
+ },
+ "cluster70_mutual_round1": {
+  "mined_precision": 12.757940068185897,
+  "kept_fraction": 27.758131194899637,
+  "val_R1": 15.625
+ },
+ "cluster70_mutual_round2": {
+  "mined_precision": 11.720930232558139,
+  "kept_fraction": 32.126313692284704,
+  "val_R1": 14.605978260869565
+ },
+ "cluster70_mutual_round3": {
+  "mined_precision": 11.218596592549812,
+  "kept_fraction": 34.49718583453703,
+  "val_R1": 14.159549689440995
+ },
+ "signer_round1": {
+  "mined_precision": 22.919260845743885,
+  "kept_fraction": 100.0,
+  "val_R1": 25.17468944099379
+ },
+ "signer_round2": {
+  "mined_precision": 23.01140608656672,
+  "kept_fraction": 100.0,
+  "val_R1": 23.58307453416149
+ },
+ "signer_round3": {
+  "mined_precision": 22.874433431289535,
+  "kept_fraction": 100.0,
+  "val_R1": 23.02018633540373
+ },
+ "signer_mutual_round1": {
+  "mined_precision": 33.43879770614989,
+  "kept_fraction": 25.188026099516858,
+  "val_R1": 26.06754658385093
+ },
+ "signer_mutual_round2": {
+  "mined_precision": 31.32824427480916,
+  "kept_fraction": 32.62439607511082,
+  "val_R1": 25.388198757763973
+ },
+ "signer_mutual_round3": {
+  "mined_precision": 30.14354066985646,
+  "kept_fraction": 36.434726303730635,
+  "val_R1": 24.67973602484472
+ },
+ "gloss_oracle": {
+  "mined_precision": 100.0,
+  "val_R1": 38.81017080745342
+ }
+}

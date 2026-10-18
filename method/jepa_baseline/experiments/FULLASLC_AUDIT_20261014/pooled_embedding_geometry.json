@@ -1,0 +1,44 @@
+[
+  {
+    "step": 10000,
+    "gallery_videos": 5462,
+    "queries": 2731,
+    "mean_pair_cosine_gallery": 0.4781730371070337,
+    "centered_covariance_effective_rank": 63.34659519709266,
+    "PC1_variance_fraction": 0.09656366027550235,
+    "PC_top5_variance_fraction": 0.33706689941862666,
+    "query_gallery_same_class_cosine_mean_sample256": 0.5521267569478587,
+    "query_gallery_other_class_cosine_mean_sample256": 0.48524958709692734,
+    "query_gallery_cosine_std": 0.12570349886464982,
+    "gallery_mean_norm": 0.6915696456724147,
+    "sample_seed": 1014
+  },
+  {
+    "step": 20000,
+    "gallery_videos": 5462,
+    "queries": 2731,
+    "mean_pair_cosine_gallery": 0.5359973455553463,
+    "centered_covariance_effective_rank": 6.479555715696004,
+    "PC1_variance_fraction": 0.44963792293247573,
+    "PC_top5_variance_fraction": 0.8808781858018326,
+    "query_gallery_same_class_cosine_mean_sample256": 0.5777311158317064,
+    "query_gallery_other_class_cosine_mean_sample256": 0.5687702102166566,
+    "query_gallery_cosine_std": 0.32373685366188,
+    "gallery_mean_norm": 0.7321764108524131,
+    "sample_seed": 1014
+  },
+  {
+    "step": 30000,
+    "gallery_videos": 5462,
+    "queries": 2731,
+    "mean_pair_cosine_gallery": 0.38254705521278226,
+    "centered_covariance_effective_rank": 5.7157140653206095,
+    "PC1_variance_fraction": 0.3409303645734606,
+    "PC_top5_variance_fraction": 0.9024819498130152,
+    "query_gallery_same_class_cosine_mean_sample256": 0.4167310999998156,
+    "query_gallery_other_class_cosine_mean_sample256": 0.39249658498025813,
+    "query_gallery_cosine_std": 0.33767886106495026,
+    "gallery_mean_norm": 0.6185952638234288,
+    "sample_seed": 1014
+  }
+]

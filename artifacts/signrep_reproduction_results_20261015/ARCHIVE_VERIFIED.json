@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "verified_record_files": 2006,
+  "all_tar_payloads_read_successfully": true,
+  "best_model_sha256_matches_original": true,
+  "archive_bytes": 352274215,
+  "deletion_authorized_by_user": true,
+  "timestamp": "2026-10-15T16:13:28.070599"
+}

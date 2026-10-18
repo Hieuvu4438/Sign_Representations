@@ -1,0 +1,72 @@
+[
+  {
+    "source": "method/phonojepa_s2/s2/features.py",
+    "sha256": "771d017d750e3e631e3c70d1c9b7363a241c326336c5d8e4fa302a04e5180870",
+    "destination": "method/plctx_pose_fusion/fp/features.py"
+  },
+  {
+    "source": "method/phonojepa_s2/s2/joints.py",
+    "sha256": "127c2b0d9209e179aba3811b6e95c29b4413dd48ebd881e25581741bd7a024c6",
+    "destination": "method/plctx_pose_fusion/fp/joints.py"
+  },
+  {
+    "source": "method/phonojepa_s2/s2/masks.py",
+    "sha256": "c2ed7e1feddc1cdb48ef191fbee6d3a51629f33eb3d4c4fd5c515fbce0ce7104",
+    "destination": "method/plctx_pose_fusion/fp/masks.py"
+  },
+  {
+    "source": "method/phonojepa_s2/s2/losses.py",
+    "sha256": "e62880666d35ce17bca6f8e6f42172476a2e60eb0ce98b9d19632dcddfd492e0",
+    "destination": "method/plctx_pose_fusion/fp/losses.py"
+  },
+  {
+    "source": "method/phonojepa_s2/s2/paths.py",
+    "sha256": "b23107b1433c008906dd256e128e0b692e244a1a6dbd4f14825946fbb2e68749",
+    "destination": "method/plctx_pose_fusion/fp/paths.py"
+  },
+  {
+    "source": "method/phonojepa_s2/s2/auxiliary.py",
+    "sha256": "b8ad86db688e3d2b3cbb0f4c5675802825dff1189d8340806b9409601a70b218",
+    "destination": "method/plctx_pose_fusion/fp/auxiliary.py"
+  },
+  {
+    "source": "method/phonojepa_s2/s2/data/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "destination": "method/plctx_pose_fusion/fp/data/__init__.py"
+  },
+  {
+    "source": "method/phonojepa_s2/s2/data/cache.py",
+    "sha256": "b07377f3a6b1473c4b6792eb796c6975aac43596d44900d00b037c49c7bb4e07",
+    "destination": "method/plctx_pose_fusion/fp/data/cache.py"
+  },
+  {
+    "source": "method/phonojepa_s2/s2/data/window.py",
+    "sha256": "1abcd1296917ec489b2d9188412ade3679bdd6bec587a179fce559da100b6513",
+    "destination": "method/plctx_pose_fusion/fp/data/window.py"
+  },
+  {
+    "source": "method/phonojepa_s2/s2/data/dataset.py",
+    "sha256": "01d20d888abe3f42f5850f3c07171c24a0395bc1db9c977855668e76ed886056",
+    "destination": "method/plctx_pose_fusion/fp/data/dataset.py"
+  },
+  {
+    "source": "method/phonojepa/pj/model.py",
+    "sha256": "6260155147a35101eb4fd6f979975b1447fd684c4c2b3062c685078223aab907",
+    "destination": "method/plctx_pose_fusion/fp/pl/model.py"
+  },
+  {
+    "source": "method/phonojepa/pj/features.py",
+    "sha256": "df7fe8a874bbf345c00548dda109067c8e5f8340e8186fa8e78857fa9a4dc7c0",
+    "destination": "method/plctx_pose_fusion/fp/pl/features.py"
+  },
+  {
+    "source": "method/phonojepa/pj/joints.py",
+    "sha256": "cb57872a5113d76407588d257e4da240213fc5ededabd7bcf3bc88e7b863c338",
+    "destination": "method/plctx_pose_fusion/fp/pl/joints.py"
+  },
+  {
+    "source": "method/phonojepa/pj/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "destination": "method/plctx_pose_fusion/fp/pl/__init__.py"
+  }
+]

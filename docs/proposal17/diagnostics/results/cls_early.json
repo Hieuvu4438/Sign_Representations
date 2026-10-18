@@ -1,0 +1,62 @@
+{
+ "pilot_4k": {
+  "clips_train": 10039,
+  "clips_val": 2576,
+  "AMI_signer_train_K35": 0.44996067185351013,
+  "AMI_signer_val_K6": 0.3133943628357952,
+  "AMI_gloss_train_K35": 0.008958223089424835,
+  "ARI_even_vs_odd_windows_train_ge4win": 0.8304959668235741,
+  "n_clips_ge4win_train": 1164,
+  "n_clips_ge4win_val": 283,
+  "ARI_even_vs_odd_windows_val_ge4win": 0.5490691875177616,
+  "CLS_eta2_signer": 0.3694531981181397,
+  "CLS_signer_decode_linear_standardised": 85.85657370517929,
+  "CLS_same_signer_NN": 75.64999999999999,
+  "grp_raw_R1_val_vs_train_subset": 8.385093167701864,
+  "seconds": 234.2081470489502
+ },
+ "pilot_16k": {
+  "clips_train": 10039,
+  "clips_val": 2576,
+  "AMI_signer_train_K35": 0.5795460334110296,
+  "AMI_signer_val_K6": 0.4740569118350596,
+  "AMI_gloss_train_K35": -0.00641248901823244,
+  "ARI_even_vs_odd_windows_train_ge4win": 0.8595832682446909,
+  "n_clips_ge4win_train": 1164,
+  "n_clips_ge4win_val": 283,
+  "ARI_even_vs_odd_windows_val_ge4win": 0.41131881570043155,
+  "CLS_eta2_signer": 0.384958885060611,
+  "CLS_signer_decode_linear_standardised": 88.71181938911022,
+  "CLS_same_signer_NN": 87.225,
+  "grp_raw_R1_val_vs_train_subset": 13.392857142857142,
+  "seconds": 234.37539553642273
+ },
+ "final_160ep": {
+  "clips_train": 10039,
+  "clips_val": 2576,
+  "AMI_signer_train_K35": 0.7148963652643,
+  "AMI_signer_val_K6": 0.4889381937492166,
+  "AMI_gloss_train_K35": -0.01278875995474694,
+  "ARI_even_vs_odd_windows_train_ge4win": 0.9414651650271222,
+  "n_clips_ge4win_train": 1164,
+  "n_clips_ge4win_val": 283,
+  "ARI_even_vs_odd_windows_val_ge4win": 0.6340551336653553,
+  "CLS_eta2_signer": 0.43705342199194175,
+  "CLS_signer_decode_linear_standardised": 94.58831341301462,
+  "CLS_same_signer_NN": 95.625,
+  "grp_raw_R1_val_vs_train_subset": 13.781055900621118,
+  "seconds": 235.56349897384644
+ },
+ "monitor_bank16384_K48": {
+  "CLS_clusters": {
+   "NMI_gloss": 0.3317018656291244,
+   "AMI_gloss": -0.016306279728352014,
+   "NMI_signer": 0.7084379869679032,
+   "AMI_signer": 0.7041355811996954
+  },
+  "random_clusters": {
+   "NMI_gloss": 0.35813315991708056,
+   "AMI_gloss": -0.00045396103284963134
+  }
+ }
+}

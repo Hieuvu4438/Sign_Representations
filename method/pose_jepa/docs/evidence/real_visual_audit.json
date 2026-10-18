@@ -1,0 +1,287 @@
+{
+  "samples": 20,
+  "rows": [
+    {
+      "sample_id": "asl_citizen/train/32407822480085513-seedAPRIL",
+      "frames_inspected": [
+        0,
+        22,
+        46,
+        138
+      ],
+      "minimum_hand_root_distance_viewport": 0.007325656246393919,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/16135350953831118-APRIL",
+      "frames_inspected": [
+        0,
+        17,
+        31,
+        52
+      ],
+      "minimum_hand_root_distance_viewport": 0.002166926860809326,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/22276891088783168-APRIL",
+      "frames_inspected": [
+        0,
+        50,
+        52,
+        155
+      ],
+      "minimum_hand_root_distance_viewport": 0.0,
+      "subthreshold_joint_fraction": 0.00024098708309234625,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/09522058265314803-APRIL",
+      "frames_inspected": [
+        0,
+        6,
+        21,
+        63
+      ],
+      "minimum_hand_root_distance_viewport": 0.00783709716051817,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/869108760353988-seedFOREST",
+      "frames_inspected": [
+        0,
+        51,
+        87,
+        152
+      ],
+      "minimum_hand_root_distance_viewport": 0.0023029744625091553,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/03851538519892728-FOREST",
+      "frames_inspected": [
+        0,
+        23,
+        42,
+        68
+      ],
+      "minimum_hand_root_distance_viewport": 0.0,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/49715791083486915-FOREST",
+      "frames_inspected": [
+        0,
+        5,
+        16,
+        47
+      ],
+      "minimum_hand_root_distance_viewport": 0.014106236398220062,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/38183850285701504-FOREST",
+      "frames_inspected": [
+        0,
+        18,
+        35,
+        54
+      ],
+      "minimum_hand_root_distance_viewport": 0.001650094985961914,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/3732230150996132-PERCENT",
+      "frames_inspected": [
+        0,
+        32,
+        37,
+        95
+      ],
+      "minimum_hand_root_distance_viewport": 0.0069253402762115,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/2098131457374235-PERCENT",
+      "frames_inspected": [
+        0,
+        26,
+        46,
+        79
+      ],
+      "minimum_hand_root_distance_viewport": 0.003295391798019409,
+      "subthreshold_joint_fraction": 0.00018796992481203009,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/9484871392428424-PERCENT",
+      "frames_inspected": [
+        0,
+        53,
+        159,
+        159
+      ],
+      "minimum_hand_root_distance_viewport": 0.2596449553966522,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/003969044566749069-PERCENT",
+      "frames_inspected": [
+        0,
+        11,
+        21,
+        63
+      ],
+      "minimum_hand_root_distance_viewport": 0.017038600519299507,
+      "subthreshold_joint_fraction": 0.00011748120300751879,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/08330156429535229-SLIDE",
+      "frames_inspected": [
+        0,
+        11,
+        23,
+        70
+      ],
+      "minimum_hand_root_distance_viewport": 0.007028862368315458,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/6720510014981054-SLIDE",
+      "frames_inspected": [
+        0,
+        19,
+        34,
+        57
+      ],
+      "minimum_hand_root_distance_viewport": 0.023381296545267105,
+      "subthreshold_joint_fraction": 0.00012963443090484831,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/7279901420631356-SLIDE",
+      "frames_inspected": [
+        0,
+        25,
+        33,
+        75
+      ],
+      "minimum_hand_root_distance_viewport": 0.0,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/train/4899986249081101-SLIDE",
+      "frames_inspected": [
+        0,
+        16,
+        27,
+        48
+      ],
+      "minimum_hand_root_distance_viewport": 0.41423073410987854,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/val/288632544575927-APRIL",
+      "frames_inspected": [
+        0,
+        34,
+        48,
+        101
+      ],
+      "minimum_hand_root_distance_viewport": 0.0060791498981416225,
+      "subthreshold_joint_fraction": 0.00022114108801415304,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/val/7399220938025828-APRIL",
+      "frames_inspected": [
+        0,
+        23,
+        28,
+        84
+      ],
+      "minimum_hand_root_distance_viewport": 0.003947556018829346,
+      "subthreshold_joint_fraction": 8.845643520566122e-05,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/val/8357843889007757-FOREST",
+      "frames_inspected": [
+        0,
+        57,
+        99,
+        172
+      ],
+      "minimum_hand_root_distance_viewport": 0.03327459096908569,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    },
+    {
+      "sample_id": "asl_citizen/val/2597890978149069-FOREST",
+      "frames_inspected": [
+        0,
+        21,
+        59,
+        64
+      ],
+      "minimum_hand_root_distance_viewport": 0.0,
+      "subthreshold_joint_fraction": 0.0,
+      "multiple_people_audit": "see conversion tracking report",
+      "overlay_note": "verify identity/occlusion visually; confidence is uncalibrated and does not prove visibility"
+    }
+  ],
+  "legend": {
+    "body": "cyan",
+    "left_hand": "lime",
+    "right_hand": "yellow",
+    "face": "magenta"
+  },
+  "visual_review": {
+    "reviewed_pages": [
+      "overlays_1.jpg",
+      "overlays_2.jpg",
+      "overlays_3.jpg",
+      "overlays_4.jpg"
+    ],
+    "reviewer": "implementation agent visual inspection",
+    "observations": [
+      "Single signer identity is consistent across displayed frames.",
+      "Hand/face overlap and two-hand interaction are visible in FOREST/SLIDE1 frames.",
+      "Some leading frames are dark; missing/offscreen hands have extrapolated detector coordinates despite high legacy scores.",
+      "Motion blur, partial hand occlusion by other hands/face, glasses and image boundaries limit pose reliability."
+    ],
+    "conclusion": "Suitable for pipeline/gradient sanity only. Legacy quality is uncalibrated; do not claim a clean benchmark or detector reproduction."
+  }
+}

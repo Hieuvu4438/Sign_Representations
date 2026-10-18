@@ -1,0 +1,49 @@
+{
+ "ref_cos": {
+  "same_gloss_diff_signer": 0.6010963916778564,
+  "same_signer_diff_gloss": 0.4713888466358185,
+  "random_pair": 0.4396264851093292
+ },
+ "R1_clean_subset": 12.266666666666666,
+ "face": {
+  "cos_clean_vs_morph_mean": 0.9999997019767761,
+  "R1_morph_queries": 12.2,
+  "R1_drop": 0.06666666666666643,
+  "shift_energy_in_signer_subspace34": 0.1130309735464551,
+  "shift_energy_in_within_gloss_top34": 0.1334328168783478,
+  "shift_energy_random_subspace34": 0.04534309192876819,
+  "mean_shift_cos_with_signer_subspace": 0.39131565062904694,
+  "shift_norm_mean": 0.0006936747231520712
+ },
+ "arm": {
+  "cos_clean_vs_morph_mean": 0.9802623987197876,
+  "R1_morph_queries": 12.533333333333333,
+  "R1_drop": -0.2666666666666675,
+  "shift_energy_in_signer_subspace34": 0.22485478152545815,
+  "shift_energy_in_within_gloss_top34": 0.26909685142667344,
+  "shift_energy_random_subspace34": 0.04213263496796185,
+  "mean_shift_cos_with_signer_subspace": 0.4261090643399162,
+  "shift_norm_mean": 0.08872117102146149
+ },
+ "hand": {
+  "cos_clean_vs_morph_mean": 0.9997650384902954,
+  "R1_morph_queries": 12.533333333333333,
+  "R1_drop": -0.2666666666666675,
+  "shift_energy_in_signer_subspace34": 0.19597639547016815,
+  "shift_energy_in_within_gloss_top34": 0.25398820519886994,
+  "shift_energy_random_subspace34": 0.04636768482144451,
+  "mean_shift_cos_with_signer_subspace": 0.4780545755077139,
+  "shift_norm_mean": 0.01670716144144535
+ },
+ "all": {
+  "cos_clean_vs_morph_mean": 0.9825488328933716,
+  "R1_morph_queries": 12.533333333333333,
+  "R1_drop": -0.2666666666666675,
+  "shift_energy_in_signer_subspace34": 0.22127820712741839,
+  "shift_energy_in_within_gloss_top34": 0.2700575087490038,
+  "shift_energy_random_subspace34": 0.042968843204046946,
+  "mean_shift_cos_with_signer_subspace": 0.39591305453137055,
+  "shift_norm_mean": 0.08894016593694687
+ },
+ "ref_norm_same_gloss_diff_signer": 0.8829366564750671
+}

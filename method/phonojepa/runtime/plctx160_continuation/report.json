@@ -1,0 +1,248 @@
+{
+  "status": "complete",
+  "selection": {
+    "selected": "lr1e5",
+    "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation/arms/lr1e5/best.pt",
+    "checkpoint_sha256": "3e7a7b5c024450c078736eed19e15abe91559334fd34c11035786d27344e6627",
+    "global_step": 210640,
+    "validation_Rec1": 0.2295225155279503,
+    "candidates": [
+      {
+        "name": "baseline",
+        "score": 0.22719332298136646,
+        "step": 200640,
+        "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_PLctx_FULL_160ep/final.pt"
+      },
+      {
+        "name": "lr1e5",
+        "score": 0.2295225155279503,
+        "step": 210640,
+        "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation/arms/lr1e5/best.pt"
+      },
+      {
+        "name": "lr3e5",
+        "score": 0.2295225155279503,
+        "step": 205640,
+        "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation/arms/lr3e5/best.pt"
+      }
+    ],
+    "criterion": "highest raw full-validation Rec@1; ties retain baseline/earlier candidate",
+    "test_used_for_selection": false
+  },
+  "validation_history": [
+    {
+      "arm": "baseline",
+      "branch_step": 0,
+      "global_step": 200640,
+      "DCG": 0.46207224692729587,
+      "MRR": 0.33994338323423157,
+      "Rec@1": 0.22719332298136646,
+      "Rec@5": 0.4594332298136646,
+      "Rec@10": 0.5678377329192547,
+      "macro_Rec@1": 0.23023922860978882,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr1e5",
+      "branch_step": 5000,
+      "global_step": 205640,
+      "DCG": 0.4625703010830699,
+      "MRR": 0.3406677009296751,
+      "Rec@1": 0.22855201863354038,
+      "Rec@5": 0.4594332298136646,
+      "Rec@10": 0.5670613354037267,
+      "macro_Rec@1": 0.2313987550347858,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr1e5",
+      "branch_step": 10000,
+      "global_step": 210640,
+      "DCG": 0.46288542025449597,
+      "MRR": 0.3410954244581858,
+      "Rec@1": 0.2295225155279503,
+      "Rec@5": 0.45991847826086957,
+      "Rec@10": 0.5678377329192547,
+      "macro_Rec@1": 0.2325765897717564,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr1e5",
+      "branch_step": 15000,
+      "global_step": 215640,
+      "DCG": 0.46297010239897457,
+      "MRR": 0.3412418895463503,
+      "Rec@1": 0.2295225155279503,
+      "Rec@5": 0.4597243788819876,
+      "Rec@10": 0.5673524844720497,
+      "macro_Rec@1": 0.23243622604662514,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr1e5",
+      "branch_step": 20000,
+      "global_step": 220640,
+      "DCG": 0.4621698069037571,
+      "MRR": 0.3402198499575849,
+      "Rec@1": 0.22816381987577639,
+      "Rec@5": 0.45817158385093165,
+      "Rec@10": 0.5670613354037267,
+      "macro_Rec@1": 0.23132552178689125,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr1e5",
+      "branch_step": 25000,
+      "global_step": 225640,
+      "DCG": 0.46147363851723117,
+      "MRR": 0.3393886888293875,
+      "Rec@1": 0.22738742236024845,
+      "Rec@5": 0.4580745341614907,
+      "Rec@10": 0.5658967391304348,
+      "macro_Rec@1": 0.2305992920786037,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr1e5",
+      "branch_step": 30000,
+      "global_step": 230640,
+      "DCG": 0.46122827978525005,
+      "MRR": 0.3390905604888785,
+      "Rec@1": 0.2267080745341615,
+      "Rec@5": 0.4573951863354037,
+      "Rec@10": 0.5643439440993789,
+      "macro_Rec@1": 0.22956792383742217,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr1e5",
+      "branch_step": 35000,
+      "global_step": 235640,
+      "DCG": 0.46125454661129456,
+      "MRR": 0.33905755174296964,
+      "Rec@1": 0.2263198757763975,
+      "Rec@5": 0.4585597826086957,
+      "Rec@10": 0.5647321428571429,
+      "macro_Rec@1": 0.2293116074697913,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr3e5",
+      "branch_step": 5000,
+      "global_step": 205640,
+      "DCG": 0.46293024099387925,
+      "MRR": 0.3411520695614147,
+      "Rec@1": 0.2295225155279503,
+      "Rec@5": 0.45846273291925466,
+      "Rec@10": 0.5670613354037267,
+      "macro_Rec@1": 0.23249115098254605,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr3e5",
+      "branch_step": 10000,
+      "global_step": 210640,
+      "DCG": 0.46272823735637125,
+      "MRR": 0.34084280417011775,
+      "Rec@1": 0.22874611801242237,
+      "Rec@5": 0.45826863354037267,
+      "Rec@10": 0.5672554347826086,
+      "macro_Rec@1": 0.23175271573294273,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr3e5",
+      "branch_step": 15000,
+      "global_step": 215640,
+      "DCG": 0.4625567484340633,
+      "MRR": 0.34063788685810614,
+      "Rec@1": 0.2284549689440994,
+      "Rec@5": 0.4585597826086957,
+      "Rec@10": 0.5671583850931677,
+      "macro_Rec@1": 0.23144147442939092,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr3e5",
+      "branch_step": 20000,
+      "global_step": 220640,
+      "DCG": 0.4617200710097062,
+      "MRR": 0.33960212810976775,
+      "Rec@1": 0.22719332298136646,
+      "Rec@5": 0.4567158385093168,
+      "Rec@10": 0.5682259316770186,
+      "macro_Rec@1": 0.23034907848163064,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr3e5",
+      "branch_step": 25000,
+      "global_step": 225640,
+      "DCG": 0.46120831288986275,
+      "MRR": 0.3389534401906478,
+      "Rec@1": 0.22593167701863354,
+      "Rec@5": 0.45894798136645965,
+      "Rec@10": 0.5669642857142857,
+      "macro_Rec@1": 0.22918344928597584,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    {
+      "arm": "lr3e5",
+      "branch_step": 30000,
+      "global_step": 230640,
+      "DCG": 0.4609867064741712,
+      "MRR": 0.3387113377419784,
+      "Rec@1": 0.22564052795031056,
+      "Rec@5": 0.45817158385093165,
+      "Rec@10": 0.5671583850931677,
+      "macro_Rec@1": 0.22866471378005615,
+      "queries": 10304,
+      "gallery": 40154
+    }
+  ],
+  "official_test": {
+    "status": "complete",
+    "checkpoint_sha256": "3e7a7b5c024450c078736eed19e15abe91559334fd34c11035786d27344e6627",
+    "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation/arms/lr1e5/best.pt",
+    "split": "test",
+    "metrics": {
+      "DCG": 0.3957777517855792,
+      "MRR": 0.2660343039059418,
+      "Rec@1": 0.16632767675541119,
+      "Rec@5": 0.36783947056859234,
+      "Rec@10": 0.46844358094775507,
+      "macro_Rec@1": 0.16747974334642654,
+      "queries": 32941,
+      "gallery": 40154
+    },
+    "protocol": "official_train_gallery/raw_window64_stride2_grp_mean_L2_class_max_pessimistic_ties",
+    "gallery_zero_vectors": 39,
+    "query_zero_vectors": 8,
+    "failure_policy": "historical PLctx scorer: retain zero vectors and finite pessimistic tie ranks; all queries retained",
+    "finished_unix": 1792105857.684449
+  },
+  "baseline_official_test": {
+    "DCG": 0.3961825796186131,
+    "Rec1": 0.16678303633769467,
+    "Rec5": 0.36896269087155825,
+    "queries": 32941,
+    "true_score_ties": 14
+  },
+  "protocol": "Native PLctx raw/_grp/window64/stride2. Full official train gallery/val queries for selection; original zero-vector handling retained. Only validation winner is evaluated on test.",
+  "continuation_notes": "Native base checkpoint lacks sampler/NumPy/CUDA state; continuation starts new deterministic sampler at epoch160 shared by both arms. All post-fork interruptions restore exact committed state.",
+  "limitations": "One seed; LR arms selected on validation. Test was viewed for original baseline before designing extension; this is exploratory improvement work, not a fresh untouched benchmark.",
+  "finished_unix": 1792105863.1476297
+}

@@ -1,0 +1,32 @@
+extends: ../base.yaml
+experiment:
+  id: E04_full_aslc_retrieval
+  seed: 17
+  output_dir: artifacts/full_aslc/E04_seed17
+  primary_validation_metric: retrieval_dcg
+  evaluation_protocol: asl_citizen_official_signer_disjoint_full_retrieval_v1
+data:
+  root: /home/dongvk/datasets/ASL_Citizen
+  train_manifest: data/full_aslc/manifests/asl_citizen.train.jsonl
+  val_manifest: data/full_aslc/manifests/asl_citizen.val.jsonl
+  test_manifest: data/full_aslc/manifests/asl_citizen.test.jsonl
+  sampler: uniform_source_epochs_then_segment
+  num_workers: 4
+cache:
+  root: data/full_aslc/cache
+  reader_lru_samples: 64
+geometry:
+  projection:
+    statistics_path: data/full_aslc/targets/logsig_stats.npz
+    matrices_path: data/full_aslc/targets/logsig_matrices.npz
+training:
+  max_successful_steps: 10000
+  microbatch_per_gpu: 8
+  gradient_accumulation: 4
+  validation_interval: 10000
+  diagnostic_interval: 1000
+  checkpoint_interval: 1000
+evaluation:
+  probe_protocol: frozen_dictionary_retrieval
+runtime:
+  max_runtime_hours: 96.0

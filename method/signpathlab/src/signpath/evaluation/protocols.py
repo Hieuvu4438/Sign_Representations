@@ -38,7 +38,21 @@ def verify_pipeline(resolved, output=None):
     train, val = development_corpora(resolved)
     audit = audit_development(resolved, train, val)
     records = list(train.records.values()) + list(val.records.values())
-    near = cross_split_candidates(records)
+    cached_fingerprints = {}
+    import json
+    for corpus in (train, val):
+        if not hasattr(corpus, "index"):
+            break
+        for name in corpus.available:
+            meta = json.loads((corpus.root / corpus.index["samples"][name]["path"] / "meta.json").read_text())
+            if meta.get("fingerprint_recipe") == "8_uniform_frames_gray32_dct8_drop_dc_median_bits":
+                bits = np.unpackbits(np.frombuffer(bytes.fromhex(meta["fingerprint_hex"]), dtype=np.uint8))
+                if len(bits) != 504:
+                    raise ValueError("Cached fingerprint dimension mismatch")
+                cached_fingerprints[name] = bits
+    near = (cross_split_candidates(records, fingerprints=cached_fingerprints)
+            if len(cached_fingerprints) == sum(r.availability == "available" for r in records) and cached_fingerprints
+            else cross_split_candidates(records))
     reviews_file = resolved.path(resolved.values["cache"]["root"]).parent / "near_duplicate_reviews.json"
     if near["candidates"] and reviews_file.exists():
         import json
@@ -56,6 +70,8 @@ def verify_pipeline(resolved, output=None):
             near["status"] = "passed_after_recorded_distinct_review"
     diagnostics = []
     for name in train.available:
+        from ..training.interruptions import raise_if_requested
+        raise_if_requested()
         bundle = train.load(name)
         geometry = tuple(geometry_from_features(bundle, **geometry_kwargs(resolved.values))) if resolved.values["geometry"]["enabled"] else ()
         tokens = SignTokenizer().build(bundle, geometry)
@@ -66,6 +82,8 @@ def verify_pipeline(resolved, output=None):
         if any(not tokens.geometry[i].support <= raw.cells for i in plan.geometry_targets):
             raise ValueError(f"Geometry target eligibility failed: {name}")
         diagnostics.append({"sample_id": name, **plan.diagnostics})
+        if len(diagnostics) % 100 == 0:
+            print(f"Pipeline closure gate: {len(diagnostics)}/{len(train.available)} train clips", flush=True)
     identity = {"train_corpus": train.fingerprint, "val_corpus": val.fingerprint,
                 "protocol": resolved.values["experiment"]["evaluation_protocol"]}
     report = {"status": "passed" if near["status"].startswith("passed") else "manual_review_required", "audit": audit,

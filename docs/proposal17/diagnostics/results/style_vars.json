@@ -1,0 +1,71 @@
+{
+ "n_clips": 20046,
+ "signer_id_acc_from_style_vars": {
+  "MORPH": 72.64715663451945,
+  "POSTURE": 48.73628200864649,
+  "BEHAV": 44.41303624875291,
+  "CAM": 19.953441968739607,
+  "ALL": 90.35583638177586,
+  "ALL minus MORPH": 68.73960758230795,
+  "ALL minus POSTURE": 84.253408713003,
+  "ALL minus BEHAV": 87.7618889258397,
+  "ALL minus CAM": 87.72863318922514
+ },
+ "signer_id_chance": 7.497755163124813,
+ "signer_id_acc_from_embedding": 90.72164948453609,
+ "signer_id_acc_from_embedding_standardised": 94.2301296973728,
+ "signer_component_R2_from_style_vars": {
+  "MORPH": {
+   "R2_heldout_clips": 23.55757018782375,
+   "R2_heldout_signers": -13.65924202376112
+  },
+  "POSTURE": {
+   "R2_heldout_clips": 15.40282930143727,
+   "R2_heldout_signers": -6.7794820030495195
+  },
+  "BEHAV": {
+   "R2_heldout_clips": 16.052938889905054,
+   "R2_heldout_signers": -5.613231047745715
+  },
+  "CAM": {
+   "R2_heldout_clips": 3.2914152458593304,
+   "R2_heldout_signers": -4.341414309547997
+  },
+  "ALL": {
+   "R2_heldout_clips": 41.53375865671656,
+   "R2_heldout_signers": -17.91693003298187
+  }
+ },
+ "between_signer_variance_share_per_variable": {
+  "res_w": 0.9999999999999998,
+  "nose_y": 0.7996225923355562,
+  "duration_s": 0.7341473416079558,
+  "rest_height_D": 0.7084576384782577,
+  "eye_dist": 0.6848623212535442,
+  "nose_chin_proxy": 0.6329560324795207,
+  "mouth_width": 0.6172371175266593,
+  "brow_width": 0.6119649585688739,
+  "upper_arm_D": 0.5827401091285953,
+  "fps": 0.2323991978972734,
+  "arm_ratio_D": 0.20841132431129478,
+  "wrist_speed_med": 0.2075991337581728,
+  "forearm_D": 0.20269655838417358,
+  "obs_frac_face": 0.17440590293365005,
+  "obs_frac_Nhand": 0.14481448381068757,
+  "wrist_mean_y": 0.1377139916117464,
+  "active_frac": 0.13353586715865806,
+  "obs_frac_Dhand": 0.13031887373430778,
+  "palm_D": 0.12322519158979427,
+  "wrist_speed_p90": 0.117262649495565,
+  "middle_len_D": 0.1137199029886373,
+  "right_dom": 0.10908705173723783,
+  "handspan_D": 0.10729966308558274,
+  "amp_range_y": 0.10383788053073588,
+  "amp_y_std": 0.09445678670900048,
+  "wrist_mean_x": 0.0734349206222008,
+  "nose_x": 0.06424951783962347,
+  "shoulder_tilt": 0.06046050365111892,
+  "amp_x_std": 0.039899094141001935,
+  "amp_range_x": 0.03790958515402094
+ }
+}

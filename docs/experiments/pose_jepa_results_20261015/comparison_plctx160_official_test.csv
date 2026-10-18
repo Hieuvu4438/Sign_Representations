@@ -1,0 +1,7 @@
+metric,Pose_JEPA_raw,PLctx160_raw_grp,PLctx_minus_Pose,unit
+DCG,0.24859530710381472,0.3961825796186131,0.14758727251479836,fraction; multiply recall differences by100 for percentage points
+MRR,0.11315591395180752,0.26646363127001454,0.15330771731820703,fraction; multiply recall differences by100 for percentage points
+R@1,0.05743602197868917,0.16678303633769467,0.10934701435900551,fraction; multiply recall differences by100 for percentage points
+R@5,0.15278831850884916,0.36896269087155825,0.2161743723627091,fraction; multiply recall differences by100 for percentage points
+R@10,0.21939224674417898,0.46941501472329317,0.25002276797911416,fraction; multiply recall differences by100 for percentage points
+R@1_classmacro,0.0578324874712214,0.16792211191402392,0.11008962444280253,fraction; multiply recall differences by100 for percentage points

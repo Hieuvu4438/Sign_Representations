@@ -1,0 +1,8 @@
+# Verified with the existing .venv-signrep; CUDA torch uses cu128.
+torch==2.11.0+cu128
+numpy==2.2.6
+scipy==1.17.1
+scikit-learn==1.8.0
+opencv-python==4.12.0.88
+pytest==9.0.3
+threadpoolctl==3.6.0

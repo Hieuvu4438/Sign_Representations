@@ -1,0 +1,64 @@
+{
+  "configuration": "YOLOX-m640 + RTMW-x384x288 /133keypoints /ONNX CUDA /batch1 /HEURISTIC /max_workspace0 /4GiB_arena_per_session",
+  "scope": "15s steady-state predecoded ASL-Citizen frames, includes detector+pose+CPU pre/postprocessing; excludes video decode/tracking/cache writes; GPU shared with existing jobs",
+  "VRAM_measurement": "nvidia-smi per-PID sampled ~0.2s; sampled peaks, not guaranteed allocator maxima",
+  "results": [
+    {
+      "workers": 1,
+      "aggregate_fps": 9.5677578827579,
+      "per_worker_fps": [
+        9.5677578827579
+      ],
+      "peak_per_process_MiB": {
+        "2119346": 1382
+      },
+      "sum_process_peak_MiB": 1382,
+      "average_detected_people": [
+        1.0
+      ],
+      "speedup_vs_one_worker": 1.0
+    },
+    {
+      "workers": 2,
+      "aggregate_fps": 15.696291423217783,
+      "per_worker_fps": [
+        7.848234071554897,
+        7.853329705994336
+      ],
+      "peak_per_process_MiB": {
+        "2119996": 1382,
+        "2119997": 1382
+      },
+      "sum_process_peak_MiB": 2764,
+      "average_detected_people": [
+        1.0,
+        1.0
+      ],
+      "speedup_vs_one_worker": 1.6405401992356161
+    },
+    {
+      "workers": 4,
+      "aggregate_fps": 41.302085334942184,
+      "per_worker_fps": [
+        10.364365541543059,
+        10.382223278356589,
+        10.31715538267894,
+        10.36615615413988
+      ],
+      "peak_per_process_MiB": {
+        "2120789": 1382,
+        "2120790": 1382,
+        "2120791": 1382,
+        "2120792": 1382
+      },
+      "sum_process_peak_MiB": 5528,
+      "average_detected_people": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "speedup_vs_one_worker": 4.316798756934773
+    }
+  ]
+}

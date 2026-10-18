@@ -1,0 +1,37 @@
+{
+  "source": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+  "source_sha256": "069b229e7872adf60d7c969bb7597ad78c3ef3953a442c8d5a20387fe757e75a",
+  "ids": [
+    "a9f512bdb0be4a75983f64bc",
+    "fdd29da0990fe7e00e6cda0e"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "loss": 42.83650588989258,
+      "gn": 49.70661926269531
+    },
+    {
+      "step": 2,
+      "loss": 42.765289306640625,
+      "gn": 48.098968505859375
+    }
+  ],
+  "resume_bitwise": true,
+  "readout_shapes": {
+    "grp": [
+      96
+    ],
+    "grp+P": [
+      192
+    ],
+    "mw": [
+      192
+    ],
+    "ord2": [
+      384
+    ]
+  },
+  "device": "cpu",
+  "official_test_used": false
+}

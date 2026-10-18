@@ -3,10 +3,11 @@
 import json
 from pathlib import Path
 import subprocess
+import sys
 import numpy as np
 from .cache import sha256
 from .data import read_manifest, deduplicate_manifest, deduplicate_local_manifest, source_identity
-from .bones import corpus_bone_statistics
+from .bones import corpus_bone_statistics, load_bone_statistics
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -15,6 +16,9 @@ def pose_command(python, command, weights, **paths):
     arguments = [str(python), str(ROOT / "scripts/pose_worker.py"), command, "--weights", str(weights)]
     for name, value in paths.items():
         arguments.extend(["--" + name.replace("_", "-"), str(value)])
+    if command == "normalize-batch":
+        subprocess.run(arguments, check=True, text=True, stdout=sys.stderr)
+        return ""
     return subprocess.run(arguments, check=True, text=True, capture_output=True).stdout
 
 
@@ -48,17 +52,26 @@ def prepare_corpus(source_manifest, wlasl_annotations, output_directory, pose_py
     cache_paths = []
     for index, row in enumerate(rows):
         video = Path(row["video"])
-        raw = output / "raw" / f"{index:08d}.npz"
+        # Approved source filtering can leave holes in the original pose indices.
+        # Honor the source-bound path rather than reindexing old caches by position.
+        explicit_raw = row.get("raw_cache")
+        raw = Path(explicit_raw) if explicit_raw else output / "raw" / f"{index:08d}.npz"
+        if explicit_raw and not raw.is_file():
+            raise ValueError(f"Explicit raw pose cache missing: {raw}")
         if not raw.exists():
             pose_command(pose_python, "extract", weights, video=video, output=raw)
+        if row.get("raw_cache_sha256") and sha256(raw) != row["raw_cache_sha256"]:
+            raise ValueError(f"Raw pose cache content changed: {row['video_id']}")
         with np.load(raw, allow_pickle=False) as file:
             metadata = json.loads(str(file["metadata_json"]))
         if metadata["video_sha256"] != sha256(video) or metadata["schema"] != "signrep_teacher_v1" or metadata.get("body_root_mode") != "canonical":
             raise ValueError("Raw cache video/source mismatch; use fresh output directory")
-        cap = cv2.VideoCapture(str(video))
-        width, height = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-        cap.release()
-        bbox = row.get("signer_bbox_xyxy") or infer_signer_bbox(raw, width, height)
+        bbox = row.get("signer_bbox_xyxy")
+        if not bbox:
+            cap = cv2.VideoCapture(str(video))
+            width, height = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+            cap.release()
+            bbox = infer_signer_bbox(raw, width, height)
         row.update(video=str(video.resolve()), video_sha256=metadata["video_sha256"],
                    raw_cache=str(raw), raw_cache_sha256=sha256(raw), signer_bbox_xyxy=bbox,
                    crop_policy="supplied bbox or observed upper-body/face/hand union +10% (U06)")
@@ -67,7 +80,16 @@ def prepare_corpus(source_manifest, wlasl_annotations, output_directory, pose_py
     filtered.write_text("".join(json.dumps(row, sort_keys=True) + "\n" for row in rows))
     corpus_sha = sha256(filtered)
     stats = output / "corpus_bones.npz"
-    corpus_bone_statistics(cache_paths, stats, corpus_sha)
+    reusable_stats = False
+    if stats.exists():
+        try:
+            load_bone_statistics(stats, corpus_sha)
+            reusable_stats = True
+        except Exception:
+            # An interrupted statistics write must be rebuilt, never accepted.
+            reusable_stats = False
+    if not reusable_stats:
+        corpus_bone_statistics(cache_paths, stats, corpus_sha)
     bones_sha = sha256(stats)
     tasks = [{"raw": str(cache_paths[index]), "stats": str(stats),
               "output": str(output / "normalized" / f"{index:08d}.npz")}
@@ -96,7 +118,6 @@ def validate_pretrain_audit(manifest):
         raise ValueError("Audited pretraining manifest changed")
     if audit["bone_statistics_sha256"] != sha256(audit["bone_statistics"]):
         raise ValueError("Audited corpus bone table changed")
-    from .bones import load_bone_statistics
     load_bone_statistics(audit["bone_statistics"], audit["filtered_source_sha256"])
     from .data import youtube_id
     local = audit.get("audit_kind") == "local_train_only"

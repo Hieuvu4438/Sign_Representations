@@ -1,0 +1,28 @@
+{'raw': 18.28416149068323, 'whiten_init': 24.941770186335404}
+/home/haipd/Sign_Representations/docs/proposal17/diagnostics/coral_head.py:56: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  print(f"  it {it} loss {loss.item():.4f} tot {((Ct - I) ** 2).sum().item() / d:.4f} mu {float(lm):.4f} cov {float(lc):.4f}", flush=True)
+  it 0 loss 15.2735 tot 0.0176 mu 13.0768 cov 2.1791
+  it 100 loss 0.7753 tot 0.2255 mu 0.0024 cov 0.5473
+  it 200 loss 0.6506 tot 0.3120 mu 0.0014 cov 0.3373
+true_signers_mu1_cov1 28.1444099378882
+  it 0 loss 24.5879 tot 0.0176 mu 21.3763 cov 3.1940
+  it 100 loss 0.9518 tot 0.2668 mu 0.0010 cov 0.6840
+  it 200 loss 0.7549 tot 0.3694 mu 0.0006 cov 0.3849
+CLS_kmeans35_mu1_cov1 28.513198757763973
+  it 0 loss 39.2055 tot 0.0176 mu 34.6472 cov 4.5407
+  it 100 loss 1.2431 tot 0.3301 mu 0.0090 cov 0.9041
+  it 200 loss 0.9077 tot 0.4503 mu 0.0027 cov 0.4547
+CLS_kmeans70_mu1_cov1 28.183229813664596
+  it 0 loss 41.3400 tot 0.0176 mu 36.5581 cov 4.7643
+  it 100 loss 1.2726 tot 0.3460 mu 0.0036 cov 0.9229
+  it 200 loss 0.9247 tot 0.4721 mu 0.0009 cov 0.4516
+grp_kmeans70_mu1_cov1 25.97049689440994
+  it 0 loss 13.0944 tot 0.0176 mu 13.0768 cov 2.1791
+  it 100 loss 0.0620 tot 0.0594 mu 0.0025 cov 2.1559
+  it 200 loss 0.0566 tot 0.0549 mu 0.0017 cov 2.1830
+true_signers_mu1_cov0 25.79580745341615
+  it 0 loss 2.1967 tot 0.0176 mu 13.0768 cov 2.1791
+  it 100 loss 0.5728 tot 0.3790 mu 6.6813 cov 0.1938
+  it 200 loss 0.5593 tot 0.3734 mu 6.7670 cov 0.1859
+true_signers_mu0_cov1 29.270186335403725

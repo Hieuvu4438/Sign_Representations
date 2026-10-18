@@ -1,0 +1,111 @@
+{
+  "metrics": {
+    "Top1_micro": 1.0,
+    "Top5_micro": 1.0,
+    "Top1_macro": 1.0,
+    "Top5_macro": 1.0,
+    "num_samples": 16,
+    "valid_samples": 16,
+    "unit": "fraction"
+  },
+  "predictions": [
+    {
+      "sample_id": "asl_citizen/train/32407822480085513-seedAPRIL",
+      "valid": true,
+      "label_index": 0,
+      "prediction_index": 0
+    },
+    {
+      "sample_id": "asl_citizen/train/16135350953831118-APRIL",
+      "valid": true,
+      "label_index": 0,
+      "prediction_index": 0
+    },
+    {
+      "sample_id": "asl_citizen/train/22276891088783168-APRIL",
+      "valid": true,
+      "label_index": 0,
+      "prediction_index": 0
+    },
+    {
+      "sample_id": "asl_citizen/train/09522058265314803-APRIL",
+      "valid": true,
+      "label_index": 0,
+      "prediction_index": 0
+    },
+    {
+      "sample_id": "asl_citizen/train/869108760353988-seedFOREST",
+      "valid": true,
+      "label_index": 1,
+      "prediction_index": 1
+    },
+    {
+      "sample_id": "asl_citizen/train/03851538519892728-FOREST",
+      "valid": true,
+      "label_index": 1,
+      "prediction_index": 1
+    },
+    {
+      "sample_id": "asl_citizen/train/49715791083486915-FOREST",
+      "valid": true,
+      "label_index": 1,
+      "prediction_index": 1
+    },
+    {
+      "sample_id": "asl_citizen/train/38183850285701504-FOREST",
+      "valid": true,
+      "label_index": 1,
+      "prediction_index": 1
+    },
+    {
+      "sample_id": "asl_citizen/train/3732230150996132-PERCENT",
+      "valid": true,
+      "label_index": 2,
+      "prediction_index": 2
+    },
+    {
+      "sample_id": "asl_citizen/train/2098131457374235-PERCENT",
+      "valid": true,
+      "label_index": 2,
+      "prediction_index": 2
+    },
+    {
+      "sample_id": "asl_citizen/train/9484871392428424-PERCENT",
+      "valid": true,
+      "label_index": 2,
+      "prediction_index": 2
+    },
+    {
+      "sample_id": "asl_citizen/train/003969044566749069-PERCENT",
+      "valid": true,
+      "label_index": 2,
+      "prediction_index": 2
+    },
+    {
+      "sample_id": "asl_citizen/train/08330156429535229-SLIDE",
+      "valid": true,
+      "label_index": 3,
+      "prediction_index": 3
+    },
+    {
+      "sample_id": "asl_citizen/train/6720510014981054-SLIDE",
+      "valid": true,
+      "label_index": 3,
+      "prediction_index": 3
+    },
+    {
+      "sample_id": "asl_citizen/train/7279901420631356-SLIDE",
+      "valid": true,
+      "label_index": 3,
+      "prediction_index": 3
+    },
+    {
+      "sample_id": "asl_citizen/train/4899986249081101-SLIDE",
+      "valid": true,
+      "label_index": 3,
+      "prediction_index": 3
+    }
+  ],
+  "checkpoint_sha256": "75d01240a0bf71ee86df0d6fc8826b8d557bf8f6fdbd5387f50a30aeae888a1b",
+  "manifest_sha256": "3be0e1bd20a3283a7cf93f38aa85bdf5797210bccf282732e31bb093365d9ee2"
+}

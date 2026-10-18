@@ -1,0 +1,59 @@
+{
+  "estimates": [
+    {
+      "hours": 3000,
+      "extraction_fps": 25,
+      "frames": 270000000,
+      "format": "PLctx103_xyFP32_confFP16",
+      "bytes_per_frame": 1030,
+      "GiB_no_compression": 259.0008080005646
+    },
+    {
+      "hours": 3000,
+      "extraction_fps": 25,
+      "frames": 270000000,
+      "format": "COCO133_xyFP32_scoreFP32",
+      "bytes_per_frame": 1596,
+      "GiB_no_compression": 401.325523853302
+    },
+    {
+      "hours": 3000,
+      "extraction_fps": 25,
+      "frames": 270000000,
+      "format": "COCO133_allFP16",
+      "bytes_per_frame": 798,
+      "GiB_no_compression": 200.662761926651
+    },
+    {
+      "hours": 3207,
+      "extraction_fps": 25,
+      "frames": 288630000,
+      "format": "PLctx103_xyFP32_confFP16",
+      "bytes_per_frame": 1030,
+      "GiB_no_compression": 276.87186375260353
+    },
+    {
+      "hours": 3207,
+      "extraction_fps": 25,
+      "frames": 288630000,
+      "format": "COCO133_xyFP32_scoreFP32",
+      "bytes_per_frame": 1596,
+      "GiB_no_compression": 429.01698499917984
+    },
+    {
+      "hours": 3207,
+      "extraction_fps": 25,
+      "frames": 288630000,
+      "format": "COCO133_allFP16",
+      "bytes_per_frame": 798,
+      "GiB_no_compression": 214.50849249958992
+    }
+  ],
+  "exclusions": [
+    "RGB/video",
+    "duplicate temporary arrays",
+    "all-person additional detections",
+    "timestamps/validity/receipts"
+  ],
+  "note": "No claimed compression ratio; allFP16 changes cache precision and requires quality validation."
+}

@@ -29,13 +29,17 @@ def fit_targets(resolved, kind, split="train"):
         return {"status": "completed", "kind": kind, "output": str(destination), "counts": model.metadata["sample_counts"]}
     if kind != "geometry":
         raise ValueError(f"Unsupported target kind: {kind}")
-    observations = []
-    for name in corpus.available:
-        view = corpus.records[name].pretrain_view()
-        observations.extend(ProjectionObservation(view.source_group_id, "train", f"{g.group}/{g.scale}", g.descriptor)
-                            for g in fitting_geometry(corpus.load(name), c) if g.valid)
+    def batches():
+        for index, name in enumerate(corpus.available):
+            from ..training.interruptions import raise_if_requested
+            raise_if_requested()
+            view = corpus.records[name].pretrain_view()
+            yield (ProjectionObservation(view.source_group_id, "train", f"{g.group}/{g.scale}", g.descriptor)
+                   for g in fitting_geometry(corpus.load(name), c) if g.valid)
+            if (index + 1) % 100 == 0:
+                print(f"Target fitting: {index + 1}/{len(corpus.available)} train clips", flush=True)
     p = c["geometry"]["projection"]
-    model = TargetProjectors.fit(observations, allowed_train_sources=set(corpus.pretrain_sources()),
+    model = TargetProjectors.fit_batches(batches(), allowed_train_sources=set(corpus.pretrain_sources()),
         manifest_sha256=file_hash(manifest), extractor_hash=corpus.identity["extractor_hash"], descriptor_config=geometry_kwargs(c),
         output_dim=p["output_dim"], seed=p["seed"])
     stats, matrices = target_paths(resolved)

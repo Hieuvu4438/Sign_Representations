@@ -1,0 +1,135 @@
+{
+  "model": "PJ14_HYBRID_FULL_ASLC_100E",
+  "source_checkpoint_sha256": "0847fb6f156fb44ae276b1f1be68f7738fd93f8bd956fc31e8e8d14fc681e2ea",
+  "results": {
+    "raw_val": {
+      "R@1": 0.09850543478260869,
+      "R@5": 0.24107142857142858,
+      "R@10": 0.33200698757763975,
+      "MRR": 0.1762123007138723,
+      "DCG_single_relevant": 0.31397752432715276,
+      "num_queries": 10304,
+      "num_ranked_queries": 10301,
+      "DCG": 0.31397752432715276,
+      "R@1_classmacro": 0.09852661679831216
+    },
+    "raw_test": {
+      "R@1": 0.05743602197868917,
+      "R@5": 0.15278831850884916,
+      "R@10": 0.21939224674417898,
+      "MRR": 0.11315591395180752,
+      "DCG_single_relevant": 0.24859530710381472,
+      "num_queries": 32941,
+      "num_ranked_queries": 32937,
+      "DCG": 0.24859530710381472,
+      "R@1_classmacro": 0.0578324874712214
+    },
+    "white512_val": {
+      "R@1": 0.16129658385093168,
+      "R@5": 0.36937111801242234,
+      "R@10": 0.4830163043478261,
+      "MRR": 0.2665377345556504,
+      "DCG_single_relevant": 0.4010110650655466,
+      "num_queries": 10304,
+      "num_ranked_queries": 10301,
+      "DCG": 0.4010110650655466,
+      "R@1_classmacro": 0.16173911527261947
+    },
+    "white512_test": {
+      "R@1": 0.09316657053519929,
+      "R@5": 0.24046021675116117,
+      "R@10": 0.3335964299808749,
+      "MRR": 0.1724530573970211,
+      "DCG_single_relevant": 0.31030137314521206,
+      "num_queries": 32941,
+      "num_ranked_queries": 32937,
+      "DCG": 0.31030137314521206,
+      "R@1_classmacro": 0.09376437881133425
+    },
+    "linear_probe": {
+      "source_checkpoint_sha256": "0847fb6f156fb44ae276b1f1be68f7738fd93f8bd956fc31e8e8d14fc681e2ea",
+      "status": "complete",
+      "encoder_frozen": true,
+      "recipe": "raw1024, train-only feature standardization, linear softmax head; AdamW lr1e-3 wd1e-3, batch512, max30 epochs, validation patience5",
+      "selected_epoch": 17,
+      "validation": {
+        "instance_top1": 0.34782608695652173,
+        "instance_top5": 0.6274262422360248,
+        "macro_top1": 0.3536407386096145,
+        "macro_top5": 0.6340639221635195,
+        "num_queries": 10304,
+        "valid_queries": 10301
+      },
+      "test": {
+        "instance_top1": 0.2290458698885887,
+        "instance_top5": 0.46361676937555024,
+        "macro_top1": 0.23081227080704755,
+        "macro_top5": 0.4654568840430516,
+        "num_queries": 32941,
+        "valid_queries": 32937
+      },
+      "test_used_for_selection": false,
+      "class_count": 2731
+    }
+  },
+  "coverage": {
+    "train": {
+      "total": 40154,
+      "valid": 40126,
+      "failed_ids": [
+        "7878504290319279-EGO",
+        "3163302258007783-NOON 2",
+        "5744633467400555-WHEEL",
+        "025837072153037433-STETHOSCOPE",
+        "17598265136392288-BELIEVE",
+        "1359118231316856-TURKEY",
+        "4999689534277194-SET UP",
+        "26291927042791596-ELEGANCE",
+        "8762216485012733-PERFECT",
+        "2535759916344633-WEDDING",
+        "4664356046166651-START",
+        "17594214622899762-WORRY",
+        "5263334844932386-PENCIL",
+        "726494533554991-SCRIPT",
+        "07937938505834863-MEMORIZE MEMORIZE",
+        "1845439742258681-NONE",
+        "6060343968253492-MIX",
+        "9509431858166466-OSTRICH",
+        "4106761794579312-PROJECT",
+        "9951980239722424-REAL SICK",
+        "4259781270167171-DENT",
+        "37354525099200186-LOCK",
+        "7261463037479026-NET",
+        "19717125244640954-BITE ON NECK",
+        "6439774423420832-NOT MIND",
+        "4191953190433797-LUNCH",
+        "9312136222225116-OVERLOOK",
+        "4473003172150396-EYES AWAKE"
+      ]
+    },
+    "val": {
+      "total": 10304,
+      "valid": 10301,
+      "failed_ids": [
+        "7282711588225885-SAIL",
+        "2835168133911019-VIDEOPHONE",
+        "33958708655307857-MORNING"
+      ]
+    },
+    "test": {
+      "total": 32941,
+      "valid": 32937,
+      "failed_ids": [
+        "37693552804654606-DICE",
+        "7038928279955035-PEANUT BUTTER",
+        "4205844550831839-SHARK 1",
+        "7768386208057678-ROCKET 2"
+      ]
+    }
+  },
+  "selection_scope": "Full official train gallery -> official validation queries. Official test is only encoded/evaluated after SSL checkpoint selection. Frozen linear probe selects its head on validation, then evaluates test.",
+  "readout": "whole-clip unique-segment per-part mean concatenation",
+  "whitening": "train-only raw1024 ->512 SVD whitening, fit every third valid gallery feature",
+  "linear_probe_note": "Full-vocabulary validation-selected softmax probe; differs from historical ASLC300 sklearn C-search.",
+  "body_part_probes": "Not scheduled in this full dictionary training job; reports contain retrieval and a frozen linear probe."
+}

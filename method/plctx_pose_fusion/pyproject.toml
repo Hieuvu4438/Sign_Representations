@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "plctx-pose-fusion"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "numpy>=1.26", "scipy", "scikit-learn", "threadpoolctl", "opencv-python"]
+[tool.setuptools.packages.find]
+include = ["fp*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

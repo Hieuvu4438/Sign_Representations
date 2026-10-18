@@ -1,0 +1,11 @@
+# R1: coordinate-MAE control with the state+relations architecture. Reconstructs normalised coordinates of all
+# frames of masked state patches (hands local 21x2 + wrist 2, body 4x2, face 68x2); no EMA targets/teacher.
+inherits: [state.yaml]
+experiment: aslc_mae_r1
+run_dir: runs/aslc_mae_r1_s0
+train:
+  objective: mae
+loss:
+  lambda_anchor: 0.0
+eval:
+  encoder: online

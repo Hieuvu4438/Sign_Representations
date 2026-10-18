@@ -1,0 +1,1249 @@
+{
+  "aggregates": [
+    {
+      "dino_batch_size": 16,
+      "nonvisual_and_supports_exact": true,
+      "repeat_seconds": [
+        71.72117893199902,
+        70.82670530700125
+      ],
+      "seconds_mean": 71.27394211950013,
+      "speedup_over_baseline": 1.0,
+      "threads": 1,
+      "visual_exact": true,
+      "visual_max_error": 0.0
+    },
+    {
+      "dino_batch_size": 16,
+      "nonvisual_and_supports_exact": true,
+      "repeat_seconds": [
+        37.428575088997604,
+        36.33550359000219
+      ],
+      "seconds_mean": 36.8820393394999,
+      "speedup_over_baseline": 1.932483761633192,
+      "threads": 2,
+      "visual_exact": true,
+      "visual_max_error": 0.0
+    },
+    {
+      "dino_batch_size": 32,
+      "nonvisual_and_supports_exact": true,
+      "repeat_seconds": [
+        73.14437211901532,
+        71.43569017498521
+      ],
+      "seconds_mean": 72.29003114700026,
+      "speedup_over_baseline": 0.9859442718258907,
+      "threads": 1,
+      "visual_exact": false,
+      "visual_max_error": 0.00390625
+    },
+    {
+      "dino_batch_size": 64,
+      "nonvisual_and_supports_exact": true,
+      "repeat_seconds": [
+        73.32067376398481,
+        67.94947248799144
+      ],
+      "seconds_mean": 70.63507312598813,
+      "speedup_over_baseline": 1.0090446426292006,
+      "threads": 1,
+      "visual_exact": false,
+      "visual_max_error": 0.00390625
+    },
+    {
+      "dino_batch_size": 32,
+      "nonvisual_and_supports_exact": true,
+      "repeat_seconds": [
+        36.044157591997646,
+        37.03355168300914
+      ],
+      "seconds_mean": 36.53885463750339,
+      "speedup_over_baseline": 1.9506342721083745,
+      "threads": 2,
+      "visual_exact": false,
+      "visual_max_error": 0.00390625
+    },
+    {
+      "dino_batch_size": 64,
+      "nonvisual_and_supports_exact": true,
+      "repeat_seconds": [
+        36.58579999100766,
+        36.732022198004415
+      ],
+      "seconds_mean": 36.65891109450604,
+      "speedup_over_baseline": 1.9442460234499914,
+      "threads": 2,
+      "visual_exact": false,
+      "visual_max_error": 0.00390625
+    }
+  ],
+  "python_processes": 1,
+  "repeats": 2,
+  "reports": [
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat0_threads1_batch16/cache",
+      "candidate": "repeat0_threads1_batch16",
+      "dino_batch_size": 16,
+      "elapsed_seconds": 71.72117893199902,
+      "gpu_peak_bytes": 359674368,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.0,
+        "visual_exact": true,
+        "visual_max_absolute_error_fp16": 0.0
+      },
+      "real_clips": 8,
+      "repeat": 0,
+      "seconds_per_clip": 8.965147366499878,
+      "stage": {
+        "backbone": {
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.2343482740106992,
+            "pose_decode_seconds": 13.351357118022861,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.39081542199710384
+          },
+          {
+            "main_cache_seconds": 0.391560907009989,
+            "pose_decode_seconds": 3.4866025729861576,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.16439070299384184
+          },
+          {
+            "main_cache_seconds": 2.488547806016868,
+            "pose_decode_seconds": 23.21102259698091,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.9419042230001651
+          },
+          {
+            "main_cache_seconds": 0.6414992779900786,
+            "pose_decode_seconds": 6.423394197016023,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.19345925698871724
+          },
+          {
+            "main_cache_seconds": 1.143807791027939,
+            "pose_decode_seconds": 12.748084865015699,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.37486753400298767
+          },
+          {
+            "main_cache_seconds": 0.34002901599160396,
+            "pose_decode_seconds": 3.4805399919860065,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.09367893601302058
+          },
+          {
+            "main_cache_seconds": 0.39125275702099316,
+            "pose_decode_seconds": 3.9768003130157012,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.12086072500096634
+          },
+          {
+            "main_cache_seconds": 0.4010916519910097,
+            "pose_decode_seconds": 3.5011384719982743,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.10917903398512863
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 16,
+        "elapsed_seconds": 71.71905862700078,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 1
+      },
+      "threads": 1
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat0_threads2_batch16/cache",
+      "candidate": "repeat0_threads2_batch16",
+      "dino_batch_size": 16,
+      "elapsed_seconds": 37.428575088997604,
+      "gpu_peak_bytes": 359674368,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.0,
+        "visual_exact": true,
+        "visual_max_absolute_error_fp16": 0.0
+      },
+      "real_clips": 8,
+      "repeat": 0,
+      "seconds_per_clip": 4.6785718861247005,
+      "stage": {
+        "backbone": {
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.2405174910090864,
+            "pose_decode_seconds": 13.541371675994014,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.4134850350092165
+          },
+          {
+            "main_cache_seconds": 0.39285397101775743,
+            "pose_decode_seconds": 3.3890285880188458,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.1082086319802329
+          },
+          {
+            "main_cache_seconds": 2.3830713289789855,
+            "pose_decode_seconds": 22.512712036987068,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.9518656559812371
+          },
+          {
+            "main_cache_seconds": 0.5447986329963896,
+            "pose_decode_seconds": 6.216332771000452,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.17251914899679832
+          },
+          {
+            "main_cache_seconds": 1.1731259399966802,
+            "pose_decode_seconds": 12.320350191992475,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.39708984998287633
+          },
+          {
+            "main_cache_seconds": 0.27757655398454517,
+            "pose_decode_seconds": 3.725784644979285,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.09202309997635894
+          },
+          {
+            "main_cache_seconds": 0.4360733399807941,
+            "pose_decode_seconds": 4.154717814002652,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.1115489469957538
+          },
+          {
+            "main_cache_seconds": 0.3830109210102819,
+            "pose_decode_seconds": 3.8811188859981485,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.10707693599397317
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 16,
+        "elapsed_seconds": 37.42230648899567,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 2
+      },
+      "threads": 2
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat0_threads1_batch32/cache",
+      "candidate": "repeat0_threads1_batch32",
+      "dino_batch_size": 32,
+      "elapsed_seconds": 73.14437211901532,
+      "gpu_peak_bytes": 445100544,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.009438390899122807,
+        "visual_exact": false,
+        "visual_max_absolute_error_fp16": 0.00390625
+      },
+      "real_clips": 8,
+      "repeat": 0,
+      "seconds_per_clip": 9.143046514876914,
+      "stage": {
+        "backbone": {
+          "cache_execution_batch_size": 32,
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.3256458310061134,
+            "pose_decode_seconds": 12.993773891008459,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.467331635998562
+          },
+          {
+            "main_cache_seconds": 0.33430304599460214,
+            "pose_decode_seconds": 3.6690606469928753,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.10430877699400298
+          },
+          {
+            "main_cache_seconds": 2.4645244580169674,
+            "pose_decode_seconds": 24.06533600500552,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.925698820996331
+          },
+          {
+            "main_cache_seconds": 0.6371601040009409,
+            "pose_decode_seconds": 6.310601687990129,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.18903763202251866
+          },
+          {
+            "main_cache_seconds": 1.166730422002729,
+            "pose_decode_seconds": 13.822379864985123,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.36870945498230867
+          },
+          {
+            "main_cache_seconds": 0.3284031600051094,
+            "pose_decode_seconds": 3.396027472015703,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.12431990698678419
+          },
+          {
+            "main_cache_seconds": 0.363522211991949,
+            "pose_decode_seconds": 4.081673937005689,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.11170197199680842
+          },
+          {
+            "main_cache_seconds": 0.40645847699488513,
+            "pose_decode_seconds": 3.45568174199434,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.13738997501786798
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 32,
+        "elapsed_seconds": 73.14260952401673,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 1
+      },
+      "threads": 1
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat0_threads1_batch64/cache",
+      "candidate": "repeat0_threads1_batch64",
+      "dino_batch_size": 64,
+      "elapsed_seconds": 73.32067376398481,
+      "gpu_peak_bytes": 615952896,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.009339021381578947,
+        "visual_exact": false,
+        "visual_max_absolute_error_fp16": 0.00390625
+      },
+      "real_clips": 8,
+      "repeat": 0,
+      "seconds_per_clip": 9.165084220498102,
+      "stage": {
+        "backbone": {
+          "cache_execution_batch_size": 64,
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.2624189750058576,
+            "pose_decode_seconds": 13.50520724800299,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.42230235500028357
+          },
+          {
+            "main_cache_seconds": 0.38418233301490545,
+            "pose_decode_seconds": 3.859333886008244,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.10908956301864237
+          },
+          {
+            "main_cache_seconds": 2.501103043992771,
+            "pose_decode_seconds": 23.796093003998976,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.9780961810029112
+          },
+          {
+            "main_cache_seconds": 0.5922271099989302,
+            "pose_decode_seconds": 6.1163359110068996,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.18781864302582107
+          },
+          {
+            "main_cache_seconds": 1.2830073540098965,
+            "pose_decode_seconds": 13.299975236994214,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.43713961401954293
+          },
+          {
+            "main_cache_seconds": 0.31452069801161997,
+            "pose_decode_seconds": 3.7987117859884165,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.09936232501058839
+          },
+          {
+            "main_cache_seconds": 0.39318511000601575,
+            "pose_decode_seconds": 4.027030516997911,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.11501240197685547
+          },
+          {
+            "main_cache_seconds": 0.4183102620008867,
+            "pose_decode_seconds": 3.7612784589873627,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.11456034699222073
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 64,
+        "elapsed_seconds": 73.32004663100815,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 1
+      },
+      "threads": 1
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat0_threads2_batch32/cache",
+      "candidate": "repeat0_threads2_batch32",
+      "dino_batch_size": 32,
+      "elapsed_seconds": 36.044157591997646,
+      "gpu_peak_bytes": 445100544,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.009438390899122807,
+        "visual_exact": false,
+        "visual_max_absolute_error_fp16": 0.00390625
+      },
+      "real_clips": 8,
+      "repeat": 0,
+      "seconds_per_clip": 4.505519698999706,
+      "stage": {
+        "backbone": {
+          "cache_execution_batch_size": 32,
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.2465762629872188,
+            "pose_decode_seconds": 12.182396495016292,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.42662495400873013
+          },
+          {
+            "main_cache_seconds": 0.33900785600417294,
+            "pose_decode_seconds": 3.2856293779914267,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.12925031100166962
+          },
+          {
+            "main_cache_seconds": 2.2574654259951785,
+            "pose_decode_seconds": 22.620728898997186,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.8659124770201743
+          },
+          {
+            "main_cache_seconds": 0.5854804099944886,
+            "pose_decode_seconds": 6.083884127001511,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.17666486400412396
+          },
+          {
+            "main_cache_seconds": 1.1163666320207994,
+            "pose_decode_seconds": 12.006884581991471,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.3536487180099357
+          },
+          {
+            "main_cache_seconds": 0.3096933680062648,
+            "pose_decode_seconds": 3.466275176993804,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.08579657098744065
+          },
+          {
+            "main_cache_seconds": 0.4014063549984712,
+            "pose_decode_seconds": 3.8724930959870107,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.1170616929885
+          },
+          {
+            "main_cache_seconds": 0.39280121901538223,
+            "pose_decode_seconds": 3.4600380880001467,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.10421931999735534
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 32,
+        "elapsed_seconds": 36.04247297401889,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 2
+      },
+      "threads": 2
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat0_threads2_batch64/cache",
+      "candidate": "repeat0_threads2_batch64",
+      "dino_batch_size": 64,
+      "elapsed_seconds": 36.58579999100766,
+      "gpu_peak_bytes": 615952896,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.009339021381578947,
+        "visual_exact": false,
+        "visual_max_absolute_error_fp16": 0.00390625
+      },
+      "real_clips": 8,
+      "repeat": 0,
+      "seconds_per_clip": 4.573224998875958,
+      "stage": {
+        "backbone": {
+          "cache_execution_batch_size": 64,
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.2350296459917445,
+            "pose_decode_seconds": 12.538529534009285,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.4060638700029813
+          },
+          {
+            "main_cache_seconds": 0.40194904900272377,
+            "pose_decode_seconds": 3.381628918024944,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.15624271397246048
+          },
+          {
+            "main_cache_seconds": 2.5116479550197255,
+            "pose_decode_seconds": 22.48142738000024,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.9895678210014012
+          },
+          {
+            "main_cache_seconds": 0.5916087400109973,
+            "pose_decode_seconds": 6.004531908984063,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.1883584370079916
+          },
+          {
+            "main_cache_seconds": 1.3006334800156765,
+            "pose_decode_seconds": 12.563948712981073,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.44729474501218647
+          },
+          {
+            "main_cache_seconds": 0.3729847029899247,
+            "pose_decode_seconds": 3.7044563199742697,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.10252394201233983
+          },
+          {
+            "main_cache_seconds": 0.45305768999969587,
+            "pose_decode_seconds": 4.572576108010253,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.1308964579948224
+          },
+          {
+            "main_cache_seconds": 0.42729660199256614,
+            "pose_decode_seconds": 3.7019632239826024,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.10599079800886102
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 64,
+        "elapsed_seconds": 36.585211284982506,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 2
+      },
+      "threads": 2
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat1_threads2_batch64/cache",
+      "candidate": "repeat1_threads2_batch64",
+      "dino_batch_size": 64,
+      "elapsed_seconds": 36.732022198004415,
+      "gpu_peak_bytes": 615952896,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.009339021381578947,
+        "visual_exact": false,
+        "visual_max_absolute_error_fp16": 0.00390625
+      },
+      "real_clips": 8,
+      "repeat": 1,
+      "seconds_per_clip": 4.591502774750552,
+      "stage": {
+        "backbone": {
+          "cache_execution_batch_size": 64,
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.2509973650157917,
+            "pose_decode_seconds": 12.238286476989742,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.4476707569847349
+          },
+          {
+            "main_cache_seconds": 0.40933637399575673,
+            "pose_decode_seconds": 3.3339669709966984,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.15694008400896564
+          },
+          {
+            "main_cache_seconds": 2.5953627639974,
+            "pose_decode_seconds": 21.947102709003957,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 1.0004508199926931
+          },
+          {
+            "main_cache_seconds": 0.6251140590175055,
+            "pose_decode_seconds": 6.164438965992304,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.19314687000587583
+          },
+          {
+            "main_cache_seconds": 1.224562022020109,
+            "pose_decode_seconds": 13.01189698500093,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.407694066001568
+          },
+          {
+            "main_cache_seconds": 0.37958437198540196,
+            "pose_decode_seconds": 3.8702881619974505,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.10369614599039778
+          },
+          {
+            "main_cache_seconds": 0.44129147997591645,
+            "pose_decode_seconds": 3.9268588979903143,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.12371843398432247
+          },
+          {
+            "main_cache_seconds": 0.4272941809904296,
+            "pose_decode_seconds": 3.759076496993657,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.11390321899671108
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 64,
+        "elapsed_seconds": 36.731257267005276,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 2
+      },
+      "threads": 2
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat1_threads2_batch32/cache",
+      "candidate": "repeat1_threads2_batch32",
+      "dino_batch_size": 32,
+      "elapsed_seconds": 37.03355168300914,
+      "gpu_peak_bytes": 445100544,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.009438390899122807,
+        "visual_exact": false,
+        "visual_max_absolute_error_fp16": 0.00390625
+      },
+      "real_clips": 8,
+      "repeat": 1,
+      "seconds_per_clip": 4.629193960376142,
+      "stage": {
+        "backbone": {
+          "cache_execution_batch_size": 32,
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.303000409010565,
+            "pose_decode_seconds": 12.21629153197864,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.43325371999526396
+          },
+          {
+            "main_cache_seconds": 0.37641510300454684,
+            "pose_decode_seconds": 3.3002111469977535,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.10407693200977519
+          },
+          {
+            "main_cache_seconds": 2.5104045500047505,
+            "pose_decode_seconds": 22.490974833024666,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.9104532499914058
+          },
+          {
+            "main_cache_seconds": 0.6172216040140484,
+            "pose_decode_seconds": 5.985955373995239,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.19209316500928253
+          },
+          {
+            "main_cache_seconds": 1.1952698299719486,
+            "pose_decode_seconds": 12.973040529002901,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.4214849309937563
+          },
+          {
+            "main_cache_seconds": 0.2706220679974649,
+            "pose_decode_seconds": 3.7594020779943094,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.08645597199210897
+          },
+          {
+            "main_cache_seconds": 0.4375757590169087,
+            "pose_decode_seconds": 3.832446061016526,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.11986244999570772
+          },
+          {
+            "main_cache_seconds": 0.3797337030118797,
+            "pose_decode_seconds": 3.731671676010592,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.10624329998972826
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 32,
+        "elapsed_seconds": 37.03185084500001,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 2
+      },
+      "threads": 2
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat1_threads1_batch64/cache",
+      "candidate": "repeat1_threads1_batch64",
+      "dino_batch_size": 64,
+      "elapsed_seconds": 67.94947248799144,
+      "gpu_peak_bytes": 615952896,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.009339021381578947,
+        "visual_exact": false,
+        "visual_max_absolute_error_fp16": 0.00390625
+      },
+      "real_clips": 8,
+      "repeat": 1,
+      "seconds_per_clip": 8.49368406099893,
+      "stage": {
+        "backbone": {
+          "cache_execution_batch_size": 64,
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.1894136340124533,
+            "pose_decode_seconds": 12.930841607012553,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.44365939899580553
+          },
+          {
+            "main_cache_seconds": 0.3542218620132189,
+            "pose_decode_seconds": 3.7141521529993042,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.11328062499524094
+          },
+          {
+            "main_cache_seconds": 2.504476178000914,
+            "pose_decode_seconds": 20.56110861399793,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.9771635389770381
+          },
+          {
+            "main_cache_seconds": 0.6432514159823768,
+            "pose_decode_seconds": 5.724821757001337,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.19265779899433255
+          },
+          {
+            "main_cache_seconds": 1.2318839999788906,
+            "pose_decode_seconds": 12.461828680010512,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.395220597012667
+          },
+          {
+            "main_cache_seconds": 0.36224214898538776,
+            "pose_decode_seconds": 3.498665186983999,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.1492792849894613
+          },
+          {
+            "main_cache_seconds": 0.39815850800368935,
+            "pose_decode_seconds": 3.703717758995481,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.12537073000567034
+          },
+          {
+            "main_cache_seconds": 0.4252582989865914,
+            "pose_decode_seconds": 3.7637320579960942,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.1624163169763051
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 64,
+        "elapsed_seconds": 67.94873937498778,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 1
+      },
+      "threads": 1
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat1_threads1_batch32/cache",
+      "candidate": "repeat1_threads1_batch32",
+      "dino_batch_size": 32,
+      "elapsed_seconds": 71.43569017498521,
+      "gpu_peak_bytes": 445100544,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.009438390899122807,
+        "visual_exact": false,
+        "visual_max_absolute_error_fp16": 0.00390625
+      },
+      "real_clips": 8,
+      "repeat": 1,
+      "seconds_per_clip": 8.929461271873151,
+      "stage": {
+        "backbone": {
+          "cache_execution_batch_size": 32,
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.2478450140042696,
+            "pose_decode_seconds": 12.838277657021536,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.41894652700284496
+          },
+          {
+            "main_cache_seconds": 0.38268026799778454,
+            "pose_decode_seconds": 4.135597305023111,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.10811794199980795
+          },
+          {
+            "main_cache_seconds": 2.5256382710067555,
+            "pose_decode_seconds": 23.225930611981312,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.8800012280116789
+          },
+          {
+            "main_cache_seconds": 0.6053044110012706,
+            "pose_decode_seconds": 6.712764335010434,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.18688488600309938
+          },
+          {
+            "main_cache_seconds": 1.1962295899866149,
+            "pose_decode_seconds": 12.347353238990763,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.4271849610086065
+          },
+          {
+            "main_cache_seconds": 0.2689559040009044,
+            "pose_decode_seconds": 3.164323135977611,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.08582534099696204
+          },
+          {
+            "main_cache_seconds": 0.4567969729832839,
+            "pose_decode_seconds": 3.658857968985103,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.12445849701180123
+          },
+          {
+            "main_cache_seconds": 0.38467767302063294,
+            "pose_decode_seconds": 3.732662957016146,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.11631362998741679
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 32,
+        "elapsed_seconds": 71.4351641050016,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 1
+      },
+      "threads": 1
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat1_threads2_batch16/cache",
+      "candidate": "repeat1_threads2_batch16",
+      "dino_batch_size": 16,
+      "elapsed_seconds": 36.33550359000219,
+      "gpu_peak_bytes": 359674368,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.0,
+        "visual_exact": true,
+        "visual_max_absolute_error_fp16": 0.0
+      },
+      "real_clips": 8,
+      "repeat": 1,
+      "seconds_per_clip": 4.541937948750274,
+      "stage": {
+        "backbone": {
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.362796781992074,
+            "pose_decode_seconds": 11.999561550997896,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.4989775979775004
+          },
+          {
+            "main_cache_seconds": 0.35053533999598585,
+            "pose_decode_seconds": 3.388276572979521,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.10957867398974486
+          },
+          {
+            "main_cache_seconds": 2.3978679869906045,
+            "pose_decode_seconds": 22.554862514982233,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.8915483680029865
+          },
+          {
+            "main_cache_seconds": 0.6844784090062603,
+            "pose_decode_seconds": 6.031612082995707,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.203908686991781
+          },
+          {
+            "main_cache_seconds": 1.246194473002106,
+            "pose_decode_seconds": 12.888768212986179,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.40085951701621525
+          },
+          {
+            "main_cache_seconds": 0.4012501329998486,
+            "pose_decode_seconds": 3.5688301589980256,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.1565648730029352
+          },
+          {
+            "main_cache_seconds": 0.4219884090125561,
+            "pose_decode_seconds": 3.9492916140006855,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.15082619001623243
+          },
+          {
+            "main_cache_seconds": 0.41031225299229845,
+            "pose_decode_seconds": 3.8839147870021407,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.14992496100603603
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 16,
+        "elapsed_seconds": 36.333822715008864,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 2
+      },
+      "threads": 2
+    },
+    {
+      "cache": "/home/haipd/Sign_Representations/method/signpathlab/artifacts/aslc3000/cache_benchmark/repeat1_threads1_batch16/cache",
+      "candidate": "repeat1_threads1_batch16",
+      "dino_batch_size": 16,
+      "elapsed_seconds": 70.82670530700125,
+      "gpu_peak_bytes": 359674368,
+      "parity": {
+        "nonvisual_arrays_and_rois_exact": true,
+        "supports_exact": true,
+        "visual_changed_fraction": 0.0,
+        "visual_exact": true,
+        "visual_max_absolute_error_fp16": 0.0
+      },
+      "real_clips": 8,
+      "repeat": 1,
+      "seconds_per_clip": 8.853338163375156,
+      "stage": {
+        "backbone": {
+          "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "code_repository": "https://github.com/facebookresearch/dinov2",
+          "initialization": "official_pretrained",
+          "missing_keys": [],
+          "parameter_count": 22056576,
+          "registry_key": "dinov2_vits14",
+          "source_files_sha256": {
+            "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+            "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+            "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+          },
+          "unexpected_keys": [],
+          "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+        },
+        "clip_timings": [
+          {
+            "main_cache_seconds": 1.1679775340016931,
+            "pose_decode_seconds": 14.036077378987102,
+            "sample_id": "asl_citizen:15613180861648712-ACCEPT",
+            "visual_roi_seconds": 0.4081650509906467
+          },
+          {
+            "main_cache_seconds": 0.34325000099488534,
+            "pose_decode_seconds": 3.62921194799128,
+            "sample_id": "asl_citizen:5602742901581106-DRUNK",
+            "visual_roi_seconds": 0.09658456101897173
+          },
+          {
+            "main_cache_seconds": 2.3788353110139724,
+            "pose_decode_seconds": 22.52479346099426,
+            "sample_id": "asl_citizen:0881640940817423-EARMUFFS",
+            "visual_roi_seconds": 0.9739298089989461
+          },
+          {
+            "main_cache_seconds": 0.5919283260009252,
+            "pose_decode_seconds": 6.07058153199614,
+            "sample_id": "asl_citizen:1813041616356077-PASS OUT",
+            "visual_roi_seconds": 0.19416396800079383
+          },
+          {
+            "main_cache_seconds": 1.2807928520196583,
+            "pose_decode_seconds": 12.555802688002586,
+            "sample_id": "asl_citizen:7004436858422076-seedRESEARCH",
+            "visual_roi_seconds": 0.4499737329897471
+          },
+          {
+            "main_cache_seconds": 0.3065895600011572,
+            "pose_decode_seconds": 3.5805486170283984,
+            "sample_id": "asl_citizen:7226509204943707-SCARF 3",
+            "visual_roi_seconds": 0.09868581499904394
+          },
+          {
+            "main_cache_seconds": 0.4288443779805675,
+            "pose_decode_seconds": 3.7050629609730095,
+            "sample_id": "asl_citizen:24289224539723375-SLEEP",
+            "visual_roi_seconds": 0.11645713899633847
+          },
+          {
+            "main_cache_seconds": 0.36669311198056675,
+            "pose_decode_seconds": 3.507873150985688,
+            "sample_id": "asl_citizen:7550094163826042-TALL 2",
+            "visual_roi_seconds": 0.10309417801909149
+          }
+        ],
+        "completed": 8,
+        "dino_batch_size": 16,
+        "elapsed_seconds": 70.82497752900235,
+        "lossless_compression": true,
+        "python_process_count": 1,
+        "raw_intermediates_retained": false,
+        "split": "train",
+        "status": "completed",
+        "total": 8,
+        "worker_kind": "independent_detector_threads",
+        "workers": 1
+      },
+      "threads": 1
+    }
+  ],
+  "sample_count": 8,
+  "scope": "paired real-video cache benchmark; not training/retrieval metrics",
+  "status": "completed"
+}

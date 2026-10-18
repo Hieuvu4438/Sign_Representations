@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asm-jepa"
+version = "0.1.0"
+description = "ASM-JEPA: anchored state-motion JEPA for skeleton sign-language SSL on ASL-Citizen (proposal15)"
+requires-python = ">=3.10"
+# training / geometry / metrics never import cv2 or rtmlib at package import time
+dependencies = ["torch>=2.1", "numpy>=1.26", "PyYAML>=6.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+video = ["opencv-python-headless>=4.8"]          # prepare_aslc header probes, audit overlays
+pose = ["opencv-python-headless>=4.8", "onnxruntime-gpu>=1.18", "rtmlib"]  # extract_pose (separate env)
+
+[tool.setuptools.packages.find]
+include = ["asm_jepa*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

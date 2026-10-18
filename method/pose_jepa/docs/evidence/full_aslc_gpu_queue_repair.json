@@ -1,0 +1,50 @@
+{
+  "previous_service_state": "failed",
+  "previous_job_lock": {
+    "code_sha256": "90bc239a06688ba3b73af17a471aca85ebad61bbf47fc7e2d3a1d2b2c11d75a9",
+    "ops_sha256": {
+      "full_aslc_job.py": "62492c526a4135643b0864a40d9a58056fbec7153e1241ac31118b35b49ae2c7",
+      "aslc3000_job.py": "f899b667c2694e6bc9a8bd0a38b8d6ad5f829238023cd1d200ac452901f30070",
+      "evaluate_full_aslc.py": "b88b7a251c7c45b8b80c5745599b24bccf09ae574063d61c939aa74afafc0e1b"
+    },
+    "files_sha256": {
+      "job.json": "7e0cde19f0d85c4faf49509d431e54de744a96d71fcce60157274e5c1cc97588",
+      "inputs.json": "8493bb5521578828584e79fe1142dd2e95a426da70d7f1fd2dcc83da3f288f90",
+      "train.yaml": "7308c67daa6ae02a4ef54811abc46aa7661128ef3478001a2a6a9b37ec8795cc"
+    },
+    "setup_correction": "Verified cached hashed signer aliases -> authoritative official Participant IDs, before any job stage was launched."
+  },
+  "checkpoint_sha256_before": "5b3f4b68641687616d9c6a3f3dd5a1d5a785e4e9f2182ce0459031249c2b0123",
+  "reason": "Shared GPU exhausted global VRAM before first update; add queue and only CUDA-OOM resource retry in supervisor.",
+  "training_code_config_and_data_unchanged": true,
+  "deployed_unix": 1791975693.6192284,
+  "job_lock_after": {
+    "code_sha256": "90bc239a06688ba3b73af17a471aca85ebad61bbf47fc7e2d3a1d2b2c11d75a9",
+    "ops_sha256": {
+      "full_aslc_job.py": "f1ed19a5f1efd9e342b1fbc8a7dafff5bad921df870bdb4c4df9e7f63ec8680d",
+      "aslc3000_job.py": "f899b667c2694e6bc9a8bd0a38b8d6ad5f829238023cd1d200ac452901f30070",
+      "evaluate_full_aslc.py": "b88b7a251c7c45b8b80c5745599b24bccf09ae574063d61c939aa74afafc0e1b"
+    },
+    "files_sha256": {
+      "job.json": "7e0cde19f0d85c4faf49509d431e54de744a96d71fcce60157274e5c1cc97588",
+      "inputs.json": "8493bb5521578828584e79fe1142dd2e95a426da70d7f1fd2dcc83da3f288f90",
+      "train.yaml": "7308c67daa6ae02a4ef54811abc46aa7661128ef3478001a2a6a9b37ec8795cc"
+    },
+    "setup_correction": "Verified cached hashed signer aliases -> authoritative official Participant IDs, before any job stage was launched."
+  },
+  "verified_unix": 1791975727.698448,
+  "verified_progress": {
+    "phase": "train",
+    "status": "waiting_for_gpu",
+    "pid": 2892213,
+    "step": 0,
+    "max_steps": 125482,
+    "free_vram_mib": 720,
+    "required_free_vram_mib": 6144,
+    "gpu_probe_error": null,
+    "updated_unix": 1791975726.0405202,
+    "retry_poll_seconds": 30
+  },
+  "tests": 66,
+  "service": "MainPID=2892213\nNRestarts=0\nActiveState=active\nSubState=running\n"
+}

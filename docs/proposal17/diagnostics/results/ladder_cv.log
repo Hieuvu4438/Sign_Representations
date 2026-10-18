@@ -1,0 +1,6 @@
+0 {'raw': 16.1, 'whiten': 18.2, 'CMN+whiten': 23.4, 'CORAL+whiten': 26.5, 'LEACE+whiten': 19.8, 'cluster-CORAL(label-free)+whiten': 26.3, 'LDA96': 43.7}
+1 {'raw': 17.3, 'whiten': 16.3, 'CMN+whiten': 22.1, 'CORAL+whiten': 26.6, 'LEACE+whiten': 17.5, 'cluster-CORAL(label-free)+whiten': 24.1, 'LDA96': 44.6}
+2 {'raw': 15.5, 'whiten': 18.6, 'CMN+whiten': 21.3, 'CORAL+whiten': 26.0, 'LEACE+whiten': 20.7, 'cluster-CORAL(label-free)+whiten': 23.2, 'LDA96': 42.8}
+3 {'raw': 11.6, 'whiten': 12.2, 'CMN+whiten': 15.8, 'CORAL+whiten': 21.4, 'LEACE+whiten': 13.4, 'cluster-CORAL(label-free)+whiten': 17.8, 'LDA96': 33.7}
+4 {'raw': 20.7, 'whiten': 22.9, 'CMN+whiten': 25.7, 'CORAL+whiten': 26.9, 'LEACE+whiten': 24.3, 'cluster-CORAL(label-free)+whiten': 27.8, 'LDA96': 45.4}
+{"raw": [16.2, 2.9], "whiten": [17.7, 3.5], "CMN+whiten": [21.7, 3.3], "CORAL+whiten": [25.5, 2.0], "LEACE+whiten": [19.1, 3.6], "cluster-CORAL(label-free)+whiten": [23.9, 3.4], "LDA96": [42.0, 4.3]}

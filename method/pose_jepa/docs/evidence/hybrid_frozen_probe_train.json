@@ -1,0 +1,184 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.460797905921936,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.125,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.125,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.1965169310569763,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.125,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.125,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.0716293156147003,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.25,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.25,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.9666544198989868,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.25,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.25,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.9109715223312378,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.125,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.125,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.844483494758606,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.125,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.125,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.7775923311710358,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.125,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.125,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.7184293270111084,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.125,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.125,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.680879533290863,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.125,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.125,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.6400430202484131,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.25,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.25,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.6085924804210663,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.25,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.25,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.5766966044902802,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.125,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.125,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.545510932803154,
+    "skipped_train_samples": 0,
+    "validation": {
+      "Top1_micro": 0.125,
+      "Top5_micro": 1.0,
+      "Top1_macro": 0.125,
+      "Top5_macro": 1.0,
+      "num_samples": 8,
+      "valid_samples": 8,
+      "unit": "fraction"
+    }
+  }
+]

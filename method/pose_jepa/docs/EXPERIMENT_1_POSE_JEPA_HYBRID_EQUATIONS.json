@@ -1,0 +1,93 @@
+{
+  "target_page_id": "3f376acc-2258-80d9-a6a4-ece9232176cd",
+  "section_title": "Experiment 1 - Pose-Jepa Hybrid",
+  "publication_status": "NOT_WRITTEN: Notion connector returned USER_NOT_LOGGED_IN",
+  "draft_path": "/home/haipd/Sign_Representations/method/pose_jepa/docs/EXPERIMENT_1_POSE_JEPA_HYBRID_NOTION_DRAFT_VI.md",
+  "equations": [
+    {
+      "index": 1,
+      "expression": "X\\in\\mathbb{R}^{T\\times133\\times2},\\qquad Q\\in[0,1]^{T\\times133}"
+    },
+    {
+      "index": 2,
+      "expression": "o=\\operatorname{median}_{t\\in\\mathcal{V}_{sh}}\\frac{x_{t,Lsh}+x_{t,Rsh}}{2},\\qquad\ns=\\operatorname{median}_{t\\in\\mathcal{V}_{sh}}\\left\\|x_{t,Lsh}-x_{t,Rsh}\\right\\|_2"
+    },
+    {
+      "index": 3,
+      "expression": "g_{t,j}=\\frac{x_{t,j}-o}{s}"
+    },
+    {
+      "index": 4,
+      "expression": "\\ell_{t,j}^{(p)}=g_{t,j}^{(p)}-g_{t,r_p}^{(p)},\\qquad\na_t^{(p)}=\\left[g_{t,r_p}^{(p)};q_{t,r_p}^{(p)}\\right]"
+    },
+    {
+      "index": 5,
+      "expression": "z_{k,p}=\\operatorname{LN}\\left(W_{seg}\\left[h_{2k,p};h_{2k+1,p};v_{2k,p};v_{2k+1,p}\\right]+b_{seg}\\right)"
+    },
+    {
+      "index": 6,
+      "expression": "K=\\left\\lceil\\frac{T}{2}\\right\\rceil,\\qquad N=4K,\\qquad z_{k,p}\\in\\mathbb{R}^{256}"
+    },
+    {
+      "index": 7,
+      "expression": "H_V=f_{\\theta}(Z_V),\\qquad\n\\widehat{Z}_M=p_{\\phi}\\left(H_V,\\operatorname{mask\\_tokens}_M,\\operatorname{positions}\\right),\\qquad\nZ^{teacher}=f_{\\bar\\theta}(Z_{valid})"
+    },
+    {
+      "index": 8,
+      "expression": "\\bar\\theta\\leftarrow m\\bar\\theta+(1-m)\\theta"
+    },
+    {
+      "index": 9,
+      "expression": "m(u)=1-\\frac{1-m_0}{2}\\left[1+\\cos\\left(\\pi\\frac{u}{U}\\right)\\right],\\qquad m_0=0.999"
+    },
+    {
+      "index": 10,
+      "expression": "\\mathcal{M}\\subseteq\\mathcal{V}_{natural},\\qquad\n\\mathcal{V}_{visible}=\\mathcal{V}_{natural}\\setminus\\mathcal{M}"
+    },
+    {
+      "index": 11,
+      "expression": "\\mathcal{L}=\\mathcal{L}_{latent}+0.25\\mathcal{L}_{geometry}+0.10\\mathcal{L}_{motion}"
+    },
+    {
+      "index": 12,
+      "expression": "P^{t}_{i}=\\operatorname{softmax}\\left(\\frac{z^{t}_{i}-c}{\\tau_t}\\right),\\qquad\nP^{s}_{i}=\\operatorname{softmax}\\left(\\frac{\\widehat z_i}{\\tau_s}\\right),\\qquad\n\\tau_t=0.06,\\quad\\tau_s=0.10"
+    },
+    {
+      "index": 13,
+      "expression": "\\mathcal{L}_{latent}=\\frac{\\sum_{i\\in\\mathcal{M}}w_i\\left[-\\sum_{d=1}^{256}P^t_{i,d}\\log P^s_{i,d}\\right]}{\\sum_{i\\in\\mathcal{M}}w_i}"
+    },
+    {
+      "index": 14,
+      "expression": "c\\leftarrow0.9c+0.1\\frac{\\sum_{i\\in\\mathcal{M}}w_i z^t_i}{\\sum_{i\\in\\mathcal{M}}w_i}"
+    },
+    {
+      "index": 15,
+      "expression": "\\mathcal{L}_{geometry}=\\frac{\\sum_{(t,j,p)\\in\\mathcal{S}_g}a_pq_{t,j,p}\\,\\rho_{0.05}(\\widehat\\ell_{t,j,p}-\\ell_{t,j,p})}{\\sum_{(t,j,p)\\in\\mathcal{S}_g}a_pq_{t,j,p}}"
+    },
+    {
+      "index": 16,
+      "expression": "d_{t,j,p}=\\left(g_{t+1,j,p}-g_{t,j,p}\\right)\\frac{1/25}{\\Delta t_t},\\qquad\n\\Delta t_t=\\operatorname{timestamp}_{t+1}-\\operatorname{timestamp}_{t}"
+    },
+    {
+      "index": 17,
+      "expression": "\\mathcal{L}_{motion}=\\frac{\\sum_{(t,j,p)\\in\\mathcal{S}_m}a_pq_{t,j,p}q_{t+1,j,p}\\,\\rho_{0.02}(\\widehat d_{t,j,p}-d_{t,j,p})}{\\sum_{(t,j,p)\\in\\mathcal{S}_m}a_pq_{t,j,p}q_{t+1,j,p}}"
+    },
+    {
+      "index": 18,
+      "expression": "\\bar h_p=\\frac{\\sum_k v_{k,p}h_{k,p}}{\\max(1,\\sum_kv_{k,p})},\\qquad\ne_{clip}=\\left[\\bar h_{body};\\bar h_{LH};\\bar h_{RH};\\bar h_{face}\\right]\\in\\mathbb{R}^{1024}"
+    },
+    {
+      "index": 19,
+      "expression": "\\widetilde e=\\frac{e}{\\|e\\|_2},\\qquad\nS(q,c)=\\max_{g\\in\\mathcal{G}_c}\\widetilde e_q^{\\top}\\widetilde e_g"
+    },
+    {
+      "index": 20,
+      "expression": "r_q=1+\\sum_{c\\ne y_q}\\mathbf{1}\\left[S(q,c)\\ge S(q,y_q)\\right]"
+    },
+    {
+      "index": 21,
+      "expression": "\\operatorname{Rec@K}=\\frac{1}{N_q}\\sum_q\\mathbf{1}[r_q\\le K],\\qquad\n\\operatorname{MRR}=\\frac{1}{N_q}\\sum_q\\frac{1}{r_q},\\qquad\n\\operatorname{DCG}=\\frac{1}{N_q}\\sum_q\\frac{1}{\\log_2(1+r_q)}"
+    }
+  ],
+  "note": "LaTeX expressions prepared for native Notion equation blocks after connection and enhanced Markdown specification are available; draft Markdown is not a verified Notion write payload."
+}

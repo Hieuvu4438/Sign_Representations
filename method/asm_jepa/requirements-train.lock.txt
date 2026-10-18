@@ -1,0 +1,14 @@
+# Resolved training environment actually used on this machine (2026-10-15):
+#   /home/haipd/Sign_Representations/.venv-signrep  (Python 3.13.5, RTX 5880 Ada, driver 570.195.03)
+# The guide's compatibility profile (python3.10, torch==2.5.1 cu124, numpy==1.26.4, ...) was NOT installed;
+# the existing environment was reused and these are its resolved versions.
+torch==2.11.0+cu128
+numpy==2.2.6
+PyYAML==6.0.3
+scipy==1.17.1
+scikit-learn==1.8.0
+einops==0.8.2
+pandas==2.3.3
+tqdm==4.68.1
+pytest==9.0.3
+opencv-python==5.0.0   # only for prepare_aslc header probes and audit overlays (lazy import)

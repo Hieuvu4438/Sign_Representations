@@ -1,0 +1,21 @@
+{
+  "wheel_import_path": "/home/haipd/Sign_Representations/method/pose_jepa/runtime/wheel_install/signrepr/__init__.py",
+  "bundled_sources_lock_sha256": "a73b4d9d251fc24ead76db866ae52a8fc5473f44b2cf47e2e048f828d888fb43",
+  "commands": [
+    "build_protocol",
+    "eval_islr",
+    "export",
+    "extract",
+    "extract_pose",
+    "import_unisign",
+    "make_fixture",
+    "pretrain",
+    "retrieval",
+    "train_cslr",
+    "train_islr",
+    "train_metric",
+    "train_slt",
+    "validate_data"
+  ],
+  "verified": true
+}

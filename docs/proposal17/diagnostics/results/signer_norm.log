@@ -1,0 +1,9 @@
+CMN 28.445263975155278 31.657608695652172
+CMVN 28.775232919254655 31.2305900621118
+CORAL 29.978649068322984 38.52872670807454
+raw 22.719332298136646 whiten 29.435170807453414
+cross-signer NN raw {'top1_precision': 9.8, 'mutual_fraction': 21.333333333333336, 'mutual_precision': 19.296875}
+cross-signer NN whitened {'top1_precision': 16.541666666666664, 'mutual_fraction': 30.2, 'mutual_precision': 25.938189845474614}
+cross-signer NN leace+whiten {'top1_precision': 17.716666666666665, 'mutual_fraction': 31.233333333333334, 'mutual_precision': 28.175026680896476}
+cross-signer NN CORAL+whiten {'top1_precision': 24.008333333333333, 'mutual_fraction': 34.150000000000006, 'mutual_precision': 35.91996095656418}
+cross-signer NN lda_ceiling_(train-fit, optimistic) {'top1_precision': 39.358333333333334, 'mutual_fraction': 29.46666666666667, 'mutual_precision': 58.82352941176471}

@@ -1,0 +1,8 @@
+[Unit]
+Description=Write E04 ASLC3000 human-readable progress TXT
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/haipd/Sign_Representations/method/signpathlab
+ExecStart=/home/haipd/Sign_Representations/method/signpathlab/.venv-locked/bin/python /home/haipd/Sign_Representations/method/signpathlab/scripts/write_progress_txt.py --job-dir artifacts/aslc3000/job_seed17
+TimeoutStartSec=15

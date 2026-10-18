@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "checkpoint_sha256": "d780f16c16d733d91cddaf369c5884832e475de0f8dbf20a77dcf54f2918aef0",
+  "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation/arms/lr3e5/last.pt",
+  "split": "val",
+  "metrics": {
+    "DCG": 0.46272823735637125,
+    "MRR": 0.34084280417011775,
+    "Rec@1": 0.22874611801242237,
+    "Rec@5": 0.45826863354037267,
+    "Rec@10": 0.5672554347826086,
+    "macro_Rec@1": 0.23175271573294273,
+    "queries": 10304,
+    "gallery": 40154
+  },
+  "protocol": "official_train_gallery/raw_window64_stride2_grp_mean_L2_class_max_pessimistic_ties",
+  "gallery_zero_vectors": 39,
+  "query_zero_vectors": 0,
+  "failure_policy": "historical PLctx scorer: retain zero vectors and finite pessimistic tie ranks; all queries retained",
+  "finished_unix": 1792098110.2994034
+}

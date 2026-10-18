@@ -1,0 +1,44 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 23.689871430397034,
+    "skipped_train_samples": 0,
+    "validation": {
+      "WER": 1.0,
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "num_utterances": 8,
+      "valid_utterances": 8
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 3.191567301750183,
+    "skipped_train_samples": 0,
+    "validation": {
+      "WER": 1.0,
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "num_utterances": 8,
+      "valid_utterances": 8
+    }
+  },
+  {
+    "epoch": 3,
+    "train_loss": 2.5786062479019165,
+    "skipped_train_samples": 0,
+    "validation": {
+      "WER": 1.0,
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "num_utterances": 8,
+      "valid_utterances": 8
+    }
+  }
+]

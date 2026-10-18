@@ -1,0 +1,133 @@
+run:
+  name: geometry_motion
+  stage: ssl
+  seed: 42
+  output_dir: ../../runtime/geometry_motion
+  supervision: pose_only_self_supervised
+  protocol: cross_corpus_transfer
+  model_selection_scope: target_validation
+data:
+  train_manifest: ../../runtime/fixture/manifest.jsonl
+  validation_manifest: ../../runtime/fixture/val.jsonl
+  downstream_validation_protocol: null
+  joint_layout: coco_wholebody_133
+  part_order:
+  - body
+  - left_hand
+  - right_hand
+  - face
+  coordinate_profile: viewport_normalized
+  normalization: clip_median_shoulders
+  canonicalization_scope: sample_before_windowing
+  confidence_threshold: 0.3
+  min_part_valid_fraction: 0.5
+  max_frames: 128
+  segment_length: 2
+  target_fps: null
+  time_mode: timestamps_if_known_else_frame_index
+  motion_requires_known_timing: true
+  max_motion_gap_sec: 0.2
+  num_workers: 8
+  pin_memory: true
+  persistent_workers: true
+model:
+  input_channels: 3
+  spatial_channels:
+  - 64
+  - 64
+  - 128
+  - 256
+  graph_partitions:
+  - self
+  - undirected_neighbor
+  spatial_normalization: per_joint_channel_layernorm
+  share_hand_frontend: true
+  hand_canonical_flip: false
+  joint_aggregation: flatten_project
+  anchor_dim: 64
+  encoder_dim: 256
+  encoder_layers: 8
+  encoder_heads: 8
+  encoder_ffn_dim: 1024
+  encoder_pre_norm: true
+  dropout: 0.0
+  predictor_dim: 128
+  predictor_layers: 4
+  predictor_heads: 4
+  predictor_ffn_dim: 512
+  latent_dim: 256
+  sequence_dim: 1024
+  init_checkpoint: null
+mask:
+  ratio: 0.6
+  part_weights:
+  - 0.15
+  - 0.3
+  - 0.3
+  - 0.25
+  span_budget_fraction: 0.5
+  min_span_segments: 2
+  max_span_segments: 8
+  min_visible_fraction: 0.2
+  min_visible_tokens: 4
+  keep_one_visible_part_per_segment: true
+  min_visible_segments_per_hand: 2
+  motion_aware: false
+  learned_saliency: false
+loss:
+  latent_weight: 0
+  student_temperature: 0.1
+  teacher_temperature: 0.06
+  center_momentum: 0.9
+  center_quality_weighted: true
+  geometry_weight: 1
+  geometry_huber_beta: 0.05
+  geometry_exclude_local_roots: true
+  motion_weight: 1
+  motion_huber_beta: 0.02
+  motion_reference_fps: 25.0
+  physical_part_weights:
+  - 0.25
+  - 1.0
+  - 1.0
+  - 1.0
+  dense_context_weight: 0.0
+  variance_weight: 0.0
+  covariance_weight: 0.0
+optim:
+  optimizer: adamw
+  learning_rate: 0.0003
+  min_learning_rate: 1.0e-05
+  betas:
+  - 0.9
+  - 0.95
+  weight_decay: 0.05
+  warmup_steps: 5000
+  max_steps: 100000
+  per_rank_batch: 8
+  gradient_accumulation_steps: 8
+  gradient_clip_norm: 1.0
+  precision: bf16_if_supported_else_fp32
+ema:
+  initial_momentum: 0.999
+  final_momentum: 1.0
+  schedule: cosine_per_successful_optimizer_step
+  teacher_eval: true
+  export_encoder: ema
+evaluation:
+  checkpoint_interval_steps: 2000
+  frozen_validation_interval_steps: 5000
+  retrieval_protocol: gloss_max_single_relevant
+  recall_k:
+  - 1
+  - 5
+  - 10
+  report_units: fractions_and_percent_display
+  report_per_part_quality: true
+  window_frames: 128
+  window_stride_frames: 64
+extensions:
+  rgb_support: false
+  depth_lifting: false
+  sigreg: false
+  multi_layer_targets: false

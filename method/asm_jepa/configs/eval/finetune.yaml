@@ -1,0 +1,33 @@
+# ISLR fine-tuning / supervised scratch (R0). model_config = architecture + normalisation reference only;
+# --init decides scratch vs SSL (teacher tokenizer/encoder) initialisation.
+mode: finetune_islr
+seed: 0
+model_config: ../pretrain/state.yaml
+feature_key: state_part_concat1024_l2
+num_classes_from_vocab: true
+head: layernorm_dropout_linear
+head_dropout: 0.20
+augment: true
+data:
+  processed_root: data/processed/aslc
+  train_split: train
+  val_split: val
+  num_workers: 8
+  pin_memory: true
+train:
+  optimizer: adamw
+  encoder_lr: 5.0e-5
+  head_lr: 3.0e-4
+  weight_decay: 1.0e-3
+  batch_size_per_gpu: 32
+  accum_steps: 4
+  epochs: 100
+  warmup_epochs: 10
+  final_lr_ratio: 0.01
+  label_smoothing: 0.10
+  grad_clip_norm: 1.0
+  precision: bf16
+  eval_batch_size: 128
+  log_every_steps: 50
+selection_metric: val/cls/top1_instance
+test_during_training: false

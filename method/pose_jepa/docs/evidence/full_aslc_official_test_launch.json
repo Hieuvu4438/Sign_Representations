@@ -1,0 +1,31 @@
+{
+  "status": "EVALUATION_RUNNING",
+  "verified_unix": 1792065758.700205,
+  "checked_local": "2026-10-15T19:02:38.700393+07:00",
+  "selected_checkpoint_step": 115000,
+  "selected_encoder": "ema",
+  "checkpoint_sha256": "0847fb6f156fb44ae276b1f1be68f7738fd93f8bd956fc31e8e8d14fc681e2ea",
+  "split_counts": {
+    "train": 40154,
+    "val": 10304,
+    "test": 32941
+  },
+  "signer_counts": {
+    "train": 35,
+    "val": 6,
+    "test": 11
+  },
+  "source_and_signer_splits_disjoint": true,
+  "bundle_and_selected_checkpoint_checksums_match": true,
+  "test_used_for_checkpoint_selection": false,
+  "progress": {
+    "phase": "evaluate_extract",
+    "status": "running",
+    "pid": 1334302,
+    "updated_unix": 1792065755.7462976,
+    "split": "train",
+    "completed": 30901,
+    "total": 40154
+  },
+  "service": "MainPID=2892213\nNRestarts=0\nActiveState=active\nSubState=running\n"
+}

@@ -1,0 +1,76 @@
+{
+  "status": "RUNNING",
+  "verified_unix": 1792077004.7795405,
+  "job_root": "/home/haipd/Sign_Representations/method/phonojepa/runtime/plctx160_continuation",
+  "tests": 47,
+  "native_original_training_sources_unchanged": true,
+  "baseline_validation": {
+    "status": "complete",
+    "checkpoint_sha256": "8f8a10687f2df869fd0d7f4703edfeb467c59977d7baaacb2d567c15789e41f9",
+    "checkpoint": "/home/haipd/Sign_Representations/method/phonojepa/runtime/runs/PJ_PLctx_FULL_160ep/final.pt",
+    "split": "val",
+    "metrics": {
+      "DCG": 0.46207224692729587,
+      "MRR": 0.33994338323423157,
+      "Rec@1": 0.22719332298136646,
+      "Rec@5": 0.4594332298136646,
+      "Rec@10": 0.5678377329192547,
+      "macro_Rec@1": 0.23023922860978882,
+      "queries": 10304,
+      "gallery": 40154
+    },
+    "protocol": "official_train_gallery/raw_window64_stride2_grp_mean_L2_class_max_pessimistic_ties",
+    "gallery_zero_vectors": 39,
+    "query_zero_vectors": 0,
+    "failure_policy": "historical PLctx scorer: retain zero vectors and finite pessimistic tie ranks; all queries retained",
+    "finished_unix": 1792076770.4287019
+  },
+  "progress": {
+    "phase": "train",
+    "status": "running",
+    "arm": "lr1e5",
+    "pid": 1697999,
+    "branch_step": 1546,
+    "global_step": 202186,
+    "best_validation_Rec1": 0.22719332298136646,
+    "best_global_step": 200640,
+    "last_validation_branch_step": 0,
+    "stale_validations": 0,
+    "active_training_seconds": 182.89519528433448,
+    "initialization": "full native checkpoint, retained optimizer/teacher/centers; new deterministic post-fork sampler",
+    "branch_max_steps": 50160,
+    "updated_unix": 1792077004.667885,
+    "last_update": {
+      "step": 202186,
+      "branch_step": 1546,
+      "loss": 4.031537055969238,
+      "teacher_entropy": 0.20964421331882477,
+      "ctx": 2.1005094051361084,
+      "lr": 9.992339991442e-06,
+      "grad_norm_before_clip": 13.257918357849121,
+      "seconds": 0.2158518530195579,
+      "unix": 1792077004.6676288,
+      "peak_allocated_vram": 1833352192
+    }
+  },
+  "service": "MainPID=1697871\nNRestarts=0\nActiveState=active\nSubState=running\nUnitFileState=enabled\n",
+  "linger": "Linger=yes\n",
+  "python": "3.13.5",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA RTX 5880 Ada Generation",
+  "estimated_total_hours": [
+    8,
+    12
+  ],
+  "sequence": [
+    "baseline_full_validation",
+    "lr1e5",
+    "lr3e5",
+    "validation_selection",
+    "winner_official_test",
+    "report"
+  ],
+  "new_validation_results_available": false,
+  "old_model_and_cache_overwritten": false
+}

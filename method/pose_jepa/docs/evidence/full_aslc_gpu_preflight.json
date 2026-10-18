@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "scope": "technical GPU batch32/BF16 resume, not a full-corpus quality result",
+  "gpu": "NVIDIA RTX 5880 Ada Generation",
+  "first": {
+    "successful": true,
+    "step": 1,
+    "raw_losses": {
+      "latent": 9.959778785705566,
+      "geometry": 0.20509545505046844,
+      "motion": 0.0547293946146965
+    },
+    "weighted_losses": {
+      "latent": 9.959778785705566,
+      "geometry": 0.05127386376261711,
+      "motion": 0.00547293946146965
+    },
+    "denominators": {
+      "latent": 2907.242431640625,
+      "geometry": 90369.421875,
+      "motion": 75824.8046875
+    },
+    "lr": 6e-08,
+    "ema_momentum": 0.999,
+    "grad_norm": 39.626670837402344,
+    "target_entropy_per_part": [
+      0.3332981765270233,
+      0.46578115224838257,
+      0.3280789256095886,
+      0.00852334126830101
+    ],
+    "update_duration_sec": 0.7389614499988966,
+    "peak_allocated_vram_bytes": 2277578752,
+    "mask_ratio_local": 0.599999189376831
+  },
+  "second": {
+    "successful": true,
+    "step": 2,
+    "raw_losses": {
+      "latent": 9.939993858337402,
+      "geometry": 0.18466399610042572,
+      "motion": 0.05427408218383789
+    },
+    "weighted_losses": {
+      "latent": 9.939993858337402,
+      "geometry": 0.04616599902510643,
+      "motion": 0.005427408218383789
+    },
+    "denominators": {
+      "latent": 2659.69970703125,
+      "geometry": 83361.390625,
+      "motion": 69894.5
+    },
+    "lr": 1.2e-07,
+    "ema_momentum": 0.9990000000001567,
+    "grad_norm": 40.20438003540039,
+    "target_entropy_per_part": [
+      0.3136919140815735,
+      0.40855130553245544,
+      0.30596721172332764,
+      0.019748477265238762
+    ],
+    "update_duration_sec": 0.3686983379884623,
+    "peak_allocated_vram_bytes": 2379293696,
+    "mask_ratio_local": 0.6004869937896729
+  },
+  "resume_step": 1,
+  "next_batch_bitwise_equal": true,
+  "student_teacher_bitwise_equal": true,
+  "losses_equal": true,
+  "full_dictionary_cuda_ties_and_failure": "passed",
+  "wall_seconds": 5.017104148864746
+}

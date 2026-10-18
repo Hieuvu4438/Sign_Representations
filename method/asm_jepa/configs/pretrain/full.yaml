@@ -1,0 +1,9 @@
+# R6 / ASM-v2 full: anchor + relations + geometry/timing log-signature motion tokens + global consistency.
+inherits: [state.yaml]
+experiment: aslc_asm_full
+run_dir: runs/aslc_asm_full_s0
+features:
+  geometry_paths: true
+  timing_paths: true
+loss:
+  lambda_global: 0.1

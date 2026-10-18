@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "verified_unix": 1792075084.678072,
+  "archive_sha256": "2d823a8539c6b75fd26887c2f4c6d5cb0d45af35ca6ee6281f2ecc5075b47712",
+  "verified_members": 97651,
+  "archive_bytes": 117282680,
+  "uncompressed_preserved_bytes": 716102271,
+  "full_validation_reports": 26,
+  "official_test_queries": 32941,
+  "selected_encoder_step": 115000,
+  "preserved": "all text configs/manifests/receipts/train logs/metrics/ranks/failure lists, source snapshots, tests, evidence and small audit images, across all Pose-JEPA runtime experiments",
+  "weights_retained": false,
+  "pose_caches_retained": false,
+  "feature_matrices_retained": false,
+  "deletion_not_performed_by_this_script": true
+}

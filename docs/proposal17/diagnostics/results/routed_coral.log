@@ -1,0 +1,6 @@
+{'raw': 18.28416149068323, 'whiten': 24.941770186335404}
+8 {'K8_routed_inductive': 27.85, 'K8_random_routing_control': 21.91, 'K8_transductive_Kq8': 30.57}
+16 {'K16_routed_inductive': 28.61, 'K16_random_routing_control': 22.19, 'K16_transductive_Kq12': 31.17}
+35 {'K35_routed_inductive': 28.32, 'K35_random_routing_control': 20.75, 'K35_transductive_Kq12': 32.3}
+48 {'K48_routed_inductive': 27.99, 'K48_random_routing_control': 20.75, 'K48_transductive_Kq12': 31.74}
+70 {'K70_routed_inductive': 26.73, 'K70_random_routing_control': 21.1, 'K70_transductive_Kq12': 31.72}

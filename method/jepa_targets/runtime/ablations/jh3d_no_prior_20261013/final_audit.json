@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checkpoint_steps": 4000,
+  "input_hashes_unchanged": true,
+  "prior_heads_and_fc_unchanged": true,
+  "backbone_updated": true,
+  "all_logged_prior_losses_zero": true,
+  "validation_clips": 10304,
+  "statistical_scan_coverage": "11/11"
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pose-jepa-signrepr"
+version = "0.1.0"
+description = "Pose-only part-segment JEPA for sign language representations"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.5,<3", "numpy>=1.24", "PyYAML>=6"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+slt = ["transformers>=4.46,<6", "sentencepiece", "sacrebleu", "rouge-score"]
+extract = ["opencv-python", "rtmlib", "av"]
+
+[project.scripts]
+signrepr = "signrepr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+signrepr = ["sources.lock.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

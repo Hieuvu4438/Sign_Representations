@@ -1,0 +1,20 @@
+{
+  "parity_verified": true,
+  "atol": 1e-06,
+  "rtol": 1e-05,
+  "device": "cpu",
+  "sequence_shape": [
+    27,
+    1024
+  ],
+  "raw_clip_dim": 1024,
+  "encoder_parameters": 10255872,
+  "cached_pose_sequence_latency_mean_sec": 0.02931085160234943,
+  "repeats": 10,
+  "latency_scope": "canonicalization, pose encoder, aligned window stitching; detector not executed",
+  "detector_latency_sec": null,
+  "checkpoint_sha256": "f92e5cd3fae3f0c951b442f3fc41403fc258f7cab00afaeaa39b6e7531570240",
+  "bundle_sha256": "64cdb67c59eda542ee08c995d3ff2d5faad67c667caf9a6f09964b4c72a97f58",
+  "selected_encoder": "ema",
+  "training_objective": "pose_jepa_hybrid_v1"
+}

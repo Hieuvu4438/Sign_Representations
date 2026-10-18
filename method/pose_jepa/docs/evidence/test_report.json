@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/home/haipd/Sign_Representations/method/pose_jepa/runtime/venv/bin/python",
+    "-m",
+    "pytest",
+    "method/pose_jepa/tests",
+    "-q",
+    "-W",
+    "error",
+    "--junitxml=method/pose_jepa/docs/evidence/tests_torch251.xml"
+  ],
+  "exit_code": 0,
+  "tests": 53,
+  "source_sha256": "7126767b27b8ce3b8bd02631d622c3ef3e92988e7119384f331e8de1346b8996",
+  "junit": "tests_torch251.xml",
+  "output": "tests_output.txt"
+}

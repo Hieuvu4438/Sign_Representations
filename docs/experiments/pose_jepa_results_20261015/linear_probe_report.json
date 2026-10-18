@@ -1,0 +1,25 @@
+{
+  "source_checkpoint_sha256": "0847fb6f156fb44ae276b1f1be68f7738fd93f8bd956fc31e8e8d14fc681e2ea",
+  "status": "complete",
+  "encoder_frozen": true,
+  "recipe": "raw1024, train-only feature standardization, linear softmax head; AdamW lr1e-3 wd1e-3, batch512, max30 epochs, validation patience5",
+  "selected_epoch": 17,
+  "validation": {
+    "instance_top1": 0.34782608695652173,
+    "instance_top5": 0.6274262422360248,
+    "macro_top1": 0.3536407386096145,
+    "macro_top5": 0.6340639221635195,
+    "num_queries": 10304,
+    "valid_queries": 10301
+  },
+  "test": {
+    "instance_top1": 0.2290458698885887,
+    "instance_top5": 0.46361676937555024,
+    "macro_top1": 0.23081227080704755,
+    "macro_top5": 0.4654568840430516,
+    "num_queries": 32941,
+    "valid_queries": 32937
+  },
+  "test_used_for_selection": false,
+  "class_count": 2731
+}

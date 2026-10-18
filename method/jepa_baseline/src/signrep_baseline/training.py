@@ -45,8 +45,16 @@ def atomic_torch_save(value, path):
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(path.name + ".tmp")
     try:
-        torch.save(value, temporary)
+        with temporary.open("wb") as file:
+            torch.save(value, file)
+            file.flush()
+            os.fsync(file.fileno())
         os.replace(temporary, path)
+        directory = os.open(path.parent, os.O_RDONLY | os.O_DIRECTORY)
+        try:
+            os.fsync(directory)
+        finally:
+            os.close(directory)
     finally:
         temporary.unlink(missing_ok=True)
 
@@ -120,6 +128,12 @@ class Pretrainer:
         return metrics
 
     def save(self, path, sampler, run_contract):
+        # Persist committed metrics before publishing a newer checkpoint, so a
+        # power loss cannot leave durable optimizer state ahead of its history.
+        history = Path(path).parent / "metrics.jsonl"
+        if history.exists():
+            with history.open("rb") as file:
+                os.fsync(file.fileno())
         # choices and recipe are checked even if callers omit them from a config.
         contract = {**run_contract, "fidelity_choices": asdict(self.choices), "amp": self.amp, "amp_dtype": self.amp_dtype,
                     "mask_ratio": self.model.mask_ratio, "implementation_sha256": implementation_sha256()}

@@ -1,0 +1,36 @@
+{
+  "actual_real_videos": 2,
+  "cache_report": {
+    "backbone": {
+      "code_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "code_repository": "https://github.com/facebookresearch/dinov2",
+      "initialization": "official_pretrained",
+      "missing_keys": [],
+      "parameter_count": 22056576,
+      "registry_key": "dinov2_vits14",
+      "source_files_sha256": {
+        "dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+        "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+        "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+      },
+      "unexpected_keys": [],
+      "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    "completed": 2,
+    "elapsed_seconds": 25.907611399015877,
+    "lossless_compression": true,
+    "python_process_count": 1,
+    "raw_intermediates_retained": false,
+    "split": "train",
+    "status": "completed",
+    "total": 2,
+    "worker_kind": "thread",
+    "workers": 1
+  },
+  "child_processes_after_extraction": [],
+  "cpu_extraction_threads": 1,
+  "elapsed_seconds": 26.575785998022184,
+  "python_processes": 1,
+  "status": "passed",
+  "training_started": false
+}

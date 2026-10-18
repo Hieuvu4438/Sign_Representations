@@ -1,0 +1,47 @@
+{
+  "status": "prepared_for_user_review_not_started",
+  "reference_pretraining_manifest": "method/jepa_baseline/runtime/ASLC002/corpus/pretrain.jsonl",
+  "reference_pretraining_sha256": "6fd191b395029bdc90aeb62263ffba532098517493deb41b3fb6b27dd3561323",
+  "reference_retrieval_manifest": "method/obs_jepa/runtime/feats/JH3D/aslc300/clips.jsonl",
+  "reference_retrieval_sha256": "1e41ab7e0a64f46ee5d9ed9070cc581c41fdc6ad162d6edb17052fe7dc818a65",
+  "exact_train_membership_match": true,
+  "train_source_hashes_match_reference": true,
+  "splits": {
+    "train": {
+      "count": 3000,
+      "classes": 300,
+      "signers": 26,
+      "manifest_sha256": "e84bc4447d892d80b5db2593c827edde6f3ec78f65d925dd603d68ae858bbbc9"
+    },
+    "val": {
+      "count": 1500,
+      "classes": 300,
+      "signers": 5,
+      "manifest_sha256": "7feb9f90f8f5f7456689618cf269220ec235468407a9d83a7caecc20f32d104e"
+    }
+  },
+  "audit": {
+    "passed": true,
+    "problems": [],
+    "missing_hashes": [],
+    "missing_signer_ids": [],
+    "counts": {
+      "train": {
+        "count": 3000,
+        "available": 3000,
+        "classes": 300
+      },
+      "val": {
+        "count": 1500,
+        "available": 1500,
+        "classes": 300
+      }
+    },
+    "near_duplicate_review": {
+      "status": "not_run",
+      "reason": "Perceptual fingerprints and candidate review required before research pilot"
+    }
+  },
+  "label_policy": "pool already class-curated by reference; label IDs only for frozen dictionary evaluation; SSL provider does not receive them",
+  "test_used": false
+}

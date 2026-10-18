@@ -1,0 +1,10 @@
+{
+  "sigusr1_checkpoint": true,
+  "sigterm_saved": true,
+  "interrupted_step": 3,
+  "corrupt_latest_fallback": true,
+  "resumed_from": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/recovery_cli_test/train/previous.pt",
+  "final_step": 80,
+  "epoch_cursor_consistent": true,
+  "passed": true
+}

@@ -1,0 +1,6 @@
+{
+  "arm": "A1-pb",
+  "seed": 0,
+  "cache": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+  "stats": "runtime/stats/A1-pb.pt"
+}

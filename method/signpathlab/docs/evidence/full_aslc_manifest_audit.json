@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "test": {
+      "available": 32941,
+      "classes": 2731,
+      "count": 32941
+    },
+    "train": {
+      "available": 40154,
+      "classes": 2731,
+      "count": 40154
+    },
+    "val": {
+      "available": 10304,
+      "classes": 2731,
+      "count": 10304
+    }
+  },
+  "manifest_sha256": {
+    "data/full_aslc/manifests/asl_citizen.test.jsonl": "6abcfdfdf9a3766047cae4792ffd12054317a6fe17f567fd11088e8a290785c4",
+    "data/full_aslc/manifests/asl_citizen.train.jsonl": "9f35b5573eff40a89615131c287255c1646e8a891a23025baea6d98ddb3e703e",
+    "data/full_aslc/manifests/asl_citizen.val.jsonl": "29b6a04a11b7a332e17dabaadd816e2fe279b0ba617a4f6f3dd42b5806d249e2"
+  },
+  "missing_hashes": [],
+  "missing_signer_ids": [],
+  "near_duplicate_review": {
+    "reason": "Perceptual fingerprints and candidate review required before research pilot",
+    "status": "not_run"
+  },
+  "passed": true,
+  "problems": []
+}

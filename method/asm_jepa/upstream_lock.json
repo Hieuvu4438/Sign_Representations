@@ -1,0 +1,8 @@
+{
+  "note": "Commits pinned by the implementation guide (section 2.2). Upstream repositories were NOT cloned into third_party/ for this package; they are references only, except rtmlib (runtime dependency of extract_pose).",
+  "microsoft/ASL-citizen-code": "17f0148b00ef87a5957ec103da8d10bd8eb1fa23",
+  "facebookresearch/jepa": "51c59d518fc63c08464af6de585f78ac0c7ed4d5",
+  "facebookresearch/ijepa": "52c1ae95d05f743e000e8f10a1f3a79b10cff048",
+  "Tau-J/rtmlib": "03a1693e59e4f7cd84582c0fb30459b3bf18ad42",
+  "rtmlib_used_locally": "0.0.13 vendored in third_party/Uni-Sign/demo/rtmlib-main (performance-mode URLs identical)"
+}

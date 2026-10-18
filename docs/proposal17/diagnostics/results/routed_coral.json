@@ -1,0 +1,19 @@
+{
+ "raw": 18.28416149068323,
+ "whiten": 24.941770186335404,
+ "K8_routed_inductive": 27.853260869565215,
+ "K8_random_routing_control": 21.913819875776397,
+ "K8_transductive_Kq8": 30.570652173913043,
+ "K16_routed_inductive": 28.610248447204967,
+ "K16_random_routing_control": 22.185559006211182,
+ "K16_transductive_Kq12": 31.172360248447205,
+ "K35_routed_inductive": 28.31909937888199,
+ "K35_random_routing_control": 20.749223602484474,
+ "K35_transductive_Kq12": 32.298136645962735,
+ "K48_routed_inductive": 27.98913043478261,
+ "K48_random_routing_control": 20.749223602484474,
+ "K48_transductive_Kq12": 31.735248447204967,
+ "K70_routed_inductive": 26.72748447204969,
+ "K70_random_routing_control": 21.09860248447205,
+ "K70_transductive_Kq12": 31.715838509316768
+}

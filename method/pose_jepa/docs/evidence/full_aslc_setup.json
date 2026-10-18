@@ -1,0 +1,53 @@
+{
+  "status": "RUNNING",
+  "verified_unix": 1791967609.854233,
+  "job_root": "/home/haipd/Sign_Representations/method/pose_jepa/runtime/full_aslc_job",
+  "progress": {
+    "phase": "prepare_train_val",
+    "status": "running",
+    "pid": 4075997,
+    "completed": 6263,
+    "total": 50458,
+    "reused_existing": 420,
+    "normalization_failed": 0,
+    "elapsed_seconds": 76.5762403011322,
+    "updated_unix": 1791967609.8115075
+  },
+  "source_snapshot": {
+    "code_sha256": "90bc239a06688ba3b73af17a471aca85ebad61bbf47fc7e2d3a1d2b2c11d75a9",
+    "ops_sha256": {
+      "full_aslc_job.py": "62492c526a4135643b0864a40d9a58056fbec7153e1241ac31118b35b49ae2c7",
+      "aslc3000_job.py": "f899b667c2694e6bc9a8bd0a38b8d6ad5f829238023cd1d200ac452901f30070",
+      "evaluate_full_aslc.py": "b88b7a251c7c45b8b80c5745599b24bccf09ae574063d61c939aa74afafc0e1b"
+    },
+    "files_sha256": {
+      "job.json": "7e0cde19f0d85c4faf49509d431e54de744a96d71fcce60157274e5c1cc97588",
+      "inputs.json": "8493bb5521578828584e79fe1142dd2e95a426da70d7f1fd2dcc83da3f288f90",
+      "train.yaml": "7308c67daa6ae02a4ef54811abc46aa7661128ef3478001a2a6a9b37ec8795cc"
+    },
+    "setup_correction": "Verified cached hashed signer aliases -> authoritative official Participant IDs, before any job stage was launched."
+  },
+  "protocol": {
+    "split_counts": {
+      "train": 40154,
+      "val": 10304,
+      "test": 32941
+    },
+    "signer_counts": {
+      "train": 35,
+      "val": 6,
+      "test": 11
+    },
+    "classes": 2731,
+    "max_steps": 125482,
+    "warmup_steps": 5000,
+    "initialization": "scratch; cached poses reused only",
+    "created_unix": 1791967192.0484836
+  },
+  "service": "MainPID=4075721\nNRestarts=0\nActiveState=active\nSubState=running\nUnitFileState=enabled\n",
+  "linger": "Linger=yes\n",
+  "tests": 64,
+  "gpu_preflight": "PASS; actual batch32/BF16 nextbatch/student/teacher/loss bitwise replay",
+  "actual_cache_stop_resume": "PASS",
+  "evaluation_scope": "raw and gallery-whitened official test retrieval; frozen validation-selected linear probe"
+}

@@ -1,0 +1,9 @@
+# Source/provenance boundaries
+
+- Local PLctx (`method/phonojepa/pj`): frozen full160 EMA weights, original7-channel tokenizers/features/encoder and compatible predictor/ctx-head initialization. Model parameters are loaded strictly. A reviewed shoulder-only reference can be supplied to the vendored feature extractor to avoid hidden-joint statistics; original source is unchanged.
+- Reviewed S1/S2 (`method/phonojepa_s1`, `method/phonojepa_s2`): raw interpolation-support masking, physical duplicate closure, torso ownership/tubes, explicit masked geometry targets, auxiliary normalization and deterministic data stream. Vendor file inputs and SHA256 are pinned in `UPSTREAM.json`; new method code is isolated.
+- Local Pose-JEPA (`method/pose_jepa/src/signrepr/models/spatial_gcn.py`): design adaptation of separate self/neighbor graph transforms, per-joint LayerNorm, shared frame-local message passing and ordered-node aggregation. New graph code is written for core torso/arm chains and relation streams on103 joints. The old133-joint/four-part checkpoint topology is not copied as a false compatible model. Old Pose weights were deleted and are not present or claimed.
+- Residual cross-attention, bounded per-group gates, frozenPL retention, staged gate opening and the full operational supervisor/evaluator are explicit local design choices. No published-paper accuracy or official implementation equivalence is claimed.
+- Training source: full official ASL Citizen train40154 from the existing read-onlyPL cache; source cache/checkpoint/split hashes, keypoint stat inventory and environment versions are recorded in job preflight/checkpoints. No raw dataset is uploaded or duplicated.
+
+Source code and existing empirical evidence support the implementation decisions; they do not prove that fusion wins. Full official test is scored only after validation checkpoint selection.

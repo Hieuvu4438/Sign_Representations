@@ -1,0 +1,20 @@
+{
+  "parity_verified": true,
+  "atol": 1e-06,
+  "rtol": 1e-05,
+  "device": "cpu",
+  "sequence_shape": [
+    27,
+    1024
+  ],
+  "raw_clip_dim": 1024,
+  "encoder_parameters": 10255872,
+  "cached_pose_sequence_latency_mean_sec": 0.02866565739386715,
+  "repeats": 10,
+  "latency_scope": "canonicalization, pose encoder, aligned window stitching; detector not executed",
+  "detector_latency_sec": null,
+  "checkpoint_sha256": "edc5a57f4b59d83a1efd0c9f49dd1ea3c9b14420d3e1e90c8b98e5be94228967",
+  "bundle_sha256": "3264f1e756c0c64da7ecdd6ddf6180d523017ddc345e19adce8effc2522abb1f",
+  "selected_encoder": "online",
+  "training_objective": "pose_masked_geometry"
+}

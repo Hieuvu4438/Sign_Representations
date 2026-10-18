@@ -134,8 +134,9 @@ def validate(config):
     choice("loss", "semantic", {"normalized_l1", "cosine"})
     choice("geometry", "compute_dtype", {"float32", "float64"})
     choice("evaluation", "split_during_development", {"val"})
+    choice("data", "sampler", {"uniform_source_then_segment", "uniform_source_epochs_then_segment"})
     fixed_contracts = {
-        "data": {"sampler": "uniform_source_then_segment", "short_clip_policy": "pad_invalid"},
+        "data": {"short_clip_policy": "pad_invalid"},
         "cache": {"tensor_dtype_on_disk": "float16", "timestamps_dtype": "float64", "roi_policy": "per_frame_letterbox"},
         "geometry": {"path_groups": "default_11_groups_v1", "incomplete_boundary_window": "invalid"},
         "masking": {"closure": "full_declared_support", "empty_semantic_policy": "resample_then_global_skip", "empty_geometry_policy": "zero_term_with_count", "short_clip_min_context": "quarter_of_valid_tokens"},

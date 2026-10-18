@@ -1,0 +1,7 @@
+{
+  "signer_NN": 50.0,
+  "gloss_NN": 12.5,
+  "signer_to_gloss_NN_ratio": 4.0,
+  "readout": "grp",
+  "nn_is_not_a_linear_probe": true
+}

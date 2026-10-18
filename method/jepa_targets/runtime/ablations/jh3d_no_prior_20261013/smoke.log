@@ -1,0 +1,9 @@
+/home/haipd/Sign_Representations/.venv-signrep/lib/python3.13/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/haipd/Sign_Representations/method/jepa_targets/jt/ex16.py:144: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.blocks = nn.TransformerEncoder(el, depth); self.norm = nn.LayerNorm(d)
+/home/haipd/Sign_Representations/method/jepa_targets/jt/ex16.py:291: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  st = {"step": step, "loss": float(loss), "reconstruction": float(l_rec), "latent": float(l_lat), "lr": sched.rate(step), "sec": time.time() - t0}
+{"step": 1, "loss": 0.7737692594528198, "reconstruction": 0.0, "latent": 0.7737692594528198, "lr": 0.0001, "sec": 1.9456722736358643}
+DONE 6 2.898836851119995

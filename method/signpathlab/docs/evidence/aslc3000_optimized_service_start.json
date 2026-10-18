@@ -1,0 +1,34 @@
+{
+  "status": "optimized_service_running",
+  "observed_unix": 1791801501.8128257,
+  "main_pid": 68224,
+  "service_processes": [
+    68224
+  ],
+  "execution": {
+    "cpu_threads": 2,
+    "dino_batch_size": 16,
+    "python_processes": 1
+  },
+  "runtime_implementation_hash": "0623c9ee11db3bdc18e7802c640c880e527302e972ebb2880d06d517a66e1dc5",
+  "config_hash": "2893108ee374cf818493af02af038b5a688038b1905fbf153bf1633572df2682",
+  "source_snapshot_sha256": "0f0746be9d11063a5962f3cc11de7cccf92001f20345bbf5262063e39987070e",
+  "stage": "cache_train",
+  "cache_progress": {
+    "completed": 150,
+    "elapsed_seconds": 196.25727555400226,
+    "free_gib": 42.306861877441406,
+    "new_samples": 56,
+    "split": "train",
+    "status": "running",
+    "total": 3000
+  },
+  "tests_passed": 133,
+  "test_log_sha256": "606c0bc6f30da00d1190d396215d74337f9241a2da804cb86b99cd9f0d64adb9",
+  "estimated_total_hours": [
+    10,
+    16
+  ],
+  "speedup_scope": "1.93x paired small-sample cache benchmark, not total training",
+  "monitoring": "startup verified; agent stops polling"
+}

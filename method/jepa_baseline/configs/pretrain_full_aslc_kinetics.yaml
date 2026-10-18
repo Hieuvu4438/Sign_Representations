@@ -1,0 +1,48 @@
+# Proposed full ASL-Citizen SSL pretraining, updated 2026-10-13.
+# Load only the encoder from the official Hiera-B Kinetics MAE checkpoint.
+# SignRep fc/decoder/prior/activity heads and discriminator start fresh.
+# This local-corpus/budget adaptation is not the 500k-step YT-SL paper recipe.
+# Prepare/audit the full-train corpus and fixed proxy-validation manifests first.
+# First stage: --stop-after 50000; resume keeps this 100000-step schedule.
+# Shorter training does not guarantee equal benchmark performance.
+# Running job: signrep-full-aslc-kinetics.service. Its frozen runtime/config.json
+# is authoritative (save every 500 updates or 300 seconds). Do not launch another
+# CLI trainer into the same output directory while that service is running.
+scope: local_corpus_full_aslc_kinetics
+manifest: ../runtime/full_aslc_kinetics/corpus/pretrain.jsonl
+output: ../runtime/full_aslc_kinetics/train
+initialization: kinetics_mae
+checkpoint: ../runtime/kinetics/mae_hiera_base_16x224.pth
+device: cuda
+amp: true
+amp_dtype: bfloat16
+seed: 20261013
+total_steps: 100000
+warmup_steps: 10000
+max_lr: 0.0001
+batch_size: 20
+validation_interval: 10000
+save_interval: 2000
+# Fixed proxy selected before training: 2 train gallery videos + 1 val/class.
+# Includes all 2731 classes; full official validation/test are still required.
+validation_gallery: ../runtime/full_aslc_kinetics/manifests/gallery_proxy.jsonl
+validation_queries: ../runtime/full_aslc_kinetics/manifests/val_proxy.jsonl
+# Mean pooling primary while activity supervision is sparse; report weighted too.
+weighted_retrieval: false
+choices:
+  distance: signed_xyz_source_minus_destination
+  gram_normalization: tokens_channels
+  smooth_l1_beta: 1.0
+  reconstruction_reduction: valid_element_mean
+  activity_std_correction: 1
+  activity_weighting: raw
+  pretrain_batch_counts: total_views
+  angle_confidence: teacher_detection
+augmentation:
+  crop_scale: [0.8, 1.0]
+  crop_ratio: [0.75, 1.3333333333333333]
+  planckian_probability: 0.8
+  planckian_mode: blackbody
+  blur_probability: 0.5
+  blur_sigma: [0.1, 2.0]
+  grayscale_probability: 0.2

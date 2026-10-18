@@ -48,6 +48,54 @@ class TargetProjectors:
         return canonical_hash({"metadata": meta, "transforms": matrices})
 
     @classmethod
+    def fit_batches(cls, batches, *, allowed_train_sources, manifest_sha256, extractor_hash,
+                    descriptor_config, output_dim=32, seed=991, std_floor=1e-6):
+        """Exact population moments in bounded memory, including projected covariance."""
+        if not is_sha256(manifest_sha256) or not is_sha256(extractor_hash) or output_dim <= 0 or std_floor <= 0:
+            raise ValueError("Projection fit requires actual data/feature hashes and positive dimensions")
+        moments, sources = {}, set()
+        for batch in batches:
+            groups = {}
+            for item in batch:
+                if item.split != "train" or item.source_group_id not in allowed_train_sources:
+                    raise ValueError("Projection statistics must use registered training sources only")
+                value = np.asarray(item.descriptor, dtype=np.float64)
+                if value.ndim != 1 or not len(value) or not np.isfinite(value).all():
+                    raise ValueError("Projection fit needs finite descriptor vectors")
+                groups.setdefault(item.group_scale, []).append(value)
+                sources.add(item.source_group_id)
+            for key, values in groups.items():
+                x = np.stack(values)
+                n, mean = len(x), x.mean(axis=0)
+                centered = x - mean
+                m2 = centered.T @ centered
+                if key in moments:
+                    old_n, old_mean, old_m2 = moments[key]
+                    delta = mean - old_mean
+                    total = old_n + n
+                    moments[key] = (total, old_mean + delta * (n / total),
+                        old_m2 + m2 + np.outer(delta, delta) * (old_n * n / total))
+                else:
+                    moments[key] = n, mean, m2
+        if not moments:
+            raise ValueError("No valid train descriptors for projection fitting")
+        result = {}
+        for key, (n, mean, m2) in sorted(moments.items()):
+            covariance = m2 / n
+            std = np.maximum(np.sqrt(np.maximum(np.diag(covariance), 0)), std_floor)
+            group_seed = int(canonical_hash({"seed": seed, "group_scale": key})[:16], 16)
+            matrix = np.random.default_rng(group_seed).normal(0, 1 / np.sqrt(len(mean)), (len(mean), output_dim))
+            projected_covariance = matrix.T @ (covariance / std[:, None] / std[None, :]) @ matrix
+            output_std = np.maximum(np.sqrt(np.maximum(np.diag(projected_covariance), 0)), std_floor)
+            result[key] = Projection(mean, std, matrix, np.zeros(output_dim), output_std, n)
+        metadata = {"schema_version": 1, "fitting_split": "train", "fitting_source_ids": sorted(sources),
+            "manifest_sha256": manifest_sha256, "extractor_hash": extractor_hash, "descriptor_config": descriptor_config,
+            "descriptor_hash": canonical_hash(descriptor_config), "projection_kind": "fixed_gaussian", "output_dim": output_dim,
+            "seed": seed, "std_floor": std_floor, "native_dimensions": {key: len(p.mean) for key, p in result.items()},
+            "counts": {key: p.count for key, p in result.items()}}
+        return cls(result, metadata)
+
+    @classmethod
     def fit(cls, observations, *, allowed_train_sources, manifest_sha256, extractor_hash,
             descriptor_config, output_dim=32, seed=991, std_floor=1e-6):
         if not is_sha256(manifest_sha256) or not is_sha256(extractor_hash) or output_dim <= 0 or std_floor <= 0:

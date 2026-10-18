@@ -1,0 +1,41 @@
+{
+ "random": {
+  "n": 20060,
+  "participation_ratio": 7.493449957314019,
+  "eta2_signer_raw": 0.27184402285183124,
+  "eta2_gloss_raw": 0.24780962414217308,
+  "eta2_gloss_raw_null_shuffled": 0.1386353306464356,
+  "eta2_signer_whitened": 0.055439833568651724,
+  "eta2_gloss_whitened": 0.2095134446222782,
+  "eta2_gloss_whitened_null": 0.13599617953968732,
+  "signer_decode_linear_standardised": 89.0661349285477,
+  "nn_same_signer": 71.93333333333334,
+  "nn_same_gloss": 1.4666666666666666
+ },
+ "student": {
+  "n": 20060,
+  "participation_ratio": 83.42967759179598,
+  "eta2_signer_raw": 0.13811604735992436,
+  "eta2_gloss_raw": 0.2987333128075231,
+  "eta2_gloss_raw_null_shuffled": 0.136024348019335,
+  "eta2_signer_whitened": 0.030940717406710692,
+  "eta2_gloss_whitened": 0.21650087883829724,
+  "eta2_gloss_whitened_null": 0.13593097162792037,
+  "signer_decode_linear_standardised": 94.38351611831173,
+  "nn_same_signer": 84.36666666666667,
+  "nn_same_gloss": 4.083333333333333
+ },
+ "teacher": {
+  "n": 20060,
+  "participation_ratio": 83.51559425568324,
+  "eta2_signer_raw": 0.13778294661742138,
+  "eta2_gloss_raw": 0.2986260994079193,
+  "eta2_gloss_raw_null_shuffled": 0.13637063014702613,
+  "eta2_signer_whitened": 0.03095900698313283,
+  "eta2_gloss_whitened": 0.21639917488332153,
+  "eta2_gloss_whitened_null": 0.13611703782950813,
+  "signer_decode_linear_standardised": 94.63276836158192,
+  "nn_same_signer": 84.43333333333334,
+  "nn_same_gloss": 4.033333333333333
+ }
+}

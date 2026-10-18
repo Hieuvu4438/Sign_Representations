@@ -1,0 +1,8 @@
+{
+  "historical_evaluator_integration": "passed",
+  "query_denominator": 32,
+  "loso_denominator": 160,
+  "invalid_query_rank": "infinity",
+  "invalid_query_linear_probe": "incorrect",
+  "adapter_sha256": "887268b06cca39b095d66b0d78ac4475f5cde1d13ec03de1b592192a2b62ac86"
+}

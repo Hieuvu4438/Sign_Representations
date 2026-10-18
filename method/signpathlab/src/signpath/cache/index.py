@@ -112,6 +112,8 @@ class CachedCorpus:
             lock = self._sample_locks.setdefault(sample_id, threading.Lock())
         with lock:
             files = [directory / "meta.json", directory / "raw_supports.npz"] + sorted(directory.glob("*.npy"))
+            if (directory / "features.npz").exists():
+                files.append(directory / "features.npz")
             def versions():
                 return tuple((str(p.name), s.st_ino, s.st_size, s.st_mtime_ns, s.st_ctime_ns) for p in files for s in [p.stat()])
             version = versions()

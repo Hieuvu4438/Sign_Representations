@@ -36,4 +36,12 @@ def decode_supports(arrays):
     if pointers[0] != 0 or pointers[-1] != len(cells) or (np.diff(pointers) < 0).any() or ((cells[:, 0] < 0) | (cells[:, 0] > 4)).any():
         raise ValueError("Malformed support pointers or kind IDs")
     kinds = ("rgb", "joint", "face", "pose", "feature")
-    return tuple(frozenset(Primitive(kinds[k], int(f), int(j)) for k, f, j in cells[a:b]) for a, b in zip(pointers[:-1], pointers[1:]))
+    # Four visual streams commonly declare identical same-frame supports. Intern
+    # these immutable sets rather than allocating the same 528 primitives four times.
+    memo, result = {}, []
+    for a, b in zip(pointers[:-1], pointers[1:]):
+        key = cells[a:b].tobytes()
+        if key not in memo:
+            memo[key] = frozenset(Primitive(kinds[k], int(f), int(j)) for k, f, j in cells[a:b])
+        result.append(memo[key])
+    return tuple(result)

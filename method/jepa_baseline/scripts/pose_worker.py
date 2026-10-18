@@ -7,6 +7,7 @@ teacher's generic top-level module names leaking into the SignRep process.
 import argparse
 import hashlib
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -51,6 +52,9 @@ class Teacher:
         if self.body.skeleton.num_non_virtual_nodes != 19 or self.hand.skeleton.num_nodes != 21:
             raise ValueError("Public teacher does not match paper's 61-point topology")
         self.body_skeleton, self.hand_skeleton = self.body.skeleton, self.hand.skeleton
+        # These are the identities of weights loaded into this process. Cache
+        # them once instead of hashing the 333MB image-hand file for every clip.
+        self.weight_hashes = {p.name: sha(p) for p in self.weights.glob("*.ckpt")}
 
     @torch.inference_mode()
     def lift(self, body2d, right2d, left2d, detected):
@@ -105,7 +109,7 @@ class Teacher:
     def metadata(self):
         return {"teacher_commit": "6885e4865bc8993ae41a4d88287a5b03281d7d91",
                 "body_angles": 22, "hand_angles": 41, "pose_points": 61,
-                "weights": {p.name: sha(p) for p in self.weights.glob("*.ckpt")},
+                "weights": self.weight_hashes.copy(),
                 "body_root_mode": self.body_root_mode,
                 "body_root_camera_rotation": "native/canonical matches public demo; camera mode explicit U01 alternative",
                 "confidence": "body MediaPipe visibility; hand source detector observation indicator",
@@ -177,18 +181,44 @@ def extract(teacher, video_path, output):
 
 def normalize(teacher, raw, stats, output):
     from signrep_baseline.bones import load_bone_statistics
-    standard, statistics_metadata = load_bone_statistics(stats)
+    from signrep_baseline.cache import load_standardized
+    stats = Path(stats)
+    signature = (str(stats.resolve()), stats.stat().st_size, stats.stat().st_mtime_ns)
+    cached = getattr(teacher, "_normalization_statistics", None)
+    if cached is None or cached[0] != signature:
+        standard, statistics_metadata = load_bone_statistics(stats)
+        compact_statistics = {k: v for k, v in statistics_metadata.items() if k != "cache_files"}
+        cached = (signature, standard, compact_statistics, sha(stats))
+        teacher._normalization_statistics = cached
+    _, standard, compact_statistics, bones_pin = cached
+    raw_pin = sha(raw)
+    if Path(output).exists():
+        try:
+            _, cached_meta = load_standardized(output, bones_pin)
+            if (cached_meta.get("raw_cache_sha256") == raw_pin
+                    and cached_meta["weights"] == teacher.metadata()["weights"]
+                    and cached_meta.get("body_root_mode") == teacher.body_root_mode):
+                return cached_meta
+        except Exception:
+            pass  # Replace interrupted/stale files with a newly validated cache.
     with np.load(raw, allow_pickle=False) as source:
         result = {key: source[key].copy() for key in source.files}
     metadata = json.loads(str(result["metadata_json"]))
     if metadata.get("schema") != "signrep_teacher_v1" or metadata["weights"] != teacher.metadata()["weights"] or metadata.get("body_root_mode") != teacher.body_root_mode:
         raise ValueError("Normalization requires raw cache from the pinned teacher")
     result["pose_3d"] = teacher.reconstruct(result, standard).numpy()
-    metadata.update(schema="signrep_standardized_v1", bone_statistics_sha256=sha(stats),
-                    bone_statistics=statistics_metadata)
+    # The full cache membership stays in the SHA-bound corpus_bones.npz. Repeating
+    # forty thousand filenames inside every video cache wastes disk and CPU RAM.
+    metadata.update(schema="signrep_standardized_v1", bone_statistics_sha256=bones_pin,
+                    raw_cache_sha256=raw_pin, bone_statistics=compact_statistics)
     result["metadata_json"] = np.array(json.dumps(metadata, sort_keys=True))
     Path(output).parent.mkdir(parents=True, exist_ok=True)
-    np.savez_compressed(output, **result)
+    temporary = Path(output).with_name(Path(output).name + ".tmp")
+    with temporary.open("wb") as file:
+        np.savez_compressed(file, **result)
+        file.flush()
+        os.fsync(file.fileno())
+    os.replace(temporary, output)
     return metadata
 
 
@@ -214,8 +244,15 @@ def main():
         if not args.manifest:
             parser.error("normalize-batch requires --manifest")
         tasks = json.loads(args.manifest.read_text())
-        for task in tasks:
+        for index, task in enumerate(tasks):
             normalize(teacher, Path(task["raw"]), Path(task["stats"]), Path(task["output"]))
+            if index % 64 == 0 or index + 1 == len(tasks):
+                print(json.dumps({"stage": "normalizing", "completed": index + 1,
+                                  "total": len(tasks)}), flush=True)
+                if os.environ.get("SIGNREP_JOB_DIRECTORY"):
+                    from signrep_baseline.job_support import progress
+                    progress(Path(os.environ["SIGNREP_JOB_DIRECTORY"]), "NORMALIZATION",
+                             completed=index + 1, total=len(tasks))
         result = {"normalized_caches": len(tasks)}
     else:
         if not args.raw or not args.stats or not args.output:

@@ -1,0 +1,131 @@
+{
+  "implementation_handoff_verified": true,
+  "source_sha256": "7126767b27b8ce3b8bd02631d622c3ef3e92988e7119384f331e8de1346b8996",
+  "tests": 53,
+  "test_scope": "all repository correctness/workflow tests; CPU Gloo and single-GPU AMP",
+  "wheel_verified": true,
+  "real_data_samples": 32,
+  "visual_audit_videos": 20,
+  "pilots": [
+    {
+      "run": "masked_geometry",
+      "updates": 5000,
+      "source_snapshot_sha256": "bc7ebd0ad352616451e1278d3e83c021fb3eaf900d5db9e9f474066e05744f82"
+    },
+    {
+      "run": "masked_motion",
+      "updates": 5000,
+      "source_snapshot_sha256": "bc7ebd0ad352616451e1278d3e83c021fb3eaf900d5db9e9f474066e05744f82"
+    },
+    {
+      "run": "jepa_only",
+      "updates": 5000,
+      "source_snapshot_sha256": "e6846f32bb919ce80e64e12546086dc4870bc27164c9c7100e7c12be8a8cc159"
+    },
+    {
+      "run": "jepa_hybrid",
+      "updates": 5000,
+      "source_snapshot_sha256": "5d4e78ac3a6a9278014aef33276b9e3341d3ed7fed0965b7e27b7543211cba7b"
+    },
+    {
+      "run": "jepa_shuffled",
+      "updates": 5000,
+      "source_snapshot_sha256": "4ccb114357080a42a486f91ad0ff7a28f2a6bc804184574c9080c32f24ce7527"
+    }
+  ],
+  "bundles": [
+    {
+      "path": "/home/haipd/Sign_Representations/method/pose_jepa/runtime/selected_pose_encoder",
+      "method": "pose_masked_geometry",
+      "bundle_sha256": "3264f1e756c0c64da7ecdd6ddf6180d523017ddc345e19adce8effc2522abb1f"
+    },
+    {
+      "path": "/home/haipd/Sign_Representations/method/pose_jepa/runtime/hybrid_pose_encoder",
+      "method": "pose_jepa_hybrid_v1",
+      "bundle_sha256": "64cdb67c59eda542ee08c995d3ff2d5faad67c667caf9a6f09964b4c72a97f58"
+    }
+  ],
+  "required_artifact_checksums": {
+    "IMPLEMENTATION_STATUS.md": "2d17c6f6a6ef1ceb56d8f4fa9d26c05e8ac82343d69c6662f7915696b9c4796c",
+    "README.md": "2cf9cc8e7720d7dad67e9e7ea005e866e20c257c611cfec5706c95242a73340c",
+    "configs/cslr_finetune.yaml": "965296cbbba3a9f5fd9eca462a267079a211ab181848a8432211ade91cbb898e",
+    "configs/cslr_frozen.yaml": "14511f05d33853ae442c12e2ca189dc4c4369d9b0dba2c2fcc43df05dc9917a8",
+    "configs/islr_finetune.yaml": "c40df86083915c8de2c7079b99a4d50a1b63423effea602a4810a06ecc3d83b2",
+    "configs/islr_frozen.yaml": "b2ad7badcbb827bdf1de20eeabda81fc4850d1fe2e3441e02bc9180eb3a8d402",
+    "configs/metric_gloss.yaml": "d93e8c219d58454089cdae6ee5b1677d542534da68d64c3e6abcb04c8374c9b7",
+    "configs/slt_frozen.yaml": "92989103a7c3e80d6f72785eb14a11238da0ffb295c5849b72a511eb871391bb",
+    "configs/ssl_pose_jepa.yaml": "99672333d0709f930d9813c23dc92a63590fa53bb5e2e28290fd8136f21f3cf7",
+    "docs/COMPLETION_REPORT_VI.md": "86c7a019a2f1ce98a8312cbadba17204ad6498db4724f3e525f00116ae6e505b",
+    "docs/codebase_review.md": "50fba01b307c0c100210632f09bb601a1b86109c56f5218220773ddf5cae3fe4",
+    "docs/data_protocol.md": "36db53b2625288594355f85a00f90574002da9d43a8580da7d7cfc0ef3362c0a",
+    "docs/method_provenance.md": "bf81c54e4055f9da75d9035956382b300bce5cbb565ebe621f5939ecfc6740f9",
+    "docs/model_card.md": "45879037bbfc8965bc7b176cd4cf0c85f70d39452d2600a8b317f29dcf601dae",
+    "docs/requirements_audit.md": "747fb0ea20e08cd161714715cc4fcf1cc161f231a78ee902c7e346677ddea0f2",
+    "docs/sources.lock.json": "a73b4d9d251fc24ead76db866ae52a8fc5473f44b2cf47e2e048f828d888fb43",
+    "examples/inference_cpu.py": "d0b38f876d7bd2229c88a35772e3d732e0d8e6dbba0a9ec6d642635c30f484eb",
+    "pyproject.toml": "f1a4ccb9e86ee4c3390a6fdef5db5d8ff53578c140e6c047a878ddbccdb3a236",
+    "requirements-tested.lock.txt": "74cafc3d633f532e379eb94edb0a2e99605aa466fc22804c7a679d5f0ecb6028",
+    "src/signrepr/__init__.py": "f548bf0012e68f155676b7ec8e5bdd0c35452ee245bce58f3f203ad52abb29a7",
+    "src/signrepr/cli.py": "184314253038172a9fb44bb6062a48861cb128ae7a01b1b92592ca69acb2e206",
+    "src/signrepr/config.py": "be86ea3be1ef0314d0703dcad113a8e34167ad660eecb6bbde55c19175973714",
+    "src/signrepr/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrepr/data/collate.py": "99c0cf9ee60dea6ff23c5bb1bce35c0740074807df5d601a5d9166ef4db124fe",
+    "src/signrepr/data/extract_pose.py": "c07592c3674a93014f62023a27daec87c1104904f8184c4154da457ed2571e4e",
+    "src/signrepr/data/fixture.py": "7ff94a6dc0c4b055e64c679da3a53ea0d48bef812f14a5816be02c289b79e645",
+    "src/signrepr/data/import_unisign.py": "92e901dc013c55efeee184cad615f38fe1a498e5784ffebe85bb62de99c60867",
+    "src/signrepr/data/normalization.py": "605508e7a7c18a3e871ca6277e43761ba8de935bdf000f204e46061a4a1b2e3c",
+    "src/signrepr/data/person_tracking.py": "538afa6d6cf293f465ec4acef8a9c4ea2d2c0f8f66b1528aaec4cdb0ddbcdaa1",
+    "src/signrepr/data/pose_dataset.py": "3a35ad114b231c22f608869dab890023cdd1e18298f2e3139dc38fa8cb721f7d",
+    "src/signrepr/data/samplers.py": "fbfadcfc56b098a4793b3bda17d2798720ff5f2f67ab80f533bcdc05fdb2c39d",
+    "src/signrepr/data/schema.py": "427b85989ad038689bd6b5d76ff3b0aeed7905395657449d5c4a91a1c4785cc0",
+    "src/signrepr/data/splits.py": "fd6d24f657a4a252270ae078bc16b33da20d8b8fb98cf87a93b9783d1002a966",
+    "src/signrepr/evaluation/__init__.py": "6cc6bac086fb21b955f0ca25c7908786a2ef9a181d4bcca6294c23278215c7f6",
+    "src/signrepr/evaluation/cache.py": "3084d062080104bb7d26903ef0fbdb29dc6597fd4f18ddcba7fd2c1d0e57d9a0",
+    "src/signrepr/evaluation/extract.py": "329cb1e9238911a82388b2df4c64aa6154ecfcdfcc768777491af3356c9e9f1e",
+    "src/signrepr/evaluation/recognition.py": "a56e96b44baf071c5371ba3b8daf9bc029a654d8d678cbd9f50aab142dfbe221",
+    "src/signrepr/evaluation/representation.py": "37074c56da11e89710ae5ce2fb7558dff562177426899bf5a1b4aac91225a084",
+    "src/signrepr/evaluation/retrieval.py": "440b00681f923f891aba38d5b3c1c0b5ebc81c28459cb4fea7645f6d7c2ae047",
+    "src/signrepr/evaluation/temporal.py": "409a71b69e3aeb61b03e4d26e603bce8dcb6b3af8c329c1b526755ea7f1b04a4",
+    "src/signrepr/export/__init__.py": "6f84750b306de2bcc987f987b677b5e0b76651307c8724b7ed9f364bbc0571d7",
+    "src/signrepr/export/api.py": "a22226dbcb61687c5f34cd48ca670adf12603593ca2840cfa6dfa249cb7773c9",
+    "src/signrepr/losses/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrepr/losses/geometry.py": "4949f326976acafa810fc1dbe56a0a056663c1586b9a069484a8d713ce21af20",
+    "src/signrepr/losses/hybrid.py": "2ec76083093790889b49d2460568837e9902186b3eb599ccab0db4c5bbe35ea8",
+    "src/signrepr/losses/latent_ce.py": "9f92a761ebb70cff8137e46cdbdbbd9ac42b9955f4ee4845529d842d6a52c022",
+    "src/signrepr/losses/motion.py": "1040f16e3ad4aa9146e7d7ebc56157b06cf8b77dfcff3fdf1b098a2b72b7f2b1",
+    "src/signrepr/losses/supcon.py": "a6f5fb74a5974aaaea9ce5a384ddfb9a6f86d5159c1aa3a0c8f9dab0fbc7c74d",
+    "src/signrepr/masking/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrepr/masking/part_temporal.py": "6ae722329afe6d8a450984a7a2555a1d022a09319926f9251fcaffe367e24dae",
+    "src/signrepr/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrepr/models/ema.py": "cdfa5352aa4b8cf5f01f1f65cc583f3cd8c785a27bf6b38d9bcfa77e5b325a08",
+    "src/signrepr/models/graphs.py": "526442c0d68a4758bc4dabb4568cb8a8836b96d73d1a2d6e7077c9c39698c71e",
+    "src/signrepr/models/heads.py": "7cc0f39a7b2d5effab64437255e77264f002e620028e5954d7c478788bae836e",
+    "src/signrepr/models/part_tokenizer.py": "2222b5262dbec0874b3e9f3be7d3930f4b13b4838c1edcb5e2ed856b9889a92c",
+    "src/signrepr/models/pose_encoder.py": "cade0871dd5fb36839427c973eea567f0195efdbe947625e59f8980a1806fd4c",
+    "src/signrepr/models/position.py": "43b8e3b51250ae6fda8c20b05a9a492729402ccd6ee217f6f71a8e6ee2852f49",
+    "src/signrepr/models/predictor.py": "9708914c7ea33acd2bec25693f60b5ca0391cfb6f53ae5cf8441788d3d6c696b",
+    "src/signrepr/models/spatial_gcn.py": "cb141b8cb132c7349dea66afd37ea7059a6b6a66cbc81b592f22f49dda483540",
+    "src/signrepr/training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/signrepr/training/checkpoints.py": "5f9e7b1d4b49c1f2b567ca30421653c7343e265952988249735f58fb0032dbaa",
+    "src/signrepr/training/cslr.py": "6fac92d446589eb81f244590773c2c6ad39b3d52db86a0d4fe3dbbe45f31b934",
+    "src/signrepr/training/distributed.py": "4c7ff2a11c78c98db5cd5ddf88550bcf4bf07336b2abb976cf49ba67e994d6e2",
+    "src/signrepr/training/islr.py": "94bfa9c784cb40fb8b6133903e24fe5c956fe76710c533755f976c2f45320b63",
+    "src/signrepr/training/metric.py": "20f4b41493907476c542ce0367fe0411160ab6faff5c8f9d660e86cc58814ad7",
+    "src/signrepr/training/pretrain.py": "ca715e91e0d980a5ebda1e7a59273c72e28c48142e183dc4259c0831f2f412d3",
+    "src/signrepr/training/provenance.py": "8ddfdb1a14d57cf0a4cba59e0495669eea07351f33f83a90c5e3947705572bdb",
+    "src/signrepr/training/sequence_tasks.py": "2d89fb76132438b8060655b4cb484ebbfbf22de85321511f08ca8ed8e122a2b0",
+    "src/signrepr/training/slt.py": "7085203b039eb7b73e8ab2d8a546245ebf7dae11f7675d16a8288aa5c10ef65c",
+    "src/signrepr/training/stream.py": "371c95d62fca2380ddd0d661d0e03182285a69d45d4decd6f757a47fedf30815",
+    "src/signrepr/training/system.py": "0ce70a2460e0a4d1c2b705c4b720807eebc3d6a7f0562dde1bc228b1a9982b3b",
+    "src/signrepr/training/validation.py": "736a1ffa7b313d563a8d1190b8964d27929ed1dc4599190ae7868a72953ee2cc"
+  },
+  "conditional_experiments_not_claimed": [
+    "full benchmark/SOTA",
+    "full-budget Stage 2",
+    "real continuous CSLR/SLT",
+    "annotated minimal pairs",
+    "calibrated detector reproduction",
+    "multi-GPU NCCL"
+  ],
+  "requirements_review": "docs/requirements_audit.md"
+}

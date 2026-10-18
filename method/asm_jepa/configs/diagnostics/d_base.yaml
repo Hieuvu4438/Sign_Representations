@@ -1,0 +1,5 @@
+# 5k-step diagnostic variant of final.yaml (see scripts/diagnostics/run_queue.sh)
+inherits: [../pretrain/final.yaml]
+experiment: diag_base_r2
+features: {relations: false, geometry_paths: false, timing_paths: false}
+loss: {lambda_anchor: 0.0, lambda_global: 0.0}

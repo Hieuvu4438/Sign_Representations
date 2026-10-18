@@ -34,7 +34,8 @@ class BatchProvider:
         self.config, self.bundles, self.projectors = config, bundles, projectors
         self.cluster_targets = cluster_targets
         seed = config["experiment"]["seed"] if seed is None else seed
-        self.source_sampler = SourceSegmentSampler(source_to_samples, seed)
+        self.source_sampler = SourceSegmentSampler(source_to_samples, seed,
+            epoch_shuffle=config["data"]["sampler"] == "uniform_source_epochs_then_segment")
         self.mask_generator = np.random.default_rng(seed + 1000003)
         masking = config["masking"]
         if masking["regime"] == "strict_temporal":

@@ -1,0 +1,3 @@
+.....................................................                    [100%]
+- generated xml file: /home/haipd/Sign_Representations/method/pose_jepa/docs/evidence/tests_torch251.xml -
+53 passed in 11.86s

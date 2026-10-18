@@ -1,0 +1,114 @@
+{
+  "verified_unix": 1792251015.3686614,
+  "state": {
+    "stage": "waiting_validation_and_gallery",
+    "supervisor_pid": 2364889,
+    "updated_unix": 1792251003.0650704,
+    "dependency": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040/results.json"
+  },
+  "service": "MainPID=2364889\nActiveState=active\nSubState=running\n",
+  "counts": {
+    "train": 40154,
+    "test": 32941
+  },
+  "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+  "ledger_entries": [
+    {
+      "key": [
+        "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+        "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+        "grp"
+      ],
+      "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test",
+      "dataset": "ASL Citizen",
+      "query_split": "test",
+      "epoch": 40,
+      "authorization": "User explicitly requested test in addition to validation at epoch40",
+      "no_test_selection": true,
+      "scheduled_unix": 1792250941.1224616,
+      "status": "scheduled",
+      "updated_unix": 1792250941.122464
+    },
+    {
+      "key": [
+        "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+        "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+        "grp+P"
+      ],
+      "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test",
+      "dataset": "ASL Citizen",
+      "query_split": "test",
+      "epoch": 40,
+      "authorization": "User explicitly requested test in addition to validation at epoch40",
+      "no_test_selection": true,
+      "scheduled_unix": 1792250941.1224663,
+      "status": "scheduled",
+      "updated_unix": 1792250941.1224673
+    },
+    {
+      "key": [
+        "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+        "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+        "mw"
+      ],
+      "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test",
+      "dataset": "ASL Citizen",
+      "query_split": "test",
+      "epoch": 40,
+      "authorization": "User explicitly requested test in addition to validation at epoch40",
+      "no_test_selection": true,
+      "scheduled_unix": 1792250941.1224682,
+      "status": "scheduled",
+      "updated_unix": 1792250941.1224692
+    },
+    {
+      "key": [
+        "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+        "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+        "ord2"
+      ],
+      "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test",
+      "dataset": "ASL Citizen",
+      "query_split": "test",
+      "epoch": 40,
+      "authorization": "User explicitly requested test in addition to validation at epoch40",
+      "no_test_selection": true,
+      "scheduled_unix": 1792250941.1224697,
+      "status": "scheduled",
+      "updated_unix": 1792250941.12247
+    }
+  ],
+  "validation_progress": {
+    "stage": "extracting",
+    "split": "train",
+    "pid": 2351648,
+    "completed": 1321,
+    "total": 40154,
+    "committed": 1226,
+    "percent": 3.289834138566519,
+    "clips_per_second": 2.0690258739986995,
+    "eta_seconds": 18768.735803651147,
+    "elapsed_seconds": 677.0533504231134,
+    "updated_unix": 1792251013.79975,
+    "resumed_at": 202,
+    "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014"
+  },
+  "training_progress": {
+    "status": "running",
+    "pid": 1391515,
+    "updated_unix": 1792251014.8654892,
+    "step": 52414,
+    "total_steps": 200640,
+    "epoch": 41.79744816586922,
+    "percent": 26.12340510366826,
+    "checkpoint_step": 52400,
+    "steps_per_second": 0.40667553503441356,
+    "eta_seconds": 364482.21550248127,
+    "elapsed_seconds": 85810.37393902591,
+    "resumed_from": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/latest.pt",
+    "recovery_errors": [],
+    "loss": 8.67282772064209,
+    "grad_norm": 15.218647956848145
+  },
+  "test_projection_matches_native": true
+}

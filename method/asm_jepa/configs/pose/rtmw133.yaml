@@ -1,0 +1,27 @@
+data:
+  raw_root: data/raw/ASL_Citizen
+  processed_root: data/processed/aslc
+pose:
+  library: rtmlib
+  revision: 03a1693e59e4f7cd84582c0fb30459b3bf18ad42
+  solution: Wholebody
+  mode: performance
+  to_openpose: false
+  backend: onnxruntime
+  device: cuda
+  require_cuda_provider: true
+  model_cache: data/models/rtmw133
+  detector_url: https://download.openmmlab.com/mmpose/v1/projects/rtmposev1/onnx_sdk/yolox_m_8xb8-300e_humanart-c2c7a14a.zip
+  detector_input_size: [640, 640]
+  pose_url: https://download.openmmlab.com/mmpose/v1/projects/rtmw/onnx_sdk/rtmw-dw-x-l_simcc-cocktail14_270e-384x288_20231122.zip
+  pose_input_size: [288, 384]
+  native_resolution: true
+  native_timestamps: true
+  cfr_fallback_timestamps: true
+  detection_interval_frames: 1
+  select_one_signer: true
+  confidence_threshold: 0.20
+  interpolate: false
+  smooth: false
+  cache_format: npz
+  overwrite_valid_cache: false

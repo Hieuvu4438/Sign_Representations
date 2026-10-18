@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "matched_full_batch_windows": 32,
+  "dimensions": 768,
+  "original_pipeline_exact_match": true,
+  "raw_features_finite": true,
+  "single_clip_batch_note": "bf16 batch11 vs original batch32 has cosine >0.999995; full batch32 matches exactly"
+}

@@ -1,0 +1,136 @@
+{
+  "status": "STOPPED_AND_ARCHIVED",
+  "completed_steps": 40000,
+  "planned_review_steps": 50000,
+  "scheduler_steps": 100000,
+  "train_videos": 40153,
+  "classes": 2731,
+  "initialization": "Hiera-B MAE Kinetics; fresh SignRep heads",
+  "validation_protocol": "proxy gallery 5462 train videos; 2731 validation queries; mean pooling primary",
+  "validation": [
+    {
+      "step": 10000,
+      "mean": {
+        "per_instance_top1": 1.8674477934837341,
+        "per_instance_top5": 4.723544418811798,
+        "MRR": 0.037758395075798035,
+        "DCG": 0.15364164113998413,
+        "per_class_top1": 1.8674477934837341,
+        "per_class_top5": 4.723544418811798,
+        "task": "dictionary_retrieval",
+        "queries": 2731,
+        "gallery_videos": 5462,
+        "topk_protocol": "distinct classes ranked by best individual dictionary video",
+        "split": "val"
+      },
+      "weighted": {
+        "per_instance_top1": 1.8674477934837341,
+        "per_instance_top5": 4.686927795410156,
+        "MRR": 0.03637359291315079,
+        "DCG": 0.14982493221759796,
+        "per_class_top1": 1.8674477934837341,
+        "per_class_top5": 4.686927795410156,
+        "task": "dictionary_retrieval",
+        "queries": 2731,
+        "gallery_videos": 5462,
+        "topk_protocol": "distinct classes ranked by best individual dictionary video",
+        "split": "val"
+      }
+    },
+    {
+      "step": 20000,
+      "mean": {
+        "per_instance_top1": 0.10984987020492554,
+        "per_instance_top5": 0.43939948081970215,
+        "MRR": 0.004973085131496191,
+        "DCG": 0.10698875039815903,
+        "per_class_top1": 0.10984987020492554,
+        "per_class_top5": 0.43939948081970215,
+        "task": "dictionary_retrieval",
+        "queries": 2731,
+        "gallery_videos": 5462,
+        "topk_protocol": "distinct classes ranked by best individual dictionary video",
+        "split": "val"
+      },
+      "weighted": {
+        "per_instance_top1": 0.14646649360656738,
+        "per_instance_top5": 0.43939948081970215,
+        "MRR": 0.005027334671467543,
+        "DCG": 0.10680736601352692,
+        "per_class_top1": 0.14646649360656738,
+        "per_class_top5": 0.43939948081970215,
+        "task": "dictionary_retrieval",
+        "queries": 2731,
+        "gallery_videos": 5462,
+        "topk_protocol": "distinct classes ranked by best individual dictionary video",
+        "split": "val"
+      }
+    },
+    {
+      "step": 30000,
+      "mean": {
+        "per_instance_top1": 0.07323324680328369,
+        "per_instance_top5": 0.21969974040985107,
+        "MRR": 0.0038920757360756397,
+        "DCG": 0.10513077676296234,
+        "per_class_top1": 0.07323324680328369,
+        "per_class_top5": 0.21969974040985107,
+        "task": "dictionary_retrieval",
+        "queries": 2731,
+        "gallery_videos": 5462,
+        "topk_protocol": "distinct classes ranked by best individual dictionary video",
+        "split": "val"
+      },
+      "weighted": {
+        "per_instance_top1": 0.07323324680328369,
+        "per_instance_top5": 0.36616623401641846,
+        "MRR": 0.003991091623902321,
+        "DCG": 0.10524694621562958,
+        "per_class_top1": 0.07323324680328369,
+        "per_class_top5": 0.36616623401641846,
+        "task": "dictionary_retrieval",
+        "queries": 2731,
+        "gallery_videos": 5462,
+        "topk_protocol": "distinct classes ranked by best individual dictionary video",
+        "split": "val"
+      }
+    },
+    {
+      "step": 40000,
+      "mean": {
+        "per_instance_top1": 0.0,
+        "per_instance_top5": 0.10984987020492554,
+        "MRR": 0.002732067136093974,
+        "DCG": 0.10354377329349518,
+        "per_class_top1": 0.0,
+        "per_class_top5": 0.10984987020492554,
+        "task": "dictionary_retrieval",
+        "queries": 2731,
+        "gallery_videos": 5462,
+        "topk_protocol": "distinct classes ranked by best individual dictionary video",
+        "split": "val"
+      },
+      "weighted": {
+        "per_instance_top1": 0.0,
+        "per_instance_top5": 0.14646649360656738,
+        "MRR": 0.002792215906083584,
+        "DCG": 0.10359546542167664,
+        "per_class_top1": 0.0,
+        "per_class_top5": 0.14646649360656738,
+        "task": "dictionary_retrieval",
+        "queries": 2731,
+        "gallery_videos": 5462,
+        "topk_protocol": "distinct classes ranked by best individual dictionary video",
+        "split": "val"
+      }
+    }
+  ],
+  "best_step": 10000,
+  "best_top1_percent": 1.8674477934837341,
+  "full_validation_completed": false,
+  "test_evaluated": false,
+  "stop_reason": "resume contract rejected environment change: NumPy 2.5.3 to 2.2.6",
+  "quality_limitation": "retrieval degrades after 10k; style branch inactive; gradient/embedding audit retained",
+  "resume_optimizer_state_retained": false,
+  "dataset_modified": false
+}

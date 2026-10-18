@@ -1,0 +1,44 @@
+{
+  "verified_unix": 1792250565.9495792,
+  "checkpoint_epoch": 40,
+  "checkpoint_step": 50160,
+  "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+  "service": "MainPID=2351612\nActiveState=active\nSubState=running\n",
+  "progress": {
+    "stage": "extracting",
+    "split": "train",
+    "pid": 2351648,
+    "completed": 454,
+    "total": 40154,
+    "committed": 330,
+    "percent": 1.1306470090152911,
+    "clips_per_second": 2.83611162798523,
+    "eta_seconds": 13998.038585033702,
+    "elapsed_seconds": 225.07317632215563,
+    "updated_unix": 1792250561.8195782,
+    "resumed_at": 202,
+    "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014"
+  },
+  "extraction_remaining_hours": 4.897550527610028,
+  "scope": "full ASLC train gallery / val queries; no official test",
+  "source_counts": {
+    "train": 40154,
+    "val": 10304
+  },
+  "resume_verification": {
+    "passed": true,
+    "old_worker": 2348014,
+    "new_worker": 2351648,
+    "committed_before": 128,
+    "resumed_at": 202,
+    "completed_after": 203,
+    "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+    "verified_unix": 1792250474.4460447
+  },
+  "training_continues": {
+    "pid": 1391515,
+    "step": 52175
+  },
+  "final_results": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040/results.json",
+  "test_used": false
+}

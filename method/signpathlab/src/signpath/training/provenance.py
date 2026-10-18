@@ -44,7 +44,8 @@ def write_decision_memo(directory, config, report):
     path = Path(directory) / "decision_memo.md"
     path.write_text(f"# Run decision memo: {config['experiment']['id']} seed{config['experiment']['seed']}\n\n"
         f"Status: {report['status']}. Successful steps: {report['successful_steps']}. "
-        f"Validation PC Top1: {report['best_validation_per_class_top1']}.\n\n"
-        "Selection uses the registered frozen validation probe. Test data was not used. "
+        f"Validation metric ({report.get('selection_metric', 'islr_per_class_top1')}): "
+        f"{report.get('best_validation_dcg') if report.get('selection_metric') == 'retrieval_dcg' else report['best_validation_per_class_top1']}.\n\n"
+        "Selection uses the registered validation protocol. Test data was not used. "
         "This single run does not establish a signature contribution; compare matched "
         "motion/raw controls and multiple seeds using the recorded source and mask identities.\n")

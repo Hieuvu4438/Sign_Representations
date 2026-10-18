@@ -1,0 +1,11 @@
+{
+ "arm": "jh3d",
+ "out": "/home/haipd/Sign_Representations/method/jepa_targets/runtime/ablations/jh3d_no_prior_20261013/smoke",
+ "steps": 6,
+ "videos": 2,
+ "jepa_w": 1.0,
+ "prior_w": 0.0,
+ "ema": 0.99925,
+ "workers": 6,
+ "seed": 20261008
+}

@@ -1,0 +1,9 @@
+{
+  "runner_pid": 1628375,
+  "started_at": "2026-10-13T10:06:49+0700",
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "-u",
+    "jt/jh3d_no_prior.py"
+  ]
+}

@@ -1,0 +1,1 @@
+{"pid": 2120792, "frames": 156, "started": 1792112644.0092502, "finished": 1792112659.0582228, "fps": 10.36615615413988, "average_detected_people": 1.0, "frame_shapes": ["(480, 640, 3)"], "providers": {"det": ["CUDAExecutionProvider", "CPUExecutionProvider"], "pose": ["CUDAExecutionProvider", "CPUExecutionProvider"]}}

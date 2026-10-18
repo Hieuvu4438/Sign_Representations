@@ -1,0 +1,657 @@
+{
+ "whiten_init": 24.941770186335404,
+ "CLS48_B32_random_default(0.25,1,0.25)": {
+  "R1": 17.77950310559006,
+  "log": [
+   {
+    "step": 0,
+    "L_align": 0.0,
+    "L_iso": 4.758051872253418,
+    "clusters_used": 0,
+    "clusters_present": 22,
+    "grad_norm_W": 0.6945393681526184
+   },
+   {
+    "step": 250,
+    "L_align": 34.9548454284668,
+    "L_iso": 0.17385408282279968,
+    "clusters_used": 23,
+    "clusters_present": 23,
+    "grad_norm_W": 7.005453586578369
+   },
+   {
+    "step": 500,
+    "L_align": 12.237492561340332,
+    "L_iso": 0.13639427721500397,
+    "clusters_used": 22,
+    "clusters_present": 22,
+    "grad_norm_W": 4.6161580085754395
+   },
+   {
+    "step": 750,
+    "L_align": 9.222789764404297,
+    "L_iso": 0.14330773055553436,
+    "clusters_used": 24,
+    "clusters_present": 24,
+    "grad_norm_W": 3.595655918121338
+   },
+   {
+    "step": 1000,
+    "L_align": 5.13431453704834,
+    "L_iso": 0.15559715032577515,
+    "clusters_used": 24,
+    "clusters_present": 24,
+    "grad_norm_W": 3.0594630241394043
+   },
+   {
+    "step": 1250,
+    "L_align": 3.2343332767486572,
+    "L_iso": 0.16496266424655914,
+    "clusters_used": 22,
+    "clusters_present": 22,
+    "grad_norm_W": 2.0682928562164307
+   },
+   {
+    "step": 1500,
+    "L_align": 3.0190727710723877,
+    "L_iso": 0.17446543276309967,
+    "clusters_used": 26,
+    "clusters_present": 26,
+    "grad_norm_W": 2.151742458343506
+   },
+   {
+    "step": 1750,
+    "L_align": 1.8619909286499023,
+    "L_iso": 0.18368297815322876,
+    "clusters_used": 21,
+    "clusters_present": 21,
+    "grad_norm_W": 1.4745543003082275
+   },
+   {
+    "step": 2000,
+    "L_align": 1.671201467514038,
+    "L_iso": 0.19058623909950256,
+    "clusters_used": 22,
+    "clusters_present": 22,
+    "grad_norm_W": 1.4093563556671143
+   },
+   {
+    "step": 2250,
+    "L_align": 1.2046629190444946,
+    "L_iso": 0.19756348431110382,
+    "clusters_used": 24,
+    "clusters_present": 24,
+    "grad_norm_W": 1.0585986375808716
+   },
+   {
+    "step": 2500,
+    "L_align": 1.0126070976257324,
+    "L_iso": 0.20395249128341675,
+    "clusters_used": 22,
+    "clusters_present": 22,
+    "grad_norm_W": 1.1308096647262573
+   },
+   {
+    "step": 2750,
+    "L_align": 0.9871251583099365,
+    "L_iso": 0.20882317423820496,
+    "clusters_used": 25,
+    "clusters_present": 25,
+    "grad_norm_W": 0.969616711139679
+   },
+   {
+    "step": 2999,
+    "L_align": 0.6875724792480469,
+    "L_iso": 0.21424153447151184,
+    "clusters_used": 24,
+    "clusters_present": 24,
+    "grad_norm_W": 0.7587342858314514
+   }
+  ]
+ },
+ "CLS48_B32_clusterbalanced4x8_default": {
+  "R1": 20.011645962732917,
+  "log": [
+   {
+    "step": 0,
+    "L_align": 0.0,
+    "L_iso": 2.7964611053466797,
+    "clusters_used": 0,
+    "clusters_present": 4,
+    "grad_norm_W": 0.5299831628799438
+   },
+   {
+    "step": 250,
+    "L_align": 35.66952133178711,
+    "L_iso": 0.16651642322540283,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 3.2547905445098877
+   },
+   {
+    "step": 500,
+    "L_align": 22.402849197387695,
+    "L_iso": 0.16259562969207764,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 2.1707615852355957
+   },
+   {
+    "step": 750,
+    "L_align": 12.362112998962402,
+    "L_iso": 0.13893912732601166,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 1.3747268915176392
+   },
+   {
+    "step": 1000,
+    "L_align": 9.600935935974121,
+    "L_iso": 0.14633700251579285,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 1.454565405845642
+   },
+   {
+    "step": 1250,
+    "L_align": 6.643730163574219,
+    "L_iso": 0.15504272282123566,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 1.1332846879959106
+   },
+   {
+    "step": 1500,
+    "L_align": 4.299299240112305,
+    "L_iso": 0.16056612133979797,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.8997536301612854
+   },
+   {
+    "step": 1750,
+    "L_align": 3.2430481910705566,
+    "L_iso": 0.1670055091381073,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.7237833738327026
+   },
+   {
+    "step": 2000,
+    "L_align": 1.8751394748687744,
+    "L_iso": 0.17268355190753937,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.593453586101532
+   },
+   {
+    "step": 2250,
+    "L_align": 1.5672359466552734,
+    "L_iso": 0.17802520096302032,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.6059535145759583
+   },
+   {
+    "step": 2500,
+    "L_align": 1.0914149284362793,
+    "L_iso": 0.1840820610523224,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.602118730545044
+   },
+   {
+    "step": 2750,
+    "L_align": 0.6467629075050354,
+    "L_iso": 0.18819963932037354,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.47905629873275757
+   },
+   {
+    "step": 2999,
+    "L_align": 0.5288816690444946,
+    "L_iso": 0.19311201572418213,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.4267796277999878
+   }
+  ]
+ },
+ "CLS48_B256_random_default": {
+  "R1": 12.267080745341614,
+  "log": [
+   {
+    "step": 0,
+    "L_align": 0.0,
+    "L_iso": 0.4301276206970215,
+    "clusters_used": 0,
+    "clusters_present": 47,
+    "grad_norm_W": 0.03366595506668091
+   },
+   {
+    "step": 250,
+    "L_align": 2.704848289489746,
+    "L_iso": 0.08861005306243896,
+    "clusters_used": 46,
+    "clusters_present": 46,
+    "grad_norm_W": 0.49982523918151855
+   },
+   {
+    "step": 500,
+    "L_align": 0.9242427945137024,
+    "L_iso": 0.14235979318618774,
+    "clusters_used": 46,
+    "clusters_present": 46,
+    "grad_norm_W": 0.3044300973415375
+   },
+   {
+    "step": 750,
+    "L_align": 0.5211346745491028,
+    "L_iso": 0.17194829881191254,
+    "clusters_used": 46,
+    "clusters_present": 46,
+    "grad_norm_W": 0.22786803543567657
+   },
+   {
+    "step": 1000,
+    "L_align": 0.33145463466644287,
+    "L_iso": 0.19088688492774963,
+    "clusters_used": 47,
+    "clusters_present": 47,
+    "grad_norm_W": 0.18098485469818115
+   },
+   {
+    "step": 1250,
+    "L_align": 0.2279089242219925,
+    "L_iso": 0.20386365056037903,
+    "clusters_used": 45,
+    "clusters_present": 45,
+    "grad_norm_W": 0.15498840808868408
+   },
+   {
+    "step": 1500,
+    "L_align": 0.15370120108127594,
+    "L_iso": 0.21368566155433655,
+    "clusters_used": 47,
+    "clusters_present": 47,
+    "grad_norm_W": 0.1203744187951088
+   },
+   {
+    "step": 1750,
+    "L_align": 0.12012611329555511,
+    "L_iso": 0.22127637267112732,
+    "clusters_used": 48,
+    "clusters_present": 48,
+    "grad_norm_W": 0.1116778701543808
+   },
+   {
+    "step": 2000,
+    "L_align": 0.08962105959653854,
+    "L_iso": 0.22694669663906097,
+    "clusters_used": 48,
+    "clusters_present": 48,
+    "grad_norm_W": 0.09663379192352295
+   },
+   {
+    "step": 2250,
+    "L_align": 0.06458018720149994,
+    "L_iso": 0.23161420226097107,
+    "clusters_used": 45,
+    "clusters_present": 45,
+    "grad_norm_W": 0.08412741124629974
+   },
+   {
+    "step": 2500,
+    "L_align": 0.05116758868098259,
+    "L_iso": 0.23528414964675903,
+    "clusters_used": 46,
+    "clusters_present": 46,
+    "grad_norm_W": 0.07513140141963959
+   },
+   {
+    "step": 2750,
+    "L_align": 0.037577688694000244,
+    "L_iso": 0.2383233606815338,
+    "clusters_used": 47,
+    "clusters_present": 47,
+    "grad_norm_W": 0.06256559491157532
+   },
+   {
+    "step": 2999,
+    "L_align": 0.0279550664126873,
+    "L_iso": 0.24081318080425262,
+    "clusters_used": 47,
+    "clusters_present": 47,
+    "grad_norm_W": 0.05488131195306778
+   }
+  ]
+ },
+ "CLS48_B32_random_headstyle(1,1,1)": {
+  "R1": 15.547360248447205,
+  "log": [
+   {
+    "step": 0,
+    "L_align": 0.0,
+    "L_iso": 19.032207489013672,
+    "clusters_used": 0,
+    "clusters_present": 22,
+    "grad_norm_W": 2.7781574726104736
+   },
+   {
+    "step": 250,
+    "L_align": 61.467098236083984,
+    "L_iso": 0.5830607414245605,
+    "clusters_used": 23,
+    "clusters_present": 23,
+    "grad_norm_W": 10.898382186889648
+   },
+   {
+    "step": 500,
+    "L_align": 18.003509521484375,
+    "L_iso": 0.5471874475479126,
+    "clusters_used": 22,
+    "clusters_present": 22,
+    "grad_norm_W": 7.2449049949646
+   },
+   {
+    "step": 750,
+    "L_align": 13.80712604522705,
+    "L_iso": 0.5911498069763184,
+    "clusters_used": 24,
+    "clusters_present": 24,
+    "grad_norm_W": 5.9377641677856445
+   },
+   {
+    "step": 1000,
+    "L_align": 8.503875732421875,
+    "L_iso": 0.6470986604690552,
+    "clusters_used": 24,
+    "clusters_present": 24,
+    "grad_norm_W": 5.150803089141846
+   },
+   {
+    "step": 1250,
+    "L_align": 5.617135047912598,
+    "L_iso": 0.6944013833999634,
+    "clusters_used": 22,
+    "clusters_present": 22,
+    "grad_norm_W": 3.791846513748169
+   },
+   {
+    "step": 1500,
+    "L_align": 5.401811122894287,
+    "L_iso": 0.7365922331809998,
+    "clusters_used": 26,
+    "clusters_present": 26,
+    "grad_norm_W": 3.9066503047943115
+   },
+   {
+    "step": 1750,
+    "L_align": 3.4147181510925293,
+    "L_iso": 0.7769755125045776,
+    "clusters_used": 21,
+    "clusters_present": 21,
+    "grad_norm_W": 2.9025352001190186
+   },
+   {
+    "step": 2000,
+    "L_align": 3.0012099742889404,
+    "L_iso": 0.8086076974868774,
+    "clusters_used": 22,
+    "clusters_present": 22,
+    "grad_norm_W": 2.7210311889648438
+   },
+   {
+    "step": 2250,
+    "L_align": 2.2286531925201416,
+    "L_iso": 0.8400561809539795,
+    "clusters_used": 24,
+    "clusters_present": 24,
+    "grad_norm_W": 2.115647315979004
+   },
+   {
+    "step": 2500,
+    "L_align": 1.853327751159668,
+    "L_iso": 0.8658881187438965,
+    "clusters_used": 22,
+    "clusters_present": 22,
+    "grad_norm_W": 2.0927462577819824
+   },
+   {
+    "step": 2750,
+    "L_align": 1.772618293762207,
+    "L_iso": 0.8858993649482727,
+    "clusters_used": 25,
+    "clusters_present": 25,
+    "grad_norm_W": 1.997373342514038
+   },
+   {
+    "step": 2999,
+    "L_align": 1.238713026046753,
+    "L_iso": 0.906804084777832,
+    "clusters_used": 24,
+    "clusters_present": 24,
+    "grad_norm_W": 1.6010226011276245
+   }
+  ]
+ },
+ "CLS48_B32_clusterbalanced4x8_headstyle": {
+  "R1": 21.195652173913043,
+  "log": [
+   {
+    "step": 0,
+    "L_align": 0.0,
+    "L_iso": 11.185844421386719,
+    "clusters_used": 0,
+    "clusters_present": 4,
+    "grad_norm_W": 2.1199326515197754
+   },
+   {
+    "step": 250,
+    "L_align": 63.86921691894531,
+    "L_iso": 0.947492778301239,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 9.412994384765625
+   },
+   {
+    "step": 500,
+    "L_align": 35.93131637573242,
+    "L_iso": 0.8296815156936646,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 6.077106952667236
+   },
+   {
+    "step": 750,
+    "L_align": 17.916423797607422,
+    "L_iso": 0.5740692019462585,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 3.973576068878174
+   },
+   {
+    "step": 1000,
+    "L_align": 13.21394157409668,
+    "L_iso": 0.5797193646430969,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 3.948410749435425
+   },
+   {
+    "step": 1250,
+    "L_align": 9.002862930297852,
+    "L_iso": 0.5964823365211487,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 3.2210652828216553
+   },
+   {
+    "step": 1500,
+    "L_align": 6.088222980499268,
+    "L_iso": 0.6010921001434326,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 2.7445549964904785
+   },
+   {
+    "step": 1750,
+    "L_align": 4.566640377044678,
+    "L_iso": 0.6163623332977295,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 2.384934186935425
+   },
+   {
+    "step": 2000,
+    "L_align": 2.9586381912231445,
+    "L_iso": 0.6365744471549988,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 2.114959478378296
+   },
+   {
+    "step": 2250,
+    "L_align": 2.6935276985168457,
+    "L_iso": 0.6563481092453003,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 2.2358133792877197
+   },
+   {
+    "step": 2500,
+    "L_align": 2.1526451110839844,
+    "L_iso": 0.6801494359970093,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 2.37579083442688
+   },
+   {
+    "step": 2750,
+    "L_align": 1.4714810848236084,
+    "L_iso": 0.6892952919006348,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 2.020766496658325
+   },
+   {
+    "step": 2999,
+    "L_align": 1.2363134622573853,
+    "L_iso": 0.7086257338523865,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 1.866153359413147
+   }
+  ]
+ },
+ "CLS48_B32_clusterbalanced4x8_default_SHUFFLED": {
+  "R1": 19.40993788819876,
+  "log": [
+   {
+    "step": 0,
+    "L_align": 0.0,
+    "L_iso": 3.2281455993652344,
+    "clusters_used": 0,
+    "clusters_present": 4,
+    "grad_norm_W": 0.46774303913116455
+   },
+   {
+    "step": 250,
+    "L_align": 28.285430908203125,
+    "L_iso": 0.15635764598846436,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 1.6203399896621704
+   },
+   {
+    "step": 500,
+    "L_align": 16.713993072509766,
+    "L_iso": 0.13623975217342377,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 1.0212187767028809
+   },
+   {
+    "step": 750,
+    "L_align": 11.59698486328125,
+    "L_iso": 0.1462077498435974,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.8520933985710144
+   },
+   {
+    "step": 1000,
+    "L_align": 6.5632452964782715,
+    "L_iso": 0.15522713959217072,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.6406619548797607
+   },
+   {
+    "step": 1250,
+    "L_align": 6.008157730102539,
+    "L_iso": 0.1653333455324173,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.609269917011261
+   },
+   {
+    "step": 1500,
+    "L_align": 4.326790809631348,
+    "L_iso": 0.17361852526664734,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.5573182702064514
+   },
+   {
+    "step": 1750,
+    "L_align": 2.164853096008301,
+    "L_iso": 0.1807146519422531,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.4410874843597412
+   },
+   {
+    "step": 2000,
+    "L_align": 1.403847098350525,
+    "L_iso": 0.1866399049758911,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.37010958790779114
+   },
+   {
+    "step": 2250,
+    "L_align": 1.3429844379425049,
+    "L_iso": 0.19266630709171295,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.3356904983520508
+   },
+   {
+    "step": 2500,
+    "L_align": 0.7681161165237427,
+    "L_iso": 0.19819875061511993,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.2924113869667053
+   },
+   {
+    "step": 2750,
+    "L_align": 0.47069916129112244,
+    "L_iso": 0.20302823185920715,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.23941895365715027
+   },
+   {
+    "step": 2999,
+    "L_align": 0.5155562162399292,
+    "L_iso": 0.20777584612369537,
+    "clusters_used": 4,
+    "clusters_present": 4,
+    "grad_norm_W": 0.21353372931480408
+   }
+  ]
+ }
+}

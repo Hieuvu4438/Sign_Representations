@@ -1,0 +1,75 @@
+{
+ "n": 40154,
+ "within_gloss_share_of_total_variance": 0.7536567673140947,
+ "eta2_signer_of_total": 0.13753304837990407,
+ "eta2_gloss_of_total": 0.2463432326859053,
+ "within_gloss_eta2": {
+  "signer": 0.17520748497929406,
+  "duration_decile": 0.028855586486063813,
+  "fps": 0.005409060483024175,
+  "resolution": 0.0003091034413454776
+ },
+ "within_gloss_joint_R2_signer+duration+fps+resolution": 0.1806068720911117,
+ "within_gloss_joint_R2_duration+fps+resolution": 0.03461109671928874,
+ "fps_counts": {
+  "11": 1,
+  "12": 12,
+  "13": 61,
+  "14": 2,
+  "15": 228,
+  "16": 4,
+  "17": 220,
+  "18": 1,
+  "21": 1,
+  "24": 2,
+  "25": 20,
+  "26": 21,
+  "27": 33,
+  "28": 25,
+  "29": 79,
+  "30": 37548,
+  "31": 1825,
+  "32": 1,
+  "55": 1,
+  "60": 60,
+  "62": 6,
+  "80": 2,
+  "120": 1
+ },
+ "res_counts": {
+  "640x480": 39939,
+  "960x540": 215
+ },
+ "within_gloss_signer_incremental_over_dur_fps_res": 0.14599577537182296,
+ "participation_ratio": {
+  "within_gloss_Sw": 84.35301637065957,
+  "between_gloss_Sb": 26.91765581711248
+ },
+ "trace": {
+  "Sw": 0.49075638034459323,
+  "Sb": 0.16090276588759359
+ },
+ "top_subspace_overlap_Sw_vs_Sb": {
+  "10": 0.10025626618567918,
+  "30": 0.336675871200732,
+  "100": 0.7221249427602003
+ },
+ "Sb_variance_in_top_Sw_dirs": {
+  "10": 0.10763452726894364,
+  "30": 0.3046707743355809,
+  "100": 0.8090333534996869
+ },
+ "Sw_variance_in_top_Sw_dirs": {
+  "10": 0.26450839677877486,
+  "30": 0.48365194987845034,
+  "100": 0.7662775017486796
+ },
+ "signer_subspace_34d": {
+  "share_of_Sw_trace": 0.39130031867212506,
+  "share_of_Sb_trace": 0.19967809464395364
+ },
+ "nn_top1_same_signer": 0.854375,
+ "nn_top1_same_gloss": 0.055375,
+ "chance_same_signer": 0.05903561198237709,
+ "cross_signer_nn_top1_same_gloss": 0.143625
+}

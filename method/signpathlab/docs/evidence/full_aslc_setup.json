@@ -1,0 +1,93 @@
+{
+  "status": "setup_verified_job_running",
+  "observed_unix": 1791796224.109569,
+  "job": {
+    "classifier_training": false,
+    "config": "/home/haipd/Sign_Representations/method/signpathlab/configs/full_aslc/E04_seed17.yaml",
+    "config_hash": "c7e7186db272cf0ce2dd027fdbaa9bd113949ba6e607d2434212a22705453f41",
+    "corpus_counts": {
+      "test": {
+        "available": 32941,
+        "classes": 2731,
+        "count": 32941
+      },
+      "train": {
+        "available": 40154,
+        "classes": 2731,
+        "count": 40154
+      },
+      "val": {
+        "available": 10304,
+        "classes": 2731,
+        "count": 10304
+      }
+    },
+    "monitoring": "user-managed after startup; no automatic retries",
+    "pid": 1411678,
+    "runtime_implementation_hash": "3b58b893d2ad39dd89395eed5ebee1a7cf5fe6a4535e883a7c8ce0752f9fb346",
+    "seed": 17,
+    "source_snapshot_sha256": "e9a7645a1cd4439ae775461aedaacd4135e511248fab0fcbacfffa0a72b00970",
+    "stage": "cache_train",
+    "started_unix": 1791795780.1897907,
+    "status": "running",
+    "updated_unix": 1791795803.2011695
+  },
+  "observed_cache_train": {
+    "completed": 240,
+    "elapsed_seconds": 418.2545231640106,
+    "free_gib": 43.56376266479492,
+    "new_samples": 240,
+    "split": "train",
+    "status": "running",
+    "total": 40154
+  },
+  "test_count": 133,
+  "tests_skipped": 0,
+  "tests_log_sha256": "bff28eaeb2d7ca426c5eea0458f806e195a2b4f59e5aef69b8fe884d73dd667e",
+  "metric_parity": "full_aslc_metric_parity.json",
+  "preflight": "full_aslc_preflight.json",
+  "pipeline_stage_order": [
+    "manifest_audit",
+    "cache_train",
+    "cache_val",
+    "targets_train_only",
+    "pipeline_gate",
+    "training_profile",
+    "training",
+    "cache_test",
+    "test_audit",
+    "retrieval_test"
+  ],
+  "estimates_hours": {
+    "train_val_preprocess_cache": [
+      22,
+      30
+    ],
+    "target_fit_and_gates": [
+      4,
+      8
+    ],
+    "ssl_training": [
+      10,
+      20
+    ],
+    "frozen_validation_retrieval": [
+      2,
+      5
+    ],
+    "test_preprocess_cache": [
+      14,
+      20
+    ],
+    "frozen_test_retrieval": [
+      3,
+      6
+    ],
+    "total": [
+      55,
+      89
+    ]
+  },
+  "estimate_basis": "early cache throughput and 24-real-clip D384 preflight, extrapolation only; no full-scale benchmark yet",
+  "monitoring_after_handoff": "stopped by user preference; job stays detached; user invokes one-shot status script"
+}

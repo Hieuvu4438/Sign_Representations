@@ -1,0 +1,27 @@
+{
+  "checkpoint_step": 37876,
+  "checkpoint_sha256": "0a094f388c1ae824fe03e28a5b8700c4fd16c7c042e54d17cfbdf36469ff68ae",
+  "ema": {
+    "matched": 0.4993968605995178,
+    "unmatched": 0.4993968605995178,
+    "updates": 37876.0
+  },
+  "norms": {
+    "style.0.weight": {
+      "max_abs": 6.351297088258434e-06,
+      "l2_float64": 0.0024303764820903756,
+      "nonzero": 589824
+    },
+    "style.2.weight": {
+      "max_abs": 6.348683200485539e-06,
+      "l2_float64": 0.0026800672796843438,
+      "nonzero": 589824
+    }
+  },
+  "synthetic_cpu_probe": {
+    "content_gradient_l2": 0.003631292376667261,
+    "style_gradient_l2": 2.3119497310521153e-13,
+    "matched_style_change_max": 0.0,
+    "scope": "Synthetic input checks structural dependency, not real-data accuracy"
+  }
+}

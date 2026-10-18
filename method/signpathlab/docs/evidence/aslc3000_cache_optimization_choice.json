@@ -1,0 +1,13 @@
+{
+  "status": "selected",
+  "cpu_threads": 2,
+  "dino_batch_size": 16,
+  "python_processes": 1,
+  "benchmark_speedup": 1.932483761633192,
+  "numerical_policy": "selected path has exact visual/nonvisual/support equality on all benchmark samples",
+  "reason": "CPU concurrency gives1.93x; GPU batch32/64 adds less than1% over two-thread batch16, has numerical rounding changes and would require a new cache identity",
+  "preserved_production_caches": 94,
+  "previous_job_archived": "artifacts/aslc3000/job_history/before_cpu_thread_optimization_1791801294626354217",
+  "previous_main_training_started": false,
+  "source_migration": "new job provenance for changed runtime, cache input recipe stays identical"
+}

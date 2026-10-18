@@ -1,0 +1,83 @@
+{
+  "source": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+  "source_sha256": "069b229e7872adf60d7c969bb7597ad78c3ef3953a442c8d5a20387fe757e75a",
+  "ids": [
+    "a9f512bdb0be4a75983f64bc",
+    "fdd29da0990fe7e00e6cda0e"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "loss": 67.01520538330078,
+      "gn": 166.9059295654297
+    },
+    {
+      "step": 2,
+      "loss": 52.24880599975586,
+      "gn": 125.76969909667969
+    }
+  ],
+  "resume_bitwise": true,
+  "config": {
+    "arm": "A1",
+    "state": true,
+    "paths": true,
+    "relations": true,
+    "global_mode": "chen",
+    "smooth": true,
+    "asinh": true,
+    "moment": false,
+    "time_channel": false,
+    "path_means": false,
+    "state_relations": false,
+    "aligned_warp": false,
+    "p_budget": false,
+    "mask": "plcm",
+    "loss": "cce",
+    "structural_bias": true,
+    "lambda_p": 1.0,
+    "d": 256,
+    "depth": 6,
+    "heads": 4,
+    "dp": 128,
+    "pdepth": 4,
+    "batch": 2,
+    "epochs": 40,
+    "lr": 0.0003,
+    "wd": 0.05,
+    "seed": 0,
+    "speed": [
+      0.8,
+      1.25
+    ],
+    "warp": 0.2,
+    "morph": true,
+    "noise": 0.02,
+    "ctx_drop": 0.1,
+    "stats": "",
+    "cache": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+    "device": "cpu",
+    "workers": 0,
+    "save_epochs": [
+      10,
+      20,
+      40
+    ]
+  },
+  "readout_shapes": {
+    "grp": [
+      768
+    ],
+    "grp+P": [
+      1536
+    ],
+    "mw": [
+      1536
+    ],
+    "ord2": [
+      3072
+    ]
+  },
+  "device": "cpu",
+  "official_test_used": false
+}

@@ -1,0 +1,62 @@
+{
+  "query_count": 32941,
+  "gallery_count": 40154,
+  "classes": 2731,
+  "ids_order_gloss_signers_match": true,
+  "PLctx_MRR_Rec10_macro_derived_from_saved_ranks": true,
+  "PLctx_reported_DCG_Rec1_Rec5_match_ranks": true,
+  "sources_sha256": {
+    "method/phonojepa/runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/results.json": "f548b6797b77d343b3914c87b571e7897cbe4100899a8a696d3f4751db542161",
+    "method/phonojepa/runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/protocol.json": "5b21ae1f0f984e20252bc4256770eaf9b4f78c6e95538618b329293b6b1bab94",
+    "method/phonojepa/runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/_grp_ranks.npy": "573b6272b3d0c6ec3acfead62904db3363cdf82e645a3d76db62487cf29ed0ef",
+    "method/phonojepa/runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/test.jsonl": "4266d0d23e1a4b7aa567b2e441d5c94e53bc3d53d429170900d931a7c5d53b1c",
+    "method/pose_jepa/runtime/full_aslc_job/evaluation/report.json": "eb21c13d22f4b9550639c0aa548fe5c3e20d54ab7bbd5951a611ad2a36ef87ae"
+  },
+  "raw_metrics": [
+    {
+      "metric": "DCG",
+      "Pose_JEPA_raw": 0.24859530710381472,
+      "PLctx160_raw_grp": 0.3961825796186131,
+      "PLctx_minus_Pose": 0.14758727251479836,
+      "unit": "fraction; multiply recall differences by100 for percentage points"
+    },
+    {
+      "metric": "MRR",
+      "Pose_JEPA_raw": 0.11315591395180752,
+      "PLctx160_raw_grp": 0.26646363127001454,
+      "PLctx_minus_Pose": 0.15330771731820703,
+      "unit": "fraction; multiply recall differences by100 for percentage points"
+    },
+    {
+      "metric": "R@1",
+      "Pose_JEPA_raw": 0.05743602197868917,
+      "PLctx160_raw_grp": 0.16678303633769467,
+      "PLctx_minus_Pose": 0.10934701435900551,
+      "unit": "fraction; multiply recall differences by100 for percentage points"
+    },
+    {
+      "metric": "R@5",
+      "Pose_JEPA_raw": 0.15278831850884916,
+      "PLctx160_raw_grp": 0.36896269087155825,
+      "PLctx_minus_Pose": 0.2161743723627091,
+      "unit": "fraction; multiply recall differences by100 for percentage points"
+    },
+    {
+      "metric": "R@10",
+      "Pose_JEPA_raw": 0.21939224674417898,
+      "PLctx160_raw_grp": 0.46941501472329317,
+      "PLctx_minus_Pose": 0.25002276797911416,
+      "unit": "fraction; multiply recall differences by100 for percentage points"
+    },
+    {
+      "metric": "R@1_classmacro",
+      "Pose_JEPA_raw": 0.0578324874712214,
+      "PLctx160_raw_grp": 0.16792211191402392,
+      "PLctx_minus_Pose": 0.11008962444280253,
+      "unit": "fraction; multiply recall differences by100 for percentage points"
+    }
+  ],
+  "budget_matched": false,
+  "same_temporal_readout": false,
+  "note": "Primary saved raw scores; PLctx old scorer retains zero vectors and finite failure ranks, Pose uses invalid-gallery mask/infinite query-failure ranks. No baseline features rescored or training modified."
+}

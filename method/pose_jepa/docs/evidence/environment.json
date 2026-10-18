@@ -1,0 +1,10 @@
+{
+  "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "torch": "2.5.1+cu121",
+  "numpy": "1.26.4",
+  "yaml": "6.0.3",
+  "pytest": "8.3.5",
+  "cuda": "12.1",
+  "gpu": "NVIDIA RTX 5880 Ada Generation",
+  "driver": "570.195.03"
+}

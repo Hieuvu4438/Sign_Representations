@@ -1,5 +1,12 @@
 # SignPathLab
 
+**Trạng thái 13/10/2026: chỉ giữ source theo yêu cầu người dùng.** Các job đã dừng,
+systemd services/timer đã tắt và gỡ khỏi user manager. Đã xóa toàn bộ `data/`,
+`artifacts/`, `checkpoints/`, hai môi trường `.venv`/`.venv-locked` và cache chạy.
+Code, tests, configs, dependency locks và tài liệu được giữ; dữ liệu ASL-Citizen gốc,
+weights dùng chung và các method khác không bị xóa. Các báo cáo bên dưới là hồ sơ
+lịch sử; artifacts mà chúng tham chiếu không còn. Muốn chạy lại cần setup từ đầu.
+
 Triển khai độc lập proposal tại `../../docs/proposal13/signpathlab_implementation_agent_vi.md`.
 Code mới nằm hoàn toàn trong thư mục method này. Pipeline cốt lõi và các backend hiện có
 được bàn giao cùng acceptance audit; những nhánh mở rộng chưa có được ghi rõ bên dưới.
@@ -15,6 +22,14 @@ collapse diagnostics, versioned predictions và grouped uncertainty đã hoạt 
 Báo cáo bàn giao: [implementation và review vòng 4](docs/IMPLEMENTATION_PHASE4_VI.md).
 Đối chiếu proposal: [acceptance audit](docs/ACCEPTANCE_AUDIT_VI.md).
 Các báo cáo vòng 1–3 được giữ nguyên như bằng chứng lịch sử.
+
+ASLC3000 seed17 (3.000 train + 1.500 val) đã hoàn thành trước khi cleanup; job full
+ASL-Citizen đã được dừng theo yêu cầu người dùng vì kết quả method chưa đủ tốt.
+Toàn bộ features/checkpoints/training outputs của cả hai job đã xóa.
+Hồ sơ setup: [ASLC3000](docs/ASLC3000_SERVICE_VI.md),
+[full ASL-Citizen](docs/FULL_ASLC_SERVICE_VI.md),
+[benchmark cache](docs/ASLC3000_CACHE_OPTIMIZATION_VI.md).
+Các file `deploy/` chỉ là templates; hiện không có service SignPathLab được cài để tự chạy.
 
 ## Cài và kiểm tra
 

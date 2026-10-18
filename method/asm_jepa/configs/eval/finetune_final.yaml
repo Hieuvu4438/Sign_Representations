@@ -1,0 +1,9 @@
+# ISLR fine-tuning / supervised scratch (R0) for the final method: same data pipeline (filters + statistics) as
+# configs/pretrain/final.yaml. Effective batch 128 as in finetune.yaml, as one physical batch.
+inherits: [finetune.yaml]
+model_config: ../pretrain/final.yaml
+data:
+  num_workers: 12
+train:
+  batch_size_per_gpu: 128
+  accum_steps: 1

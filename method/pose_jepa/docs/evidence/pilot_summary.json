@@ -1,0 +1,286 @@
+{
+  "scope": "4-class official-split ASL-Citizen legacy-pose sanity subset; not full benchmark",
+  "training_protocol": "in_domain_ssl",
+  "selection_scope": "target_validation",
+  "effective_batch": 2,
+  "architecture": "guide full 8-layer width-256 encoder / 4-layer width-128 predictor",
+  "comparison": "fixed successful optimizer updates, not compute-matched or isolated-wall-clock evidence",
+  "selection_rule": "validation R@1; deterministic lexical run-ID tie; shuffled diagnostic excluded",
+  "selected_run": "masked_geometry",
+  "runs": [
+    {
+      "run": "masked_geometry",
+      "successful_updates": 5000,
+      "skipped_updates": 0,
+      "last_100_raw_losses": {
+        "latent": null,
+        "geometry": 0.05073516046628356,
+        "motion": 0.06710362624377013
+      },
+      "best_validation_step": 2000,
+      "active_terms": [
+        "geometry"
+      ],
+      "teacher_policy": "online encoder copy, momentum 0, no teacher forward",
+      "validation": {
+        "R@1": 0.75,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR": 0.875,
+        "DCG_single_relevant": 0.9077324383928644,
+        "num_queries": 8,
+        "num_ranked_queries": 8
+      },
+      "representation": {
+        "valid_clips": 8,
+        "feature_std_mean": 0.1728295201837303,
+        "effective_rank": 2.5890618230639206,
+        "maximum_empirical_rank": 7,
+        "mean_interclip_cosine": 0.8578605108176843
+      },
+      "wall_clock_sec": 667.0642557144165,
+      "GPU_hours_single_device_elapsed": 0.18529562658733792,
+      "peak_model_allocated_vram_bytes": 358067712,
+      "checkpoint_sha256": "edc5a57f4b59d83a1efd0c9f49dd1ea3c9b14420d3e1e90c8b98e5be94228967",
+      "config_sha256": "fb3ded1b3bf3de1d5aaf8b6af7ec4fae57957c130e3530373dad746ee8c6e707",
+      "provenance": {
+        "stage": "ssl",
+        "config_sha256": "5a8683fe88e7228b3fdc060328c85ce82edc053539e3afd9647fa3253dce6ca5",
+        "manifest_sha256": "3be0e1bd20a3283a7cf93f38aa85bdf5797210bccf282732e31bb093365d9ee2",
+        "pose_inventory_sha256": "4e84cfc46ada046be0edb8846a735f88c9fd715e81ef63b296bc2bc26802fb33",
+        "score_profiles": [
+          "simcc_positive_rational_v1"
+        ],
+        "code_commit": "047c89d8affbb9dff22045d35051f27cef483086",
+        "code_sha256": "bc7ebd0ad352616451e1278d3e83c021fb3eaf900d5db9e9f474066e05744f82",
+        "python": "3.10.19",
+        "torch": "2.5.1+cu121",
+        "cuda": "12.1",
+        "gpu": "NVIDIA RTX 5880 Ada Generation",
+        "world_size": 1,
+        "best_validation_metric": null
+      }
+    },
+    {
+      "run": "masked_motion",
+      "successful_updates": 5000,
+      "skipped_updates": 0,
+      "last_100_raw_losses": {
+        "latent": null,
+        "geometry": 0.22425447180867195,
+        "motion": 0.033260794151574374
+      },
+      "best_validation_step": 1000,
+      "active_terms": [
+        "motion"
+      ],
+      "teacher_policy": "online encoder copy, momentum 0, no teacher forward",
+      "validation": {
+        "R@1": 0.25,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR": 0.5416666666666666,
+        "DCG_single_relevant": 0.6567677971076449,
+        "num_queries": 8,
+        "num_ranked_queries": 8
+      },
+      "representation": {
+        "valid_clips": 8,
+        "feature_std_mean": 0.32278160591116034,
+        "effective_rank": 2.013372481156184,
+        "maximum_empirical_rank": 7,
+        "mean_interclip_cosine": 0.7408971238007771
+      },
+      "wall_clock_sec": 663.6368041038513,
+      "GPU_hours_single_device_elapsed": 0.18434355669551425,
+      "peak_model_allocated_vram_bytes": 358067712,
+      "checkpoint_sha256": "fd26762f011df7146785f0fa29cf6a6fd885c31ea420d8ceb6d05c8123a40e38",
+      "config_sha256": "d563931fc1530b4e81630b2911381a1b8d8196b5cace67ce2a1ec8ed354d6b0b",
+      "provenance": {
+        "stage": "ssl",
+        "config_sha256": "3c6a3c5b5da7d9079b6b2bda2d5b54af9e327bb80041cd8c729348179eb2cd4b",
+        "manifest_sha256": "3be0e1bd20a3283a7cf93f38aa85bdf5797210bccf282732e31bb093365d9ee2",
+        "pose_inventory_sha256": "4e84cfc46ada046be0edb8846a735f88c9fd715e81ef63b296bc2bc26802fb33",
+        "score_profiles": [
+          "simcc_positive_rational_v1"
+        ],
+        "code_commit": "047c89d8affbb9dff22045d35051f27cef483086",
+        "code_sha256": "bc7ebd0ad352616451e1278d3e83c021fb3eaf900d5db9e9f474066e05744f82",
+        "python": "3.10.19",
+        "torch": "2.5.1+cu121",
+        "cuda": "12.1",
+        "gpu": "NVIDIA RTX 5880 Ada Generation",
+        "world_size": 1,
+        "best_validation_metric": null
+      }
+    },
+    {
+      "run": "jepa_only",
+      "successful_updates": 5000,
+      "skipped_updates": 0,
+      "last_100_raw_losses": {
+        "latent": 0.41833864763379097,
+        "geometry": 0.2224887415766716,
+        "motion": 0.06620972037315369
+      },
+      "best_validation_step": 1000,
+      "active_terms": [
+        "latent"
+      ],
+      "teacher_policy": "cosine EMA",
+      "validation": {
+        "R@1": 0.625,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR": 0.7291666666666666,
+        "DCG_single_relevant": 0.7951691395183482,
+        "num_queries": 8,
+        "num_ranked_queries": 8
+      },
+      "representation": {
+        "valid_clips": 8,
+        "feature_std_mean": 0.3670675376445445,
+        "effective_rank": 3.6330408367703453,
+        "maximum_empirical_rank": 7,
+        "mean_interclip_cosine": 0.7412572912996429
+      },
+      "wall_clock_sec": 755.6134622097015,
+      "GPU_hours_single_device_elapsed": 0.20989262839158376,
+      "peak_model_allocated_vram_bytes": 358067712,
+      "checkpoint_sha256": "c8b4d72b9106f049540115f61dc89dedf579e8ea47f7a436c3bd3b9c9c4139bd",
+      "config_sha256": "b7a2a853be50fce8b167bc87782509f8319b13e823c5db29352388d789bcde76",
+      "provenance": {
+        "stage": "ssl",
+        "config_sha256": "e822e4181fd04204e3357e0015c19a219b5bcbec98c7ea27d5a1a9e549c45f9a",
+        "manifest_sha256": "3be0e1bd20a3283a7cf93f38aa85bdf5797210bccf282732e31bb093365d9ee2",
+        "pose_inventory_sha256": "4e84cfc46ada046be0edb8846a735f88c9fd715e81ef63b296bc2bc26802fb33",
+        "score_profiles": [
+          "simcc_positive_rational_v1"
+        ],
+        "code_commit": "047c89d8affbb9dff22045d35051f27cef483086",
+        "code_sha256": "e6846f32bb919ce80e64e12546086dc4870bc27164c9c7100e7c12be8a8cc159",
+        "python": "3.10.19",
+        "torch": "2.5.1+cu121",
+        "cuda": "12.1",
+        "gpu": "NVIDIA RTX 5880 Ada Generation",
+        "world_size": 1,
+        "best_validation_metric": null
+      }
+    },
+    {
+      "run": "jepa_hybrid",
+      "successful_updates": 5000,
+      "skipped_updates": 0,
+      "last_100_raw_losses": {
+        "latent": 0.5058035781979561,
+        "geometry": 0.0767797126248479,
+        "motion": 0.04390915784984827
+      },
+      "best_validation_step": 1000,
+      "active_terms": [
+        "latent",
+        "geometry",
+        "motion"
+      ],
+      "teacher_policy": "cosine EMA",
+      "validation": {
+        "R@1": 0.625,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR": 0.7395833333333333,
+        "DCG_single_relevant": 0.8038345697591741,
+        "num_queries": 8,
+        "num_ranked_queries": 8
+      },
+      "representation": {
+        "valid_clips": 8,
+        "feature_std_mean": 0.337975570640234,
+        "effective_rank": 3.7982039367236395,
+        "maximum_empirical_rank": 7,
+        "mean_interclip_cosine": 0.7914126948360282
+      },
+      "wall_clock_sec": 728.0066843032837,
+      "GPU_hours_single_device_elapsed": 0.20222407897313435,
+      "peak_model_allocated_vram_bytes": 358067712,
+      "checkpoint_sha256": "f92e5cd3fae3f0c951b442f3fc41403fc258f7cab00afaeaa39b6e7531570240",
+      "config_sha256": "8c7005aaf85ae9860061d48494eb3c096c316ee944df5d8947120e1b8647cf65",
+      "provenance": {
+        "stage": "ssl",
+        "config_sha256": "ab24c37baaf07eb6a43cc91d54535f8bff730495eaaab9bc84d50f76616e370a",
+        "manifest_sha256": "3be0e1bd20a3283a7cf93f38aa85bdf5797210bccf282732e31bb093365d9ee2",
+        "pose_inventory_sha256": "4e84cfc46ada046be0edb8846a735f88c9fd715e81ef63b296bc2bc26802fb33",
+        "score_profiles": [
+          "simcc_positive_rational_v1"
+        ],
+        "code_commit": "047c89d8affbb9dff22045d35051f27cef483086",
+        "code_sha256": "5d4e78ac3a6a9278014aef33276b9e3341d3ed7fed0965b7e27b7543211cba7b",
+        "python": "3.10.19",
+        "torch": "2.5.1+cu121",
+        "cuda": "12.1",
+        "gpu": "NVIDIA RTX 5880 Ada Generation",
+        "world_size": 1,
+        "best_validation_metric": null
+      }
+    },
+    {
+      "run": "jepa_shuffled",
+      "successful_updates": 5000,
+      "skipped_updates": 0,
+      "last_100_raw_losses": {
+        "latent": 2.2698691749572752,
+        "geometry": 0.22517631709575653,
+        "motion": 0.0662768167629838
+      },
+      "best_validation_step": 1000,
+      "active_terms": [
+        "latent"
+      ],
+      "teacher_policy": "cosine EMA",
+      "validation": {
+        "R@1": 0.25,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR": 0.5208333333333333,
+        "DCG_single_relevant": 0.6404015779112127,
+        "num_queries": 8,
+        "num_ranked_queries": 8
+      },
+      "representation": {
+        "valid_clips": 8,
+        "feature_std_mean": 0.02071637256176935,
+        "effective_rank": 3.366793657587387,
+        "maximum_empirical_rank": 7,
+        "mean_interclip_cosine": 0.9993469452008652
+      },
+      "wall_clock_sec": 686.6697707176208,
+      "GPU_hours_single_device_elapsed": 0.1907416029771169,
+      "peak_model_allocated_vram_bytes": 358173696,
+      "checkpoint_sha256": "f0076544fc91b28b5009e3ae4d272f067749205136879d49cacb0a7cbebe792f",
+      "config_sha256": "759ec5bb0eb18c3ec0c03f915939af87628131c28ddc93e2e8f8c09981f1ef1b",
+      "provenance": {
+        "stage": "ssl",
+        "config_sha256": "990f57c69c1473f440b258833883084f7b7d0a5bacc4367b80b2bd6865ff475d",
+        "manifest_sha256": "3be0e1bd20a3283a7cf93f38aa85bdf5797210bccf282732e31bb093365d9ee2",
+        "pose_inventory_sha256": "4e84cfc46ada046be0edb8846a735f88c9fd715e81ef63b296bc2bc26802fb33",
+        "score_profiles": [
+          "simcc_positive_rational_v1"
+        ],
+        "code_commit": "047c89d8affbb9dff22045d35051f27cef483086",
+        "code_sha256": "4ccb114357080a42a486f91ad0ff7a28f2a6bc804184574c9080c32f24ce7527",
+        "python": "3.10.19",
+        "torch": "2.5.1+cu121",
+        "cuda": "12.1",
+        "gpu": "NVIDIA RTX 5880 Ada Generation",
+        "world_size": 1,
+        "best_validation_metric": null
+      }
+    }
+  ],
+  "limitations": [
+    "16 train / 8 validation clips and 4 classes cannot establish benchmark superiority.",
+    "Uncalibrated legacy score mapping and detector extrapolation are explicitly audited.",
+    "Shared hardware has other workloads; elapsed GPU-hours are not isolated compute cost.",
+    "Early reconstruction-control logs contain an unused scheduled EMA value and dummy latent CE; these fields are excluded from interpretation and corrected in final code.",
+    "Minimal-pair/non-manual annotations are unavailable; no physical-loss superiority claim."
+  ]
+}

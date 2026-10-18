@@ -23,7 +23,8 @@ def run_cached_training(resolved, device="cpu", resume=None):
     c = resolved.values
     if c["cache"]["kind"] != "per_frame_dino" or c["runtime"]["allow_missing_provenance"]:
         raise ValueError("Scientific training requires real per-frame cache with complete provenance")
-    if c["experiment"]["primary_validation_metric"] != "islr_per_class_top1" or c["downstream"]["head"] != "linear" or c["downstream"]["representation"] != "temporal":
+    retrieval_selection = c["experiment"]["primary_validation_metric"] == "retrieval_dcg"
+    if not retrieval_selection and (c["experiment"]["primary_validation_metric"] != "islr_per_class_top1" or c["downstream"]["head"] != "linear" or c["downstream"]["representation"] != "temporal"):
         raise ValueError("Pretraining checkpoint selection requires registered frozen temporal linear PC Top1 probe")
     device = initialize(device)
     torch.set_num_threads(1)
@@ -49,6 +50,11 @@ def run_cached_training(resolved, device="cpu", resume=None):
         state = load_checkpoint(resume, trainer, c, identities, mask_generator=provider.mask_generator)
         provider.load_state_dict(state["provider"])
         best_score, best_step = state["best_score"], state["best_step"]
+        # Power loss may leave logs newer than the last durable model/sampler state.
+        # Preserve those abandoned records separately before replaying the same draws.
+        if rank() == 0:
+            from .recovery import reconcile_logs
+            reconcile_logs(directory, trainer.attempted_batches)
     else:
         if not all_true(not directory.exists(), device):
             raise FileExistsError(f"Run exists; use --resume: {directory}")
@@ -74,9 +80,39 @@ def run_cached_training(resolved, device="cpu", resume=None):
     def checkpoint(path):
         save_checkpoint(path, trainer, c, identities, mask_generator=provider.mask_generator,
             data_state={"provider": provider.state_dict(), "best_score": best_score, "best_step": best_step})
+    if not resume:
+        # Even a failure before update1 has a valid initialization/sampler checkpoint.
+        checkpoint(directory / "checkpoints/last.pt")
+    def registered_validation():
+        validation_started = time.monotonic()
+        rng = capture_rng(provider.mask_generator)
+        payload = [None]
+        if rank() == 0:
+            try:
+                if retrieval_selection:
+                    from ..evaluation.dictionary import evaluate_dictionary
+                    evaluated = evaluate_dictionary(trainer.core, train, val, c,
+                        directory / "retrieval" / f"val_step{trainer.successful_step:09d}", device=device)
+                    payload[0] = {"score": evaluated["metrics"]["DCG"], "metrics": evaluated["metrics"],
+                        "trials": [], "step": trainer.successful_step, "selection_metric": "retrieval_dcg", "classifier_trained": False}
+                else:
+                    probe = fit_probe(train, val, c, trainer.core, c, device=device)
+                    payload[0] = {"score": probe.metrics["per_class_top1"], "metrics": probe.metrics,
+                                  "trials": list(probe.trials), "step": trainer.successful_step}
+            except Exception as caught:
+                payload[0] = {"error": str(caught)}
+        if world_size() > 1:
+            torch.distributed.broadcast_object_list(payload, src=0)
+        restore_rng(rng, provider.mask_generator)
+        if "error" in payload[0]:
+            raise ValueError(f"Registered validation failed: {payload[0]['error']}")
+        trainer.elapsed_runtime += time.monotonic() - validation_started
+        return payload[0]
     status, validations, session_start = "completed", [], time.monotonic()
     try:
         while trainer.successful_step < c["training"]["max_successful_steps"]:
+            from .interruptions import raise_if_requested
+            raise_if_requested()
             if trainer.attempted_updates >= c["training"]["max_successful_steps"] * 10:
                 status = "failed_repeated_empty_or_nonfinite_updates"
                 break
@@ -136,26 +172,10 @@ def run_cached_training(resolved, device="cpu", resume=None):
                     raise ValueError(f"Training diagnostics failed: {error}")
                 trainer.elapsed_runtime += time.monotonic() - started_diagnostic
             if validate:
-                validation_started = time.monotonic()
-                rng = capture_rng(provider.mask_generator)
-                payload = [None]
-                if rank() == 0:
-                    try:
-                        probe = fit_probe(train, val, c, trainer.core, c, device=device)
-                        payload[0] = {"score": probe.metrics["per_class_top1"], "metrics": probe.metrics,
-                                      "trials": list(probe.trials), "step": trainer.successful_step}
-                    except Exception as caught:
-                        payload[0] = {"error": str(caught)}
-                if world_size() > 1:
-                    torch.distributed.broadcast_object_list(payload, src=0)
-                restore_rng(rng, provider.mask_generator)
-                if "error" in payload[0]:
-                    raise ValueError(f"Registered validation probe failed: {payload[0]['error']}")
-                validation = payload[0]
+                validation = registered_validation()
                 validations.append(validation)
                 if best_score is None or validation["score"] > best_score:
                     best_score, best_step, improved = validation["score"], trainer.successful_step, True
-                trainer.elapsed_runtime += time.monotonic() - validation_started
                 if rank() == 0:
                     write_json(directory / f"validation_step{trainer.successful_step}.json", validation)
             if improved:
@@ -163,9 +183,20 @@ def run_cached_training(resolved, device="cpu", resume=None):
             if result.succeeded and trainer.successful_step % c["training"]["checkpoint_interval"] == 0:
                 step_path = directory / f"checkpoints/step{trainer.successful_step:09d}.pt"
                 checkpoint(step_path)
+                checkpoint(directory / "checkpoints/last.pt")
                 if rank() == 0:
                     for old in sorted(step_path.parent.glob("step*.pt"))[:-c["training"]["keep_last"]]:
                         old.unlink()
+        if resume and trainer.successful_step == c["training"]["max_successful_steps"] and not validations:
+            # A reboot/stop during final retrieval must retry evaluation, not skip it
+            # merely because all optimizer steps are already durable.
+            validation = registered_validation()
+            validations.append(validation)
+            if best_score is None or validation["score"] > best_score:
+                best_score, best_step = validation["score"], trainer.successful_step
+                checkpoint(directory / "checkpoints/best.pt")
+            if rank() == 0:
+                write_json(directory / f"validation_step{trainer.successful_step}.json", validation)
     except Exception as caught:
         if rank() == 0:
             write_json(directory / "failure.json", {"status": "failed", "reason": str(caught),
@@ -177,7 +208,9 @@ def run_cached_training(resolved, device="cpu", resume=None):
             loader.close()
     report = {"status": status, "run_dir": str(directory), "successful_steps": trainer.successful_step,
         "attempted_updates": trainer.attempted_updates, "attempted_batches": trainer.attempted_batches,
-        "best_validation_per_class_top1": best_score, "best_step": best_step, "validations": validations,
+        "best_validation_per_class_top1": best_score if not retrieval_selection else None,
+        "best_validation_dcg": best_score if retrieval_selection else None,
+        "selection_metric": c["experiment"]["primary_validation_metric"], "best_step": best_step, "validations": validations,
         "precision": trainer.precision, "precision_reason": trainer.precision_reason, "config_hash": resolved.hash,
         "session_seconds": time.monotonic() - session_start, "total_training_seconds": trainer.elapsed_runtime,
         "test_used_for_selection": False, "loader_kind": "threaded_cache_readers_main_owned_sampling_rng",

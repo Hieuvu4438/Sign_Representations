@@ -36,16 +36,23 @@ def main():
     ap.add_argument("--subset", default="", help="optional file of sample_ids")
     ap.add_argument("--kind", default="vjepa", choices=["vjepa", "hiera", "vjepa_fc"], help="EX16: hiera = SignRep-layout model (features = fc(mean tokens)); vjepa_fc = jv3d encoder + fc")
     ap.add_argument("--weights", default="model", help="EX16 checkpoint key: model / ema_model (hiera), encoder / ema_encoder (vjepa_fc)")
+    ap.add_argument("--latent-name", default="", help="Hiera: also save mean backbone tokens before fc under this feature-set name")
+    ap.add_argument("--workers", type=int, default=2, help="Video decoding workers")
     a = ap.parse_args()
     assert a.split != "test"
+    if a.latent_name and (a.kind != "hiera" or a.latent_name == a.name):
+        ap.error("--latent-name requires --kind hiera and a different output name")
     out = RT / "feats" / a.name; out.mkdir(parents=True, exist_ok=False)
+    latent_out = RT / "feats" / a.latent_name if a.latent_name else None
+    if latent_out is not None:
+        latent_out.mkdir(parents=True, exist_ok=False)
     dev = "cuda"
     if a.kind == "hiera":
         sys.path.insert(0, str(ROOT.parents[0] / "jepa_baseline" / "src"))
         from signrep_baseline.model import SignRep
         m = SignRep(); m.load_state_dict(torch.load(a.ckpt, map_location="cpu", weights_only=False)[a.weights], strict=True)
         m = m.to(dev).eval()
-        enc = lambda x: m.encode(x, mask_ratio=0.0)["features"][:, None]
+        enc = lambda x: m.encode(x, mask_ratio=0.0)
     elif a.kind == "vjepa_fc":
         ck = torch.load(a.ckpt, map_location="cpu", weights_only=False)
         e = build_encoder(pretrained=False, checkpointing=False); e.load_state_dict(ck[a.weights]); e = e.to(dev).eval()
@@ -64,8 +71,9 @@ def main():
     if a.subset:
         keep = {l.strip() for l in open(a.subset) if l.strip()}
         rows = [r for r in rows if r["sample_id"] in keep]
-    dl = torch.utils.data.DataLoader(VideoDataset(rows), batch_size=1, num_workers=2, collate_fn=lambda b: b[0])
+    dl = torch.utils.data.DataLoader(VideoDataset(rows), batch_size=1, num_workers=a.workers, collate_fn=lambda b: b[0])
     feats, offs, starts, nfr = [], [0], [], []
+    latent_feats = []
     t0 = time.time()
     buf, bidx = [], []
 
@@ -74,9 +82,14 @@ def main():
             return
         x = normalize_video(torch.stack(buf).to(dev))
         with torch.no_grad(), torch.autocast("cuda", dtype=torch.bfloat16):
-            z = enc(x).float().mean(1)
+            encoded = enc(x)
+            z = encoded["features"].float() if a.kind == "hiera" else encoded.float().mean(1)
+            if latent_out is not None:
+                latent = encoded["latent"].float()
         for k, j in enumerate(bidx):
             feats[j] = z[k].cpu().numpy().astype(np.float16)
+            if latent_out is not None:
+                latent_feats[j] = latent[k].cpu().numpy().astype(np.float16)
         buf.clear(); bidx.clear()
 
     for i, arr, fps in dl:
@@ -86,6 +99,8 @@ def main():
         st = window_starts(max(n, LEN))
         for s in st:
             feats.append(None); buf.append(arr[s:s + LEN]); bidx.append(len(feats) - 1)
+            if latent_out is not None:
+                latent_feats.append(None)
             if len(buf) == 32:
                 flush()
         starts += st; offs.append(len(starts)); nfr.append(n)
@@ -98,6 +113,13 @@ def main():
         for r in rows:
             f.write(json.dumps(r) + "\n")
     json.dump({"ckpt": a.ckpt, "kind": a.kind, "weights": a.weights, "split": a.split, "stride": STRIDE, "len": LEN, "seconds": time.time() - t0}, open(out / "meta.json", "w"))
+    if latent_out is not None:
+        np.save(latent_out / "windows.npy", np.stack(latent_feats))
+        for filename in ("offsets.npy", "starts.npy", "nframes.npy", "clips.jsonl"):
+            (latent_out / filename).write_bytes((out / filename).read_bytes())
+        json.dump({"ckpt": a.ckpt, "kind": a.kind, "weights": a.weights, "split": a.split,
+                   "stride": STRIDE, "len": LEN, "feature_source": "latent_before_fc",
+                   "seconds": time.time() - t0}, open(latent_out / "meta.json", "w"))
     print("DONE", len(starts), "windows", f"{time.time() - t0:.0f}s")
 
 

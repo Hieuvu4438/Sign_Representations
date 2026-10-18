@@ -1,0 +1,6 @@
+# R5: ASM-v2 without global consistency.
+inherits: [full.yaml]
+experiment: aslc_asm_v2_no_global
+run_dir: runs/aslc_full_no_global_s0
+loss:
+  lambda_global: 0.0

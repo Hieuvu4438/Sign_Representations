@@ -1,0 +1,31 @@
+{
+  "status": "service_started_and_verified",
+  "observed_unix": 1791799789.4759624,
+  "service": "signpath-e04-aslc3000.service",
+  "enabled": true,
+  "linger_enabled": true,
+  "main_pid": 3627693,
+  "service_processes_observed": [
+    3627693
+  ],
+  "stage": "cache_train",
+  "cache_train_progress": {
+    "completed": 20,
+    "elapsed_seconds": 132.22258353800862,
+    "free_gib": 42.40452194213867,
+    "new_samples": 20,
+    "split": "train",
+    "status": "running",
+    "total": 3000
+  },
+  "config_hash": "2893108ee374cf818493af02af038b5a688038b1905fbf153bf1633572df2682",
+  "runtime_implementation_hash": "4357b1e14f62d8d7dae316377a2b90d610a1b893b07af532729c2a757631b1e7",
+  "source_snapshot_sha256": "2d90c7f29bf4f323f6dea4dd2e6175ff45697ffdff2391cae61d8730f330c013",
+  "recovery_preflight": "aslc3000_service_preflight.json",
+  "monitoring_after_startup": "agent stopped polling as requested; systemd lifecycle remains active",
+  "estimated_total_hours": [
+    16,
+    25
+  ],
+  "result_file": "artifacts/aslc3000/job_seed17/result.json"
+}
