@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETED",
+  "removed_paths": [
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime",
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/evidence/classifier_smoke.predictions.npz",
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/evidence/real_cpu_smoke/checkpoint.pt",
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/evidence/real_cpu_smoke/stats.pt",
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/evidence/production_recovery_smoke/checkpoint.pt",
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/evidence/production_recovery_smoke/stats.pt",
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/evidence/full_model_cpu/checkpoint.pt",
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/evidence/full_model_cpu/stats.pt",
+    "/home/haipd/.config/systemd/user/phonopath-a1-full160.service",
+    "/home/haipd/.config/systemd/user/phonopath-a1-e040-retrieval.service",
+    "/home/haipd/.config/systemd/user/phonopath-a1-e040-test-retrieval.service",
+    "/home/haipd/.config/systemd/user/phonopath-a1-e160-test-retrieval.service"
+  ],
+  "physical_method_bytes_before": 6388875264,
+  "physical_method_bytes_after": 745472,
+  "archive_bytes": 109019136,
+  "reclaimed_in_method_bytes": 6388129792,
+  "net_reclaimed_bytes_after_archive": 6279110656,
+  "free_disk_bytes_now": 168476925952,
+  "shared_pose_preserved": true,
+  "other_methods_preserved": true,
+  "code_configs_tests_preserved": true,
+  "model_weights_deleted": true,
+  "resume_or_inference_from_old_weights_possible": false,
+  "training_and_results_archive": "/home/haipd/Sign_Representations/artifacts/phonopath_jepa_results_20261019",
+  "completed_unix": 1792405032.098811,
+  "comparison_report": "/home/haipd/Sign_Representations/docs/experiments/method_comparison_20261019/REPORT_VI.md",
+  "post_cleanup_verified": true
+}

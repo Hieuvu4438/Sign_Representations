@@ -1,0 +1,6 @@
+{
+  "phonopath-a1-full160.service": "MainPID=0\nResult=success\nNRestarts=260\nActiveState=inactive\nSubState=dead\n",
+  "phonopath-a1-e040-retrieval.service": "MainPID=0\nResult=success\nNRestarts=259\nActiveState=inactive\nSubState=dead\n",
+  "phonopath-a1-e040-test-retrieval.service": "MainPID=0\nResult=success\nNRestarts=259\nActiveState=inactive\nSubState=dead\n",
+  "phonopath-a1-e160-test-retrieval.service": "MainPID=0\nResult=success\nNRestarts=0\nActiveState=inactive\nSubState=dead\n"
+}

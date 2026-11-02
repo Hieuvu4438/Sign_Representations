@@ -1,0 +1,98 @@
+{
+  "arm": "A1",
+  "epoch": 40,
+  "checkpoint_step": 50160,
+  "weights": "teacher",
+  "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+  "dataset": "ASL Citizen",
+  "gallery_split": "train",
+  "query_split": "val",
+  "gallery_n": 40154,
+  "query_n": 10304,
+  "n_glosses": 2731,
+  "primary_readout": "grp+P",
+  "test_used": false,
+  "readouts": {
+    "grp": {
+      "metrics": {
+        "R@1": 15.450310559006212,
+        "R@5": 35.316381987577635,
+        "R@10": 46.24417701863354,
+        "MRR": 0.25449551984116764,
+        "DCG": 0.3881412133742861,
+        "macro_R@1": 15.692402922355317,
+        "n": 10304
+      },
+      "readout": "grp",
+      "pca": 0,
+      "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "epoch": 40,
+      "split": "val",
+      "gallery_n": 40154,
+      "query_n": 10304,
+      "ties": "pessimistic class-max",
+      "created_unix": 1792306818.1954503
+    },
+    "grp+P": {
+      "metrics": {
+        "R@1": 12.237965838509316,
+        "R@5": 30.939440993788818,
+        "R@10": 41.80900621118012,
+        "MRR": 0.2185260394805245,
+        "DCG": 0.3561034678121932,
+        "macro_R@1": 12.196387159770534,
+        "n": 10304
+      },
+      "readout": "grp+P",
+      "pca": 768,
+      "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "epoch": 40,
+      "split": "val",
+      "gallery_n": 40154,
+      "query_n": 10304,
+      "ties": "pessimistic class-max",
+      "created_unix": 1792306823.7991028
+    },
+    "mw": {
+      "metrics": {
+        "R@1": 16.032608695652172,
+        "R@5": 37.267080745341616,
+        "R@10": 48.951863354037265,
+        "MRR": 0.26591723599248396,
+        "DCG": 0.4001936789445384,
+        "macro_R@1": 16.145490052483826,
+        "n": 10304
+      },
+      "readout": "mw",
+      "pca": 768,
+      "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "epoch": 40,
+      "split": "val",
+      "gallery_n": 40154,
+      "query_n": 10304,
+      "ties": "pessimistic class-max",
+      "created_unix": 1792306828.7903304
+    },
+    "ord2": {
+      "metrics": {
+        "R@1": 13.887810559006212,
+        "R@5": 33.22010869565217,
+        "R@10": 43.64324534161491,
+        "MRR": 0.23696945255442972,
+        "DCG": 0.37251485705240317,
+        "macro_R@1": 13.899670450384471,
+        "n": 10304
+      },
+      "readout": "ord2",
+      "pca": 768,
+      "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "epoch": 40,
+      "split": "val",
+      "gallery_n": 40154,
+      "query_n": 10304,
+      "ties": "pessimistic class-max",
+      "created_unix": 1792306847.089252
+    }
+  },
+  "status": "complete"
+}

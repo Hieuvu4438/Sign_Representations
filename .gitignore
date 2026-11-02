@@ -78,3 +78,6 @@ artifacts/legacy/reports/ncslgr_annotation_audit/utterances.jsonl
 
 # Uni-Sign is vendored as source; local inference outputs stay on this machine.
 /third_party/Uni-Sign/out/
+
+# 96MB results archive; integrity recorded in its SHA256SUMS.json (GitHub file-size limit is 100MB)
+artifacts/phonopath_jepa_results_20261019/records.tar.gz

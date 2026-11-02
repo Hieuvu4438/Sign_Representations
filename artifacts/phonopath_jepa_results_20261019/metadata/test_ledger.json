@@ -1,0 +1,210 @@
+[
+  {
+    "key": [
+      "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+      "grp"
+    ],
+    "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test",
+    "dataset": "ASL Citizen",
+    "query_split": "test",
+    "epoch": 40,
+    "authorization": "User explicitly requested test in addition to validation at epoch40",
+    "no_test_selection": true,
+    "scheduled_unix": 1792250941.1224616,
+    "status": "complete",
+    "updated_unix": 1792313482.4002597,
+    "result": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test/results/grp.json",
+    "metrics": {
+      "R@1": 11.305060562824444,
+      "R@5": 27.613005069670017,
+      "R@10": 37.3030569806624,
+      "MRR": 0.19923663577050874,
+      "DCG": 0.33537600904765613,
+      "macro_R@1": 11.43180062160397,
+      "n": 32941
+    }
+  },
+  {
+    "key": [
+      "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+      "grp+P"
+    ],
+    "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test",
+    "dataset": "ASL Citizen",
+    "query_split": "test",
+    "epoch": 40,
+    "authorization": "User explicitly requested test in addition to validation at epoch40",
+    "no_test_selection": true,
+    "scheduled_unix": 1792250941.1224663,
+    "status": "complete",
+    "updated_unix": 1792313486.214557,
+    "result": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test/results/grpP.json",
+    "metrics": {
+      "R@1": 8.566831608026472,
+      "R@5": 22.50994201754652,
+      "R@10": 31.43802556085122,
+      "MRR": 0.16167790634560716,
+      "DCG": 0.3001516155524423,
+      "macro_R@1": 8.643022967607799,
+      "n": 32941
+    }
+  },
+  {
+    "key": [
+      "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+      "mw"
+    ],
+    "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test",
+    "dataset": "ASL Citizen",
+    "query_split": "test",
+    "epoch": 40,
+    "authorization": "User explicitly requested test in addition to validation at epoch40",
+    "no_test_selection": true,
+    "scheduled_unix": 1792250941.1224682,
+    "status": "complete",
+    "updated_unix": 1792313490.2062569,
+    "result": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test/results/mw.json",
+    "metrics": {
+      "R@1": 11.059166388391366,
+      "R@5": 28.317294556935124,
+      "R@10": 38.708600224644066,
+      "MRR": 0.20101914953035357,
+      "DCG": 0.3396000751275413,
+      "macro_R@1": 11.133734795370266,
+      "n": 32941
+    }
+  },
+  {
+    "key": [
+      "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+      "ord2"
+    ],
+    "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test",
+    "dataset": "ASL Citizen",
+    "query_split": "test",
+    "epoch": 40,
+    "authorization": "User explicitly requested test in addition to validation at epoch40",
+    "no_test_selection": true,
+    "scheduled_unix": 1792250941.1224697,
+    "status": "complete",
+    "updated_unix": 1792313497.5167491,
+    "result": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040_test/results/ord2.json",
+    "metrics": {
+      "R@1": 9.365228742296834,
+      "R@5": 23.803163231231597,
+      "R@10": 33.07732005707174,
+      "MRR": 0.1720608160771629,
+      "DCG": 0.31008435939106965,
+      "macro_R@1": 9.45049420990145,
+      "n": 32941
+    }
+  },
+  {
+    "key": [
+      "c9474e0fd9bd77deb440694da29c4bb9795b0c99fcfdedb852131805db913723",
+      "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+      "grp"
+    ],
+    "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e160_test",
+    "dataset": "ASL Citizen",
+    "query_split": "test",
+    "epoch": 160,
+    "authorization": "User explicitly requested official test after A1 full160 training completed",
+    "no_test_selection": true,
+    "scheduled_unix": 1792394734.9214828,
+    "status": "complete",
+    "updated_unix": 1792404110.621904,
+    "result": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e160_test/results/grp.json",
+    "metrics": {
+      "R@1": 11.511490240126285,
+      "R@5": 28.004614310433805,
+      "R@10": 37.09966303390911,
+      "MRR": 0.20052156122209483,
+      "DCG": 0.33476319672965615,
+      "macro_R@1": 11.63259562526153,
+      "n": 32941
+    }
+  },
+  {
+    "key": [
+      "c9474e0fd9bd77deb440694da29c4bb9795b0c99fcfdedb852131805db913723",
+      "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+      "grp+P"
+    ],
+    "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e160_test",
+    "dataset": "ASL Citizen",
+    "query_split": "test",
+    "epoch": 160,
+    "authorization": "User explicitly requested official test after A1 full160 training completed",
+    "no_test_selection": true,
+    "scheduled_unix": 1792394734.9214876,
+    "status": "complete",
+    "updated_unix": 1792404120.436936,
+    "result": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e160_test/results/grpP.json",
+    "metrics": {
+      "R@1": 6.9275371118059565,
+      "R@5": 18.305455207795756,
+      "R@10": 25.63978021310828,
+      "MRR": 0.13244245850386058,
+      "DCG": 0.26705616719434283,
+      "macro_R@1": 6.99677145309536,
+      "n": 32941
+    }
+  },
+  {
+    "key": [
+      "c9474e0fd9bd77deb440694da29c4bb9795b0c99fcfdedb852131805db913723",
+      "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+      "mw"
+    ],
+    "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e160_test",
+    "dataset": "ASL Citizen",
+    "query_split": "test",
+    "epoch": 160,
+    "authorization": "User explicitly requested official test after A1 full160 training completed",
+    "no_test_selection": true,
+    "scheduled_unix": 1792394734.9214897,
+    "status": "complete",
+    "updated_unix": 1792404129.617193,
+    "result": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e160_test/results/mw.json",
+    "metrics": {
+      "R@1": 9.87219574390577,
+      "R@5": 25.078170061625332,
+      "R@10": 34.29768373759145,
+      "MRR": 0.1789316888691137,
+      "DCG": 0.31463061435888257,
+      "macro_R@1": 9.95316186578814,
+      "n": 32941
+    }
+  },
+  {
+    "key": [
+      "c9474e0fd9bd77deb440694da29c4bb9795b0c99fcfdedb852131805db913723",
+      "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+      "ord2"
+    ],
+    "job": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e160_test",
+    "dataset": "ASL Citizen",
+    "query_split": "test",
+    "epoch": 160,
+    "authorization": "User explicitly requested official test after A1 full160 training completed",
+    "no_test_selection": true,
+    "scheduled_unix": 1792394734.921491,
+    "status": "complete",
+    "updated_unix": 1792404150.5678692,
+    "result": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e160_test/results/ord2.json",
+    "metrics": {
+      "R@1": 7.340396466409642,
+      "R@5": 19.2586746000425,
+      "R@10": 26.769071977171304,
+      "MRR": 0.13859270244580277,
+      "DCG": 0.2728598843442414,
+      "macro_R@1": 7.403898417882737,
+      "n": 32941
+    }
+  }
+]

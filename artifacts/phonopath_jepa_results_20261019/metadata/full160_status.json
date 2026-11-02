@@ -1,0 +1,53 @@
+{
+  "stage": "complete",
+  "updated_unix": 1792393473.3930285,
+  "supervisor": {
+    "pid": 3280293,
+    "uid": 1007,
+    "start_ticks": 66584871
+  },
+  "attempts": 5,
+  "gpu": {
+    "ready": true,
+    "free_mib": 38223,
+    "required_mib": 14000,
+    "other_owned_gpu_pids": [],
+    "other_user_gpu_pids": [
+      3357964
+    ]
+  },
+  "child": null,
+  "command": [
+    "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+    "-m",
+    "pp.train",
+    "--config",
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/config.json",
+    "--out",
+    "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train",
+    "--checkpoint-steps",
+    "200",
+    "--checkpoint-seconds",
+    "60",
+    "--resume"
+  ],
+  "started_unix": 1792293058.213813,
+  "last_exit_code": 0,
+  "train_progress": {
+    "status": "complete",
+    "pid": 3367147,
+    "updated_unix": 1792393472.0848138,
+    "step": 200640,
+    "total_steps": 200640,
+    "epoch": 160.0,
+    "percent": 100.0,
+    "checkpoint_step": 200640,
+    "steps_per_second": 1.8231201076127517,
+    "eta_seconds": 0.0,
+    "elapsed_seconds": 204505.94338297087,
+    "resumed_from": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/latest.pt",
+    "recovery_errors": []
+  },
+  "consecutive_failures": 0,
+  "free_disk_gib": 4.877216339111328
+}

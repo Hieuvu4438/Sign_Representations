@@ -1,0 +1,25 @@
+[Unit]
+Description=PhonoPath-JEPA epoch40 official VAL-DICT retrieval
+After=default.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+WorkingDirectory=/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040
+Environment=PYTHONPATH=/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040/code
+Environment=PYTHONUNBUFFERED=1
+Environment=OMP_NUM_THREADS=4
+Environment=OPENBLAS_NUM_THREADS=4
+Environment=MKL_NUM_THREADS=4
+ExecStart=/home/haipd/Sign_Representations/.venv-signrep/bin/python /home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040/ops/retrieval_job.py supervise --job /home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040
+Restart=on-failure
+RestartSec=30
+KillMode=mixed
+TimeoutStopSec=240
+Nice=10
+CPUQuota=600%
+MemoryHigh=12G
+MemoryMax=20G
+StandardOutput=append:/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040/service.log
+StandardError=append:/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e040/service.log
+[Install]
+WantedBy=default.target

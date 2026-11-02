@@ -1,0 +1,73 @@
+{
+  "checkpoint_sha256": "c9474e0fd9bd77deb440694da29c4bb9795b0c99fcfdedb852131805db913723",
+  "checkpoint_source": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/final.pt",
+  "checkpoint_step": 200640,
+  "epoch": 160,
+  "arm": "A1",
+  "weights": "teacher",
+  "sources": {
+    "train": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+    "test": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_test.jsonl"
+  },
+  "source_sha256": {
+    "train": "069b229e7872adf60d7c969bb7597ad78c3ef3953a442c8d5a20387fe757e75a",
+    "test": "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee"
+  },
+  "counts": {
+    "train": 40154,
+    "test": 32941
+  },
+  "code_sha256": {
+    "code/pp/__init__.py": "9a58a5464032404e8d9c970ae983066e7ead39fc5aa933c422a82f8022b67c03",
+    "code/pp/base/__init__.py": "37af0eb31626239d1a97be20e3ba1c7e8da345dc8b47a34802309e1899778275",
+    "code/pp/base/features.py": "2327591730780d560a021c6eafe944afe268b299652891b8db9ce5b77dbc5d45",
+    "code/pp/base/joints.py": "cb57872a5113d76407588d257e4da240213fc5ededabd7bcf3bc88e7b863c338",
+    "code/pp/base/losses.py": "e62880666d35ce17bca6f8e6f42172476a2e60eb0ce98b9d19632dcddfd492e0",
+    "code/pp/base/masks.py": "12a19ea23c66be0f8185466a0f3bd4d98012046e15462ed51aa4cd252bdd63d4",
+    "code/pp/base/model.py": "c72ed9400bfba62af1a72eff49b6b3768a6a4226258ab7117871f481742dc99a",
+    "code/pp/base/window.py": "21c43b885f5efce9c66c822a2abf80cc9820d89dacae8149fb4d918581cdba83",
+    "code/pp/classify.py": "5e47dd2e64b3ef8cc67b37a28c4fb5da9bf8d256613feb16eeff5a918d979770",
+    "code/pp/closure.py": "0e28a19c5f9d1fa9a2a02e08dd44ac649e18a858c51c7d7bc392b23db8ee5782",
+    "code/pp/config.py": "bec37d56df516cc40b36f0b3c024837a27ba35009290da90687775b37703eff5",
+    "code/pp/data.py": "fdab19f53ef74cb44f09bc23ecc35d72b493fc026d827b19be7ebf7c520e0b0e",
+    "code/pp/downstream.py": "b89db14f6a15422905974ce059d9064c003515e9ee6cc01b2c2a2f0857d994d1",
+    "code/pp/evaluate.py": "93b1603597a11d3466606e54379e37611962bca8621a69e803831158876da333",
+    "code/pp/extract.py": "5434132a3bba359cb7d77b2fc8ad1bda7b2057cc180974730254118df8581cc9",
+    "code/pp/features.py": "978f08840d7cd8223f4391f8366b3f5f8778bf47283b33874689de16c3bb9fd2",
+    "code/pp/fit_stats.py": "e56f2c35bf6fb1f9424d9388e9084b06f77ca87c4a21e4880a3a0585ca5b77a6",
+    "code/pp/model.py": "adb5975c26171018bc3973d0d47f728f5c1c940917903e2825f3a36c4689a021",
+    "code/pp/paths.py": "b7b1ab1e7d13aaf4815ddd5504a99fdd7f7996ff6117de6efc0ccadc72f87116",
+    "code/pp/prepare.py": "6506a7da1bbb62e45f4397dadced6bb9d96ffc10e21d7cf6399e67f2a23a570c",
+    "code/pp/probe.py": "82d6fdad2188e0674053fcede02b0edd8f67e7ff4e5bd2b3dd8e7e73b06ae313",
+    "code/pp/ptokens.py": "df448bb2bc4892c61b4d7c1cfbedf54c3166c222bf1465fc81a9ef99c97fb31b",
+    "code/pp/recovery.py": "b20a939a37fa5223192b4962e857e29815a8dfd7004ef674daf4e530caf9048e",
+    "code/pp/signature.py": "b885dd3f13f91171f84a72147a05c8bb10753ba83d33eeeaeccbb707bd9b5094",
+    "code/pp/train.py": "a3812578b227586a7317e5a7112b7f2e6d3f420707a092411a031020694378fa",
+    "ops/official_test_job.py": "5f1e9c837d990d0d3fa04561525aa16b2b2e6d88cdd34824f21ea26bfe2e0f71",
+    "ops/retrieval_base.py": "bd472f66c6978d5a826ab3ab0d4b72f3ccc02ddde63fbb862e7141c116c4e8d3"
+  },
+  "python": "/home/haipd/Sign_Representations/.venv-signrep/bin/python",
+  "stride": 2,
+  "fps": 25,
+  "window_batch": 32,
+  "shard_clips": 128,
+  "dtype": "float16",
+  "readouts": [
+    "grp",
+    "grp+P",
+    "mw",
+    "ord2"
+  ],
+  "primary_readout": "grp+P",
+  "direct_comparison_readout": "grp",
+  "test_used": true,
+  "no_test_selection": true,
+  "phase": 4,
+  "pca_fit_split": "train",
+  "min_disk_gib": 8,
+  "required_gpu_free_mib": 2048,
+  "gpu_memory_fraction": 0.045,
+  "stale_seconds": 1200,
+  "authorization": "Explicit user request: chạy official test đi, after full160 completion",
+  "created_unix": 1792394734.9095492
+}

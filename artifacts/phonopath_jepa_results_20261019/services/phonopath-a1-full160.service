@@ -1,0 +1,25 @@
+[Unit]
+Description=PhonoPath-JEPA A1 full160 persistent train and recovery
+After=default.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+WorkingDirectory=/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160
+Environment=PYTHONPATH=/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/code
+Environment=PYTHONUNBUFFERED=1
+Environment=OMP_NUM_THREADS=4
+Environment=OPENBLAS_NUM_THREADS=4
+Environment=MKL_NUM_THREADS=4
+ExecStart=/home/haipd/Sign_Representations/.venv-signrep/bin/python /home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/ops/full160_job.py supervise --job /home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160
+Restart=on-failure
+RestartSec=30
+KillMode=mixed
+TimeoutStopSec=240
+Nice=5
+CPUQuota=800%
+MemoryHigh=20G
+MemoryMax=32G
+StandardOutput=append:/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/service.log
+StandardError=append:/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/service.log
+[Install]
+WantedBy=default.target

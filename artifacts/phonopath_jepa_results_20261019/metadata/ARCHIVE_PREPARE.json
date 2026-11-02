@@ -1,0 +1,19 @@
+{
+  "status": "ARCHIVED_PENDING_VERIFICATION",
+  "source_root": "/home/haipd/Sign_Representations/method/phonopath_jepa",
+  "physical_bytes_before": 6388875264,
+  "unique_training_steps": 200640,
+  "optimizer_steps": 200640,
+  "epochs": 160,
+  "model_weights_retained": false,
+  "feature_matrices_retained": false,
+  "pca_parameters_retained": false,
+  "raw_training_log_retained": true,
+  "per_query_ranks_retained": true,
+  "results": {
+    "epoch040_val": "results/epoch040_val",
+    "epoch040_test": "results/epoch040_test",
+    "epoch160_test": "results/epoch160_test"
+  },
+  "created_unix": 1792404868.064406
+}

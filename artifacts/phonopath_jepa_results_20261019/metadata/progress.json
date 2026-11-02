@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "pid": 3367147,
+  "updated_unix": 1792393472.0848138,
+  "step": 200640,
+  "total_steps": 200640,
+  "epoch": 160.0,
+  "percent": 100.0,
+  "checkpoint_step": 200640,
+  "steps_per_second": 1.8231201076127517,
+  "eta_seconds": 0.0,
+  "elapsed_seconds": 204505.94338297087,
+  "resumed_from": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/latest.pt",
+  "recovery_errors": []
+}

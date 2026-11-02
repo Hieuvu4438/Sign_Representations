@@ -1,0 +1,20 @@
+[
+  {
+    "event": "resume",
+    "step": 74,
+    "checkpoint": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/latest.pt",
+    "recovery_errors": []
+  },
+  {
+    "event": "resume",
+    "step": 125,
+    "checkpoint": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/latest.pt",
+    "recovery_errors": []
+  },
+  {
+    "event": "resume",
+    "step": 58397,
+    "checkpoint": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160/train/latest.pt",
+    "recovery_errors": []
+  }
+]

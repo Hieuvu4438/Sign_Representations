@@ -1,0 +1,8 @@
+{
+  "status": "VERIFIED",
+  "text_record_members": 357,
+  "readout_rank_sets_verified": 12,
+  "complete_training_trace_in_archive": true,
+  "verified_unix": 1792405088.2251613,
+  "archive_sha256": "ca3c79b9ab623e7e42d3eeeae20c3294e86cc311c27f7dbaa2a0556de579789f"
+}
