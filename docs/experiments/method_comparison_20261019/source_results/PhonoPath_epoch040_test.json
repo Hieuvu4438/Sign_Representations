@@ -1,0 +1,107 @@
+{
+  "arm": "A1",
+  "epoch": 40,
+  "checkpoint_step": 50160,
+  "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+  "weights": "teacher",
+  "dataset": "ASL Citizen",
+  "gallery_split": "train",
+  "query_split": "test",
+  "gallery_n": 40154,
+  "query_n": 32941,
+  "n_glosses": 2731,
+  "primary_readout": "grp+P",
+  "test_used": true,
+  "no_test_selection": true,
+  "readouts": {
+    "grp": {
+      "metrics": {
+        "R@1": 11.305060562824444,
+        "R@5": 27.613005069670017,
+        "R@10": 37.3030569806624,
+        "MRR": 0.19923663577050874,
+        "DCG": 0.33537600904765613,
+        "macro_R@1": 11.43180062160397,
+        "n": 32941
+      },
+      "readout": "grp",
+      "pca": 0,
+      "pca_fit_split": "train",
+      "frozen_pca_sha256": null,
+      "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "epoch": 40,
+      "split": "test",
+      "gallery_n": 40154,
+      "query_n": 32941,
+      "no_test_selection": true,
+      "created_unix": 1792313482.3893242
+    },
+    "grp+P": {
+      "metrics": {
+        "R@1": 8.566831608026472,
+        "R@5": 22.50994201754652,
+        "R@10": 31.43802556085122,
+        "MRR": 0.16167790634560716,
+        "DCG": 0.3001516155524423,
+        "macro_R@1": 8.643022967607799,
+        "n": 32941
+      },
+      "readout": "grp+P",
+      "pca": 768,
+      "pca_fit_split": "train",
+      "frozen_pca_sha256": "a9baad53d4d07aeb47624bd28e83752fd5016c3232e10ee038dc0b6e91ff9e61",
+      "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "epoch": 40,
+      "split": "test",
+      "gallery_n": 40154,
+      "query_n": 32941,
+      "no_test_selection": true,
+      "created_unix": 1792313486.2017758
+    },
+    "mw": {
+      "metrics": {
+        "R@1": 11.059166388391366,
+        "R@5": 28.317294556935124,
+        "R@10": 38.708600224644066,
+        "MRR": 0.20101914953035357,
+        "DCG": 0.3396000751275413,
+        "macro_R@1": 11.133734795370266,
+        "n": 32941
+      },
+      "readout": "mw",
+      "pca": 768,
+      "pca_fit_split": "train",
+      "frozen_pca_sha256": "41699510fc6fd97c9971dd2d016c62308bb5d02bbff5f76579cda1eb65b20951",
+      "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "epoch": 40,
+      "split": "test",
+      "gallery_n": 40154,
+      "query_n": 32941,
+      "no_test_selection": true,
+      "created_unix": 1792313490.193934
+    },
+    "ord2": {
+      "metrics": {
+        "R@1": 9.365228742296834,
+        "R@5": 23.803163231231597,
+        "R@10": 33.07732005707174,
+        "MRR": 0.1720608160771629,
+        "DCG": 0.31008435939106965,
+        "macro_R@1": 9.45049420990145,
+        "n": 32941
+      },
+      "readout": "ord2",
+      "pca": 768,
+      "pca_fit_split": "train",
+      "frozen_pca_sha256": "34143c8e19bd86605e6f3be9f46cf04e05907de75a01814007b1cf123f9830f9",
+      "checkpoint_sha256": "f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014",
+      "epoch": 40,
+      "split": "test",
+      "gallery_n": 40154,
+      "query_n": 32941,
+      "no_test_selection": true,
+      "created_unix": 1792313497.5054839
+    }
+  },
+  "status": "complete"
+}

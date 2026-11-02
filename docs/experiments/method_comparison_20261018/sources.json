@@ -1,0 +1,10 @@
+{
+  "method/phonojepa/runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/results.json": "f548b6797b77d343b3914c87b571e7897cbe4100899a8a696d3f4751db542161",
+  "method/phonojepa/runtime/plctx160_continuation/final_test/metrics.json": "01c96effa7e1f2932763211ab695507b9e63d198f9f3e79d60ced3d399e612af",
+  "method/phonopath_jepa/runtime/retrieval_e040_test/results.json": "b8fdc46ad09800ff3d7163bd53d840c5a66216bbbfa85dd462926f3dc3ba29d4",
+  "docs/experiments/pose_jepa_results_20261015/official_test_report.json": "eb21c13d22f4b9550639c0aa548fe5c3e20d54ab7bbd5951a611ad2a36ef87ae",
+  "method/asm_jepa/runs/final_s0/pretrain/reports/frozen_test.json": "a62a650deaf75cd6c2092c3a4f81a0a97281ff537fc98048368fd0b0cdfa4f31",
+  "docs/proposal4/sign-ssl-research-agent/research/paper/tables.json": "037eebc50ffe2c2af45cb8aa9f70f046eb26e2ffc3dc095313b15e3927ed23bc",
+  "docs/proposal4/sign-ssl-research-agent/research/CLAIM_LEDGER.md": "268bc8afbca0c352903b66604b90df1cf3870ec4f68aac763d144b639600b9bf",
+  "docs/proposal12/comparison_plctx_20261013/all_methods_white512.csv": "28e475698d17aac6d5ebfc0e5798cb053221a0f9582f7194b3f71f7ce0533764"
+}

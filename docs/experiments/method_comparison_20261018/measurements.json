@@ -1,0 +1,269 @@
+[
+  {
+    "group": "skeleton_raw",
+    "method": "PLctx full160",
+    "readout": "grp",
+    "budget": "160 epochs / 200640 updates",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 16.678303633769467,
+    "R5": 36.89626908715582,
+    "R10": null,
+    "MRR": null,
+    "DCG_x100": 39.61825796186131,
+    "source": "method/phonojepa/runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/results.json",
+    "notes": {}
+  },
+  {
+    "group": "skeleton_raw",
+    "method": "PLctx continuation",
+    "readout": "grp",
+    "budget": "selected global210640; branches searched separately",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 16.632767675541118,
+    "R5": 36.78394705685923,
+    "R10": 46.84435809477551,
+    "MRR": 0.2660343039059418,
+    "DCG_x100": 39.57777517855792,
+    "source": "method/phonojepa/runtime/plctx160_continuation/final_test/metrics.json",
+    "notes": {}
+  },
+  {
+    "group": "skeleton_raw",
+    "method": "PhonoPath-JEPA A1 epoch40",
+    "readout": "grp",
+    "budget": "40 epochs / 50160 updates",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 11.305060562824444,
+    "R5": 27.613005069670017,
+    "R10": 37.3030569806624,
+    "MRR": 0.19923663577050874,
+    "DCG_x100": 33.53760090476561,
+    "source": "method/phonopath_jepa/runtime/retrieval_e040_test/results.json",
+    "notes": {
+      "primary": false,
+      "pca": 0,
+      "encoder_always_uses_S_P_G": true
+    }
+  },
+  {
+    "group": "skeleton_postprocessed",
+    "method": "PhonoPath-JEPA A1 epoch40",
+    "readout": "grp+P",
+    "budget": "40 epochs / 50160 updates",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 8.566831608026472,
+    "R5": 22.50994201754652,
+    "R10": 31.43802556085122,
+    "MRR": 0.16167790634560716,
+    "DCG_x100": 30.01516155524423,
+    "source": "method/phonopath_jepa/runtime/retrieval_e040_test/results.json",
+    "notes": {
+      "primary": true,
+      "pca": 768,
+      "encoder_always_uses_S_P_G": true
+    }
+  },
+  {
+    "group": "skeleton_postprocessed",
+    "method": "PhonoPath-JEPA A1 epoch40",
+    "readout": "mw",
+    "budget": "40 epochs / 50160 updates",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 11.059166388391366,
+    "R5": 28.317294556935124,
+    "R10": 38.708600224644066,
+    "MRR": 0.20101914953035357,
+    "DCG_x100": 33.96000751275413,
+    "source": "method/phonopath_jepa/runtime/retrieval_e040_test/results.json",
+    "notes": {
+      "primary": false,
+      "pca": 768,
+      "encoder_always_uses_S_P_G": true
+    }
+  },
+  {
+    "group": "skeleton_postprocessed",
+    "method": "PhonoPath-JEPA A1 epoch40",
+    "readout": "ord2",
+    "budget": "40 epochs / 50160 updates",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 9.365228742296834,
+    "R5": 23.803163231231597,
+    "R10": 33.07732005707174,
+    "MRR": 0.1720608160771629,
+    "DCG_x100": 31.008435939106967,
+    "source": "method/phonopath_jepa/runtime/retrieval_e040_test/results.json",
+    "notes": {
+      "primary": false,
+      "pca": 768,
+      "encoder_always_uses_S_P_G": true
+    }
+  },
+  {
+    "group": "skeleton_raw",
+    "method": "Pose-JEPA Hybrid",
+    "readout": "raw_test",
+    "budget": "run125482 updates; selected115000",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 5.743602197868917,
+    "R5": 15.278831850884917,
+    "R10": 21.939224674417897,
+    "MRR": 0.11315591395180752,
+    "DCG_x100": 24.85953071038147,
+    "source": "docs/experiments/pose_jepa_results_20261015/official_test_report.json",
+    "notes": {
+      "archived_weights_deleted": true,
+      "valid_gallery": 40126,
+      "valid_query": 32937,
+      "query_denominator": 32941
+    }
+  },
+  {
+    "group": "skeleton_postprocessed",
+    "method": "Pose-JEPA Hybrid",
+    "readout": "white512_test",
+    "budget": "run125482 updates; selected115000",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 9.31665705351993,
+    "R5": 24.046021675116116,
+    "R10": 33.359642998087494,
+    "MRR": 0.1724530573970211,
+    "DCG_x100": 31.030137314521205,
+    "source": "docs/experiments/pose_jepa_results_20261015/official_test_report.json",
+    "notes": {
+      "archived_weights_deleted": true,
+      "valid_gallery": 40126,
+      "valid_query": 32937,
+      "query_denominator": 32941
+    }
+  },
+  {
+    "group": "skeleton_raw",
+    "method": "ASM-JEPA",
+    "readout": "state_part_concat",
+    "budget": "val-selected checkpoint5000",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 1.0685771530918915,
+    "R5": 3.3241249506693786,
+    "R10": null,
+    "MRR": null,
+    "DCG_x100": 14.640359613329949,
+    "source": "method/asm_jepa/runs/final_s0/pretrain/reports/frozen_test.json",
+    "notes": {
+      "usable_gallery": 40132,
+      "query_denominator": 32941,
+      "failed_queries": 6
+    }
+  },
+  {
+    "group": "rgb_signrep_pipeline",
+    "method": "SignRep public weighted",
+    "readout": "R0",
+    "budget": "external RGB-pretrained author encoder; no extra encoder training",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 49.02,
+    "R5": 79.29,
+    "R10": null,
+    "MRR": 0.6234000000000001,
+    "DCG_x100": 70.42,
+    "source": "docs/proposal4/sign-ssl-research-agent/research/paper/tables.json",
+    "notes": {
+      "archived_registered_measurement": true,
+      "set_matching": false
+    }
+  },
+  {
+    "group": "rgb_signrep_pipeline",
+    "method": "SignRep + bins2",
+    "readout": "R1",
+    "budget": "external RGB-pretrained author encoder; no extra encoder training",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 54.93,
+    "R5": 82.39,
+    "R10": null,
+    "MRR": 0.6709,
+    "DCG_x100": 74.18,
+    "source": "docs/proposal4/sign-ssl-research-agent/research/paper/tables.json",
+    "notes": {
+      "archived_registered_measurement": true,
+      "set_matching": false
+    }
+  },
+  {
+    "group": "rgb_signrep_pipeline",
+    "method": "SignRep + chamfer20",
+    "readout": "R2",
+    "budget": "external RGB-pretrained author encoder; no extra encoder training",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 58.42,
+    "R5": 84.21,
+    "R10": null,
+    "MRR": 0.6981999999999999,
+    "DCG_x100": 76.24,
+    "source": "docs/proposal4/sign-ssl-research-agent/research/paper/tables.json",
+    "notes": {
+      "archived_registered_measurement": true,
+      "set_matching": true
+    }
+  },
+  {
+    "group": "rgb_signrep_pipeline",
+    "method": "H008 set-to-vector distillation",
+    "readout": "single vector1024",
+    "budget": "label-free head; frozen external SignRep teacher",
+    "dataset": "ASL Citizen",
+    "split": "test",
+    "gallery": 40154,
+    "queries": 32941,
+    "R1": 57.300000000000004,
+    "R5": null,
+    "R10": null,
+    "MRR": null,
+    "DCG_x100": null,
+    "source": "docs/proposal4/sign-ssl-research-agent/research/CLAIM_LEDGER.md",
+    "notes": {
+      "seeds_R1": [
+        57.28,
+        57.31,
+        57.31
+      ],
+      "rounded_registered_seed_results": true
+    }
+  }
+]

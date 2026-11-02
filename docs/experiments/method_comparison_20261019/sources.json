@@ -1,0 +1,46 @@
+{
+  "PLctx160_test.json": {
+    "original": "method/phonojepa/runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/results.json",
+    "sha256": "f548b6797b77d343b3914c87b571e7897cbe4100899a8a696d3f4751db542161"
+  },
+  "PLctx_continuation_test.json": {
+    "original": "method/phonojepa/runtime/plctx160_continuation/final_test/metrics.json",
+    "sha256": "01c96effa7e1f2932763211ab695507b9e63d198f9f3e79d60ced3d399e612af"
+  },
+  "PhonoPath_epoch040_test.json": {
+    "original": "artifacts/phonopath_jepa_results_20261019/results/epoch040_test/results.json",
+    "sha256": "b8fdc46ad09800ff3d7163bd53d840c5a66216bbbfa85dd462926f3dc3ba29d4"
+  },
+  "PhonoPath_epoch160_test.json": {
+    "original": "artifacts/phonopath_jepa_results_20261019/results/epoch160_test/results.json",
+    "sha256": "9a414c0801f5f22a0905916555f8db9d19d41202d1e7a3f1ecb26ab33f597f83"
+  },
+  "Pose_JEPA_test.json": {
+    "original": "docs/experiments/pose_jepa_results_20261015/official_test_report.json",
+    "sha256": "eb21c13d22f4b9550639c0aa548fe5c3e20d54ab7bbd5951a611ad2a36ef87ae"
+  },
+  "ASM_JEPA_frozen_test.json": {
+    "original": "method/asm_jepa/runs/final_s0/pretrain/reports/frozen_test.json",
+    "sha256": "a62a650deaf75cd6c2092c3a4f81a0a97281ff537fc98048368fd0b0cdfa4f31"
+  },
+  "SignRep_readouts_registered.json": {
+    "original": "docs/proposal4/sign-ssl-research-agent/research/paper/tables.json",
+    "sha256": "037eebc50ffe2c2af45cb8aa9f70f046eb26e2ffc3dc095313b15e3927ed23bc"
+  },
+  "P4_claim_ledger.md": {
+    "original": "docs/proposal4/sign-ssl-research-agent/research/CLAIM_LEDGER.md",
+    "sha256": "268bc8afbca0c352903b66604b90df1cf3870ec4f68aac763d144b639600b9bf"
+  },
+  "ASM_linear_recognition_test.json": {
+    "original": "method/asm_jepa/runs/final_s0/linear/reports/test.json",
+    "sha256": "d004d06370b5f1132165d4ab052b015bd155d7e94df78ba0348f22e4254b886d"
+  },
+  "ASM_finetune_recognition_test.json": {
+    "original": "method/asm_jepa/runs/final_s0/finetune/reports/test.json",
+    "sha256": "cf9c04542fd8c40aa8ede0768b769f45f6adcd2fd6939d3133571ba230143945"
+  },
+  "ASM_scratch_recognition_test.json": {
+    "original": "method/asm_jepa/runs/final_s0/scratch/reports/test.json",
+    "sha256": "445cbdd3a7048dc5d52c812ebf0fc587bf54871fad15dc1eecbaf917c54a4f93"
+  }
+}
