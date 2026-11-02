@@ -1,5 +1,8 @@
 # Retrieval checkpoint A1 epoch40
 
+> Đã archive19/10/2026: runtime/checkpoint/cache và service của run này đã được xóa theo yêu cầu người dùng. Xem [ARCHIVED.md](ARCHIVED.md) để truy cập kết quả đã lưu. Các path/lệnh dưới đây mô tả setup lịch sử.
+
+
 Job: `runtime/retrieval_e040/`; systemd user service `phonopath-a1-e040-retrieval.service`, enable và linger. Training full160 tiếp tục trong service riêng, không đổi config/optimizer của training.
 
 Checkpoint cố định: `runtime/full160/train/epoch_040.pt`, EMA teacher, epoch40/bước50160. Job giữ hard link và SHA256 của checkpoint, copy nguyên `code/pp` từ snapshot production; không dùng model đang thay đổi ở `latest.pt`.

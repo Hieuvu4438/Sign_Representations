@@ -30,7 +30,7 @@ Oracle sử dụng `/tmp/phonopath-oracle-venv` riêng, module pySigLib/kauri n�
 
 ## Giới hạn bằng chứng
 
-- A1 full160 đã bắt đầu train bằng service production; chưa hoàn thành 160 epoch, G0 đầy đủ hoặc đo chất lượng cuối cùng. Smoke metrics trên 8 clip không phải VAL-DICT.
+- A1 đã hoàn tất160epoch và official test; xem ARCHIVED.md và bản lưu artifacts/phonopath_jepa_results_20261019. G0 đầy đủ chưa chạy. Smoke metrics trên 8 clip không phải VAL-DICT.
 - Đã qua CUDA/BF16 batch32, finite gradient và reload checkpoint: `runtime/full160/gpu_preflight.json`. Tốc độ warm smoke khoảng 0,64 step/s và train thực ban đầu khoảng 0,5 step/s trên GPU dùng chung, chưa đạt mục tiêu ≥5 step/s. Job ghi speed/ETA thực liên tục.
 - Chưa chạy probe ASL-LEX vì file `signdata.csv` không có trong `docs/proposal16/data` hiện tại. Code và protocol đã có; nhãn cơ chế không bị tạo từ input signature.
 - Chưa có hai vòng review code độc lập theo gate trước Phase 2; tests và rà soát triển khai không được coi là thay thế reviewer.

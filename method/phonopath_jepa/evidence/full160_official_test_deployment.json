@@ -1,0 +1,37 @@
+{
+  "verified_unix": 1792394908.2760165,
+  "service": "MainPID=807043\nActiveState=active\nSubState=running\n",
+  "checkpoint": "c9474e0fd9bd77deb440694da29c4bb9795b0c99fcfdedb852131805db913723",
+  "counts": {
+    "train": 40154,
+    "test": 32941
+  },
+  "progress": {
+    "stage": "extracting",
+    "split": "train",
+    "pid": 807066,
+    "completed": 1328,
+    "total": 40154,
+    "committed": 1234,
+    "percent": 3.307267021965433,
+    "clips_per_second": 7.811848598635308,
+    "eta_seconds": 4970.142407366,
+    "elapsed_seconds": 162.12942105403636,
+    "updated_unix": 1792394905.86625,
+    "resumed_at": 850,
+    "checkpoint_sha256": "c9474e0fd9bd77deb440694da29c4bb9795b0c99fcfdedb852131805db913723"
+  },
+  "estimated_extraction_remaining_hours": 2.551928333744253,
+  "resume": {
+    "passed": true,
+    "old_pid": 805187,
+    "new_pid": 807066,
+    "committed_before": 768,
+    "resumed_at": 850,
+    "completed_after": 851,
+    "checkpoint_sha256": "c9474e0fd9bd77deb440694da29c4bb9795b0c99fcfdedb852131805db913723",
+    "verified_unix": 1792394846.4835851
+  },
+  "ledger_registered_readouts": 4,
+  "final_results": "/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/retrieval_e160_test/results.json"
+}

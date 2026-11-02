@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
+
+if [[ ! -d /home/haipd/Sign_Representations/method/phonopath_jepa/runtime ]]; then
+  if [[ "${1:-status}" == status ]]; then
+    cat /home/haipd/Sign_Representations/method/phonopath_jepa/ARCHIVED.md
+    exit 0
+  fi
+  echo 'Run archived; checkpoints/runtime were deleted. See method/phonopath_jepa/ARCHIVED.md.' >&2
+  exit 1
+fi
 PP_A1_ROOT=/home/haipd/Sign_Representations/method/phonopath_jepa
 PP_A1_PY=/home/haipd/Sign_Representations/.venv-signrep/bin/python
 PP_A1_JOB="$PP_A1_ROOT/runtime/full160"

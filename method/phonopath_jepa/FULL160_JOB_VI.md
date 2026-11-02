@@ -1,5 +1,8 @@
 # Job A1 full160
 
+> Đã archive19/10/2026: runtime/checkpoint/cache và service của run này đã được xóa theo yêu cầu người dùng. Xem [ARCHIVED.md](ARCHIVED.md) để truy cập kết quả đã lưu. Các path/lệnh dưới đây mô tả setup lịch sử.
+
+
 Job production: `/home/haipd/Sign_Representations/method/phonopath_jepa/runtime/full160`.
 Service: `phonopath-a1-full160.service` của user `haipd`. Đã enable; user linger bật, nên job độc lập với SSH và được gọi lại sau reboot khi các đường dẫn dữ liệu/môi trường đã sẵn sàng.
 

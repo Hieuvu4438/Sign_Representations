@@ -32,4 +32,4 @@
 
 ## Các gate còn thuộc thực nghiệm
 
-Chưa có kết quả hoàn tất screening/full160, chưa chứng minh lợi ích retrieval, chưa dùng official test. A1 full160 đã khởi chạy theo yêu cầu trực tiếp của người dùng. CUDA/BF16 batch32 đã qua smoke, tốc độ ban đầu khoảng 0,5 step/s trên GPU dùng chung, chưa đạt ≥5 step/s. `scripts/benchmark.py` ghi closure theo channel/scale và đo end-to-end throughput khi có slot. Đọc `VALIDATION.md` để phân biệt smoke kết nối pipeline với kết luận khoa học.
+A1 đã hoàn tất full160 và official test ngày19/10/2026; readout chính grp+P đạt6,928% R@1, rawgrp11,511%, chưa vượt PLctxfull16016,678%. Kết quả/logs/ranks đã archive, runtime/weights đã dọn theo yêu cầu; xem ARCHIVED.md. Screening nhiều arm chưa chạy. CUDA/BF16 batch32 đã qua smoke, tốc độ ban đầu khoảng 0,5 step/s trên GPU dùng chung, chưa đạt ≥5 step/s. `scripts/benchmark.py` ghi closure theo channel/scale và đo end-to-end throughput khi có slot. Đọc `VALIDATION.md` để phân biệt smoke kết nối pipeline với kết luận khoa học.

@@ -1,5 +1,8 @@
 # ASL Citizen test — checkpoint A1 epoch40
 
+> Đã archive19/10/2026: runtime/checkpoint/cache và service của run này đã được xóa theo yêu cầu người dùng. Xem [ARCHIVED.md](ARCHIVED.md) để truy cập kết quả đã lưu. Các path/lệnh dưới đây mô tả setup lịch sử.
+
+
 Người dùng yêu cầu bổ sung test ở epoch40: “đánh giá trên cả test luôn”. Đây là lần sử dụng test sớm theo yêu cầu trực tiếp, đã đăng ký vào `runtime/test_ledger.json`; không coi test này là tập chưa từng dùng khi báo cáo full160 sau này. Không chọn checkpoint/readout hoặc thay đổi training theo kết quả test.
 
 - Checkpoint EMA cố định epoch40, step50.160, SHA256 `f33e1b88a8124a02d11c14a2a9d8ff700fc50bc8ab509c69cb2e8040e9364014`.

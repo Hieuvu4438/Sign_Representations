@@ -1,6 +1,9 @@
 # PhonoPath-JEPA — proposal16 v1.1
 
-Triển khai độc lập của [proposal16](../../docs/proposal16/PhonoPath_JEPA_Proposal_VI.md), package `pp`. Không sửa hoặc ghi vào runtime của các method cũ. Đã có code train SSL, resume, G0 có giám sát, extraction, retrieval, probe âm vị học, linear probe, fine-tune, few-shot và runner tuần tự. A1 full160 đã được khởi chạy bằng service systemd; xem `FULL160_JOB_VI.md`. Chưa chạy screening hoặc chấm official test.
+**Đã archive và dọn runtime ngày19/10/2026 theo yêu cầu người dùng.** Train160 và official test đã hoàn tất; checkpoint/embedding đã xóa. Xem [ARCHIVED.md](ARCHIVED.md), [bản lưu kết quả](../../artifacts/phonopath_jepa_results_20261019/README_VI.md) và [so sánh các method](../../docs/experiments/method_comparison_20261019/REPORT_VI.md). Các lệnh/job path bên dưới là hướng dẫn lịch sử cho việc tạo run mới.
+
+
+Triển khai độc lập của [proposal16](../../docs/proposal16/PhonoPath_JEPA_Proposal_VI.md), package `pp`. Không sửa hoặc ghi vào runtime của các method cũ. Đã có code train SSL, resume, G0 có giám sát, extraction, retrieval, probe âm vị học, linear probe, fine-tune, few-shot và runner tuần tự. A1 đã hoàn tất160epoch và official test; kết quả đã archive và runtime đã dọn theo yêu cầu. Screening nhiều arm chưa chạy.
 
 Luồng mặc định A1:
 
@@ -114,3 +117,5 @@ Job A1 full160 chạy ngầm và phục hồi qua systemd: xem [FULL160_JOB_VI.m
 VAL-DICT checkpoint epoch40 chạy bằng service riêng: xem [EPOCH40_RETRIEVAL_VI.md](EPOCH40_RETRIEVAL_VI.md), theo dõi `scripts/a1_e040_retrieval.sh status`. Kết quả hoàn tất ở `runtime/retrieval_e040/results.json` và `REPORT_VI.md`.
 
 Official ASL Citizen test tại epoch40 được bổ sung theo yêu cầu người dùng, đợi VAL-DICT rồi chạy tự động: [EPOCH40_TEST_RETRIEVAL_VI.md](EPOCH40_TEST_RETRIEVAL_VI.md). Trạng thái: `scripts/a1_e040_test_retrieval.sh status`.
+
+A1 đã hoàn tất160epoch ngày19/10/2026. Official ASL Citizen test cho `final.pt` đã hoàn tất và được archive: [FULL160_OFFICIAL_TEST_VI.md](FULL160_OFFICIAL_TEST_VI.md), trạng thái `scripts/a1_e160_official_test.sh status`.
