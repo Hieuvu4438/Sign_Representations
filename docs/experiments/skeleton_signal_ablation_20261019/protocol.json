@@ -1,0 +1,130 @@
+{
+  "schema": "skeleton_signal_experiment_spec_v1",
+  "status": "PLAN_ONLY_IMPLEMENTATION_REQUIRED",
+  "created_date": "2026-10-19",
+  "is_runnable_training_config": false,
+  "task": "frozen_video_to_video_gloss_dictionary_retrieval",
+  "main_train": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+  "gallery_split": "ASLC_official_train",
+  "development_query_split": "ASLC_official_val",
+  "final_query_split": "ASLC_official_test",
+  "labels_in_ssl_loss_sampler": false,
+  "signer_ids_in_ssl_loss_sampler": false,
+  "phonology_supervised_model_selection_disclosure": true,
+  "feature_adapter": "NEW_RAW_H_L_M_B_F_G_REQUIRED_NOT_UNMODIFIED_PLCTX_FEATURES",
+  "initialization": "scratch",
+  "encoder": {
+    "dim": 256,
+    "depth": 6,
+    "heads": 4,
+    "part_slots": 8,
+    "temporal_bins": 32,
+    "samples_per_bin": 2
+  },
+  "predictor": {
+    "dim": 128,
+    "depth": 4
+  },
+  "objective": {
+    "name": "masked_contextual_ema_feature_dimension_centered_ce",
+    "teacher_inputs": "same_enabled_features_as_arm_unmasked_no_extra_streams",
+    "target_layers": 4,
+    "teacher_temperature": [
+      0.04,
+      0.06
+    ],
+    "student_temperature": 0.1,
+    "center_momentum": 0.9,
+    "ema_momentum": [
+      0.996,
+      0.9999
+    ],
+    "loss_reduction": "mean_valid_targets_per_group_then_mean_groups",
+    "target_weight": "1_for_valid_target_not_confidence"
+  },
+  "mask": {
+    "policy": "random_temporal_blocks",
+    "target_fraction": 0.5,
+    "block_bins": 4,
+    "source_dependency_closure": true,
+    "log_realized_fraction": true
+  },
+  "sampling": {
+    "effective_fps": "min(source_fps,25)",
+    "samples_per_window": 64,
+    "speed": 1.0,
+    "source_video_sampling": "video_uniform_no_gloss_balancing"
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0003,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "weight_decay": 0.05,
+    "effective_batch": 32,
+    "warmup_fraction": 0.1,
+    "lr_final_fraction": 0.01,
+    "grad_clip": 1.0
+  },
+  "augmentation_screening": {
+    "mirror": false,
+    "morphology": false,
+    "temporal_warp": false,
+    "extra_jitter": false
+  },
+  "budgets": {
+    "screen_updates": 10000,
+    "screen_seeds": [
+      0
+    ],
+    "confirm_updates": 40000,
+    "confirm_seeds": [
+      0,
+      1,
+      2
+    ],
+    "full_updates_proposed": 200640,
+    "full_seeds": [
+      0,
+      1,
+      2
+    ],
+    "full_budget_condition": "profile_and_confirmation_learning_curves_acceptance"
+  },
+  "selection": {
+    "screen_checkpoint": "fixed_endpoint_10000",
+    "confirm_checkpoint": "fixed_endpoint_40000",
+    "final_val_checkpoints": [
+      40000,
+      80000,
+      120000,
+      160000,
+      200640
+    ],
+    "primary_metric": "R1",
+    "practical_margin_pp": 1.0,
+    "test_used_for_selection": false
+  },
+  "retrieval": {
+    "encoder": "EMA",
+    "embedding_dimension": 256,
+    "window_pool": "mean_time_per_group_then_mean_enabled_groups",
+    "clip_pool": "mean_raw_window_vectors_then_L2",
+    "stride_samples": 2,
+    "include_tail_window": true,
+    "class_score": "max_gallery_clip_cosine",
+    "ties": "pessimistic",
+    "primary_PCA_whitening": false,
+    "failed_query_metric_contribution": 0.0,
+    "keep_official_query_denominator": true
+  },
+  "implementation_entrypoint": null,
+  "execution_started": false,
+  "confidence": {
+    "input_to_embedding": false,
+    "loss_weighting": false,
+    "quality_audit_only": true
+  }
+}

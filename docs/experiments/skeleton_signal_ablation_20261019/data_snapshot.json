@@ -1,0 +1,96 @@
+{
+  "audited_at_utc": "2026-10-19T11:49:20.931016+00:00",
+  "scope": "metadata_schema_and_file_presence_only_no_training_or_retrieval",
+  "aslc_splits": {
+    "train": {
+      "path": "/home/dongvk/datasets/ASL_Citizen/splits/train.csv",
+      "sha256": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329",
+      "rows": 40154,
+      "signers": 35,
+      "glosses": 2731,
+      "raw_annotation_code_values_including_NA": 2723
+    },
+    "val": {
+      "path": "/home/dongvk/datasets/ASL_Citizen/splits/val.csv",
+      "sha256": "6ac78c9d551dfcc81d225a5279d7637c2891a4490851234be6e4674666e21366",
+      "rows": 10304,
+      "signers": 6,
+      "glosses": 2731,
+      "raw_annotation_code_values_including_NA": 2723
+    },
+    "test": {
+      "path": "/home/dongvk/datasets/ASL_Citizen/splits/test.csv",
+      "sha256": "b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e",
+      "rows": 32941,
+      "signers": 11,
+      "glosses": 2731,
+      "raw_annotation_code_values_including_NA": 2723
+    }
+  },
+  "pose_manifests": {
+    "train": {
+      "path": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_train.jsonl",
+      "sha256": "069b229e7872adf60d7c969bb7597ad78c3ef3953a442c8d5a20387fe757e75a",
+      "rows": 40154,
+      "pose_paths_missing": 0,
+      "split_mismatch_rows": 0,
+      "limitation": "Existence only; content and detector quality not validated"
+    },
+    "val": {
+      "path": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_val.jsonl",
+      "sha256": "efb9dc8a7294001f340a5e481facd4f31d0fdcdbd78fe5e324b1b89f74ba916f",
+      "rows": 10304,
+      "pose_paths_missing": 0,
+      "split_mismatch_rows": 0,
+      "limitation": "Existence only; content and detector quality not validated"
+    },
+    "test": {
+      "path": "/home/haipd/Sign_Representations/method/asm_jepa/data/processed/aslc/metadata_test.jsonl",
+      "sha256": "09d664554b973815251e22db6ef2da964063a4421e4a06ed271d59a0c55d71ee",
+      "rows": 32941,
+      "pose_paths_missing": 0,
+      "split_mismatch_rows": 0,
+      "limitation": "Existence only; content and detector quality not validated"
+    }
+  },
+  "asllex": {
+    "path": "/home/haipd/Sign_Representations/docs/proposal16/data/signdata.csv",
+    "sha256": "080ecc3de4b307a04dd9b2c2583c22bc623a5c731ab869d6e3905d4a3540fbd3",
+    "encoding_used_for_lossless_audit": "latin1",
+    "rows": 2723,
+    "unique_code_field": 2723,
+    "aslc_non_sentinel_unique_codes": 2722,
+    "aslc_matched_glosses": 2725,
+    "aslc_sentinel_glosses": [
+      "ABOVE",
+      "INSTINCT",
+      "LETTER2",
+      "MINIMUM1",
+      "SENTENCE1",
+      "WELCOME1"
+    ],
+    "aslc_unmatched_non_sentinel_glosses": [],
+    "verified_columns": [
+      "Handshape.2.0",
+      "Flexion.2.0",
+      "SelectedFingers.2.0",
+      "MajorLocation.2.0",
+      "MinorLocation.2.0",
+      "Movement.2.0",
+      "RepeatedMovement.2.0",
+      "SignType.2.0",
+      "NonDominantHandshape.2.0",
+      "UlnarRotation.2.0",
+      "Compound.2.0"
+    ],
+    "nonmanual_gold": "No complete mouth/nonmanual gold field established by this header audit"
+  },
+  "val_signer_counts": {
+    "P12": 697,
+    "P13": 2,
+    "P21": 2997,
+    "P26": 2999,
+    "P39": 3000,
+    "P5": 609
+  }
+}

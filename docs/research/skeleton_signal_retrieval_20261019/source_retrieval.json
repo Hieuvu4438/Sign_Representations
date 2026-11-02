@@ -1,0 +1,150 @@
+{
+  "retrieved_date": "2026-10-19",
+  "scope": "Versioned HTML extraction metadata; no copyrighted full text included",
+  "records": [
+    {
+      "name": "signrep",
+      "url": "https://arxiv.org/html/2503.08529v1",
+      "status": 200,
+      "chars": 71781,
+      "sha256": "67dc232866cfd34c6433d69fce5d89bd7f08c4a7759adfe385a5f71f8ba7b96d",
+      "tables": 21
+    },
+    {
+      "name": "signseek",
+      "url": "https://arxiv.org/html/2609.03695v1",
+      "status": 200,
+      "chars": 59167,
+      "sha256": "d53c243fd282a878ea3b928fc1d7f55789cfed97a499f5eaa4f44141bed252e8",
+      "tables": 18
+    },
+    {
+      "name": "masa",
+      "url": "https://arxiv.org/html/2405.20666v1",
+      "status": 200,
+      "chars": 71109,
+      "sha256": "74f19d5d97fd8a8a2c063eb9e2861bc1159fb249dba92126e15fd14816cb0332",
+      "tables": 32
+    },
+    {
+      "name": "stc",
+      "url": "https://arxiv.org/html/2406.10501v1",
+      "status": 200,
+      "chars": 78879,
+      "sha256": "c25345e3a847c934a56afac29f9580ea2bd463ce8741c6c0c34d87d2e1a07ebb",
+      "tables": 33
+    },
+    {
+      "name": "ssl_slr",
+      "url": "https://arxiv.org/html/2509.05188v2",
+      "status": 200,
+      "chars": 77326,
+      "sha256": "55c7546d6b7156d86a68ce8742318dc227d97e6c2331e50973a5d3052ec87189",
+      "tables": 12
+    },
+    {
+      "name": "signdino",
+      "url": "https://arxiv.org/html/2609.06296v1",
+      "status": 200,
+      "chars": 106661,
+      "sha256": "0f9bc98a46017015afdea485211fe85f8ae670b69993af0025be7ee0a1dd9ab7",
+      "tables": 42
+    },
+    {
+      "name": "phonology",
+      "url": "https://arxiv.org/html/2606.28667v1",
+      "status": 200,
+      "chars": 41675,
+      "sha256": "6ba02dcaf8db3e3981383df2381333b39c8a4cb6d814eb3d01c1d3456b951be9",
+      "tables": 9
+    },
+    {
+      "name": "shubert",
+      "url": "https://arxiv.org/html/2411.16765v3",
+      "status": 200,
+      "chars": 69755,
+      "sha256": "392be3cfe606397f82317e91e7a1d42782f1350edf24005bb19112272929e7ec",
+      "tables": 26
+    },
+    {
+      "name": "signbertplus",
+      "url": "https://arxiv.org/html/2305.04868v1",
+      "status": 200,
+      "chars": 103387,
+      "sha256": "e7a332477158b790dc2477fe576ca7d8445accb18a2446354c9b4afc3cadb01b",
+      "tables": 37
+    },
+    {
+      "name": "best",
+      "url": "https://arxiv.org/html/2302.05075v3",
+      "status": 200,
+      "chars": 49437,
+      "sha256": "3d6504f62e1e4f1f80743f52448793918765819e1fab0f785a17d97bdcc765bd",
+      "tables": 18
+    },
+    {
+      "name": "signverse",
+      "url": "https://arxiv.org/html/2605.01720v1",
+      "status": 200,
+      "chars": 48672,
+      "sha256": "0db5a32963d5ad416dca368a2fece26603e6bb15c3ac1a38695d94b443c5ce6a",
+      "tables": 6
+    },
+    {
+      "name": "vqasl",
+      "url": "https://arxiv.org/html/2509.04745v1",
+      "status": 200,
+      "chars": 46586,
+      "sha256": "445f2c03f7ca8e8a9666d8bdd62ec64a2c3960e77076a1d148b5edc7989dfa1f",
+      "tables": 8
+    },
+    {
+      "name": "uni_sign",
+      "url": "https://arxiv.org/html/2501.15187v3",
+      "status": 200,
+      "chars": 71767,
+      "sha256": "972a5fdc3b35110e4c1a7e51fa4f695474facf69f91bbe4bca6c4618746cc81a",
+      "tables": 29
+    },
+    {
+      "name": "signer_identity",
+      "url": "https://arxiv.org/html/2410.13675v1",
+      "status": 200,
+      "chars": 17295,
+      "sha256": "93eb4c37d500ca57746f38abaedb3a499ca6d226cea676da453427fd9fc607fc",
+      "tables": 4
+    },
+    {
+      "name": "face",
+      "url": "https://arxiv.org/html/2507.20884v1",
+      "status": 200,
+      "chars": 39799,
+      "sha256": "68009f0b6d4e46b6dd34b7e8972c792bf7840c1f3829c90940b83773a4e92eba",
+      "tables": 2
+    },
+    {
+      "name": "signmae",
+      "url": "https://arxiv.org/html/2605.02094v1",
+      "status": 200,
+      "chars": 40410,
+      "sha256": "44bea36c7c9867c384c9da490fa6a9dc66290d2fa539c3925b0f9823576ff660",
+      "tables": 10
+    },
+    {
+      "name": "signdeg",
+      "url": "https://arxiv.org/html/2609.06296v2",
+      "status": 200,
+      "chars": 95331,
+      "sha256": "b740c9715bbae08f6f36c2478daaabf02ee536cfa7cf4a9014f02912585c821c",
+      "tables": 25
+    },
+    {
+      "name": "signverse_latest",
+      "url": "https://arxiv.org/html/2605.01720v3",
+      "status": 200,
+      "chars": 48683,
+      "sha256": "4090f4095f62d6e64c204a5b30f7ab86f626ac727d16041fb0867bd74ee989e4",
+      "tables": 3
+    }
+  ]
+}

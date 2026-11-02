@@ -1,0 +1,270 @@
+{
+  "audited_at_utc": "2026-10-19T11:14:04.776932+00:00",
+  "scope": "metadata-only; no video, pose, checkpoint or retrieval scoring",
+  "root": "/home/dongvk/datasets/ASL_Citizen",
+  "splits": {
+    "train": {
+      "source": "/home/dongvk/datasets/ASL_Citizen/splits/train.csv",
+      "sha256": "87a105649b98ea577182ebfce49d59fe9ca834a2489384f6fe7bc03f14966329",
+      "columns": [
+        "Participant ID",
+        "Video file",
+        "Gloss",
+        "ASL-LEX Code"
+      ],
+      "rows": 40154,
+      "n_signers": 35,
+      "n_glosses": 2731,
+      "n_asllex_codes": 2723,
+      "empty_asllex_codes": 0,
+      "signer_counts": {
+        "P1": 104,
+        "P10": 141,
+        "P11": 3000,
+        "P14": 1755,
+        "P16": 2149,
+        "P19": 3,
+        "P2": 221,
+        "P20": 319,
+        "P23": 1000,
+        "P24": 125,
+        "P25": 144,
+        "P27": 2999,
+        "P28": 322,
+        "P29": 2933,
+        "P3": 109,
+        "P30": 1490,
+        "P31": 2971,
+        "P32": 102,
+        "P33": 3000,
+        "P34": 425,
+        "P36": 380,
+        "P37": 2989,
+        "P38": 120,
+        "P4": 444,
+        "P40": 2998,
+        "P41": 7,
+        "P43": 901,
+        "P44": 42,
+        "P45": 58,
+        "P46": 374,
+        "P50": 2991,
+        "P51": 1502,
+        "P52": 2728,
+        "P7": 1195,
+        "P8": 113
+      },
+      "gloss_count_range": [
+        9,
+        24
+      ],
+      "duplicate_video_names": 0,
+      "codes_mapping_to_multiple_glosses": {
+        "B_03_084": [
+          "RESEARCH1",
+          "RESEARCH2"
+        ],
+        "C_02_054": [
+          "WHATFOR1",
+          "WHATFOR2",
+          "WHATFOR3"
+        ],
+        "NA": [
+          "ABOVE",
+          "INSTINCT",
+          "LETTER2",
+          "MINIMUM1",
+          "SENTENCE1",
+          "WELCOME1"
+        ]
+      }
+    },
+    "val": {
+      "source": "/home/dongvk/datasets/ASL_Citizen/splits/val.csv",
+      "sha256": "6ac78c9d551dfcc81d225a5279d7637c2891a4490851234be6e4674666e21366",
+      "columns": [
+        "Participant ID",
+        "Video file",
+        "Gloss",
+        "ASL-LEX Code"
+      ],
+      "rows": 10304,
+      "n_signers": 6,
+      "n_glosses": 2731,
+      "n_asllex_codes": 2723,
+      "empty_asllex_codes": 0,
+      "signer_counts": {
+        "P12": 697,
+        "P13": 2,
+        "P21": 2997,
+        "P26": 2999,
+        "P39": 3000,
+        "P5": 609
+      },
+      "gloss_count_range": [
+        2,
+        7
+      ],
+      "duplicate_video_names": 0,
+      "codes_mapping_to_multiple_glosses": {
+        "B_03_084": [
+          "RESEARCH1",
+          "RESEARCH2"
+        ],
+        "C_02_054": [
+          "WHATFOR1",
+          "WHATFOR2",
+          "WHATFOR3"
+        ],
+        "NA": [
+          "ABOVE",
+          "INSTINCT",
+          "LETTER2",
+          "MINIMUM1",
+          "SENTENCE1",
+          "WELCOME1"
+        ]
+      }
+    },
+    "test": {
+      "source": "/home/dongvk/datasets/ASL_Citizen/splits/test.csv",
+      "sha256": "b1dee8f81204895ca1760f6bd582eec84cf390b9c97c4387e49b9cc6b906b21e",
+      "columns": [
+        "Participant ID",
+        "Video file",
+        "Gloss",
+        "ASL-LEX Code"
+      ],
+      "rows": 32941,
+      "n_signers": 11,
+      "n_glosses": 2731,
+      "n_asllex_codes": 2723,
+      "empty_asllex_codes": 0,
+      "signer_counts": {
+        "P15": 3000,
+        "P17": 3000,
+        "P18": 2998,
+        "P22": 2997,
+        "P35": 3004,
+        "P42": 2996,
+        "P47": 2966,
+        "P48": 2999,
+        "P49": 3000,
+        "P6": 2993,
+        "P9": 2988
+      },
+      "gloss_count_range": [
+        7,
+        20
+      ],
+      "duplicate_video_names": 0,
+      "codes_mapping_to_multiple_glosses": {
+        "B_03_084": [
+          "RESEARCH1",
+          "RESEARCH2"
+        ],
+        "C_02_054": [
+          "WHATFOR1",
+          "WHATFOR2",
+          "WHATFOR3"
+        ],
+        "NA": [
+          "ABOVE",
+          "INSTINCT",
+          "LETTER2",
+          "MINIMUM1",
+          "SENTENCE1",
+          "WELCOME1"
+        ]
+      }
+    }
+  },
+  "overlap": {
+    "train__val": {
+      "Participant ID": {
+        "n": 0,
+        "values_if_small": []
+      },
+      "Video file": {
+        "n": 0,
+        "values_if_small": []
+      },
+      "Gloss": {
+        "n": 2731,
+        "values_if_small": null
+      },
+      "ASL-LEX Code": {
+        "n": 2723,
+        "values_if_small": null
+      }
+    },
+    "train__test": {
+      "Participant ID": {
+        "n": 0,
+        "values_if_small": []
+      },
+      "Video file": {
+        "n": 0,
+        "values_if_small": []
+      },
+      "Gloss": {
+        "n": 2731,
+        "values_if_small": null
+      },
+      "ASL-LEX Code": {
+        "n": 2723,
+        "values_if_small": null
+      }
+    },
+    "val__test": {
+      "Participant ID": {
+        "n": 0,
+        "values_if_small": []
+      },
+      "Video file": {
+        "n": 0,
+        "values_if_small": []
+      },
+      "Gloss": {
+        "n": 2731,
+        "values_if_small": null
+      },
+      "ASL-LEX Code": {
+        "n": 2723,
+        "values_if_small": null
+      }
+    }
+  },
+  "directory_presence_only": {
+    "aslc_keypoints": {
+      "path": "/home/dongvk/datasets/ASL_Citizen/keypoints",
+      "exists": true
+    },
+    "aslc_videos": {
+      "path": "/home/dongvk/datasets/ASL_Citizen/videos",
+      "exists": true
+    },
+    "wlasl": {
+      "path": "/home/dongvk/datasets/WLASL2000",
+      "exists": true
+    },
+    "msasl": {
+      "path": "/home/dongvk/datasets/MS-ASL",
+      "exists": true
+    },
+    "how2sign_shared": {
+      "path": "/home/shared_data/sign_language/How2Sign",
+      "exists": true
+    },
+    "youtubeasl_local": {
+      "path": "/home/dongvk/datasets/youtubeASL",
+      "exists": true
+    }
+  },
+  "limitations": [
+    "CSV row counts do not verify video/pose availability or detector quality.",
+    "No source-video-ID/time-range deduplication was performed.",
+    "Test metadata was counted; no model was scored or selected using test.",
+    "ASL-LEX code grouping does not establish linguistic equivalence of variants."
+  ]
+}
