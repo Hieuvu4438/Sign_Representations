@@ -4,6 +4,28 @@ Source tác giả nằm trong `third_party/`. Code, cấu hình, checkpoint loca
 các kết quả trước đây nằm trong `artifacts/legacy/`. Các lệnh dưới đây chạy từ
 gốc repository và chỉ dùng các chức năng inference đã public.
 
+## Sign Language Toolkit (SLTK)
+
+SLTK dùng môi trường riêng `.venv-sltk` (Python 3.11). Cài lại từ gốc repository:
+
+```bash
+uv venv --python 3.11 --seed .venv-sltk
+uv pip install --python .venv-sltk/bin/python -r requirements-signlangtk.txt
+source .venv-sltk/bin/activate
+python -c "import sltk; from importlib.metadata import version; print(version('signlangtk'))"
+sltk --help
+```
+
+Sau khi kích hoạt, các script Python chạy bằng `python` có thể `import sltk`.
+Nếu không kích hoạt, dùng trực tiếp `.venv-sltk/bin/python script.py` hoặc
+`.venv-sltk/bin/sltk --help`. Với notebook/IDE, chọn interpreter
+`.venv-sltk/bin/python`.
+
+Đây là bản core cho CLI, ELAN và xử lý dữ liệu; chưa cài backend trích xuất
+pose/video hoặc tải trọng số. WiLoR, NLF, TEASER cần dependencies và tài nguyên
+mô hình tương ứng trước khi chạy extraction hoặc pipeline.
+Xem [tài liệu gói](https://pypi.org/project/signlangtk/).
+
 ## Khôi phục runtime local sau khi di chuyển
 
 ```bash

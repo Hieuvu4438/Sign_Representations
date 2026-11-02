@@ -1,0 +1,2 @@
+# SLTK core only; extraction backends and model assets are installed separately.
+signlangtk==0.3.2
