@@ -1,0 +1,12 @@
+source,bundle,bundle_matches,original_matches
+method/phonojepa/runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/results.json,docs/experiments/method_comparison_20261019/source_results/PLctx160_test.json,True,True
+method/phonojepa/runtime/plctx160_continuation/final_test/metrics.json,docs/experiments/method_comparison_20261019/source_results/PLctx_continuation_test.json,True,True
+artifacts/phonopath_jepa_results_20261019/results/epoch040_test/results.json,docs/experiments/method_comparison_20261019/source_results/PhonoPath_epoch040_test.json,True,True
+artifacts/phonopath_jepa_results_20261019/results/epoch160_test/results.json,docs/experiments/method_comparison_20261019/source_results/PhonoPath_epoch160_test.json,True,True
+docs/experiments/pose_jepa_results_20261015/official_test_report.json,docs/experiments/method_comparison_20261019/source_results/Pose_JEPA_test.json,True,True
+method/asm_jepa/runs/final_s0/pretrain/reports/frozen_test.json,docs/experiments/method_comparison_20261019/source_results/ASM_JEPA_frozen_test.json,True,True
+docs/proposal4/sign-ssl-research-agent/research/paper/tables.json,docs/experiments/method_comparison_20261019/source_results/SignRep_readouts_registered.json,True,True
+docs/proposal4/sign-ssl-research-agent/research/CLAIM_LEDGER.md,docs/experiments/method_comparison_20261019/source_results/P4_claim_ledger.md,True,True
+method/asm_jepa/runs/final_s0/linear/reports/test.json,docs/experiments/method_comparison_20261019/source_results/ASM_linear_recognition_test.json,True,True
+method/asm_jepa/runs/final_s0/finetune/reports/test.json,docs/experiments/method_comparison_20261019/source_results/ASM_finetune_recognition_test.json,True,True
+method/asm_jepa/runs/final_s0/scratch/reports/test.json,docs/experiments/method_comparison_20261019/source_results/ASM_scratch_recognition_test.json,True,True

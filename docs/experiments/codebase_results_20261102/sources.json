@@ -1,0 +1,362 @@
+{
+  "docs/experiments/method_comparison_20261019/sources.json": {
+    "sha256": "7e3d9a127f1cfaff5b5faf9b9357cd136e102b4a92d2d37b95b6bb3a2882b249",
+    "bytes": 2277
+  },
+  "docs/experiments/method_comparison_20261019/source_results/PLctx160_test.json": {
+    "sha256": "f548b6797b77d343b3914c87b571e7897cbe4100899a8a696d3f4751db542161",
+    "bytes": 962
+  },
+  "method/phonojepa/runtime/eval/PJ_PLctx_FULL_160ep_dictionary/aslc/results.json": {
+    "sha256": "f548b6797b77d343b3914c87b571e7897cbe4100899a8a696d3f4751db542161",
+    "bytes": 962
+  },
+  "docs/experiments/method_comparison_20261019/source_results/PLctx_continuation_test.json": {
+    "sha256": "01c96effa7e1f2932763211ab695507b9e63d198f9f3e79d60ced3d399e612af",
+    "bytes": 840
+  },
+  "method/phonojepa/runtime/plctx160_continuation/final_test/metrics.json": {
+    "sha256": "01c96effa7e1f2932763211ab695507b9e63d198f9f3e79d60ced3d399e612af",
+    "bytes": 840
+  },
+  "docs/experiments/method_comparison_20261019/source_results/PhonoPath_epoch040_test.json": {
+    "sha256": "b8fdc46ad09800ff3d7163bd53d840c5a66216bbbfa85dd462926f3dc3ba29d4",
+    "bytes": 3233
+  },
+  "artifacts/phonopath_jepa_results_20261019/results/epoch040_test/results.json": {
+    "sha256": "b8fdc46ad09800ff3d7163bd53d840c5a66216bbbfa85dd462926f3dc3ba29d4",
+    "bytes": 3233
+  },
+  "docs/experiments/method_comparison_20261019/source_results/PhonoPath_epoch160_test.json": {
+    "sha256": "9a414c0801f5f22a0905916555f8db9d19d41202d1e7a3f1ecb26ab33f597f83",
+    "bytes": 3393
+  },
+  "artifacts/phonopath_jepa_results_20261019/results/epoch160_test/results.json": {
+    "sha256": "9a414c0801f5f22a0905916555f8db9d19d41202d1e7a3f1ecb26ab33f597f83",
+    "bytes": 3393
+  },
+  "docs/experiments/method_comparison_20261019/source_results/Pose_JEPA_test.json": {
+    "sha256": "eb21c13d22f4b9550639c0aa548fe5c3e20d54ab7bbd5951a611ad2a36ef87ae",
+    "bytes": 4755
+  },
+  "docs/experiments/pose_jepa_results_20261015/official_test_report.json": {
+    "sha256": "eb21c13d22f4b9550639c0aa548fe5c3e20d54ab7bbd5951a611ad2a36ef87ae",
+    "bytes": 4755
+  },
+  "docs/experiments/method_comparison_20261019/source_results/ASM_JEPA_frozen_test.json": {
+    "sha256": "a62a650deaf75cd6c2092c3a4f81a0a97281ff537fc98048368fd0b0cdfa4f31",
+    "bytes": 9734
+  },
+  "method/asm_jepa/runs/final_s0/pretrain/reports/frozen_test.json": {
+    "sha256": "a62a650deaf75cd6c2092c3a4f81a0a97281ff537fc98048368fd0b0cdfa4f31",
+    "bytes": 9734
+  },
+  "docs/experiments/method_comparison_20261019/source_results/SignRep_readouts_registered.json": {
+    "sha256": "037eebc50ffe2c2af45cb8aa9f70f046eb26e2ffc3dc095313b15e3927ed23bc",
+    "bytes": 3575
+  },
+  "docs/proposal4/sign-ssl-research-agent/research/paper/tables.json": {
+    "sha256": "037eebc50ffe2c2af45cb8aa9f70f046eb26e2ffc3dc095313b15e3927ed23bc",
+    "bytes": 3575
+  },
+  "docs/experiments/method_comparison_20261019/source_results/P4_claim_ledger.md": {
+    "sha256": "268bc8afbca0c352903b66604b90df1cf3870ec4f68aac763d144b639600b9bf",
+    "bytes": 9835
+  },
+  "docs/proposal4/sign-ssl-research-agent/research/CLAIM_LEDGER.md": {
+    "sha256": "268bc8afbca0c352903b66604b90df1cf3870ec4f68aac763d144b639600b9bf",
+    "bytes": 9835
+  },
+  "docs/experiments/method_comparison_20261019/source_results/ASM_linear_recognition_test.json": {
+    "sha256": "d004d06370b5f1132165d4ab052b015bd155d7e94df78ba0348f22e4254b886d",
+    "bytes": 4444
+  },
+  "method/asm_jepa/runs/final_s0/linear/reports/test.json": {
+    "sha256": "d004d06370b5f1132165d4ab052b015bd155d7e94df78ba0348f22e4254b886d",
+    "bytes": 4444
+  },
+  "docs/experiments/method_comparison_20261019/source_results/ASM_finetune_recognition_test.json": {
+    "sha256": "cf9c04542fd8c40aa8ede0768b769f45f6adcd2fd6939d3133571ba230143945",
+    "bytes": 4653
+  },
+  "method/asm_jepa/runs/final_s0/finetune/reports/test.json": {
+    "sha256": "cf9c04542fd8c40aa8ede0768b769f45f6adcd2fd6939d3133571ba230143945",
+    "bytes": 4653
+  },
+  "docs/experiments/method_comparison_20261019/source_results/ASM_scratch_recognition_test.json": {
+    "sha256": "445cbdd3a7048dc5d52c812ebf0fc587bf54871fad15dc1eecbaf917c54a4f93",
+    "bytes": 4335
+  },
+  "method/asm_jepa/runs/final_s0/scratch/reports/test.json": {
+    "sha256": "445cbdd3a7048dc5d52c812ebf0fc587bf54871fad15dc1eecbaf917c54a4f93",
+    "bytes": 4335
+  },
+  "docs/experiments/method_comparison_20261019/official_test_retrieval.json": {
+    "sha256": "ceea1b8b3295ed4afa9f7f94d571691141ed78248ca362c094693610ae7bb0b7",
+    "bytes": 9000
+  },
+  "docs/experiments/method_comparison_20261019/recognition_test.json": {
+    "sha256": "9ea5be8b43273073535967d5488e93f105317e396987f046b1b015be1e4e2c20",
+    "bytes": 780
+  },
+  "docs/experiments/method_comparison_20261018/pilot_ASLC300_white512.csv": {
+    "sha256": "ccdf72ea8c3a3c15fbd150954af6ce032437b481275e77c1090999b699f6ceae",
+    "bytes": 8847
+  },
+  "method/obs_jepa/runtime/eval/models/JH3D.json": {
+    "sha256": "af46cc7531a8510ed907622652180247e7300dc17b9a3d5f4df3361dbea4e071",
+    "bytes": 1534
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLctx_16k_grp.json": {
+    "sha256": "382f0845f559be7dde7cdb231c95d94d31c0479ea62591cecd827b1338cd4abb",
+    "bytes": 1525
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLctx_FULL_160ep_grp.json": {
+    "sha256": "d69362a3f359298dd7067cf2803ec2e96226dda324e4bb004aae3c6e82198542",
+    "bytes": 1544
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLctx_grp.json": {
+    "sha256": "abc619b0c963376a9916c8497f38ef64de0669e1aca7658834a5fe62585bd417",
+    "bytes": 1550
+  },
+  "method/phonojepa/runtime/eval/models/PJ_A8g_randhand_grp.json": {
+    "sha256": "0878529aee328b3cce21e82b5290015a195714d307a05aae89b13dc6c85515b3",
+    "bytes": 1515
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLboth_hands_grp.json": {
+    "sha256": "3759a80720a5f95c4ec95b106ad4108c3605f4e82a6a6ed9dd41fc08192785b8",
+    "bytes": 1527
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLint_16k_grp.json": {
+    "sha256": "72dab6e051239e4c81aa3231dfa275c135d189604ba18bc447efef1853a32083",
+    "bytes": 1528
+  },
+  "method/phonojepa/runtime/eval/models/PJ_G3morph_grp.json": {
+    "sha256": "f9d7fad099613eb9284ab91c5b1fc22abd568fa6b580e142da1d361104d9c9f4",
+    "bytes": 1525
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLboth_shufint_grp.json": {
+    "sha256": "e841d8cb097a1447202cc945089c076e063e4df6898697b53ee8f6d48c8290a5",
+    "bytes": 1545
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLboth_grp.json": {
+    "sha256": "a44a128a7d8334d9145d57150e7698a3e8fd20fbdfd1ead9b91bbb8164c1432b",
+    "bytes": 1510
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLint_grp.json": {
+    "sha256": "485b64283439381572cc255791cb1853e98e173033fa1a2b334ea541149696d1",
+    "bytes": 1556
+  },
+  "method/phonojepa/runtime/eval/models/PJ_R0both_grp.json": {
+    "sha256": "421e68421fe076d4a5d65d4bfcd86f87bd9b7a2f155b8f85b0c1ead7c62479bb",
+    "bytes": 1542
+  },
+  "method/phonojepa/runtime/eval/models/PJ_R4both_grp.json": {
+    "sha256": "0974ed03f6c416b3ca50de55b4951c15377ad8ca5ddf910c6a49738ea05e1bdd",
+    "bytes": 1513
+  },
+  "method/phonojepa/runtime/eval/models/PJ_R0ctx_grp.json": {
+    "sha256": "159d95f65de6b0b2d5abc03e525b908d104f95553a477831e2686e1655f83d10",
+    "bytes": 1539
+  },
+  "method/phonojepa/runtime/eval/models/PJ_G2full_grp.json": {
+    "sha256": "1652808a924600b8505c16feb26cd019fa76dbdbaa5d2522b2f4e1074abd8a2c",
+    "bytes": 1500
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLboth_proto_grp.json": {
+    "sha256": "187ec0d1f4d35af01e25585589ed03aea46053bc1505f57f81e99aa40124e84a",
+    "bytes": 1516
+  },
+  "method/phonojepa/runtime/eval/models/PJ_G1glob_grp.json": {
+    "sha256": "571d49206b39d54ae8bea053ac00c8692f85d510265bd58287fd9005db35dfd5",
+    "bytes": 1532
+  },
+  "method/phonojepa/runtime/eval/models/PJ_R4int_grp.json": {
+    "sha256": "01b7f7e1579ca9cda0118de36693f736375293ad2a6fac5f02362dd77ad61efc",
+    "bytes": 1540
+  },
+  "method/phonojepa/runtime/eval/models/PJ_BMAE_grp.json": {
+    "sha256": "73f559a2467501e9f178ae535833a0f995bda5303cd395b4577507b491807d66",
+    "bytes": 1490
+  },
+  "method/phonojepa/runtime/eval/models/PJ_R0int_grp.json": {
+    "sha256": "9e4125c2a523835b2fbf4b4e1a07f9db6b3afd006bb3e3520be64dfff5facfd6",
+    "bytes": 1489
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLboth_l1sig_noema_grp.json": {
+    "sha256": "d5658cdeb50de23a7cc9deeb6ac32b6afe7f67287aeaf0ce28d3c06848e820e2",
+    "bytes": 1554
+  },
+  "method/phonojepa/runtime/eval/models/PJ_R4ctx_grp.json": {
+    "sha256": "70c6e68031e95df3d9f3263293ad6d5920458c26b5c0ff7ebdc1f49f8fec7aa5",
+    "bytes": 1538
+  },
+  "method/phonojepa/runtime/eval/models/PJ_BMAMP_grp.json": {
+    "sha256": "ac59f225e6cfe0396c065f3bb3e2d796633028dcba636d7eef3e971abf1160cf",
+    "bytes": 1513
+  },
+  "method/phonojepa/runtime/eval/models/PJ_PLboth_l1sig_grp.json": {
+    "sha256": "caa7326e0ec7196b84cc582c9020ecca1a729ee44af4f414da643165febaf600",
+    "bytes": 1521
+  },
+  "method/phonojepa/runtime/eval/models/PJ_Bglob_grp.json": {
+    "sha256": "36afb561c1a3cfd6db564ce86bd49560b1ab8e3261cce88153eb850ec73944e1",
+    "bytes": 1578
+  },
+  "method/phonojepa/runtime/eval/models/PJ_B1rand_grp.json": {
+    "sha256": "62cbc987898f0460f961aafa4bae1e5e78a087e8946eac603ce097ef39d7f99f",
+    "bytes": 1521
+  },
+  "method/phonojepa_s1/runtime/eval/models/S1_FULL_4k_grp.json": {
+    "sha256": "bd250bfa5b8375e99c172743dd52009662848caed767dbfe05c12d32b7cc7980",
+    "bytes": 1523
+  },
+  "method/obs_jepa/runtime/eval/models/JV3D.json": {
+    "sha256": "164ba45156a63c0b50434ca1f203f0e810d08914efde4d2515ae4fc417727c86",
+    "bytes": 1501
+  },
+  "method/obs_jepa/runtime/eval/models/B13.json": {
+    "sha256": "b785cb60513c991f969c86692716cb7cb43bb9c264293beb0946a6d98982e583",
+    "bytes": 1549
+  },
+  "method/obs_jepa/runtime/eval/models/B12.json": {
+    "sha256": "9e7bab05a04252a0368e066b06f71763f13f6716d8dae4ed6d6068cd0b779574",
+    "bytes": 1577
+  },
+  "method/obs_jepa/runtime/eval/models/B11.json": {
+    "sha256": "8c1df486e91332aab3407c4515b56abb6c553898d036f3401ddf6564ec67573f",
+    "bytes": 1508
+  },
+  "method/obs_jepa/runtime/eval/models/B10.json": {
+    "sha256": "12a62c58f8766dbf25db7631bc46c702772d1ff9171692c2d550490fb5c3a991",
+    "bytes": 1557
+  },
+  "method/phonojepa/runtime/eval/models/PJ_B0.json": {
+    "sha256": "47623e58d566049e08164758567dcc5703f8e94ebe518e55a31eff44003e1053",
+    "bytes": 1557
+  },
+  "method/phonojepa_s2/runtime/eval/models/S2_FULL_4k_grp.json": {
+    "sha256": "b73b1c84dbcae3dafe3d78b96c95e4c5db6ee898a401d7dd0c9a392a36858565",
+    "bytes": 1529
+  },
+  "method/obs_jepa/runtime/eval/models/SR3D.json": {
+    "sha256": "f6e5570d633828ca4af95e1163a301e2a2269003fe86016e41c41de20b1c237d",
+    "bytes": 1543
+  },
+  "method/obs_jepa/runtime/eval/models/ASLC002.json": {
+    "sha256": "7190c460eb03d66a46d99c3fe6fad0a294455665bab72deca618db32b85eeddb",
+    "bytes": 1577
+  },
+  "method/obs_jepa/runtime/eval/models/SRVJ.json": {
+    "sha256": "dfdc8c573a165953f25536bbb8799f759fe63e567f3a9b5684d891e562fbc300",
+    "bytes": 1552
+  },
+  "method/obs_jepa/runtime/eval/models/A11_AD.json": {
+    "sha256": "c6ec7e0e74896f13a8e905daf9d7a626bd1ab278e6ee030f1885954c4aa93389",
+    "bytes": 1515
+  },
+  "method/obs_jepa/runtime/eval/models/A10_AR.json": {
+    "sha256": "e87e5b1ae887b7a7241ad7c7ea3117eed591b524d0c49ecf329b539e092f008e",
+    "bytes": 1558
+  },
+  "method/obs_jepa/runtime/eval/models/A13_AD.json": {
+    "sha256": "f1c7210e12b06f1afbe1dc722afc0d3ec98713da591a1ff21baed1456c4509ba",
+    "bytes": 1504
+  },
+  "method/obs_jepa/runtime/eval/models/A10_AD.json": {
+    "sha256": "e318b6542d9d82d77fc4caa31f14889e589066bbcf1414e89b53a87b6d08aebd",
+    "bytes": 1589
+  },
+  "method/obs_jepa/runtime/eval/models/A00.json": {
+    "sha256": "637c5b6494f91177a9af6c20984a05d332c2271926d4965c6a55a57c0f0c56e3",
+    "bytes": 1565
+  },
+  "method/obs_jepa/runtime/eval/models/A10c_AD.json": {
+    "sha256": "d65f078de3431bc792477820522e1f7be90d0191160a767b216a2fe95e265a75",
+    "bytes": 1566
+  },
+  "method/obs_jepa/runtime/eval/models/A12_AD.json": {
+    "sha256": "14b78d092b6ae851abc5d5f4f17b0e2d158cddb48dc8b565fedb8aba715f8764",
+    "bytes": 1596
+  },
+  "method/obs_jepa/runtime/eval/comparison_avg_aslc300/summary.json": {
+    "sha256": "8c846f956bf7ef73225904239283cc27121f81429b254b7de49f4d6a70ca3ab7",
+    "bytes": 16895
+  },
+  "method/jepa_targets/runtime/eval_J.json": {
+    "sha256": "2f4e8adbc87ffc4b7231c704703bc1e3f4b490f753ba30ae7599f7952c48001e",
+    "bytes": 3298
+  },
+  "method/jepa_targets/runtime/J/config.json": {
+    "sha256": "e794bd59a4b8d223be2fb3a1586e974477ad3b35d12f29aa4b17b95b290e376e",
+    "bytes": 221
+  },
+  "method/jepa_targets/runtime/eval_JP.json": {
+    "sha256": "fc484c7751147f45ef4b2208762f27fd4191e4fbc76adfa7531902bd2cf21e71",
+    "bytes": 3274
+  },
+  "method/jepa_targets/runtime/JP/config.json": {
+    "sha256": "eabe59bc24d3bf8fc6aa759fa0bed4c305d98c040f8a6c0325ae469b539b0e41",
+    "bytes": 242
+  },
+  "method/jepa_targets/runtime/eval_M.json": {
+    "sha256": "d50a0416769a1b4d95aab736cc39c43441a1188720a153c345396cb94bc515fe",
+    "bytes": 2365
+  },
+  "method/jepa_targets/runtime/M/config.json": {
+    "sha256": "2a977cd7ea0e2fbefdad2f2d0a1c46bce56c33f832137e7685bd2591b67882fc",
+    "bytes": 221
+  },
+  "method/jepa_targets/runtime/eval_MP.json": {
+    "sha256": "8ecbb9e0548a55d0a4ea09cc51b76b5f024c77d4dc79101bce8ee0d21f0f5747",
+    "bytes": 3258
+  },
+  "method/jepa_targets/runtime/MP/config.json": {
+    "sha256": "252723905634ea3c32daf8a6826c308ebb4aca0f953b5bae8bb0edd5eb988505",
+    "bytes": 226
+  },
+  "method/jepa_targets/runtime/eval_S.json": {
+    "sha256": "5217d3a196c7813d472548ff2fa3f16236bc16e41059913f786b42ae4cd5ad08",
+    "bytes": 3272
+  },
+  "method/jepa_targets/runtime/S/config.json": {
+    "sha256": "f618349e6e3d32bb23489bd303435ace75fd790d98b75f3e1da2e987aab294bb",
+    "bytes": 242
+  },
+  "method/jepa_targets/runtime/eval_JREL.json": {
+    "sha256": "84ac7727f96307d8ac6966b503e2b92c5df379a969fe30c0ec2882483d5c324f",
+    "bytes": 3279
+  },
+  "method/jepa_targets/runtime/JREL/config.json": {
+    "sha256": "8b5dbd1b6c4440c873146780c843fd1aa8dc728d53243ec6f68b3082f39b28cc",
+    "bytes": 243
+  },
+  "method/jepa_targets/runtime/eval_JNM.json": {
+    "sha256": "f16a0004ded0ad69bff15f43e381b69b62715c0c7a7913d03ed010cae0bb1083",
+    "bytes": 3293
+  },
+  "method/jepa_targets/runtime/JNM/config.json": {
+    "sha256": "c958f2d19ac7ddb5a7cdb128acae703b426483501d82bdb9a34a1c8b57ae2d12",
+    "bytes": 241
+  },
+  "method/jepa_targets/runtime/eval_JMOT.json": {
+    "sha256": "acc1d324f0b02b3297ee57a24cffb1738f28c7bcf21a7bf8b0fabe8049cb5a1b",
+    "bytes": 3275
+  },
+  "method/jepa_targets/runtime/JMOT/config.json": {
+    "sha256": "7dc39f925fb69144446a30c2c796ef861f5cab248301170b328e3437f6bb2a7e",
+    "bytes": 243
+  },
+  "method/asc_jepa/runtime/eval_ex13.json": {
+    "sha256": "08520b624c237e5f301fd977d101f118867f15763a9b5d30bc5caf4acc4f66fa",
+    "bytes": 4675
+  },
+  "method/asc_jepa/runtime/eval_ex13b.json": {
+    "sha256": "c0a289febfbfd96cc56e81890e123068ff0c01a161c0cabe9c5fc4f9c7bf41b8",
+    "bytes": 4614
+  },
+  "method/signrel_jepa/reports/controlled_pilot/summary_test.json": {
+    "sha256": "72f7a8ee7ef6a01cda3f50172c8bc5ee70bb3b58ffc2b227c129d2bdaf9bf62e",
+    "bytes": 17389
+  }
+}
