@@ -1,0 +1,7 @@
+model,weighted_R1,bins2_R1,queries,source
+B0,49.495341614906835,53.881987577639755,10304,method/asc_jepa/runtime/eval_ex13.json
+asc_B0,48.18517080745342,53.05706521739131,10304,method/asc_jepa/runtime/eval_ex13.json
+asc_B1,47.942546583850934,52.57181677018633,10304,method/asc_jepa/runtime/eval_ex13b.json
+asc_B4,48.99068322981366,53.1735248447205,10304,method/asc_jepa/runtime/eval_ex13b.json
+asc_B2,48.87422360248447,53.28027950310559,10304,method/asc_jepa/runtime/eval_ex13b.json
+asc_C4a,48.62189440993789,53.1152950310559,10304,method/asc_jepa/runtime/eval_ex13b.json

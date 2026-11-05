@@ -1,0 +1,5 @@
+method,regime,top1,top5,source_bundle
+ASM-JEPA linear,frozen linear probe,5.6889590479949,14.935794298898031,ASM_linear_recognition_test.json
+ASM-JEPA fine-tune,supervised fine-tune,55.41422543335054,75.6321908867369,ASM_finetune_recognition_test.json
+ASM scratch,supervised scratch,53.80832397316414,74.30861236756625,ASM_scratch_recognition_test.json
+Pose-JEPA linear,frozen linear probe,22.90458698885887,46.361676937555025,Pose_JEPA_test.json

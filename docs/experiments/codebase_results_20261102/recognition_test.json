@@ -1,0 +1,30 @@
+[
+  {
+    "method": "ASM-JEPA linear",
+    "regime": "frozen linear probe",
+    "top1": 5.6889590479949,
+    "top5": 14.935794298898031,
+    "source_bundle": "ASM_linear_recognition_test.json"
+  },
+  {
+    "method": "ASM-JEPA fine-tune",
+    "regime": "supervised fine-tune",
+    "top1": 55.41422543335054,
+    "top5": 75.6321908867369,
+    "source_bundle": "ASM_finetune_recognition_test.json"
+  },
+  {
+    "method": "ASM scratch",
+    "regime": "supervised scratch",
+    "top1": 53.80832397316414,
+    "top5": 74.30861236756625,
+    "source_bundle": "ASM_scratch_recognition_test.json"
+  },
+  {
+    "method": "Pose-JEPA linear",
+    "regime": "frozen linear probe",
+    "top1": 22.90458698885887,
+    "top5": 46.361676937555025,
+    "source_bundle": "Pose_JEPA_test.json"
+  }
+]

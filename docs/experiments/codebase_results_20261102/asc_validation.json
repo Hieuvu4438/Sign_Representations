@@ -1,0 +1,44 @@
+[
+  {
+    "model": "B0",
+    "weighted_R1": 49.495341614906835,
+    "bins2_R1": 53.881987577639755,
+    "queries": 10304,
+    "source": "method/asc_jepa/runtime/eval_ex13.json"
+  },
+  {
+    "model": "asc_B0",
+    "weighted_R1": 48.18517080745342,
+    "bins2_R1": 53.05706521739131,
+    "queries": 10304,
+    "source": "method/asc_jepa/runtime/eval_ex13.json"
+  },
+  {
+    "model": "asc_B1",
+    "weighted_R1": 47.942546583850934,
+    "bins2_R1": 52.57181677018633,
+    "queries": 10304,
+    "source": "method/asc_jepa/runtime/eval_ex13b.json"
+  },
+  {
+    "model": "asc_B4",
+    "weighted_R1": 48.99068322981366,
+    "bins2_R1": 53.1735248447205,
+    "queries": 10304,
+    "source": "method/asc_jepa/runtime/eval_ex13b.json"
+  },
+  {
+    "model": "asc_B2",
+    "weighted_R1": 48.87422360248447,
+    "bins2_R1": 53.28027950310559,
+    "queries": 10304,
+    "source": "method/asc_jepa/runtime/eval_ex13b.json"
+  },
+  {
+    "model": "asc_C4a",
+    "weighted_R1": 48.62189440993789,
+    "bins2_R1": 53.1152950310559,
+    "queries": 10304,
+    "source": "method/asc_jepa/runtime/eval_ex13b.json"
+  }
+]

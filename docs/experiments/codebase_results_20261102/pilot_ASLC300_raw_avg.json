@@ -1,0 +1,138 @@
+[
+  {
+    "model": "SignRep_public",
+    "input": "RGB",
+    "R1": 72.2,
+    "R5": 90.8,
+    "DCG_x100": 84.55523722817455,
+    "initialization": "Hiera-B MAE-Kinetics"
+  },
+  {
+    "model": "JH3D",
+    "input": "RGB",
+    "R1": 45.93333333333333,
+    "R5": 78.60000000000001,
+    "DCG_x100": 68.9289819688602,
+    "initialization": "Hiera-B MAE-Kinetics"
+  },
+  {
+    "model": "JV3D",
+    "input": "RGB",
+    "R1": 29.799999999999997,
+    "R5": 62.8,
+    "DCG_x100": 56.6475464448796,
+    "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G"
+  },
+  {
+    "model": "B11",
+    "input": "Landmark 2D",
+    "R1": 10.066666666666666,
+    "R5": 24.066666666666666,
+    "DCG_x100": 32.49785681365423,
+    "initialization": "Ngẫu nhiên"
+  },
+  {
+    "model": "B13",
+    "input": "Landmark 2D",
+    "R1": 9.466666666666667,
+    "R5": 22.666666666666664,
+    "DCG_x100": 31.10222902174774,
+    "initialization": "Ngẫu nhiên"
+  },
+  {
+    "model": "B12",
+    "input": "Landmark 2D",
+    "R1": 8.933333333333334,
+    "R5": 24.0,
+    "DCG_x100": 31.53333414225431,
+    "initialization": "Ngẫu nhiên"
+  },
+  {
+    "model": "B10",
+    "input": "Landmark 2D",
+    "R1": 5.533333333333333,
+    "R5": 15.733333333333333,
+    "DCG_x100": 26.13921722125311,
+    "initialization": "Ngẫu nhiên"
+  },
+  {
+    "model": "SR3D",
+    "input": "RGB",
+    "R1": 5.0,
+    "R5": 14.133333333333335,
+    "DCG_x100": 25.172167757529056,
+    "initialization": "Hiera-B MAE-Kinetics"
+  },
+  {
+    "model": "SRVJ",
+    "input": "RGB",
+    "R1": 2.666666666666667,
+    "R5": 8.933333333333334,
+    "DCG_x100": 21.83449335675347,
+    "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G"
+  },
+  {
+    "model": "A11_AD",
+    "input": "RGB",
+    "R1": 2.533333333333333,
+    "R5": 8.933333333333334,
+    "DCG_x100": 21.843475458796586,
+    "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G"
+  },
+  {
+    "model": "A10_AD",
+    "input": "RGB",
+    "R1": 1.7999999999999998,
+    "R5": 6.333333333333334,
+    "DCG_x100": 20.003463184981783,
+    "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G"
+  },
+  {
+    "model": "ASLC002",
+    "input": "RGB",
+    "R1": 1.7333333333333332,
+    "R5": 4.866666666666666,
+    "DCG_x100": 18.98701430374866,
+    "initialization": "Hiera-B MAE-Kinetics"
+  },
+  {
+    "model": "A00",
+    "input": "RGB",
+    "R1": 1.7333333333333332,
+    "R5": 5.866666666666666,
+    "DCG_x100": 19.483297878300384,
+    "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G"
+  },
+  {
+    "model": "A10_AR",
+    "input": "RGB",
+    "R1": 1.4666666666666666,
+    "R5": 5.333333333333334,
+    "DCG_x100": 19.624684920537728,
+    "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G"
+  },
+  {
+    "model": "A12_AD",
+    "input": "RGB",
+    "R1": 0.8666666666666666,
+    "R5": 3.1333333333333333,
+    "DCG_x100": 17.7910013293273,
+    "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G"
+  },
+  {
+    "model": "A13_AD",
+    "input": "RGB",
+    "R1": 0.8,
+    "R5": 3.8666666666666667,
+    "DCG_x100": 18.239005483674685,
+    "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G"
+  },
+  {
+    "model": "A10c_AD",
+    "input": "RGB",
+    "R1": 0.7333333333333333,
+    "R5": 3.4666666666666663,
+    "DCG_x100": 17.717699717854344,
+    "initialization": "V-JEPA 2.1 ViT-B distilled từ ViT-G"
+  }
+]

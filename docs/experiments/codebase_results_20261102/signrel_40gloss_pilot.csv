@@ -1,0 +1,5 @@
+model,R1_mean,R1_seed_SD,R5_mean,seeds,source
+A_generic,2.083333333333333,3.6084391824351614,12.083333333333336,3,method/signrel_jepa/reports/controlled_pilot/summary_test.json
+B_articulator,2.916666666666667,1.9094065395649336,14.583333333333334,3,method/signrel_jepa/reports/controlled_pilot/summary_test.json
+C_relation,1.6666666666666667,0.7216878364870323,19.583333333333332,3,method/signrel_jepa/reports/controlled_pilot/summary_test.json
+D_combined,2.083333333333333,1.9094065395649333,17.916666666666668,3,method/signrel_jepa/reports/controlled_pilot/summary_test.json

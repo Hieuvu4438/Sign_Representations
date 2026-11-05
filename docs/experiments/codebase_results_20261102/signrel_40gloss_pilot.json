@@ -1,0 +1,34 @@
+[
+  {
+    "model": "A_generic",
+    "R1_mean": 2.083333333333333,
+    "R1_seed_SD": 3.6084391824351614,
+    "R5_mean": 12.083333333333336,
+    "seeds": 3,
+    "source": "method/signrel_jepa/reports/controlled_pilot/summary_test.json"
+  },
+  {
+    "model": "B_articulator",
+    "R1_mean": 2.916666666666667,
+    "R1_seed_SD": 1.9094065395649336,
+    "R5_mean": 14.583333333333334,
+    "seeds": 3,
+    "source": "method/signrel_jepa/reports/controlled_pilot/summary_test.json"
+  },
+  {
+    "model": "C_relation",
+    "R1_mean": 1.6666666666666667,
+    "R1_seed_SD": 0.7216878364870323,
+    "R5_mean": 19.583333333333332,
+    "seeds": 3,
+    "source": "method/signrel_jepa/reports/controlled_pilot/summary_test.json"
+  },
+  {
+    "model": "D_combined",
+    "R1_mean": 2.083333333333333,
+    "R1_seed_SD": 1.9094065395649333,
+    "R5_mean": 17.916666666666668,
+    "seeds": 3,
+    "source": "method/signrel_jepa/reports/controlled_pilot/summary_test.json"
+  }
+]
